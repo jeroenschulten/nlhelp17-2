@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Forceren dat taken starten of eindigen op een specifieke datum</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Wanneer u een taak laat starten of eindigen op een bepaalde datum wordt de taak niet verplaatst wanneer u het project herberekent, zelfs als de interne logica van het plan voorschrijft dat het taak kan naar eerder of later kan worden verplaatst. Voorganger of opvolger taken kunnen worden verplaatst om de taak te laten staan op haar start-of einddatum.</p>
+                <p>In dit voorbeeld is de tweede taak beperkt met een startdatum, hoewel de linklogica toont dat ze had kunnen starten zodra de eerste taak is afgerond. Na een herberekening heeft de eerste taak speling omdat de tweede taak niet kan worden verplaatst:</p>
+                <table wrapperparagraphselector="P" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="margin-bottom: 0;" align="center">
+                                <img src="../../Graphics/Intro_project_management/startfiinishonflag1.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="137" height="40" border="0" />
+                            </p>
+                        </td>
+                        <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="margin-bottom: 0;" align="center">
+                                <img src="../../Graphics/Intro_project_management/startfiinishonflag2.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="137" height="40" border="0" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="margin-bottom: 0;" align="center">Vóór het herberekenen</p>
+                        </td>
+                        <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="margin-bottom: 0;" align="center">Na het herberekenen</p>
+                        </td>
+                    </tr>
+                </table>
+                <p>In dit voorbeeld is de tweede taak beperkt met een einddatum, hoewel de linklogica toont dat ze had kunnen starten zodra de eerste taak is afgerond. Na een herberekening wordt de eerste taak verplaatst naar een vroegere datum omdat de tweede taak niet kan worden verplaatst:</p>
+                <table wrapperparagraphselector="P" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="margin-bottom: 0;" align="center">
+                                <img src="../../Graphics/Intro_project_management/startfinishonflag3.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="92" height="40" border="0" />
+                            </p>
+                        </td>
+                        <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="margin-bottom: 0;" align="center">
+                                <img src="../../Graphics/Intro_project_management/startfinishonflag4.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="117" height="40" border="0" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="margin-bottom: 0;" align="center">Vóór het herberekenen</p>
+                        </td>
+                        <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="margin-bottom: 0;" align="center">Na het herberekenen</p>
+                        </td>
+                    </tr>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Forceren dat taken eindigen op of voor een specifieke datum</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Wanneer u instelt dat een taak op een specifieke datum moet eindigen kan die taak worden verplaatst naar een eerdere datum, maar kan ze niet worden verplaatst naar een latere datum wanneer het project herberekend wordt . Voorganger taken kunnen worden verplaatst, zodat de taak blijft staan de einddatum.</p>
+                <p>In dit voorbeeld moet de tweede taak eindigen op of voor de huidige einddatum hoewel linklogica toont ze kan starten zodra de eerste taak is afgerond. Na een herberekening is de tweede taak verplaatst naar een eerdere startdatum, terwijl de vlag op de oorspronkelijke datum blijft staan:</p>
+                <table wrapperparagraphselector="P" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="margin-bottom: 0;" align="center">
+                                <img src="../../Graphics/Intro_project_management/startfinishonorbeforeflag3.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="140" height="40" border="0" />
+                            </p>
+                        </td>
+                        <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="margin-bottom: 0;" align="center">
+                                <img src="../../Graphics/Intro_project_management/startfinishonorbeforeflag4.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="140" height="40" border="0" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="margin-bottom: 0;" align="center">Vóór het herberekenen</p>
+                        </td>
+                        <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="margin-bottom: 0;" align="center">Na het herberekenen</p>
+                        </td>
+                    </tr>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Forceren dat taken starten op of na een specifieke datum</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Wanneer u instelt dat een taak op of na een specifieke datum moet starten kan die taak worden verplaatst naar een latere datum, maar kan ze niet worden verplaatst naar een eerdere datum wanneer het project herberekend wordt . Voorganger taken kunnen worden verplaatst, als resultaat van het verplaatsen naar een latere datum van de taak .</p>
+                <p>In dit voorbeeld moet de tweede taak starten op of na haar huidige startdatum hoewel linklogica toont ze zou moeten starten zodra de eerste taak is afgerond. Na een herberekening is de tweede taak verplaatst naar een latere startdatum, terwijl de vlag op de oorspronkelijke datum blijft staan:</p>
+                <table wrapperparagraphselector="P" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="margin-bottom: 0;" align="center">
+                                <img src="../../Graphics/Intro_project_management/startfinishonorafterflag1.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="92" height="40" border="0" />
+                            </p>
+                        </td>
+                        <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="margin-bottom: 0;" align="center">
+                                <img src="../../Graphics/Intro_project_management/startfinishonorafterflag2.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="117" height="40" border="0" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="margin-bottom: 0;" align="center">Vóór het herberekenen</p>
+                        </td>
+                        <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="margin-bottom: 0;" align="center">Na het herberekenen</p>
+                        </td>
+                    </tr>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Forceren dat taken starten en eindigen op twee specifieke datums</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Wanneer u een taak laat starten en eindigen op twee specifieke datums (een 'Werk tussen' vlag) wordt de taak kritiek en kan deze helemaal niet worden verplaatst, zodat ze ook niet kan worden vertraagd. Na een herberekening wordt de taak helemaal niet verplaatst. Wanneer u de duur van een taak verandert met een 'Werk tussen' vlag blijven de vlaggen op hun oorspronkelijke gegevens en krijgt de taak positieve of negatieve speling , afhankelijk van of u de duur ervan verlengt of verkort .</p>
+                <p>In dit voorbeeld moet de tweede taak starten en eindigen op specifieke datums. Na een herberekening worden de eerste en de derde taak verplaatst om de tweede taak te kunnen laten staan op de oorspronkelijke datum:</p>
+                <table wrapperparagraphselector="P" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="margin-bottom: 0;" align="center">
+                                <img src="../../Graphics/Intro_project_management/workbetweenflag1.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="58" height="68" border="0" />
+                            </p>
+                        </td>
+                        <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="margin-bottom: 0;" align="center">
+                                <img src="../../Graphics/Intro_project_management/workbetweenflag2.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="103" height="68" border="0" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="margin-bottom: 0;" align="center">Vóór het herberekenen</p>
+                        </td>
+                        <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="margin-bottom: 0;" align="center">Na het herberekenen</p>
+                        </td>
+                    </tr>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Toepassen van een deadline vlag op taken</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>U kunt bij uw <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Setting_reschedule_options/Setting_reschedule_options.htm">herberekeningsopties</a> instellen of eindvlaggen hard of zacht zijn, met andere woorden of u wilt dat taken moeten eindigen op hun vlagdatum, of dat taken ook na hun einddatum mogen eindigen.</p>
+                <p>Wanneer u een Deadline vlag aan een taak toewijst, is de taak altijd in staat om uit te lopen, later dan de vlagdatum, op dezelfde wijze dat taken met eindvlaggen nu na hun einddatum kunnen eindigen als u de eindvlaggen ervan als zacht heeft gespecificeerd. Deadline vlaggen waaien in de omgekeerde richting als andere eindvlaggen. Ze worden blauw weergegeven, behalve als de taak waarop ze staat later eindigt dan de deadline vlag, in welk geval ze met schuine strepen gearceerd worden weergegeven.</p>
+                <p>In dit voorbeeld moet de eerste taak starten op een specifieke datum en is er een deadline vlag toegepast op de tweede taak. Na het herberekenen verplaatst de tweede taak zich voorbij de deadline, waardoor de deadline vlag gearceerd wordt:</p>
+                <table wrapperparagraphselector="P" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="margin-bottom: 0;" align="center">
+                                <img src="../../Graphics/Setting_up_the_bar_chart/deadlineflag1.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="74" height="50" border="0" />
+                            </p>
+                        </td>
+                        <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="margin-bottom: 0;" align="center">
+                                <img src="../../Graphics/Setting_up_the_bar_chart/deadlineflag2.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="80" height="50" border="0" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="margin-bottom: 0;" align="center">Vóór het herberekenen</p>
+                        </td>
+                        <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="margin-bottom: 0;" align="center">Na het herberekenen</p>
+                        </td>
+                    </tr>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

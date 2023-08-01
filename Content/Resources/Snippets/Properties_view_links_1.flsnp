@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>De twee tabelrasters tonen een reeks informatie over elke inkomende en uitgaande link. Elke rij in een tabelraster vertegenwoordigt een inkomende of uitgaande link. U kunt de eigenschappen van links bewerken - afgezien van impliciete koppelingen - door te klikken en informatie rechtstreeks in de tabelrasters in te voeren. Als u een veld dat het een taak identificeert zodanig bewerkt dat er een andere taak wordt geïdentificeerd, wordt de bijbehorende link verplaatst naar de nieuwe taak; als u de informatie verwijdert uit een veld dat een taak identificeert, wordt de bijbehorende link ook verwijderd.</p>
+    </body>
+</html>

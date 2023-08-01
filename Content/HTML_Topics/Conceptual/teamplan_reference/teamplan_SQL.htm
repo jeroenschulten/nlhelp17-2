@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\teamplan_reference\teamplan_SQL\teamplan_SQL.htm" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl">
+    <head>
+        <link href="../../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Filters:TQL gebruiken om te creëren;TQL;SQL" />TQL</h1>
+        <p>U kunt TQL gebruiken bij het <a href="../Views/Filtering/New_filter_SQL.htm">maken van filters</a> en aangepaste velden in rapporten. TQL is gebaseerd op standaard SQL. TQL wordt alleen gebruikt voor queries, dus veel SQL operaties zoals INSERT, CREATE etc. en veel van de gereserveerde woorden zijn betekenisloos in <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" />.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Verschillen tussen TQL en standaard SQL</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li class="p">Het LIKE keyword kan zowel reguliere expressies als ook SQL wildcard karakters bevatten. Om te wisselen tussen de normale SQL syntaxis (waarbij % en _ karakters op dezelfde manier worden gebruikt als * en ? in DOS) en het gebruik van reguliere expressies, moet u de voorloop het keyword REGEX voor de tekststring karakter reeksen plaatsen.            </li>
+                    <li class="p">U kunt geen Escape optie gebruiken; het escape karakter is altijd '/'.            </li>
+                    <li class="p">Waar tabel expressies worden gebruikt in SQL, zal TQL altijd object types gebruiken.            </li>
+                    <li class="p">Object attribuut referenties kunnen middels de tekst 'BASELINE (enumerator)' ook voor het object naar de opgegeven baseline verwijzen.            </li>
+                    <li class="p" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">De enumerator kan of de baselinedatum zijn of het id van de baseline. Ze kunnen ook vooraf worden gegaan door ALL, ANY of NONE keywords als het attribuut een verzameling is in plaats van een enkel attribuut. Voorbeeld: een balk kan meerdere taken hebben en we zijn geïnteresseerd in balken waarvan ALL(e) taken starten na 30/12/97: <br /><br />SELECT # FROM bar WHERE ALL bar.tasks IN ( SELECT # FROM task WHERE task.start &gt; DATE '1997-12-30' )           </li>
+                </ul>
+                <ul>
+                    <li class="p">De betekenis van een sterretje in het SELECT statement is veranderd, zodat het de ID's van de objecten geeft in de resultaat set, in plaats van alle attributen van het object.            </li>
+                    <li class="p">SQL heeft een aantal ingebouwde functies: COUNT, MAX, MIN, SUM en AVG enzovoort. Hiervan wordt alleen COUNT ondersteund door TQL. De COUNT functie is er in twee variaties COUNT (*) en COUNT (expr). In SQL, expr kan iedere scalar expressie zijn, maar in TQL, kan dit alleen maar een object attribuut zijn. COUNT(*) geeft het aantal objecten dat voldoet aan het restant van de query, COUNT(attr) geeft het aantal objecten dat voldoet aan het restant van de query en waarvan het attr veld niet leeg/null/zero is.            </li>
+                    <li class="p">In plaats het initiële SELECT... gedeelte van de query, is TEST (object_id_list) toegestaan. Dit geeft aan dat de objecten die vertegenwoordigd zijn door de opgegeven ID's en type in het FROM gedeelte getest moeten worden op het restant van de query. Dit is een filter.            </li>
+                    <li class="p">TQL accepteert ook een verscheidenheid aan datum en tijdformaten (inclusief het gebruik van <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" />'s <a href="Variable_dates.htm">variabele datums</a>) naast de standaard SQL DATE formaten. De formaten worden voorafgegaan door het DATE keyword.            </li>
+                    <li class="p">TIMESTAMP wordt niet ondersteund.            </li>
+                </ul>
+                <p>Alle SQL gereserveerde woorden kunnen worden gebruikt vanwege compatibiliteit.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>SELECT statement</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> TQL starten de meeste queries met een SELECT statement, alhoewel in het geval van filters, SELECT # al wordt verondersteld wanneer u het resterende gedeelte van de query handmatig intypt in het dialoogvenster <b>Filter</b> . Queries kunnen ook starten met TEST (object id list).</p>
+                <p>Het SELECT statement specificeert de attributen van de objecten waarin de vrager is geïnteresseerd. U kunt meer dan een object opvragen, en de waardes die worden teruggeleverd zijn in de volgorde van de vraagstelling.</p>
+                <p>De algemene syntaxis is:</p>
+                <p>SELECT &lt;attribute&gt; FROM &lt;object type&gt;</p>
+                <p>De '*' in een SELECT statement is een alternatief voor 'object identifier'; Het betekent niet alle attributen van een object, maar het type en het id van een object.</p>
+                <p>U kunt meer dan één attribuut opvragen door de attributen te scheiden door komma's.</p>
+                <p>Waar het attribuut het ID is van een ander object, kan dit worden voorafgegaan met het keyword ASNAME, wat resulteert in de naam van het object in plaats van het ID.</p>
+                <h2>Opmerkingen</h2>
+                <ul>
+                    <li class="p">U kunt alleen meerdere attributen opvragen in het eerste SELECT statement en niet in een subquery.            </li>
+                    <li class="p"># betekent alleen de object id's.            </li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>WHERE gedeelte</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Het WHERE gedeelte bevat het zoekgedeelte dat de objecten bepaalt die van het verzoek teruggestuurd worden. Het WHERE gedeelte komt altijd na het SELECT statement.</p>
+                <p>Het WHERE gedeelte is niet verplicht; Het resultaat is dat de attributen van alle objecten teruggestuurd worden. De objecten die geheel voldoen aan het WHERE gedeelte komen in de resultaatset.</p>
+                <p>Het WHERE gedeelte bestaat uit een aantal omsloten expressies die gecombineerd kunnen worden met AND en OR operators om complexere condities te vormen. U kunt verschillende types van omsluitingen gebruiken.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>BETWEEN</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Dit betekent dat de waarde van de expressie aan de linkerkant, moet liggen tussen die aan de rechterkant van het trefwoord BETWEEN. Het BETWEEN key word heeft de algemene vorm:</p>
+                <p>
+                    <span style="font-style: italic;">expressie</span> [NOT] BETWEEN <span style="font-style: italic;">expressie</span> AND <span style="font-style: italic;">expressie</span></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>LIKE</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Het LIKE keyword is bedoeld voor tekststring vergelijkingen. Het attribuut van het object wordt vergeleken met de tekststring. U kunt hiervoor de standaard SQL wildcards (% en _ ) of reguliere expressies. De algemene vorm van het LIKE keyword is:</p>
+                <p>
+                    <span style="font-style: italic;">expression</span> [NOT] LIKE [REGEX] <span style="font-style: italic;">tekststring literal</span></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>IN</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Het IN keyword test de waarde van de expressie links van het IN keyword met de waardes in een lijst aan de rechterkant van het IN keyword. De lijst kan bestaan uit een komma gescheiden lijst met waardes of het resultaat uit een subquery. De algemene vorm is:</p>
+                <p>
+                    <span style="font-style: italic;">scalar expression</span> [NOT] IN (<span style="font-style: italic;">value list</span> )</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Vergelijking</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Vergelijkingen komen voor in twee vormen: Gekwantificeerd en niet gekwantificeerd Beiden maken gebruik van de vergelijkings-operatoren: &lt;, &gt;, &lt;=, &gt;= en &lt;&gt;.</p>
+                <h2>Niet gekwantificeerde vergelijkingen</h2>
+                <p>De algemene vorm van een niet gekwantificeerde vergelijking is:</p>
+                <p>
+                    <span style="font-style: italic;">scalar expression</span> OPERATOR <span style="font-style: italic;">scalar expression</span></p>
+                <p>Waar de OPERATORS hierboven zijn beschreven.</p>
+                <h2>Gekwantificeerde vergelijkingen</h2>
+                <p>Gekwantificeerde vergelijkingen zijn bijna hetzelfde als niet gekwantificeerde vergelijkingen, behalve dat ze na de 'Scalar comparison operator' meteen worden gevolgd door de keywords ANY of ALL, wat betekent dat sommige of alle van de objectattributen overeen moeten stemmen met de expressie om de vergelijking als waar te beschouwen. Een niet gekwantificeerde vergelijking is hetzelfde als een gekwantificeerde vergelijking met het keyword ANY.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Meerdere velden</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>TQL heeft de mogelijkheid om 1 op n relaties te gebruiken. Bijvoorbeeld meerdere taken op een balkregel. U kunt dit op dezelfde manier gebruiken als andere velden. Daarnaast kunt u toch naar een specifiek object verwijzen door vierkante haken te gebruiken.</p>
+                <p>SELECT # FROM bar where bar.tasks IN (SELECT # FROM task WHERE task.name = 'Fred')</p>
+                <p>Dit selecteert alle balken waarvan één van de taken de naam Fred heeft.</p>
+                <p>SELECT # FROM bar where bar.tasks[3] IN (SELECT # FROM task WHERE task.name = 'Fred')</p>
+                <p>Dit selecteert alle balken waarvan derde taak de naam Fred heeft.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Literals</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Er zijn twee vormen van Literals (karakter reeksen), - tekststring waardes en numerieke waardes. Een tekststring waarde is een reeks van karakters omsloten door enkele aanhalingstekens. Numerieke waardes bestaan uit decimale getallen. Als het getal geen integer is, dan MOET het decimale scheidingsteken een punt zijn, en geen komma.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Reguliere expressies</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <a name="Regular_expressions">
+                    </a>De betekenis van de symbolen in reguliere expressies is:</p>
+                <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <thead xmlns="">
+                        <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">
+                                <p style="margin-bottom: 0;">
+                                    <span style="font-weight: bold;">
+                                        <span style="color: #FFFFFF;">Symbolen</span>
+                                    </span>
+                                </p>
+                            </th>
+                            <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">
+                                <p style="margin-bottom: 0;">
+                                    <span style="font-weight: bold;">
+                                        <span style="color: #FFFFFF;">Definitie</span>
+                                    </span>
+                                </p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">^</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p style="margin-bottom: 0;">
+                                    <span style="font-weight: normal;">Start van de tekststring</span>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">$</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p style="margin-bottom: 0;">
+                                    <span style="font-weight: normal;">Eind van de tekststring</span>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">.</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p style="margin-bottom: 0;">
+                                    <span style="font-weight: normal;">Ieder enkel karakter</span>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1">\</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">
+                                <p style="margin-bottom: 0;">
+                                    <span style="font-weight: normal;">Gebruik de speciale betekenis van dit karakter niet.</span>
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Reguliere expressies kunnen expressies tussen vierkante haken bevatten. Dit zijn reguliere expressies die bestaan uit een enkel karakter. Als het initiële karakter tussen de vierkante haken begint met '^' dan wordt de expressie uitgebreid met de daarop volgende tekst behalve het karakter tussen de haken. Als het eerste karakter na circumflex (^) een '-' of een vierkant haakje sluiten is, dan moet de expressie overeenstemmen met dat karakter. Een expressie tussen vierkante haken kan een reeks van waarden bevatten, bijvoorbeeld [a-z] test op alle karakters tussen a en z. U kunt ook parentheses en de OR | operator gebruiken om expressies te groeperen.</p>
+                <p>Een reguliere expressie kan worden gevolgd door speciale karakters met de volgende betekenissen:</p>
+                <table wrapperparagraphselector="P" style="margin-top: 14pt;border-collapse: separate;border-collapse: separate;" cellspacing="0" width="100%" border="1">
+                    <tr>
+                        <td style="vertical-align: TOP;width: 30%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0">
+                            <p style="margin-bottom: 0;">
+                                <span style="font-weight: normal;">regexp*</span>
+                            </p>
+                        </td>
+                        <td style="vertical-align: TOP;width: 70%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0">
+                            <p style="margin-bottom: 0;">
+                                <span style="font-weight: normal;">Komt overeen met een tekststring van nul of meer karakters die gelijk is aan regexp</span>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: TOP;width: 30%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0">
+                            <p style="margin-bottom: 0;">
+                                <span style="font-weight: normal;">regexp+</span>
+                            </p>
+                        </td>
+                        <td style="vertical-align: TOP;width: 70%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0">
+                            <p style="margin-bottom: 0;">
+                                <span style="font-weight: normal;">Komt overeen met een tekststring van één of meer karakters die gelijk is aan regexp</span>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: TOP;width: 30%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0">
+                            <p style="margin-bottom: 0;">
+                                <span style="font-weight: normal;">regexp?</span>
+                            </p>
+                        </td>
+                        <td style="vertical-align: TOP;width: 70%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0">
+                            <p style="margin-bottom: 0;">
+                                <span style="font-weight: normal;">Komt overeen met een tekststring van nul of één karakters die gelijk is aan regexp</span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+                <h2>Voorbeelden</h2>
+                <table wrapperparagraphselector="P" style="margin-top: 14pt;border-collapse: separate;border-collapse: separate;" cellspacing="0" width="100%" border="1">
+                    <tr>
+                        <td style="vertical-align: TOP;width: 30%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0">
+                            <p style="margin-bottom: 0;">
+                                <span style="font-weight: normal;">[Hh]ello</span>
+                            </p>
+                        </td>
+                        <td style="vertical-align: TOP;width: 70%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0">
+                            <p style="margin-bottom: 0;">
+                                <span style="font-weight: normal;">Komt overeen met een tekststring die Hello of hello bevat</span>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: TOP;width: 30%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0">
+                            <p style="margin-bottom: 0;">^<span style="font-weight: normal;">[Hh]ello</span></p>
+                        </td>
+                        <td style="vertical-align: TOP;width: 70%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0">
+                            <p style="margin-bottom: 0;">
+                                <span style="font-weight: normal;">Komt overeen met een tekststring die begint met Hello of hello</span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Example queries</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="Note">Zijn de balken met de IDs 1234 en 5678 beide rood?</p>
+                <p>TEST ALL ( bar.1234, bar.5678 ) FROM bar WHERE bar.colour = red</p>
+                <hr size="2" width="100%" align="center">
+                </hr>
+                <p class="Note">Zijn de objecten met de IDs 1234 en 5678 beide balken?</p>
+                <p>TEST ALL (1234, 5678) FROM bar</p>
+                <hr size="2" width="100%" align="center">
+                </hr>
+                <p class="Note">Is één van de objecten met IDs 1234 en 5678 een balk?</p>
+                <p>TEST (1234, 5678) FROM bar</p>
+                <hr size="2" width="100%" align="center">
+                </hr>
+                <p class="Note">Balken waarvan alle taken starten na 30/12/97</p>
+                <p>SELECT # FROM bar WHERE ALL bar.task IN (SELECT # FROM task WHERE task.start &gt; DATE '1997-12-30')</p>
+                <hr size="2" width="100%" align="center">
+                </hr>
+                <p class="Note">Balken waarvan alle taken start na de huidige datum</p>
+                <p>SELECT # FROM bar WHERE ALL bar.task IN (SELECT # FROM task WHERE task.start &gt; DATE 'vandaag')</p>
+                <p>Merk op dat dit voorbeeld gebruik maakt van de <a href="Variable_dates.htm">variabele datum functionaliteit</a>.</p>
+                <hr size="2" width="100%" align="center">
+                </hr>
+                <p class="Note">Balken waarvan één van de taken starten na 30/12/97</p>
+                <p>SELECT # FROM bar WHERE ANY bar.task IN (SELECT # FROM task WHERE task.start &gt; DATE '1997-12-30')</p>
+                <hr size="2" width="100%" align="center">
+                </hr>
+                <p class="Note">Balken waarvan één van de taken start na het einde van de huidige maand</p>
+                <p>SELECT # FROM bar WHERE ANY bar.task IN (SELECT # FROM task WHERE task.start &gt; DATE 'month end')</p>
+                <p>Merk op dat dit voorbeeld gebruik maakt van de <a href="Variable_dates.htm">variabele datum functionaliteit</a>.</p>
+                <hr size="2" width="100%" align="center">
+                </hr>
+                <p class="Note">Balken waarvan géén van de taken starten na 30/12/97</p>
+                <p>SELECT # FROM bar WHERE NONE bar.task IN (SELECT # FROM task WHERE task.start &gt; DATE '1997-12-30')</p>
+                <p>SELECT # FROM bar WHERE ALL bar.task IN (SELECT # FROM task WHERE task.start &lt;= DATE '1997-12-30')</p>
+                <p>SELECT # FROM bar WHERE ALL bar.task NOT IN (SELECT # FROM task WHERE task.start &gt; DATE '1997-12-30')</p>
+                <hr size="2" width="100%" align="center">
+                </hr>
+                <p class="Note">Taken die starten op of na de huidige datum en eindigen voor 01/01/09</p>
+                <p>SELECT # FROM task WHERE (task.start &gt;= DATE 'vandaag' AND task.end &lt; DATE '2009-01-01')</p>
+                <p>Merk op dat dit voorbeeld gebruik maakt van de <a href="Variable_dates.htm">variabele datum functionaliteit</a>.</p>
+                <hr size="2" width="100%" align="center">
+                </hr>
+                <p class="Note">Een mini linkrapport</p>
+                <p>SELECT objectid, ASNAME startTask, ASNAME endTask FROM link</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

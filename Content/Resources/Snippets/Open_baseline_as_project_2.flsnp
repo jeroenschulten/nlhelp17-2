@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Als er momenteel een baseline wordt weergegeven in een view, ziet u de fout "Baseline al open als baseline" wanneer u de baseline als project probeert te openen. Als u deze fout ziet, identificeer dan de view waarin de baseline wordt weergegeven, ga naar het tabblad <b>Baselines</b> van het dialoogvenster <b>Opmaak Balkkaart</b> en schakel het selectievakje links van de baseline uit, zodat deze niet langer in de view wordt weergegeven. U kunt dan de baseline als project openen.</p>
+    </body>
+</html>

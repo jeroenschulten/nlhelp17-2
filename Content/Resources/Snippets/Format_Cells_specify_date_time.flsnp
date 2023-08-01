@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="233" MadCap:lastWidth="1273">
+    <body>
+        <ol style="list-style-type: decimal;">
+            <li class="p">Selecteer de opmaak waarin datum en tijd worden weergegeven in het <span style="font-weight: bold;">Datum</span> veld.<br /><br />De meeste van de beschikbare datum formaten tonen de actuele datum of tijd van het veld in de cel. Echter, twee formaten - '02-02' en 'Week 2 - Dag 2' - staan niet voor de actuele datum of tijd; zij tonen het aantal weken en dagen die zijn verstreken tussen 'dag een' van de huidige view en de datum of tijd van het veld. 'Dag een' - die ook gebruikt wordt om het nummer van de dag te berekenen - is gespecificeerd in het <b>Kalenderschaal Eigenschappen</b> dialoogvenster van de huidige view. Bijvoorbeeld, wanneer drie weken en 4 dagen zijn verstreken tussen de begindatum en de datum of tijd van een veld, zal deze opmaak '03-04' en Week 3 - Dag 4' laten zien.</li>
+            <li class="p"> Wanneer geen van de bestaande formaten voldoet aan uw wensen, selecteert Gebruikersformaat in het <span style="font-weight: bold;">Datum</span> veld en voert u uw eigen aangepaste formaat in het veld hieronder in.</li>
+        </ol>
+    </body>
+</html>

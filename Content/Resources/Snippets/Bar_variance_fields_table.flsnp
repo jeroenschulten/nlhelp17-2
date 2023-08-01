@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1232" MadCap:lastWidth="1073">
+    <head>
+        <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');caption-side: top;margin-left: 0;margin-right: auto;" cellspacing="0">
+            <col style="width: 19px;" class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Veld</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Omschrijving</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Naam</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De beschrijvende naam van de bar.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Start</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De datum en tijd waarop de  eerste taak op de balk start.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Eind</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De datum en tijd waarop de  laatste taak op de balk eindigt.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Niet te herberekenen</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Dit selectievakje is ingeschakeld wanneer één of meer taken op de balk is niet kan worden herberekend voor welke reden dan ook. Dit kan zijn veroorzaakt door kalenderconflicten, of doordat een taak deel uitmaakt van een linklus.</p>
+                        <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Reschedule_errors/Reschedule_errors.htm">Klik hier</a> voor meer informatie.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Prioriteit</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">De prioriteit van de balk, bijvoorbeeld Geen, Laag, Medium of Hoog.</p>
+                        <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Spreadsheet/Indicating_priority/Assigning_priority.htm">Klik hier</a> voor meer informatie.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Kosten van kostengroep</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De kosten die zijn geregistreerd bij de taken op de balk, ofwel van een geselecteerde kostengroep ofwel van  alle kostengroepen.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Inkomsten van kostengroep</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De inkomsten die zijn geregistreerd bij de taken op de balk, ofwel van een geselecteerde kostengroep ofwel van  alle kostengroepen.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Werkelijke hoeveelheid</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De hoeveelheid verbruiksgoederen die is voltooid bij de taken op de balk.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Hoeveelheid resterend</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De hoeveelheid dat nog moet worden voltooid bij de taken op de balk.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Werkelijke werk</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De hoeveelheid werk die is voltooid bij de taken op de balk.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Werk resterend</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Het werk dat nog moet worden voltooid bij de taken op de balk.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Werkelijke inspanning</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De hoeveelheid inspanning die is voltooid bij de taken op de balk.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Inspanning resterend</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De hoeveelheid inspanning die nog moeten worden voltooid bij de taken op de balk.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Mijlpalen voltooid</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Het aantal mijlpalen op de balk die zijn  voltooid.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Mijlpalen resterend</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Het resterende aantal mijlpalen op de balk die nog moeten worden voltooid.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Inspanning perc. voltooid</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Het percentage van de benodigde inspanning dat voltooid is bij de taken op de balk.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Werk perc. voltooid</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Het percentage van het benodigde werk dat voltooid is bij de taken op de balk.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Hoeveelheid perc. voltooid</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Het percentage van de benodigde hoeveelheid dat voltooid is bij de taken op de balk.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Mijlpalen perc. voltooid</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Het percentage mijlpalen op de balk die zijn  voltooid.</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

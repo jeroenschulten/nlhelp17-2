@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b>Kwaliteitscheck Eigenschappen</b> dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Om toegang te krijgen tot het <b>Kwaliteitscheck Eigenschappen</b> dialoogvenster, rechtsklik op een kwaliteitscheck in de Bibliotheek Verkenner en selecteer <b xmlns="">Eigenschappen</b>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

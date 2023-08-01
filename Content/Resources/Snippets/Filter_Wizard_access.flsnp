@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="88" MadCap:lastWidth="972">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot de <b>Filter Wizard</b></MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Om toegang te krijgen tot de <span style="font-weight: bold;">Filter Wizard</span>, klik op <span style="font-weight: bold;">Invoegen</span> of <span style="font-weight: bold;">Bewerken</span> binnen het <span style="font-weight: bold;">Filter Eigenschappen</span> dialoogvenster.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

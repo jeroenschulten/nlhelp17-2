@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" xml:lang="nl-nl" class="KLAAR_NL">
+    <head>
+        <link href="../../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Kwaliteitschecks:logica type criterium;Logica type kwaliteitscriterium" />'Logica type' kwaliteitscriterium</h1>
+        <p>Dit kwaliteitscriterium checkt het aantal links dat <a href="../Starting_work/Linking_tasks/Link_types.htm">Start-Start of Einde-Einde</a> is. Dit soort links worden vaak samen gebruikt om een startvoorwaarde en een eindvoorwaarde te definiëren, zodat taken met gedeeltelijke voortgang niet ontkoppeld blijven - deze opstelling staat bekend als "ladderlinks". Het gebruik van Start-Start en Einde-Einde-links moet tot een minimum worden beperkt, aangezien ze een manier van parallel werken beschrijven.</p>
+        <p>Positieve/negatieve wachttijd wordt niet beschouwd als een onderdeel van dit kwaliteitscriterium.</p>
+        <p>Met de slaag- en faalgrenzen ingesteld op 10,00%, voldoet dit kwaliteitscriterium aan de vereisten van de CIOB stress test 4 (Logica type).</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Voorbeelden van Start-Start en Einde-Einde links</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In de volgende afbeelding is de link tussen Taak 1 en Taak 2 een Start-Start link en is de link tussen Taak 2 en Taak 3 een Einde-Einde link. Beide links zouden niet voldoen aan dit kwaliteitscriterium:</p>
+                <p>
+                    <img src="../../../Graphics/Quality_check/ssfflinks.gif" alt="The link between Task 1 and Task 2 is a Start-to-Start link and the link between Task 2 and Task 3 is a Finish-to-Finish link" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_2.flsnp" />
+        </p>
+        <h2>Slaag en faal criteria</h2>
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Slaagt of faalt?</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Criteria</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #afffaf;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Slaagt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Een project slaagt op dit criterium wanneer het percentage links dat ofwel Start-Start of Einde-Einde link is kleiner is dan of gelijk is aan het slaaggrens percentage. </p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Bijvoorbeeld, wanneer de slaaggrens stond ingesteld op 10,00%, zal een project voor dit kwaliteitscriterium slagen wanneer 10,00% of minder van de links Start-Start of Einde-Einde links zijn.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #ff6464;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Een project faalt op dit criterium wanneer het percentage links dat ofwel Start-Start of Einde-Einde link is groter is dan het faalgrens percentage. </p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Bijvoorbeeld, wanneer de faalgrens stond ingesteld op 10,00%, zal een project voor dit kwaliteitscriterium falen wanneer meer dan 10,00% van de links Start-Start of Einde-Einde links zijn.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="background-color: #ffaf45;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;">Slaagt noch faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Als het percentage links dat ofwel Start-Start of Einde-Einde link is valt tussen het slaaggrens en het faalgrens percentage, is het resultaat noch geslaagd noch gefaald, maar ligt dat ergens daartussenin.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Voorgestelde instellingen om te voldoen aan de vereisten van CIOB stress test 4 (Logica type)</h2>
+        <ul xmlns="" type="disc">
+            <li>Slaaggrens: 10,00%. Een project zal slagen voor dit criterium als 10,00% of minder van de links ofwel Start-Start ofwel Einde-Einde zijn.</li>
+            <li>Faalgrens: 10,00%. Een project zal falen voor dit criterium als meer dan 10,00% of links ofwel Start-Start ofwel Einde-Einde zijn.</li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_39.flsnp" />
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Percentage of links  Start-Start of Einde-Einde</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Slaagt of faalt?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">0,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Slaagt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">5,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Slaagt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">10,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Slaagt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">10.01%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">50,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1">100,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Faalt</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Forceert dit criterium dat het project wordt herberekend?</h2>
+        <p>Nee.</p>
+        <h2>Voorgestelde acties als een project faalt voor dit criterium</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_40.flsnp" />
+        <p>Onderzoek de links om te bepalen of u de planning op een alternatieve manier kunt inplannen. U kunt bijvoorbeeld het type van sommige links wijzigen, <a href="../Starting_work/Linking_tasks/Deleting_links.htm">enkele links verwijderen</a> of <a href="../Bar_chart_editing/Using_constraints/Using_constraints.htm">sommige links door vlaggen vervangen</a>.</p>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p>
+            <a href="Checking_quality_intro.htm">Introductie over planningskwaliteitchecks</a>
+        </p>
+        <p>
+            <a href="../Starting_work/Linking_tasks/Link_types.htm">Link types</a>
+        </p>
+        <p>
+            <a href="../Starting_work/Linking_tasks/Moving_links.htm">Links van de ene naar de andere taak verplaatsen</a>
+        </p>
+        <p>
+            <a href="../Starting_work/Linking_tasks/Deleting_links.htm">Links verwijderen</a>
+        </p>
+        <p>
+            <a href="../Bar_chart_editing/Using_constraints/Using_constraints.htm">Vlaggen gebruiken</a>
+        </p>
+    </body>
+</html>

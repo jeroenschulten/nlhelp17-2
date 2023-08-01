@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="69" MadCap:lastWidth="893">
+    <body>
+        <li>
+            <b>MailTo</b> - een tekststring, dat alleen gebruikt wordt bij <b>helpitem</b> elementen van het <b>Type</b> "mail", die het e-mailadres definieert waar naartoe de email die verschijnt zou moeten worden gestuurd.</li>
+    </body>
+</html>

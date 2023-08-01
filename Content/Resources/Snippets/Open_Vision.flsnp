@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li class="p">Klik op het <b>Bestand</b> tabblad, klik vervolgens op <b>Openen</b>.</li>
+            <li>Klik op <b xmlns=""><MadCap:variable name="Primary.Asta Vision Name" /></b>. Er verschijnt een knop voor u om in te loggen bij <MadCap:variable name="Primary.Asta Vision Name" />. </li>
+            <li>Log in bij <MadCap:variable name="Primary.Asta Vision Name" />. Er verschijnt een lijst met programma's waartoe u toegang hebt. Wanneer u al ingelogd bent bij <MadCap:variable name="Primary.Asta Vision Name" />, verschijnt de programmalijst zonder dat u nog in hoeft te loggen.</li>
+            <li xmlns="">
+                <MadCap:snippetText src="Vision_filter_programmes.flsnp" />
+            </li>
+            <li>Klik op het programma om deze uit te checken - of om een a kopie van het programma te downloaden wanneer deze niet beschikbaar is om uit te checken.</li>
+        </ol>
+        <p>Wanneer u een programma wilt downloaden in plaats van uitchecken, rechtsklik op het programma dat u wilt downloaden en selecteer <b>Download Laatste</b> of <b>Download Specifieke Revisie</b> in plaats van erop te klikken om deze uit te checken.</p>
+    </body>
+</html>

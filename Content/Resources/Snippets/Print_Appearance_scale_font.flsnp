@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specify the way in which to scale the spreadsheet font in the printout?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Click the <b>Automatic</b> radio button to scale the spreadsheet font using default settings, which may make it easier to read.</p>
+                <p>Alternatively, click the <b>Use</b> radio button and specify the scaling to apply to the spreadsheet font in the field to the right. For example, enter 2 to print the spreadsheet font at twice its normal size.</p>
+                <p>To print the spreadsheet font with no scaling, click the <b>Off</b> radio button.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

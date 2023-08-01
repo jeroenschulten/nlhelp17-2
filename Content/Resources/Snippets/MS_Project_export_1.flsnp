@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>
+            <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Om het gehele project te exporteren, klik </MadCap:conditionalText>
+            <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Easyplan_only">Klik </MadCap:conditionalText>op het <b>Bestand</b> tabblad, klik vervolgens op <b>Import/Export</b> en daarna op <b><b>Exporteer naar Microsoft Project</b></b><MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">; om alleen de huidige groep of view te exporteren, rechtsklik op een kaart of samenvattingsgroep in de project view en selecteer <b>Exporteer groep of view naar Microsoft Project</b></MadCap:conditionalText>. Het <b>Exporteer</b> dialoogvenster verschijnt. <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Merk op dat u meer dan één groep tegelijkertijd kunt exporteren door ze te <b>CTRL</b>-selecteren alvorens te rechtsklikken.</MadCap:conditionalText></p>
+    </body>
+</html>

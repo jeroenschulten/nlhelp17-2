@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="136" MadCap:lastWidth="1037">
+    <body>
+        <ul type="disc">
+            <li class="p">Haar einddatum is gelijk aan de laatste einddatum van het netwerk.</li>
+            <li class="p">Ze heeft een uitgaande sturende link die eindigt op een taak die zich op het langste pad bevindt.</li>
+            <li class="p">Ze heeft een directe opvolgertaak op dezelfde balkregel die zich op het langste pad bevindt.</li>
+        </ul>
+    </body>
+</html>

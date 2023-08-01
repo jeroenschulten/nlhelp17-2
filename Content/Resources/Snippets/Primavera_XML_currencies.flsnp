@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Wanneer u projecten exporteert naar XML-indeling met <MadCap:variable name="Primary.Asta Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" />, worden valuta-eenheden opgenomen in de export. Wanneer u projecten exporteert naar XML-formaat met behulp van Primavera-software, worden valuta-eenheden uitgesloten van de export. Dit betekent dat als u een <MadCap:variable name="Primary.Asta Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> project exporteert naar Primavera-software in XML-formaat, het project bewerkt in Primavera-software, het project exporteert naar XML-formaat en terug importeert in <MadCap:variable name="Primary.Asta Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" />, de valuta-eenheden van het project verloren gaan.</p>
+    </body>
+</html>

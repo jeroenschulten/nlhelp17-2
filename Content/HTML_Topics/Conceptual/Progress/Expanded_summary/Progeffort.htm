@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Marking_progress_on_tasks_and_allocations\Progress_on_expanded_tasks,_summary_tasks_and_hammocks\Progeffort.htm" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>Voortgang berekenen op bovenliggende taken naar inspanning voltooid</h1>
+        <p>Dit onderwerp beschrijft in detail hoe de voortgangsmarkering op niveautaken, samenvattingstaken en hammocks wordt berekend naar de hoeveelheid inspanning die is voltooid (gespecificeerd in het veld <span style="font-weight: bold;">Voortgangsmethode</span> dat zowel verschijnt op het tabblad <b>Voortgang</b> van het <b>Opties</b> dialoogvenster als op het tabblad <span style="font-weight: bold;">Eigenschappen</span> van het <b>Eigenschappen</b> dialoogvenster).</p>
+        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Wanneer voortgang op bovenliggende taken wordt berekend naar inspanning voltooid, wordt alleen de inspanning op ingeplande permanent hulpmiddelallocaties mee berekend; de inspanning op aanvraag permanent hulpmiddelallocaties wordt uitgesloten van de berekeningen. Zowel allocaties op de taken in de bovenliggende taak als allocaties op de bovenliggende taak zelf worden opgenomen in de berekeningen.</p>
+        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Merk op dat terwijl de inhoud van hammock taken is uitgesloten van de berekeningen, allocaties die direct op een hammock-taak gemaakt zijn de voortgangsdatum van de hammock-taak beïnvloeden - hoewel deze niet verder is opgerold naar bovenliggende taken op een hoger niveau.</p>
+        <p><MadCap:variable name="Primary.Asta Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> berekent voortgang op bovenliggende taken naar inspanning voltooid op een zelfde manier als <a href="Progduration.htm">voortgang naar duur voltooid</a> wordt berekend. Er wordt een 'profiel' van waarden gemaakt op tijd, maar nu geeft het de inspanningsdistributie weer.</p>
+        <p>Houdt rekening met de volgende mogelijkheid waarin een samenvattingstaak drie taken bevat. Twee van de opgenomen taken en de samenvatting zelf hebben één of meer geplande hulpmiddelallocaties. In dit voorbeeld is elke werkdag 8 uur lang:</p>
+        <p>
+            <img src="../../../../Graphics/Progress/detprog12.gif" style="border: none;" width="436" height="189" border="0" />
+        </p>
+        <p><MadCap:variable name="Primary.Asta Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> maakt 'profiel' van inspanning op tijd, om de inspanningsdistributie weer te geven. Hier staat een beschrijving van de allocaties op volgorde van boven naar beneden, met een beschrijving van hoeveel inspanning iedere allocatie bijdraagt aan het profiel:</p>
+        <ul type="disc">
+            <li class="p">De eerste allocatie (inspanning 48u; duur 16u) draagt 3 seconden inspanning per seconde bij aan het profiel (48u / 16u = 3 uur per uur, of 3 seconden per seconde).            </li>
+            <li class="p">De tweede allocatie (inspanning 8u; duur 8u) draagt 1 seconde inspanning per seconde bij aan het profiel (8u / 8u = 1 uur per uur, of 1 seconde per seconde).            </li>
+            <li class="p">De derde allocatie (inspanning 16u; duur 8u) draagt 2 seconden inspanning per seconde bij aan het profiel (16u / 8u = 2 uur per uur of 2 seconden per seconde).            </li>
+            <li class="p">De vierde allocatie (inspanning 20u; duur 20u) draagt 1 seconde inspanning per seconde bij aan het profiel (20u / 20u = 1 uur per uur, of 1 seconde per seconde).            </li>
+        </ul>
+        <p>De afbeelding van het uiteindelijke profiel ziet u hieronder (een dergelijk profiel wordt nergens in <MadCap:variable name="Primary.Asta Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> werkelijk getoond; het wordt alleen intern gebruikt voor het uitvoeren van voortgangsberekeningen):</p>
+        <p>
+            <img src="../../../../Graphics/Progress/detprog13.gif" style="border: none;" width="159" height="290" border="0" />
+        </p>
+        <p>De totale hoeveelheid voltooide eenheden die wordt bijgedragen door de allocaties ziet er als volgt uit:</p>
+        <ul type="disc">
+            <li class="p">De eerste allocatie (inspanning 48u; 50% voltooid) draagt 24 uur (86,400 seconden) voltooide eenheden bij.            </li>
+            <li class="p">De tweede allocatie (inspanning 8u; 0% voltooid) draagt niets bij.            </li>
+            <li class="p">De derde allocatie (inspanning 16u; 0% voltooid) draagt niets bij.            </li>
+            <li class="p">De vierde allocatie (inspanning 20u; 40% voltooid) draagt 8 uur (28,800 seconden) voltooide eenheden bij.            </li>
+        </ul>
+        <p>De totale hoeveelheid voltooide eenheden in dit voorbeeld is dus 115,200 seconden. De voortgangsdatum voor de hoogst-niveau samenvattingstaak wordt berekend door de datum te zoeken waarop het cumulatieve deel onderaan de grafiek overeenkomt met 115,200 seconden.</p>
+        <p>De delen van secties in bovenstaand profiel (van links naar rechts) zijn als volgt:</p>
+        <ul type="disc">
+            <li class="p">Sectie 1: 3 x 14,400 = 43,200 (waarbij 14,400 in dit voorbeeld het aantal seconden is in een halve dag).            </li>
+            <li class="p">Sectie 2: 2 x 14,400 = 28,800; secties 3, 4, 5 en 6 zijn identiek.            </li>
+        </ul>
+        <p>Daar de cumulatieve waarde aan het eind van de derde sectie 100,800 is en aan het eind van de vierde sectie 129,600, ligt de voortgangsdatum ergens in de vierde sectie. Een eenvoudige verhouding toont dat de datum in de buurt ligt van het begin van de sectie - vroeg op dinsdagochtend.</p>
+        <h2>Gemengde kalenders en duur gemeten in verstreken tijd</h2>
+        <p>De procedure voor het berekenen van de voortgang op bovenliggende taken naar inspanning voltooid wanneer taken verschillende kalenders gebruiken is dezelfde als hiervoor beschreven.</p>
+        <p>Wanneer de duur van een taak is gemarkeerd in verstreken tijd, wordt aangenomen dat er continue (24 uur per dag) aan de taak wordt gewerkt en de taakkalender buiten beschouwing wordt gelaten.</p>
+        <h2 MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Geneste hammock taken</h2>
+        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Zoals reeds eerder genoemd, dragen allocaties gemaakt op geneste hammock taken en hun inhoud niet bij aan de voortgang op de samenvattings- of niveautaken waarin zij zijn opgenomen. Dit omdat wordt aangenomen dat met de opgenomen allocaties ergens anders in het project rekening wordt gehouden.</p>
+        <h2>Mijlpalen</h2>
+        <p>Om voortgang te berekenen op bovenliggende taken krijgen mijlpaal allocaties een nominale duur van 1 seconde.</p>
+        <h2>Voortgang berekenen op bovenliggende taken naar met de Inspanning - Bij Benadering methode</h2>
+        <p>Wanneer u met een erg groot project werkt, vindt u misschien dat voortgang berekenen op bovenliggende taken veel tijd kost. U kunt dit reduceren door de Inspanning - Bij benadering methode voor voortgangsberekening te selecteren in het veld <span style="font-weight: bold;">Voortgangsmethode</span> dat zowel verschijnt op het tabblad <b>Voortgang</b> van het <b>Opties</b> dialoogvenster als op het tabblad <span style="font-weight: bold;">Eigenschappen</span> van het <b>Eigenschappen</b> dialoogvenster<span style="font-weight: bold;">.</span></p>
+        <p>Deze methode werkt op een zelfde manier als hierboven omschreven, maar het effect van kalenders wordt genegeerd in grote projecten, wat de berekeningen vereenvoudigt. Gewoonlijk is de bijdrage van een enkele allocatie aan de inspanningsverdeling een waarde van 1.0 gedurende werktijd en 0 gedurende niet-werktijd; wanneer de Inspanning - Bij benadering methode wordt gebruikt wordt een enkele waarde gebruikt gedurende de hele duur van een allocatie.</p>
+        <p>De gebruikte waarde hangt af van verhouding tussen werktijd en niet-werktijd, zodat het gebied onder het profiel voor een allocatie hetzelfde is als het zou zijn indien het profiel terugvalt naar 0 gedurende niet-werktijd. Dus wanneer een allocatie begon op maandag om 09:00 en eindigde om 17:30 op de volgende dag (dinsdag) zou de allocatieduur de volgende dag (bij 7.5 uur werktijd per dag), 15 uur werktijd zijn en 16.5 uur niet-werktijd. Daarvoor zou een constante waarde van 15 / (15 + 16.5) = 0.476 uur gebruikt worden voor de gehele allocatieduur.</p>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="Progduration.htm">Voortgang berekenen op bovenliggende taken naar duur voltooid</a>
+        </p>
+        <p><a href="Progcost.htm">Voortgang berekenen op bovenliggende taken naar kosten voltooid</a>
+        </p>
+        <p><a href="Progoverall.htm">Voorgang berekenen op bovenliggende taken naar overall percentage voltooid</a>
+        </p>
+    </body>
+</html>

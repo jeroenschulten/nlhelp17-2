@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="89" MadCap:lastWidth="1200">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b>Opmaak Cellen</b> dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Om toegang te krijgen tot het <span style="font-weight: bold;">Opmaak Cellen</span> dialoogvenster, op het <b xmlns="">Start</b> tabblad, klik op het dialoogvenster oproepknopje <img src="../../Graphics/Ribbon/dialoglauncher.gif" xmlns="" /> rechts onderin de Lettertype groep.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

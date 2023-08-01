@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="118" MadCap:lastWidth="1082">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b>Kopieer Uitzonderingen</b> dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Om toegang te krijgen tot het <span style="font-weight: bold;">Kopieer Uitzonderingen</span> dialoogvenster, rechtsklik op één of meer uitzonderingen op het <span style="font-weight: bold;">Uitzonderingen</span> tabblad of rechtsklik op één of meer datums op het <span style="font-weight: bold;">Kalender</span> tabblad van het <span style="font-weight: bold;">Kalender Eigenschappen</span> dialoogvenster en selecteer <span style="font-weight: bold;">Kopieer uitzonderingen naar</span>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

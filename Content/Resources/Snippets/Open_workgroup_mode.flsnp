@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <ol>
+            <li class="p">Klik op het <b>Bestand</b> tabblad, klik vervolgens op <b>Openen</b>.</li>
+            <li class="p">Klik op <b xmlns="">Enterprise</b>. Er verschijnt nu een navigeerbare lijst met datasources en projecten.</li>
+            <li xmlns="">Navigeer door de datasources en projecten.</li>
+            <li class="p">Selecteer de werkgroep waarbinnen u het project wilt openen in het <b xmlns="">Werkgroep</b> veld.</li>
+            <li class="p">Klik op het project om deze te openen.</li>
+        </ol>
+        <p>U kunt in de werkgroep modus alleen projecten openen die opgeslagen zijn in server-mounted datasources.</p>
+    </body>
+</html>

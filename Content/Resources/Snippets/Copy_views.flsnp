@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="274" MadCap:lastWidth="1223">
+    <body>
+        <li>Selecteer op het <b>Meer Views</b> dialoogvenster in het <b>Doelproject</b> veld het project waar u de view die u heeft geselecteerd naar toe wilt kopiëren.</li>
+        <li>Schakel het <b>Kopieer filter, sortering en tabellen</b> selectievakje in om het filter, de sortering/groepering en de tabel die toegepast is op de view die u aan het kopiëren bent naar het bestemmingsproject te kopiëren, of schakel dit selectievakje uit om de view te kopiëren zonder deze gekoppelde bibliotheekobjecten.</li>
+        <li>Schakel het <b>Match ontbrekende objecten op naam</b> selectievakje in om te proberen om alle objecten waaraan de view refereert te laten matchen met objecten die dezelfde naam hebben in het bestemmingsproject, of schakel het selectievakje uit al deze referenties terug te zetten naar de standaard waarden.</li>
+        <li>Schakel het <b>Kopieer de view notities</b> selectievakje in om alle notities die zijn toegevoegd aan de view naar het bestemmingsproject mee te kopiëren, of schakel het selectievakje uit om de view zonder dergelijke notities te kopiëren.</li>
+        <li>Schakel het <b>Verwijder rij en celopmaak</b> selectievakje in om alle rij en celopmaak te verwijderen die toegepast zijn op de spreadsheettabellen van de view, of schakel het selectievakje uit om rij en celopmaak mee te kopiëren naar het doelproject.</li>
+        <li>Klik op <b xmlns="">OK</b>.</li>
+    </body>
+</html>

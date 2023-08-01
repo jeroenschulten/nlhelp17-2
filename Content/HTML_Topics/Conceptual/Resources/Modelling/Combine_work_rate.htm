@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="nl" MadCap:conditions="Powerproject_Easyplan.Powerproject_only,Powerproject_Easyplan.V17_Production_rates" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Permanent resources:combining work rates;Work From Task permanent resource modelling:combining work rates" />Combineren van de werk tempo's van meerdere Werk Van Taak gemodelleerde hulpmiddelen</h1>
+        <p>Als u het modelleringstype Werk Van Taak gebruikt - handig wanneer u de hoeveelheid werk weet die nodig is om een taak te voltooien - en meer dan één permanent hulpmiddel werkt aan de activiteit, wordt elk hulpmiddel normaal gesproken geacht zelfstandig aan de taak te werken, en wordt de berekende parameter - bijvoorbeeld de duur - berekend op basis van de allocatie met het laagste werk tempo. Dit is geschikt voor situaties waarin een aantal verschillende hulpmiddelen - bijvoorbeeld een stukadoor en een schilder - aan dezelfde taak werken: hun werk is volledig gescheiden en het langzaamst werkende hulpmiddel bepaalt de duur van de taak.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Illustratie</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In de volgende afbeelding is een Painter (schilder)-hulpmiddel toegewezen aan een taak waarvoor een hoeveelheid taakwerk is opgegeven. De Painter-hulpmiddel is Werk Van Taak gemodelleerd, met een werksnelheid van 10 m<sup>2</sup> per uur en met een berekende parameter 'Duur'. Het werktempo van de Painter-hulpmiddelallocatie bepaalt de duur van de taak:</p>
+                <p>
+                    <img src="../../../../Graphics/Resources/combinerates2.png" alt="A task with one resource allocation" />
+                </p>
+                <p>In de volgende afbeelding is een tweede hulpmiddel - dit keer een Plasterer (stukadoor) - aan de taak toegewezen. De Plasterer is ook Werk Van Taak gemodelleerd, met een werktempo van 5 m<sup>2</sup> per uur. Dit werktempo laat zien dat de Plasterer langzamer werkt dan de Painter, dus het werktempo van de Plasterer hulpmiddelallocatie bepaalt de duur van de taak, die daardoor verdubbelt:</p>
+                <p>
+                    <img src="../../../../Graphics/Resources/combinerates1.png" alt="A task with two resource allocations, each with a different work rate" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>Als u meer dan één allocatie van hetzelfde type hulpmiddel hebt die samenwerken om een taak te voltooien - bijvoorbeeld twee Roofers (dakdekkers) die samenwerken om een dak te dekken - kunt u <MadCap:variable name="Primary.Asta Asta Powerproject Name" />configureren om hun werktempo's te combineren. Als u dit doet, wordt het gecombineerde werktempo gebruikt om de berekende parameter te berekenen - bijvoorbeeld de duur - in plaats van het werktempo van het langzaamste hulpmiddel.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Illustratie</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In de volgende afbeelding is een Roofer-hulpmiddel gealloceerd aan een taak waarvoor een hoeveelheid taakwerk is gespecificeerd. Het Roofer-hulpmiddel is Werk Van Taak gemodelleerd, met een werktempo van 10 m<sup>2</sup> per uur en met een berekende parameter 'Duur'. Het Roofer-hulpmiddel is geconfigureerd om werktempo's te combineren. Het werktempo van de toewijzing van de gecombineerde hulpmiddelen aan de roofer bepaalt de duur van de taak:</p>
+                <p>
+                    <img src="../../../../Graphics/Resources/combinerates3.png" alt="A task with one resource allocation" />
+                </p>
+                <p>In de volgende afbeelding is een tweede identieke Roofer-hulpmiddel gealloceerd aan de taak. Het tweede hulpmiddel is ook Werk Van Taak gemodelleerd, met een werktempo van 5 m<sup>2</sup> per uur, en is geconfigureerd om werktempo's te combineren. De werktempo's van beide hulpmiddelen worden daarom gecombineerd (dus 10 m<sup>2</sup> per uur) en bepalen samen de duur van de taak, die daarom dus wordt gehalveerd:</p>
+                <p>
+                    <img src="../../../../Graphics/Resources/combinerates4.png" alt="A second Roofer resource assigned to the task, which halves the duration" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>Om Werk Van Taak gemodelleerde permanente hulpmiddelen te configureren om hun werktempo te combineren, schakelt u het selectievakje <b>Combineer werktempo</b> in op het tabblad <b>Allocatie</b> van het dialoogvenster <b>Permanente Hulpmiddelen Eigenschappen</b>. Er is een overeenkomstig selectievakje op het tabblad <b>Modelleren</b> van het dialoogvenster <b>Permanente Allocatie Eigenschappen</b>.</p>
+        <p>
+            <MadCap:snippetText src="../../../../Resources/Snippets/Combine_work_rate_1.flsnp" />
+        </p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Combine_work_rate_2.flsnp" />
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p style="font-weight: normal;"><a href="Questions.htm">Vragen die u kunt beantwoorden door hulpmiddelen te modelleren</a>
+        </p>
+        <p><a href="Work_From_Task_perm_res.htm">Modelleringstype Werk Van Taak voor permanente hulpmiddelen</a>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Lokaliseer het back-upbestand dat u wilt gebruiken in plaats van het project door te klikken op <b>Open Map</b> rechts van de juiste back-up. De map waarin de back-up zich bevindt verschijnt in de Windows Verkenner, met het back-upbestand geselecteerd.</li>
+            <li>Verander de bestandsnaam van het back-upbestand en verander haar bestandsextensie van '.BAK' naar '.PP'. Bijvoorbeeld, wanneer een back-upbestand de naam 'Bouwproject.BAK' heeft, kunt u deze hernoemen naar  'Bouwproject_1.PP'. Wanneer u het originele back-upbestand wilt behouden, zou u eerst een kopie kunnen maken van het back-upbestand en de kopie hernoemen.</li>
+            <li>Kopieer het hernoemde back-upbestand naar de map waarin uw projecten zich bevinden. Dit is elke map die gespecificeerd staat bij 'Huidige', op het <b>Bestandslocaties</b> tabblad van het <b>Opties</b> dialoogvenster.</li>
+            <li>Open het hernoemde back-upbestand in <MadCap:variable name="Primary.Asta Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" />. U kunt het nu beginnen te gebruiken in plaats van het originele project. Back-ups zullen nu van dit project worden gemaakt terwijl u het project gebruikt.</li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Als zowel het sjabloon als het project bijvoorbeeld een codebibliotheek met de naam 'Locatie' bevat, zou het inschakelen van dit selectievakje resulteren in een project met maar één enkele codebibliotheek 'Locatie', die zowel de codes van het sjabloon als de codes van het project bevat. Als u dit selectievakje uitschakelt, zou een project twee 'Locatie'-codebibliotheken gaan bevatten: één met de codes van het sjabloon en een andere met de codes van het project dat u aan het importeren was.</p>
+    </body>
+</html>

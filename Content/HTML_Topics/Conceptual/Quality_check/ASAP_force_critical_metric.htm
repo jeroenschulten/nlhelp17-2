@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" xml:lang="nl-nl" class="KLAAR-NL">
+    <head>
+        <link href="../../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Kwaliteitschecks:ASAP force critical criterium;ASAP force critical kwaliteitscriterium" />'ZSM forceer kritiek' kwaliteitscriterium</h1>
+        <p>Dit criterium checkt het aandeel van de taken dat niet geconfigureerd staat als<a href="../Rescheduling_projects/Factors_that_affect/Factors_rescheduling.htm#ASAP_force_critical"> ZSM Forceer Kritiek</a>. Het niet verstandig om taken te configureren als ZSM forceer kritiek, omdat dit ongewenste speling zou kunnen introduceren in een planning.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Voorbeeld van een ZSM Forceer Kritieke taak</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In de volgende afbeelding zijn taken 1, 2 en 5 kritiek. Taak 4 heeft speling, dus is niet kritiek. Taak 3 is geconfigureerd om ZSM Forceer Kritiek te zijn en zou niet slagen op dit criterium:</p>
+                <p>
+                    <img src="../../../Graphics/Quality_check/asapforcecritical.gif" alt="Tasks 1, 2 and 5 are critical. Task 4 has float, so is not critical. Task 3 has been configured to be ASAP Force Critical and would fail this criterium" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_2.flsnp" />
+        </p>
+        <h2>Slaag en faal criteria</h2>
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Slagen of falen?</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Criteria</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #afffaf;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Slaagt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Een project slaagt op dit criterium wanneer het percentage taken dat niet geconfigureerd is ZSM Forceer Kritiek te zijn groter dan of gelijk is aan het slaaggrens percentage. </p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Wanneer bijvoorbeeld de slaaggrens ingesteld stond op 100,00%, zou een project op dit criterium slagen wanneer 100,00% van de taken niet geconfigureerd is ZSM Forceer Kritiek te zijn.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #ff6464;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Een project faalt op dit criterium wanneer het percentage taken dat niet geconfigureerd is ZSM Forceer Kritiek te zijn  kleiner is dan het faalgrens percentage. </p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Wanneer bijvoorbeeld de faalgrens ingesteld stond op 100,00%, zou een project op dit criterium falen wanneer minder dan 100,00% van de taken niet geconfigureerd is ZSM Forceer Kritiek te zijn.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="background-color: #ffaf45;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;">Slaagt noch faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">
+                        <p>Als het percentage taken dat niet geconfigureerd is ZSM Forceer Kritiek te zijn  valt tussen het slaaggrens en het faalgrens percentage, is het resultaat noch geslaagd noch gefaald, maar ligt dat ergens daartussenin.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Voorgestelde instellingen</h2>
+        <ul xmlns="" type="disc">
+            <li>Slaaggrens: 100,00%. Een project voldoet aan dit criterium als er geen taken geconfigureerd zijn als ZSM Forceer Kritiek.</li>
+            <li>Faalgrens: 100,00%. Een project faalt voor dit criterium als er één van de taken geconfigureerd is als ZSM Forceer Kritiek</li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_39.flsnp" />
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" style="width: 414px;">
+            </col>
+            <col class="TableStyle-Table_Stylesheet-Column-Column1">
+            </col>
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Percentage taken die niet ZSM Forceer Kritiek zijn geconfigureerd</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Slaagt of faalt?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">0,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">50,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">99,99%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1">100,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Slaagt</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Forceert dit criterium dat het project herberekend moet worden?</h2>
+        <p>Nee</p>
+        <h2>Voorgestelde acties wanneer een project faalt op dit criterium</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_37.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_38.flsnp" />
+        <ul xmlns="" type="disc">
+            <li>
+                <a href="../Rescheduling_projects/Factors_that_affect/Factors_rescheduling.htm#ASAP_force_critical">Verwijder deZSM Forceer Kritiek</a> instelling bij de falende taken.</li>
+            <li>
+                <a href="../Bar_chart_editing/Using_constraints/Set_constraint.htm">Gebruik vlaggen o</a>f <a href="../Starting_work/Linking_tasks/Linking_tasks.htm">links</a> om de datums te bepalen waarop taken moeten starten en eindigen.</li>
+        </ul>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p>
+            <a href="Checking_quality_intro.htm">Introductie over planningskwaliteitchecks</a>
+        </p>
+        <p>
+            <a href="../Rescheduling_projects/Factors_that_affect/Factors_rescheduling.htm">Factoren die een herberekening beïnvloeden</a>
+        </p>
+        <p>
+            <a href="../Bar_chart_editing/Using_constraints/Set_constraint.htm">Een <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">start- of eind</MadCap:conditionalText>vlag plaatsen</a>
+        </p>
+        <p>
+            <a href="../Starting_work/Linking_tasks/Linking_tasks.htm">Taken linken</a>
+        </p>
+    </body>
+</html>

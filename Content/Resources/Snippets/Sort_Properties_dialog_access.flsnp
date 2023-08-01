@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="152" MadCap:lastWidth="621">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b>Sortering/Groepering Eigenschappen</b> dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Om toegang te krijgen tot het <span style="font-weight: bold;">Sortering/Groepering Eigenschappen</span> dialoogvenster, op het <b>View </b>tabblad, in de <b>View Gegevens</b> groep, klik op het <b>Sorteren</b> keuzelijstje en selecteer <b>Nieuw</b> of <b xmlns="">Eigenschappen</b>, of rechtsklik op een sortering in de Bibliotheek Verkenner en selecteer <span style="font-weight: bold;">Eigenschappen</span>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

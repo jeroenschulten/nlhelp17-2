@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Easyplan Help"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  DefaultUrl="/Content/HTML_Topics/Other/Startup.htm"
+  Skin="/Project/Skins/Easyplan.flskn"
+  InsertMOTW="true"
+  PreCompileScaledImages="false"
+  MasterStylesheet="/Content/Resources/Stylesheets/Web_Stylesheet.css"
+  MasterToc="/Project/TOCs/Powerproject_Easyplan.fltoc"
+  ConditionTagExpression="include[Powerproject_Easyplan.Easyplan_only] exclude[Powerproject_Easyplan.Powerproject_only] "
+  ExcludeUnreferencedContent="true"
+  AliasFile="/Project/Advanced/easyplan.flali"
+  conditions="Powerproject_Easyplan.Easyplan_only"
+  MasterPage="/Content/Resources/Template_Files/Topic_Template_EP.flmsp">
+  <PrintedOutput
+    CollapseMargins="true" />
+  <MicroContentSearch>
+    <FeaturedSnippets
+      type="AllFiles"
+      numberOfResults="1">
+      <microContentSubset />
+    </FeaturedSnippets>
+    <KnowledgePanel
+      type="Empty"
+      numberOfResults="1">
+      <microContentSubset />
+    </KnowledgePanel>
+  </MicroContentSearch>
+</CatapultTarget>

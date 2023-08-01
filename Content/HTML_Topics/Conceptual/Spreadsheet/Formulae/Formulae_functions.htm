@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" class="KLAAR" xml:lang="nl-nl">
+    <head>
+        <link href="../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Formules:functies" />Formule functies nader verklaard</h1>
+        <p>U voegt functies in bij formules via de <b>Functie</b> knop op het <b>Formule Eigenschappen</b> dialoogvenster. Er verschijnt dan een menu waaruit de functie die u wenst kunt invoegen in de formule.</p>
+        <h2>Mathematische functies</h2>
+        <p>U voegt deze functies in bij formules om mathematische functies uit te voeren op een veld of waarde.</p>
+        <h3>Afronden(waarde, decimalen)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Rond een getal af naar een gegeven aantal decimalen.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>Afronden((Kosten / Inkomsten * 100), 2) &amp; "%"</b>
+                        </p>
+                        <p class="ParagraphsInTables">Toont de kosten als een percentage van de inkomsten, naar beneden of boven afgerond (naar de dichtstbijzijnde waarde) tot twee decimalen.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Opmerkingen</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>waarde</b> is de waarde die afgerond moet worden.</p>
+                        <p class="ParagraphsInTables">
+                            <b>decimalen</b> is het gewenst aantal decimalen. Dit moet gespecificeerd zijn als een geheel getal; u kunt een negatief geheel getal specificeren wanneer u het cijfer links van het decimaalteken wilt specificeren. Het resultaat zal worden beschouwd als een geheel getal wanneer <b>decimalen</b> kleiner of gelijk is aan 0.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Geheel(waarde, decimalen)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Kapt een getal af op een gegeven aantal decimalen</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>Geheel((Balk.Kosten / Project.Kosten * 100), 2) &amp; "%"</b>
+                        </p>
+                        <p class="ParagraphsInTables">Toont de kosten van een balk als een percentage van de project kosten, afgekapt naar twee decimalen.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Opmerkingen</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">
+                        <span>Vergelijkbaar met de</span>
+                        <span style="font-weight: bold;"> Afronden</span>
+                        <span> functie, behalve dat bij uitvoering ervan het getal afgebroken wordt ipv afgerond wordt naar <span><span>de dichtstbijzijnde waarde</span></span>. Dit is hetzelfde als het naar beneden afronden van positieve getallen en het naar boven afronden van negatieve getallen.</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Mod(numerator, denominator)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" style="width: 587px;" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Geeft het floating point restant van de deling van de numerator door de denominator.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Opmerkingen</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">Het resultaat kan nooit een geheel getal zijn.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Min(waarde, waarde)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Geeft de minimum waarde van een komma-gescheiden lijst waarden.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 1</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>Min(2, 3, 1)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft een waarde van 1.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 2</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>Min(Kosten(30), Kosten(1080))</b>
+                        </p>
+                        <p class="ParagraphsInTables">Onderzoekt de kosten van de kostengroep met een object ID van 30 en de kosten van de kostengroep met een object ID van 1080 en geeft de laagste kosten daarvan terug.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Opmerkingen</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">Deze functie kan elk mogelijk aantal parameters afhandelen, welke alle van hetzelfde type moeten zijn en de <span style="font-weight: bold;">&gt;</span> en <span style="font-weight: bold;">&lt;</span> vergelijkingssymbolen moeten ondersteunen.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Max(waarde, waarde)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Geeft de maximum waarde van een komma-gescheiden lijst waarden.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 1</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>Max(2, 3, 1)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft een waarde van 3.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 2</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>Max(Kosten(30), Kosten(1080))</b>
+                        </p>
+                        <p class="ParagraphsInTables">Onderzoekt de kosten van de kostengroep met een object ID van 30 en de kosten van de kostengroep met een object ID van 1080 en geeft de hoogste kosten daarvan terug.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Opmerkingen</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">Deze functie kan elk mogelijk aantal parameters afhandelen, welke alle van hetzelfde type moeten zijn en de <span style="font-weight: bold;">&gt;</span> en <span style="font-weight: bold;">&lt;</span> vergelijkingssymbolen moeten ondersteunen.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Tekst functies</h2>
+        <h3>Len(tekst)</h3>
+        <p>U voegt deze functies in bij formules om de tekst in de waarden te manipuleren.</p>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Geeft de lengte van een tekststring of van de inhoud van een veld terug.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 1</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>Len("<MadCap:variable name="Primary.Asta Asta Powerproject Name" />")</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft een waarde van 12.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 2</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>Len(Taak.Naam)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft een waarde van 9 bij een taak met de naam "Grondwerk".</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Opmerkingen</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">Wanneer u deze functie gebruikt om de lengte van tekststring in plaats van de inhoud van een veld te berekenen, moet de tekststring tussen dubbele aanhalingstekens staan.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>VindSpec(zoeken_tekst, in_tekst)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Geeft een getal terug dat de startpositie van de <b>zoeken_tekst</b> tekststring binnen de <b>in_tekst</b> weergeeft. Deze zoekactie is niet hoofdlettergevoelig.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 1</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>VindSpec("grond", Taak.Naam)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft de waarde 1 terug voor een taak met de naam "Grondwerk", 6 terug voor een taak met de naam "Ondergrond" en 0 voor een taak met de naam "Bekisting" (het nul resultaat geeft aan dat de <b>zoeken_tekst</b> tekststring niet kan worden gevonden in de <b>in_tekst</b>).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 2</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>Als(VindSpec("probleem", Voorbeeld) &gt; 0, Hoog, Geen)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Een stoplicht indicator die de prioriteit hoog toont voor alle taken met opmerkingen die het woord "probleem" bevatten (ongeacht de letterkast weergave), en geen prioriteit toont voor alle andere taken.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Opmerkingen</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">Deze functie is nuttig om taken te identificeren die een bepaalde tekststring in hun naam of opmerkingen bevatten.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>VindAlles(zoeken_tekst, in_tekst)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Geeft een getal terug dat de startpositie van de <b>zoeken_tekst</b> tekststring binnen de <b>in_tekst</b> weergeeft. Deze zoekactie is hoofdlettergevoelig.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 1</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>VindAlles("grond", Taak.Naam)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft de waarde 1 terug voor een taak met de naam "grondwerk", 0 voor een taak met de naam "Grondwerk", 6 voor een taak met de naam "Ondergrond" en 0 voor een taak met de naam "Bekisting" (het nul resultaat geeft aan dat de <b>zoeken_tekst</b> tekststring niet kan worden gevonden in de <b>in_tekst</b>).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 2</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>Als(VindAlles("PROBLEEM", Voorbeeld) &gt; 0, Hoog, Geen)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Een stoplicht indicator die de prioriteit hoog toont voor alle taken met opmerkingen die het woord "PROBLEEM" in hoofdlettertekens bevatten, en geen prioriteit toont voor alle andere taken.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Opmerkingen</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">Deze functie is identiek aan de <b>VindSpec</b> functie, behalve het feit dat de zoekactie hoofdlettergevoelig is.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Type modificatie functies</h2>
+        <p>U voegt deze functies in bij formules om tekststrings van het ene type naar tekststrings van een ander type te converteren.</p>
+        <h3>Integer(waarde)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Converteert een numerieke waarde naar een geheel getal - d.w.z. een positief of negatief getal zonder decimalen.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>Integer(123.2344)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft de waarde 123 terug.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Opmerkingen</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">U zou deze functie kunnen gebruiken om een waarde naar een integer te converteren alvorens deze verder te gebruiken in een andere formule functie.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Tekst(waarde)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Converteert een waarde naar een tekststring.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>Als(VindSpec("06/2013", Tekst(Taak.Start)) &gt; 0, Hoog, Geen)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Een stoplicht indicator die de prioriteit hoog toont voor alle taken met een startdatum die de tekststring "06/2013" bevat (d.w.z. die taken die ergens in Juni 2013 starten), en geen prioriteit toont voor alle andere taken.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Opmerkingen</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">U zou deze functie kunnen gebruiken om een waarde naar een tekststring te converteren om deze te onderzoeken met een van de <b>Len</b>, <b>VindSpec</b> of <b>VindAlles</b> functies, zoals in het bovenstaande voorbeeld.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Waarde(tekst)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Converteert de numerieke elementen van een tekststring naar een waarde.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>Als(Allocatie &gt;= Waarde("10 Mensen"), Hoog, Laag)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Een stoplicht indicator die de prioriteit hoog toont voor alle hulpmiddelallocaties met een allocatie waarde groter of gelijk aan 10, en lage prioriteit toont voor alle andere taken.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Opmerkingen</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">U zou deze functie kunnen gebruiken om de numerieke elementen van een tekststring naar een waarde te converteren, om dit te kunnen vergelijken met een andere waarde, zoals in het bovenstaande voorbeeld.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Hyperlink(tekst)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Converteert een tekststring naar een hyperlink, en zet deze om in blauw, met '<b>ALT</b>-klik om te activeren' gedrag.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 1</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>Hyperlink(Taak.Voorbeeld)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Toont de inhoud van het Voorbeeld veld van een taak en zet deze om in blauw, met '<b>ALT</b>-klik om te activeren' gedrag.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 2</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>Hyperlink("http://www.elecosoft.nl")</b>
+                        </p>
+                        <p class="ParagraphsInTables">Toont de bovenstaande tekststring en zet deze om in blauw, met '<b>ALT</b>-klik om te activeren' gedrag.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Opmerkingen</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">Het is mogelijk om URL's in gebruikersvelden in te voegen en daarnaar toe laten refereren met tabelvelden. Wanneer een veld met een URL binnen een formule wordt gebruikt, zal de URL automatisch herkend worden en omgezet worden. Deze identificatie en omzetting raakt echter verloren als een operatie zoals een concatenatie (via de <b>&amp;</b> operator) op het veld wordt uitgevoerd, resulterend in een platte tekststring. Deze functie is in zulke omstandigheden nuttig, omdat u deze kunt gebruiken om te identificeren dat zulk een tekststring een URL is, wat er weer voor zorgt dat ze opnieuw juist wordt omgezet.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Conditionele evaluatie functies</h2>
+        <p>U voegt deze functies in bij formules  om bepaalde condities te testen.</p>
+        <h3>Als(exp1, exp2, exp3)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Evalueert <b>exp1</b> en geeft <b>exp2</b> terug wanneer <b>exp1</b> waar is, of <b>exp2</b> wanneer <b>exp1</b> onwaar is.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 1</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>Als(Taak.Naam = "Dakdekken", Hoog, Geen)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Een stoplicht indicator die de prioriteit hoog toont voor alle taken met de naam "Dakdekken", en geen prioriteit toont voor alle andere taken.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Voorbeeld 2</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>Als(VindSpec("probleem", Voorbeeld) &gt; 0, Hoog, Geen)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Een stoplicht indicator dat prioriteit hoog toont voor alle taken met opmerkingen die het woord "probleem" bevatten, en geen prioriteit toont voor alle andere taken.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Kies(optie, match1, exp1, match2, exp2, ...)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <span>Probeert</span>
+                        <span style="font-weight: bold;font-style: italic;"> optie </span>
+                        <span>te matchen met één van de</span>
+                        <span style="font-weight: bold;font-style: italic;"> match </span>
+                        <span>parameters en geeft de corresponderende</span>
+                        <span style="font-weight: bold;font-style: italic;"> exp </span>
+                        <span>waarde terug.</span>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>Kies(Taak.Naam, "Grondwerk", "Fase 1", "Metselen", "Fase 2")</b>
+                        </p>
+                        <p class="ParagraphsInTables">Toont "Fase 1" voor taken met de naam "Grondwerk", "Fase 2" voor taken met de naam "Metselen" en niets voor all andere taken.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Opmerkingen</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">U moet deze functie insluiten binnen een <b>Probeer()</b> functie wanneer er een kans is dat  <b>optie</b> parameter met geen enkele van de <b>match</b> parameters matcht .</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Wissel(test1, exp1, test2, exp2, ...)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Evalueert de <b>test</b> parameters op volgorde en geeft de <b>exp</b> parameter terug die hoort bij de eerste <b>test</b> parameter die waar is.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>Wissel(Kosten &lt; [~HB].Kosten, "Onder het budget", Kosten = [~HB].Kosten, "Volgens budget", Kosten &gt; [~HB].Kosten, "Boven het budget")</b>
+                        </p>
+                        <p class="ParagraphsInTables">Toont "Onder het budget" voor taken met kosten lager dan die van de huidige baseline, "Volgens budget" voor taken met kosten gelijk aan die van de huidige baseline en "Boven het budget" voor taken met kosten hoger dan die van de huidige baseline.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Opmerkingen</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">U moet deze functie insluiten binnen een <b>Probeer()</b> functie wanneer er een kans is dat geen enkele van de <b>test</b> parameters waar is.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Foutafhandelings functies</h2>
+        <p>Er is één foutafhandelingsfunctie - <b>Probeer()</b> - die u zou moeten gebruiken om formules te omsluiten waarbij er een kans is dat de formule niets terug zou kunnen geven. Wanneer een formule niet is opgesloten tussen de <b>Probeer()</b> functie, zou het in zulke situaties een foutmelding kunnen weergeven; Wanneer het wel is opgesloten tussen de <b>Probeer()</b> functie, kunt u specificeren wat er zou moeten worden weergegeven worden wanneer de formule niets teruggeeft - of kunt u specificeren dat er niets zou moeten worden teruggegeven.</p>
+        <h3>Probeer(exp, &lt;alternatief&gt;)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Geeft het resultaat van de <b>exp</b> formule wanneer die formule geen fouten bevat; wanneer er een fout is in de formule, wordt de <b>&lt;alternatief&gt;</b> parameter teruggegeven indien die is gespecificeerd, of wordt er niets teruggegeven wanneer de <b>&lt;alternatief&gt;</b> parameter niet is gespecificeerd.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 1</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>Probeer(Kies(Taak.Naam, "Grondwerk", "Fase 1", "Metselwerk", "Fase 2"), "Andere Fase")</b>
+                        </p>
+                        <p class="ParagraphsInTables">Toont "Fase 1" voor taken met de naam "Grondwerk", "Fase 2" voor taken met de naam "Metselwerk" en "Andere Fase" voor alle andere taken.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 2</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>Probeer(Kies(Taak.Naam, "Grondwerk", "Fase 1", "Metselwerk", "Fase 2"))</b>
+                        </p>
+                        <p class="ParagraphsInTables">Toont "Fase 1" voor taken met de naam "Grondwerk", "Fase 2" voor taken met de naam "Metselwerk" en niets voor alle andere taken (omdat er geen <b>&lt;alternatief&gt;</b> parameter is gespecificeerd).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Opmerkingen</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">Er kunnen in formules vanwege een aantal redenen fouten optreden. Bijvoorbeeld, het zou kunnen dat u probeert te verwijzen naar een data-item dat niet bestaat, of dat u parameter evalueert zonder rekening te houden met de mogelijkheid dat andere waarden erbij betrokken kunnen zijn - zoals in voorbeelden hierboven.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Valuta conversie functies</h2>
+        <p>Er is maar één valutaconversie functie - <b>ConvValuta()</b> - die u kunt invoegen bij formules om een bepaalde waarde te converteren naar dezelfde valuta als een andere waarde.</p>
+        <h3>ConvValuta(waarde, valuta, &lt;baseline_referentie&gt;)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Converteert de <b>waarde</b> parameter naar de valuta waarin de <b>valuta</b> parameter is gespecificeerd. U kunt optioneel  een baseline specificeren om het conversie tarief van een specifieke baseline te ontleden.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 1</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>ConvValuta(Kosten, Inkomsten)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Converteert de kosten van een item naar de valuta-eenheid waarin de inkomsten van het item zijn gespecificeerd en toont de geconverteerde kosten in deze valuta.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 2</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>ConvValuta(Kosten, Inkomsten, HB)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Converteert de kosten van een item naar de valuta-eenheid waarin de inkomsten van het item zijn gespecificeerd en gebruikt daarbij de wisselkoers die staat gedefinieerd bij de valuta-eenheid in de huidige baseline, en toont de geconverteerde kosten in deze valuta.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Opmerkingen</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">Deze functie kan bijvoorbeeld nuttig zijn wanneer de kosten van een taak worden berekend in euro's maar de inkomsten worden berekend in dollars, en u wilt dat ze beiden in dezelfde valuta worden weergegeven.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Datum en duur functies</h2>
+        <p>U voegt deze functies in bij formules om datums en duren te manipuleren.</p>
+        <h3>ConvDuur(duur, referentie_duur, referentie_datum, &lt;kalender&gt;, &lt;baseline_referentie&gt;)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Converteert de <b>duur</b> parameter naar de duur waarin de <b>referentie_duur</b> parameter staat gespecificeerd. U kunt optioneel een kalender en een baseline specificeren om de <b>referentie_duur</b> en <b>referentie_datum </b>parameters uit een specifieke kalender, optioneel uit een baseline, te ontleden.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>ConvDuur(Samenvattingstaak.Duur, '1vd', Samenvattingstaak.Start, Samenvattingstaak.Kalender) - ConvDuur(Duur, '1vd', Samenvattingstaak.Start, Kalender)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Converteert de duur van de hogerniveau samenvattingstaak van een item in verstreken dagen, volgens de kalender die toegepast is op de samenvattingstaak van het item, converteert de duur van het item zelf in verstreken dagen, volgens de kalender die is toegepast op het item zelf, en trekt vervolgens de duur van het item af van de duur van de samenvattingstaak. Beide conversies worden geëvalueerd met de verwijzing naar de startdatum van de samenvattingstaak.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Opmerkingen</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">Deze functie kan bijvoorbeeld nuttig zijn wanneer u tijdseenheid overrules gebruikt en u een werktijd duur wilt converteren naar een verstreken duur met een verwijzing naar een bepaalde kalender alvorens het te vergelijken met een duur die een andere kalender zou kunnen gebruiken, zoals in het bovenstaande voorbeeld het geval is.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>IsWerkTijd(duur)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Evalueert de duur van een object en geeft aan of deze is ingevoerd in werktijd of in verstreken tijd.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Voorbeeld</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>IsWerkTijd(duur)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Toont een ingeschakeld selectievakje voor objecten met een duur die is ingevoerd in werktijd, en een uitgeschakeld selectievakje voor objecten met een duur die is ingevoerd in verstreken tijd (of in een combinatie van werktijd en verstreken tijd).</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>IsVerstrekenTijd(duur)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Evalueert de duur van een object en geeft aan of deze is ingevoerd in werktijd of in verstreken tijd.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Voorbeeld</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>IsVerstrekenTijd(duur)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Toont een ingeschakeld selectievakje voor objecten met een duur die is ingevoerd in verstreken tijd, en een uitgeschakeld selectievakje voor objecten met een duur die is ingevoerd in werktijd (of in een combinatie van werktijd en verstreken tijd).</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>DatumVerschil(datum 1, datum 2, &lt;kalender&gt;, &lt;baseline_referentie&gt;)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Geeft de duur, berekend in werktijd volgens de standaard kalender, tussen de twee gespecificeerde datums. U kunt optioneel een kalender en een baseline specificeren om het verschil tussen de twee datums met een andere kalender dan de standaardkalender te berekenen, optioneel van een baseline.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 1</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>DatumVerschil(Vandaag, Taak.Start)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft de duur tussen de datum van vandaag en de startdatum van taken, berekend in werktijd volgens de standaard kalender.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 2</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>DatumVerschil(Taak.Einde, JaarEinde, 2557)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft de duur tussen de einddatum van taken en het jaareinde, berekend in werktijd volgens de kalender met het object ID 2557.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 3</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>DatumVerschil(Taak.Einde, JaarEinde, Taak.Kalender)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft de duur tussen de einddatum van taken en het jaareinde, berekend in werktijd volgens de kalender toegewezen aan elke taak.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 4</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>DatumVerschil(ProjectStart, Taak.Start, 2557, HB)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft de duur tussen de startdatum van het project en de startdatum van taken in de huidige baseline, berekend in werktijd volgens de kalender met het object ID 2557.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Opmerkingen</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">Het resultaat zal negatief zijn wanneer de <b>datum 1</b> parameter de <b>datum 2</b> parameter overschrijdt.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>VerstrekenDatumVerschil(datum 1, datum 2)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Geeft de duur, berekend in verstreken tijd, tussen de twee gespecificeerde datums.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>VerstrekenDatumVerschil(Vandaag, Taak.Start)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft de duur tussen de datum van vandaag en de startdatum van taken, berekend in verstreken tijd.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Opmerkingen</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">Het resultaat zal negatief zijn wanneer de <b>datum 1</b> parameter de <b>datum 2</b> parameter overschrijdt.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>ToevoegenDuur(datum, duur, &lt;kalender&gt;, &lt;baseline_referentie&gt;)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Voegt de duur parameter toe aan de <b>datum </b>parameter en geeft de resulterende datum terug. Wanneer de duur parameter wordt gespecificeerd in werktijd, wordt ze berekend volgens de standaard kalender. U kunt optioneel een andere kalender en een baseline  opgeven voor de gespecificeerde duur met een andere kalender dan de standaard kalender, optioneel van een baseline.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 1</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>ToevoegenDuur(Taak.Start, '1w')</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft de datum die resulteert door het optellen van 1 werkweek volgens de standaard kalender bij de startdatum van taken.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 2</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>ToevoegenDuur(Taak.Einde, '-3d')</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft de datum die resulteert door het aftrekken 3 werkdagen volgens de standaard kalender van de einddatum van taken.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 3</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>ToevoegenDuur(Taak.Start, '1vw')</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft de datum die resulteert door het optellen van 1 verstreken week bij de startdatum van taken.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 4</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>ToevoegenDuur(Taak.Start, '1w', 2557)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft de datum die resulteert door het optellen van 1 werkweek volgens de kalender met het object ID 2557 bij de startdatum van taken.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 5</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>ToevoegenDuur(Taak.Start, '1w', Taak.Kalender)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft de datum die resulteert door het optellen van 1 werkweek volgens de kalender toegewezen aan elke taak bij de startdatum van taken.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 6</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>ToevoegenDuur(Taak.Start, '1w', 2557, PB)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft de datum die resulteert door het optellen van 1 werkweek volgens de kalender met het object ID 2557, ontleend aan de project baseline, bij de startdatum van taken.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Voorbeeld 7</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>ToevoegenDuur(Taak.Start, '1w', 2557, 2</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft de datum die resulteert van het toevoegen van 1 werkweek volgens de kalender met het object ID 2557, ontleend aan de baseline nummer 2, bij de startdatum van taken.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>ZetTijd(datum, &lt;tijd&gt;)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Geeft de datum die gespecificeerd staat in de <b>datum </b>parameter terug, met daaraan toegevoegd de tijd die gespecificeerd staat in de &lt;<b>tijd&gt;</b> parameter. Wanneer de <b>&lt;tijd&gt;</b> parameter niet is opgegeven, wordt de huidige tijd toegevoegd aan de datum - en wordt dit telkens bijgewerkt wanneer de view ververst wordt.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 1</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>ZetTijd(Vandaag)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft de datum van vandaag terug, met daar achteraan toegevoegd de huidige tijd.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Voorbeeld 2</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>ZetTijd(Taak.Start, '09:45')</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft de startdatum van taken terug, met daar achteraan toegevoegd de tijd 09:45.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>PeriodeDatum(voortgangs_periode)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Geeft de voortgangsdatum terug van de voortgangsperiode met het object ID die gespecificeerd staat in de <b>voortgangs_periode</b> parameter.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Voorbeeld</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>PeriodeDatum(4533)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft de voortgangsdatum terug van de voortgangsperiode met het object ID 4533.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Context helper functies</h2>
+        <p>U voegt deze functies in bij formules om zich te verzekeren van het objecttype dat wordt weergegeven in een tabelrij.</p>
+        <h3>
+            <a name="ContextType_function">
+            </a>ContextType()</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Geeft een numerieke waarde terug voor  het objecttype dat wordt weergegeven in een tabelrij: 0 voor allocatie-rijen (AllocationContext), 1 voor taak-rijen (TaakContext), 2 voor balk-rijen (BalkContext) en 3 voor sorteerlint-rijen (SorteerLintContext). U kunt gebruik maken van de enumeratieve waarden van deze functie (die hierboven tussen haakjes staan) om formules te creëren die verschillende uitkomsten tonen afhankelijk van het huidige contexttype, zoals in het tweede  voorbeeld hieronder geïllustreerd wordt.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 1</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>ContextType()</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft een numerieke waarde terug voor het objecttype dat elke tabelrij vertegenwoordigt.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Voorbeeld 2</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>Als(ContextType() = AllocatieContext, "Inspanning= " &amp; Inspanning, "Duur = " &amp; Duur)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft de hoeveelheid inspanning terug voor tabelrijen met allocaties en geeft de hoeveelheid duur terug voor tabelrijen met taken, balken en sorteerlinten.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>ObjectContext()</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Geeft de naam terug van het object die elke tabelrij vertegenwoordigt.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Voorbeeld</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>"Dit is " &amp; ObjectContext ()</b>
+                        </p>
+                        <p class="ParagraphsInTables">Toont de tekst "Dit is ", gevolgd door de naam van het object die elke tabelrij vertegenwoordigt.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>BaselineContext()</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Geeft de numerieke baseline identifier terug voor de huidige context, d.w.z. een positief getal voor de baseline ID of -1 (AP) voor het actuele project. U kunt deze functie gebruiken om formules te creëren die verschillende dingen tonen afhankelijk van bepaalde baselines, of voor baseline tabelrijen in het algemeen, zoals geïllustreerd in het onderstaande voorbeeld.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Voorbeeld</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>Als(BaselineContext() = -1, Wissel(Kosten &gt; '€10000', Hoog, Kosten &gt; '€1000', Gemiddeld, Kosten &gt; '€100', Laag, WAAR, Geen), Geen)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Een stoplicht indicator die hoge, gemiddelde of lage prioriteit toont voor taken in de actuele projectdata afhankelijk van hun kosten, en geen prioriteit toont voor taken in een baseline.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Project en gebruikergedefinieerde data functies</h2>
+        <p>U voegt de volgende functies in bij formules om te kunnen verwijzen naar gegevens van de project velden die aanwezig zijn op het <b>Velden</b> tabblad van het <b>Eigenschappen</b> dialoogvenster (te bereiken via het klikken op <b>Geavanceerde Eigenschappen</b> op het <b>Eigenschappen</b> tabblad van de Backstage view) en om te verwijzen naar gegevens van gebruikersvelden en gebruikerstabellen.</p>
+        <h3>ProjectBool(index)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Geeft de waarde van de <b>Boolean</b> kolom op het <b>Velden</b> tabblad van het <b>Eigenschappen</b> dialoogvenster, in de rij gedefinieerd door de <b>index</b> parameter.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Voorbeeld</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>ProjectBool(3)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Toont een selectievakje dat gelijk is aan de <b>Boolean</b> kolom op de derde rij van het <b>Velden</b> tabblad van het <b>Eigenschappen</b> dialoogvenster.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>ProjectInteger(index)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Geeft de waarde van de <b>Integer</b> kolom op het <b>Velden</b> tabblad van het <b>Eigenschappen</b> dialoogvenster, in de rij gedefinieerd door de <b>index</b> parameter.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Voorbeeld</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>ProjectInteger(6)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft de integer terug die staat opgeslagen in de <b>Integer</b> kolom op de zesde rij van het <b>Velden</b> tabblad van het <b>Eigenschappen</b> dialoogvenster.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>ProjectFloat(index)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Geeft de waarde van de <b>Float</b> kolom op het <b>Velden</b> tabblad van het <b>Eigenschappen</b> dialoogvenster, in de rij gedefinieerd door de <b>index</b> parameter.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Voorbeeld</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>ProjectFloat(2)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft het getal terug dat staat opgeslagen in de <b>Float</b> kolom op de tweede rij van het <b>Velden</b> tabblad van het <b>Eigenschappen</b> dialoogvenster.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>ProjectDatum(index)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Geeft de waarde terug van de <b>Datum/Tijd</b> kolom op het <b>Velden</b> tabblad van het <b>Eigenschappen</b> dialoogvenster, in de rij gedefinieerd door de <b>index</b> parameter.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Voorbeeld</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>ProjectDatum(1)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft de datum die staat opgeslagen in de <b>Datum/Tijd</b> kolom op de eerste rij van het <b>Velden</b> tabblad van het <b>Eigenschappen</b> dialoogvenster.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>ProjectDuur(index)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Geeft de waarde terug van de <b>Duur</b> kolom op het <b>Velden</b> tabblad van het <b>Eigenschappen</b> dialoogvenster, in de rij gedefinieerd door de <b>index</b> parameter.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Voorbeeld</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>ProjectDuur(8)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft de duur terug die staat opgeslagen in de <b>Duur</b> kolom op de achtste rij van het <b>Velden</b> tabblad van het <b>Eigenschappen</b> dialoogvenster.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>ProjectString(index)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Geeft de waarde terug van de <b>Tekst</b> kolom op het <b>Velden</b> tabblad van het <b>Eigenschappen</b> dialoogvenster, in de rij gedefinieerd door de <b>index</b> parameter.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Voorbeeld</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>ProjectString(5)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft de tekststring terug die staat opgeslagen in de <b>Tekst</b> kolom op de vijfde rij van het <b>Velden</b> tabblad van het <b>Eigenschappen</b> dialoogvenster.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>GV(naam)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Geeft de inhoud van het gebruikersveld terug dat staat gespecificeerd in de <b>naam</b> parameter.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 1</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>GV("Mijn_veld")</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft de inhoud terug van het gebruikersveld met de naam "Mijn_veld".</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 2</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>Als(VindSpec("probleem", GV("Mijn_veld")) &gt; 0, Hoog, Geen)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Een stoplicht indicator die de prioriteit hoog toont voor alle taken met een teksttype gebruikersveld met de naam "Mijn_veld" waarin het woord "probleem" staat, en geen prioriteit toont voor alle andere taken.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Opmerkingen</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">Merk op dat de naam van het gebruikersveld  tussen dubbele aanhalingstekens moet staan.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>GT(naam, kolom, &lt;rij_index&gt;)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Geeft de inhoud terug van het <b>kolom</b> veld binnen de <b>naam</b> gebruikerstabel. Wanneer de  <b>&lt;rij index&gt;</b> parameter ontbreekt, bevat de resulterende tekststring alle items in de <b>kolom</b> in komma-gescheiden lijst; wanneer de <b>&lt;rij_index&gt;</b> parameter wel wordt gespecificeerd, bevat de resulterende tekststring alleen de inhoud van de rij met dat indexnummer.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 1</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>GT("Mijn_tabel", "Mijn_kolom")</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft de complete inhoud terug van het "Mijn_kolom" veld in de gebruikerstabel "Mijn_tabel", met alle items in een komma-gescheiden lijst.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 2</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>GT("Mijn_tabel", "Mijn_kolom", 2)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft de inhoud terug van de tweede rij van het "Mijn_kolom" veld in de gebruikerstabel "Mijn_tabel".</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Opmerkingen</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">Merk op dat de namen van de gebruikerstabel en van de kolom daarin tussen dubbele aanhalingstekens moeten staan.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>GE(naam, index)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Binnen de gebruikersenumerator gespecificeerd in de <b>naam</b> parameter, geeft de naam terug van het item op de positie die gespecificeerd wordt door de <b>index</b> parameter.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>GE("Mijn_enumerator", 3)</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft de naam terug van het derde item van de gebruikersenumerator "Mijn_enumerator".</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Voorbeeld</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">Merk op dat de naam van de gebruikersenumerator  tussen dubbele aanhalingstekens moet staan.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>GEIndex(naam, tekst)</h3>
+        <table class="TableStyle-Table_Stylesheet_No_Gridlines" style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Binnen de gebruikersenumerator gespecificeerd in de <b>naam</b> parameter, geeft het indexnummer terug van het item waarvan de naam is ingevoerd in de <b>tekst</b> parameter.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">
+                            <b>GEIndex("Mijn_enumerator", "Type")</b>
+                        </p>
+                        <p class="ParagraphsInTables">Geeft het indexnummer terug van het "Type"-genoemde item van de gebruikersenumerator "Mijn_enumerator".</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyB-Column1-Body1" style="font-weight: bold;">Opmerkingen</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">Merk op dat de naam van de gebruikersenumerator en de naam van het item tussen dubbele aanhalingstekens moeten staan</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p>
+            <a href="Formulae_components.htm">De samenstellende componenten van een formule</a>
+        </p>
+        <p>
+            <a href="Formulae_symbols.htm" xmlns="">Formule symbolen nader verklaard</a>
+        </p>
+        <p>
+            <a href="Formulae_fields.htm">Formule velden nader verklaard</a>
+        </p>
+        <p>
+            <a href="Formulae_objects.htm" xmlns="">Formule objecten nader verklaard</a>
+        </p>
+        <p>
+            <a href="Formulae_creating.htm" xmlns="">Creëren van formules</a>
+        </p>
+        <p>
+            <a href="Formulae_examples.htm" xmlns="">Voorbeeldformules</a>
+        </p>
+    </body>
+</html>

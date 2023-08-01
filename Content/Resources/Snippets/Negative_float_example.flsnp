@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>In de volgende afbeelding betekenen de conflicterende vlaggen op de Starten op vlag bij taak 1 en de Eindigen op vlag bij taak 3 dat er niet genoeg tijd is om alle drie de taken te voltooien:</p>
+        <p>
+            <img src="../../Graphics/Quality_check/negativefloat1.gif" alt="The conflicting constraints on Start On constraint on Task 1 and the Finish On constraint on Task 3 mean that there is not enough time for all three tasks to be completed">
+            </img>
+        </p>
+        <p>Na een herberekening zorgen deze conflicterende vlaggen ervoor dat Taak 1 negatieve speling heeft, wat staat voor tijd die echt moet worden ingehaald. Een taak met een negatieve speling is in feite superkritiek:</p>
+        <p>
+            <img src="../../Graphics/Quality_check/negativefloat2.gif" alt="Following a reschedule, these conflicting constraints cause Task 1 to have negative float">
+            </img>
+        </p>
+        <p>Na de herberekening heeft de eerste taak een negatieve speling, wat staat voor tijd die echt moet worden ingehaald. Merk op dat in dit voorbeeld alle drie de taken kritiek worden. Een taak met negatieve speling is in feite superkritiek.</p>
+    </body>
+</html>

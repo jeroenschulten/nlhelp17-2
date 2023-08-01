@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" xml:lang="nl-nl" class="KLAAR-NL">
+    <head>
+        <link href="../../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>'Link logica' kwaliteitscriterium </h1>
+        <p>U gebruikt dit kwaliteitscriterium om het aandeel taken met minstens één <a href="../Intro_project_management/Creating_relationships_between_tasks.htm">voorgangertaak</a> en minstens één <a href="../Intro_project_management/Creating_relationships_between_tasks.htm">opvolgertaak</a> te checken. Een groot aandeel matig-gelinkte taken kan erop wijzen dat de linklogica van een planning foutgevoelig is. </p>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_3.flsnp" />
+        </p>
+        <p>De start taak van een project zal geen voorganger taken hebben en de eind taak zal geen opvolger taken hebben. U kunt ervoor kiezen om de start en einde taken in een project uit te sluiten bij dit kwaliteitscriterium. <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_35.flsnp" /> Schakel het <b> Start/einde activiteiten</b> selectievakje in om de start en einde taken uit te sluiten bij dit kwaliteitscriterium.  <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_36.flsnp" /></p>
+        <p>Met het selectievakje <b>Start/einde activiteiten</b> ingeschakeld en de slaag- en faalgrenzen ingesteld op 100,00%, voldoet dit kwaliteitscriterium aan de vereisten van CIOB-stresstest 1 (logische links). Met het selectievakje <b>Start/einde activiteiten</b> ingeschakeld en de slaag- en faal-grenzen ingesteld op 95,00%, voldoet dit kwaliteitscriterium aan de vereisten van DCMA-test 1 (logica).</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Voorbeelden van taken met een ontbrekende link logica</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In de volgende afbeelding heeft Task 2 een opvolgertaak maar geen voorgangertaak; Taak 3 heeft een voorgangertaak maar geen opvolgertaak . Beide taken zouden falen voor dit kwaliteitscriterium.</p>
+                <p>
+                    <img src="../../../Graphics/Quality_check/linklogic.gif" alt="Task 2 has a successor task but no predecessor task; Task 3 has a predecessor task but no successor task" />
+                </p>
+                <p>Wanneer het selectievakje <b>Start/einde activiteiten</b> zou zijn ingeschakeld, zouden Task 1 en Task 4 - de start en de einde taken - uitgesloten worden voor dit kwaliteitscriterium; wanneer echter het selectievakje <b>Start/einde activiteiten</b> zou zijn uitgeschakeld, zouden Task 1 en Task 4 wel meegenomen worden en zouden ze beide falen voor dit kwaliteitscriterium, omdat Task 1 een voorgangertaak mist en Task 4 een opvolgertaak mist.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_2.flsnp" />
+        </p>
+        <h2>Slaag en faal criteria</h2>
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Slaagt of faalt?</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Criteria</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #afffaf;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Slaagt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Een project slaagt op dit criterium wanneer het percentage taken met minstens één voorgangertaak en minstens één opvolgertaak groter dan of gelijk is aan het slaaggrens percentage. </p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Wanneer bijvoorbeeld de slaaggrens ingesteld stond op 95,00%, zou een project op dit criterium slagen wanneer 95,00% of meer van de taken minstens één voorgangertaak en minstens één opvolgertaak heeft.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #ff6464;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Een project faalt op dit criterium wanneer het percentage taken met minstens één voorgangertaak en minstens één opvolgertaak kleiner is dan het faalgrens percentage. </p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Wanneer bijvoorbeeld de faalgrens ingesteld stond op 85,00%, zou een project op dit criterium falen wanneer minder dan 85,00% van de taken minstens één voorgangertaak en minstens één opvolgertaak heeft.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="background-color: #ffaf45;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;">Slaagt noch faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Wanneer het percentage taken met minstens één voorgangertaak en minstens één opvolgertaak valt tussen het slaaggrens en het faalgrens percentage, is het resultaat noch geslaagd noch gefaald, maar ligt dat ergens daartussenin.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Standaard voorgestelde instellingen</h2>
+        <ul xmlns="" type="disc">
+            <li>Start/einde activiteiten: ingeschakeld als het om het hele project gaat; uitgeschakeld als het maar om een gedeelte van het project gaat.</li>
+            <li>Slaaggrens: 95,00%. Een project zal slagen voor dit criterium als 95,00% of meer van de taken minstens één voorgangertaak en minstens één opvolgertaak heeft.</li>
+            <li>Faalgrens: 85,00%. Een project zal falen voor dit criterium als minder dan 80,00% van de taken minstens één voorgangertaak en minstens één opvolgertaak heeft.</li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_39.flsnp" />
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Percentage  taken met minstens één voorgangertaak en minstens één opvolgertaak</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Slaagt of faalt?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">0,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">50,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">84,99%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">85,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Slaagt noch faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">85,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Slaagt noch faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">94,99%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Slaagt noch faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">95,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Slaagt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1">100,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Slaagt</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Voorgestelde instellingen om te voldoen aan de vereisten van CIOB stress test 1 (Logica links)</h2>
+        <ul xmlns="" type="disc">
+            <li>Start/einde activiteiten: ingeschakeld.</li>
+            <li>Slaaggrens: 100,00%. Een project zal slagen voor dit criterium als  alle taken minstens  één voorgangertaak en minstens één opvolgertaak heeft.</li>
+            <li>Faalgrens: 100,00%. Een project zal falen voor dit criterium als een van de taken niet minstens één voorgangertaak en minstens één opvolgertaak heeft.</li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_39.flsnp" />
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Percentage taken met minstens één voorgangertaak en minstens één opvolgertaak</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Slaagt of faalt?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">0,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">50,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">99,99%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1">100,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Slaagt</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Voorgestelde instellingen om te voldoen aan de vereisten van DCMA test 1 (Logica)</h2>
+        <ul xmlns="" type="disc">
+            <li>Start / einde activiteiten: ingeschakeld.</li>
+            <li>Slaaggrens: 95,00%. Een project zal slagen voor dit criterium als 95,00% of meer van de taken minstens één voorgangertaak en minstens één opvolgertaak heeft.</li>
+            <li>Faalgrens: 95,00%. Een project zal falen voor dit criterium als minder dan 95,00% van de taken minstens één voorgangertaak en minstens één opvolgertaak heeft.</li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_39.flsnp" />
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Percentage taken met minstens één voorgangertaak en minstens één opvolgertaak</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Slaagt of faalt?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">0,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">50,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">94,99%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">95,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Slaagt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1">100,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Slaagt</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Forceert dit criterium dat het project wordt herberekend?</h2>
+        <p>Nee</p>
+        <h2>Voorgestelde acties als een project faalt voor dit criterium</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_37.flsnp" />
+        <p><a href="../Starting_work/Linking_tasks/Linking_tasks.htm">Zorg ervoor dat alle falende taken correct gelinkt</a> zijn aan hun voorgangertaken en aan hun opvolgertaken .</p>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="Checking_quality_intro.htm">Introductie over planningskwaliteitchecks</a>
+        </p>
+        <p><a href="../Intro_project_management/Creating_relationships_between_tasks.htm">Relaties tussen taken aanbrengen</a>
+        </p>
+        <p><a href="../Starting_work/Linking_tasks/Linking_tasks.htm">Taken linken</a>
+        </p>
+    </body>
+</html>

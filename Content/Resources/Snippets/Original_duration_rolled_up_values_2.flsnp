@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>Om ervoor te zorgen dat <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> en Primavera-software in het Orignele duur veld - en in het veld Oorspronkelijke duurpercentage - dezelfde waarden weergeven voor bovenliggende taken, schakelt u de parameter <b>Totaliseren van waarden</b> uit voor deze velden in het <b>Tabel Definitie Eigenschappen</b> dialoogvenster.</body>
+</html>

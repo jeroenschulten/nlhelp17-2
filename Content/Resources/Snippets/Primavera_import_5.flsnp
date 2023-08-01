@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Als u een sjabloon wilt toepassen op het project dat u in <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> importeert, selecteert u de sjabloon in het veld <b>Gebruik sjabloon</b> en geeft u de gebruikersnaam en het wachtwoord op die nodig zijn om de sjabloon te openen (als er een gebruikersnaam en wachtwoord zijn ingesteld in de sjabloon). Als u geen sjabloon toepast, wordt het project geopend met een standaard balkkaart view die een standaardset tabelkolommen bevat.</p>
+    </body>
+</html>

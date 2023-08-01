@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>In sommige omstandigheden, bijvoorbeeld als u werkt met een project dat is gemaakt door een ander project te kopiëren en vervolgens taken daarbinnen verwijdert, kan <MadCap:variable name="Primary.Asta Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> unieke taak-ID's met onverwacht hoge waarden toewijzen. Dit komt omdat <MadCap:variable name="Primary.Asta Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> de unieke taak-ID's die zijn toegewezen in een cache opslaat, waarnaar het verwijst wanneer dat nodig is om te bepalen wat de volgende unieke taak-ID zou moeten zijn.</p>
+    </body>
+</html>

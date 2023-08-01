@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" class="KLAAR" xml:lang="nl-nl">
+    <head>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Business Intelligence;Rapporten:exporteren Business Intelligence gegevens;Business Intelligence:exporteren van gegevens naar Microsoft Excel;Exporteren:Business Intelligence gegevens;Business Intelligence:exporteren van gegevens naar een externe database;Business Intelligence Controller;Excel:exporteren van Business Intelligence gegevens naar;Microsoft Excel:exporteren van Business Intelligence gegevens naar" />Exporteren van Business Intelligence gegevens naar Microsoft Excel werkboek</h1>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/BI_intro.flsnp" />
+        <p>Wanneer u Business Intelligence gegevens naar een Microsoft Excel werkboek exporteert, worden gegevens geëxporteerd volgens een Business Intelligence exporteermodel, dat de informatie die geëxporteerd wordt definieert. <MadCap:snippetText src="../../../../Resources/Snippets/BI_2.flsnp" /></p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/BI_3.flsnp" />
+        <p>&#160;</p>
+        <p>U kunt specificeren of u wenst dat tijdgefaseerde data waarden die nul zijn uitgesloten worden bij de uitvoer. <MadCap:snippetText src="../../../../Resources/Snippets/BI_export_omit_zero_values_1.flsnp" /><MadCap:snippetText src="../../../../Resources/Snippets/BI_export_omit_zero_values_2.flsnp" /></p>
+        <p>Wanneer u Business Intelligence gegevens exporteert worden alleen gegevens die de toegangsrechten van uw security groep u toestaat te bekijken geëxporteerd.</p>
+        <p>Om Business Intelligence gegevens naar een Microsoft Excel werkboek te exporteren:</p>
+        <ol>
+            <li>Klik op het <b>Exporteer BI</b> commando om het <b xmlns="">Business Intelligence Export to Spreadsheet</b> dialoogvenster op te roepen. <MadCap:snippetText src="../../../../Resources/Snippets/BI_8.flsnp" /><br /><br /><MadCap:snippetText src="../../../../Resources/Snippets/BI_export_customise_Ribbon.flsnp" /></li>
+            <li>Selecteer het Business Intelligence exporteer model om op de gegevens bij het exporteren toe te passen in het <b>Model voor export </b>veld. U kunt kiezen uit elk van de <i xmlns="">*.compiled</i> bestanden die zich bevinden in een van de volgende mappen:<br xmlns="" /><MadCap:snippetBlock src="../../../../Resources/Snippets/BI_1.flsnp" /></li>
+            <li>Klik op <b>Bladeren</b> <MadCap:snippetText src="../../../../Resources/Snippets/BI_5.flsnp" /></li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/BI_export_omit_zero_values.flsnp" MadCap:changes="3" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/BI_6.flsnp" /> in het <b>Bestaande data</b> veld. Selecteer: <MadCap:snippetBlock src="../../../../Resources/Snippets/BI_4.flsnp" /></li>
+            <li>Klik op <b xmlns="">Exporteer</b> <MadCap:snippetText src="../../../../Resources/Snippets/BI_7.flsnp" /><br /></li>
+        </ol>
+        <p>U kunt nu over de gegevens rapporteren in Microsoft Excel.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Begrijpen van de Business Intelligence gegevens nadat deze geëxporteerd is naar Microsoft Excel</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>De werkelijke waarden die u in de Microsoft Excel-werkmap vindt, zijn afhankelijk van het project waaruit u gegevens hebt geëxporteerd.</p>
+                <p>De resulterende Microsoft Excel-werkmap bestaat uit een groot aantal tabbladen. Elk tabblad vertegenwoordigt een verzameling gegevens met betrekking tot een specifiek objecttype, of als resultaat van een TQL query. Elk tabblad in de werkmap komt overeen met een tabel in een relationele database. Het tabblad Balk bevat bijvoorbeeld informatie over balken in het project, met elke rij op het tabblad behorend bij een specifieke balk en elke kolom met betrekking tot een eigenschap van die balk.</p>
+                <p>De eerste vier kolommen helpen om het project te identificeren toen het werd geëxporteerd. U vindt deze informatie gedefinieerd op het tabblad planningData. Deze informatie is niet bijzonder zinvol bij het exporteren van één project, maar het kan van vitaal belang zijn als u gegevens uit meerdere projecten exporteert naar een database: u kunt het PlanningDataID gebruiken om waarden te groeperen die tot hetzelfde project behoren.</p>
+                <p>De vijfde kolom, BaselineID, is de waarde voor de huidige baseline op het moment van exporteren. Als een project geen baseline heeft, is deze kolom leeg.</p>
+                <p>Alle overige waarden zijn eigenschappen van de balk zelf. De meeste van deze waarden kunnen worden bevestigd in <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> door het selecteren van een balk en het bekijken van het eigenschappen dialoogvenster.</p>
+                <p>Het is het beste om ongewenste kolommen te verwijderen uit uw Business Intelligence export model zodra u de kolommen hebt geïdentificeerd die u nodig hebt voor uw rapport.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>Wanneer geen van de standaard meegeleverde Business Intelligence Exporteer modellen precies aan uw eisen voldoet, kan Elecosoft BV een model voor u op maat maken. <a href="mailto:nl-info@elecosoft.com">Neem contact op met onze Verkoopafdeling</a> voor meer informatie.</p>
+        <p>Wanneer u meer rapportage kracht nodig heeft dan u aangeboden wordt met het exporteren van Business Intelligence informatie naar Microsoft Excel, dan kunt u de Business Intelligence Controller applicatie downloaden en installeren, die u in staat stelt om de gegevens naar een externe database te exporteren. Voor meer informatie hierover, <a href="mailto:nl-support@elecosoft.com">neem contact op met onze Technische Support afdeling</a>.</p>
+        <p>Het exporteren van Business Intelligence gegevens is niet beschikbaar in <MadCap:variable name="Primary.Asta Asta Powerproject SaaS Name" />.</p>
+        <p class="RelatedTopics">Verwante Onderwerpen</p>
+        <p>
+            <a href="../Tabular_reports/Producing_tabular_reports.htm">Produceren van tabellarische rapporten</a>
+        </p>
+        <p>
+            <a href="../Producing_resource_reports.htm">Hulpmiddelrapporten maken</a>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="99" MadCap:lastWidth="1044">
+    <body>
+        <li><b>IconId</b> - een getal, die voor alle <b>helpitem</b> elementen gebruikt wordt, behalve voor die van het <b>Type</b> "file", die het icoontje aangeeft voor de afbeeldingen links van het document. Wanneer het XML bestand geen <b>imagefile</b> element bevat, worden de icoontjes uit de standaard afbeeldingen strook gebruikt; anders worden de icoontjes die in het <b>imagefile</b> element zijn gespecificeerd gebruikt. Stel dit in op "0" om te verwijzen naar het eerste icoontje in het bestand; op "1" voor het tweede; "2" voor het derde; enzovoorts.</li>
+    </body>
+</html>

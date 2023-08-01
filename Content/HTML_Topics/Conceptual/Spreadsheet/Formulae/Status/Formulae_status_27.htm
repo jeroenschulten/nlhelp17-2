@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:lastBlockDepth="2" MadCap:lastHeight="388" MadCap:lastWidth="2212" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="UDF's;UDT's;UDF;KistenPerDagFactor;KostenPerDagFactor;Waarde1;Waarde2" class="KLAAR" xml:lang="nl-nl" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>De formule verwijst naar een GV of GT van het verkeerde object type</h1>
+        <h2><span><span style="font-weight: bold;">Uitleg bij deze fout:</span></span>
+        </h2>
+        <p>Deze formule bevat een verwijzing naar een gebruikersveld of een gebruikerstabel, maar het project bevat meer dan een gebruikersveld of gebruikerstabel met die naam, of bevat verschillende types waarbij de formule de verwijzing naar één van de types gebruikersveld niet kan evalueren.</p>
+        <h2>Voorbeeld:</h2>
+        <p style="font-weight: bold;">Kosten/(GV("Waarde1")*(GV("Waarde2"))</p>
+        <p>Het bovenstaande voorbeeld zou resulteren in deze fout wanneer het project twee gebruikersvelden zou bevatten met de naam <span style="font-weight: bold;">Waarde1</span>, waarbij een ervan numeriek is en gedefinieerd is bij taken en de andere een datum zou zijn gedefinieerd bij mijlpalen, wanneer de formule zou geëvalueerd worden bij mijlpalen.</p>
+        <h2>Hoe deze fout op te lossen:</h2>
+        <p>Hernoem elk gebruikersveld of gebruikerstabel in het project waarvan de naam niet uniek is.</p>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="../Formulae_components.htm">De samenstellende componenten van een formule</a>
+        </p>
+    </body>
+</html>

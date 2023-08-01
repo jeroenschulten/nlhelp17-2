@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');margin-left: 0;margin-right: auto;caption-side: top;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Field</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Resource</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">The name of the permanent resource to which the standard work is assigned.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Standard work</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Select the type of standard work you want to assign to the resource. Only those types of standard work that are currently marked as being 'active' appear in the hierarchical list.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Given start</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Specify the date and time on which the standard work period begins.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Given finish</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Specify the date and time on which the standard work period finishes.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Duration</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Enter the duration of the standard work period.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Type</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Specify whether you want the standard work to be calculated as:</p>
+                        <ul>
+                            <li class="p"><b>Work percent</b> - the resource spends a percentage of the specified time on the standard work. For example, a resource may spend 20% of the time on Administration standard work, or 100% of the time on a hospital appointment.</li>
+                            <li class="p"><b>Effort per resource</b> - if the amount of time spent on standard work depends on the number of resources assigned to a task. For example, if each resource spends 1 hour inputting data, if you assign 1 resource to a task, only 1 hour is occupied by data entry; if you assign 50 resources to a task, 50 hours are occupied by data entry.</li>
+                            <li class="p"><b>Fixed effort</b> - if a fixed amount of time is spent on standard work regardless of the number of resources assigned to a task. For example, half a day could be spent on stock control whether you assign 5 or 25 resources to the task.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Percentage</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">If the standard work is calculated as a percentage of time, enter the percentage of the resource's time that they spend on standard work in the period.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Effort</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">If the standard work is calculated as a fixed amount of time or as effort per resource, enter the amount of time that a resource spends on standard work in the period.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Actual</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">The amount of standard work that has been completed.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Remaining</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">The amount of standard work that remains to be completed.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Progress period</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1" xmlns="">When entering an actual amount of standard work, specify the progress period in which the standard work was carried out.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Notes</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Enter any explanatory notes relating to the standard work.</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

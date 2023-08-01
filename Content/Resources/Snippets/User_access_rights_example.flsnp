@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="259" MadCap:lastWidth="1060">
+    <body>
+        <p>Standaard kunnen gebruikers alleen gebruikers bekijken, wijzigen en creëren die ondergeschikt zijn in de gebruikershiërarchie. Bijvoorbeeld, als u een gebruikershiërarchie per afdeling opbouwt, waarbij elk afdelingshoofd een gebruikersmap is, kan elke afdelingshoofd gewoonlijk gebruikers in hun eigen afdeling bekijken, wijzigen en creëren. Als u wilt dat de leden van een security groep een andere set gebruikers kunnen bekijken, wijzigen en creëren, selecteert u een gebruikersmap in de vervolgkeuzelijst rechts van de knoppen. Alle leden van deze security groep zullen dan alle gebruikers die ondergeschikt zijn aan de geselecteerde gebruikersmap, kunnen bekijken, wijzigen en creëren.</p>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Als u probeert informatie van een kopie project te exporteren zonder eerst de geëxporteerde taken van het kopie project los te koppelen, wordt u gewaarschuwd dat het project al bestaat. Dit komt omdat wanneer u een kopie maakt van een project waaruit informatie is geëxporteerd, details van de publiceergegevens van Site Progress Mobile tegelijk met het project worden mee gekopieerd.</p>
+    </body>
+</html>

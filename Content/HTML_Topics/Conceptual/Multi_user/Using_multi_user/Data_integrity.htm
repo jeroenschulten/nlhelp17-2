@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Security_and_multi-user_issues\Using_teamplan_in_a_multi-user_environment\Data_integrity.htm" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:lastBlockDepth="2" MadCap:lastHeight="610" MadCap:lastWidth="836" class="KLAAR" xml:lang="nl-nl" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+    <head>
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Server:wanneer de server niet functioneert" />
+            <MadCap:keyword term="Data integriteit" />Data integriteit</h1>
+        <p>Af en toe kan de verbinding tussen een <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise client en de Enterprise server verbreken. Wanneer dit gebeurt, dan bewaart de  server een kopie van al het gewijzigde werk op de <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise clients, en elke client bewaart een kopie van het eigen werk. Dit betekent dat niets van uw werk verloren gaat en dat zodra de verbinding weer tot stand is gebracht, bijvoorbeeld door de Enterprise client of de server opnieuw op te starten, u het werk kunt vervolgen waar u gebleven was.</p>
+        <h2>Wanneer een client faalt</h2>
+        <p>Wanneer de verbinding tussen de Enterprise client en de server verloren gaat vanwege het falen van de Enterprise client computer, dan bewaart de server een kopie van het gewijzigde werk van die Enterprise client. De systeembeheerder kan de tijdsduur specificeren waarin het werk wordt bewaard door gebruik te maken van het Serveradmin programma. Wanneer u de Enterprise client opnieuw opstart en binnen dit tijdskader opnieuw inlogt bij hetzelfde project, dan is de server in staat om uw laatste bewerkingen op de Enterprise client te herstellen. Wanneer u de Enterprise client niet opnieuw opstart binnen dit tijdskader en opnieuw inlogt bij hetzelfde project, dan negeert de server de kopie van het gewijzigde werk van de Enterprise client en dan zult u niet in staat zijn om die niet-opgeslagen bewerkingen terug te vinden.</p>
+        <p>Wanneer u uw Enterprise client opnieuw opstart, dan verschijnt er een dialoogvenster om u in staat te stellen te kiezen of u het werk aan het project dat werd verlaten wilt hervatten, of dat u een nieuw project wilt starten. Wanneer u ervoor kiest om het werk aan het project dat werd verlaten te hervatten, dan wordt het project in exact dezelfde staat geopend waarin het was voordat de Enterprise client computer faalde.</p>
+        <h2>Wanneer de server faalt</h2>
+        <p>Wanneer de verbinding tussen de Enterprise client en de server verloren gaat vanwege het falen van de server computer, dan wordt er een bericht weergegeven aan alle Enterprise clients die draaiden, om aan te geven dat de verbinding met de server is verloren. De systeembeheerder moet de server opnieuw opstarten. U hoeft uw Enterprise client niet af te sluiten terwijl u wacht op het laden van de server. Wanneer de server is gestart, zal de Enterprise client, wanneer deze nog steeds geopend is, automatisch verbinding zoeken met de server en het project herladen dat geopend was toen de server faalde.</p>
+    </body>
+</html>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>Als u ervoor kiest taken te mappen met behulp van unieke taak-ID's, worden taken in het project of de baseline die u importeert gekoppeld aan de taken in het actieve project die identieke unieke taak-ID's hebben. Ondanks hun naam hoeven unieke taak-ID's niet uniek te zijn binnen een project; dit hangt af van de manier waarop ze in het project zijn geconfigureerd. Als het mappingproces meer dan één taak met dezelfde unieke taak-ID tegenkomt, onderzoekt het de bovenliggende kaart of samenvattingsgroep om te identificeren welke moet worden toegewezen; als er nog steeds duplicaten zijn - dat wil zeggen als er meer dan één taak in een kaart of samenvattingsgroep met dezelfde unieke taak-ID is - wordt de eerste taak uit de set taken met dubbele ID's toegewezen.</body>
+</html>

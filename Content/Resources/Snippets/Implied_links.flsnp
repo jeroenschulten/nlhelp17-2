@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Als een balk waarop taken niet mogen overlappen twee aangrenzende taken bevat die niet zijn gelinkt, kan de relatie daartussen worden gedefinieerd als een 'impliciete link'. Details van impliciete links - die niet echt bestaan - verschijnen in sommige onderdelen van de gebruikersinterface, bijvoorbeeld bij het traceren van linklogica met behulp van het tabblad Links in de eigenschappen view, zodat u de relaties tussen taken op dezelfde balk op dezelfde manier kunt visualiseren als waarop u dat kunt voor relaties die worden bepaald door werkelijke links.</p>
+        <p>Drie impliciete links bestaan in de volgende afbeelding - één tussen de oranje taken, één tussen de groene taken en één tussen de blauwe taken - ook al zijn ze niet zichtbaar:</p>
+        <p>
+            <img src="../../Graphics/Starting_work/implied_links.png" />
+        </p>
+        <p>Wanneer er hiervoor werkelijke links zouden worden toegevoegd tussen deze taken, zouden ze als volgt eruit zien:</p>
+        <p>
+            <img src="../../Graphics/Starting_work/implied_links1.png" />
+        </p>
+    </body>
+</html>

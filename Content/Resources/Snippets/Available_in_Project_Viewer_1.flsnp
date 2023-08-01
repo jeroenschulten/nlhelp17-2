@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>Schakel dit selectievakje in wanneer u deze view beschikbaar te maken wanneer gebruikers dit project openen in Elecosofts gratis viewer software - <MadCap:variable name="Primary.Project Viewer Name" /> - of schakel het selectievakje uit om de view te verbergen voor gebruikers wanneer het project in <MadCap:variable name="Primary.Project Viewer Name" /> wordt geopend.</body>
+</html>

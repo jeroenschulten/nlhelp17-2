@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="KLAAR" xml:lang="nl-nl" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+    <head>
+        <link href="../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1>Dialoogvenster Opmaak Balkkaart - tabblad Herberekenen</h1>
+        <p>U gebruikt het <span style="font-weight: bold;">Herberekenen</span> tabblad van het 
+<b>Opmaak Balkkaart</b> dialoogvenster om de manier te specificeren waarop taken die zijn veranderd na een herberekening worden weergegeven op de balkkaart. U kunt aangeven of u speling en het kritieke pad wilt weergeven en u kunt aangeven of u bijna kritieke taken wilt zien alsof deze taken al kritiek zijn en u kunt instellen dat aanleverbuffertaken, samenvattingstaken en niveautaken als niet-kritiek worden weergegeven.</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Format_Bar_Chart_dialog_access.flsnp" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Verklaring van de velden op het dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../../Resources/Stylesheets/Table_Stylesheet.css');caption-side: top;margin-left: 0;margin-right: auto;" cellspacing="0">
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <thead>
+                        <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Veld</th>
+                            <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Omschrijving</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Totale speling nul (of binnen de kritieke tijdsspanne) </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Klik op dit keuzerondje om taken zonder speling toch als kritiek weer te geven op de balkkaart.
+</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">
+ 
+
+Het selecteren van dit keuzerondje houdt in dat de kritieke weergave van taken op de balkkaart overeenkomt met de status van het Kritiek veld, wanneer dit veld in de tabel wordt weergegeven.
+</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Wanneer u klikt op dit keuzerondje, kunt u gebruik maken van het <b>Toon  als kritiek</b> selectievakje om te specificeren of u ook taken met een bepaalde door u opgegeven hoeveelheid totale speling (of minder) als kritiek wilt weergeven 
+</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Toon als kritiek</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Schakel dit selectievakje in om taken weer te geven die een bepaalde  hoeveelheid totale speling hebben (of minder) wanneer de kritiek zijn. Weergeven van bijna kritieke taken alsof ze kritiek zijn waarschuwt u zowel voor taken die bijna kritiek zijn als voor degen die kritiek zijn, zodat u actie kunt ondernemen om er voor te zorgen dat ze op tijd worden voltooid.  Merk op dat wanneer u er voor kiest bijna kritieke taken te tonen als kritiek deze zonder speling in de balkkaart verschijnen. </p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">U specificeert welke taken bijna kritiek zijn wanneer u een hoeveelheid totale speling invoert in het  <b>Kritieke tijdspanne</b> veld.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Zelfs wanneer u ervoor kiest bijna-kritieke taken niet weer te geven wanneer ze kritiek zijn, kunt u taken identificeren die een hoeveelheid totale speling hebben op of onder de kritieke tijdspanne in de huidige view door het tonen van het Bijna kritiek veld in de tabel.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Op het langste pad</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Klik op dit keuzerondje om alleen de taken die zich bevinden op het langste pad in het project netwerk als kritiek op de balkkaart te tonen.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">
+ 
+
+Het selecteren van dit keuzerondje houdt in dat de kritieke weergave van taken op de balkkaart overeenkomt met de status van het Langste pad veld, wanneer dit veld in de tabel wordt weergegeven.
+</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Een taak wordt gezien als liggend op het langste pad wanneer het voldoet aan één van de volgende kenmerken:</p>
+                                <ul type="disc">
+                                    <li class="p" value="1">Haar einddatum is gelijk aan de laatste einddatum van het project netwerk.</li>
+                                    <li class="p" value="2">Ze heeft een uitgaande sturende link die eindigt bij een taak die zich op het langste pad bevindt.</li>
+                                    <li class="p" value="3">Ze heeft op dezelfde balkregel een directe opvolgende taak die zich op het langste pad bevindt.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Kritieke tijdspanne</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Voer een hoeveelheid  totale speling  in om te gebruiken om te definiëren welke taken  bijna kritiek zijn. Elke taak met totale speling gelijk aan of minder dan deze  hoeveelheid wordt weergegeven als kritiek wanneer u het <b>Toon als kritiek</b> selectievakje inschakelt.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Bijvoorbeeld, voer 2vd in om te specificeren dat taken met 2 verstreken dagen of minder totale speling worden getoond als kritiek. U kunt maximaal 14 vd invoeren.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">U kunt onverwachte resultaten krijgen wanneer de kritieke tijdspanne is gedefinieerd in werktijd en  taakduur is gedefinieerd in verstreken tijd, of vice-versa. voor het beste resultaat gebruikt u werktijd of verstreken tijd voor zowel taakduur als kritieke tijdspanne. </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Vrije Speling</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Schakel dit selectievakje in om  vrije speling weer te geven in de balkkaart, of schakel het selectievakje uit om deze informatie te verbergen. Vrije speling is de hoeveelheid ruimte die een taak heeft voor een opvolgende taak of de projecteinddatum wordt vertraagd.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Totale speling</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Schakel dit selectievakje in om  total speling weer te geven in de balkkaart, of schakel het selectievakje uit om deze informatie te verbergen. Totale speling  is de hoeveelheid ruimte die een taak heeft voor een opvolgende taak of de projecteinddatum wordt vertraagd.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Kritieke pad</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Schakel dit selectievakje in om kritieke markering weer te geven in de balkkaart, of schakel het selectievakje uit om deze informatie te verbergen. Standaard, zijn kritieke taken en links gemarkeerd met rode omlijning. </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Deels-kritiekmarkering</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Taken met kritieke inkomende en uitgaande links midden door hun duur mogen alleen deels kritiek zijn: een gedeelte van deze taken mag verschijnen op het kritieke pad terwijl een ander gedeelte dat niet mag. Schakel dit selectievakje in om  alleen delen van een taak die verschijnen op het kritieke pad als kritiek weer te geven of schakel het selectievakje uit om  zulke taken in hun geheel als kritiek weer te geven.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Merk op dat u dit selectievakje alleen kunt inschakelen wanneer u het     <b>Kritieke pad</b> selectievakje heeft geselecteerd.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">
+                                    <MadCap:snippetText src="../../Resources/Snippets/Part_critical_shading.flsnp" />
+                                </p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables"><a href="../Conceptual/Setting_up_the_bar_chart/Setting_display_options/Setting_schedule_display_options.htm#Part_critical">Instellen weergave opties na herberekening</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Buffertaken -Toon als niet-kritiek</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Wanneer u aanleverbuffertaken in uw projecten gebruikt , worden deze normaal gesproken getoond als kritiek na een herberekening,  omdat deze per definitie geen speling hebben.  Wanneer u ze liever als niet-kritiek wilt weergeven, schakelt u dit  selectievakje in.  Merk op dat project buffertaken altijd als kritiek worden weergegeven na een herberekening, ongeacht wat u hier selecteert.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables"><a href="../Conceptual/Bar_chart_editing/Buffer_tasks/Buffer_tasks.htm">Werken met buffertaken</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Samenvattings-/Niveautaken - Toon als niet-kritiek</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Schakel dit selectievakje in <MadCap:snippetText src="../../Resources/Snippets/Summaries_non_critical.flsnp" />.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../Resources/Snippets/How_do_I.flsnp" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specificeren of bijna-kritieke taken worden getoond alsof ze kritiek zijn?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="p">Schakel het  <span style="font-weight: bold;">Toon als kritiek</span> selectievakje in.</li>
+                    <li class="p">Voer de hoeveelheid totale speling in waarop of waaronder  taken moeten worden gemarkeerd als kritiek in het  <span style="font-weight: bold;">Kritieke tijdspanne</span> veld, bijvoorbeeld 2vd of 1w.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specificeren of speling en het kritieke pad worden getoond  in de balkkaart?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Schakel een selectievakje in de <span style="font-weight: bold;">Speling</span> groep in om een object te tonen, of schakel het selectievakje uit om het object te verbergen.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specificeren of aanleverbuffertaken getoond worden als niet-kritiek?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Schakel het <span style="font-weight: bold;">Toon als niet-kritiek</span> selectievakje in de <span style="font-weight: bold;">Buffer taken</span> groep in.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specificeren of samenvattingstaken en niveautaken  getoond worden als niet-kritek?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Schakel het <span style="font-weight: bold;">Toon als niet-kritiek</span> selectievakje in de <b>Samenvattings-/Niveautaken</b> groep in.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="../Other/Workingdialogs.htm">Met dialoogvensters werken</a>
+        </p>
+        <p><a href="../Conceptual/Setting_up_the_bar_chart/Setting_display_options/Setting_schedule_display_options.htm">De weergave opties na Herberekening instellen</a>
+        </p>
+    </body>
+</html>

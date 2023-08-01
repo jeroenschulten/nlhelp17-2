@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <li class="p">Als één of meer van de datums al een bestaande uitzondering heeft die in strijd is met de uitzonderingen die u importeert, verschijnt er een waarschuwing om u te informeren dat er een conflict is en om te vragen of u verder wilt gaan. Klik op <b>Ja</b> om de nieuwe uitzonderingen in de kalender te importeren, om al aanwezige uitzonderingen aan te passen zodat ze eromheen passen, of klik op <b>Nee</b> om het importeren van uitzonderingen te annuleren. Als u op <b>Nee</b> klikt, worden er geen uitzonderingen gemaakt bij alle datums die in het bestand waren opgegeven.</li>
+    </body>
+</html>

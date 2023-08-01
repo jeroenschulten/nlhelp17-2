@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Selecteer een kwaliteitscriterium in de tabel.</li>
+            <li>Klik op <b>Toon Gefaalde Taken</b>. Er opent zich een view, die toont <MadCap:snippetText src="Quality_check_28.flsnp" /></li>
+        </ol>
+    </body>
+</html>

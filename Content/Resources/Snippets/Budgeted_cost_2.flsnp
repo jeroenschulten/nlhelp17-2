@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>In de Primavera software kan het Budget bedrag veld worden gebruikt om de gebudgetteerde kosten van items vast te leggen zonder dat er een baseline hoeft te worden gebruikt. Wanneer u een project van Primavera software importeert, wordt de hulpmiddel en kostenallocatie informatie van dit veld in de Primavera software in dit veld in <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> geïmporteerd. U kunt dit veld bekijken en bewerken naast de hulpmiddelen en kostenallocaties; de waarde wordt berekend voor taken en balken door het optellen van de gebudgetteerde kosten van de allocaties van de taken en balken. <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">U kunt ervoor kiezen om bij een aantal earned value velden de in dit veld geregistreerde gebudgetteerde kosten in plaats van een waarde van een baseline te gebruiken.</MadCap:conditionalText></body>
+</html>

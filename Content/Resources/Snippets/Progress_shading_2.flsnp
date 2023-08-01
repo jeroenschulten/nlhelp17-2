@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Gebruik de <b>Taken</b> en <b>Samenvattingen</b><MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><b>/Hammocks</b></MadCap:conditionalText> vervolgkeuzelijsten om aan te geven of u voortgangsmarkering wilt weergeven over de bovenste helft van taken en allocaties (de standaard markering) of over de gehele hoogte (volle markering). U kunt ervoor kiezen om voortgangsmarkering weg te laten bij samenvattingstaken<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">, niveautaken  en hammocktaken</MadCap:conditionalText> door <b>Geen</b> markering te selecteren in het vervolgkeuzemenu <b>Samenvattingen</b><MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><b>/Hammocks</b></MadCap:conditionalText>.</p>
+    </body>
+</html>

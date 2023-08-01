@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="2388" MadCap:lastWidth="750" class="KLAAR" xml:lang="nl-nl" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+    <head>
+        <link href="../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Permanente Hulpmiddelen Allocatie Eigenschappen dialoogvenster - Niet-lineaire Allocatie tabblad</h1>
+        <p>U gebruikt het <b>Niet lineaire Allocatie </b>tabblad van het <b>Permanente Hulpmiddelen Allocatie Eigenschappen</b> dialoogvenster om te specificeren of de inspanning en allocatie waarden van de geselecteerde permanente hulpmiddelallocatie constant zijn gedurende de duur van de allocatie, of dat ze variëren, en worden berekend via ofwel een individueel profiel ofwel een hulpmiddel curve. Wanneer u een individueel profiel wilt toewijzen aan een allocatie, definieert u het profiel via het tabelraster op dit tabblad; wanneer u een hulpmiddel curve aan een allocatie wilt toewijzen, selecteert u de hulpmiddel curve op dit tabblad.</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Permanent_Allocation_Properties_dialog_access.flsnp" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Verklaring van de velden op het dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table class="TableStyle_Table_Stylesheet" style="mc-table-style: url('../../Resources/Stylesheets/Table_Stylesheet.css');caption-side: top;margin-left: 0;margin-right: auto;" cellspacing="0">
+                    <col />
+                    <col />
+                    <thead>
+                        <tr>
+                            <th class="TableStyle_Table_Stylesheet_Head_0_0_RowSep_ColSep">Veld</th>
+                            <th class="TableStyle_Table_Stylesheet_Head_0_0_RowSep_ColEnd">Omschrijving</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColSep" style="font-weight: bold;">Lineair</td>
+                            <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColEnd">Klik op dit keuzerondje om te specificeren dat de allocatie plat is - lineair - d.w.z. dat de allocatie en inspanning waarden constant blijven gedurende de duur van de allocatie.</td>
+                        </tr>
+                        <tr>
+                            <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColSep" style="font-weight: bold;">Profiel</td>
+                            <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColEnd">Klik op dit keuzerondje om te specificeren dat de allocatie en inspanning waarden voor de allocatie niet constant zijn gedurende de duur van de allocatie, maar berekend worden via een individueel profiel dat opgebouwd is met de waarden die u invoert in het tabelraster op dit tabblad.</td>
+                        </tr>
+                        <tr>
+                            <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColSep" style="font-weight: bold;">Hulpmiddel curve</td>
+                            <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColEnd">
+                                <p class="ParagraphsInTables" xmlns="">Klik op dit keuzerondje om te specificeren dat de allocatie en inspanning waarden voor de allocatie niet constant zijn gedurende de duur van de allocatie, maar berekend worden via een hulpmiddel curve.</p>
+                                <p class="ParagraphsInTables" xmlns=""> <MadCap:snippetText src="../../Resources/Snippets/Nonlinear_allocs_props_select_resource_curve.flsnp" /></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColSep" style="font-weight: bold;">Creëer curve van profiel</td>
+                            <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColEnd">Klik op deze knop wanneer u een individueel profiel voor deze allocatie heeft gedefinieerd en u deze wilt opslaan als een hulpmiddel curve, om in staat te zijn deze toe te passen op andere allocaties.</td>
+                        </tr>
+                        <tr>
+                            <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColSep" style="font-weight: bold;">Weergave periode</td>
+                            <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColEnd">
+                                <p class="ParagraphsInTables" xmlns="">Specificeer op het tabelraster op dit tabblad inspanning en allocatie waarden voor elke week, dag, halve dag of uur moet weergeven gedurende de duur van de allocatie.</p>
+                                <p class="ParagraphsInTables" xmlns="">Bij lineaire allocaties zullen de <b>Inspanning</b> en <b>Allocatie</b> waarden in het tabelraster op dit tabblad dezelfde waarde tonen voor elke rij; voor allocaties die een individueel profiel of een hulpmiddel curve gebruiken, zullen deze cijfers verschillen al naar gelang de wijze waarop het individuele profiel of de hulpmiddel curve is geconfigureerd.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColSep" style="font-weight: bold;">Detail raster Periode</td>
+                            <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColEnd"> <MadCap:snippetText src="../../Resources/Snippets/Nonlinear_period.flsnp" /></td>
+                        </tr>
+                        <tr>
+                            <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColSep" style="font-weight: bold;">Detail raster- Inspanning</td>
+                            <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColEnd" xmlns="">De hoeveelheid inspanning (in uren) voor elke periode gedurende de duur van de allocatie. Voor allocaties die een individueel profiel gebruiken, kunt u deze waarde wijzigen om de hoeveelheid inspanning voor elke periode te specificeren, waarna de <b>Allocatie</b> waarde automatisch berekend wordt.</td>
+                        </tr>
+                        <tr>
+                            <td class="TableStyle_Table_Stylesheet_Body_0_0_RowEnd_ColSep" style="font-weight: bold;">Detail raster - Allocatie</td>
+                            <td class="TableStyle_Table_Stylesheet_Body_0_0_RowEnd_ColEnd" xmlns="">De allocatie waarde voor elke periode gedurende de duur van de allocatie. Voor allocaties die een individueel profiel gebruiken wordt deze waarde automatisch berekend wanneer u een hoeveelheid inspanning voor elke periode in de <b>Inspanning</b> kolom opgeeft.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../Resources/Snippets/How_do_I.flsnp" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specificeren dat de inspanning en allocatie waarden van de geselecteerde allocatie constant zijn gedurende de duur van de allocatie?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Klik op het <b>Lineair</b> keuzerondje. De cijfers in de <b>Inspanning</b> en <b>Allocatie</b> kolommen in het tabelraster op dit tabblad tonen dezelfde waarde voor elke rij.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... de inspanning en allocatie waarden van de geselecteerde allocatie gedurende de duur van de allocatie volgens een individueel profiel laten variëren?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li> <MadCap:snippetText src="../../Resources/Snippets/Nonlinear_specify_profile.flsnp" /></li>
+                    <li> <MadCap:snippetText src="../../Resources/Snippets/Nonlinear_specify_profile_1.flsnp" /></li>
+                    <li> <MadCap:snippetText src="../../Resources/Snippets/Nonlinear_specify_profile_2.flsnp" /></li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... een hulpmiddel curve toewijzen aan de geselecteerde allocatie?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li> <MadCap:snippetText src="../../Resources/Snippets/Nonlinear_specify_resource_curve.flsnp" /></li>
+                    <li>Selecteer het hulpmiddel curve om toe te passen op de allocatie in het veld rechts van het keuzerondje. De cijfers in de <b>Inspanning</b> en <b>Allocatie</b> kolommen in het tabelraster op dit tabblad verschillen al naar gelang de wijze waarop de hulpmiddel curve geconfigureerd is. </li>
+                </ol>
+                <p> <MadCap:snippetText src="../../Resources/Snippets/Nonlinear_specify_resource_curve_1.flsnp" /></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... save een individueel profiel als een hulpmiddel curve ?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li> <MadCap:snippetText src="../../Resources/Snippets/Nonlinear_create_curve_from_profile.flsnp" /></li>
+                    <li> <MadCap:snippetText src="../../Resources/Snippets/Nonlinear_create_curve_from_profile_1.flsnp" /></li>
+                    <li> <MadCap:snippetText src="../../Resources/Snippets/Nonlinear_create_curve_from_profile_2.flsnp" /></li>
+                </ol>
+                <p> <MadCap:snippetText src="../../Resources/Snippets/Nonlinear_create_curve_from_profile_3.flsnp" /></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Resource_Properties_More_Less_1.flsnp" />
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p>
+            <a href="../Other/Workingdialogs.htm">Met dialoogvensters werken</a>
+        </p>
+        <p>
+            <a href="../Conceptual/Resource_and_cost_allocations/Nonlinear_allocations/Nonlinear_allocations_resource_curves.htm">Werken met niet-lineaire allocaties en hulpmiddel curves</a>
+        </p>
+        <p>
+            <a href="../Conceptual/Resource_and_cost_allocations/Nonlinear_allocations/Configure_allocations_nonlinear.htm">Configureren van niet-lineaire hulpmiddel- en kostenallocaties</a>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Het tijdlijnvenster verschijnt in eerste instantie boven de project view en de balkkaart, maar u kunt de positie ervan wijzigen en het weergeven als een paneel dat boven het <MadCap:variable name="Primary.Asta Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> venster zweeft door op de titelbalk te klikken en deze te slepen.</p>
+    </body>
+</html>

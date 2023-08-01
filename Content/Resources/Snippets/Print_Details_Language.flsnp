@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p class="ParagraphsInTables">Specify the language in which to print any textual information that is contained within the selected border file. You can only select a language in this field if you select a border that has been configured with text translations in 
+	 more than one language.</p>
+        <p class="ParagraphsInTables">&#160;</p>
+        <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Printing/Choosing_print_options/Language_of_strings.htm">Printing border file text in a different language</a>
+        </p>
+    </body>
+</html>

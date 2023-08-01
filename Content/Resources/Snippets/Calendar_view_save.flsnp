@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>Wanneer u een kalender view opslaat, worden details van het bereik opgeslagen zodat wanneer de kalender view opnieuw wordt geopend, deze dezelfde <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">kaarten,</MadCap:conditionalText> samenvattingsgroepen<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"> en hammocks</MadCap:conditionalText> weergeeft.</body>
+</html>

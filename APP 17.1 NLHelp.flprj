@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultProject Version="1" xml:lang="nl-nl" MasterStylesheet="/Content/Resources/Stylesheets/Web_Stylesheet.css" MasterToc="/Project/TOCs/Powerproject_Easyplan.fltoc" PreviewConditionalExpression="include[Powerproject_Easyplan.Powerproject_only], exclude[Powerproject_Easyplan.Easyplan_only]" />

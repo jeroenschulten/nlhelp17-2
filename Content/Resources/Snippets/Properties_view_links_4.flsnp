@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... de link logica najagen en de balk- en taak eigenschappen weergeven van de taak aan het andere uiteinde van een link?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Ofwel dubbelklik op het item van de link of klik met de rechtermuisknop op het item van de link en selecteer <b>Ga naar ander einde</b>. Details van de taak aan het andere uiteinde van de link worden nu weergegeven.</p>
+                <p>Als het <b>Balkkaart volgt linknavigatie</b> selectievakje op het tabblad <b>Logica Najagen</b> van het dialoogvenster <b>Link instellingen</b> ingeschakeld is en als de huidige view een balkkaart view is, wordt de view automatisch bijgewerkt wanneer u ervoor kiest om de eigenschappen van de taak aan het andere uiteinde van een link weer te geven zodat de taak in beeld wordt gebracht en geselecteerd wordt. Het inschakelen van dit selectievakje en dubbelklikken op links op het tabblad <b>Links</b> van de eigenschappen view of op het tabblad <b>Links</b> van het dialoogvenster <b>Balk en Taak Eigenschappen</b> is een eenvoudige manier om de linklogica in een project te achterhalen.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

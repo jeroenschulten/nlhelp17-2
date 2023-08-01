@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="2617" MadCap:lastWidth="1084" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="KLAAR" xml:lang="nl-nl" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+    <head>
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Creëren:taak pools;Taak pools:creëren;Samenvattingstaken:creëren taak pools van;Niveautaken:creëren taak pools van;Samenvattingsgroepen:creëren taak pools van;Kaarten:creëren taak pools van;Kopiëren:kaarten of samenvattingsgroepen naar taak pools;Fragnets:creëren;Creëren:fragnets;Samenvattingstaken:creëren fragnets van;Niveautaken:creëren fragnets van;Samenvattingsgroepen:creëren fragnets van;Kaarten:creëren fragnets van;Kopiëren:kaarten of samenvattingsgroepen naar fragnets" />Creëren van taak pools</h1>
+        <p>Elke taak pool is gebaseerd op een bestaande kaart of samenvattingsgroep in een project. Alvorens een taak pool te creëren moet u dus een kaart of samenvattingsgroep creëren met de taken, links, codebibliotheek toewijzingen, etc. die u wilt opnemen in de taak pool. Natuurlijk kan het zijn dat zo een kaart of samenvattingsgroep al in uw project aanwezig is.</p>
+        <p>Om een taak pool vanuit een bestaande kaart of samenvattingsgroep te creëren:</p>
+        <ol>
+            <li>Ofwel in de project view of in de balkkaart, selecteer de niveau- of samenvattingstaak waarop u de nieuwe taak pool wilt baseren.</li>
+            <li>Klik in het tabblad <b>Project</b>, in de <b>Gegevens</b> groep, op <b>Kopieer naar Taak Pool</b>.</li>
+        </ol>
+        <p>Of, rechtsklik op de niveau- of samenvattingstaak - ofwel in de project view of in de balkkaart - en selecteer <b>Kopieer naar Taak Pool</b> in het menu dat verschijnt.</p>
+        <p>Wanneer u heeft gespecificeerd dat taak pools moeten worden weergegeven in de project view, verschijnt de nieuwe taak pool in de project view onder het hoogste-niveau Taak Pool item; haar naam is aanvankelijk hetzelfde als die van de niveau- of samenvattingstaak waarop ze gebaseerd is:</p>
+        <p>
+            <img src="../../../Graphics/Task_pools/taskpoolsinprojectview.gif" />
+        </p>
+        <p>De lijst met taak pools in de project view is niet-hiërarchisch: elke taak pool verschijnt direct onder het hoogste-niveau Taak Pool item, ongeacht de positie van de kaart of samenvattingsgroep waarop ze gebaseerd is in de project hiërarchie.</p>
+        <p>Wanneer een taak pool een of meer kaarten of samenvattingsgroepen bevat, verschijnt er in de project view een + teken links ervan. U kunt klikken op het + teken om de hiërarchie binnen elke taak pool op een zelfde wijze te verkennen als bij het verkennen van hiërarchieën van kaarten en samenvattingsgroepen binnen de project hiërarchie zelf. In de illustratie hierboven, bevatten alle taak pools behalve 'Placeholders' een of meer kaarten of samenvattingsgroepen; de 'Placeholders' taak pool heeft geen eigen hiërarchie.</p>
+        <p>Nadat een taak pool heeft aangemaakt, kunt u er in de project view op klikken om haar inhoud in de tabel en op de balkkaart te bekijken.</p>
+        <h2>Wat wordt in een taak pool opgenomen bij het creëren ervan?</h2>
+        <p>Wanneer u een taak pool creëert vanuit een bestaande kaart of samenvattingsgroep, wordt de volledige tak van de project hiërarchie vanaf het geselecteerde niveau- of samenvattingstaak naar beneden (exclusief alle (sub)groepen waarvoor u geen toegangsrechten heeft) naar de taak pool gekopieerd. </p>
+        <p>Let op de volgende punten:</p>
+        <ul>
+            <li>All links, behalve alle links die starten of eindigen buiten de groep waarop de taak pool is gebaseerd, worden naar de taak pools gekopieerd.</li>
+            <li>All taak attributen, bijvoorbeeld WBS codes, kalenders en codebibliotheek toewijzingen, met uitzondering van de taak ID (WBN) codes en de unieke taak ID's, naar de taak pools gekopieerd. Taak ID (WBN) codes en unieke taak ID's worden leeg gemaakt om te voorkomen dat er uniciteitsconflicten kunnen optreden.</li>
+            <li>Alle voortgang die ingevoerd is bij taken of allocaties in de bron kaart of samenvattingsgroep is not gekopieerd naar taak pools.</li>
+            <li>Hammocks worden niet naar de taak pools gekopieerd.</li>
+            <li>Wanneer kaarten of samenvattingsgroepen binnen de bronkaart of bronsamenvattingsgroep als individuele projecten worden gekenmerkt, zal de <b>Is een project</b> identificatie mee niet worden gekopieerd naar de taak pools.</li>
+            <li>U kunt specificeren of verschillende types hulpmiddel- en kostenallocaties mee gekopieerd worden naar taak pools (zie hieronder).</li>
+        </ul>
+        <h2>Specificeren of hulpmiddel- en kostenallocaties mee gekopieerd worden naar taak pools</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Task_Pools_dialog_intro.flsnp" />
+        <p>Om te specificeren of hulpmiddelen en kostenallocaties mee worden gekopieerd naar taak pools:</p>
+        <ol>
+            <li>Klik op het tabblad <b>Bestand</b>, klik vervolgens op <b>Opties</b>. Het <b>Opties</b> dialoogvenster verschijnt.</li>
+            <li>Klik op het tabblad <b>Bewerken</b>.</li>
+            <li>Klik op <b>Taak Pools</b>. Het <b>Taak Pools</b> dialoogvenster verschijnt.</li>
+            <li>Schakel een selectievakje in om allocaties te verwijderen van het corresponderende type bij het aanmaken van taak pools - wanneer er een bestaat in de kaarten of samenvattingsgroepen waarop de taak pools zijn gebaseerd - of schakel een selectievakje uit om de allocaties van dat type te behouden bij het aanmaken van taak pools.</li>
+            <li class="p">Klik op <span style="font-weight: bold;">OK</span> het dialoogvenster te sluiten en terug te keren naar het <span style="font-weight: bold;">Opties</span> dialoogvenster.</li>
+            <li class="p">Klik op <b>OK</b> het <b xmlns="">Opties</b> dialoogvenster te sluiten.</li>
+        </ol>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p>
+            <a href="Task_pools_intro.htm">Introductie over taak pools</a>
+        </p>
+        <p>
+            <a href="Task_pools_project_view.htm">Specificeren of taak pools worden weergegeven in de project view</a>
+        </p>
+        <p>
+            <a href="Task_pools_editing.htm">Bewerken van taak pools</a>
+        </p>
+        <p>
+            <a href="Task_pools_using.htm">Items vanuit een taak pool invoegen in een project</a>
+        </p>
+        <p>
+            <a href="../Multi_user/Specifying_user_access_rights/Specifying_user_access_rights.htm">Specificeren of gebruikers taak pools kunnen creëren, bekijken en bewerken</a>
+        </p>
+    </body>
+</html>

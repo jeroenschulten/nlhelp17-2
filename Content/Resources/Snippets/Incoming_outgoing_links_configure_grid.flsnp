@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');caption-side: top;margin-left: 0;margin-right: auto;" cellspacing="0">
+            <col style="width: 19px;" class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Menu opdracht</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Omschrijving</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Sorteer Oplopend</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Selecteer deze menu-opdracht om de links in de tabel in oplopende volgorde te sorteren volgens hun waarden in de kolom waarop u rechtsklikte.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Sorteer Aflopend</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Selecteer deze menu-opdracht om de links in de tabel in aflopende volgorde te sorteren  volgens hun waarden in de kolom waarop u rechtsklikken.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Sorteer op standaard volgorde</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Selecteer deze menu-opdracht om de oplopende of aflopende sortering die u op de tabel had toegepast weer uit te zetten.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">De kolom verwijderen</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Selecteer deze menu-opdracht om de kolom waarop u rechtsklikken uit de tabel te verwijderen. Nadat u een kolom verwijderd heeft, moet u gebruik maken van de <b>Kolom toevoegen</b> menu-opdracht om de kolom opnieuw op te nemen in de tabel.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Kolom toevoegen</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Selecteer deze menu-opdracht en selecteer vervolgens een veld in het submenu dat verschijnt om een nieuwe kolom toe te voegen aan de tabel die het geselecteerde veld weergeeft.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Veld</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Selecteer deze menu-opdracht  en selecteer vervolgens een veld in het submenu dat verschijnt om het geselecteerde veld weer te geven in de kolom waarop u rechtsklikken.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Logica geschiedenis indicator</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables" xmlns="">Selecteer deze opdracht om op te geven dat deze kolom moet worden gebruikt om aan te geven of een taak is bezocht bij het najagen van linklogica in een project. Als de taak aan het andere uiteinde van een link is bezocht tijdens het najagen van de logica, verschijnt  in deze kolom een <img src="../../Graphics/Starting_work/logichistoryindicator.gif" /> pictogram bij de link.</p>
+                        <p class="ParagraphsInTables" xmlns="">&#160;</p>
+                        <p class="ParagraphsInTables" xmlns=""><a href="../../HTML_Topics/Conceptual/Starting_work/Following_link_logic/Following_link_logic_in_a_project.htm">Klik hier</a> voor meer informatie.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Passend voor tekst</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Selecteer deze menu-opdracht om de breedte van de kolom zo aan te passen dat de  in de kolom weergegeven informatie het beste past.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Highlight logica geschiedenis</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables" xmlns="">Selecteer deze menu-opdracht om op te geven dat links moeten worden gehighlight om aan te geven dat een taak is bezocht bij het najagen van linklogica in een project. Selecteer de opdracht nogmaals om deze highlighting uit te zetten. U kunt de kleur specificeren die gebruikt wordt voor het highlighten van links die leiden tot bezochte taken via het <b>Logica Najagen</b> tabblad van het <b>Link Instellingen</b> dialoogvenster.</p>
+                        <p class="ParagraphsInTables" xmlns="">&#160;</p>
+                        <p class="ParagraphsInTables" xmlns=""><a href="../../HTML_Topics/Conceptual/Starting_work/Following_link_logic/Following_link_logic_in_a_project.htm">Klik hier</a> voor meer informatie.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Logica najagen instellingen</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1" xmlns="">
+                        <p class="ParagraphsInTables">Selecteer deze menu-opdracht om het <b>Logica Najagen</b> tabblad van het <b>Link Instellingen</b> dialoogvenster weer te geven, dat u kunt gebruiken om de manier waarop <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> werkt wanneer u de linklogica in een project aan het najagen bent te specificeren.</p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Starting_work/Following_link_logic/Following_link_logic_in_a_project.htm">Klik hier</a> voor meer informatie.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

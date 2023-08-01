@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Het dialoogvenster geeft bovenaan een gewogen totaalresultaat weer, met een algemene indicatie of het project geslaagd is of niet voldoet aan de planningskwaliteitscheck, rekening houdend met de gewogen resultaten van alle kwaliteitscriteria. Dit wordt gevolgd door de resultaten voor elk individueel kwaliteitscriterium, optioneel gegroepeerd per kaart of samenvattingsgroep - afhankelijk van hoe u de planningskwaliteitscheck hebt geconfigureerd. U kunt de knoppen op dit dialoogvenster gebruiken om de resultaten naar het Klembord te kopiëren - of naar Microsoft Excel®, als Excel op uw computer is geïnstalleerd - en om de taken te bekijken waarvoor een kwaliteitscriterium is mislukt.</p>
+    </body>
+</html>

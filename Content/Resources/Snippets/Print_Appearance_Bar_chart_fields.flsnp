@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Explanation of the Bar chart fields on the dialog</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');margin-left: 0;margin-right: auto;caption-side: top;" cellspacing="0">
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <thead>
+                        <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Field</th>
+                            <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Hide task shadows</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Select this check box to print tasks without the 3D shadow effect that appears in the bar chart, or clear it to print tasks with the 3D shadow effect that appears on screen.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Show background colour</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Select this check box to print the bar chart with a background colour if one has been applied to it, or clear it to print the bar chart with a white background.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Show date shading</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Select this check box to print the bar chart with any date range shading that has been applied to it, or clear it to print the bar chart without the date range shading.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">
+                                    <MadCap:snippetText src="Date_range_shading_2.flsnp" />
+                                </p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">
+                                    <a href="../../HTML_Topics/Conceptual/Setting_up_the_bar_chart/Using_the_date_zone/Shading_between_dates.htm">Shading the bar chart between two dates</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Show standard work shading</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Select this check box to print the bar chart with any standard work shading that has been applied to it, or clear it to print the bar chart without the standard work shading.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">
+                                    <a href="../../HTML_Topics/Conceptual/Setting_up_the_bar_chart/Setting_display_options/Standard_work_display_options.htm">Setting standard work display options</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Group related lines at page boundaries</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Select this check box to specify that wherever possible, allocation bars <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">and baseline bars </MadCap:conditionalText>should be printed on the same page as the bar to which they relate, or clear it to specify that page breaks can be inserted at the most suitable point, even if this means that bars may be split from one or more of their associated allocation bars<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"> or baseline bars</MadCap:conditionalText>.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Even with this check box selected, if a bar has a large number of associated allocation bars<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"> or baseline bars</MadCap:conditionalText>, a page break may still appear in the midst of these bars if the alternative would mean a large area of blank page in the resulting printout.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Scale bar chart fonts with spreadsheet</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">
+                                <p class="ParagraphsInTables">Select this check box to print the fonts within text annotations and task notes using the same scaling options you apply to spreadsheet fonts, or clear the check box to print them with no scaling.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">
+                                    <a href="../../HTML_Topics/Conceptual/Printing/Printing_the_active_view/Spreadsheet_font_scaling.htm">Specifying how spreadsheet fonts are scaled during printing</a>
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

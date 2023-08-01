@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="1" MadCap:lastHeight="49" MadCap:lastWidth="1139">
+    <head>
+    </head>
+    <body>het getal in waarmee elke unieke taak ID opgehoogd moet worden ten opzichte van de vorige unieke taak ID. Bijvoorbeeld, wanneer u wilt dat de ID's opvolgend zijn, voer 1 in; wanneer u wilt dat de ID's elke keer dat er één wordt gecreëerd met 10 opgehoogd worden, voer dan 10 in.</body>
+</html>

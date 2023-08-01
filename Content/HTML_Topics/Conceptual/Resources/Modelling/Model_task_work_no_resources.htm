@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="KLAAR" xml:lang="nl-nl" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Taak werk;Taak werk:gebruiken om taken te modeleren;Taken:modelleren in termen van taak werk;Modelleren:taken in termen van taak werk;Modelleren:taken zonder hulpmiddelen te gebruiken" />Modellering via taak werk zonder gebruik te maken van hulpmiddelen</h1>
+        <p>U kunt taken modelleren als taak-werk zonder dat er hulpmiddelen aan toegewezen hoeven te zijn. Dit biedt u de mogelijkheid om de duur van taken direct vanuit de erbij geregistreerde taak-werk en het werktempo te berekenen, en om de taak-werk of het werktempo automatisch te laten bijwerken wanneer de duur van een taak verandert.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Wat is taak werk?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Taak werk is de hoeveelheid werk dat uitgevoerd moet worden om een taak te voltooien. Bijvoorbeeld, een taak behorende bij het bouwen van een muur die uit 800 bakstenen bestaat heeft een taak werk hoeveelheid van 800 bakstenen; een taak behorende bij het aanleggen van een 500 meter lange pijpleiding heeft een taak werk hoeveelheid van 500 meter.</p>
+                <p>Het taak werk tempo geeft de snelheid aan waarmee het taak werk kan worden uitgevoerd. Bijvoorbeeld, wanneer een enkele metselaar 200 bakstenen per dag kan metselen aan een taak werkt heeft de taak een taak werk tempo van 200 bakstenen per dag; wanneer het mogelijk is om 100 meters pijpleiding aan te leggen per week bij een taak, dan heeft de taak een taak werk tempo van 100 meter per week.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>Modelleren van taken als taak-werk stelt u in staat om vragen te stellen zoals:</p>
+        <ul>
+            <li>Ik weet hoeveel bakstenen er nodig zijn om deze muur te bouwen en ik weet hoeveel bakstenen er neergelegd kunnen worden in één dag. Hoe lang duurt het dan om de muur te bouwen?</li>
+            <li>Metselaar A kan 50 bakstenen meer verwerken dan metselaar B. Hoeveel sneller zou metselaar A de taak voltooien dan metselaar B?</li>
+            <li>Ik heb ontdekt dat er 1.200 bakstenen nodig zijn om deze muur te bouwen, in plaats van 800. Hoeveel langer zal het dan duren om de muur te bouwen?</li>
+            <li>Ik moet deze muur twee dagen eerder voltooien. Hoeveel bakstenen per dag moeten mijn metselaars dan leggen om dit te kunnen bereiken?</li>
+        </ul>
+        <h2><a name="Recordin"></a>Registreren van het taak werk en het taak werk tempo bij taken</h2>
+        <p>Om een taak als Taak werk te modelleren moet u zowel de Taak werk hoeveelheid als het Taak werk tempo bij de taak opgeven. Om dit te doen:</p>
+        <ol>
+            <li>Rechtsklik op de taak en selecteer <b>Eigenschappen</b>. Het <b>Balk en Taak Eigenschappen</b> dialoogvenster verschijnt.</li>
+            <li>Klik op het <b>Taak</b> tabblad, en klik vervolgens op Inspanning &amp; Modellering in het linkerpaneel van het dialoogvenster.</li>
+            <li>Voer in het <b>Taak werk </b>veld de hoeveelheid werk in dat uitgevoerd moet worden om de taak te voltooien. Bijvoorbeeld, wanneer er 800 bakstenen moeten worden gemetseld om de taak te voltooien, voer dan 800 in.</li>
+            <li>Selecteer de eenheid waarin het taak werk moet worden gemeten in het <b>Werk eenheid</b> veld. Bijvoorbeeld, taak werk kan worden gemeten in eenheden zoals bakstenen, tonnen of meters.</li>
+            <li>Voer het werk tempo in bij de <b>Taak werk tempo</b> en <b>Tijdseenheid</b> velden. Bijvoorbeeld, wanneer er 100 bakstenen per dag kunnen worden gemetseld, voer dan 100 in bij het <b>Taak werk tempo</b> veld en selecteer Dag in het <b>Tijdseenheid</b> veld.</li>
+        </ol>
+        <p>U kunt deze informatie ook bij de taken invoeren via de eigenschappen view, of door de bijbehorende 'Taak werk' velden in de tabel weer te geven.</p>
+        <p>Selecteer 'Geen' in de <b>Werkeenheid</b> en <b>Tijdseenheid</b> velden <MadCap:snippetText src="../../../../Resources/Snippets/No_task_work.flsnp" /></p>
+        <h2>Modellering van taken als Taak werk</h2>
+        <p>Nadat u de hoeveelheid taak werk en een werk tempo bij een taak heeft ingevoerd, kunt u de taak op de volgende manier als Taak werk modelleren:</p>
+        <ul>
+            <li>Wanneer u de Taak werk hoeveelheid wijzigt, wordt de duur van de taak is automatisch bijgewerkt volgens het opgegeven Taak werk tempo. Bijvoorbeeld, een taak met een Taak werk hoeveelheid van 800 bakstenen en een Taak werk tempo van 100 bakstenen per dag heeft een duur van 8d. Wanneer u de taak werk hoeveelheid verandert naar 600 bakstenen, dan zal de Taak duur automatisch veranderen in 6d.</li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Task_work_rate_change_1.flsnp" />
+                <br />
+                <br />Het veranderen van het taak werk tempo van een taak kan resulteren in fractionele taakduren. Bijvoorbeeld, wanneer u het werktempo van de taak in het bovenstaande voorbeeld verandert in 8 eenheden per dag, dan zal de taakduur veranderen in 12d 4u. Wanneer u liever werkt in hele tijdseenheden - bijvoorbeeld, in hele dagen in plaats van in delen van dagen - is dit gedrag niet gewenst.<br /><br />U kunt <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> configureren om indien nodig het taak werk tempo automatisch naar beneden aan te passen wanneer deze gewijzigd wordt, om daarmee een niet-fractionele taakduur te verkrijgen  - eentje met een geheel aantal tijdseenheden. Wanneer u dit doet zal het veranderen van het werktempo van de taak in het bovenstaande voorbeeld naar 8 eenheden per dag erin resulteren dat het taak werk tempo automatisch wordt aangepast naar 7.69 eenheden per dag en de taakduur naar (het gehele aantal) 13d. <MadCap:snippetText src="../../../../Resources/Snippets/Task_work_rate_change_3.flsnp" /><br /><MadCap:dropDown><MadCap:dropDownHead><MadCap:dropDownHotspot>Hoe kan ik dit doen?</MadCap:dropDownHotspot></MadCap:dropDownHead><MadCap:dropDownBody><ol><li>Klik op het <b>Bestand</b> tabblad. De Backstage view verschijnt.</li><li>Klik op <b>Opties</b>. Het <b>Opties</b> dialoogvenster verschijnt.</li><li xmlns="">Op het <b>Bewerken</b> tabblad, selecteer <MadCap:snippetText src="../../../../Resources/Snippets/Task_work_rate_change_2.flsnp" /></li></ol></MadCap:dropDownBody></MadCap:dropDown></li>
+            <li>U kunt specificeren of de Taak werk hoeveelheid of het Taak werk tempo moet worden veranderd als u de Duur van een taak wijzigt.<br /><MadCap:dropDown><MadCap:dropDownHead><MadCap:dropDownHotspot>Hoe kan ik dit doen?</MadCap:dropDownHotspot></MadCap:dropDownHead><MadCap:dropDownBody><ol><li>Klik op het <b>Bestand</b> tabblad. De Backstage view verschijnt.</li><li>Klik op <b>Opties</b>. Het <b>Opties</b> dialoogvenster verschijnt.</li><li xmlns="">Op het <b>Bewerken</b> tabblad, specificeer of u wilt dat de Taak werk hoeveelheid of het Taak werk tempo automatisch moet worden aangepast wanneer u de duur van de taken wijzigt die gemodelleerd zijn als Taak werk in het <b>Bewerken duur bij taak werk gedreven taken verandert</b> veld, en klik op <b>OK</b>. </li></ol></MadCap:dropDownBody></MadCap:dropDown>Wanneer u specificeert dat de taak werk hoeveelheid moet worden gewijzigd als u de duur verandert, wordt de taak werk hoeveelheid automatisch gewijzigd middels het opgegeven taak werk tempo. Bijvoorbeeld, een taak met een taak werk hoeveelheid van 600 tegels en een taak werk tempo van 50 tegels per dag heeft als duur 12d. Wanneer u de duur naar 10d verandert, zal de taak werk hoeveelheid automatisch veranderen in 500 tegels.<br /><br />Wanneer u specificeert dat het taak werk tempo moet worden gewijzigd als u de duur verandert, wordt het taak werk tempo automatisch gewijzigd middels de opgegeven taak werk hoeveelheid. Bijvoorbeeld, een taak met een taak werk hoeveelheid van 200 blokken en een taak werk tempo van 50 blokken per dag heeft als duur 4d. Wanneer u de duur naar 5d verandert, zal het taak werk tempo automatisch veranderen in 40 blokken per dag.</li>
+        </ul>
+        <h2>Voortgang op taken invoeren door het registreren van de hoeveelheid taak werk dat is voltooid</h2>
+        <p>U kunt voortgang invoeren bij taken die als Taak werk gemodelleerd zijn door het wijzigen van de velden Werkelijk taak werk, Resterend taak werk, of de Overall percentage voltooid. U kunt deze informatie op een aantal manieren vastleggen, waaronder het invoeren van de voortgangsinformatie in de bijbehorende velden in de tabel. Een eenvoudige manier om voortgang op zulke taken in te voeren is het gebruik maken van het <b>Invoeren Voortgang</b> dialoogvenster. Om dit te doen:</p>
+        <ol>
+            <li>Selecteer de taak waarbij u voortgang wilt invoeren.</li>
+            <li>Op het <b>Start</b> tabblad, in de <b>Voortgang</b> groep, klik op <b>Invoeren Voortgang</b> en selecteer <b>Invoeren Voortgang</b> in het menu dat verschijnt. Het <b>Invoeren Voortgang</b> dialoogvenster verschijnt.</li>
+            <li>Op het <b>Taak</b> tabblad, ofwel voer de hoeveelheid taak werk die is voltooid in de <b>Taak werk </b>rij, ofwel voer het overall percentage voortgang in de <b>Overall percentage</b> rij.</li>
+        </ol>
+        <p>Wanneer u een taak voorzien heeft van gedeeltelijke voortgang bij een taak werk gemodelleerde taak en u de taak werk hoeveelheid, werk tempo of duur van de taak wijzigt, blijft het voltooide gedeelte van de taak ongewijzigd bij deze verandering; alleen het niet-voltooide gedeelte van de taak wordt opnieuw gemodelleerd.</p>
+        <h2>Sorteren/groeperen en filteren op taak werk</h2>
+        <p>U kunt taken sorteren/groeperen via de 'taak werk' velden.</p>
+        <p>U kunt filteren op taken met taak werk van een of meer bepaalde werk eenheden, en filteren op taken met bepaalde hoeveelheden taak werk.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Opmerkingen bij het modelleren van taken als taak werk zonder hulpmiddelen te gebruiken</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li>U kunt alleen gewone taken modelleren als taak werk zonder hulpmiddelen te gebruiken: u kunt mijlpalen, samenvattingstaken, niveautaken of hammocks dus niet taak werk modelleren.</li>
+                    <li>Taken nemen niet de taak werk hoeveelheden of werk tempo's over van andere taken wanneer u ze creëert; u moet het taak werk bij elke afzonderlijke taak invoeren.</li>
+                    <li>Het op deze manier Modelleren van taken is niet compatibel met hulpmiddelen modellering. Daarom geldt dat als een taak's werk tempo eerst wordt ingevoerd, alle hulpmiddelallocaties op de taak automatisch worden ingesteld op Niet-Gemodelleerd en het niet mogelijk is om het modellering type van de allocaties te veranderen zolang het taak werk tempo van de taak niet nul blijft. Tevens geldt daarom dat alle nieuwe allocaties op de taak automatisch op Niet-Gemodelleerd ingesteld worden.</li>
+                    <li>U kunt het taak werk tempo van een taak niet instellen wanneer er al voortgang bij de taak was ingevoerd voordat de taak werk hoeveelheid of het taak werk tempo is ingesteld.</li>
+                    <li>U kunt specificeren welke tekst er gebruikt moet worden tussen de werk eenheid en de tijdseenheid bij het beschrijven van taak werk, bijvoorbeeld 'per' of 'elke', in het <b>Taak werk tempo beschrijver</b> veld op het <b>Bewerken</b> tabblad van het <b>Opties</b> dialoogvenster.</li>
+                    <li>De Werkelijk taak werk, Taak werk en Resterend taak werk velden kunnen worden getotaliseerd en weergegeven worden bij samenvattingstaken, niveautaken of hammocks. Wanneer er taak werk is toegepast op de getotaliseerde taken en er meer dan een werk eenheid gebruikt is, wordt er een lijst met de totalen voor elke eenheid getoond. Bijvoorbeeld, wanneer een samenvattingstaak een taak bevat met taak werk van 200 tegels, een andere taak met 500 tegels en een derde taak met taak werk van 800 bakstenen, zal het taak werk veld op de samenvattingstaak worden getoond als '700 tegels, 800 bakstenen'.</li>
+                    <li>Het Taak werk tempo veld staat alleen een getotaliseerde waarde toe wanneer alle taken hetzelfde taak werk tempo hebben.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="../../teamplan_reference/Tokens/Task_work_tokens.htm">Taak werk velden</a>
+        </p>
+        <p><a href="../../Histograms/Generating_a_histogram/Graphing_task_information.htm">Histogrammen gebruiken om de dagen met activiteiten en het taak werk grafisch weer te geven</a>
+        </p>
+    </body>
+</html>

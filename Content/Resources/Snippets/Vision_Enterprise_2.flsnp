@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>Wanneer u een programma naar een <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise server heeft uitgecheckt,  kunt u alleen het programma in <MadCap:variable name="Primary.Asta Vision Name" /> terug inchecken: andere gebruikers kunnen het niet inchecken. U kunt alleen een programma dat naar een <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise server is uitgecheckt weer inchecken als er op dat moment geen andere gebruikers van aan het gebruikmaken zijn. Programma's worden automatisch uit de <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise server verwijderd wanneer u ze incheckt.</body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="315" MadCap:lastWidth="639">
+    <head>
+    </head>
+    <body>
+        <p>Om de op nieuwe taken toe te passen standaard codebibliotheekitems te specificeren:</p>
+        <ol style="list-style-type: decimal;">
+            <li class="p">Lokaliseer de codebibliotheekitems die u standaard wilt toepassen op nieuwe balken of taken in de project view.</li>
+            <li class="p">Rechtsklik op een codebibliotheekitem en selecteer <b xmlns="">Balk Standaard</b> in het menu dat verschijnt om dat item toe te passen op nieuwe balken, of selecteer <b xmlns="">Taak Standaard</b> in het menu dat verschijnt om dat item toe te passen op nieuwe taken. Afhankelijk van de wijze waarop elke afzonderlijke codebibliotheek opgezet is, kunt u mogelijk meer dan een standaard item van elke codebibliotheek selecteren.</li>
+        </ol>
+        <p>Om de standaardinstelling van een codebibliotheekitem, rechtsklik op het item en selecteer nogmaals <b>Balk Standaard</b> of <b>Taak Standaard</b> om de standaardinstelling ervan te verwijderen.</p>
+        <p>U kunt ook specificeren welke codebibliotheekitem op nieuwe balken en taken er standaard worden toegewezen door ze te selecteren in de <b>Standaard Bibliotheek</b> velden op de <b>Balk</b> en<b> Taak</b> tabbladen van het <b>Balkkaart Standaards Eigenschappen</b> dialoogvenster.</p>
+    </body>
+</html>

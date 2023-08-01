@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>schakel dit selectievakje in om dit veld te berekenen via de budget bedragen die in de huidige projectdata in het Budget bedrag veld zijn ingevoerd, of schakel het selectievakje uit dit veld te berekenen via een waarde uit een baseline. Het zou kunnen dat u het Budget bedrag veld wilt gebruiken in projecten die via het Primavera software bestandsformaat geïmporteerd zijn, omdat dit veld in de Primavera software gebruikt kan worden voor het invoeren van de budget bedragen van items zonder dat er een baseline nodig is.</body>
+</html>

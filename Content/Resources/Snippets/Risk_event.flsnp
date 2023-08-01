@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>Door bij een taak een waarschijnlijkheid anders dan 100 te specificeren maakt dit deze taak tot een "risico gebeurtenis" - d.w.z. een taak die een waarschijnlijkheid van plaatsvinden heeft maar die <i>niet zeker</i> hoeft plaats te vinden. Bijvoorbeeld, u zou een "risico gebeurtenis" taak kunnen creëren om een mogelijke vertraging in de leverantie van bepaalde items.</body>
+</html>

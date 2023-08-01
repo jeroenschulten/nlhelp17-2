@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul type="disc">
+            <li>Van het zelfde type zijn (dwz aangevraagd of ingepland).</li>
+            <li>Het 'Werk Van Taak' modelleringstype gebruiken.</li>
+            <li>De berekende en variabele parameters ingesteld staat op iets anders dan 'Werk tempo'.</li>
+            <li>Het <b xmlns="">Combineer werk tempo</b> selectievakje hebben ingeschakeld.</li>
+            <li>Het <b xmlns="">Negeer</b> selectievakje (tabblad Details) hebben uitgeschakeld.</li>
+        </ul>
+    </body>
+</html>

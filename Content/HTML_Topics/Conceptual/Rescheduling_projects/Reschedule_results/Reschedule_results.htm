@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Rescheduling_projects\Understanding_the_results_of_rescheduling\Understanding_the_results_of_rescheduling.htm" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+    <head>
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Herberekenen:de resultaten begrijpen van;Kritieke pad;Kritieke taken;Taken:kritiek;Uiterst-kritieke taken;Speling;Speling:vrije speling;Speling:totale speling;Totale speling;Vrije speling;Speling:negatieve speling;Negatieve speling" />Het resultaat van herberekening begrijpen</h1>
+        <p>Na herberekening, kan uw balkkaart er anders uitzien en kunnen taken één van de volgende weergaven hebben: kritiek, vrije speling, totale speling of negatieve speling.</p>
+        <p>Taken die zijn ingesteld als zo spoedig mogelijk (ZSM), verschijnen op de vroegst mogelijke datum zonder andere activiteiten te beïnvloeden; taken die zijn gesteld als zo laat mogelijk (ZLM), verschijnen op de laatst mogelijke datums zonder andere activiteiten te beïnvloeden. Waar er meer dan één taak op een balkregel staat, worden de taken zo gerangschikt dat er geen overlapping is.</p>
+        <p>Als een hulpmiddel voor het begrijpen van de resultaten van het herberekenen kunt u <a href="../Reschedule_errors/Reschedule_reports.htm">een herberekeningsrapport maken</a> met details van de resultaten van de herberekening en alle als resultaat ervan ontstane fouten en afwijkingen</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Speling</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Speling wordt berekend tijdens een herberekening. Het geeft de tijdsduur aan waarmee een taak kan worden vertraagd zonder andere taken of de einddatum van het project te vertragen. Taken met speling geven u enige ruimte om te manoeuvreren, omdat deze als buffer kunnen fungeren, waarmee het totale project plan wordt beschermd tegen fouten die gemaakt zijn in de originele schattingen van de taakduur. Het is risicovol om een project te plannen zonder speling. Taken zouden ook negatieve speling kunnen hebben na een herberekening. Negatieve speling geeft aan dat er tijd moet worden gewonnen om te voorkomen dat andere taken worden vertraagd.</p>
+                <p>Er zijn twee typen speling:</p>
+                <ul>
+                    <li class="p">Vrije speling - de periode waarmee een taak kan worden vertraagd of verlengd zonder andere taken of de einddatum van het project te beïnvloeden. De vrije speling van een taak is het verschil tussen de vroege einddatum en de vroege startdatum van de vroegste opvolger van die taak.            </li>
+                </ul>
+                <p style="margin-left: 40px;">
+                    <img src="../../../../Graphics/Rescheduling_projects/freefloat.gif" alt="Vrije Speling" title="Vrije Speling" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="159" height="16" border="0" />
+                </p>
+                <ul>
+                    <li class="p">Totale speling - de periode waarmee een taak kan worden vertraagd of verlengd zonder de voltooiing van project te vertragen. De totale speling van een taak is het verschil tussen de vroege einddatum en de late einddatum van de taak.            </li>
+                </ul>
+                <p style="margin-left: 40px;">
+                    <img src="../../../../Graphics/Rescheduling_projects/totalfloat.gif" alt="Totale speling" title="Totale speling" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="159" height="16" border="0" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Kritieke taken</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Taken zonder speling zijn kritiek; als een kritieke taak wordt vertraagd, zal dat de einddatum van het project vertragen.</p>
+                <p>U moet kritieke taken zorgvuldig in de gaten moeten houden om u ervan te verzekeren dat de taken op schema worden voltooid. Kritieke taken worden standaard op het scherm gemarkeerd met een dikke rode omlijning zodat u deze duidelijk kunt zien. Een link die de positie bepaalt van een kritieke taak wordt ook rood gemarkeerd.</p>
+                <p>Wanneer een reeks kritieke taken het project overbrugt van start tot einde, wordt dit het kritieke pad genoemd. Wanneer u de projectduur wilt verkorten, dan zult u het kritieke pad moeten verkorten.</p>
+                <p>Een project kan meer dan één kritieke pad hebben; secundaire kritieke paden kunnen ontstaan wanneer u een taak dwingt om kritiek te zijn of wanneer u een taak instelt om ZLM te starten en dit resulteert in het kritiek worden van de taak.</p>
+                <p>Het kritieke pad is in de volgende illustratie rood gemarkeerd; het sluit de taak op balk 2 uit, aangezien deze taak speling heeft:</p>
+                <p>
+                    <img src="../../../../Graphics/Rescheduling_projects/criticalpath.gif" alt="Het kritieke pad is rood gemarkeerd" title="Het kritieke pad is rood gemarkeerd" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="152" height="118" border="0" />
+                </p>
+                <p>Taken met negatieve speling, welke aangeeft dat er tijd moet worden gewonnen om te voorkomen dat andere taken vertraagd worden, moeten als uiterst-kritiek worden gezien.</p>
+                <p>Als  alternatief voor het op de balkkaart als kritiek weergeven van taken zonder speling, kunt u <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> ook configureren om alleen de taken die zich op het langste pad door het hele project netwerk heen bevinden als kritiek op de balkkaart weer te geven. U doet dit door het selecteren van het <b>Op langste pad</b> keuzerondje op het <b>Herberekenen</b> tabblad van het <b>Opmaak Balkkaart</b> dialoogvenster.
+</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Negatieve speling</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Sommige taken kunnen na herberekenen negatieve speling hebben. Negatieve speling geeft de hoeveelheid tijd aan die moet worden ingehaald om te voorkomen dat andere taken worden vertraagd.</p>
+                <p>Negatieve speling kan worden veroorzaakt door conflicterende vlaggen op taken zoals hieronder wordt geïllustreerd, waar de startdatum van de taak op balk 1 en de einddatum van de taak op balk 3 vaststaan, waardoor er niet genoeg tijd overblijft om alledrie de taken te voltooien:</p>
+                <table wrapperparagraphselector="P" style="margin-top: 14pt;" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <img src="../../../../Graphics/Rescheduling_projects/negativefloat1.gif" alt="Er is niet genoeg tijd om de taken te voltooien" title="Er is niet genoeg tijd om de taken te voltooien" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="85" height="85" border="0" />
+                            </p>
+                        </td>
+                        <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <img src="../../../../Graphics/Rescheduling_projects/negativefloat2.gif" alt="Dit wordt aangegeven met negatieve speling" title="Dit wordt aangegeven met negatieve speling" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="97" height="85" border="0" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <span>Voor herberekening</span>
+                            </p>
+                        </td>
+                        <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <span>Na herberekening</span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+                <p>Na de herberekening heeft de eerste taak negatieve speling, wat de tijd weergeeft die moet worden ingehaald. Let u er op dat in dit voorbeeld alledrie de taken kritiek worden. Een taak met negatieve speling wordt beschouwd als uiterst-kritiek.</p>
+                <p>Wanneer u liever heeft dat negatieve speling wordt toegepast op alle taken in een keten in plaats van alleen op de eerste taak kunt u dit bereiken door het selecteren van de <span style="font-weight: bold;">Negatieve speling toepassen op keten</span> herberekeningsoptie. Wanneer u deze optie selecteert wordt de vlag aan het eind van de keten van taken niet gerespecteerd, waardoor de laatste taak in de keten de vlag zal overschrijden.</p>
+                <p>Dit wordt hieronder afgebeeld:</p>
+                <table wrapperparagraphselector="P" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <img src="../../../../Graphics/Rescheduling_projects/negativefloatcleared.gif" style="border: none;" width="247" height="152" border="0" />
+                            </p>
+                        </td>
+                        <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <img src="../../../../Graphics/Rescheduling_projects/negativefloatselected.gif" style="border: none;" width="248" height="152" border="0" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <span style="font-weight: bold;">Negatieve speling...</span> selectievakje uitgeschakeld</p>
+                        </td>
+                        <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <span style="font-weight: bold;">Negatieve speling...</span> selectievakje ingeschakeld</p>
+                        </td>
+                    </tr>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p>
+            <a href="../Reschedule_errors/Reschedule_reports.htm">Maken en bekijken van herberekeningsrapporten</a>
+        </p>
+        <p>
+            <a href="Filter_for_critical.htm">Filteren op kritieke taken</a>
+        </p>
+        <p>
+            <a href="Logical_paths.htm">Gebruik maken van logische paden om de erosie van de totale speling te monitoren</a>
+        </p>
+        <p>
+            <a href="../../Setting_up_the_bar_chart/Setting_display_options/Setting_schedule_display_options.htm">De weergave opties na herberekening instellen</a>
+        </p>
+        <p>
+            <a href="../Setting_reschedule_options/Setting_reschedule_options.htm">Herberekeningsopties instellen</a>
+        </p>
+        <p>
+            <a href="Monitoring_task_slippage.htm">Monitoren van taak-uitloop</a>
+        </p>
+    </body>
+</html>

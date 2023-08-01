@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specificeren hoe het herberekenen effect heeft op taken niet-gelinkte  taken?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Selecteer het gedrag dat u wilt toepassen op niet gelinkte taken in de <span style="font-weight: bold;" xmlns="">Taken zonder links</span> groep.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specificeren hoe het herberekenen effect heeft op de taken die alleen maar uitgaande links hebben?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Selecteer het gedrag dat u wilt toepassen op taken met alleen maar uitgaande links in de <span style="font-weight: bold;" xmlns="">Taken met alleen uitgaande links</span> groep.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specificeren of vrije speling links van de ZLM taken mag worden weergegeven?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Schakel het selectievakje <b>taken in ZLM positie als kritiek weergeven</b> in om de vrije speling links van ZSM taken weer te geven (zoals bij Microsoft Project), of schakel het selectievakje uit om ook de vrije speling links van ZSM taken weer te geven.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specificeren of taken mogen verplaatsen tot na een Eindigen Op of Voor vlag?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Schakel het selectievakje <b>Vlaggen die moeten eindigen op of vóór zijn zacht</b> in om het mogelijk te maken dat taken verplaatst kunnen worden voorbij een Eindigen Op of Voor vlag. Schakel het selectievakje uit om dit te voorkomen, wat kan resulteren in een negatieve speling in het kritieke pad.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specificeren of samenvattingstaken als kritiek worden weergegeven wanneer sommige taken - maar niet alle - daarbinnen zich op het kritieke pad bevinden?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Schakel het <b>Samenvattingen zijn kritiek als inhoud kritiek is</b> selectievakje in om te kiezen of u wilt dat samenvattingstaken als kritiek worden weergegeven wanneer sommige - maar niet alle - taken daarbinnen zich op het kritieke pad bevinden. Schakel dit keuzevakje uit om zulke samenvattingstaken niet als kritiek weer te geven.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specificeren waar de negatieve speling wordt geplaatst in een keten van taken?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Schakel het <b>Negatieve speling op keten</b> selectievakje om ketens van taken waarbinnen negatieve speling zit de vlag aan het einde van de reeks te laten overschrijden, waardoor de negatieve speling feitelijk wordt toegepast op alle taken in de keten. Wanneer deze optie is uitgeschakeld zal de vlag aan het einde worden gerespecteerd waardoor de negatieve speling alleen zal worden toegepast op de taak aan het begin van de keten.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specificeren of de projectdeadline datum gebruikt moet worden als een deadline?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Schakel het <b xmlns="">Gebruik projectdeadline</b> selectievakje in om de projectdeadline die bij het project is opgegeven als deadline te gebruiken of schakel het selectievakje uit om de einddatum van de laatste taak in het project te gebruiken om de late en vrije einddatums in te stellen en de speling te berekenen.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... Uitzonderen van links van een bepaalde categorie bij het herberekenen?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Selecteer in het veld <b>Negeer link categorieën</b> de categorie of categorieën die uitgesloten moeten worden bij het herberekenen.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specificeren van de invloed op links die beginnen bij gedeeltelijk voltooide taken en eindigen op volledig voltooide taken?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Schakel het <b>Verplaats gedeeltelijk voltooide links</b> selectievakje om links die eindigen op een voltooide sectie van een gedeeltelijk voltooide taak te verplaatsen zodat deze eindigen op de eerste onvoltooide sectie van die taak, of schakel dit selectievakje uit om deze te laten zoals deze zijn.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specificeren hoe speling op samenvattingstaken binnen subkaarten wordt weergegeven?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>U selecteert de optie <b>Speling berekenen binnen de kaart</b> om de speling op taken binnen subkaarten weer te laten geven naar de duur van de hoofdtaak, of u verwijdert de selectie van deze optie om speling tot het einde van het project weer te laten geven.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specificeren hoe voltooide taken worden beïnvloed door link logica bij een herberekening?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Schakel het selectievakje <b>Herlink om voltooide taken</b> in, om de links te verwijderen van en naar voltooide taken, die voorkomen tussen twee onvoltooide taken. De onvoltooide taken worden met elkaar verbonden, of schakel het vakje uit om de positie van de voltooide taken in de koppelingsstructuur te behouden.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... Aangeven of de voortgangslijn moet worden rechtgetrokken tot een rapportdatum of een specifieke voortgangsperiode?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Selecteer de voortgangsperiode tot waaraan u de voortgangslijn wilt rechttrekken tijdens het herberekenen in het veld <b xmlns="">Voortgangslijn rechttrekken tot periode</b>, of selecteer Geen als u de zaagtand voortgangslijn wilt behouden.</p>
+                <p>Met de optie <b>Behoud werkelijke start</b> kunt u ervoor kiezen om alle voltooide taken die achter de rapportdatum liggen, NIET te verplaatsen tot voor de rapportdatum, om de werkelijke startdatum te behouden.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specificeren of de drag van kritieke taken moet worden berekend?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Schakel het <b xmlns="">Kritieke pad drag</b> selectievakje in om de drag van kritieke taken te berekenen bij een herberekening, of schakel dit selectievakje om hierbij geen drag te berekenen. Wanneer u ervoor kiest om de kritieke pad drag te berekenen, duurt het langer om een project te herberekenen</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specificeren of het cascade activiteitsnummer van taken moet worden berekend?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Schakel het <b xmlns="">Cascade activiteitsnummers</b> selectievakje in om het cascade activiteitsnummer van taken te berekenen bij een herberekening, of schakel dit selectievakje om hierbij geen cascade activiteitsnummers te berekenen. Als u ervoor kiest de cascade activiteitsnummers te berekenen, zal het langer duren om een project te herberekenen.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specificeren of de integriteit van het kritieke pad moet worden gecheckt?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Schakel het <b xmlns="">Kritieke pad integriteit </b><MadCap:snippetText src="Critical_path_integrity.flsnp" /></p>
+                <p>
+                    <MadCap:snippetText src="Days_leeway_1.flsnp" />
+                </p>
+                <p>
+                    <MadCap:snippetText src="Days_leeway_2.flsnp" />
+                </p>
+                <p>
+                    <MadCap:snippetText src="Days_leeway_3.flsnp" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specificeren of er herberekeningsrapporten moeten worden gemaakt bij elke herberekening van het project?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Klik op de <span style="font-weight: bold;">Instellingen</span> knop in de <span style="font-weight: bold;">Herberekeningsrapport</span> groep om het <b>Instellingen </b><span style="font-weight: bold;">Herberekeningsrapport</span> dialoogvenster op te roepen. U gebruikt dit dialoogvenster om aan te geven of er herberekeningsrapporten moeten worden gemaakt en om deze rapporten te configureren.</p>
+                <p>Het veld rechts van de <span style="font-weight: bold;">Instellingen</span> knop geeft aan of er herberekeningsrapporten gemaakt moeten worden, en zo ja, hoe deze zijn geconfigureerd.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specificeren of <MadCap:variable name="Primary.Asta Asta Powerproject Name" />  de huidige view, de huidige groep of het gehele programma van projecten automatisch herberekent?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In het <b>Automatisch herberekenen</b> veld, selecteer Herberekenen view om te configureren dat <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> de huidige view automatisch herberekent elke keer dat u een wijziging aanbrengt die erin resulteert dat één of meerdere taken worden verplaatst of van grootte worden veranderd. Selecteer Herberekenen alles om te configureren dat <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> het volledige programma van projecten automatisch herberekent, selecteer Herberekenen groep om  de huidige groep automatisch te herberekenen, of selecteer Uit wanneer u niet wilt dat <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> automatisch herberekent elke keer dat u een wijziging aanbrengt.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

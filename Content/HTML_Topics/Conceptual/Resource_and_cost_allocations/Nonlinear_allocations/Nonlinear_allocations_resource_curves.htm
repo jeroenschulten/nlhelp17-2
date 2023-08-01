@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="5683" MadCap:lastWidth="1045" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" class="KLAAR" xml:lang="nl-nl">
+    <head>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Niet-lineaire allocaties;Bucket planning;Toekomstige bucket planning;Niet-lineaire toewijzing;Hulpmiddel allocatie profielen;Niet-lineaire toewijzing:en standaard werk;Hulpmiddel curves:en standaard werk;Standaard werk:en niet-lineaire toewijzing" />Werken met niet-lineaire allocaties en hulpmiddel curves</h1>
+        <p>Bij eenvoudige hulpmiddel- en kostenallocaties, verlopen de inspanning, de hoeveelheid of de kosten gelijk tijdens de duur van de allocatie, wat betekent dat de hoeveelheid inspanning, de hoeveelheid of de kosten, per uur of per dag, steeds hetzelfde zijn. Zulke allocaties staan bekend als "lineaire" allocaties, omdat de cumulatieve inspanning, de hoeveelheid of de kosten weergegeven kunnen worden met een rechte lijn.</p>
+        <h2>Hulpmiddel curves</h2>
+        <p>In sommige gevallen verlopen de inspanning, hoeveelheid of kosten van een allocatie niet lineair. U kunt dit in een project zichtbaar maken door het toewijzen van hulpmiddel curves <MadCap:snippetText src="../../../../Resources/Snippets/Resource_curve_description.flsnp" /></p>
+        <p>U kunt hulpmiddel curves configureren met elk aantal punten tussen 2 en 50; hoe meer punten u een hulpmiddel curve geeft, hoe meer detail waarin u uw inspanning, hoeveelheid of kosten kunt plannen. U specificeert het percentage van de allocatieduur dat vertegenwoordigd wordt door elk punt in een hulpmiddel curve.</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Resource_curve_examples.flsnp" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Illustratie van verschillende hulpmiddel curves</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Achteraan-geladen hulpmiddel curve:</p>
+                <p>
+                    <img src="../../../../Graphics/Resource_and_cost_allocations/resourcecurvebackloaded.gif" />
+                </p>
+                <p>Vooraan-geladen hulpmiddel curve:</p>
+                <p>
+                    <img src="../../../../Graphics/Resource_and_cost_allocations/resourcecurvefrontloaded.gif" />
+                </p>
+                <p>Drie-staps hulpmiddel curve:</p>
+                <p>
+                    <img src="../../../../Graphics/Resource_and_cost_allocations/resourcecurvethreestep.gif" />
+                </p>
+                <p>Klok-vormige hulpmiddel curve:</p>
+                <p>
+                    <img src="../../../../Graphics/Resource_and_cost_allocations/resourcecurvebellshaped.gif" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>Hulpmiddel curves bepalen hetzelfde allocatieprofiel voor elke allocatie waaraan ze worden toegewezen, ongeacht de duur van de allocatie. Wanneer de duur van een allocatie verandert, verandert het allocatie profiel automatisch overeenkomstig mee (wordt korter of langer).</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Illustratie</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>De volgende illustratie toont twee allocaties waaraan dezelfde hulpmiddel curve is toegewezen. De eerste allocatie duurt twee weken en de tweede duurt acht weken. Het allocatieprofiel van beide allocaties - zoals geïllustreerd in het histogram - is hetzelfde, ook al is de duur van de allocaties verschillend:</p>
+                <p>
+                    <img src="../../../../Graphics/Resource_and_cost_allocations/resourcecurvehistogram.gif" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2>Individuele allocatieprofielen</h2>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Allocation_profile_description.flsnp" />
+        <p>Het gebruiken van individuele allocatieprofielen geeft u zeer verregaande controle over de dag-na-dag toewijzingen van individuele hulpmiddelen. Wanneer u een allocatie profiel configureert voor een hulpmiddel en besluit dat u dit ook wilt gaan toepassen op andere hulpmiddelen, kunt u een hulpmiddel curve creëren op basis van het allocatie profiel.</p>
+        <h2>Niet-lineaire allocaties en resourcing logica</h2>
+        <p>Het toepassen van een hulpmiddel curve of een individueel allocatieprofiel aan een allocatie beïnvloedt <MadCap:variable name="Primary.Asta Asta Powerproject Name" />'s resourcing logica niet. Voor een permanente hulpmiddelallocatie bijvoorbeeld, gelden de volgende berekeningen net zo goed voor niet-lineaire allocaties als voor lineaire allocaties:</p>
+        <ul>
+            <li>Allocatie = Inspanning / Duur .</li>
+            <li>Inspanning = Duur x Allocatie.</li>
+            <li>Duur - Inspanning / Allocatie.</li>
+        </ul>
+        <h2>Wanneer de effecten van niet-lineaire allocaties zichtbaar zijn</h2>
+        <p>De effecten van het niet-lineair maken van een allocatie - door het erop toepassen van een hulpmiddel curve of een individueel allocatieprofiel - zijn zichtbaar op de volgende terreinen:</p>
+        <ul>
+            <li>Hulpmiddel inzet view - een excellente tool is voor het bekijken en bewerken van de variërende dagelijkse of wekelijkse totalen van niet-lineaire allocaties. Merk op dat door het gebruiken van de hulpmiddel inzet view voor het bewerken van niet-lineaire allocatie waarden voor individuele dagen de totale inspanning, hoeveelheid of kosten van de allocatie afneemt of toeneemt, terwijl de duur hetzelfde blijft.</li>
+            <li>Histogrammen - waarin niet-lineaire allocaties worden afgebeeld als een reeks rechthoeken die de distributie van de inspanning, hoeveelheid of kosten gedurende de duur van de allocatie weergeven.</li>
+            <li>De <b>Eigenschappen</b> dialoogvensters van hulpmiddel- en kostenallocaties.</li>
+            <li>Tijdens het weergeven van inspanning, hoeveelheid of kosten in de tabel in cellen die beperkt zijn tot een bepaald datumdomein.</li>
+        </ul>
+        <p>De hulpmiddelen leveller houdt ook rekening met niet-lineaire allocaties van inspanning, net zoals geldt voor de overallocatie waarschuwingen van <MadCap:variable name="Primary.Asta Asta Powerproject Name" />.</p>
+        <h2>Standaard werk en niet-lineaire allocaties</h2>
+        <p>Wanneer u gebruik maakt van standaard werk om de tijd weer te geven waarin permanente hulpmiddelen niet beschikbaar zijn om te werken aan project activiteiten, pas dan ook individuele allocatieprofielen toe op permanente hulpmiddelallocaties; de twee werken niet goed samen. Wanneer u niet-lineaire allocaties samen met standaard werk wilt plannen, gebruik dan hulpmiddel curves in plaats van individuele allocatieprofielen.</p>
+        <h2>Hoe een allocatie wordt verdeeld wanneer u een hulpmiddel curve toewijst aan een allocatie</h2>
+        <p>Hulpmiddel curves worden gedefinieerd in percentages van de duur en percentages van de waarde. Wanneer u een hulpmiddel curve op een allocatie toepast, worden de datums van elk segment van de curve berekend door het vermenigvuldigen van de duur met het percentage. Bijvoorbeeld, er is een 10d permanente hulpmiddelallocatie met 75u inspanning, waarop een vooraan-geladen hulpmiddel curve is toegepast. De hulpmiddel curve heeft 20 punten, hetgeen betekent dat elk punt correspondeert met 5% van de duur - d.w.z. een halve dag van deze specifieke hulpmiddel allocatie. De vooraan-geladen hulpmiddel curve heeft 10 punten van 6,5% en 10 punten van 3,5%.</p>
+        <ul>
+            <li>Waar de waarde van een punt 6,5 is, is de inspanning 75 x 0,065 = 4,875u. De halve dag heeft een duur van 3.75u, zodat de resulterende allocatie 4,875 / 3,75 = 1,3 is. Een dag op dit punt van de hulpmiddel curve heeft een inspanning van 9,75u.</li>
+            <li>Waar de waarde van een punt 3,5 is, is de inspanning 75 x 0,035 = 2,625u. De halve dag heeft een duur van 3.75u, zodat de resulterende allocatie 2,625 / 3,75 = 0.7 is. Een dag op dit punt van de hulpmiddel curve bevat 5,25u inspanning.</li>
+        </ul>
+        <p>Dit betekent dat de 10d allocatie bestaat uit 5d met een allocatie waarde van 1,3 en een totale inspanning van 48,75u, gevolgd door 5d met een allocatie waarde van 0,7 en een totale inspanning van 26,25u.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Illustratie</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>De hulpmiddel curve die in het bovenstaande voorbeeld wordt gebruikt wordt hieronder geïllustreerd:</p>
+                <p>
+                    <img src="../../../../Graphics/Resource_and_cost_allocations/resourcecurveapplyexample.gif" />
+                </p>
+                <p>Het resultaat van het toepassen van de hulpmiddel curve op de allocatie kan het beste geïllustreerd worden door het configureren van de hulpmiddel inzet view om de inspanning van het betreffende hulpmiddel op een dagelijkse basis te tonen:</p>
+                <p>
+                    <img src="../../../../Graphics/Resource_and_cost_allocations/resourcecurveapplyexample1.gif" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2>Hoe de voortgang wordt berekend bij niet-lineaire allocaties</h2>
+        <p>Wanneer u voortgang registreert op een taak, wordt er op haar allocaties evenredig voortgang geregistreerd. Bijvoorbeeld, wanneer u een taak markeert als zijnde 25% voltooid, worden haar allocaties automatisch gemarkeerd als zijnde 25% voltooid. Wanneer een taak een niet-lineaire allocatie heeft, wordt de werkelijke inspanning, hoeveelheid of kosten berekend volgens de hulpmiddel curve of het individuele allocatieprofiel en wordt de resterende inspanning, hoeveelheid of kosten herverdeeld volgens het resterende deel van de hulpmiddel curve of van het allocatie profiel.</p>
+        <p>Bijvoorbeeld, er is een 10d verbruiksgoed allocatie van 400 bakstenen, waarop een triangulaire hulpmiddel curve is toegepast.</p>
+        <ul>
+            <li>Wanneer u de taak markeert als zijnde 40% voltooid (d.w.z. 4d van de 10d zijn voltooid), dan wordt de hulpmiddel curve gebruikt om het aantal bakstenen te berekenen die zijn verbruikt: 128.</li>
+            <li>Wanneer u markeert dat 128 bakstenen zijn verbruikt, dan wordt de hulpmiddel curve gebruikt om de duur te berekenen die benodigd is om ze te leggen: 4d.</li>
+        </ul>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Illustratie</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>De hulpmiddel curve die in het bovenstaande voorbeeld gebruikt is wordt hieronder geïllustreerd:</p>
+                <p>
+                    <img src="../../../../Graphics/Resource_and_cost_allocations/resourcecurveapplyexample2.gif" />
+                </p>
+                <p>Hier wordt het resultaat van het toepassen van de hulpmiddel curve het beste geïllustreerd door het gebruik van een histogram om de hoeveelheid bakstenen die zijn verbruikt weer te geven op een dagelijks basis. De volgende illustratie toont de situatie voordat er voortgang is toegepast op de allocatie:</p>
+                <p>
+                    <img src="../../../../Graphics/Resource_and_cost_allocations/resourcecurveapplyexample3.gif" />
+                </p>
+                <p>De volgende illustratie toont het effect na het toepassen van voortgang op de allocatie:</p>
+                <p>
+                    <img src="../../../../Graphics/Resource_and_cost_allocations/resourcecurveapplyexample4.gif" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2>de inspanning van allocaties laten toenemen met individuele allocatieprofielen</h2>
+        <p>Wanneer u de inspanning van een niet-lineaire allocatie waaraan een individueel allocatieprofiel is toegepast laat toenemen, zal de allocatie niet worden ontleend aan de gemiddelde allocatie, maar aan de allocatie van de laatste waarde in het allocatie profiel; een extra waarde wordt toegevoegd aan het allocatie profiel om de extra inspanning te vertegenwoordigen.</p>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p>
+            <a href="Creating_resource_curves.htm">Creëren van een nieuwe hulpmiddel curve</a>
+        </p>
+        <p>
+            <a href="Configure_allocations_nonlinear.htm">Configureren van niet-lineaire hulpmiddel- en kostenallocaties</a>
+        </p>
+        <p>
+            <a href="../../Resources/Edit_properties/Configure_resources_nonlinear.htm">Configureren van hulpmiddelen om standaard niet-lineaire allocaties te gebruiken</a>
+        </p>
+        <p>
+            <a href="../../Costs/Setting_up_cost_centres/Configure_cost_centres_nonlinear.htm">Configureren van kostengroepen om standaard niet-lineaire allocaties te gebruiken</a>
+        </p>
+    </body>
+</html>

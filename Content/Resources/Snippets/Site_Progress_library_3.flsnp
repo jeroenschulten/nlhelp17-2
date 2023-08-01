@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>U kunt elke codebibliotheek in dit veld selecteren. Welke codebibliotheek u ook selecteert, u moet de juiste <MadCap:variable name="Primary.Site Progress Mobile Name" /> gebruiker koppelen aan elke code in de codebibliotheek, met behulp van het veld <b>Site Progress-gebruiker</b> in het dialoogvenster <b>Codebibliotheekitem Eigenschappen</b>, en elke gebruikerscode uit de bibliotheek koppelen aan hun taken in het project.</p>
+    </body>
+</html>

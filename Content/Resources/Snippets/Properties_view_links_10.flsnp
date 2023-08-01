@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... het tabelraster configureren?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li xmlns="">Klik met de rechtermuisknop op de kop van een kolom met informatie in het tabelraster om een menu weer te geven waarmee u het tabelraster kunt configureren. U kunt kolommen met informatie toevoegen en verwijderen en het tabelraster sorteren op basis van de informatie in een van de kolommen.</li>
+                    <li>Klik op de kop van een kolom in het tabelraster en sleep het naar links of rechts om haar positie in het tabelraster te veranderen.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

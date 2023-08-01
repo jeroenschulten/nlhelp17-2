@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\teamplan_reference\Variable_dates.htm" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl">
+    <head>
+        <link href="../../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <meta name="datum" content="03 14, 2007 4:47:11 PM" /><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Variabele datums:waar zij kunnen worden gespecificeerd;Variabele datums:toepassen van een van de vormen ervan op;Datums:variabele datums;Variabele datums" />Variabele datums zoals 'Vandaag' of 'Morgen' gebruiken</h1>
+        <p>Een aantal datumvelden binnen   <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> bieden u de mogelijkheid om variabele datums te specificeren, in plaats van specifieke datums zoals 09/01/2018. Voorbeelden van variabele datums die u kunt specificeren zijn 'Vandaag', 'Maand start' en 'Jaar einde'. Deze datums worden omgezet in werkelijke datums telkens als u een project opent, en de datum waarmee zij overeenkomen zal veranderen in overeenstemming met de huidige datum. Bijvoorbeeld, wanneer u een project op 09/01/2018 opent, zal 'Vandaag' 09/01/2018 zijn, 'Maand start' zal 01/01/2018 zijn en 'Jaar einde' zal 31/12/2018 zijn.</p>
+        <p>U kunt veranderingen toepassen op variabele datums, door gebruik te maken van de tijdseenheden van   <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> - zowel werktijd en verstreken tijd. Bijvoorbeeld, u kunt opgeven 'Maand start+1vw' (de start datum van de huidige maand plus één verstreken week) of 'Vandaag-3d' (drie werkdagen voor de datum van vandaag).</p>
+        <p>Voorbeelden van situaties waarbij het specificeren van een variabele datum in plaats van een specifieke datum nuttig zou kunnen zijn:</p>
+        <ul type="disc">
+            <li class="p">Het tonen van een verticale rasterlijn op de balkkaart die verschijnt op de huidige datum.            </li>
+            <li class="p">Markeren van het huidige kwartaal op de balkkaart.            </li>
+            <li class="p">Instellen van meerdere horizontale secties in de kalenderschaal waardoor altijd de huidige maand op een bepaalde schaal wordt weergegeven.            </li>
+            <li class="p">Configureren van een tabelkolom om opmerkingen met datum in weer te geven die ingevoerd zijn gedurende de vorige week.</li>
+        </ul>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Waar kunt u een variabele datum specificeren</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>U kunt een variabele datum in elk datumveld waarvan het datumkeuzelijst besturingselement de tekst <span style="font-weight: bold;">(klik om een variabele datum te selecteren)</span> toont aan de onderkant. U kunt ook variabele datums gebruiken bij het <a href="teamplan_SQL.htm">opbouwen van TQL queries</a>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Beschikbare variabele datums</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody><a name="Available_variable_dates"></a>
+                <table wrapperparagraphselector="P" style="margin-top: 14pt;width: 100%;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');border-left-style: solid;border-left-width: 1px;border-left-color: #4a4a49;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-top-style: solid;border-top-width: 1px;border-top-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #4a4a49;border-collapse: collapse;margin-left: 0;margin-right: auto;" cellspacing="0" border="1" class="TableStyle-Table_Stylesheet">
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <thead xmlns="">
+                        <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">
+                                <p style="margin-bottom: 0;"><span style="color: #ffffff;font-weight: bold;">Beschrijvende Naam</span>
+                                </p>
+                            </th>
+                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">
+                                <p style="margin-bottom: 0;"><span style="color: #ffffff;font-weight: bold;">Afkorting</span>
+                                </p>
+                            </th>
+                            <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">
+                                <p style="margin-bottom: 0;"><span style="color: #ffffff;font-weight: bold;">Wordt omgezet naar</span>
+                                </p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>Gisteren</p>
+                        </td>
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>jdj</p>
+                        </td>
+                        <td style="vertical-align: top;width: 34%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                            <p>De datum van gisteren</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>Vandaag</p>
+                        </td>
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>tdj</p>
+                        </td>
+                        <td style="vertical-align: top;width: 34%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                            <p>De datum van Vandaag</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>Morgen</p>
+                        </td>
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>tmw</p>
+                        </td>
+                        <td style="vertical-align: top;width: 34%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                            <p>De datum van Morgen</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>Huidige voortgangsperiode datum</p>
+                        </td>
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>cp</p>
+                        </td>
+                        <td style="vertical-align: top;width: 34%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                            <p>De rapportdatum van de huidige voortgangsperiode</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>Week start</p>
+                        </td>
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>ws</p>
+                        </td>
+                        <td style="vertical-align: top;width: 34%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                            <p>De start van de huidige week zoals bepaald door het werktijdenpatroon van de kalender</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>Week einde</p>
+                        </td>
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>we</p>
+                        </td>
+                        <td style="vertical-align: top;width: 34%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                            <p>Het einde van de huidige week zoals bepaald door het werktijdenpatroon van de kalender</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>Maand start</p>
+                        </td>
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>ms</p>
+                        </td>
+                        <td style="vertical-align: top;width: 34%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                            <p>De eerste dag van de huidige maand</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>Maand einde</p>
+                        </td>
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>me</p>
+                        </td>
+                        <td style="vertical-align: top;width: 34%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                            <p>De laatste dag van de huidige maand</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>Kwartaal start</p>
+                        </td>
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>ks</p>
+                        </td>
+                        <td style="vertical-align: top;width: 34%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                            <p>De eerste dag van het huidige kwartaal</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>Kwartaal einde</p>
+                        </td>
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>ke</p>
+                        </td>
+                        <td style="vertical-align: top;width: 34%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                            <p>De laatste dag van het huidige kwartaal</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>Jaar start</p>
+                        </td>
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>js</p>
+                        </td>
+                        <td style="vertical-align: top;width: 34%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                            <p>De eerste dag van het huidige jaar</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>Jaar einde</p>
+                        </td>
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>je</p>
+                        </td>
+                        <td style="vertical-align: top;width: 34%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                            <p>De laatste dag van het huidige jaar</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>Project start</p>
+                        </td>
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>ps</p>
+                        </td>
+                        <td style="vertical-align: top;width: 34%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                            <p>De datum waarop het project start</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>Project einde</p>
+                        </td>
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p>pe</p>
+                        </td>
+                        <td style="vertical-align: top;width: 34%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                            <p>De datum waarop de laatste taak in het project eindigt</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p bgcolor="#C0C0C0">Laatste week start</p>
+                        </td>
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p bgcolor="#C0C0C0">lws</p>
+                        </td>
+                        <td style="vertical-align: top;width: 34%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                            <p bgcolor="#C0C0C0">De start van de vorige week zoals bepaald door het werktijdenpatroon van de kalender</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p bgcolor="#C0C0C0">Laatste week einde</p>
+                        </td>
+                        <td style="vertical-align: top;width: 33%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                            <p bgcolor="#C0C0C0">
+lwe</p>
+                        </td>
+                        <td style="vertical-align: top;width: 34%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                            <p bgcolor="#C0C0C0">Het einde van de vorige week zoals bepaald door het werktijdenpatroon van de kalender</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                        <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">Datum dag 1</td>
+                        <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">dd</td>
+                        <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                            <p class="ParagraphsInTables">De datum waarop de eenheid nummering begint in de huidige view - wanneer er een "datum dag 1" gespecificeerd is voor de view of voor het project als geheel.</p>
+                            <p class="ParagraphsInTables">&#160;</p>
+                            <p class="ParagraphsInTables">Merk op dat de "datum dag 1" variabele datum afwijkt van de andere variabele datums, omdat er een andere "datum dag 1" kan worden gespecificeerd voor elke view. Dit betekent dat wanneer u de "datum dag 1" als een variabele datum gebruikt, de resultaten van de variabele datum van view tot view kunnen verschillen.</p>
+                            <p class="ParagraphsInTables">&#160;</p>
+                            <p class="ParagraphsInTables"><a href="../Setting_up_the_bar_chart/Using_the_date_zone/Numbering_in_the_date_zone.htm">Klik hier</a> voor meer informatie.</p>
+                        </td>
+                    </tr>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Specificeren van een variabele datum</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>U kunt een variabele datum op twee manieren specificeren:</p>
+                <ul type="disc">
+                    <li class="p">Door de volledige beschrijvende naam in te typen (bijv.'Vandaag' of 'Week start') of door de afkorting van de variabele datum (bijv. 'tdj' of 'ws') direct in het datum veld te typen.            </li>
+                    <li class="p">Door het klikken op <span style="font-weight: bold;">(klik om een variabele datum te selecteren)</span> aan de onderkant van het datumkeuzelijst besturingselement en de variabele datum die u wenst uit de lijst die verschijnt te selecteren.            </li>
+                </ul>
+                <p>Wanneer u een variabele datum specificeert, gaat   <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> ervan uit dat de tijd 00:00 (middernacht) is behalve als u expliciet een andere tijd definieert. Om een andere tijd dan middernacht te specificeren voor een variabele datum, klik in het datum veld en typ de gewenste tijd - bijvoorbeeld 13:45 - direct na de beschrijvende naam of de afkorting van de datum. U kunt een spatie invoeren tussen de variabele datum en de tijd, maar dat is optioneel.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot><a name="Offset"></a>Een aanpassing aanbrengen aan een variabele datum</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Om een aanpassing op een variabele datum te maken, klik in het datumveld en typ de aanpassing - bijvoorbeeld +2vw of -5d - direct na beschrijvende naam of de afkorting van de datum (en na de tijd van de variabele datum, wanneer die is gespecificeerd). U kunt een spatie invoeren tussen de variabele datum en de aanpassing, maar dat is optioneel.</p>
+                <p>Wanneer u een aanpassing aanbrengt met een werktijd tijdseenheid (bijvoorbeeld d in plaats van vd), zal de kalender van de kalenderschaal van de huidige view gebruikt worden om de exacte duur van de aanpassing te berekenen.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

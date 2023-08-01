@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Wanneer u ervoor kiest om hier geen "datum dag 1" te selecteren, zal door het uitschakelen van het selectievakje in dit veld de eenheid nummering in alle "verstreken eenheden" of "werktijd eenheden" regels beginnen op de project-brede "datum dag 1" die gespecificeerd staat op het <b>Eigenschappen</b> tabblad van de Backstage view; wanneer er geen datum dag 1 gespecificeerd staat in dat veld, zal de startdatum van de eerste taak in het project - of de Geplande project startdatum, wanneer die gespecificeerd is - gebruikt worden om te bepalen vanaf welk punt de eenheid nummering moet starten.</p>
+    </body>
+</html>

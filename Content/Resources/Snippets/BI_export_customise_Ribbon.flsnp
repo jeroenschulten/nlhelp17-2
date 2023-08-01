@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="201" MadCap:lastWidth="681">
+    <head>
+    </head>
+    <body>Het <b>Exporteer BI</b> commando is niet standaard opgenomen bij het Lint, dus wanneer u Business Intelligence gegevens naar Excel wilt exporteren, u het Lint moet aanpassen om dit commando eraan toe te voegen. <a href="../../HTML_Topics/Conceptual/Customising_menus/Ribbon/Customise_Ribbon.htm">Klik hier</a> voor details over hoe commando's aan het Lint toe te voegen.</body>
+</html>

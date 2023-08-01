@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>wanneer u wilt dat de waarden in de tabel alleen die taken en allocaties laten zien die opgenomen zijn in de nu toegepaste filter, of schakel het selectievakje uit om alle taken en allocaties in de waarden op te nemen, ongeacht of ze matchen met de filtercriteria. Dit selectievakje heeft geen invloed op de getotaliseerde waarden - d.w.z. waarden die horen bij samenvattingstaken<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">, niveautaken en hammocks</MadCap:conditionalText>. </body>
+</html>

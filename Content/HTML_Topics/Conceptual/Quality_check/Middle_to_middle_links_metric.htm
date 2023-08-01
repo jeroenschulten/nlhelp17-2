@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" xml:lang="nl-nl" class="KLAAR-NL">
+    <head>
+        <link href="../../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Kwaliteitschecks:midden naar midden links criterium;Midden naar midden links kwaliteitscriterium" />'Midden naar midden links' kwaliteitscriterium</h1>
+        <p>U gebruikt dit kwaliteitscriterium om het aandeel links zonder <a href="../Intro_project_management/Introducing_lead_and_lag_time.htm">positieve/negatieve wachttijd</a> zowel aan de start als aan het einde te checken. U zou dit criterium in een kwaliteitscheck kunnen opnemen om te zorgen dat midden-naar-midden links in een planning niet worden gebruikt.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Voorbeeld van midden-naar-midden links</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In de volgende afbeelding heeft de link tussen taak 1 en 2 geen positieve/negatieve wachttijd; de link tussen taak 3 en 4 heeft alleen aan het begin een positieve/negatieve wachttijd; en de link tussen taak 5 en 6 heeft alleen aan het einde een positieve/negatieve wachttijd. Deze links zouden slagen voor dit kwaliteitscriterium. De links tussen taken 7 en 8 en taken 9 en 10 hebben aan beide uiteinden een positieve/negatieve wachttijd. Deze links zouden falen voor dit kwaliteitscriterium:</p>
+                <p>
+                    <img src="../../../Graphics/Quality_check/middletomiddlelinks.gif" alt="The links between tasks 7 and 8 and tasks 9 and 10 have lead/lag at both ends" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_2.flsnp" />
+        </p>
+        <h2>Slaag en faal criteria</h2>
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Slaagt of faalt?</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Criteria</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #afffaf;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Slaagt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Een project slaagt op dit criterium wanneer het percentage links dat geen positieve/negatieve wachttijd heeft aan beide einden  groter is dan of gelijk is aan het slaaggrens percentage. </p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Wanneer bijvoorbeeld de slaaggrens ingesteld stond op 100,00%, zou een project op dit criterium slagen wanneer 100,00% van de links geen positieve of negatieve wachttijd heeft, of alleen positieve of negatieve wachttijd heeft aan het ene einde van de link.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #ff6464;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Een project faalt op dit criterium wanneer het percentage links dat geen positieve/negatieve wachttijd heeft aan beide einden kleiner is dan het faalgrens percentage. </p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Wanneer bijvoorbeeld de faalgrens ingesteld stond op 95,00%, zou een project op dit criterium falen wanneer minder dan 95,00% of links geen positieve of negatieve wachttijd heeft, of alleen positieve of negatieve wachttijd heeft aan het ene einde van de link.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="background-color: #ffaf45;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;">Slaagt noch faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Wanneer het percentage links dat geen positieve/negatieve wachttijd heeft valt tussen het slaaggrens en het faalgrens, is het resultaat noch geslaagd noch gefaald, maar ligt dat ergens daartussenin.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Voorgestelde instellingen</h2>
+        <ul xmlns="" type="disc">
+            <li>Slaaggrens: 100,00%. Een project zal slagen voor dit criterium als alle links geen positieve/negatieve wachttijd heeft, of alleen maar positieve/negatieve wachttijd heeft aan één van de einden.</li>
+            <li>Faalgrens: 95,00%. Een project zal falen voor dit criterium als minder dan 95% geen positieve/negatieve wachttijd heeft, of alleen maar positieve/negatieve wachttijd heeft aan één van de einden.</li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_39.flsnp" />
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Percentage of links dat geen positieve/negatieve wachttijd heeft, of alleen maar positieve/negatieve wachttijd heeft aan één kant</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Slaagt of faalt?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">0,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">50,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">94,99%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">95,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Slaagt noch faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">99,99%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Slaagt noch faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1">100,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Slaagt</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Forceert dit criterium dat het project wordt herberekend?</h2>
+        <p>No.</p>
+        <h2>Voorgestelde acties als een project faalt voor dit criterium</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_40.flsnp" />
+        <p>U kunt de volgende acties ondernemen om de falende links te verbeteren:</p>
+        <ul>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_41.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_42.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_43.flsnp" />
+            </li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_44.flsnp" />
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p>
+            <a href="Checking_quality_intro.htm">Introductie over planningskwaliteitchecks</a>
+        </p>
+        <p>
+            <a href="../Intro_project_management/Introducing_lead_and_lag_time.htm">Negatieve en positieve wachttijden introduceren</a>
+        </p>
+        <p>
+            <a href="../Bar_chart_editing/Links_lead_lag/Drawing_links_with_leadlag_time.htm">Links tekenen met positieve/negatieve wachttijd</a>
+        </p>
+    </body>
+</html>

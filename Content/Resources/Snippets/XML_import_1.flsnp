@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="83" MadCap:lastWidth="1102">
+    <head>
+    </head>
+    <body>te specificeren dat alle Bibliotheek Verkenner objecten zoals kalenders, kostengroepen, kosten en inkomstentarieven en hulpmiddelen die gecreëerd zijn als resultaat van de import in de juiste bibliotheken zouden moeten worden geplaatst binnen mappen die de naam krijgen die u specificeert in het veld onder het selectievakje. Schakel dit selectievakje uit om te specificeren dat elk zulk Bibliotheek Verkenner object zou moeten worden geplaatst in de root van de Bibliotheek Verkenner hiërarchieën.</body>
+</html>

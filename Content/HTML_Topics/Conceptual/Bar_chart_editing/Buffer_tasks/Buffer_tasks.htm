@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Bar_chart_editing_2\Buffer_tasks\Buffer_tasks.htm" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" class="KLAAR" xml:lang="nl-nl">
+    <head>
+        <link href="../../../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Buffertaken:monitoren van bufferverbruik;Buffertaken:introductie over;Buffertaken:aanleverbuffertaken;Buffertaken:project buffertaken;Onzekerheidsmarge-taken;Aanleverbuffertaken;Project buffertaken;Filters:voor buffertaken;Buffertaken:filteren op;Aanleverbuffertaken:filteren op;Project buffertaken:filteren op" />Werken met buffertaken</h1>
+        <p>
+Buffertaken, ook wel 'onzekerheidsmarge-taken' genoemd, kunnen worden gebruikt in projecten om belangrijke datums te beschermen en overmatige speling te vermijden. Buffertaken hebben zelf geen speling, maar worden zo nodig korter of langer zonder voorbij hun einddatum te gaan, of voorbij de startdatum van opvolgende taken. Er zijn twee soorten buffertaken: project-buffertaken, die een bepaalde einddatum beschermen, en aanleverbuffertaken, die de startdatum van opvolgertaken beschermen. Project-buffertaken verschillen van aanleverbuffertaken omdat zij geen uitgaande links of taken aan de rechterzijde op dezelfde balk hebben. Er wordt een deadline-vlag op geplaatst wanneer u deze taken aanmaakt: wanneer een buffertaak een uitgaande link heeft of een taak aan de rechterzijde op dezelfde balk, is het een aanleverbuffertaak. Buffertaken zullen alleen voorbij hun einddatum schuiven, of de start van opvolgertaken vertragen, wanneer zij volledig zijn verbruikt, op welk moment ze automatisch omgezet worden in eindmijlpalen.</p>
+        <p>
+Het volgende eenvoudige voorbeeld toont het gebruik van project-buffertaken en aanleverbuffertaken.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Project-buffertaak voorbeeld</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In onderstaande afbeelding is taak H een project-buffertaak - er zijn geen uitgaande links, en geen taken rechts ervan op dezelfde balk. Deze buffertaak beschermt de datum aan het eind van deze buffertaak, welke is aangegeven met de deadline-vlag.</p>
+                <p>
+                    <img src="../../../../Graphics/Bar_chart_editing/buffer16.gif" style="border: none;" width="138" height="70" border="0" />
+                </p>
+                <p>Wanneer taak G eerder kan eindigen dan oorspronkelijk gepland, zullen de taken er na herberekenen als volgt uitzien:</p>
+                <table style="vertical-align: top;" cellspacing="0" width="100%">
+                    <col style="width: 50%;" />
+                    <col style="width: 50%;" />
+                    <tr style="vertical-align: top;">
+                        <td style="padding-right: 10px;padding-left: 10px;">
+                            <p>
+                                <img src="../../../../Graphics/Bar_chart_editing/buffer17.gif" style="border: none;" width="138" height="70" border="0" />
+                            </p>
+                        </td>
+                        <td style="padding-right: 10px;padding-left: 10px;">
+                            <p>Als de duur van taak G is afgenomen, is de duur van de buffertaak toegenomen om de einddatum te beschermen. In werkelijkheid zal dit ongewenst zijn, maar nauwkeurig volgen van het bufferverbruik laat zien dat dit gebeurt, dus zal er een correctie moeten plaatsvinden, zoals het verkleinen van de buffertaak.</p>
+                        </td>
+                    </tr>
+                </table>
+                <p>Wanneer taak G langer duurt dan oorspronkelijk gepland, zullen de taken er na herberekenen als volgt uitzien:</p>
+                <table style="vertical-align: top;" cellspacing="0" width="100%">
+                    <col style="width: 50%;" />
+                    <col style="width: 50%;" />
+                    <tr style="vertical-align: top;">
+                        <td style="padding-right: 10px;padding-left: 10px;">
+                            <p>
+                                <img src="../../../../Graphics/Bar_chart_editing/buffer18.gif" style="border: none;" width="138" height="70" border="0" />
+                            </p>
+                        </td>
+                        <td style="padding-right: 10px;padding-left: 10px;">
+                            <p>Als de duur van taak G is toegenomen, is de duur van de buffertaak afgenomen om de einddatum te beschermen.</p>
+                        </td>
+                    </tr>
+                </table>
+                <p>Wanneer taak G is vertraagd en/of langer duurt, zodat hij later zal eindigen dan de einddatum van de buffertaak, zullen de taken er na herberekenen als volgt uitzien:</p>
+                <table style="vertical-align: top;" cellspacing="0" width="100%">
+                    <col style="width: 50%;" />
+                    <col style="width: 50%;" />
+                    <tr style="vertical-align: top;">
+                        <td style="padding-right: 10px;padding-left: 10px;">
+                            <p>
+                                <img src="../../../../Graphics/Bar_chart_editing/buffer22.gif" style="border: none;" width="163" height="72" border="0" />
+                            </p>
+                        </td>
+                        <td style="padding-right: 10px;padding-left: 10px;">
+                            <p>Buffertaak H is gekrompen tot een eindmijlpaal en is opgeschoven tot na de einddatum van de buffertaak. Bij nauwkeurig volgen van het bufferverbruik zal dit worden aangemerkt als een probleem.</p>
+                        </td>
+                    </tr>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Aanleverbuffertaak voorbeeld</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In onderstaande afbeelding is taak B een aanleverbuffertaak, gemaakt om de startdatum van taak C te beschermen. Merk op dat er een link is van een andere taak naar de start van taak C:</p>
+                <p>
+                    <img src="../../../../Graphics/Bar_chart_editing/buffer1.gif" style="border: none;" width="184" height="70" border="0" />
+                </p>
+                <p>Wanneer taak A eerder kan eindigen dan oorspronkelijk gepland, zullen de taken er na herberekenen als volgt uitzien:</p>
+                <table style="vertical-align: top;" cellspacing="0" width="100%">
+                    <col style="width: 50%;" />
+                    <col style="width: 50%;" />
+                    <tr style="vertical-align: top;">
+                        <td style="padding-right: 10px;padding-left: 10px;">
+                            <p>
+                                <img src="../../../../Graphics/Bar_chart_editing/buffer3.gif" style="border: none;" width="184" height="70" border="0" />
+                            </p>
+                        </td>
+                        <td style="padding-right: 10px;padding-left: 10px;">
+                            <p>Als de duur van taak A is afgenomen, is de duur van buffertaak B toegenomen.</p>
+                        </td>
+                    </tr>
+                </table>
+                <p>Wanneer taak A langer duurt dan oorspronkelijk gepland, zullen de taken er na herberekenen als volgt uitzien:</p>
+                <table style="vertical-align: top;" cellspacing="0" width="100%">
+                    <col style="width: 50%;" />
+                    <col style="width: 50%;" />
+                    <tr style="vertical-align: top;">
+                        <td style="padding-right: 10px;padding-left: 10px;">
+                            <p>
+                                <img src="../../../../Graphics/Bar_chart_editing/buffer2.gif" style="border: none;" width="184" height="70" border="0" />
+                            </p>
+                        </td>
+                        <td style="padding-right: 10px;padding-left: 10px;">
+                            <p>Als de duur van taak A is toegenomen, is de duur van buffertaak B afgenomen vanaf zijn startdatum, om de startdatum van taak C te beschermen.</p>
+                        </td>
+                    </tr>
+                </table>
+                <p>Wanneer taak A is uitgesteld en/of langer duurt, zodat deze later eindigt dan de einddatum van de buffertaak, zullen de taken er na herberekenen als volgt uitzien:</p>
+                <table style="vertical-align: top;" cellspacing="0" width="100%">
+                    <col style="width: 50%;" />
+                    <col style="width: 50%;" />
+                    <tr style="vertical-align: top;">
+                        <td style="padding-right: 10px;padding-left: 10px;">
+                            <p>
+                                <img src="../../../../Graphics/Bar_chart_editing/buffer4.gif" style="border: none;" width="214" height="70" border="0" />
+                            </p>
+                        </td>
+                        <td style="padding-right: 10px;padding-left: 10px;">
+                            <p>Buffertaak B is gekrompen tot een eindmijlpaal en is voorwaarts verplaatst tot voorbij de einddatum van de buffertaak. Omdat de buffertaak volledig verbruikt is, moest taak C verplaatst worden. Bij nauwkeurig volgen van het bufferverbruik wordt dit als een probleem aangemerkt.</p>
+                        </td>
+                    </tr>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>
+            <a href="Buffer_examples.htm">Klik hier</a> om meer afbeeldingen te zien die u tonen hoe u buffertaken in uw projecten kunt gebruiken.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Belangrijke opmerkingen over buffertaken</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul type="disc">
+                    <li class="p">
+                        Omdat project buffertaken door de erop toepaste deadline vlag de einddatum beschermen, zal een project buffertaak nog steeds uitbreiden voorbij haar deadline, zelfs als dit de project einddatum overschrijdt (d.w.z. de einddatum van de laatste taak in een project overschrijdt).            </li>
+                    <li class="p">U kunt hulpmiddelen alloceren aan buffertaken, maar de hulpmiddelen moeten niet-gemodelleerd zijn. Wanneer u een taak, die eraan gealloceerde gemodelleerde hulpmiddelen heeft, definieert als buffertaak, worden de hulpmiddel-allocaties automatisch veranderd in niet-gemodelleerde.            </li>
+                    <li class="p">U kunt buffertaken voortgang geven op dezelfde manier als andere taken.            </li>
+                    <li class="p">U kunt buffertaken linken aan voorloper-en opvolgertaken op dezelfde manier als andere taken, maar u kunt geen links creëren die eindigen aan het einde van buffertaken.            </li>
+                    <li class="p">Buffertaken hebben nooit speling. Daarom worden ze meestal als kritiek weergegeven na een herberekening. U kunt instellen dat aanleverbuffertaken als niet-kritiek worden weergegeven door het selectievakje <span style="font-weight: bold;">Buffertaken - Tonen als niet-kritiek</span> in te schakelen op het tabblad <span style="font-weight: bold;">Herberekenen</span> van het <b>Opmaak Balkkaart dialoogvenster</b>.            </li>
+                    <li class="p">Buffertaken worden nooit verplaatst tijdens hulpmiddel-levelling.            </li>
+                    <li class="p">Buffertaken met hulpmiddel-allocaties waarvoor 'allocatie' de berekende parameter is, kunnen krimpen tot de minimum duur van 1 seconde; buffertaken met andere hulpmiddel-allocaties, of zonder hulpmiddel-allocaties, kunnen krimpen tot een mijlpaal.            </li>
+                    <li class="p">Wanneer u een taak definieert als buffertaak, wordt de duur ervan op dat punt opgeslagen in het veld Originele duur buffertaak.            </li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2>
+            Monitoren van buffertaken</h2>
+        <p>U kunt het Bufferverbruik veld gebruiken om de manier waarop de duur van buffertaken verandert tijdens herberekenen, te monitoren.</p>
+        <p>
+            <span>Een eenvoudige manier om het verbruik van buffertaken te volgen is het <a href="../../Spreadsheet/Editing_the_spreadsheet/Setting_up_spreadsheet_columns.htm">weergeven van het Bufferverbruik veld in de tabel</a> en <a href="../../Spreadsheet/Editing_the_spreadsheet/Sorting_on_spreadsheet_columns.htm">hierop sorteren</a>. U zult waarschijnlijk controle willen houden op buffers die een ongewenste lengte bereiken - bijvoorbeeld, die welke bijna volledig zijn verbruikt en daarmee de einddatum of de startdatum van de opvolgende taak in gevaar brengen, en die welke toenemen en daarmee de projectduur verlengen.</span>
+        </p>
+        <p>U kunt specificeren hoe het Bufferverbruik wordt weergegeven, met het veld <span style="font-weight: bold;">Bufferverbruik</span> veld op het 
+<b>Tabel Definitie Eigenschappen</b> dialoogvenster. Selecteer:</p>
+        <ul type="disc">
+            <li class="p">Bufferverbruik factor om het percentage van de duur van  een verbruikte buffertaak weer te geven; een negatieve waarde geeft aan dat een buffer is toegenomen qua duur.</li>
+            <li class="p">Buffer resterend factor  om het percentage van de duur van  een nog niet verbruikte buffertaak weer te geven; een waarde boven de  100 geeft aan dat een buffer is toegenomen qua duur.</li>
+            <li class="p">Buffer correctie om de werkelijke   duur van  een verbruikte buffertaak weer te geven; een negatieve waarde geeft aan dat een buffer is toegenomen qua duur.</li>
+            <li class="p">Buffer gebruik om de werkelijke hoeveelheid waarmee de duur van een buffertaak is toegenomen weer te geven; een negatieve waarde geeft aan dat een buffer gedeeltelijk is verbruikt.</li>
+        </ul>
+        <p>De volgende tabel illustreert de wijze waarop elke instelling bepaalt hoe het bufferverbruik wordt weergegeven:</p>
+        <table style="mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead xmlns="">
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1" style="text-align: right;">Originele buffertaakduur</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1" style="text-align: right;">Huidige buffertaak duur</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1" style="text-align: right;">Buffer consumptie factor</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1" style="text-align: right;">Buffer resterend factor</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1" style="text-align: right;">Buffer correctie</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1" style="text-align: right;">Buffer gebruik</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">10</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">20</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">-100</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">200</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">-10</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1" style="text-align: right;">10</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">10</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">15</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">-50</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">150</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">-5</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1" style="text-align: right;">5</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">10</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">10</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">0</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">100</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">0</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1" style="text-align: right;">0</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">10</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">5</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">50</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">50</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">5</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1" style="text-align: right;">-5</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="text-align: right;">10</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="text-align: right;">0</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="text-align: right;">100</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="text-align: right;">0</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="text-align: right;">10</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1" style="text-align: right;">-10</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Filteren op buffertaken</h2>
+        <p>U kunt gebruik maken van de  <span style="font-weight: bold;">Vlaggen en buffers</span> pagina van de 
+<b>Filter Wizard</b> om te filter op project en aanleverbuffertaken.</p>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p>
+            <a href="../Using_constraints/Using_constraints.htm">Vlaggen gebruiken</a>
+        </p>
+        <p>
+            <a href="Buffer_examples.htm">Voorbeelden van gebruik van buffertaken</a>
+        </p>
+        <p>
+            <a href="Creating_buffers.htm">Buffertaken maken</a>
+        </p>
+    </body>
+</html>

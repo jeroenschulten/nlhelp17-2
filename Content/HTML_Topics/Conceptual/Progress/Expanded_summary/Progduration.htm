@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Marking_progress_on_tasks_and_allocations\Progress_on_expanded_tasks,_summary_tasks_and_hammocks\Progduration.htm" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>Voortgang berekenen op bovenliggende taken naar duur voltooid</h1>
+        <p>Dit onderwerp beschrijft in detail hoe de voortgangsmarkering op <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">niveautaken, </MadCap:conditionalText>samenvattingstaken<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"> en hammocks</MadCap:conditionalText> wordt berekend naar de hoeveelheid duur die is voltooid (gespecificeerd in het veld <span style="font-weight: bold;">Voortgangsmethode</span> dat zowel verschijnt op het tabblad <b>Voortgang</b> van het <b>Opties</b> dialoogvenster als op het tabblad <span style="font-weight: bold;">Eigenschappen</span> van het <b>Eigenschappen</b> dialoogvenster).</p>
+        <p>Merk op dat voor het gemak de voorbeelden in dit onderwerp worden getoond alsof de tijdseenheid dagen is gebruikt bij het uitvoeren van de voortgangsberekeningen. In feite is de tijdseenheid seconden gebruikt om zo nauwkeurig mogelijke gegevens te krijgen.</p>
+        <h2>Opvolgende voortgang</h2>
+        <p>Houdt rekening met de volgende mogelijkheid, waarin een samenvatting vier taken bevat. Één taak is vier dagen lang terwijl de andere drie elk één dag lang zijn. In totaal dus 7 dagen werk in de samenvatting:</p>
+        <p>
+            <img src="../../../../Graphics/Progress/detprog1.gif" style="border: none;" width="422" height="166" border="0" />
+        </p>
+        <p>Hier is voorgang gemarkeerd op de taken. De taak van vier dagen is voor 25% voltooid, terwijl de drie overige taken ieder voor 100% voltooid zijn:</p>
+        <p>
+            <img src="../../../../Graphics/Progress/detprog2.gif" style="border: none;" width="422" height="166" border="0" />
+        </p>
+        <p>Het veld Duur percentage voltooid toont 57.14% voor de samenvattingstaak. Deze waarde is afgeleid van de optelling van de voltooide duur en verdeling over de totale duur. Aangezien er in totaal 7 werkdagen zijn waarvan 4 voltooid, is de berekening 4 / 7 x 100 = 57.14%.</p>
+        <p>Het veld Verdeeld Gemiddeld % Voltooid toont 25% voor de samenvattingstaak. Deze waarde is afgeleid door rekening te houden met de positie van de voortgangsdatum die is berekend voor de samenvattingstaak. De voortgangsdatum voor de samenvattingstaak is als volgt berekend:</p>
+        <ol style="list-style-type: decimal;">
+            <li class="p">Het totaal aantal voltooide tijdseenheden in de samenvattingstaak is opgeteld.            </li>
+            <li class="p">De inhoud van de samenvattingstaak wordt doorgewerkt van de eerste tot de laatste datum, waarbij voltooide eenheden van huidige eenheden worden afgevinkt tot alle voltooide eenheden zijn afgevinkt. De datum waarop de laatste voltooide eenheid is afgevinkt is de voortgangsdatum van de samenvattingstaak.            </li>
+        </ol>
+        <p>Dit wordt getoond in onderstaande afbeelding:</p>
+        <p>
+            <img src="../../../../Graphics/Progress/detprog3.gif" style="border: none;" width="358" height="113" border="0" />
+        </p>
+        <p>De grafiek laat zien dat vier dagen werk zijn voltooid en drie dagen overblijven. De vier voltooide eenheden kunnen worden afgevinkt tegen de vier aanwezige eenheden op dag één, dus wordt de voortgangsdatum voor de samenvattingstaak berekend als het eind van dag 1, met een Verdeeld Gemiddeld % Voltooid van 25%.</p>
+        <h2>Niet-opvolgende voortgang</h2>
+        <p>In voorgaand voorbeeld was het uitwerken van de voortgangsdatum voor de samenvattingstaak vrij eenvoudig. In het volgende voorbeeld maakt de verdeling van de voortgang dingen minder duidelijk:</p>
+        <p>
+            <img src="../../../../Graphics/Progress/detprog4.gif" style="border: none;" width="422" height="166" border="0" />
+        </p>
+        <p>De voltooide en onvoltooide tijdseenheden in dit voorbeeld ziet u afgebeeld in onderstaande grafiek:</p>
+        <p>
+            <img src="../../../../Graphics/Progress/detprog5.gif" style="border: none;" width="358" height="113" border="0" />
+        </p>
+        <p>Dit keer - met vijf van de zeven tijdseenheden voltooid - toont het veld Duur percentage voltooid 71.43% voor de samenvattingstaak: 5 / 7 x 100 = 71.43%.</p>
+        <p>Afvinken van de voltooide tijdseenheden van de vroegste datum tot de laatste datum levert de volgende grafiek op; vier van de voltooide eenheden kunnen worden afgevinkt tegen de vier al aanwezige eenheden op dag één en de vijfde kan worden afgevinkt tegen de aanwezige eenheid op dag twee:</p>
+        <p>
+            <img src="../../../../Graphics/Progress/detprog6.gif" style="border: none;" width="358" height="113" border="0" />
+        </p>
+        <p>Dit betekent dat de voortgangsdatum voor de samenvattingstaak volgens berekening ligt aan het eind van dag twee, wat een Verdeeld Gemiddeld % voltooid oplevert van 50%.</p>
+        <h2>Voortgang met geneste samenvattings<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">- en niveau</MadCap:conditionalText>taken</h2>
+        <p>Indien een bovenliggende taak een geneste samenvattings<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">- of niveau</MadCap:conditionalText>taak bevat, wordt de inhoud van de geneste samenvattings<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">- of niveau</MadCap:conditionalText>taak op genomen in de voortgangsberekeningen alsof deze direct in de hoogst-niveau taak was opgenomen. Voortgang die verschijnt op de geneste samenvatting<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">- of niveau</MadCap:conditionalText>taak zelf wordt genegeerd bij de berekeningen<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"> - als zijnde geneste hammock taken, en hun inhoud</MadCap:conditionalText>.</p>
+        <p>Houdt rekening met de volgende mogelijkheid, waarin de hoogst-niveau taak één geneste samenvattingstaak bevat, met daarin twee taken van één dag:</p>
+        <p>
+            <img src="../../../../Graphics/Progress/detprog7.gif" style="border: none;" width="422" height="211" border="0" />
+        </p>
+        <p>De voltooide en onvoltooide tijdseenheden in dit voorbeeld ziet u afgebeeld in onderstaande grafiek:</p>
+        <p>
+            <img src="../../../../Graphics/Progress/detprog8.gif" style="border: none;" width="358" height="91" border="0" />
+        </p>
+        <p>Deze keer - met vier van acht tijdseenheden voltooid - toont het veld Duur percentage voltooid 50,00% voor de hoogst-niveau samenvattingstaak: 4 / 8 x 100 = 50,00%.</p>
+        <p>Afvinken van de voltooide tijdseenheden van de vroegste datum tot de laatste datum levert de volgende grafiek op; drie van de voltooide eenheden kunnen worden afgevinkt tegen de drie aanwezige eenheden op dag één en de vierde kan worden afgevinkt tegen één van de eenheden van dag twee:</p>
+        <p>
+            <img src="../../../../Graphics/Progress/detprog9.gif" style="border: none;" width="358" height="91" border="0" />
+        </p>
+        <p>Dit betekent dat de voortgangsdatum voor de hoogst-niveau samenvattingstaak volgens berekening halverwege dag twee ligt, wat een Verdeeld Gemiddeld % voltooid oplevert van 37.50%.</p>
+        <h2>Het concept uitbreiden - een tijdseenheid seconden gebruiken</h2>
+        <p>Zoals hiervoor reeds genoemd, worden voor het gemak de in de onderwerp getoonde voorbeelden weergegeven met dagen als tijdseenheid bij de voortgangsberekeningen, waar in werkelijkheid de tijdseenheid seconden is gebruikt om de meest accurate gegevens te verkrijgen.</p>
+        <p>Seconden als tijdseenheid gebruiken is niet geschikt om een 'vierkanten telling' benaderingswijze te gebruiken - zoals hierboven uitgelegd - daar dit te lang zou duren. De huidige benadering is om een 'profiel' van waarden op tijd te maken, om de taakdistributie weer te geven. Zoals te zien in onderstaande afbeelding (een dergelijk profiel wordt nergens in <MadCap:variable name="Primary.Asta Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> werkelijk getoond; het wordt alleen intern gebruikt voor het uitvoeren van voortgangsberekeningen):</p>
+        <p>
+            <img src="../../../../Graphics/Progress/detprog10.gif" style="border: none;" width="210" height="290" border="0" />
+        </p>
+        <p>De totale hoeveelheid voltooide eenheden in dit voorbeeld is 4.5 dag, wat overeenkomt met 121,500 seconden (in dit voorbeeld 7.5 uur in een volle dag, gelijk verdeeld tussen ochtend en middag). De voortgangsdatum voor de hoogst-niveau samenvattingstaak wordt berekend door te zoeken naar de datum waarop het cumulatieve deel onderaan de grafiek overeenkomt met 121,500 seconden.</p>
+        <p>De delen van de secties in bovenstaand profiel (van links naar rechts) zien er als volgt uit:</p>
+        <ul type="disc">
+            <li class="p">Sectie 1: 3 x 13,500 = 40,500; sectie 2 is identiek (waarbij 13,500 in dit voorbeeld het aantal seconden in een halve dag is).            </li>
+            <li class="p">Sectie 3: 2 x 13,500 = 27,000; secties 4, 5 en 6 zijn identiek.            </li>
+        </ul>
+        <p>Daar de cumulatieve waarde aan het eind van de derde sectie 108,000 is en de cumulatieve waarde aan het eind van de vierde sectie 135,000, ligt de voortgangsdatum (equivalent van 121,500) ergens in de vierde sectie. een eenvoudige verhouding toont dat de datum halverwege deze sectie ligt - in het midden van de dinsdagmiddag.</p>
+        <h2>Gemengde kalenders en duur gemeten in verstreken tijd</h2>
+        <p>Wanneer taken verschillende kalenders gebruiken - wanneer begin en eind van werkperioden verschilt van taak tot taak - resulteert dit in meer gecompliceerde profielen. Wanneer bijvoorbeeld sommige van de taken in bovenstaand voorbeeld verschillende kalenders gebruikten, zou dit het volgende profiel tot gevolg kunnen hebben:</p>
+        <p>
+            <img src="../../../../Graphics/Progress/detprog11.gif" style="border: none;" width="210" height="290" border="0" />
+        </p>
+        <p>Hoewel het profiel meer gecompliceerd is, is de procedure voor het berekenen van de voortgang van de bovenliggende taak identiek aan wat hiervoor is beschreven.</p>
+        <p>Wanneer de taakduur is gemarkeerd in verstreken tijd, wordt aangenomen dat er continue (24 uur per dag) aan de taak wordt gewerkt zonder rekening te houden met de taakkalender.</p>
+        <h2 MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Geneste hammock taken</h2>
+        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Zoals eerder genoemd dragen geneste hammock taken en hun inhoud niet bij aan de voortgang van samenvattings- of niveautaken waarin zij zijn opgenomen. Dit omdat wordt aangenomen dat met de opgenomen taken elders in het project rekening wordt gehouden.</p>
+        <h2>Mijlpalen</h2>
+        <p>Om voortgang te berekenen op bovenliggende taken krijgen mijlpaal allocaties een nominale duur van 1 seconde.</p>
+        <h2>Voortgang berekenen op bovenliggende taken volgens de Duur - Bij Benadering methode</h2>
+        <p>Wanneer u met een erg groot project werkt, vindt u misschien dat voortgang berekenen op bovenliggende taken veel tijd kost. U kunt dit reduceren door Duur - bij benadering methode voor voortgangsberekening te selecteren in het veld <span style="font-weight: bold;">Voortgangsmethode</span> dat zowel verschijnt op het tabblad <b>Voortgang</b> van het <b>Opties</b> dialoogvenster als op het tabblad <span style="font-weight: bold;">Eigenschappen</span> van het <b>Eigenschappen</b> dialoogvenster.</p>
+        <p>Deze methode werkt op een zelfde manier als hierboven omschreven, maar het effect van kalenders wordt genegeerd in grote projecten, wat de berekeningen vereenvoudigt. Gewoonlijk is de bijdrage van een enkele taak aan de taakverdeling een waarde van 1.0 gedurende werktijd en 0 gedurende niet-werktijd; wanneer de Duur - bij benadering methode wordt gebruikt wordt een enkele waarde gebruikt gedurende de hele duur van een taak.</p>
+        <p>De gebruikte waarde hangt af van verhouding tussen werktijd en niet-werktijd, zodat het gebied onder het profiel voor een allocatie hetzelfde is als het zou zijn indien het profiel terugvalt naar 0 gedurende niet-werktijd. Dus wanneer een taak begon op maandag om 09:00 en eindigde om 17:30 op de volgende dag (dinsdag) zou de taakduur de volgende dag (bij 7.5 uur werktijd per dag), 15 uur werktijd zijn en 16.5 uur niet-werktijd. Daarvoor zou een constante waarde van 15 / (15 + 16.5) = 0.476 uur gebruikt worden voor de gehele taakduur.</p>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="Progeffort.htm">Voortgang berekenen op bovenliggende taken naar inspanning voltooid</a>
+        </p>
+        <p><a href="Progcost.htm">Voortgang berekenen op bovenliggende taken naar kosten voltooid</a>
+        </p>
+        <p><a href="Progoverall.htm">Voortgang berekenen op bovenliggende taken naar overall percentage voltooid</a>
+        </p>
+    </body>
+</html>

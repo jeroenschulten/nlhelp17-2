@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="KLAAR" xml:lang="nl-nl">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Work breakdown structure:specificeren welke codes worden overgenomen door nieuwe taken;WBS:specificeren welke codes overgenomen worden door nieuwe taken;Kalenders:specificeren welke worden overgenomen door nieuwe taken;Codes:specificeren welke zijn overgenomen door nieuwe taken" />Specificeren waar nieuwe taken hun attributen vandaan krijgen</h1>
+        <p>U kunt specificeren of nieuw-ingevoerde taken de volgende attributen van een aangrenzende taak overnemen, of dat ze de attributen van de in een project gedefinieerde balkkaart standaards mogen overnemen:</p>
+        <ul>
+            <li class="p">Codebibliotheek toewijzingen            </li>
+            <li class="p">Kalender            </li>
+            <li class="p">Of de taken wel of niet de kalender van hun hoger-niveau taken moeten gebruiken            </li>
+        </ul>
+        <p>Wanneer u specificeert dat nieuwe taken deze attributen van een aangrenzende taak zouden moeten overnemen, nemen deze nieuwe taken ook de WBS code van de aangrenzende taak over. Wanneer u specificeert dat nieuwe taken deze attributen overnemen van algemene balkkaart standaards, nemen ze nergens een WBS code van over.</p>
+        <p>Om te specificeren dat nieuwe taken de bovenstaande attributen moeten overnemen:</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Inherit_attributes_from_neighbouring.flsnp" />
+        <p>Deze instelling beïnvloedt zowel de taken die u in een project invoert door balken te tekenen in de balkkaart of door te typen in de tabel, als taken die u invoert door deze in het project te plakken nadat u ze eerst vanuit een andere applicatie had gekopieerd. De instelling heeft geen invloed op taken die zijn geknipt of gekopieerd vanuit een project en die vervolgens in het zelfde project op een andere plaats zijn geplakt.</p>
+        <p>Specificeren dat taken deze attributen moeten overnemen van een aangrenzende taak zou nuttig kunnen blijken te zijn in situaties waarbij taken in verschillende secties van een project deze attributen met andere taken in de buurt zouden moeten delen. Het specificeren dat taken deze attributen moeten overnemen van de algemene balkkaart standaards instelling zou nuttig kunnen blijken te zijn in situaties waarbij alle taken in een project ertoe neigen dezelfde attributen te delen.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Hoe de 'aangrenzende' taak waarvandaan attributen worden overgenomen bepaald wordt:</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <div MadCap:targetName="t2">
+                    <ul>
+                        <li class="p">Wanneer de nieuwe taak de eerste taak is in een lege view, worden alle attributen overgenomen van de algemene balkkaart standaards, omdat er geen 'aangrenzende' taak is.            </li>
+                        <li class="p">Wanneer de nieuwe taak de eerste is op een balk en er zich een normale taak op de balk direct boven deze nieuwe taak bevindt, vóór een sorteer/groepeer band of samenvattingstaak, worden de attributen overgenomen van de bovenliggende normale taak.            </li>
+                        <li class="p">Wanneer de nieuwe taak de eerste is op een balk en er zich geen normale taak op de balk direct boven deze nieuwe taak bevindt, vóór een sorteer/groepeer band of samenvattingstaak, maar er zich wel een normale taak op een balk onder de nieuwe taak bevindt, vóór een sorteergroep of samenvattingstaak, worden de attributen overgenomen van de er zich onder bevindende normale taak.            </li>
+                        <li class="p">Wanneer de nieuwe taak de eerste is op een balk en er zich geen normale taak op de balk direct boven of onder deze nieuwe taak bevindt, vóór een sorteer/groepeer band of samenvattingstaak, worden de attributen overgenomen van de algemene balkkaart standaards.            </li>
+                        <li class="p">Wanneer de nieuwe taak wordt ingevoegd tussen twee taken op een balk, of toegevoegd wordt aan  het einde van een balk die een of meer bestaande taken bevat, worden de attributen overgenomen van de taak direct links van de nieuwe taak op dezelfde balk.            </li>
+                        <li class="p">Wanneer de nieuwe taak wordt ingevoegd vóór alle al aanwezige taken op een balk, worden de attributen overgenomen van de taak direct rechts van de nieuwe taak op dezelfde balk.            </li>
+                    </ul>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Opmerkingen bij het overnemen van taak attributen:</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li class="p">Wanneer u een samenvattingstaak creëert door het samenvatten van al aanwezige balken, neemt de samenvattingstaak de attributen over van de eerste taak die samengevat wordt.            </li>
+                    <li class="p">Wanneer u een taak in een gesorteerde/gegroepeerde view invoegt, zal deze taak aanvullende attributen overnemen, die gebaseerd zijn op de sorteer/groepeer criteria van de gesorteerde groep taken waarin de taak is ingevoegd. Bijvoorbeeld, wanneer u een taak invoegt in een op een bepaalde codebibliotheek gesorteerde/gegroepeerde view, zal deze taak ook de  specifieke code overnemen die hoort bij deze gesorteerde groep taken waarin de taak wordt ingevoegd.            </li>
+                    <li class="p">Wanneer u specificeert dat taken attributen zouden moeten overnemen van een aangrenzende taak, maar dat de aangrenzende taak één of meer van de betrokken attributen ontbeert, worden deze attributen overgenomen van de standaard instellingen die zijn gedefinieerd op het tabblad <span style="font-weight: bold;">Taak</span> van het <span style="font-weight: bold;">Balkkaart Standaards Eigenschappen</span> dialoogvenster. Bijvoorbeeld, wanneer de aangrenzende taak een code bibliotheek toewijzing ontbeert, zal de nieuwe taak elke code bibliotheek toewijzingen ontvangen die staan gedefinieerd op het <span style="font-weight: bold;">Balkkaart Standaards Eigenschappen</span> dialoogvenster.            </li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="Creating_bars_and_tasks.htm">Balken en taken maken</a>
+        </p>
+        <p><a href="../../Views/Sorting_views/Sorting_views.htm">Views sorteren</a>
+        </p>
+    </body>
+</html>

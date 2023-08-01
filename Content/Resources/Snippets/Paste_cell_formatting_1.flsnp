@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Als u gegevens uit andere toepassingen gaat kopiëren en plakken in <MadCap:variable name="Primary.Asta Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> en u wilt de opmaak behouden, selecteer dan 'Behoud bronopmaak '; selecteer anders één van de andere twee opties, aangezien 'Behoud bronopmaak' specifieke celopmaak introduceert in de tabel die de performance van grote projecten in de loop van de tijd zou kunnen verminderen.</p>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Om mijlpaalweergaven in afdruklegendes volgens hun sorteervolgorde te sorteren, schakelt u het <b>Gebruik de mijlpaalweergaven bibliotheek sorteervolgorde</b> selectievakje in bij het gedeelte Legenda van de boomstructuur op het tabblad <b>Opmaak</b> van het <b>Afdrukken</b> dialoogvenster. Als u dit selectievakje niet inschakelt, verschijnen mijlpalen in legenda's in de volgorde waarin de mijlpalen van elke weergave in de afdruk verschijnen. Om mijlpaalweergaven in de project view volgens hun sorteervolgorde te ordenen, klikt u op <b>Sorteer mijlpaalweergaven op - Sorteervolgorde</b> keuzerondje op het tabblad <b>View</b> van het dialoogvenster <b>Opties</b>. Als u niet op dit keuzerondje klikt, verschijnen mijlpalen in de project view in alfanumerieke volgorde.</p>
+    </body>
+</html>

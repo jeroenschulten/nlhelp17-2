@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Working_with_resources\Demand_and_scheduled_resources\Satisfying_demand_allocations.htm" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:lastBlockDepth="5" MadCap:lastHeight="1176" MadCap:lastWidth="925" class="KLAAR" xml:lang="nl-nl" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+    <head>
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Aanvraagallocaties:verwijderen na volledig gehonoreerd te zijn" />
+            <MadCap:keyword term="Aangevraagde allocaties honoreren" />
+            <MadCap:keyword term="Aanvraagallocaties:honoreren" />Aangevraagde allocaties honoreren</h1>
+        <p>Wanneer u een aanvraag hulpmiddel toewijst aan een taak en later een compatibel ingepland hulpmiddel toewijst (dus een hulpmiddel die hoort bij de hulpmiddelmap die gespecificeerd wordt door de aanvraag allocatie), dan honoreert de ingeplande allocatie de aanvraag allocatie. Als de aanvraag allocatie niet volledig gehonoreerd wordt, kunt u meer ingeplande allocaties toewijzen totdat de aanvraag allocatie volledig gehonoreerd is.</p>
+        <p>De status van de hulpmiddelallocatie kan worden bekeken, bijvoorbeeld of een aanvraagallocatie volledig is gehonoreerd, op het dialoogvenster <span style="font-weight: bold;">Hulpmiddel allocatie eigenschappen</span> of in de allocatieview. U kunt de <a href="../../Setting_up_the_bar_chart/Setting_display_options/Setting_allocation_display_options.htm">opmaak van de balkkaart</a> ook zo instellen dat gehonoreerde aanvraag allocaties, niet-gehonoreerde aanvraag allocaties en ingeplande allocaties verschillend worden gekleurd.</p>
+        <p>Volg één van de volgende werkwijzen om een aanvraagallocatie te honoreren:</p>
+        <ul>
+            <li class="p">Wijs een hulpmiddel toe aan een taak die een compatible aanvraag allocatie heeft.</li>
+            <li class="p">Klik met de rechtermuisknop op de aanvraagallocatie op de balkkaart of klik met de rechtermuisknop op de allocatie in het raster van de allocatieview en selecteer <span style="font-weight: bold;">Aanvraag Honoreren</span> en kies een compatibel hulpmiddel waarmee de aanvraagallocatie kan worden gehonoreerd.</li>
+        </ul>
+        <p>
+            <MadCap:keyword term="Aanvraagallocaties" />U kunt specificeren of aanvraagallocaties moeten worden verwijderd nadat ze volledig zijn gehonoreerd of dat ze in het project moeten blijven zitten, via het selectievakje <span style="font-weight: bold;">Verwijder aanvraagallocaties wanneer volledig gehonoreerd</span> op het tabblad <span style="font-weight: bold;">Bewerken</span> van het dialoogvenster <b>Opties</b>. Schakel dit selectievakje in wanneer aanvraagallocaties moeten worden verwijderd nadat ze volledig zijn gehonoreerd, of schakel dit selectievakje uit wanneer u ze wilt behouden.</p>
+        <p>Als een permanent hulpmiddel <a href="../../Library_Explorer/Using/Assign_multiple_skills.htm">meerdere vaardigheden</a> heeft (Bill Bryant bijvoorbeeld is zowel een technicus als een manager) en een taak heeft een aanvraag voor 1 technicus, dan zal bij het toewijzen van Bill Bryant als manager een nieuwe ingeplande allocatie op de taak gemaakt worden; het voldoet niet aan de vraag voor een ingenieur. De nieuw ingeplande allocatie kan geforceerd de aanvraagallocatie honoreren (door de kolom <span style="font-weight: bold;">Verdelen uit/Gehonoreerd</span> in het toewijzingsraster te gebruiken), maar Bill Bryant wordt berekend aan de hand van zijn manager tarief, ondanks dat hij voldoet aan de vraag voor een ingenieur.</p>
+        <p>Wanneer een hulpmiddelallocatie gemodelleerd is, kan het van invloed zijn op de duur van de taak waar ze aan is toegewezen. Deze typen hulpmiddelallocaties staan bekend als hulpmiddel-gestuurde allocaties. Op het moment dat u een hulpmiddel-gestuurde ingeplande allocatie aan een taak toewijst, zal de duur van de taak bepaald worden door die allocatie, onafhankelijk van elke hulpmiddel-gestuurde aanvraagallocatie op dezelfde taak.</p>
+        <p>Een voorbeeld, als de allocatiebalk van een hulpmiddel-gestuurde allocatie verandert, dan zal de taakduur veranderen in relatie tot de ingeplande allocatie, maar de aanvraagallocatie verandert niet.</p>
+        <p>Hier, de allocatie van Bob Jay honoreert de aanvraag voor technici:</p>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;" cellspacing="0" width="100%">
+            <tr>
+                <td style="width: 25%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: left;margin-bottom: 0;">
+                        <span>Taak voor technicus</span>
+                    </p>
+                </td>
+                <td style="width: 75%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: left;margin-bottom: 0;">
+                        <img src="../../../../Graphics/Resources/satisfy1.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="116" height="15" border="0" />
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 25%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: left;margin-bottom: 0;">
+                        <span style="font-style: italic;">
+                            <span style="color: #FFFFFF;">.</span>Ingenieurs</span>
+                    </p>
+                </td>
+                <td style="width: 75%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: left;margin-bottom: 0;">
+                        <img src="../../../../Graphics/Resources/satisfy2.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="115" height="11" border="0" />
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 25%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: left;margin-bottom: 0;">
+                        <span style="font-style: italic;">
+                            <span style="color: #FFFFFF;">....</span>Bob Jay</span>
+                    </p>
+                </td>
+                <td style="width: 75%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: left;margin-bottom: 0;">
+                        <img src="../../../../Graphics/Resources/satisfy3.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="115" height="10" border="0" />
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p>De aanvraagallocatie wordt niet beïnvloed wanneer de taak of de ingeplande allocatie wordt veranderd, omdat Bob Jay een hulpmiddel-gestuurde inplanningsallocatie is:</p>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;" cellspacing="0" width="100%">
+            <tr>
+                <td style="width: 25%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: left;margin-bottom: 0;">
+                        <span>Taak voor technicus</span>
+                    </p>
+                </td>
+                <td style="width: 75%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: left;margin-bottom: 0;">
+                        <img src="../../../../Graphics/Resources/satisfy4.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="168" height="15" border="0" />
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 25%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: left;margin-bottom: 0;">
+                        <span style="font-style: italic;">
+                            <span style="color: #FFFFFF;">.</span>Ingenieurs</span>
+                    </p>
+                </td>
+                <td style="width: 75%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: left;margin-bottom: 0;">
+                        <img src="../../../../Graphics/Resources/satisfy2.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="115" height="11" border="0" />
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 25%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: left;margin-bottom: 0;">
+                        <span style="font-style: italic;">
+                            <span style="color: #FFFFFF;">....</span>Bob Jay</span>
+                    </p>
+                </td>
+                <td style="width: 75%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: left;margin-bottom: 0;">
+                        <img src="../../../../Graphics/Resources/satisfy5.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="167" height="10" border="0" />
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p>De hoger-niveau aanvraagallocaties kunnen worden gehonoreerd, dit zijn aanvraagallocaties op samenvattingstaken, niveautaken en hammocks, door ingeplande hulpmiddelallocaties toe te wijzen aan hun onderliggende taken.</p>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p>
+            <a href="../Parent_demand_allocations/Parent_demand_allocations.htm">Hoger-niveau aanvraag-allocaties</a>
+        </p>
+        <p>
+            <a href="../Viewing_resource_availability/Viewing_resource_availability.htm">Bekijken van hulpmiddelbeschikbaarheid</a>
+        </p>
+        <p>
+            <a href="Change_demand_scheduled.htm">Veranderen van allocaties tussen aanvraag en planning</a>
+        </p>
+    </body>
+</html>

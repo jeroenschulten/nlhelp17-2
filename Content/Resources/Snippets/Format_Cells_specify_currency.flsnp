@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="157" MadCap:lastWidth="1273">
+    <body>
+        <ol style="list-style-type: decimal;">
+            <li class="p">Selecteer het aantal decimalen dat moet worden weergegeven in het <span style="font-weight: bold;">Decimalen</span> veld.</li>
+            <li class="p">Selecteer de munteenheid waarin de bedragen moeten worden weergegeven in het <span style="font-weight: bold;">Munteenheid</span> veld.</li>
+            <li class="p">Specificeer of u negatieve nummers wilt weergeven tussen haakjes (bijvoorbeeld (500.23)) of voorafgegaan door een minteken (bijvoorbeeld -500.23) in het <span style="font-weight: bold;">Negatieve waarden</span> veld.</li>
+        </ol>
+    </body>
+</html>

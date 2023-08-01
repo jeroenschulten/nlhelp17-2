@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul type="disc">
+            <li>U kunt een security bibliotheek gebruiken om een gebruiker toegangsrechten te geven voor mechanische en elektrische taken die in een aantal kaarten in een project voorkomen, zonder de gebruiker toegangsrechten te geven voor een van de andere taken in die grafieken. Maak hiervoor een "Mechanische en elektrische" codebibliotheek aan, wijs codes uit de bibliotheek toe aan de juiste taken in het project en specificeer deze codebibliotheek als de security bibliotheek voor de juiste beveiligingsgroep.</li>
+            <li>Als een gebruiker toegangsrechten heeft om kaarten in een project te verwijderen, kunt u geen security bibliotheek gebruiken om te voorkomen dat de gebruiker kaarten of taken in kaarten verwijdert waaraan een code uit de security bibliotheek is toegewezen.</li>
+        </ul>
+    </body>
+</html>

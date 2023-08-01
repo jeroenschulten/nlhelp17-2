@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:lastBlockDepth="4" MadCap:lastHeight="2432" MadCap:lastWidth="1008" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="Brick;DPC;Carpenter;Tile'" class="KLAAR" xml:lang="nl-nl" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Line of Balance grafieken:aanpassen van de werkgroep frequentie van stadia;Werkgroep frequentie;Werkgroep frequentie:aanpassen in Line of Balance grafieken;Productie tempo;Productie tempo:aanpassen in Line of Balance grafieken;Line of Balance grafieken:aanpassen van productie tempo van stadia;Stadia:aanpassen van de werkgroep frequentie van" />Aanpassen van de werkgroep frequentie van ploegen, teams of stadia</h1>
+        <p>U kunt de werkgroep frequentie, of het productie tempo, van de ploegen, teams (specialisten) of stadia aanpassen die werken aan de activiteiten in een Line of Balance grafiek. U kunt dit doen wanneer een Line of Balance grafiek weergeeft dat een stadium onderbroken werkt of dat er conflicten zijn tussen de verschillende stadia die opgelost moeten worden.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/LOB_work_face_frequency_info.flsnp" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Illustratie</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In het hieronder afgebeelde project, is Carpenter Roof (Timmerman Dak) het tweede stadium - deze hoort bij de middelste lijn in de Line of Balance grafiek. Op dit moment, hebben alle stadia in de grafiek een werkgroep frequentie van 1, hetgeen betekent dat elk stadium alleen in één locatie tegelijk kan werken zonder conflicten te veroorzaken:</p>
+                <p>
+                    <img src="../../../Graphics/LOB/lobwff1.gif" />
+                </p>
+                <p>Wanneer u rechts zou klikken op de lijn die de het 'Carpenter Roof' stadium in de 'Plot 2' rij van de grafiek representeert - de rij die bij de tweede locatie hoort - en u <b>Werkgroep Frequentie </b>selecteert, en het aantal werkgroepen naar 2 omzet vanaf dit punt en verder, zou het resultaat het volgende zijn:</p>
+                <p>
+                    <img src="../../../Graphics/LOB/lobwff2.gif" />
+                </p>
+                <p>De grafiek toont nu dat vanaf de tweede locatie en verder, het 'Carpenter Roof' stadium op twee locaties tegelijkertijd kan worden uitgevoerd: de 'Carpenter Roof' taken zijn gedubbeld vanaf Plot 2 en verder. Merk op hoe het veranderen van de werkgroep frequentie van het 'Carpenter Roof' stadium ook heeft geresulteerd in een verbetering van het productie tempo van het derde stadium - 'Roof Tile' - , zelfs wanneer de werkgroep frequentie van dit stadium niet veranderd is. Merk ook op dat de Punaise vlaggen zijn toegepast op de 'Carpenter Roof' taken om er zeker van te zijn dat bij herberekeningen van het project deze taken niet naar een vroegere datum mogen worden verplaatst.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>Om de werkgroep frequentie van een werkgroep, team (specialisten) of stadium:</p>
+        <ol>
+            <li class="p" xmlns="">Rechtsklik op een segment van een Line of Balance grafiek die hoort bij het stadium dat uw wilt wijzigen en selecteer <b>Werkgroep Frequentie</b>. Het <b>Werkgroep Frequentie</b> dialoogvenster verschijnt.</li>
+            <li class="p" xmlns="">Voer het aantal ploegen, teams of stadia in dat tegelijkertijd samen zal werken aan de taken in de Line of Balance grafiek in het <b>Aantal werkgroepen</b> veld.</li>
+            <li class="p" xmlns="">Klik op het gewenste <b>Vanaf dit punt</b> keuzerondje om te specificeren of taken rechts of links vanaf het geselecteerde segment dat hoort bij hetzelfde stadium opnieuw zouden moeten worden gerangschikt in parallelle groepen met het gegeven aantal werkgroepen, om het herziene aantal ploegen, teams of stadia dat parallel zal gaan werken weer te geven.<br /><br />Merk op dat wanneer u ervoor kiest om taken links van het geselecteerde segment opnieuw te rangschikken door het klikken op <b>Achteruit</b>, dat alleen de taken kunnen worden herschikt wanneer dit geen invloed heeft op de positie van deze zelfde taken maar dan bij andere stadia.</li>
+            <li class="p" xmlns="">Schakel het <b>Herberekenen na verplaatsen</b> selectievakje in om te specificeren dat het project automatisch moet worden herberekend nadat de taken die zijn beïnvloed door de verandering in de werkgroep frequentie zijn herschikt, of schakel het selectievakje uit om te specificeren dat het project niet automatisch herberekend moet worden.</li>
+            <li class="p" xmlns="">Klik op <b>OK</b>.</li>
+            <h2><a name="Reapplying_WFF" xmlns=""></a>Opnieuw toepassen van werkgroep frequentie aanpassingen na veranderingen van het project</h2>
+            <p>Veranderingen die gemaakt zijn op de positie van taken ten gevolge van aanpassingen van de werkgroep frequentie van ploegen, teams of stadia in een Line of Balance grafiek kunnen verloren geraken na veranderingen elders in het project. Bijvoorbeeld, wanneer u het project vervolgens herberekent, wordt er bij het herberekenen geen rekening gehouden met veranderingen die zijn aangebracht aan de positie van taken als gevolg van het aanpassen van de werkgroep frequentie. Dit betekent dat na veranderingen bij een project, uw Line of Balance grafiek er niet hetzelfde uitziet als u wenste.</p>
+            <p>Wanneer dit gebeurt, kunt u nu alle werkgroep frequentie aanpassingen die u aan de Line of Balance grafiek heeft aangebracht opnieuw toepassen, om de taken die opgenomen zijn in de grafiek te herschikken volgens de door u gemaakte werkgroep frequentie aanpassingen. Om dit te kunnen doen, rechtsklik in een leeg gebied van de Line of Balance grafiek en selecteer <b>Opnieuw toepassen alle WFF</b>.</p>
+        </ol>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="LOB_move_tasks.htm">Verplaatsen van taken in een Line of Balance grafiek door te klikken en te slepen</a>
+        </p>
+        <p><a href="LOB_view_task_details.htm">Bekijken van details van de getekende taken in een Line of Balance grafiek</a>
+        </p>
+    </body>
+</html>

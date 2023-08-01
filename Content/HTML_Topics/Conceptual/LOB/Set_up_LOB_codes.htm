@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="2364" MadCap:lastWidth="906" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="Floor;Carpenter;Brick;DP" class="KLAAR" xml:lang="nl-nl" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Line of Balance grafieken:opzetten van codebibliotheken;Line of Balance grafieken:definiëren van stadia;Line of Balance grafieken:definiëren van locaties;Stadia;Stadia:definieren voor Line of Balance grafieken;Locaties;Locaties:definiëren voor Line of Balance grafieken;Codebibliotheken:opzetten om te gebruiken met Line of Balance grafieken" />Opzetten van codebibliotheken voor Line of Balance grafieken</h1>
+        <p>Voordat u een Line of Balance grafiek kunt genereren moet u twee codebibliotheken opzetten - één voor de locaties breakdown structuur en een andere voor de stadia binnen uw netwerk productie-eenheden - vervolgens dient u de codes uit die bibliotheken toe te wijzen aan de balken en taken die u wilt opnemen in de Line of Balance grafiek.</p>
+        <p><a href="../Library_Explorer/Using/Creating_objects_in_Library_Explorer.htm">Klik hier</a> voor meer informatie over hoe codebibliotheken in de Bibliotheekverkenner kunnen worden aangemaakt.</p>
+        <h2>Opzetten van een 'locaties' codebibliotheek</h2>
+        <p>U moet eerst een 'locaties' codebibliotheek opzetten voor de locaties breakdown structuur waarover u een Line of Balance grafiek wilt genereren. Bij elke code in de 'locaties' codebibliotheek hoort een andere locatie: wanneer u netwerk productie-eenheden inricht als multi-taak balken, vertegenwoordigt elke code een individuele balk; wanneer u netwerk productie-eenheden inricht als samenvattingsgroepen, vertegenwoordigt elke code een individuele samenvattingsgroep.</p>
+        <p><a name="Hierarchy_info"></a>De 'locaties' codebibliotheek kan een platte lijst codes zijn, maar kan ook hiërarchisch zijn. Bijvoorbeeld:</p>
+        <ul>
+            <li>Wanneer u de bouw van een woonwijk wilt plannen kunt u een niet-hiërarchische codebibliotheek opzetten, met een code voor elk individueel perceel in de woonwijk.<MadCap:dropDown><MadCap:dropDownHead><MadCap:dropDownHotspot>Illustratie</MadCap:dropDownHotspot></MadCap:dropDownHead><MadCap:dropDownBody><p><img src="../../../Graphics/LOB/loblocationcodesflatlist.gif" /></p></MadCap:dropDownBody></MadCap:dropDown></li>
+            <li>Wanneer u de renovatie van een kantoorgebouw wilt plannen kunt u een hiërarchische codebibliotheek opzetten, met een code voor elke kamer, onderverdeeld in mappen voor elke verdieping in het kantoorgebouw.<MadCap:dropDown><MadCap:dropDownHead><MadCap:dropDownHotspot>Illustratie</MadCap:dropDownHotspot></MadCap:dropDownHead><MadCap:dropDownBody><p><img src="../../../Graphics/LOB/loblocationcodeshierarchicallist.gif" /></p><p>Merk op dat de 'locaties' codebibliotheek hiërarchie zoveel niveaus kan bevatten als u nodig acht. Bijvoorbeeld, in de hiërarchische codebibliotheek die hierboven wordt weergegeven, kunt u een extra niveau mappen aanbrengen voor elke aparte zone binnen elke verdieping. </p></MadCap:dropDownBody></MadCap:dropDown></li>
+        </ul>
+        <p>Merk op dat de codebibliotheek die u hebt aangemaakt voor uw locaties breakdown structuur elke naam kan hebben: het hoeft niet 'Locatie' worden genoemd. Merk ook op dat de namen van de codes binnen de codebibliotheek niet identiek hoeven te zijn aan de namen van de Netwerk Productie-eenheden waaraan ze zullen worden toegewezen, hoewel het wel verstandig is om dit te doen.</p>
+        <p>U bepaalt de volgorde waarin de individuele locaties - dat wil zeggen de individuele eenheden binnen elke Netwerk Productie-eenheid - naar verwachting zullen worden verwezenlijkt, door het toekennen van een numerieke sortering/groepering aan de codes 'binnen de locaties' codebibliotheek. U kunt dit doen door het invoeren van de sortering/groepering in de sortering/groepering kolom in de Bibliotheek Verkenner lijstweergave, of door het bewerken van de eigenschappen van elke code en het invoeren van de sortering/groepering in het <b>Sorteer volgorde</b> veld van het <b>Code Bibliotheekitem Eigenschappen</b> dialoogvenster. Deze sortering/groepering wordt gehanteerd bij de berekening het aantal gerealiseerde (werk) eenheden op de Y-as van een Line of Balance grafiek.</p>
+        <p>In het bovengenoemde niet-hiërarchische voorbeeld is aan de code bij elk perceel een numerieke sortering/groepering toegewezen dat de volgorde bepaalt waarin de percelen naar verwachting zullen worden afgerond: Plot 1 zal naar verwachting eerst worden afgerond, dus is deze toegewezen aan de sortering/groepering 1, Plot 2 zal naar verwachting als tweede worden afgerond, en heeft dus de sortering/groepering 2 gekregen; enzovoort. De locaties worden daarom achtereenvolgens gepland van Plot 1 tot Plot 10. Wanneer Plot 1 is voltooid, is een netwerk productie-eenheid gerealiseerd, wanneer Perceel 10 is voltooid, zijn alle tien eenheden gerealiseerd.</p>
+        <p>In het bovengenoemde hiërarchische voorbeeld is aan de code bij de kamers in elke map een numerieke sortering/groepering toegewezen die de volgorde bepaalt waarin de kamers naar verwachting zullen worden afgerond. Met vier verdiepingen, waarbij elke verdieping bestaat uit vier kamers, zijn er zestien kamers in totaal. De locaties worden daarom achtereenvolgens gepland vanaf Etage 1.Kamer 1 tot en met Etage 4.Kamer 4. Wanneer Etage 1.Kamer 4 is voltooid, zijn er vier netwerk productie-eenheden gerealiseerd; wanneer Etage 2.Kamer 4 is voltooid, zijn er acht eenheden gerealiseerd, wanneer Etage 4.Kamer 4 is voltooid, zijn alle zestien eenheden gerealiseerd.</p>
+        <p>Standaard wordt elke locatie op de Y as van een Line of Balance grafiek als één eenheid hoog weergegeven. U kunt de rijhoogte op de Y as veranderen door het aanmaken van een 'numeriek' codebibliotheek item-type gebruikersveld en deze aparte waarden geven, tussen 1 en 100, in dit veld voor elke 'locatie' code.</p>
+        <p>Nadat u uw 'locaties' codebibliotheek heeft opgezet, moet u de codes vanuit deze bibliotheek toewijzen aan de individuele balken of samenvattingstaken die horen bij de verschillende locaties.</p>
+        <h2>Opzetten van een 'stadia' codebibliotheek</h2>
+        <p>U moet eerst een 'stadia' codebibliotheek opzetten voor de individuele stadia - of teams, of ploegen - waaruit elke netwerkeenheid opgebouwd is. Bij elke code in de 'stadia' codebibliotheek hoort een ander stadium: wanneer u netwerk productie-eenheden inricht als multi-taak balken, vertegenwoordigt elke code een individuele taak op een balk; wanneer u netwerk productie-eenheden inricht als samenvattingsgroepen, vertegenwoordigt elke code een individuele balk binnen een samenvattingsgroep.</p>
+        <p>U moet de 'stadia' codebibliotheek opzetten als een platte, niet-hiërarchische lijst.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Illustratie</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <img src="../../../Graphics/LOB/lobstagescodes.gif" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>Merk op dat de codebibliotheek die u hebt aangemaakt voor uw stadia elke naam kan hebben: het hoeft niet 'Stadia' worden genoemd. Merk ook op dat de namen van de codes binnen de codebibliotheek niet identiek hoeven te zijn aan de namen van de taken of balken waaraan ze zullen worden toegewezen.</p>
+        <p>U bepaalt de tekenvolgorde van de individuele stadia in een line of Balance door het definiëren van een numerieke sortering/groepering om de codes binnen codebibliotheek de 'stadia'. Lijnen die stadia met een hogere sortering/groepering vertegenwoordigen worden getekend bovenop de vertegenwoordigers van stadia met een lagere sortering/groepering in het geval van overlappen in een lijn van Balance grafiek. In het bovenstaande voorbeeld zou de lijn die het Carpenter stadium vertegenwoordigt worden getekend bovenop de lijn die van het Brick to DP stadium.
+</p>
+        <p>Als u eenmaal de 'stadia' codebibliotheek hebt ingericht, moet u de codes van deze bibliotheek toewijzen aan de Individuele activiteiten binnen de Netwerk Productie-eenheid die de verschillende stadia vertegenwoordigen.</p>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="LOB_intro.htm">Introductie over Line of Balance grafieken</a>
+        </p>
+        <p><a href="LOB_ways_to_model.htm">Inrichten van netwerk productie-eenheden voor Line of Balance grafieken</a>
+        </p>
+        <p><a href="LOB_assign_codes_to_tasks.htm">Toewijzen van Line of Balance codes aan netwerk productie-eenheden en individuele activiteiten</a>
+        </p>
+        <p><a href="Edit_LOB.htm">Bewerken van Line of Balance grafieken</a>
+        </p>
+    </body>
+</html>

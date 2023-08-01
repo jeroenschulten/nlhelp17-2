@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="KLAAR" xml:lang="nl-nl">
+    <head>
+        <link href="../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Microsoft Project Export Wizard - Objecten pagina</h1>
+        <MadCap:snippetBlock src="../../Resources/Snippets/XML_Export_Wizard_2.flsnp" />
+        <p>U gebruikt deze pagina van de <b>Microsoft Project Export Wizard</b> om te specificeren welke types object u wilt exporteren binnen het gespecificeerde domein.</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/XML_Export_Wizard_access.flsnp" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Verklaring van de velden op het dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../../Resources/Stylesheets/Table_Stylesheet.css');caption-side: top;margin-left: 0;margin-right: auto;" cellspacing="0">
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <thead>
+                        <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Veld</th>
+                            <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Omschrijving</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;"><b>Voeg vlaggen toe aan taken zonder inkomende links</b>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1" xmlns="">Schakel dit selectievakje in <MadCap:snippetText src="../../Resources/Snippets/XML_Export_Wizard_3.flsnp" /></td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Exporteer inkomsten als negatieve kosten</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1" xmlns="">Microsoft Project ondersteunt geen inkomsten, zodat u de manier moet specificeren waarin u wilt dat er met inkomsten in het project wordt omgegaan in het resulterende bestand. Schakel dit selectievakje in <MadCap:snippetText src="../../Resources/Snippets/XML_Export_Wizard_4.flsnp" /></td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Exporteer subtitels</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1" xmlns="">
+                                <p class="ParagraphsInTables">Microsoft Project ondersteunt geen subtitels - balken met een naam maar zonder taken - zodat u de manier moet specificeren waarin u wilt dat er met subtitels in het project wordt omgegaan in het resulterende bestand. Schakel dit selectievakje in <MadCap:snippetText src="../../Resources/Snippets/XML_Export_Wizard_5.flsnp" /></p>
+                                <p class="ParagraphsInTables">Wanneer u ervoor kiest om subtitels te exporteren door hen te converteren naar verborgen taken in Microsoft Project, zullen de verborgen taken vervolgens terug geconverteerd worden naar subtitels wanneer u daarna het geëxporteerde bestand terug in <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> importeert. Echter, merk op dat alhoewel de taken die gebruikt zijn om in Microsoft Project subtitels te representeren verborgen en dus onzichtbaar zijn, ze zullen de samenvattingen waarin ze zich bevinden wel beïnvloeden.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Exporteer kostenallocaties</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1" xmlns="">Schakel dit selectievakje in <MadCap:snippetText src="../../Resources/Snippets/XML_Export_Wizard_6.flsnp" /></td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Exporteer hulpmiddel allocaties</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1" xmlns="">Schakel dit selectievakje in <MadCap:snippetText src="../../Resources/Snippets/XML_Export_Wizard_7.flsnp" /></td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Exporteer codebibliotheken</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1" xmlns="">
+                                <p class="ParagraphsInTables">Schakel dit selectievakje in <MadCap:snippetText src="../../Resources/Snippets/XML_Export_Wizard_8.flsnp" /></p>
+                                <p class="ParagraphsInTables"> <MadCap:snippetText src="../../Resources/Snippets/XML_Export_codes.flsnp" /></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../Resources/Snippets/How_do_I.flsnp" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specificeren welke types object te exporteren?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol style="list-style-type: decimal;">
+                    <li class="p" xmlns=""> <MadCap:snippetText src="../../Resources/Snippets/XML_Export_Wizard_12.flsnp" /></li>
+                    <li xmlns=""> <MadCap:snippetText src="../../Resources/Snippets/XML_Export_Wizard_13.flsnp" /></li>
+                    <li xmlns=""> <MadCap:snippetText src="../../Resources/Snippets/XML_Export_Wizard_14.flsnp" /></li>
+                    <li xmlns=""> <MadCap:snippetText src="../../Resources/Snippets/XML_Export_Wizard_15.flsnp" /></li>
+                    <li xmlns=""> <MadCap:snippetText src="../../Resources/Snippets/XML_Export_Wizard_16.flsnp" /></li>
+                    <li xmlns=""> <MadCap:snippetText src="../../Resources/Snippets/XML_Export_Wizard_17.flsnp" /></li>
+                    <li class="p" xmlns=""> <MadCap:snippetText src="../../Resources/Snippets/XML_Export_Wizard_18.flsnp" /></li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="../Other/Workingdialogs.htm">Met dialoogvensters werken</a>
+        </p>
+        <p><a href="../Conceptual/Starting_work/MSProject/MS_Project_export.htm" xmlns="">Exporteren van projecten naar Microsoft Project</a>
+        </p>
+    </body>
+</html>

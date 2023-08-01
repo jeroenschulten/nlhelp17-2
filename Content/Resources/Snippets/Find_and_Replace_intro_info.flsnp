@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>U gebruikt het <b>Zoeken</b> dialoogvenster om naar balken en taken met namen, taaknotities<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">, gebruikersvelden</MadCap:conditionalText> of andere identifiers die een bepaalde alfanumerieke tekststring bevatten te zoeken in de huidige view, groep of programma . Bijvoorbeeld, u kunt dit dialoogvenster gebruiken voor het zoeken naar alle taken met 'Job' in hun naam, of naar alle taken met 'A20' in hun WBS code.</p>
+        <p>U gebruikt het <b>Zoeken en Vervangen</b> dialoogvenster om naar balken en taken met namen, taak notities die een bepaalde alfanumerieke tekststring bevatten te zoeken, en deze tekststrings vervangen met alternatieve teksten. Bijvoorbeeld, u kunt dit dialoogvenster voor het zoeken naar alle taken met '2019' in hun naam en die tekststring vervolgens te vervangen door '2020'.</p>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Als u een baseline opneemt in een uitboeking, is de meeste baselinefunctionaliteit beschikbaar in het doelproject. Wanneer u de gegevens echter weer in het hoofdproject inboekt, worden alle wijzigingen die u in de baseline hebt aangebracht, verwijderd en niet ingeboekt; alleen wijzigingen in het project zelf worden ingeboekt.</p>
+    </body>
+</html>

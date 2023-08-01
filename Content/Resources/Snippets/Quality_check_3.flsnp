@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Als een balk meer dan één taak bevat, wordt een taak geacht te zijn gelinkt aan zijn directe voorganger- en / of opvolger taken op de balk door "impliciete links", zelfs als er geen echte links bestaan tussen de taken, tenzij de balk is geconfigureerd om taken te laten overlappen. Dit criterium behandelt impliciete links op dezelfde manier als normale links.</p>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Rescheduling_projects\Reschedule_errors\Finding_link_loops.htm" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl">
+    <head>
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Linklussen;Links:zoeken naar linklussen" />Zoeken naar linklussen</h1>
+        <p>Een linklus is een logische fout in een planning waarbij een link of een serie links resulteert in een latere taak doordat er een logische beperking wordt afgedwongen op een eerdere taak. Bijvoorbeeld, twee taken die aan elkaar zijn gelinkt met Einde-Start links resulteren in een linklus.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Voorbeelden van een linklussen</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>De taken in deze voorbeelden zijn gelinkt aan elkaar met Einde-Start links.</p>
+                <table wrapperparagraphselector="P" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <img src="../../../../Graphics/Rescheduling_projects/linkloop1.gif" alt="Linklus" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="51" height="43" border="0" />
+                            </p>
+                        </td>
+                        <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <img src="../../../../Graphics/Rescheduling_projects/linkloop2.gif" alt="Linklus" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="103" height="71" border="0" />
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Om er zeker van te zijn dat uw planning accuraat is, moet u elke linklus binnen uw project vinden en de linkfout corrigeren die hen veroorzaakt.</p>
+        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">U kunt er voor kiezen om terwijl u werkt linklussen automatisch te laten identificeren
+		
+			<ol><li MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Klik op het tabblad <b>Bestand</b>. De Backstage view verschijnt.</li><li MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Klik op <b>Opties</b>. Het  <b>Opties</b> dialoogvenster verschijnt.</li><li MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Klik op het tabblad <b>Bewerken</b>, op de knop <b>Link Instellingen</b>. Het <b>Link Instellingen</b> dialoogvenster verschijnt.</li><li MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Klik op het tabblad <b>Instellingen</b></li><li MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Schakel het  selectievakje <span style="font-weight: bold;">Controleer op linklussen tijdens het maken</span> in, en klik op <b>OK</b>.</li></ol>Wanneer u dit doet zal het dialoogvenster <b>Linklus Gevonden</b> automatisch verschijnen als een linklus creëert. U kunt ervoor kiezen om dan het probleem direct te fiksen door de link die de linklus veroorzaakt te verwijderen. Ook kunt u, als u er niet zeker van bent waardoor de linklus is veroorzaakt en u een beter beeld van het probleem wilt krijgen, een nieuwe view weergeven waarin alleen de taken en links te zien zijn die betrokken zijn bij de linklus, waardoor u de linklus zelf kunt identificeren en handmatig kunt corrigeren.</p>
+        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Wanneer u er niet voor kiest om terwijl u werkt linklussen automatisch te laten identificeren, dan zal <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> linklussen wel identificeren als u een project herberekent en wordt u hierover gewaarschuwd als de herberekening klaar is via het dialoogvenster <b>Herberekening resultaat</b>.</p>
+        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Er zijn twee andere manieren om linklussen te vinden: met behulp van een filter of met behulp van het <b>Selecteer Links</b> dialoogvenster.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Vinden van linklussen met behulp van een filter</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>U kunt linklussen vinden door een filter op het project toe te passen. Als uw project gebaseerd is op het bestand Template.pp die is meegeleverd met <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> dan bevat het bestand al een filter om linklussen te vinden. Als uw project niet is gebaseerd op het bestand Template.pp dan zult u het filter zelf moeten creëren.</p>
+                <p>Om het filter Taken in een linklus toe te passen op een project gebaseerd op Template.pp:</p>
+                <ol>
+                    <li class="p">Klik in het <b>View</b> tabblad, in de <b>View Gegevens</b> groep,  op het <b>Filter</b> keuzelijstje en selecteer <span style="font-weight: bold;">Meer filters</span>. Het dialoogvenster <span style="font-weight: bold;">Meer filters</span> verschijnt.            </li>
+                    <li class="p">Kies in de filterlijst het filter Taken in een linklus. U kunt het filter weergeven in het menu, wat het makkelijker maakt om het filter snel te gebruiken, door de optie <span style="font-weight: bold;">Weergeven in Menu</span> aan te zetten.            </li>
+                    <li class="p">Klik <span style="font-weight: bold;">OK</span> om het filter toe te passen op het project. De view geeft nu de taken weer waartussen een linklus aanwezig is.            </li>
+                </ol>
+                <p>Om een filter de construeren voor taken in een linklus die niet gebaseerd is op Template.pp maakt u gebruik van de <span style="font-weight: bold;">Filter Wizard</span> om een filter te maken met de volgende eigenschappen:</p>
+                <ul>
+                    <li class="p">Filter voor alle taak en allocatietypes.            </li>
+                    <li class="p">Maak een filter aan gebaseerd op links.            </li>
+                    <li class="p">Kies alleen taken in een linklus.            </li>
+                </ul>
+                <p>U kunt nu de filter toepassen om de linklussen te vinden in uw project.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Vinden van linklussen met behulp van het dialoogvenster <span style="font-weight: bold;">Selecteer Links</span></MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>U kunt linklussen vinden door het dialoogvenster <span style="font-weight: bold;">Selecteer links</span> te kiezen die alle aanwezige linklussen in uw project zal markeren:</p>
+                <ol>
+                    <li class="p">Kies de opdracht <span style="font-weight: bold;">Links selecteren</span> in het menu <span style="font-weight: bold;">Bewerken</span>. Het dialoogvenster <span style="font-weight: bold;">Selecteer links</span> wordt weergegeven.            </li>
+                    <li class="p">Van de groep <span style="font-weight: bold;">Status</span> selecteert u het keuzerondje <span style="font-weight: bold;">In een lus</span> en u klikt <span style="font-weight: bold;">OK</span>. Alle links die in een linklus zitten worden gemarkeerd.            </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p>
+            <a href="../../Starting_work/Linking_tasks/Linking_tasks.htm">Taken linken</a>
+        </p>
+        <p>
+            <a href="Link_loops_maximum_lag.htm">Linklussen, veroorzaakt door links met een maximum tijdsverschil</a>
+        </p>
+        <p>
+            <a href="../../Bar_chart_editing/Synchronising_tasks/Synchronising_tasks.htm">Taken synchroniseren</a>
+        </p>
+    </body>
+</html>

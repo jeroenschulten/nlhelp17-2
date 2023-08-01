@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul>
+            <li>Toewijzen van de onderliggende gebruikers aan dezelfde security groep als de geselecteerde gebruiker.</li>
+            <li xmlns="">Kopiëren van de geselecteerde gebruikersopties naar de onderliggende gebruikers. De gebruikersopties die worden gekopieerd, zijn de velden die kunnen worden bekeken als kolommen in de lijstweergave van Bibliotheekverkenner wanneer u de bibliotheek van de gebruiker bekijkt door met de rechtermuisknop op een leeg gedeelte van de lijstweergave te klikken en <b>Alle velden tonen</b> te selecteren.</li>
+        </ul>
+    </body>
+</html>

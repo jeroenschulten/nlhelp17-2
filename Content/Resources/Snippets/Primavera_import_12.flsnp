@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Als u een sjabloon toepast op het project dat u importeert en het sjabloon bevat één of meer codebibliotheken met dezelfde naam als in het project dat u importeert, kunt u met behulp van het <b>Match bestaande codebibliotheken</b> selectievakje op het
+Dialoogvenster <b>Primavera XML &amp; XER-importopties</b>. Schakel dit selectievakje in om codebibliotheken met dezelfde naam in het sjabloon en het project te combineren tot één enkele codebibliotheek in het resulterende project.</p>
+    </body>
+</html>

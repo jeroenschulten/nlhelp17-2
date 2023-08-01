@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Working_with_costs\Setting_up_cost_centres\Ways_of_calculating_costs_and_income.htm" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Kostengroepen:vast;Kostenallocaties:gebaseerd op tijd;Kostenallocaties:gebaseerd op taak werk;Taken:koppelen van kosten allocations aan;Kostenallocaties:Taken:koppelen aan taken;Tijdsgebaseerde kosten;Taak werk gebaseerde kosten;Vaste kosten;Kosten:calculatie types;Kosten:vast;Kosten:tijdgebaseerd;Kosten:taak werk gebaseerd;Kosten:vertraging tov taken;Vertraging kosten tov taken;Taken:vertraging kosten tov;Uitgave Ineens kosten;Kosten ineens;Kosten:vertegenwoordigen ineens" />Diversen manieren om kosten en inkomsten te berekenen</h1>
+        <p>U kunt in <MadCap:variable name="Primary.Asta Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only"></MadCap:variable><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> kosten en inkomsten op veel verschillende manieren berekenen, hetgeen u in staat stelt nauwkeurig de manier weer te geven waarop kosten en inkomsten in uw projecten berekend zijn.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot><a name="Cost_income_calculation_types"></a>U kunt kosten en inkomsten als volgt berekenen:</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <h2>Vast</h2>
+                <p>Kies deze berekeningsmethode wanneer de bedragen van kosten en inkomsten bekend zijn en u weet dat deze bedragen niet meer zullen veranderen. Een onderaannemer bijvoorbeeld, kan een taak uitvoeren tegen een vaste prijs.</p>
+                <h2>Gebaseerd op tijd</h2>
+                <p>Selecteer deze berekeningsmethode als de kosten van een activiteit afhangen van de duur van de kostenbalk (die niet per se dezelfde is als die van de taak). Bij deze berekeningsmethode worden de kosten vermenigvuldigd met de duur van de kostenbalk. Wanneer een 5-daagse taak berekend is om te beginnen op dag 1 en per dag 1000 kost, zal de hele taak 5000 kosten:</p>
+                <p>
+                    <img src="../../../../Graphics/Dialogs/5daycost.gif" alt="De taak kost 5000" title="De taak kost 5000" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="131" height="63" border="0" />
+                </p>
+                <p>Als het begin van de taak echter is uitgesteld tot dag 3, is de duur van de taak nog steeds 5 dagen. De kosten zouden toch berekend kunnen worden vanaf dag 1 (afhankelijk van de manier waarop u de kosten aanpast). In dit geval zal de duur van de kostenbalk 7 dagen worden en de kosten zullen 7000 worden:</p>
+                <p>&#160;</p>
+                <h2>Gebaseerd op Taak werk</h2>
+                <p>Selecteer deze berekeningsmethode als de kosten van een activiteit afhangen van de hoeveelheid werk in een taak. Bij deze berekeningsmethode wordt de werkwaarde van de taak vermenigvuldigd met de kosten. Als een taak bijvoorbeeld bestaat uit het schrijven van drie werkrapporten, elk met een prijs van 5000, dan kost de hele taak 15000.</p>
+                <p>Om deze berekeningsmethode te gebruiken moet u de hoeveelheid werk instellen voor de taak waarop de kosten zijn gealloceerd.</p>
+                <p MadCap:conditions="Powerproject_Easyplan.Easyplan_only">U kunt dit doen door een kolom in de tabel te definiëren die het veld Taak werk weergeeft (beschikbaar binnen de groep Taak werk velden) en de waarde in die kolom in te voeren.</p>
+                <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">U kunt dit doen op één van de volgende manieren:</p>
+                <ul MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+                    <li class="p">Rechtsklik op de taak en selecteer <b>Eigenschappen</b> om het dialoogvenster <b>Balk en Taak Eigenschappen</b> weer te geven, klik vervolgens op het <b>Taak</b> tabblad en voer het taak werk in bij de <b>Taak werk</b> en <b>Werkeenheden</b> velden in de   <span style="font-weight: bold;">Inspanning &amp; Modellering</span> sectie.  </li>
+                    <li class="p">Definieer een kolom in de tabel die het veld <b>Taak werk</b> (beschikbaar in de <b>Hulpmiddelen</b> groep velden) weergeeft en typ de waarde in de kolom.            </li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Manieren om kostenbalken te verbinden met taken</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p><a name="Connecting_cost_bars_to_tasks"></a>U kunt het begin en eind van de kostenbalken als volgt aan de taken koppelen:</p>
+                <h2>Relatief aan het begin van een taak</h2>
+                <p>Dit koppelt de start of het eind van de kostenbalk aan de start van de taak. Als de startdatum van de taak verandert, wordt de start / het einde van de kostenbalk aangepast om de startdatum van de taak te volgen. Wanneer bijvoorbeeld de startdatum van de taak verschuift van dag 1 naar dag 3, dan zal de startdatum of de einddatum van de kosten balk ook verplaatst worden van dag 1 naar dag 3.</p>
+                <table wrapperparagraphselector="P" style="margin-top: 14pt;" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <img src="../../../../Graphics/Dialogs/costrelativetotaskstart2.gif" alt="Startdatum relatief aan startdatum van taak; einddatum relatief aan einddatum van taak" title="Startdatum relatief aan startdatum van taak; einddatum relatief aan einddatum van taak" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="53" height="35" border="0">
+                                </img>
+                            </p>
+                        </td>
+                        <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <img src="../../../../Graphics/Dialogs/costrelativetotaskstart1.gif" alt="Einddatum relatief aan startdatum van taak; startdatum relatief aan vaste datum" title="Einddatum relatief aan startdatum van taak; startdatum relatief aan vaste datum" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="106" height="35" border="0">
+                                </img>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;"><span style="font-weight: normal;">De startdatum van deze kosten balk is relatief aan startdatum van de taak en de einddatum is relatief aan de einddatum van de taak.</span>
+                            </p>
+                        </td>
+                        <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;"><span style="font-weight: normal;">De einddatum van deze kosten balk is relatief aan de startdatum van de taak en de startdatum is relatief aan een vaste datum.</span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+                <h2>Relatief aan de einddatum van een taak</h2>
+                <p>Dit linkt de startdatum of de einddatum van de kosten balk aan de einddatum van de taak. Wanneer de einddatum van de taak zich wijzigt, dan past de startdatum of einddatum van de kosten balk zich aan om de einddatum van de taak te volgen. Wanneer bijvoorbeeld de einddatum van de taak verschuift van dag 3 tot dag 5, dan zal de startdatum of de einddatum van de kosten balk ook verplaatst worden van dag 3 tot dag 5.</p>
+                <table wrapperparagraphselector="P" style="margin-top: 14pt;" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <img src="../../../../Graphics/Dialogs/costrelativetotaskend1.gif" alt="Startdatum relatief aan einddatum van taak; einddatum relatief vaste datum" title="Startdatum relatief aan einddatum van taak; einddatum relatief vaste datum" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="85" height="35" border="0">
+                                </img>
+                            </p>
+                        </td>
+                        <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <img src="../../../../Graphics/Dialogs/costrelativetotaskend2.gif" alt="Einddatum relatief aan einddatum van taak; startdatum relatief aan vaste datum" title="Einddatum relatief aan einddatum van taak; startdatum relatief aan vaste datum" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="54" height="34" border="0">
+                                </img>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;"><span style="font-weight: normal;">De startdatum van deze kosten balk is relatief aan de einddatum van de taak en de einddatum is relatief aan een vaste datum.</span>
+                            </p>
+                        </td>
+                        <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;"><span style="font-weight: normal;">De einddatum van deze kosten balk is relatief aan de einddatum van de taak en de startdatum is relatief aan een vaste datum.</span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+                <h2>Vaste Datum</h2>
+                <p>Dit koppelt de start of het eind van de kostenbalk aan een vaste datum en tijd. Als de start- of einddatum van de taak verplaatst, blijft de start / het einde van de kostenbalk op de vaste datum. Wanneer u bijvoorbeeld bent akkoord gegaan om kantoorruimte te verhuren vanaf 1 oktober terwijl uw pand wordt opgeknapt, dan zal de startdatum van de kosten balk vastgezet worden op 1 oktober en als de einddatum relatief zijn aan de einddatum van de opknapbeurt van het kantoor.</p>
+                <table wrapperparagraphselector="P" style="margin-top: 14pt;" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <img src="../../../../Graphics/Dialogs/costrelativetofixeddate2.gif" alt="Startdatum relatief aan vaste datum; einddatum relatief aan einddatum van taak" title="Startdatum relatief aan vaste datum; einddatum relatief aan einddatum van taak" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="70" height="35" border="0">
+                                </img>
+                            </p>
+                        </td>
+                        <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <img src="../../../../Graphics/Dialogs/costrelativetofixeddate1.gif" alt="Einddatum relatief aan vaste datum; startdatum relatief aan startdatum van taak" title="Einddatum relatief aan vaste datum; startdatum relatief aan startdatum van taak" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="79" height="34" border="0">
+                                </img>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;"><span style="font-weight: normal;">De startdatum van deze kosten balk is relatief aan een vaste datum en de einddatum is relatief aan de einddatum van de taak.</span>
+                            </p>
+                        </td>
+                        <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;"><span style="font-weight: normal;">De einddatum van deze kostenbalk is relatief aan een vaste datum en de startdatum is relatief aan de start datum van de taak.</span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Vertragen van de kosten t.o.v. de taken</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p><a name="Delaying_costs"></a>U kunt uitstel aan begin- en eind bepalen, waardoor het begin en eind van de kostenbalk worden vertraagd in verhouding tot de taak, zoals hierna getoond wordt:</p>
+                <table wrapperparagraphselector="P" style="margin-top: 14pt;" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <img src="../../../../Graphics/Dialogs/costrelativetotaskend2.gif" alt="Uitgestelde start" title="Uitgestelde start" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="54" height="34" border="0" />
+                            </p>
+                        </td>
+                        <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <img src="../../../../Graphics/Dialogs/costdelay.gif" alt="Uitgesteld start en eind" title="Uitgesteld start en eind" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="70" height="34" border="0" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;"><span style="font-weight: normal;">Het begin van deze kostenbalk is uitgesteld tot 1 week na het begin van de taak.</span>
+                            </p>
+                        </td>
+                        <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;"><span style="font-weight: normal;">Het begin van deze kostenbalk is uitgesteld tot 1 week na het begin van de taak en het eind is uitgesteld tot 1 week na het eind van de taak.</span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+                <p>
+                    <MadCap:snippetText src="../../../../Resources/Snippets/Cost_centre_milestone_appearance.flsnp" /> U kunt ook een mijlpaalweergave opgeven voor elke individuele uitgaven ineens kostenallocatie. Als u dit doet, heeft het voorrang op de mijlpaalweergave die bij de kostengroep is opgegeven.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Representeren van plotselinge kosten en inkomsten</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p><a name="Represent_instant_costs"></a> kunt kosten en inkomen specificeren als 'uitgave ineens', wat betekent dat deze uitgaven of inkomsten betaald of ontvangen worden op een bepaald tijdstip. Hierdoor worden de kosten zichtbaar als een mijlpaal, aangezien deze kosten geen tijdsduur hebben. U ziet dit in de volgende illustratie:</p>
+                <table wrapperparagraphselector="P" style="margin-top: 14pt;" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <img src="../../../../Graphics/Dialogs/costpointspend1.gif" alt="Uitgave ineens gekoppeld aan het einde van de taak" title="Uitgave ineens gekoppeld aan het einde van de taak" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="59" height="36" border="0" />
+                            </p>
+                        </td>
+                        <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <img src="../../../../Graphics/Dialogs/costpointspend2.gif" alt="Uitgave ineens uitgesteld vanaf het einde van de taak" title="Uitgave ineens uitgesteld vanaf het einde van de taak" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="76" height="36" border="0" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;"><span style="font-weight: normal;">Deze uitgave ineens is gekoppeld aan het einde van de taak.</span>
+                            </p>
+                        </td>
+                        <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;"><span style="font-weight: normal;">Deze uitgave ineens is uitgesteld tot 1 week na het einde van de taak.</span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Representeren van niet lineaire kosten en inkomsten</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>U kunt specificeren of kosten en inkomsten lineair of niet lineair zijn. Bij lineaire kosten, blijven de kosten waarden constant gedurende de duur van een allocatie; met niet lineaire kosten, de kosten waarden van allocaties worden berekend middels een hulpmiddel curve. <MadCap:snippetText src="../../../../Resources/Snippets/Nonlinear_cost_example.flsnp" /></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p><a href="Setting_up_cost_centres.htm">Kostengroepen aanmaken</a>
+        </p>
+        <p><a href="../Introduction_to_costs/Negative_costs.htm">Negatieve kosten en inkomsten weergeven</a>
+        </p>
+        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><a href="Configure_cost_centres_nonlinear.htm">Configureren van kostengroepen  om standaard niet-lineaire allocaties te laten gebruiken</a>
+        </p>
+        <p><a href="../../Starting_work/Working_with_milestones/Working_with_milestones.htm">Werken met mijlpalen</a>
+        </p>
+    </body>
+</html>

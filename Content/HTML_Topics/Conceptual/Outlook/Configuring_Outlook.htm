@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Outlook\Configuring_Outlook.htm" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl" MadCap:lastBlockDepth="4" MadCap:lastHeight="1789" MadCap:lastWidth="1279" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+    <head>
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Publiceren van permanente hulpmiddelenallocaties:configureren van Microsoft Outlook" />
+            <MadCap:keyword term="Outlook:configureren voor integratie met Asta Powerproject" />
+            <MadCap:keyword term="MS Outlook:configureren voor integratie met Asta Powerproject" />
+            <MadCap:keyword term="Microsoft Outlook:configureren voor integratie met Asta Powerproject" />
+            <MadCap:keyword term="Exchange server:configureren voor integratie met Asta Powerproject" />
+            <MadCap:keyword term="Exchange server" />Microsoft Outlook en de Exchange server zodanig instellen om integratie mogelijk te maken</h1>
+        <p>Om <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> in combinatie met Microsoft Outlook® te gebruiken, dient u Microsoft Outlook (en als u Microsoft Exchange gebruikt, de Exchange server) in te stellen zoals in dit onderwerp beschreven. Let erop dat de term "gebruiker" in dit onderwerp refereert naar de Windows® gebruikers, niet naar de <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> gebruikers. De manier waarop Microsoft Outlook en de Exchange server ingesteld moeten worden hangt af van de manier waarop de details van de hulpmiddelallocaties gepubliceerd worden. De verschillende opties staan beneden omschreven.</p>
+        <h2>Direct naar de Microsoft Outlook map van de gebruiker publiceren</h2>
+        <p>Als u direct naar de Microsoft Outlook mappen van de gebruiker wilt publiceren, dienen alle gebruikers die details van hulpmiddelallocaties publiceren naar Microsoft Outlook - d.w.z. projectmanagers - toegang te hebben om te lezen en schrijven naar alle andere Microsoft Outlook gebruikers mappen op de Exchange server. Dit kan ingesteld worden door de doel gebruiker of de Administrator van de Exchange server, door de eigenschappen van de agenda en takenlijst (afhankelijk van of allocaties als afspraken respectievelijk taken gepubliceerd worden) van de gebruiker te bewerken.</p>
+        <ol style="list-style-type: decimal;">
+            <li class="p">Log in op de Exchange server als de gebruiker met de Microsoft Outlook mappen waarvoor de projectmanager rechten moet krijgen.            </li>
+            <li class="p">Start Microsoft Outlook op.            </li>
+            <li class="p">Binnen Microsoft Outlook, klik met de rechter muisknop op Agenda of Taken in de mappenlijst (afhankelijk van de <a href="Ways_to_publish.htm">publicatiemethode</a> die gebruikt wordt) en kies <span style="font-weight: bold;">Eigenschappen</span>. Het dialoogvenster <span style="font-weight: bold;">Agenda Eigenschappen</span> of het dialoogvenster <span style="font-weight: bold;">Taak Eigenschappen</span> verschijnt.            </li>
+            <li class="p">Klik op het tabblad <span style="font-weight: bold;">Permissies</span> .            </li>
+            <li class="p">Klik <span style="font-weight: bold;">Toevoegen</span>. Het dialoogvenster <span style="font-weight: bold;">Gebruikers Toevoegen</span> verschijnt.            </li>
+            <li class="p">Selecteer de projectmanager gebruiker, klik <span style="font-weight: bold;">Toevoegen</span> om de gebruiker toe te voegen aan de lijst, klik daarna <span style="font-weight: bold;">OK</span> om het dialoogvenster te sluiten en terug te keren naar het dialoogvenster <span style="font-weight: bold;">Agenda Eigenschappen</span> of het dialoogvenster <span style="font-weight: bold;">Taak Eigenschappen</span> waar de projectmanager verschijnt in de lijst van gebruikers.            </li>
+            <li class="p">Selecteer de gebruiker projectmanager en kies Editor in het veld <span style="font-weight: bold;">Permissie niveau</span></li>
+            <li class="p">Klik <span style="font-weight: bold;">OK</span> om het dialoogvenster te sluiten.            </li>
+        </ol>
+        <p>Als allocaties als taken en agenda afspraken gepubliceerd worden, dient de projectmanager rechten te krijgen voor de taken en kalenders van iedere gebruiker.</p>
+        <h2>Publiceren naar een gedeelde of publieke map</h2>
+        <p>Als u allocaties als taken of afspraken in een gedeelde of publieke map wilt publiceren, dient u een gedeelde of publieke map op de Exchange server te creëren waar alle gebruikers die details van hulpmiddelallocaties publiceren - d.w.z. projectmanagers - lees en schrijf toegang hebben. Als u allocaties als taken en agenda afspraken publiceert, dient u twee publieke mappen te creëren, één voor de taken en één voor de agenda.</p>
+        <ol style="list-style-type: decimal;">
+            <li class="p">Log op de Exchange server in als Administrator.            </li>
+            <li class="p">Start Microsoft Outlook op.            </li>
+            <li class="p">In Microsoft Outlook, klik met de rechter muisknop op Alle Publieke Mappen in de mappen lijst en kies <span style="font-weight: bold;">Nieuwe Map</span>. Een nieuwe map is gecreëerd.            </li>
+            <li class="p">Geef de nieuwe map een geschikte naam, bijvoorbeeld Project Agenda of Project Taken.            </li>
+            <li class="p">Klik met de rechter muisknop op de nieuwe map en kies <span style="font-weight: bold;">Eigenschappen</span>. Het dialoogvenster <span style="font-weight: bold;">Eigenschappen</span> van de map verschijnt.            </li>
+            <li class="p">Klik op het tabblad <span style="font-weight: bold;">Algemeen</span>.            </li>
+            <li class="p">Selecteer Taken of Afspraken (afhankelijk van de gebruikte publicatie methode) in het veld <span style="font-weight: bold;">Gebruik bij posten naar deze map</span></li>
+            <li class="p">Klik <span style="font-weight: bold;">OK</span> om het dialoogvenster <span style="font-weight: bold;">Eigenschappen</span> te sluiten.            </li>
+            <li class="p">Creëer binnen de nieuwe map een nieuwe submap voor ieder permanent hulpmiddel. Elke submap dient <span style="font-style: italic;">exact</span> dezelfde naam als het bijbehorende permanente hulpmiddel in <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> te hebben.<br /><br />Nu dient u toegang te verlenen tot de submappen. Elk permanent hulpmiddel dient toegang te hebben tot zijn eigen submap en de projectmanager dient toegang te hebben tot alle submappen.            </li>
+            <li class="p">Om toegang te verlenen tot een submap, klik met de rechter muisknop op de submap en kies <span style="font-weight: bold;">Eigenschappen</span>. Het dialoogvenster <span style="font-weight: bold;">Eigenschappen</span> van de map verschijnt.            </li>
+            <li class="p">Klik op het tabblad <span style="font-weight: bold;">Permissies</span> .            </li>
+            <li class="p">Klik <span style="font-weight: bold;">Toevoegen</span>. Het dialoogvenster <span style="font-weight: bold;">Gebruikers Toevoegen</span> verschijnt.            </li>
+            <li class="p">Selecteer de projectmanager en klik <span style="font-weight: bold;">Toevoegen</span> om de gebruiker aan de lijst toe te voegen.            </li>
+            <li class="p">Voeg het permanente hulpmiddel toe aan de lijst, klik daarna <span style="font-weight: bold;">OK</span> om het dialoogvenster te sluiten en terug te keren naar het dialoogvenster <span style="font-weight: bold;">Eigenschappen</span>, waar de twee gebruikers verschijnen in de lijst.            </li>
+            <li class="p">Selecteer elke gebruiker en selecteer Editor in het veld <span style="font-weight: bold;">Permissie Niveau</span>.            </li>
+            <li class="p">Klik <span style="font-weight: bold;">OK</span> om het dialoogvenster te sluiten.            </li>
+        </ol>
+        <p>Let erop dat wanneer er meerdere versies van Microsoft Outlook in gebruik zijn, de <span style="font-weight: bold;">Gebruik Cached Exchange Mode</span>s optie leeg gelaten moet worden bij het opstellen van de Exchange gebruikers in Microsoft Outlook 2003. Het gebruiken van de Cached Exchange Mode in deze versie van Microsoft Outlook kan informatie die van of naar Elecosoft verstuurd wordt vertragen, wat tot gevolg kan hebben dat gebruikers van Microsoft Outlook 2003 informatie over hun allocaties later ontvangen dan andere gebruikers. De Cached Exchange Mode kan uitgeschakeld worden in huidige gebruikers door de account te bewerken en het keuzevakje <span style="font-weight: bold;">Gebruik Cached Exchange Mode</span> leeg te maken.</p>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p>
+            <a href="Configure_APP_Outlook_tasks.htm"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /> zodanig instellen dat allocaties als Microsoft Outlook taken gepubliceerd worden</a>
+        </p>
+        <p>
+            <a href="Configure_APP_Outlook_appointments.htm"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /> instellen zodat hulpmiddelallocaties worden gepubliceerd als Microsoft Outlook kalender afspraken</a>
+        </p>
+        <p>
+            <a href="Configure_app_SMTP.htm"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /> zodanig instellen dat hulpmiddelallocaties gepubliceerd worden door SMTP email</a>
+        </p>
+        <p>
+            <a href="Outlook_publish.htm">Hulpmiddelallocaties publiceren naar Microsoft Outlook of SMTP e-mail</a>
+        </p>
+    </body>
+</html>

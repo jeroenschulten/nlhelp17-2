@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" xml:lang="nl-nl" class="KLAAR-NL">
+    <head>
+        <link href="../../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Kwaliteitschecks:rollup tasks not resourced criterium;Rollup tasks not resourced kwaliteitscriterium" />'Totaliserende taken zonder hulpmiddelen' kwaliteitscriterium</h1>
+        <p>U gebruikt dit kwaliteitscriterium om het aandeel van <a href="../Structuring_your_project/Working_with_summary_tasks/Working_with_summary_tasks.htm">samenvattingstaken</a>, <a href="../Structuring_your_project/Working_with_charts/Working_with_charts.htm">niveautaken </a>en <a href="../Structuring_your_project/Working_with_hammocks/Working_with_hammocks.htm">hammocks </a>zonder hulpmiddelallocaties te checken. Het niet verstandig om hulpmiddelen direct toe te wijzen aan samenvattingstaken, niveautaken en hammocks; het is veel beter om deze hulpmiddelen toe te wijzen aan de taken die ze bevatten. Samenvattingstaken, niveautaken en hammocks zullen falen voor dit criterium wanneer ze één of meer hulpmiddelallocaties hebben, maar niet wanneer ze  één of meer kostenallocaties hebben.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Voorbeeld van samenvattingstaken met hulpmiddelallocaties</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In de volgende afbeelding heeft Summary 1 een directe permanent hulpmiddelallocatie; Summary 2 een directe kostenallocatie; Summary 3 een directe verbruiksgoederen allocatie. Summary 1 en Summary 3 zouden falen voor dit kwaliteitscriterium, maar Summary 2 niet omdat dit, ondanks dat het directe allocatie betreft, voor kostenallocaties niet geldt:</p>
+                <p>
+                    <img src="../../../Graphics/Quality_check/rolluptasksnotresourced.gif" alt="Summary 1 has a direct permanent resource allocation; Summary 2 has a direct cost allocation; Summary 3 has a direct consumable resource allocation" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_2.flsnp" />
+        </p>
+        <h2>Slaag en faal criteria</h2>
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Slaagt of faalt?</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Criteria</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #afffaf;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Slaagt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Een project slaagt op dit criterium wanneer het percentage samenvattingstaken, niveautaken en hammocks dat geen hulpmiddelallocaties heeft groter is dan of gelijk is aan het slaaggrens percentage. </p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Wanneer bijvoorbeeld de slaaggrens ingesteld stond op 100,00%, zou een project op dit criterium slagen wanneer 100,00% van de samenvattingstaken, niveautaken en hammocks geen hulpmiddelallocaties zou hebben.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #ff6464;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Een project faalt op dit criterium wanneer het percentage samenvattingstaken, niveautaken en hammocks dat geen hulpmiddelallocaties heeft kleiner is dan het faalgrens percentage. </p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Wanneer bijvoorbeeld de faalgrens ingesteld stond op 100,00%, zou een project op dit criterium falen wanneer minder dan 100,00% of samenvattingstaken, niveautaken en hammocks geen hulpmiddelallocaties zou hebben.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="background-color: #ffaf45;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;">Slaagt noch faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Wanneer het percentage samenvattingstaken, niveautaken en hammocks dat geen hulpmiddelallocaties heeft valt tussen de slaaggrens en de faalgrens, is het resultaat noch geslaagd noch gefaald, maar ligt dat ergens daartussenin.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Voorgestelde instellingen</h2>
+        <ul xmlns="" type="disc">
+            <li>Slaaggrens: 100,00%. Een project zal slagen voor dit criterium als alle samenvattingstaken, niveautaken en hammocks geen directe hulpmiddelallocaties zouden hebben</li>
+            <li>Faalgrens: 100,00%. Een project zal falen voor dit criterium als één of meerdere samenvattingstaken, niveautaken en hammocks directe hulpmiddelallocaties zouden hebben.</li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_39.flsnp" />
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1">
+            </col>
+            <col class="TableStyle-Table_Stylesheet-Column-Column1">
+            </col>
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Percentage samenvattingstaken, niveautaken en hammocks zonder directe hulpmiddelallocaties</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Slaagt of faalt?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">0,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">50,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">99,99%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1">100,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Slaagt</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Forceert dit criterium dat het project wordt herberekend?</h2>
+        <p>Nee.</p>
+        <h2>Voorgestelde acties als een project faalt voor dit criterium</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_37.flsnp" />
+        <p>Verwijder de hulpmiddelallocaties bij elke falende taak, en  <a href="../Resource_and_cost_allocations/Assigning_resource_and_cost_allocations/Assigning_resource_and_cost_allocations.htm">wijs in plaats daarvan hulpmiddelen toe</a> aan de taken binnen de samenvattingsgroep, subkaart of hammock.</p>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="Checking_quality_intro.htm">Introductie over planningskwaliteitchecks</a>
+        </p>
+        <p><a href="../Structuring_your_project/Working_with_summary_tasks/Working_with_summary_tasks.htm">Met samenvattingstaken werken</a>
+        </p>
+        <p><a href="../Structuring_your_project/Working_with_charts/Working_with_charts.htm">Met kaarten werken</a>
+        </p>
+        <p><a href="../Structuring_your_project/Working_with_hammocks/Working_with_hammocks.htm">Met hammocks werken</a>
+        </p>
+        <p><a href="../Resource_and_cost_allocations/Assigning_resource_and_cost_allocations/Assigning_resource_and_cost_allocations.htm">Hulpmiddel- en kostenallocaties toewijzen</a>
+        </p>
+    </body>
+</html>

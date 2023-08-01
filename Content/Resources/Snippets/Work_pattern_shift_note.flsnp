@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Opmerkingen over werktijdenpatronen met shifts die niet overeenkomen met ochtend- en middagwerkperioden</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In de meeste werktijdenpatronen zullen de werkploegen direct overeenkomen met ochtend- en middagwerkperioden. Dit is echter niet altijd het geval. Een werktijdenpatroon kan bijvoorbeeld diensten omvatten die overeenkomen met twee werkperioden op verschillende tijdstippen van de dag, of met drie of vier werkperioden per dag.</p>
+                <p>In ongebruikelijke gevallen zoals deze worden 'ochtend' en 'middag' als volgt gedefinieerd:</p>
+                <ul>
+                    <li>Voor werktijdenpatronen met één ploegendienst per dag is de 'ochtend' de eerste helft van deze shift en de 'middag' de tweede helft.</li>
+                    <li>Voor werktijdenpatronen met twee ploegendiensten per dag is de 'ochtend' de eerste shift en de 'middag' de tweede shift .</li>
+                    <li>Voor werktijdenpatronen met drie ploegendiensten per dag is de 'ochtend' de eerste shift plus de eerste helft van de tweede shift en is de 'middag' de tweede helft van de tweede shift plus de derde shift .</li>
+                    <li>Voor werktijdenpatronen met vier ploegendiensten per dag zijn de 'ochtend' de eerste twee shifts en de 'middag' de laatste twee shifts.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

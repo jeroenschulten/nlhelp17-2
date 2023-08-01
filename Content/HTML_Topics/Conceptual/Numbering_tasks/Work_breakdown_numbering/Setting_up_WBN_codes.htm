@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Numbering_tasks_in_a_project\Work_breakdown_numbering\Setting_up_WBN_codes.htm" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl">
+    <head>
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Taak ID (WBN) nummering:gebruik van voorvoegsels in;Taak ID (WBN) nummering:instellen" />Opzetten van WBN taak ID's</h1>
+        <p>Een taak ID (WBN) code in het <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> is een gegenereerde tekststring, meestal een nummer. U kunt bij het aanpassen van de taak ID (WBN) definitie zelf instellen welke karakterreeksen er gebruikt moeten worden voor de gegenereerde tekststring, de startwaarde, de ophoogwaarde en andere opties.</p>
+        <p>Als u alle taak ID (WBN) codes van bestaande taken wilt hernummeren, dan moeten die taken eerst worden geselecteerd voordat de taak ID (WBN) definitie wordt aangepast. Bijvoorbeeld, u wilt verschillende taak ID (WBN) codes toepassen op alle taken binnen een specifieke subkaart of binnen een specifieke view. Om alles binnen het gehele project te hernummeren, zorg dan dat de programma kaart (het hoogste niveau) zichtbaar is en kies de opdracht <span style="font-weight: bold;">Alles selecteren</span> uit het menu <span style="font-weight: bold;">Bewerken</span> voordat de taak ID (WBN) definitie wordt aangepast. Als u geen taken selecteert, dan zijn de wijzigingen aan de taak ID (WBN) definitie alleen van toepassing op nieuwe taken.</p>
+        <p>Om taak ID (WBN) codes op te zetten:</p>
+        <ol>
+            <li class="p">Klik in het tabblad <b>Project</b>, in de <b>Eigenschappen</b> groep, op <span style="font-weight: bold;">Taak ID (WBN) Nummering</span>. Het dialoogvenster <b>Project Taak ID (WBN) Nummering Definitie</b> verschijnt.            </li>
+            <li class="p">Het aanmaken van taak ID (WBN) codes kan worden uitgeschakeld met het selectievakje <span style="font-weight: bold;">Taak ID's (WBN) uitschakelen</span>. Als u een ongeldige taak ID (WBN) definitie in dit dialoogvenster intypt, dan zal <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> het selectievakje automatisch selecteren, om te voorkomen dat ongeldige codes aan taken worden toegewezen.            </li>
+            <li class="p">Typ in de velden onder <span style="font-weight: bold;">Domein</span> het domein van karakters in, dat het programma mag gebruiken om de taak ID (WBN) codes te genereren. Veelgebruikte domeinen zijn 0-9, a-z en A-Z. Het grootste domein dat u kunt specificeren is 0-z, en dit is het domein dat u moet specificeren als een alfanumerieke tekststring de taak ID (WBN) code vooraf moet gaan.            </li>
+            <li class="p">Typ in het veld <span style="font-weight: bold;">Startwaarde</span> het karakter of de karakters binnen het opgegeven domein in, waarmee de taak ID (WBN) nummering moet beginnen. Standaard is dit het eerste karakter van het opgegeven domein, bijvoorbeeld een 0 of een A.            </li>
+            <li class="p">Typ in het veld <span style="font-weight: bold;">Verhogen</span> het aantal karakters dat moet worden vrijgehouden tussen één WBN code en de volgende taak ID (WBN) code. Als de codes opvolgend moeten zijn, geef dan 1 op in het veld; als u wilt dat de ID's met 2 worden verhoogd, geef dan 2 op. Een verhoogwaarde van 2 zorgt voor het volgende rijtje taak ID (WBN) codes: 1, 3, 5, 7 etc. of A, C, E...            </li>
+            <li class="p">Geef in het veld <span style="font-weight: bold;">Minimum breedte</span> de minimale hoeveelheid posities op van de code (exclusief de voorloopcode). Codes die smaller zijn dan de opgeven breedte worden opgevuld met nullen. Bijvoorbeeld, als een taak ID (WBN) code 12 zou zijn, maar de minimale breedte staat op 4, dan wordt de code 0012.            </li>
+            <li class="p">In het veld <span style="font-weight: bold;">Padnaam scheidingsteken</span> voert u het karakter in waarmee de verschillende taak ID (WBN) codes van taken gescheiden worden bij de weergave in een work breakdown pad.            </li>
+            <li class="p">In het veld <span style="font-weight: bold;">Taak scheidingsteken</span> voert u het karakter in waarmee de verschillende taak ID (WBN) codes worden gescheiden in het zoekpad.            </li>
+            <li class="p">In de groep <span style="font-weight: bold;">Uniek</span> kunt u aangeven of de codes uniek binnen het hele bestand moeten zijn, of alleen uniek binnen de samenvattings-/niveautaak of totaal niet uniek zijn.            </li>
+            <li class="p">Voer in het <span style="font-weight: bold;">Taak ID (WBN) voorvoegsel</span> veld een alfanumerieke reeks van tekens in dat u wilt gebruiken als voorvoegsel bij elke taak ID (WBN) code.            </li>
+            <li class="p">Schakel het selectievakje <span style="font-weight: bold;">Taken op dezelfde regel mogen dezelfde codes delen</span> in, om aan te geven dat taken op dezelfde regel dezelfde taak ID (WBN) code mogen hebben, of schakel het selectievakje uit om te forceren dat taken verschillende taak ID (WBN) codes moeten zijn. Als u dit selectievakje selecteert, dan blijft <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> verschillende codes aan de taken op een balk toewijzen, maar nu kunt u ze wel wijzigen in dezelfde code.            </li>
+            <li class="p">Het groepsveld <span style="font-weight: bold;">Hernummering</span> is alleen ingeschakeld als er op dat moment één of meer taken zijn geselecteerd. U gebruikt deze groep om aan te geven op welke manier de hernummering van de taak ID (WBN) codes op de geselecteerde taken moet gebeuren.            </li>
+            <ul>
+                <li class="p">Schakel het selectievakje <span style="font-weight: bold;">Selectie hernummeren</span> in, om alleen de geselecteerde taken te hernummeren met de opgegeven taak ID (WBN) definitie die u hebt ingetypt in het dialoogvenster, of schakel het selectievakje uit om de definitie alleen voor nieuwe taken te gebruiken.            </li>
+                <li class="p">Schakel het selectievakje <span style="font-weight: bold;">Binnen geselecteerde samenvattings-/niveautaak hernummeren</span> in, om alleen de taken binnen de geselecteerde samenvattingstaak<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"> of niveautaak</MadCap:conditionalText> te hernummeren, of schakel het selectievakje uit om alleen de taken in de huidige view te hernummeren. Om een geheel project te hernummeren, selecteer de taken in het programma en selecteer deze optie.            </li>
+                <li class="p">Schakel het selectievakje <span style="font-weight: bold;">Tegenstrijdige Taak ID (WBN) overslaan</span> in om te voorkomen dat <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> objecten hernummert die zouden kunnen conflicteren met objecten buiten de door hernummeren veranderde groep, of  schakel het selectievakje uit om het <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> mogelijk te maken om elk van deze objecten te hernummeren, zelfs als dat kan resulteren in het hebben van dezelfde nummers bij twee of meer objecten.            </li>
+            </ul>
+            <li class="p">Klik op <span style="font-weight: bold;">OK</span> om de taak ID (WBN) veranderingen te bevestigen.            </li>
+        </ol>
+        <p>Als u ervoor kiest om de work breakdown te hernummeren, dan kan het even duren voordat het scherm wordt vernieuwd en de work breakdown nummers zijn gewijzigd.</p>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p>
+            <a href="Editing_WBN_codes.htm">Wijzigen van taak ID (WBN) codes</a>
+        </p>
+        <p>
+            <a href="View_WBN_spreadsheet.htm">Taak ID (WBN) codes in de tabel bekijken</a>
+        </p>
+        <p>
+            <a href="../../Setting_up_the_bar_chart/Setting_display_options/Display_bar_and_task_info.htm">Het tonen van balk- en taakinformatie op de balkkaart</a>
+        </p>
+    </body>
+</html>

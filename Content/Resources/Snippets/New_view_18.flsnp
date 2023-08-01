@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>Schakel het selectievakje <span style="font-weight: bold;">Gebruik kalenderschaal</span> in, om de kalenderschaal toe te passen op alle kaarten binnen de view, of schakel het selectievakje uit, om voor elke kaart binnen de view een andere kalenderschaal te kiezen. Als het selectievakje ingeschakeld is, wordt de kalenderschaal toegepast op alle kaarten als u de kalenderschaal in één kaart aanpast; als het selectievakje uitgeschakeld is, wordt de kalenderschaal alleen op de desbetreffende kaart toegepast (en de subkaarten van deze kaart, tenzij u vervolgens de kalenderschaal voor de subkaarten verandert).</body>
+</html>

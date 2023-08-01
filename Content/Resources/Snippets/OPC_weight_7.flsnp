@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Als u de weging niet handmatig hebt bewerkt - als '1,00' verschijnt in het veld <b>Overall % voltooid weging</b> - verandert de berekende weging om overeen te komen met de duur van een taak naarmate de duur verandert, totdat er voortgang op de taak wordt geregistreerd; op dat punt wordt de  berekende weging vastgezet - tenzij u het vervolgens handmatig bewerkt.</p>
+    </body>
+</html>

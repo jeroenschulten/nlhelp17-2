@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="119" MadCap:lastWidth="1040">
+    <head>
+    </head>
+    <body>
+        <p>De rangorde van een taak op het logische pad waarop het zich bevindt. De eerste taak op het logische pad heeft een logische pad rangorde van 1; de volgende heeft de rangorde 2; enzovoorts. Het kan handig zijn om sorteringen/groeperingen aan te maken waarin de taken het eerst gesorteerd/gegroepeerd zijn op het logische pad en vervolgens op de logische pad volgorde, omdat dit de logische paden om de meest zichtbare manier weergeeft.</p>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... een link naar een andere taak verplaatsen?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li xmlns="">Selecteer het item voor de link in een van de tabelrasters en klik op <b>Wijzigen</b>. Het dialoogvenster <b>Verplaatsen van / naar</b> verschijnt.</li>
+                    <li xmlns="">Geef de taak op waarnaartoe u het andere uiteinde van de link wilt verplaatsen door informatie in te voeren in de velden op het dialoogvenster. Voer bijvoorbeeld de naam of WBS-code in van de taak waarnaar u de geselecteerde link wilt verplaatsen.</li>
+                    <li xmlns="">Geef indien nodig een ander type link op in het veld <b>Linktype</b>.</li>
+                    <li xmlns="">Voer de hoeveelheid positieve / negatieve wachttijd in, bijvoorbeeld 2d of 15u, die u wilt toepassen op de link in het veld <b>Wachttijd</b>. Laat dit veld leeg om geen positieve / negatieve wachttijd op de link toe te passen. </li>
+                    <li xmlns="">Klik op Link. De geselecteerde link wordt verplaatst naar de opgegeven taak.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

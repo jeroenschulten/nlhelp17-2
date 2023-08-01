@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" class="KLAAR" xml:lang="nl-nl">
+    <head>
+        <link href="../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Dialoogvenster Security Groep Eigenschappen - tabblad Codebibliotheek Rechten</h1>
+        <p>U gebruikt het <b>Codebibliotheek Toegangsrechten</b> tab van het <b>Security Groep Eigenschappen</b> dialoogvenster om de toegangsrechten te specificeren die leden geselecteerde security groep hebben tot de security bibliotheek die u selecteerde op het tabblad <b>Algemeen</b> van het dialoogvenster. U kunt toegangsrechten specificeren tot die codebibliotheek, of tot de individuele codes binnen de bibliotheek, in aanvulling op de project hiërarchie-gebaseerde toegangsrechten die u specificeert op het <b>Kaart Toegangsrechten</b> tabblad. Dit betekent dat u de leden van een security groep die enkel maar alleen-lezen toegang tot een project hebben, volledige toegangsrechten kunnen hebben tot objecten met een specifieke code, waar die ook in de project hiërarchie voorkomen. <MadCap:snippetText src="../../Resources/Snippets/Security_library_example.flsnp" /></p>
+        <p>
+            <MadCap:snippetText src="../../Resources/Snippets/Access_rights_security_library_1.flsnp" />
+        </p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Access_rights_security_library_2.flsnp" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b>Codebibliotheek Rechten</b> tabblad van het <b>Security Groep Eigenschappen</b> dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Om toegang te krijgen tot het <b>Codebibliotheek Rechten</b> tabblad van het <b>Security Groep Eigenschappen</b> dialoogvenster, specificeer een codebibliotheek om te gaan fungeren als security bibliotheek op het tabblad <b xmlns="">Algemeen</b> van het <b>Security Groep Eigenschappen</b> dialoogvenster, en klik vervolgens op <b>Eigenschappen</b>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Verklaring van de velden en knoppen op het dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Het dialoogvenster toont het volgende veld aan de linkerkant:</p>
+                <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../../Resources/Stylesheets/Table_Stylesheet.css');caption-side: top;margin-left: 0;margin-right: auto;" cellspacing="0">
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <thead>
+                        <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Veld</th>
+                            <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Omschrijving</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Code bibliotheek hiërarchie</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">
+                                <p class="ParagraphsInTables">Een hiërarchische weergave van de codebibliotheek die u geselecteerd heeft om te laten fungeren als security bibliotheek.</p>
+                                <p class="ParagraphsInTables">U kunt toegangsrechten tot de gehele codebibliotheek, of tot individuele codebibliotheekitems binnen de bibliotheek specificeren.</p>
+                                <p class="ParagraphsInTables">Klik op de codebibliotheek, of op een codebibliotheekitem in dit veld om deze te selecteren. U kunt dan de security groep toegangsrechten tot de geselecteerde code configureren met de velden rechts van het dialoogvenster</p>
+                                <p class="ParagraphsInTables">Wanneer u rechten voor een codebibliotheekitem heeft ingesteld, wordt dit codebibliotheekitem vet weergegeven, tenzij u voor dit niveau dezelfde rechten hebt ingesteld als voor het niveau daarboven</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Het dialoogvenster toont de volgende velden en knoppen die verwijzen naar elke code die op dit moment in het <b>Code bibliotheek hiërarchie</b> veld geselecteerd is:</p>
+                <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../../Resources/Stylesheets/Table_Stylesheet.css');caption-side: top;margin-left: 0;margin-right: auto;" cellspacing="0">
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <thead>
+                        <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Veld/Knop</th>
+                            <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Omschrijving</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Lezen</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Schakel dit selectievakje in om de leden van de security groep rechten te geven om  balkkaart objecten waaraan de geselecteerde code is toegewezen, ongeacht hun toegangsrechten in de projecthiërarchie. Leden van de security groep krijgen automatisch Leesrechten tot objecten paneer Creëren, Verwijderen of Aanpassen rechten staan ingesteld.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Aanmaken</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Schakel dit selectievakje in om de leden van de security groep rechten te geven om balkkaart objecten waaraan de geselecteerde code is toegewezen te creëren, ongeacht hun toegangsrechten in de projecthiërarchie.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Verwijderen</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Schakel dit selectievakje in om de leden van de security groep rechten te geven om balkkaart objecten waaraan de geselecteerde code is toegewezen te verwijderen, ongeacht hun toegangsrechten in de projecthiërarchie.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Bewerken</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Schakel dit selectievakje in om de leden van de security groep rechten te geven om balkkaart objecten waaraan de geselecteerde code is toegewezen aan te passen, ongeacht hun toegangsrechten in de projecthiërarchie.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Onbeperkt</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Klik op deze knop om de leden van de security groep volledige toegang te geven tot balkkaart objecten waaraan de geselecteerde code is toegewezen, ongeacht hun toegangsrechten in de projecthiërarchie.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Geen</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Klik op deze knop om de leden van de security groep geen toegang te geven tot balkkaart objecten waaraan de geselecteerde code is toegewezen, ongeacht hun toegangsrechten in de projecthiërarchie.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Alle als Hogerniveau</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Klik op deze knop om de leden van de security groep dezelfde toegangsrechten te geven tot de geselecteerde code als ze al hebben tot de hogerniveaucode ervan, ongeacht hun toegangsrechten in de projecthiërarchie.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Invoeren voortgang</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Schakel dit selectievakje in om de leden van de security groep toestemming te geven voortgang op taken en allocaties waaraan de geselecteerde code is toegewezen in te voeren, ongeacht hun toegangsrechten in de projecthiërarchie.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Verwijder voortgang</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Schakel dit selectievakje in om de leden van de security groep toestemming te geven om bij voltooide gedeelten van taken en allocaties waaraan de geselecteerde code is toegewezen  te verwijderen, ongeacht hun toegangsrechten in de projecthiërarchie.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Verplaats kaart</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Schakel dit selectievakje in om de leden van de security groep toestemming te geven om kaarten waaraan de geselecteerde code is toegewezen door de projecthiërarchie te verplaatsen, ongeacht hun toegangsrechten in de projecthiërarchie.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Kopieer</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Schakel dit selectievakje in om de leden van de security groep toestemming te geven om objecten waaraan de geselecteerde code is toegewezen te kopiëren, ongeacht hun toegangsrechten in de projecthiërarchie.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Beschikbaar in Project Viewer</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Schakel dit selectievakje in om de kaarten waaraan de geselecteerde code is toegewezen beschikbaar te maken wanneer een lid van de security groep het project in Elecosofts gratis viewersoftware - Project Viewer - ongeacht hun toegangsrechten in de projecthiërarchie.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Inkomsten</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Schakel dit selectievakje in om de leden van de security groep bij objecten waaraan de geselecteerde code is toegewezen toegang te geven tot inkomstenhoeveelheden, ongeacht hun toegangsrechten in de projecthiërarchie.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Uitgaven</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Schakel dit selectievakje in om de leden van de security groep  bij objecten waaraan de geselecteerde code is toegewezen toegang te geven tot Uitgavenhoeveelheden, ongeacht hun toegangsrechten in de projecthiërarchie.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Speling</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Schakel dit selectievakje in om de leden van de security groep bij objecten waaraan de geselecteerde code is toegewezen toegang te geven  spelingswaarden, ongeacht hun toegangsrechten in de projecthiërarchie.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../Resources/Snippets/How_do_I.flsnp" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... toegangsrechten specificeren voor de geselecteerde security codebibliotheek?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="p">Selecteer de code waarvoor u toegangsrechten wilt specificeren - of selecteer de codebibliotheek zelf wanneer u dezelfde toegangsrechten aan alle codes binnen de bibliotheek wilt geven.</li>
+                    <li class="p">Gebruik de selectievakjes om de toegangsrechten te specificeren voor de balkkaart objecten waaraan de geselecteerde code is toegewezen, ongeacht de toegangsrechten in de projecthiërarchie van de security groep: schakel een selectievakje in om de toegangsrechten toe te wijzen of schakel een selectievakje uit om de toegangsrechten te beletten.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p class="RelatedTopics">Verwante Onderwerpen</p>
+        <p><a href="../Other/Workingdialogs.htm">Met dialoogvensters werken</a>
+        </p>
+        <p><a href="../Conceptual/Multi_user/Specifying_user_access_rights/Specifying_user_access_rights.htm">Gebruikersrechten specificeren</a>
+        </p>
+        <p><a href="../Conceptual/Multi_user/Specifying_user_access_rights/Copying_user_access_rights_and_options.htm">Toegangsrechten en opties van gebruikers kopiëren naar onderliggende gebruikers</a>
+        </p>
+    </body>
+</html>

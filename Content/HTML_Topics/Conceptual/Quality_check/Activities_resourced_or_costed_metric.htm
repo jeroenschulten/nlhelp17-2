@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" xml:lang="nl-nl" class="KLAAR-NL">
+    <head>
+        <link href="../../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Kwaliteitschecks:alle activiteiten met hulpmiddelen of kosten criterium;Alle activiteiten met hulpmiddelen of kosten criterium" />'Alle activiteiten met hulpmiddelen of kosten' kwaliteitscriterium</h1>
+        <p>Dit criterium checkt het aandeel van taken die één of meer kosten- of inspanningsgebaseerde hulpmiddelen hebben, waarvoor elke kostenbedrag groter dan nul is, of de totale inspanning groter dan nul is. Een groot aandeel van de taken zonder hulpmiddelen of kosten, kan erop wijzen dat aan meer taken hulpmiddelen of kosten moeten worden toegewezen. Dit criterium is alleen van toepassing op planningen met hulpmiddelen of kosten. Mijlpalen zijn uitgesloten van dit criterium.</p>
+        <p>Met de slaag- en faal-grenzen ingesteld op 100,00%, voldoet dit kwaliteitscriterium aan de vereisten van de DCMA test 10 (Hulpmiddelen).</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Voorbeeld van taken zonder kostenallocaties of permanente hulpmiddelallocaties</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In de volgende afbeelding heeft taak 2 geen toewijzingen en heeft taak 4 een toewijzing van verbruiksgoederen. Beide taken zouden niet voldoen aan dit criterium:</p>
+                <p>
+                    <img src="../../../Graphics/Quality_check/allresourcedorcosted.gif" alt="Task 2 has no allocations and Task 4 has a consumable resource allocation. Both tasks would fail this criterium" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_2.flsnp" />
+        </p>
+        <h2>Slaag en faal criteria</h2>
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Slagen of falen?</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Criteria</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #afffaf;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Slaagt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Een project slaagt op dit criterium wanneer het percentage taken met één of meer kosten- inspanningsgebaseerde hulpmiddelallocaties groter dan of gelijk aan het slaaggrens percentage. </p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Wanneer bijvoorbeeld de slaaggrens ingesteld stond op 90,00%, zou een project op dit criterium slagen wanneer 90,00% of meer taken één of meer kosten- of inspanningsgebaseerde hulpmiddelallocaties zou hebben.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #ff6464;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Een project faalt op dit criterium wanneer het percentage taken met één of meer kosten- of inspanningsgebaseerde hulpmiddelallocaties kleiner is dan het faalgrens percentage. </p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Wanneer bijvoorbeeld de faalgrens ingesteld stond op 80,00%, zou een project op dit criterium falen wanneer minder dan 80,00% van de taken één of meer kosten- of inspanningsgebaseerde hulpmiddelallocaties zou hebben.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="background-color: #ffaf45;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;">Slaagt noch faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">
+                        <p>Als het percentage taken met één of meer kosten- of inspanningsgebaseerde hulpmiddelallocaties valt tussen het slaaggrens en het faalgrens percentage, is het resultaat noch geslaagd noch gefaald, maar ligt dat ergens daartussenin.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Standaard voorgestelde instellingen</h2>
+        <ul xmlns="" type="disc">
+            <li>Slaaggrens: 90,00%. Een project voldoet aan deze statistiek als 90,00% of meer van de taken één of meer kostentoewijzingen of op inspanning gebaseerde permanente middelentoewijzingen hebben.</li>
+            <li>Faalgrens: 80,00%. Een project faalt voor deze statistiek als minder dan 80,00% van de taken één of meer kostentoewijzingen of op inspanning gebaseerde permanente middelentoewijzingen hebben.</li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_39.flsnp" />
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Percentage taken met één of meer kostentoewijzingen of op inspanning gebaseerde permanente hulpmiddelentoewijzingen</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Slaagt of faalt?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">0,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">50,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">79,99%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">80,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Noch slaagt noch faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">85,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Noch slaagt noch faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">89,99%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Noch slaagt noch faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">90,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Slaagt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1">100,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Slaagt</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Voorgestelde instellingen om te voldoen aan de vereisten van DCMA test 10 (Hulpmiddelen)</h2>
+        <ul xmlns="" type="disc">
+            <li>Slaaggrens: 100,00%. Een project voldoet aan dit criterium als alle taken één of meer kostentoewijzingen of op inspanning gebaseerde permanente hulpmiddeltoewijzingen hebben.</li>
+            <li>Faalgrens: 100,00%. Een project faalt voor deze statistiek als één van de taken één of meer kostentoewijzingen of op inspanning gebaseerde permanente hulpmiddeltoewijzingen heeft.</li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_39.flsnp" />
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Percentage taken met één of meer kostentoewijzingen of op inspanning gebaseerde permanente hulpmiddelentoewijzingen</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Slaagt of faalt?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">0,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">50,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">99,99%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1">100,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Slaagt</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Forceert dit criterium dat het project wordt herberekend?</h2>
+        <p>Nee.</p>
+        <h2>Voorgestelde acties als een project faalt voor dit criterium</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_37.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_38.flsnp" />
+        <ul>
+            <li>
+                <a href="../Resource_and_cost_allocations/Assigning_resource_and_cost_allocations/Assigning_resource_and_cost_allocations.htm">Wijs één of meer op inspanning gebaseerde permanente hulpmiddeltoewijzingen</a> toe aan elke van de falende taken.</li>
+            <li>
+                <a href="../Resource_and_cost_allocations/Assigning_resource_and_cost_allocations/Assigning_resource_and_cost_allocations.htm">Wijs één of meer kostentoewijzingen</a> toe aan elke van de falende taken.</li>
+        </ul>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p>
+            <a href="Checking_quality_intro.htm">Introductie over planningskwaliteitchecks</a>
+        </p>
+        <p>
+            <a href="../Resource_and_cost_allocations/Assigning_resource_and_cost_allocations/Assigning_resource_and_cost_allocations.htm">Hulpmiddel- en kostenallocaties toewijzen</a>
+        </p>
+    </body>
+</html>

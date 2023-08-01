@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul type="disc">
+            <li>Thema - kies deze optie om u allocaties te kleuren volgens het kleurenschema dat op dit moment geselecteerd. <a href="../../HTML_Topics/Conceptual/Ribbon/Ribbon_intro.htm#Changing">Klik hier</a> voor meer informatie.</li>
+            <li>Patroon - kies deze optie om u allocaties te kleuren volgens de voorgrond- en achtergrondkleuren en patronen die u selecteert in de kolommen rechts.</li>
+            <li>Mengsel - kies deze optie om u allocaties te kleuren volgens de voorgrond- en achtergrondkleuren die u selecteert in de kolommen rechts, met de voorgrondkleur bovenaan elke taak die gradueel overloopt naar de achtergrondkleur aan de onderkant van elke taak.</li>
+        </ul>
+    </body>
+</html>

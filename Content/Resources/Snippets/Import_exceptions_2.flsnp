@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Het bestand dat de lijst met datums bevat moet het Microsoft Excel bestandsformaat (.XLS of .XLSX) hebben. Wanneer u een bestand importeert doorzoekt, <MadCap:variable name="Primary.Asta Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> het bestand naar <i>elke</i> cel die een datum bevat, en creëert het een uitzondering bij elk van deze datums.</p>
+    </body>
+</html>

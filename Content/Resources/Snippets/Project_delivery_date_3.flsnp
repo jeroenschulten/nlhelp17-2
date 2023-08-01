@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>De projectdeadline wordt tijdens het herberekenen genegeerd als een andere vlag dan een Starten Op of Na vlag is toegepast op de niveau- of samenvattingstaak die het gehele project vertegenwoordigt.</p>
+    </body>
+</html>

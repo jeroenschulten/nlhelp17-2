@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" class="KLAAR" xml:lang="nl-nl">
+    <head>
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Herberekenen:automatisch;Automatische herberekening;Projecten:herberekenen automatisch;Automatische herberekening:aan- en uitzetten" />Configureer <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> voor automatische herberekening</h1>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Auto_reschedule_info.flsnp" />
+        <p>Bijvoorbeeld, wanneer u <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> heeft geconfigureerd om automatisch te herberekenen, zorgt het verlengen van de duur van een taak ervoor dat de opvolgertaken van deze taak opnieuw worden geherpositioneerd zonder dat u een handmatige herberekening hoeft uit te voeren.</p>
+        <p>Wanneer u automatische herberekening aanzet, kunt u specificeren of alleen de huidige view of het volledige programma van projecten wordt herberekend. In alle andere dan kleine, eenvoudige, standalone projecten, is het aan te bevelen om in te stellen dat alleen de huidige view moet worden herberekend, omdat dit meestal minder tijd in beslag neemt dan een volledige herberekening.</p>
+        <p>Om in te stellen dat <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> automatisch mag herberekenen:</p>
+        <MadCap:snippetText src="../../../../Resources/Snippets/Auto_reschedule_1.flsnp" />
+        <ol>
+            <li>Klik op het tabblad <b>Bestand</b>, klik vervolgens op <b>Opties</b>. Het <b>Opties</b> dialoogvenster verschijnt.</li>
+            <li>Klik op het <b xmlns="">Herberekenen</b> tabblad.</li>
+            <li>Gebruik het <b xmlns="">Automatisch Herberekenen</b> veld om de manier te specificeren waarin u wilt dat <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> automatisch herberekent. Selecteer:<ul type="disc"><li class="p">'Herbereken View' - om te configureren dat <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> de huidige view automatisch herberekent elke keer dat u een wijziging aanbrengt die erin resulteert dat één of meerdere taken worden verplaatst of van grootte worden veranderd.</li><li class="p">'Herbereken Alles' - om te configureren dat <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> het volledige programma van projecten automatisch herberekent.</li><li class="p" xmlns="">'Herbereken Groep' - om te configureren dat <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> de huidige groep automatisch herberekent.</li><li class="p" style="font-weight: normal;" xmlns="">'Uit' - wanneer u niet wilt dat <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> automatisch herberekent elke keer dat u een wijziging aanbrengt.</li></ul></li>
+            <li>Klik op <b xmlns="">OK</b>.</li>
+        </ol>
+        <p>Nadat u heeft geconfigureerd dat <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> automatisch herberekent, kunt u gebruik maken van de <b>Automatisch Herberekenen</b> knop, in de <b>Planning</b> groep, op het <b>Start</b> tabblad van het Lint, om snel het automatisch herberekenen aan en uit te zetten, zonder het <b>Herberekenen</b> dialoogvenster op te hoeven te roepen. U zou de automatische herberekening even kort kunnen uitzetten om een aantal wijzigingen uit te voeren zonder dat het project na elke handeling opnieuw wordt herberekend. De naam van de knop verandert afhankelijk van de automatische herberekening optie die u geselecteerd heeft.</p>
+        <p>
+            <img src="../../../../Graphics/Rescheduling_projects/autoreschedulebutton.gif" />
+        </p>
+        <p>De<b> Automatisch Herberekenen</b> knop wordt automatisch uitgezet wanneer u op wat voor een manier ook voortgang invoert in een project: wanneer u er aan toe bent om de voortgang in een project te registreren, wilt u normaal gesproken niet dat het project wordt herberekend, totdat u alle voortgang van een bepaalde voortgangsperiode heeft ingevoerd. Wanneer dit gebeurt en u het automatisch herberekenen opnieuw wilt aanzetten, ofwel herbereken het project of klik nogmaals op de<b> Automatisch Herberekenen</b> knop.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Soorten wijzigingen die ervoor kunnen zorgen dat er een automatische herberekening plaats vindt</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Creëren, verwijderen of aanpassen van de volgende soorten items kan automatische herberekening triggeren:</p>
+                <ul>
+                    <li>Kalenders</li>
+                    <li>Niveautaken</li>
+                    <li>Hammock taken</li>
+                    <li>Links</li>
+                    <li>Mijlpalen</li>
+                    <li>Voortgangsperioden</li>
+                    <li>Hulpmiddelallocaties</li>
+                    <li>Samenvattingstaken</li>
+                    <li>Taken</li>
+                    <li>Werkpatronen</li>
+                </ul>
+                <p>Bijvoorbeeld, het uitvoeren van elk van de volgende acties kan automatische herberekening triggeren (dit is geen uitputtende lijst):</p>
+                <ul>
+                    <li>Tekenen, bewerken of verwijderen van een link.</li>
+                    <li>Toevoegen, veranderen van de datum van, of het verwijderen van een vlag.</li>
+                    <li>Toewijzen van een hulpmiddel aan een taak.</li>
+                    <li>Bewerken van de duur van een taak.</li>
+                    <li>Toevoegen van een vakantiedag aan een kalender.</li>
+                    <li>Bewerken van de shifts in een werkpatroon.</li>
+                    <li>Kopiëren en plakken van één of meerdere taken.</li>
+                    <li>Inboeken van gegevens die voorheen waren uitgeboekt en bewerkt zijn tijdens het uitboeken.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Opmerkingen over automatische herberekening</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li>Automatische herberekening wordt uitgevoerd volgens de instellingen die u heeft geconfigureerd op het <b>Herberekenen</b> tabblad van het <b>Opties</b> dialoogvenster.</li>
+                    <li>Wanneer automatische herberekening is ingeschakeld en u een wijziging ongedaan maakt dat ervoor zorgde dat er een automatische herberekening plaatsvond, zal het ongedaan maken van deze wijziging zowel de wijziging zelf ongedaan maken als ook de daarop resulterende automatische herberekening.</li>
+                    <li>Wanneer u <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> configureert om alleen de huidige view automatisch te laten herberekenen, wordt de automatische herberekening alleen getriggerd door wijzigingen die plaatsvinden binnen een standaard balkkaart view - wijzigingen die plaatsvinden in RBS/CBS views of binnen de Bibliotheek Verkenner triggeren geen automatische herberekening.</li>
+                    <li>Wanneer u een taak verplaatst met de <img src="../../../../Graphics/Toolbars/ObjectEdit/objectedittbmoveleft.gif" /> of <img src="../../../../Graphics/Toolbars/ObjectEdit/objectedittbmoveright.gif" /> knoppen op de Object Bewerken werkbalk en automatische herberekening ingeschakeld staat, zal de taak direct teruggeplaatst worden naar haar originele positie wanneer deze is beperkt door haar links op de wijze dat ze niet zou zijn verplaatst tijdens een herberekening. Dit zou zo snel plaats kunnen vinden dat het lijkt alsof er in werkelijkheid helemaal geen verandering heeft plaatsgevonden. Bijvoorbeeld, in de onderstaande afbeelding is taak B beperkt door haar links en zou deze niet verplaatsen bij een herberekening:<br /><br /><img src="../../../../Graphics/Rescheduling_projects/autoreschedulewontmove.gif" /><br /><br />Wanneer u zou proberen deze taak te verplaatsen met de Object Bewerken werkbalk, zult u niet merken dat er een verandering plaatsvindt, omdat de automatische herberekening deze taak direct terug naar haar originele positie zou verplaatsen.</li>
+                    <li>Herberekeningsrapporten worden niet aangemaakt iedere keer dat er een automatische herberekening plaatsvindt, zelfs wanneer <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> is geconfigureerd om ze aan te maken wanneer u handmatig herberekent</li>
+                    <li>
+                        <MadCap:snippetText src="../../../../Resources/Snippets/Auto_reschedule_1.flsnp" /> <a href="../Rescheduling_multi_user/Rescheduling_multi_user.htm">Klik hier</a> voor meer informatie.</li>
+                    <li>Bewerkingen die ontstaan vanuit macro's triggeren de automatische herberekening niet.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p>
+            <a href="../Performing_a_reschedule/Performing_a_reschedule.htm" xmlns="">Een herberekening uitvoeren</a>
+        </p>
+        <p>
+            <a href="../Setting_reschedule_options/Setting_reschedule_options.htm" xmlns="">Herberekeningsopties instellen</a>
+        </p>
+        <p>
+            <a href="../Reschedule_results/Reschedule_results.htm" xmlns="">Het resultaat van herberekening begrijpen</a>
+        </p>
+        <p>
+            <a href="../Reschedule_errors/Reschedule_errors.htm" xmlns="">Herberekeningsfouten</a>
+        </p>
+        <p>
+            <a href="../Rescheduling_multi_user/Rescheduling_multi_user.htm" xmlns="">Herberekenen en in een Enterprise omgeving</a>
+        </p>
+    </body>
+</html>

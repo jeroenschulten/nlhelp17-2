@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>aantal taken of allocaties op een balk; bij balken met één of meer samenvattings<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">- of niveau</MadCap:conditionalText>taken, bevat dit het aantal taken en mijlpalen binnen de <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">sub-kaarten of</MadCap:conditionalText> samenvattingsgroepen, maar niet de <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">niveau- of</MadCap:conditionalText> samenvattingstaken zelf. De taken en mijlpalen binnen alle geneste <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">niveau- of</MadCap:conditionalText> samenvattingstaken worden meegenomen in de telling, maar de geneste<MadCap:conditionalText MadCap:conditions=""> </MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:conditionalText MadCap:conditions="">niveau- of</MadCap:conditionalText></MadCap:conditionalText> samenvattingstaken zelf worden niet meegeteld.</body>
+</html>

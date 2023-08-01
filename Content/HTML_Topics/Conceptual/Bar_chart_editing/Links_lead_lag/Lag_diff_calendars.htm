@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Bar_chart_editing_and_rescheduling\Drawing_links_with_leadlag_time\Lag_diff_calendars.htm" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Wachttijd:en taken met verschillende kalenders" />Wachttijd op links tussen taken met verschillende kalenders</h1>
+        <p>Gewoonlijk heeft een taak alleen wachttijd aan één eind van een link. Over het algemeen wordt wachttijd toegepast op het eind van Eind-Eind en Start-Eind links en aan het begin van Start-Start of Eind-Start links. Hoewel dit niet altijd het geval is, en - terwijl dit ongebruikelijke situatie zou zijn - is het mogelijk dat een link wachttijd heeft aan beide zijden, zoals in onderstaande afbeelding:</p>
+        <p>
+            <img src="../../../../Graphics/Bar_chart_editing/leadlagdiff1.gif" style="border: none;" width="214" height="51" border="0" />
+        </p>
+        <p>De wachttijd aan het begin van een link wordt berekend volgens de kalender van de voorlopertaak en de wachttijd aan het eind van een link wordt berekend volgens de kalender van de opvolgende taak. Dit is een krachtige functionaliteit, omdat het daardoor mogelijk is wachttijd in te bouwen aan het begin en eind van links door gebruik te maken van de kalender die is toegepast op de taak aan dat eind van de link, in plaats van een algemene kalender te gebruiken of altijd de kalender te gebruiken van de voorloper- of opvolgende taak - welke niet altijd de juiste zal zijn.</p>
+        <p>Waar voorloper- en opvolgende taken verschillende kalenders gebruiken, maakt de bevoegdheid wachttijd aan het begin of eind van een link te plaatsen het u mogelijk om de exacte plaatsing van taken te verkrijgen wanneer u een project herberekent. Dit is hieronder afgebeeld:</p>
+        <p>
+            <img src="../../../../Graphics/Bar_chart_editing/leadlagdiff2.gif" style="border: none;" width="424" height="175" border="0" />
+        </p>
+        <p>Let op de volgende punten over de taken en links in de afbeelding:</p>
+        <ul type="disc">
+            <li class="p">Taak A - de voorlopertaak van beide links - gebruikt een kalender met vijf dagen per week, terwijl de taken B en C - de opvolgende taken - een kalender gebruiken van 6 dagen per week.            </li>
+            <li class="p">De wachttijd op de link van taak A naar taak B is toegepast op het eind van de link, zodat deze berekend wordt door de kalender van taak B.            </li>
+            <li class="p">De wachttijd op de link van taak A naar taak C is toegepast op het begin van de link, zodat deze berekend wordt door de kalender van taak A.            </li>
+            <li class="p">Daardoor kan taak B eerder starten dan taak A, zelfs al hebben beide links een wachttijd van 10 dagen, aangezien de wachttijd op de binnenkomende link berekend wordt door de 6-daagse weekkalender in plaats van door de 5-daagse weekkalender.            </li>
+        </ul>
+        <p>Merk op dat u wachttijd kunt toepassen op de start- en eindlinks in verstreken tijd in plaats van in werktijd. Wanneer de wachttijd op de links in het voorbeeld zou zijn gegeven in verstreken dagen in plaats van in werkdagen, zouden de taken B en C op dezelfde dag beginnen, daar de verschillen in hun kalenders niet van belang zouden zijn.</p>
+        <p><a href="Exchange_other_programs.htm">Andere project management applicaties, zoals Microsoft® Project, Primavera P6®, gaan anders om met positieve/negatieve wachttijd</a>. U dient hiermee rekening te houden wanneer u een <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> project exporteert naar een ander project management applicatie.</p>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="Editing_leadlag_type_and_time.htm">Wachttijd type en tijd bewerken</a>
+        </p>
+        <p><a href="Leadlag_tasks_same_bar.htm">Wachttijd links tussen taken op dezelfde balk</a>
+        </p>
+        <p><a href="Specifying_a_maximum_lag_time.htm">Maximale wachttijd specificeren</a>
+        </p>
+        <p><a href="Exchange_other_programs.htm">Hoe met wachttijd wordt omgegaan wanneer u exporteert naar een andere project management applicatie</a>
+        </p>
+    </body>
+</html>

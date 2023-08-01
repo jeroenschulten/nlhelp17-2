@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="192" MadCap:lastWidth="841">
+    <head>
+        <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Verklaring van de velden  onderaan het dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table class="TableStyle_Table_Stylesheet" style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');caption-side: top;margin-left: 0;margin-right: auto;" cellspacing="0">
+                    <col style="width: 19px;" />
+                    <col />
+                    <thead>
+                        <tr>
+                            <th class="TableStyle_Table_Stylesheet_Head_0_0_RowSep_ColSep">Veld</th>
+                            <th class="TableStyle_Table_Stylesheet_Head_0_0_RowSep_ColEnd">Omschrijving</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColSep" style="font-weight: bold;">Kostengroep</td>
+                            <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColEnd">Selecteer de kostengroep waarvan u de baseline gegevens met de huidige projectdata wilt vergelijken.</td>
+                        </tr>
+                        <tr>
+                            <td class="TableStyle_Table_Stylesheet_Body_0_0_RowEnd_ColSep" style="font-weight: bold;">Baseline</td>
+                            <td class="TableStyle_Table_Stylesheet_Body_0_0_RowEnd_ColEnd">Selecteer de baseline waarvan u de gegevens met de huidige projectdata wilt vergelijken.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

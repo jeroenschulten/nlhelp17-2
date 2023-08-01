@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="125" MadCap:lastWidth="890">
+    <head>
+    </head>
+    <body>Voor buffertaken en duur berekende taken, is dat de duur die een taak had op het moment waarop ze gedefinieerd was als een buffertaak of een duur berekende taak. U kunt de waarde van dit veld wijzigen door dit te wijzigen in de tabel, of door de buffertaak of duur berekende taak aanduiding van een taak te verwijderen, en deze vervolgens opnieuw als een buffertaak or duur berekende taak te herdefiniëren - op welk punt het veld de huidige duur van de taak overneemt.</body>
+</html>

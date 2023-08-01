@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Explanation of the Date zone fields on the dialog</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');margin-left: 0;margin-right: auto;caption-side: top;" cellspacing="0">
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <thead>
+                        <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Field</th>
+                            <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Display at foot</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Select this check box to print the date zone at the bottom of the printout as well as the top, or clear it to print the date zone at the top only.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Locked to pages</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Select this check box to display the date zone on all pages of output when printing in paginated style, or clear it to display the date zone on the first page only.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Show background colour</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Select this check box to print the date zone with a background colour if one has been applied to it, or clear it to print the date zone with a white background.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

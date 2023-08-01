@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>Deze velden verschijnen alleen wanneer u <MadCap:variable name="Primary.APP BIM Name" /> gebruikt. Voor meer informatie over het gebruik van deze velden verwijzen wij u naar de <MadCap:variable name="Primary.APP BIM Name" /> Help.</p>
+        <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');caption-side: top;margin-left: 0;margin-right: auto;" cellspacing="0">
+            <col style="width: 19px;" class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Veld</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Omschrijving</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">IFC product</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De IFC product zoekset of IFC product selectie waartoe de taak behoort. </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">IFC taak type</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables" xmlns="">Wanneer u gebruik maakt van IFC taak type om de manier te controleren waarop objecten in een IFC model worden "gebouwd" tijdens tijdlijnsimulaties, specificeert u het betreffende IFC taak type om toe te wijzen aan de taak.</p>
+                        <p class="ParagraphsInTables" xmlns="">Om IFC taak type te gebruiken om de weergave van objecten tijdens tijdlijnsimulaties te controleren, bewerkt u de eigenschappen van elk IFC model of IFC groep model en specificeert u weergave-instellingen voor elk IFC taak type. Vervolgens wijst u het betreffende IFC taak type toe aan elke taak. De IFC taak type weergave-instellingen worden toegepast op alle objecten in een IFC model die zijn geassocieerd aan taken waaraan het IFC taak type is toegewezen. </p>
+                        <p class="ParagraphsInTables" xmlns="">Wanneer er zowel een IFC taak type als een IFC simulatie profiel is gespecificeerd voor een taak, worden de IFC simulatie profiel instellingen gebruikt tijdens de duur van de tijdlijn in plaats van de IFC taak type instellingen.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">IFC simulatie profiel</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">
+                        <p class="ParagraphsInTables" xmlns="">Wanneer u IFC simulatie profielen gebruikt om de wijze waarop objecten in een IFC model worden "gebouwd" gedurende tijdlijn simulaties te controleren , specificeer dan het juiste IFC simulatie profiel om toe te wijzen aan de taak.</p>
+                        <p class="ParagraphsInTables" xmlns="">Om IFC simulatie profielen te gebruiken om de weergave van objecten tijdens tijdlijn simulaties te bepalen, creëert u in de Bibliotheek Verkenner een bepaald aantal IFC simulatie profielen en specificeert u de weergave instellingen voor elke daarvan. U wijst vervolgens het benodigde IFC simulatie profiel toe aan elke taak. De IFC simulatie profiel weergave instellingen worden toegepast op alle objecten in een IFC model die geassocieerd zijn aan de taken waaraan het IFC simulatie profiel is toegewezen.</p>
+                        <p class="ParagraphsInTables" xmlns="">Wanneer zowel een IFC taak type als een IFC simulatie profiel is gespecificeerd voor een taak, worden de IFC simulatie profiel instellingen gebruikt tijdens de duur van de tijdlijn in plaats van de IFC taak type instellingen.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

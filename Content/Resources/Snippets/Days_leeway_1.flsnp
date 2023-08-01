@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Als een taak op het kritieke pad een uitgaande Start-Start of Start-Einde-link heeft en geen andere uitgaande sturende link heeft, zal de taak de integriteit van het kritieke pad doorbreken, en omdat de duur van de taak wordt verlengd tot 600d zal de einddatum van het project niet met hetzelfde hoeveelheid naar de toekomst verschuiven, ongeveer 1d. Als je dit soort taken bewust in je planning hebt ingebouwd, is dat onwenselijk.</p>
+    </body>
+</html>

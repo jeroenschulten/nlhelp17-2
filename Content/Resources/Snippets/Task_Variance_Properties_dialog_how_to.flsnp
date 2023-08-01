@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="449" MadCap:lastWidth="546">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... bekijken hoe de eigenschappen van de geselecteerde taken verschillen tussen de huidige projectgegevens  en een baseline?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Selecteer de kostengroep waarmee u de taak met de huidige projectgegevens wilt vergelijken in het <b>Kostengroep </b> veld.</li>
+                    <li>Selecteer de baseline waarmee u de taak met de huidige gegevens wilt vergelijken in het <b xmlns="">Baseline</b> veld.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

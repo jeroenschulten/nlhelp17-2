@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>U kunt een projectdeadline opgeven voor het hele programma van projecten en een projectdeadline specificeren voor elke kaart of samenvattingsgroep die is geïdentificeerd staat als 'een project'. U kunt de projectdeadline van een project gebruiken als een deadline bij het herberekenen. Als u dit doet, in plaats van de einddatum van de laatste taak in het project te gebruiken, worden de late en vrije einddatums van het project ingesteld op de projectdeadline wanneer er herberekend wordt en wordt de speling berekend tot de projectdeadline van het project. Een projectdeadline biedt een deadline voor alle taken in het project, dus taken die de projectdeadline overschrijden hebben negatieve speling (dat wil zeggen dat ze superkritisch worden) na een herberekening.</p>
+    </body>
+</html>

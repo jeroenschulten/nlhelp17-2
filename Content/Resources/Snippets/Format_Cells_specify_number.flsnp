@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="172" MadCap:lastWidth="1273">
+    <body>
+        <ol style="list-style-type: decimal;">
+            <li class="p">Selecteer het aantal decimalen dat moet worden weergegeven in het <span style="font-weight: bold;">Decimalen</span> veld.</li>
+            <li class="p">Schakel het <span style="font-weight: bold;">Gebruik 1000 scheidingsteken</span> selectievakje in wanneer u een punt wilt gebruiken om duizendtallen te scheiden (bijvoorbeeld 5.000), of schakel het selectievakje uit om getallen weer te geven zonder een scheidingsteken voor duizendtallen (bijvoorbeeld 5000).</li>
+            <li class="p">Specificeer of u negatieve nummers tussen haakjes wilt weergeven (bijvoorbeeld (500,23)) of voorafgegaan door een minteken (bijvoorbeeld -500,23) in het <span style="font-weight: bold;">Negatieve Waarden</span> veld.</li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:conditions="Powerproject_Easyplan.V17_Production_rates,Powerproject_Easyplan.Powerproject_only" xml:lang="nl" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>De logistiek plannen van Hoeveelheid van taak gemodelleerde hulpmiddelen</h1>
+        <p>U kunt Hoeveelheid van taak gemodelleerde verbruiksgoederen hulpmiddelen gebruiken om de hoeveelheid verbruiksgoederen te berekenen dat nodig is voor logistieke doeleinden. Bijvoorbeeld:</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Logistics_1.flsnp" />
+        <p>Om de logistiek te plannen, moet u een verbruiksgoed maken voor elk logistiek item dat u wilt plannen. Als u bijvoorbeeld het aantal vrachtwagens met betonmixers wilt berekenen dat nodig is om beton te leveren, kunt u een verbruiksgoed aanmaken met de naam 'Betonmixer vrachtwagen'; als u het aantal bakstenen vrachtwagens wilt berekenen dat nodig is om bakstenen te leveren, kunt u een verbruiksartikel maken met de naam 'Bakstenen vrachtwagen'. Deze hulpmiddelen moeten dan worden gemodelleerd met behulp van <a href="Quantity_From_Task_cons_res.htm">de  Hoeveelheid van taak methode</a>. U kunt ook verbruiksgoederen maken om de materialen weer te geven die bij de taken worden gebruikt - bijvoorbeeld Beton en Bakstenen - en deze afzonderlijk modelleren.</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Set_task_work.flsnp" />
+        <p>Om de hoeveelheid verbruiksgoederen te berekenen dat nodig is voor logistieke doeleinden:</p>
+        <ol>
+            <li>Wijs het verbruiksgoed dat het logistieke hulpmiddel vertegenwoordigt toe aan de juiste taak. Hier gaan we ervan uit dat u een 'Betonmixer vrachtwagen' verbruiksgoed toewijst aan een 'Beton storten'-taak, die 100 m3 beton als taak heeft.<br /><br /><img src="../../../../Graphics/Resources/schedulelogistics1.png" alt="A Concrete Mixer Lorry assigned to a Pour Concrete task" /></li>
+            <li>Rechtsklik op de verbruiksgoed allocatie en selecteer <b>Eigenschappen</b>. Het <b>Verbruiksgoed Allocatie Eigenschappen</b> dialoogvenster verschijnt.</li>
+            <li>Klik op het tabblad <b>Modellering</b>. De hoeveelheid taak werk die opgegeven is bij de taak wordt weergegeven in het <b>Taak werk</b> veld.</li>
+            <li>Selecteer 'Hoeveelheid Van Taak' in het <b>Modelling type</b> veld.</li>
+            <li>In het <b>Taak conversie factor</b> veld, voer de hoeveelheid van het taak werk materiaal dat kan worden gedragen in het logistieke hulpmiddel. Bijvoorbeeld, Als een Beton Mixer vrachtwagen hulpmiddel een capaciteit heeft van 10 m<sup>3</sup> beton, voer dan '10,00' in dit veld in.</li>
+            <li>Selecteer in het veld rechts van het veld <b>Taak conversiefactor</b> 'Delen' om het totale aantal vrachtwagens te berekenen dat nodig is om het beton te leveren. De hoeveelheid beton die nodig is (het taak werk) wordt gedeeld door het aantal kubieke meters dat elke vrachtwagen kan bevatten om aan te geven hoeveel betonmixer vrachtwagens er nodig zijn om al het beton te leveren, en het resultaat wordt weergegeven in het veld <b>Hoeveelheid</b>. Bij 10 m<sup>3</sup> beton per vrachtwagen zijn voor 100 m<sup>3</sup> beton 10 vrachtwagens nodig - dit wordt toegelicht in de onderstaande afbeelding:<br /><br /><img src="../../../../Graphics/Resources/schedulelogistics2.png" alt="The quantity of lorries required, highlighted on the Modelling tab" /></li>
+        </ol>
+        <p>Sommige berekeningen leveren geen geheel getal op. Als er bijvoorbeeld 103 m<sup>3</sup> beton nodig zou zijn in plaats van 100 m<sup>3</sup>, zou de berekening laten zien dat er 10,3 vrachtwagens nodig waren. Aangezien er niet zoiets bestaat als 0,3 van een vrachtwagen, kunt u dit probleem omzeilen door 'Verdelen en afronden' te selecteren in plaats van 'Verdelen' in het veld <b>Taak conversiefactor</b>. Als u dit doet en de berekening resulteert in een breuk, wordt het resultaat naar boven afgerond op het dichtstbijzijnde gehele getal. Als u in dit voorbeeld 'Verdelen en afronden' selecteert, worden de 10,3 vrachtwagens afgerond naar 11 vrachtwagens:</p>
+        <p>
+            <img src="../../../../Graphics/Resources/schedulelogistics3.png" alt="The quantity of lorries required, rounded up and highlighted on the Modelling tab" />
+        </p>
+        <p>Het is aan u om te beslissen of u 'Delen' of 'Delen en afronden' gebruikt. Als u beton gebruikt voor meerdere doeleinden in een project in plaats van voor een enkele taak, wilt u 'Verdelen en afronden' misschien  niet gebruiken, omdat dit afronding zou toepassen op de betonmixer vrachtwagen vereisten van elke afzonderlijke taak, waardoor u te veel vrachtwagens plant. In deze situatie kan het zinvoller zijn om 'Delen' te gebruiken om het aantal vrachtwagens te berekenen dat nodig is voor een aantal verschillende taken. Vervolgens kunt u met behulp van een histogram het benodigde aantal vrachtwagens handmatig afronden.</p>
+        <p>U kunt niet alleen de logistiek berekenen met behulp van het tabblad <b>Modellering</b> van het dialoogvenster <b>Verbruiksgoederen Allocatie Eigenschappen</b>, maar u kunt ook standaard details voor logistieke berekeningen instellen voor elk logistiek verbruiksgoed met behulp van het tabblad <b>Allocatie</b> van het dialoogvenster <b>Verbruiksgoederen Eigenschappen</b>:</p>
+        <ul>
+            <li>Stel het <b>Modellering type</b> in op 'Hoeveelheid Van Taak'.</li>
+            <li>Voer de hoeveelheid taak werk materiaal in dat kan worden gedragen door het logistieke hulpmiddel in het <b>Taak conversiefactor</b> veld.</li>
+            <li>Selecteer 'Delen' of 'Delen en Afronden' in het veld rechts van het <b>Taak conversiefactor</b> veld.</li>
+        </ul>
+        <p class="RelatedTopics">Related Topics:</p>
+        <p><a href="Questions.htm">Questions you can answer by modelling resources</a>
+        </p>
+        <p><a href="Quantity_From_Task_cons_res.htm">Quantity From Task modelled consumable resources</a>
+        </p>
+    </body>
+</html>

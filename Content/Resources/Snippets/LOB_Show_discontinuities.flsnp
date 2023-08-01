@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="196" MadCap:lastWidth="1046">
+    <head>
+    </head>
+    <body>
+        <ul>
+            <li>Wanneer er geen 'locatie' code is toegewezen aan een balk of samenvattingstaak die de bijbehorende netwerk productie-eenheid vertegenwoordigt.</li>
+            <li>Wanneer er geen 'stadium' code is toegewezen aan een activiteit die het bijbehorende stadium vertegenwoordigt.</li>
+            <li>Wanneer een netwerk productie-eenheid geen bepaald stadium bevat.</li>
+            <li>Wanneer een stadium in een netwerk productie-eenheid niet direct start na het einde van hetzelfde stadium in een voorafgaande netwerk productie-eenheid.</li>
+        </ul>
+    </body>
+</html>

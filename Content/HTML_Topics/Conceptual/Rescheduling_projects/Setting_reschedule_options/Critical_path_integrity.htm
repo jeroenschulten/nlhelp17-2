@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" class="KLAAR" xml:lang="nl-nl">
+    <head>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Rescheduling:checking critical path integrity;Critical path:checking integrity of when rescheduling" />Checken van de integriteit van het kritieke pad bij het herberekenen</h1>
+        <div>
+            <p>U kunt bij het herberekenen de integriteit van het kritieke pad controleren, dat wil zeggen dat het kritieke pad vanaf de start tot aan het einde van het project loopt. De kritieke pad-integriteit kan worden verbroken door taken die onjuist zijn gelinkt.</p>
+            <p>Om de integriteit van het kritieke pad te controleren bij het herberekenen, schakelt u het selectievakje van <b>Kritieke pad integriteit</b> in op het tabblad Herberekenen van het dialoogvenster Opties (gebruikt om standaardopties voor herberekenen in te stellen) of het dialoogvenster <b>Herberekenen</b> (gebruikt om opties in te stellen op het moment van een herberekening).</p>
+            <p>Als u ervoor kiest om de integriteit van het kritieke pad te controleren, duurt het langer om een project te herberekenen; om deze reden wordt de kritieke pad-integriteit niet gecontroleerd wanneer Risico Analyse of de resource leveller het project herberekent.</p>
+        </div>
+        <h2>Hoe de integriteit van het kritieke pad wordt gecheckt</h2>
+        <p>De integriteit van het kritieke pad wordt als volgt gecheckt:</p>
+        <ul>
+            <li>Het project wordt eerst herberekend.</li>
+            <li>Na de herberekening verhoogt <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> de duur van elke niet voltooide taak op het kritieke pad tijdelijk met 600d en controleert het of de einddatum van het project met hetzelfde aantal dagen naar de toekomst gaat.</li>
+            <li>Als de einddatum van het project met 600d naar de toekomst verschuift wanneer de duur van een taak tijdelijk met dit aantal dagen wordt verlengd, wordt de taak geacht correct te zijn gelinkt; het breekt de integriteit van het kritieke pad niet.</li>
+            <li>Als de einddatum van het project niet naar 600d in de toekomst verschuift wanneer de duur van een taak tijdelijk met dit aantal dagen wordt verlengd, wordt de taak geacht niet correct te zijn gelinkt; het doorbreekt de integriteit van het kritieke pad.</li>
+        </ul>
+        <h2>Taken identificeren die de integriteit van het kritieke pad doorbreken</h2>
+        <p>Nadat u een project heeft herberekend met het <b>Kritieke pad integriteit</b> selectievakje ingeschakeld, kunt u  op de volgende manieren identificeren welke taken - indien dat het geval is - de integriteit van het  kritieke pad doorbreekt:</p>
+        <ul>
+            <li>Toon het 'Doorbreekt kritieke pad integriteit' veld in de tabel. Dit veld toont een selectievakje dat ingeschakeld staat voor elke taak die de integriteit van het kritieke pad doorbreekt.</li>
+            <li>Check het <b>Breekt kritieke pad integriteit</b> veld, in de 'Speling' groep velden, op het <b>Taak</b> tabblad van ofwel het <b>Balk en Taak Eigenschappen</b> dialoogvenster ofwel de eigenschappen view. Dit veld staat ingeschakeld voor elke taak die de integriteit van het kritieke pad doorbreekt.</li>
+        </ul>
+        <p>Als u <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> niet configureert om de integriteit van het kritieke pad te controleren bij het herberekenen, worden er geen taken geïdentificeerd die de integriteit van het kritieke pad verbreken.</p>
+        <h2>Herstellen van de integriteit van het kritieke pad</h2>
+        <p>Wanneer een taak geïdentificeerd wordt dat deze de integriteit van het  kritieke pad doorbreekt, moet u haar links onderzoeken om te bepalen wat het probleem is. Bijvoorbeeld:</p>
+        <ul>
+            <li>Als een taak een inkomende Einde-Start-link en een uitgaande Start-Einde-link heeft, is het einde van de taak niet gebonden aan het einde van het project. Dit zal daarom de integriteit van het kritieke pad doorbreken.</li>
+            <li>Als een taak een uitgaande link mist, is het einde van de taak niet gebonden aan het einde van het project. Als beperkende vlaggen inhouden dat deze taak op het kritieke pad verschijnt en er meerdere kritieke paden naar het einde van het project zijn, zal dit de integriteit van het kritieke pad verbreken.</li>
+        </ul>
+        <p>Zodra u de probleemtaken hebt geïdentificeerd, wijzigt u de inkomende en/of uitgaande links van de taken om het probleem op te lossen en herberekent u het project opnieuw in om te controleren of uw oplossing heeft gewerkt.</p>
+        <h2>Kritieke pad integriteit en kwaliteitschecks</h2>
+        <p>U kunt de integriteit van het kritieke pad in en project testen door een planningskwaliteitscheck uit te voeren dat het 'Kritieke pad test' kwaliteitscriterium bevat.</p>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p>
+            <a href="../Performing_a_reschedule/Resch_intro.htm">Introductie over het herberekenen van projecten</a>
+        </p>
+        <p>
+            <a href="../Performing_a_reschedule/Performing_a_reschedule.htm">Een herberekening uitvoeren</a>
+        </p>
+        <p>
+            <a href="Setting_reschedule_options.htm">Herberekeningsopties instellen</a>
+        </p>
+        <p>
+            <a href="../../Quality_check/Checking_quality_intro.htm">Introductie over planningskwaliteitchecks</a>
+        </p>
+    </body>
+</html>

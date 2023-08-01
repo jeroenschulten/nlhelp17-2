@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Marking_progress_on_tasks_and_allocations\Progress_on_expanded_tasks,_summary_tasks_and_hammocks\Progoverall.htm" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl">
+    <head>
+        <link href="../../../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Weging van taken:veranderingen met betrekking tot overall percentage voltooid voortgang;Weging van taken;Voortgang:berekenen als een gedistribueerd gemiddelde vanuit de hoger-niveau taken;Overall percentage voltooid voortgang:verandering van de taakweging;Overall percentage voltooid voortgang:op hoger-niveau taken;Overall percentage voltooid voortgang:automatisch berekenen van taakwegingen;Gedistribueerd gemiddelde:berekenen van voortgang van hoger-niveau taken als een;Gedistribueerd gemiddelde;Automatisch berekenen van taakweging" />Voortgang berekenen op bovenliggende taken naar overall percentage voltooid</h1>
+        <p>In dit onderwerp wordt in detail beschreven hoe de voortgangsmarkering op<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"> niveautaken,</MadCap:conditionalText> samenvattingstaken<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"> en hammocks</MadCap:conditionalText> wordt berekend wanneer u kiest om de voortgang op bovenliggende taken te berekenen naar overall percentage voltooid (gespecificeerd in het veld <span style="font-weight: bold;">Voortgangsmethode</span> dat zowel verschijnt op het tabblad <b>Voortgang</b> van het <b>Opties</b> dialoogvenster als op het tabblad <span style="font-weight: bold;">Eigenschappen</span> van het <b>Eigenschappen</b> dialoogvenster).</p>
+        <p>Elke taak krijgt automatisch een 'overall percentage weging'-waarde toegewezen, die het relatieve belang van de taak aangeeft bij het bepalen van de voortgang van de bovenliggende taak. De weging van elke taak is aanvankelijk ingesteld op de aanvankelijke duur van de taak in uren. <MadCap:snippetText src="../../../../Resources/Snippets/OPC_weight_4.flsnp" /> Mijlpalen worden uitgesloten van de berekeningen, tenzij ze voorkomen in een kaart of samenvattingsgroep die alleen maar mijlpalen bevat (zie hieronder). De wegingswaarde van een taak verandert om overeen te komen met de duur van de taak totdat er voortgang wordt geregistreerd bij de taak. Vanaf dat moment ligt de weging vast.</p>
+        <p>U kunt de weging van elke taak bekijken door het 'Overall percentage weging' veld in de tabel te tonen:</p>
+        <p xmlns="">
+            <img src="../../../../Graphics/Progress/overallweighting1.png" alt="Het Overall percentage weging veld weergegeven in een tabelkolom" />
+        </p>
+        <p>In het bovenstaande voorbeeld hebben de 'Start' mijlpaal en drie van de vier taken in de 'Preparation' samenvattingsgroep enige voortgang; de twee mijlpalen hebben een overall percentage weging van 1, en elke taak heeft een weging die gelijk is aan hun duur in uren:</p>
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead xmlns="">
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Taak</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1" style="text-align: right;">Duur in Uren</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1" style="text-align: right;">Overall Percentage Voltooid</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1" style="text-align: right;">Overall Percentage Weging</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">Start</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">0,00</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">100,00</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1" style="text-align: right;">1,00</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">Research</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">7,50</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">100,00</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1" style="text-align: right;">7,50</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">Analysis</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">15,00</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">100,00</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1" style="text-align: right;">15,00</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">Proposal</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">37,50</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">50,00</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1" style="text-align: right;">37,50</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">Design</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">75,00</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="text-align: right;">0,00</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1" style="text-align: right;">75,00</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1">Finish</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="text-align: right;">0,00</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="text-align: right;">0,00</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1" style="text-align: right;">1,00</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Het overall percentage voltooid van de bovenliggende taken wordt nu als volgt berekend:</p>
+        <ol>
+            <li>Het overall percentage voltooid van elke taak (exclusief mijlpalen) in de <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">kaart of </MadCap:conditionalText>samenvattingsgroep wordt vermenigvuldigd met hun overall percentage weging.</li>
+            <li>De resulterende hoeveelheden worden opgeteld.</li>
+            <li>De resulterende hoeveelheid wordt gedeeld door de som van de overall percentage weging waarden van de taken  (exclusief mijlpalen) in de <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">kaart of </MadCap:conditionalText>samenvattingsgroep.</li>
+        </ol>
+        <p>In dit voorbeeld geeft dat ons de volgende berekening:</p>
+        <p>((100,00 x 7,50) + (100,00 x 15,00) + (50,00 x 37,50) + (0,00 x 75,) / (7,50 + 15,00 + 37,50 + 75,00) = 30,56</p>
+        <h2>Het overall percentage weging van taken aanpassen</h2>
+        <p xmlns="">U kunt de overall percentage weging van taken aanpassen. Verlaag de weging om aan te geven dat de taak minder zou moeten bijdragen aan het overall percentage voltooid van de bovenliggende taak, of verhoog deze om aan te geven dat de taak meer zou moeten bijdragen. Een taak met een weging van 20,00 heeft twee keer het effect van een taak met een weging van 10,00, die op zijn beurt twee keer het effect heeft van een taak met een weging van 5,00. Nadat u het overall percentage weging van een taak hebt aangepast, verandert deze niet meer, zelfs niet als de duur van de taak verandert.</p>
+        <p xmlns="">Als u in het bovenstaande voorbeeld de overall percentage weging van de taak 'Analysis' wijzigt van 15,00 in 30,00, wordt de bijdrage ervan aan het overall percentage voltooid van de bovenliggende taak verdubbeld; en als u de overall percentage weging van de taak 'Proposal' zou wijzigen in 20,00, zou de bijdrage ervan ruwweg worden gehalveerd. De samenvattingstaak 'Preparation' zou dan een overall percentage voltooid waarde van 35,85 krijgen:</p>
+        <p>
+            <img src="../../../../Graphics/Progress/overallweighting2.png" alt="Dezelfde samenvattingsgroep, met veranderde overall percentage wegingen" />
+        </p>
+        <p>Dit wordt als volgt berekend:</p>
+        <p>((100,00 x 7,50) + (100,00 x 30,00) + (50,00 x 20,00) + (0,00 x 75,00) / (7,50 + 30,00 + 20,00 + 75,00) = 35,85</p>
+        <p>Om het gewogen overall percentage voltooid van een taak te wijzigen:</p>
+        <ul type="disc">
+            <li class="p">Toon het veld 'Overall percentage weging' in de tabel en bewerk de waarde.            </li>
+            <li class="p">Bewerk het veld <span style="font-weight: bold;">Overall % voltooid weging</span> in het gedeelte <span style="font-weight: bold;">Voortgang</span> van het tabblad <span style="font-weight: bold;">Taak</span> van het Balk en Taak Eigenschappen dialoogvenster. <MadCap:snippetText src="../../../../Resources/Snippets/OPC_weight_1.flsnp" /> Wanneer u deze waarde wijzigt, zal de waarde die u ingevoerd heeft verschijnen in het <b>Berekende weging</b> veld, en niet meer veranderen, zelfs als duur van de taak verandert.          </li>
+            <li xmlns="">
+                <p>
+                    <MadCap:snippetText src="../../../../Resources/Snippets/OPC_weight_7.flsnp" />
+                </p>
+            </li>
+            <li xmlns="">
+                <p>
+                    <MadCap:snippetText src="../../../../Resources/Snippets/OPC_weight_9.flsnp" />
+                </p>
+            </li>
+        </ul>
+        <p>Wanneer u de u de overall percentage weging van één of meer taken in een <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">kaart of </MadCap:conditionalText>samenvattingsgroep heeft gewijzigd en u deze weer wilt resetten naar de oorspronkelijke waarden - d.w.z., om de weging van elke taak weer gelijk te maken aan haar duur in uren - rechtsklik op een samenvattingstaak <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"> of niveautaak</MadCap:conditionalText> op de balkkaart, of rechtsklik op een samenvattingsgroep<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"> of kaart</MadCap:conditionalText> in de project view, en selecteer <span style="font-weight: bold;">Bereken taakwegingen</span>.</p>
+        <p>De overall percentage voltooid weging van hogerniveautaken beïnvloedt de voortgang van andere hogerniveautaken waaraan zij zelf ondergeschikt zijn. U kunt <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> zo configureren dat de weging van hogerniveautaken automatisch wordt berekend, of toestaan dat u de weging van hogerniveautaken handmatig kunt wijzigen. U doet dit met het <span style="font-weight: bold;">Gebruik overall % voltooid weging</span> selectievakje op het <strong>Eigenschappen</strong> tabblad van het Bestand menu <span style="font-weight: bold;">Eigenschappen</span> dialoogvenster: schakel het selectievakje in om de weging van hogerniveautaken automatisch te berekenen, of schakel dit selectievakje uit om het mogelijk te maken de weging van hogerniveautaken handmatig in te voeren. Wanneer u opgeeft dat <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> de weging van hogerniveautaken automatisch moet berekenen, doet het dat door de wegingen van alle onderliggende taken van de hogerniveautaken op te sommen.</p>
+        <p>Klik met de rechtermuisknop op een samenvattings<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">- of niveau</MadCap:conditionalText>taak op de balkkaart, of rechtsklik op een samenvattingsgroep<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"> of kaart</MadCap:conditionalText> in de project view, en selecteer <span style="font-weight: bold;">Bereken taakwegingen</span> om proportionele wegingen automatisch toe te wijzen aan de onderliggende taak overeenkomstig hun huidige duur. Wanneer u automatisch de taakweging berekent, krijgen taken met een duur van 1u (1 uur) een weging 1 en alle andere taken worden hieraan gerelateerd gewogen. Bijvoorbeeld een taak met een duur van 2u krijgt een weging van 2, en een taak met een duur van 1w (1 week) krijgt een duur van 37.5. </p>
+        <h2><a name="Parent_task_only_milestones"></a>S<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Subkaarten en s</MadCap:conditionalText>amenvattingsgroepen die mijlpalen bevatten</h2>
+        <p>Indien een <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">subkaart of </MadCap:conditionalText>samenvattingsgroep alleen mijlpalen bevat is bovenstaande niet van toepassing; in dit geval is alleen de status voltooid van de mijlpalen gebruikt om de getotaliseerde voortgang van een bovenliggende taak te berekenen. Wanneer een samenvattingsgroep bijvoorbeeld vier mijlpalen bevat waarvan drie 100% voltooid zijn, zal de samenvattingstaak een overall percentage voltooid voortgang hebben van 75%:</p>
+        <p>Het overall percentage voltooid van hogerniveautaken in <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">subkaarten en </MadCap:conditionalText>samenvattingsgroepen die alleen mijlpalen bevatten wordt als volgt berekend:</p>
+        <ol>
+            <li>De overall percentage voltooid wegingen van alle voltooide mijlpalen worden opgeteld.</li>
+            <li>De resulterende hoeveelheid wordt gedeeld door de som van de overall percentage weging waarden van de mijlpalen in de <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">kaart of </MadCap:conditionalText>samenvattingsgroep.</li>
+        </ol>
+        <p>In dit voorbeeld geeft dat ons de volgende berekening:</p>
+        <p>(1.00 + 1.00 + 1.00 + 0.00) / 4 = 75.00</p>
+        <p>
+            <img src="../../../../Graphics/Progress/overallweighting3.png" alt="Vier mijlpalen in een samvattingsgroep; drie daarvan voltooid" />
+        </p>
+        <p>Als u de weging van een mijlpaal in een <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">kaart of </MadCap:conditionalText>samenvattingsgroep met alleen mijlpalen wijzigt, heeft dit invloed op het totale percentage voltooid van de bovenliggende taak. Als u bijvoorbeeld de weging van de mijlpaal 'Research' in het bovenstaande voorbeeld hebt gewijzigd in 2,00, wordt het effect ervan op het totale percentage voltooid van de samenvattingstaak 'Preparation' verdubbeld, wat resulteert in een totaal percentage voltooid van 80,00:</p>
+        <p xmlns="">
+            <img src="../../../../Graphics/Progress/overallweighting4.png" alt="Dezelfde samenvattingsgroep, met de weging van één mijlpaal verdubbeld" />
+        </p>
+        <p>Dit wordt als volgt berekend:</p>
+        <p>(2.00 + 1.00 + 1.00 + 0.00) / 5 = 80.00</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Progress_as_dist_average.flsnp" />
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="Progduration.htm">Voortgang berekenen op bovenliggende taken naar duur voltooid</a>
+        </p>
+        <p><a href="Progeffort.htm">Voortgang berekenen op bovenliggende taken naar inspanning voltooid</a>
+        </p>
+        <p><a href="Progcost.htm">Voortgang berekenen op bovenliggende taken naar kosten voltooid</a>
+        </p>
+    </body>
+</html>

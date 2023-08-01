@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet
+  Comment="My set of condition tags">
+  <ConditionTag
+    Comment="This content is included in Easyplan Help only"
+    Name="Easyplan_only"
+    BackgroundColor="Blue" />
+  <ConditionTag
+    Comment="This content is included in Asta Powerproject Help only"
+    Name="Powerproject_only"
+    BackgroundColor="Red" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="V17_Link_activity_finishes_metric"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ffa500"
+    Name="V17_Shade_between_dates_histograms"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#8b008b"
+    Name="V17_Auto_save"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#00bfff"
+    Name="V17_Print_preview_rights"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#00ff00"
+    Name="V17_Edit_assignments_rights"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#8b4513"
+    Name="V17_Edit_resource_allocation_task_rights"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ff00ff"
+    Name="V17_Assignment_options"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#181e1e"
+    Name="V17_Production_rates"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#2f4f4f"
+    Name="V17_Task_activities"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#9acd32"
+    Name="V17_Reschedule_rights"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#fa8072"
+    Name="V17_Tab_colouring"
+    Comment="" />
+</CatapultConditionTagSet>

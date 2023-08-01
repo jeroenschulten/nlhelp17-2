@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Rescheduling_projects\Factors_that_affect\Factors_rescheduling.htm" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" class="KLAAR" xml:lang="nl-nl">
+    <head>
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Mijlpalen:positioneren na een herberekening;Herberekenen:hoe de projectstart- en einddatums invloed hebben op;Datums:hoe beïnvloeden start- en einddatums van een project een herberekening;Mijlpalen:positionering na een herberekening;Kalenders:hoe ze een herberekening beïnvloeden;Herberekenen:hoe kalenders invloed hebben op;Voortgang:hoe het de herberekening beïnvloedt;Herberekenen:hoe voortgang invloed heeft op;ZSM/ZLM positie:hoe het de herberekening beïnvloedt;Herberekenen:hoe de ZSM/ZLM positie invloed heeft op;ZSM/ZLM positie;Vlaggen velden:hoe ze een herberekening beïnvloeden;Herberekenen:hoe vlaggen invloed hebben op;Links:hoe ze een herberekening beïnvloeden;Niveautaken:hoe ze een herberekening beïnvloeden;Herberekenen:hoe niveautaken invloed hebben op;Herberekenen:hoe links invloed hebben op;Onderlinge afstand met links:behouden tussen taken;Onderlinge afstand met links;Links:gebruiken om onderlinge taakafstand te behouden" />Factoren die een herberekening beïnvloeden</h1>
+        <p>Het resultaat van een herberekening varieert afhankelijk van de aspecten die u in uw projectplan hebt gebruikt. Bijvoorbeeld, start- en eindvlaggen overrulen de linklogica, kalenders bepalen wanneer een taak kan starten en kan eindigen, en de ZSM/ZLM positie van een taak kan invloed hebben op waar die taak geplaatst wordt.</p>
+        <p>De volgende factoren kunnen het resultaat van een herberekening beïnvloeden:</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Project eind- en startdatums</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Taken worden herberekend ten opzichte van de geplande start- en einddatum die is ingesteld in het <b>Eigenschappen</b> dialoogvenster . U kunt niet tegelijkertijd een geplande startdatum en een geplande einddatum voor een project opgeven.</p>
+                <p>Als u een geplande projecteinddatum opgeeft, wordt het project herberekend vanaf de taak aan het einde van de linklogica van het project; deze taak wordt vastgesteld om te eindigen op de einddatum van het project en alle voorafgaande taken worden relatief ten opzichte van deze taak geplaatst. Herberekenen vanaf een einddatum wordt ook wel 'backwards' herberekenen genoemd. Merk op dat dit alleen van toepassing is bij herberekening van het hele project (d.w.z. als u het programma herberekent of een groep herberekent met het herberekenen domein ingesteld op Alle): Als u alleen een groep binnen het project herberekent, wordt elke geplande projecteinddatum genegeerd.</p>
+                <p>Als u een taak positioneert voor de geplande projectstartdatum of laat eindigen na de geplande einddatum van het project dan zal deze taak verplaatst worden bij de herberekening zodat de taak binnen de gestelde datums valt.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>Een taak kan niet starten of eindigen in een niet-werktijd periode, zoals die gedefinieerd is door de kalender van de taak. Wanneer u een taak aanmaakt of verplaatst, 'verspringt' de taak zodanig dat haar start- en einddatum in werkbare periodes op de taakkalender vallen. Tijdens een herberekening worden taken eveneens zodanig geplaatst dat ze starten en eindigen in werkbare periodes op hun kalender.</p>
+        <p>U kunt in de afbeelding hieronder zien dat taken 'verspringen' om in werkbare periodes op hun kalender te starten en eindigen, zowel voor als na de herberekening:</p>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;" cellspacing="0" width="100%">
+            <tr>
+                <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: center;margin-bottom: 0;">
+                        <img src="../../../../Graphics/Rescheduling_projects/calendars.gif" alt="Voor herberekening" title="Voor herberekening" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="132" height="89" border="0">
+                        </img>
+                    </p>
+                </td>
+                <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: center;margin-bottom: 0;">
+                        <img src="../../../../Graphics/Rescheduling_projects/calendars1.gif" alt="Na herberekening" title="Na herberekening" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="133" height="89" border="0">
+                        </img>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: center;margin-bottom: 0;">
+                        <span>Voor herberekening</span>
+                    </p>
+                </td>
+                <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: center;margin-bottom: 0;">
+                        <span>Na herberekening</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="Note">Wanneer een taak een gemodelleerde hulpmiddelallocatie heeft, kan de kalender van het hulpmiddel de positie en duur van de taak beïnvloeden.</p>
+        <p>Een mijlpaal wordt gepositioneerd aan het eind van een werkbare periode of aan het begin van de volgende werkbare periode, afhankelijk van of het een eind of een start mijlpaal is. Bijvoorbeeld, als een mijlpaal aan het eind van een werkdag valt, wordt er op 17:30u een eindmijlpaal geplaatst, terwijl een startmijlpaal op 9:00u van de volgende morgen geplaatst zou worden.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Voortgang</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Wanneer u herberekening uitvoert kunt u kiezen om de voortgangslijn wel of niet recht te trekken tot de rapportdatum van een geselecteerde voortgangsperiode Als u kiest om de voortgangslijn recht te trekken, worden alle onvoltooide taken die voor de rapportdatum vallen, naar voren geplaatst in overeenstemming met de rapportdatum, zodat ze in de toekomst komen te liggen (wat aangeeft dat ze nog steeds uitgevoerd moeten worden).</p>
+                <p>Als u de voortgangslijn rechttrekt, kunt u kiezen of u wilt dat alle voltooide taken die na de rapportdatum liggen ook terug verplaatst worden naar vóór de rapportdatum (wat aangeeft dat ze uitgevoerd zijn en in het verleden liggen). Als u kiest om voltooide taken die na de rapportdatum vallen te verplaatsen, zal de voortgangslijn volledig recht worden na de herberekening, maar de werkelijke startdatums van sommige voltooide taken zullen veranderd zijn. Als u kiest om voltooide taken die na de rapportdatum vallen niet te verplaatsen, zal de voortgangslijn niet geheel recht zijn - de herberekening zal alleen onvoltooide taken naar voren schuiven.</p>
+                <p>Het naar voren schuiven van onvoltooide taken kan effect hebben op de einddatum van het project. Misschien wil u dit niet doen als u van plan bent deze taken apart te bewerken om er zeker van te zijn dat ze geen effect hebben op de einddatum van het project.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Vlaggen bij taken</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Alle gedeeltelijk voltooid gemelde taken met een start of eind vlag worden herberekend om te voldoen aan de beperking van de vlag. Start en eind vlaggen hebben een hogere prioriteit dan de link logica, die het mogelijk maakt om een taak vroeger te laten beginnen of eindigen dan de aangegeven datum.</p>
+                <p>U kunt eindvlaggen als zacht behandelen, zodat taken kunnen eindigen na hun eindvlag tijdens het herberekenen, via het <b>Herberekenen</b> dialoogvenster.</p>
+                <p>Als u een startvlag op een samenvattingstaak of niveautaak plaatst, dan worden alle taken in de samenvattingstaak of niveautaak herberekent vanaf de startdatum van de vlag. Overeenkomstig, als u een startvlag op een samenvattingstaak of niveautaak plaatst zullen alle onderliggende taken herberekend worden vanaf de einddatum van de vlag.</p>
+                <p>U kunt gebruik maken van een Werk Tussen vlaggen om de start én de einddatum van de taak vast te leggen. Als de Werk Tussen vlaggen is gebruikt op een taak waarvan de duur toeneemt of waarvan de onderliggende taken de duur van het hogere niveau laat toenemen, dan zal de manier waarop de taak wordt herberekend afhangen van het selectievakje <span style="font-weight: bold;">Vlaggen die moeten eindigen op of voor zijn "zacht"</span><span style="font-weight: normal;">in het dialoogvenster</span><span style="font-weight: bold;">Herberekenen</span><span style="font-weight: normal;">:</span></p>
+                <ul>
+                    <li class="p">
+                        <span style="font-weight: normal;">Wanneer het selectievakje is ingeschakeld, zal de startdatum vast zijn, maar de einddatum voorbij de eindvlag kunnen komen.</span>
+                    </li>
+                    <li class="p">
+                        <span style="font-weight: normal;">Wanneer het selectievakje is uitgeschakeld, zal de einddatum vast zijn, maar de startdatum voor de startvlag kunnen komen.</span>
+                    </li>
+                </ul>
+                <p>Als u een Punaise vlag toepast op een taak en de taak wordt verplaatst bij een herberekening als gevolg van de andere beperkingen, zoals links, zal de Punaise vlag met de taak mee verplaatsten. Als er geen andere beperkingen bij een taak met een Punaise vlag zijn, anders dan de Punaise vlag zelf, zal de taak niet naar achteren worden verplaatst door de herberekening maar zal deze worden vastgezet op haar huidige datum.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Prioriteit van vlaggen</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>Vlaggen die taken voorwaarts verplaatsen (Op of Na vlaggen  en Punaise vlaggen) hebben een lagere prioriteit dan vlaggen die taken vasthouden op een specifieke datum (Op vlaggen). Bijvoorbeeld, als een taak met een Start Op of Na vlag vooraf gaat aan een taak met een Start Op vlag die conflicten geeft met de vlag van de voorgaande taak, dan zal de herberekening de taak naar een vroegere startdatum verplaatsen, ongeacht zijn Start Op of Na vlag. Dit is weergegeven in de onderstaande afbeelding, waarbij de eerste taak verplaatst is naar een eerdere datum tijdens de herberekening ondanks zijn Start Op of Na vlag, omdat de taak voorbij gaat aan de Start Op vlag van de 2e taak.</p>
+                        <table wrapperparagraphselector="P" cellspacing="0" width="100%">
+                            <tr>
+                                <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                                    <p style="text-align: center;margin-bottom: 0;">
+                                        <img src="../../../../Graphics/Rescheduling_projects/constraints1.gif" alt="Voor herberekening" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="40" height="56" border="0" />
+                                    </p>
+                                </td>
+                                <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                                    <p style="text-align: center;margin-bottom: 0;">
+                                        <img src="../../../../Graphics/Rescheduling_projects/constraints2.gif" alt="Na herberekening" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="54" height="56" border="0" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                                    <p style="text-align: center;margin-bottom: 0;">
+                                        <span>Voor herberekening</span>
+                                    </p>
+                                </td>
+                                <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                                    <p style="text-align: center;margin-bottom: 0;">
+                                        <span>Na herberekening</span>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                        <p>Vlaggen die taken achteruit verplaatsen (Op of Voor vlaggen) hebben een hogere prioriteit dan vlaggen die taken voorwaarts verplaatsen (Op of Na vlaggen en Punaise vlaggen). Bijvoorbeeld, als een taak met een Start Op of Na vlag voorafgaat aan een taak met een Eindig Op of Voor vlag, die conflicten heeft met de voorgaande taak, dan zal de herberekening de voorgaande taak naar een eerdere startdatum verplaatsen, ongeacht zijn de vlag. Dit wordt weergegeven in de afbeelding hieronder, waar de eerste taak is verplaatst naar een eerdere datum tijdens de herberekening ongeacht zijn Start Op of Na vlag, omdat de taak voorbij gaat aan de Eindig Op of Voor vlag van de 2e taak.</p>
+                        <table wrapperparagraphselector="P" cellspacing="0" width="100%">
+                            <tr>
+                                <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                                    <p style="text-align: center;margin-bottom: 0;">
+                                        <img src="../../../../Graphics/Rescheduling_projects/constraints3.gif" alt="Voor herberekening" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="42" height="56" border="0" />
+                                    </p>
+                                </td>
+                                <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                                    <p style="text-align: center;margin-bottom: 0;">
+                                        <img src="../../../../Graphics/Rescheduling_projects/constraints4.gif" alt="Na herberekening" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="56" height="56" border="0" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                                    <p style="text-align: center;margin-bottom: 0;">
+                                        <span>Voor herberekening</span>
+                                    </p>
+                                </td>
+                                <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                                    <p style="text-align: center;margin-bottom: 0;">
+                                        <span>Na herberekening</span>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <p style="font-weight: normal;">Alle onvoltooide taken waarbij is <a href="../../Bar_chart_editing/Using_constraints/New_day.htm">afgedwongen dat ze moeten starten op een nieuwe dag</a> worden zodanig herberekend dat ze starten aan het begin van de volgende dag, zelfs als ze eerder zou kunnen starten gedurende voorafgaande dag. De precieze start van een nieuw dag wordt bepaald door de aan een taak toegewezen kalender. Wanneer er aan een taak geen kalender toegewezen is, zal de start van een nieuwe dag middernacht zijn.</p>
+                <p>Alle onvoltooide taken waarbij  afgedwongen is dat deze binnen een enkele  tijdsperiode, shift of werkpatroon voltooid dienen te  worden herberekend zodat zij naar voren verplaatst worden in de eerstvolgende tijdsperiode, shift of werkpatroon waarin genoeg tijd beschikbaar is om de taak te laten voltooien.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>ZSM/ZLM positie van taken</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <a name="ASAPALAP">
+                    </a>Taken kunnen gepositioneerd worden op hun balkregel om zo snel mogelijk (ZSM) of zo laat mogelijk (ZLM) te starten, door gebruik te maken van het <strong>Positie</strong> veld in de <span style="font-weight: bold;">Vlaggen</span> sectie van het tabblad <b>Balk en Taak Eigenschappen</b>.</p>
+                <p>Wanneer taken geplaatst worden om ZSM te starten, beginnen ze zo vroeg als toegestaan wordt door links en vlaggen. Elke periode van vrije speling wordt getoond na de einddatum van de taak:</p>
+                <p>
+                    <img src="../../../../Graphics/Rescheduling_projects/asap.gif" alt="ZSM taak" title="ZSM taak" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="119" height="15" border="0" />
+                </p>
+                <p>Wanneer taken geplaatst worden om ZLM te starten, wordt alle vrije speling verbruikt en wordt de taak op de laatst mogelijke datum geplaatst, zonder een andere taak te beïnvloeden. De periode van vrije speling wordt nu vóór de startdatum van de taak getoond om aan te geven dat de vrije speling verbruikt is:</p>
+                <p>
+                    <img src="../../../../Graphics/Rescheduling_projects/alap.gif" alt="ZLM taak" title="ZLM taak" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="120" height="16" border="0" />
+                </p>
+                <p>U kunt taken ook zo plaatsen, dat ze ZSM Forceer Kritiek starten. Dit plaatst taken zodanig dat ze zo snel mogelijk starten, maar zonder dat er van vrije speling sprake is, zodat ze geforceerd kritiek worden:</p>
+                <p>
+                    <img src="../../../../Graphics/Rescheduling_projects/critical.gif" alt="ZSM Forceer Kritieke Taak" title="ZSM Forceer Kritieke Taak" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="51" height="15" border="0" />
+                </p>
+                <p>Standaard worden taken die zijn geconfigureerd als ZSM Forceer Kritiek identiek aan kritieke taken weergegeven. Dit kan het moeilijk maken om onderscheid te maken tussen kritieke taken en ZSM Forceer Kritieke taken. U kunt nu een overrulekleur opgeven voor taken die zijn geconfigureerd als ZSM Forceer Kritiek, met behulp van het veld <b>ZSM Forceer Kritiek Overrule Kleur</b> op het tabblad <b>View</b> van het dialoogvenster <b>Opties</b>.</p>
+                <p>Als u in dit veld een overrulekleur opgeeft, krijgen alle taken die zijn geconfigureerd als ZSM Forceer Kritiek een kritische weergave met de opgegeven kleur in plaats van de standaard kritische markering na een herberekening. Dit wordt hieronder geïllustreerd, waarbij groen is opgegeven als de ZSM Forceer Kritiek-overrulekleur:</p>
+                <p>
+                    <img src="../../../../Graphics/Rescheduling_projects/asapforcecriticaloverride.gif" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Links</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Links hebben invloed op wanneer taken uitgevoerd kunnen worden, maar start- en eindvlaggen overrulen de linklogica. Links hebben alleen effect op nog niet voltooid zijnde taken; voltooide taken worden niet beïnvloed door de linklogica, omdat ze in het verleden liggen.</p>
+                <p>Wanneer voortgang buiten de taakvolgorde om plaats vindt, kunt u aangeven hoe deels voltooide links worden beïnvloed door de herberekening, via het <b>Herberekenen</b> dialoogvenster.</p>
+                <p>Normaal gesproken, wanneer u taken linkt, zal het herberekenen van het project de taken zo herschikken dat de afstanden tussen hen worden afgedwongen door de linklogica - en door elke andere beperking. Dit wordt hieronder geïllustreerd:</p>
+                <table wrapperparagraphselector="P" style="margin-top: 14pt;" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="vertical-align: top;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <img src="../../../../Graphics/Bar_chart_editing/offsets1.gif" style="border: none;" width="152" height="78" border="0">
+                                </img>
+                            </p>
+                        </td>
+                        <td style="vertical-align: top;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <img src="../../../../Graphics/Bar_chart_editing/offsets2.gif" style="border: none;" width="134" height="78" border="0">
+                                </img>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">Gelinkte taken, vóór een herberekening</p>
+                        </td>
+                        <td style="vertical-align: top;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">Gelinkte taken, na een herberekening</p>
+                        </td>
+                    </tr>
+                </table>
+                <p>Wanneer u vervolgens één of enkele van deze taken handmatig verplaatst, zouden de taken normaal gesproken herschikt worden volgens de afdwingende linklogica, en daarbij zou de door het handmatig verplaatsen gecreëerde onderlinge afstand verwijderd worden:</p>
+                <table wrapperparagraphselector="P" style="margin-top: 14pt;" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="vertical-align: top;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <img src="../../../../Graphics/Bar_chart_editing/offsets3.gif" style="border: none;" width="134" height="78" border="0">
+                                </img>
+                            </p>
+                        </td>
+                        <td style="vertical-align: top;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <img src="../../../../Graphics/Bar_chart_editing/offsets2.gif" style="border: none;" width="134" height="78" border="0">
+                                </img>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">De middelste taak is handmatig verplaatst</p>
+                        </td>
+                        <td style="vertical-align: top;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">Na een herberekening, linklogica wordt opnieuw doorgevoerd</p>
+                        </td>
+                    </tr>
+                </table>
+                <p>In sommige omstandigheden kan het zijn dat u wilt dat de onderlinge afstand tussen de gecreëerde taken wordt gehandhaafd wanneer u deze taken verplaatst. Ook kan het zijn dat u niet wilt dat deze onderlinge afstand verandert bij het herberekenen van een project. Dit kan in een aantal gevallen handig zijn, bijvoorbeeld wanneer er een balk is met daarin elkaar overlappende taken. Taken op dergelijke balken worden niet beperkt door impliciete links aan voorganger taken op dezelfde balk, zoals ze dat wel zouden worden op een standaard balk waarbij taak overlappingen niet zijn toegestaan. Wanneer u een reeks overlappende taken heeft getekend, kunt u de onderlinge afstand tussen hen behouden en voorkomen dat de taken worden verplaatst bij het herberekenen van het project, door gebruik te maken van de speciale 'behoud taak afstand' linksoort .</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Niveautaken</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Speling op taken binnen niveautaken kan afgekapt worden tot het einde van de niveautaak in plaats van de speling uit te strekken tot aan de einddatum van het project. Dit is bijvoorbeeld nuttig als een niveautaak een subproject bevat en u alleen geïnteresseerd bent in de speling binnen dat subproject. U kiest of u wel of niet de speling in subkaarten (niveautaken) wilt afkappen via het <b>Herberekenen</b> dialoogvenster.</p>
+                <p>Wanneer de speling in subkaarten wordt afgekapt en u het herberekenen van taken zonder links ingesteld hebt op <span style="font-weight: bold;">Verplaatsen indien buiten project- of kaartgrenzen</span> of <span style="font-weight: bold;">Verplaats naar ZSM/ZLM positie</span>, zullen alle taken zonder links verplaatsen binnen de grenzen van de subkaart (niveautaak), en niet binnen de grenzen van het project.</p>
+                <p>Bij niveautaken worden de speling en de vroegste start- en laatste einddatums bepaald door hun onderliggende taken.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p>
+            <a href="../Setting_reschedule_options/Setting_reschedule_options.htm">Herberekeningsopties instellen</a>
+        </p>
+        <p>
+            <a href="../../Bar_chart_editing/Editing_link_properties/Maintain_offsets.htm">Links gebruiken om de onderlinge afstand tussen taken te behouden</a>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Stylesheets/Table_Stylesheet_No_Gridlines.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h2>Gepland resterend taak werk</h2>
+        <table cellspacing="0" width="100%" style="mc-table-style: url('../Stylesheets/Table_Stylesheet_No_Gridlines.css');" class="TableStyle-Table_Stylesheet_No_Gridlines">
+            <col style="width: 20%;" class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <col style="width: 80%;" class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+            <tr style="vertical-align: top;" class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                <td style="border-left: Solid 2px #ffffff;border-right: Solid 2px #ffffff;border-bottom: Solid 2px #ffffff;width: 20%;padding-right: 10px;padding-left: 10px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1">
+                    <p style="font-weight: bold;">Omschrijving</p>
+                </td>
+                <td style="border-right: Solid 2px #ffffff;border-bottom: Solid 2px #ffffff;width: 80%;padding-right: 10px;padding-left: 10px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                    <p class="ParagraphsInTables" xmlns="">
+                        <MadCap:snippetText src="Task_work_1.flsnp" />
+                        <MadCap:conditionalText MadCap:conditions=""> dat nog moet worden voltooid op de rapportdatum van een opgegeven voortgangsperiode</MadCap:conditionalText>
+                        <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+                            <MadCap:conditionalText MadCap:conditions=""> </MadCap:conditionalText> of op de datum van vandaag in de gespecificeerde baseline. Als er geen baseline is opgegeven, geeft dit veld het aantal taakwerkeenheden weer dat nog moet worden voltooid in de actuele gegevens</MadCap:conditionalText>.</p>
+                    <p class="ParagraphsInTables" xmlns="" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">&#160;</p>
+                    <p class="ParagraphsInTables" xmlns=""> <MadCap:snippetText src="Task_work_2.flsnp" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /></p>
+                    <p xmlns="" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" class="ParagraphsInTables">&#160;</p>
+                    <p class="ParagraphsInTables" xmlns="">
+                        <MadCap:snippetText src="Task_work_3.flsnp" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" />
+                    </p>
+                </td>
+            </tr>
+            <tr style="vertical-align: top;" class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                <td style="border-left: Solid 2px #ffffff;border-right: Solid 2px #ffffff;border-bottom: Solid 2px #ffffff;width: 20%;padding-right: 10px;padding-left: 10px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1">
+                    <p style="font-weight: bold;">Parameters</p>
+                </td>
+                <td style="border-right: Solid 2px #ffffff;border-bottom: Solid 2px #ffffff;width: 80%;padding-right: 10px;padding-left: 10px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                    <ul type="disc">
+                        <li xmlns="" MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><span style="font-weight: bold;">Data</span> - of u de gegevens wilt weergeven over de huidige data of over een specifieke baseline.</li>
+                        <li xmlns=""><span style="font-weight: bold;">Specifieke taak</span> - specificeer indien gewenst de specifieke taak of taken op een multi-taak balk waarop u wilt dat het veld betrekking heeft.</li>
+                        <li xmlns=""><b>Werk details</b> - of alleen de hoeveelheid werk (bijvoorbeeld 25.00), alleen de naam van de eenheid waarmee het werk wordt gemeten (bijvoorbeeld Liter) of zowel de hoeveelheid als de werkeenheid (bijvoorbeeld 25.00 Liter).</li>
+                        <li class="p"><b>Werkeenheid</b> - of u taak werk wilt weergeven dat gemeten wordt met elke soort werkeenheid, of dat u taak werk alleen met een specifieke werkeenheid wilt meten.</li>
+                        <li class="p"><span style="font-weight: bold;">Voortgangsperiode - </span><span style="font-weight: normal;">de voortgangsperiode waarover u de gegevens wilt weergeven.</span>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr style="vertical-align: top;" class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                <td style="border-left: Solid 2px #ffffff;border-right: Solid 2px #ffffff;border-bottom: Solid 2px #ffffff;width: 20%;padding-right: 10px;padding-left: 10px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1">
+                    <p style="font-weight: bold;">Aanpasbaar?</p>
+                </td>
+                <td style="border-right: Solid 2px #ffffff;border-bottom: Solid 2px #ffffff;width: 80%;padding-right: 10px;padding-left: 10px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                    <p>Ja</p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

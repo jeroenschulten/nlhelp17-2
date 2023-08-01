@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Klik in het <b>Bestand</b> tabblad op <b>Opties</b>. Het <b>Opties</b> dialoogvenster verschijnt.</li>
+            <li>Klik op het <b>Bewerken</b> tabblad.</li>
+            <li>Schakel het <span style="font-weight: bold;">Eigenschappen erven van dichtsbijzijnde taak</span> selectievakje in om te specificeren dat nieuwe taken deze attributen van een aangrenzende taak waar mogelijk overnemen, of schakel het selectievakje uit om te specificeren dat ze deze attributen (behalve de WBS code) moeten overnemen van de balkkaart standaards die gedefinieerd zijn op het <b>Taak</b> tabblad van het <b>Balkkaart Standaards Eigenschappen</b> dialoogvenster.</li>
+            <li>Klik op <b>OK</b>.</li>
+        </ol>
+    </body>
+</html>

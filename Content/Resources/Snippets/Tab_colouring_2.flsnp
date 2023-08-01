@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:dropDown MadCap:conditions="Powerproject_Easyplan.V17_Tab_colouring">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... de standaard kleur speciferen die toegepast wordt op de tabbladen die verschijnen bovenaan elke view?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Selecteer een kleur om toe te passen op de tabbladen die standaard bovenaan elke view worden weergegeven in het veld <b>Standaard tabbladkleur</b>. Als u voor elk van uw projecten een andere kleur selecteert, kunt u gemakkelijker bepalen welke views bij welk project horen wanneer u meer dan één project tegelijkertijd hebt geopend.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

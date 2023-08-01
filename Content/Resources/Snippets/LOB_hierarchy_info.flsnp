@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="163" MadCap:lastWidth="1034">
+    <body>
+        <p>De Y as van een Line of Balance grafiek toont items van de locatie breakdown structuur (de 'locatie' codebibliotheek) die u eerst zult moeten opzetten. Uw locatie breakdown structuur kan eenvoudig (plat) zijn, met alle items op hetzelfde niveau, of hiërarchisch, met de items gecategoriseerd in verschillende mappen op eigen niveaus binnen de codebibliotheek. Wanneer u een hiërarchische locatie breakdown structuur heeft opgezet kunt u een aparte eigen horizontale lijn opgeven voor elk van de niveaus. Hierdoor is het makkelijker om de verschillende niveaus in de locatie breakdown structuur te onderscheiden wanneer u de grafiek bekijkt.</p>
+    </body>
+</html>

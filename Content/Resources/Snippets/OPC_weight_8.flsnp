@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>Als u de weging handmatig hebt bewerkt door een andere waarde dan '1,00' in te voeren in het veld Overall % voltooid weging, wordt de berekende weging vastgezet op deze waarde en verandert deze niet meer, zelfs niet als de duur van de taak verandert.</body>
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="111" MadCap:lastWidth="857">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b>Opmaak Histogram</b> dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Om toegang te krijgen tot het <span style="font-weight: bold;">Opmaak Histogram</span> dialoogvenster, rechtsklik op een geopend histogram en selecteer <span style="font-weight: bold;">Opmaak Histogram</span>, of klik op <img src="../../Graphics/Toolbars/Histogram/formathistogram.gif" alt="Format histogram" title="Format histogram" style="border: none;" width="19" height="19" border="0" /> op de Histogram werkbalk.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

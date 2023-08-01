@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <MadCap:changeData>
+            <MadCap:AddChange MadCap:userName="mdeegan" MadCap:initials="MD" MadCap:id="2" MadCap:timestamp="2021-01-06T15:42:37.6625953+01:00" />
+        </MadCap:changeData>
+    </head>
+    <body>Wanneer u geconfigureerd heeft dat <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> zowel op de kalenderschaal als op de balkkaart datumgebied schaduwing weergeeft<MadCap:change MadCap:changes="2"> </MadCap:change>en u een<MadCap:change MadCap:changes="2"> histogram view</MadCap:change> aan het afdrukken bent<MadCap:change MadCap:changes="2">, </MadCap:change>betekent het uitschakelen van dit selectievakje dat bij het afdrukken de datumgebied schaduwing verwijderd wordt in d<MadCap:change MadCap:changes="2">e histogram view, </MadCap:change>maar niet verwijderd wordt bij de kalenderschaal<MadCap:change MadCap:changes="2">. </MadCap:change>Dit stelt u in staat om inkt te besparen: Het afdrukken met daarbij de datumgebied schaduwing weergegeven<MadCap:change MadCap:changes="2"> in </MadCap:change>d<MadCap:change MadCap:changes="2">e histogram view </MadCap:change>kan veel inkt kosten, vooral wanneer u een groot aantal datumgebied schaduwing selecties heeft.</body>
+</html>

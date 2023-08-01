@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Security_and_multi-user_issues\Security\Security.htm" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:lastBlockDepth="4" MadCap:lastHeight="1217" MadCap:lastWidth="932" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" class="KLAAR" xml:lang="nl-nl">
+    <head>
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Beveiliging;Beveiliging:standalone;Asta Asta Powerproject:inloggen bij;Gebruikers:toevoegen aan een project in standalone modus;Gebruikers:toevoegen aan een project in Enterprise modus;Beveiliging:Enterprise;Gebruikerstabellen:toevoegen aan een project in Enterprise modus;Asta Asta Powerproject:aanloggen;Beveiliging:Enterprise;Gebruikerstabellen:toevoegen aan een project in standalone modus;Beveiliging:standalone" /><MadCap:variable name="Primary.Asta Asta Powerproject Name" /> beveiliging</h1>
+        <p>U kunt de toegang tot een project controleren door gebruik te maken van een combinatie van gebruikers, toegangsrechten en wachtwoorden.</p>
+        <p>U kunt <a href="../../Library_Explorer/Using/Creating_objects_in_Library_Explorer.htm">gebruikers instellen in de Bibliotheek verkenner</a>. Elk project heeft een hoogste gebruiker die standaard Admin wordt genoemd. Elke gebruikersnaam binnen een project moet uniek zijn.</p>
+        <p>Wanneer u een gebruiker aanmaakt, dan kunt u <a href="../Specifying_user_access_rights/Specifying_user_access_rights.htm">de toegangsrechten van de gebruiker specificeren</a>. Toegangsrechten stellen u in staat om de toegang van de gebruiker te beperken tot slechts een gedeelte van een project en de bewerkingen die hij kan uitvoeren binnen dat gedeelte van het project.</p>
+        <p>U kunt alleen gebruikers aanmaken die ondergeschikt zijn aan u zelf, en die dezelfde of minder toegangsrechten hebben.</p>
+        <p>Wanneer u een hiërarchie van gebruikers creëert - waarbij de gebruikers in bepaalde mappen samen met andere gebruikers met dezelfde of identieke toegangsrechten zitten - dan is  het beste om eerst de gebruikersmappen aan te maken en daar de gewenste toegangsrechten aan toe te wijzen, alvorens de gebruikers zelf aan te maken in elke afzonderlijke map. Op deze manier zullen alle gebruikers die u binnen een map aanmaakt automatisch de toegangsrechten die u aan de betreffende map heeft toegewezen overnemen. Wanneer u echter eerst de individuele gebruikers aanmaakt, alvorens de toegangsrechten toe  te wijzen aan de bovenliggende map, moet u alle toegangsrechten aan elke gebruiker nog eens apart toewijzen.</p>
+        <p>Elke gebruiker kan <a href="../Password_protecting_projects/Password_protecting_projects.htm">zijn toegang tot een project beveiligen met een wachtwoord</a>, zodat alleen iemand die zowel de gebruikersnaam als het wachtwoord weet, het project kan openen. Wanneer een gebruiker geen wachtwoord instelt, dan kan iedereen die de betreffende gebruikersnaam weet inloggen op het project.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot><MadCap:variable name="Primary.Asta Asta Powerproject Name" /> standalone security</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Wanneer u gebruik maakt van een standalone versie van <MadCap:variable name="Primary.Asta Asta Powerproject Name" />, dan bent u standaard de hoogste gebruiker van ieder project dat u opent of aanmaakt. Wanneer iemand anders uw kopie van het programma gebruikt, dan heeft hij de totale toegang tot uw projecten. U kunt uw projecten beveiligen door <a href="../Password_protecting_projects/Password_protecting_projects.htm">een wachtwoord in te stellen voor ieder project</a>. Dit is handig wanneer u de computer waarop u werkt deelt met andere mensen. Nadat u een project wachtwoord hebt ingesteld, dan moet u iedere keer dat u een project opent dat is beveiligd met een wachtwoord, het wachtwoord intypen voordat het project wordt geopend.</p>
+                <p>Als een project groeit in omvang kunt u andere gebruikers toelaten tot het project (door de nieuwe gebruikers aan te maken in de Bibliotheek verkenner), zodat deze ook hun werk kunnen plannen met <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> waardoor al het werk wordt gecoördineerd in een enkel project of programma.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot><MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise security</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Wanneer u gebruik maakt van <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise, dan kan uw systeembeheerder gebruikersnamen hebben ingesteld op de server en op bedrijfsbrede projecten. Als er gebruikersnamen zijn ingesteld voor de server, dan moet u een gebruikersnaam en wachtwoord invullen om aan te loggen op de server. Wanneer uw gebruikersnaam en wachtwoord binnen een project verschillen van uw gebruikersnaam en wachtwoord op de server, dan moet u ook uw gebruikersnaam en wachtwoord van het project intypen wanneer u dat project opent. Wanneer de systeembeheerder dezelfde gebruikersnaam en wachtwoord heeft gebruikt voor server als voor het project, dan hoeft u slechts éénmaal uw gebruikersnaam en wachtwoord in te voeren.</p>
+                <p>Uw Systeembeheerder kan de automatisch inloggen feature hebben ingesteld, via Serveradmin. Wanneer automatisch inloggen ingesteld staat, kunt u bij projecten inloggen zonder een gebruikersnaam en wachtwoord te hoeven invoeren. Zie de Serveradmin Help voor volledige details over het instellen van automatisch inloggen.</p>
+                <p>Wanneer uw systeembeheerder geen gebruikersnaam heeft ingesteld op de server, dan kunt u direct inloggen op de server en projecten als de hoogste gebruiker, waarvan de naam standaard Admin is. Alle andere gebruikers zijn in staat om uw projecten te openen en te bewerken tenzij u de projecten <a href="../Password_protecting_projects/Password_protecting_projects.htm">beveiligt met een wachtwoord</a>.</p>
+                <p>Zodra u een project hebt aangemaakt of hebt geopend, kunt u verdere gebruikers introduceren (door deze aan te maken in de Bibliotheek verkenner). Wanneer uw Afdelingsmanager u bijvoorbeeld heeft geïntroduceerd tot het project, dan zou u uw teamleden kunnen introduceren in het project, waarbij u <a href="../Specifying_user_access_rights/Specifying_user_access_rights.htm">de toegangsrechten beperkt</a> tot alleen die informatie die de teamleden nodig hebben.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p>
+            <a href="../Specifying_user_access_rights/Specifying_user_access_rights.htm">Gebruikersrechten opgeven</a>
+        </p>
+        <p>
+            <a href="../Password_protecting_projects/Password_protecting_projects.htm">Projecten beveiligen met een wachtwoord</a>
+        </p>
+        <p>
+            <a href="../../Library_Explorer/Using/Creating_objects_in_Library_Explorer.htm">Objecten in de Bibliotheek verkenner maken</a>
+        </p>
+    </body>
+</html>

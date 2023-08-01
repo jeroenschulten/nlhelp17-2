@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Het dialoogvenster <b>Fout bij openen bestand</b> verschijnt als u probeert een project te openen dat om de één of andere reden niet kan worden geopend. Het dialoogvenster geeft de reden weer waarom het project niet kan worden geopend en geeft u toegang tot eventuele al aanwezige back-upversies van het project. De volgende soorten back-ups zijn mogelijk beschikbaar:</p>
+        <ul>
+            <li>Standaard back-up. Dit is een back-upversie van het project, geback-upt vanuit de map van waaruit u probeerde het project te openen. <MadCap:snippetText src="Backup_types_1.flsnp" /></li>
+            <li>Alternatieve back-ups. <MadCap:snippetText src="Backup_types_2.flsnp" /></li>
+        </ul>
+        <p>Als een project niet kan worden geopend, kunt u één van de back-ups  in plaats van het hoofdproject gebruiken.</p>
+    </body>
+</html>

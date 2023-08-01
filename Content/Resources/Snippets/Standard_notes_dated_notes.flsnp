@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Er zijn twee soorten taak opmerkingen: standaard opmerkingen en opmerkingen met datum, die beide op te roepen zijn vanuit het <b>Taak</b> tabblad van het <b>Balk en Taak Eigenschappen</b> dialoogvenster:</p>
+        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+            <img src="../../Graphics/Setting_up_the_bar_chart/standardanddatednotes.gif" />
+        </p>
+        <p MadCap:conditions="Powerproject_Easyplan.Easyplan_only" xmlns="">
+            <img src="../../Graphics/Setting_up_the_bar_chart/easyplanstandardanddatednotes.gif" />
+        </p>
+    </body>
+</html>

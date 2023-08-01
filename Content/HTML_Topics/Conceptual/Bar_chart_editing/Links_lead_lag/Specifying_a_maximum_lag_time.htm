@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Bar_chart_editing_and_rescheduling\Drawing_links_with_leadlag_time\Specifying_a_maximum_lag_time.htm" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Taken:dwingen om doorlopend te zijn;Wachttijd:maximum wachttijd opgeven" />Maximum wachttijd opgeven</h1>
+        <p>Gewoonlijk geeft wachttijd een minimum uitstel aan tussen taken, er zo voor zorgend dat de volgende taak niet begint voor het eind van de wachttijdperiode. U kunt echter ook een maximum tijdsverschil op een link instellen die er voor zorgt dat de taken op maximale wachttijd van elkaar blijven.</p>
+        <p>Dit is nuttig wanneer u een hoofdtaak heeft die afhankelijk is van een voorgaande taak, en u er zeker van wilt zijn dat de voorgaande taak niet te vroeg wordt uitgevoerd. Bijvoorbeeld: u heeft een hoofdtaak genaamd Muren Schilderen, maar voor de muren geschilderd kunnen worden, moeten deze worden schoongemaakt. U wilt dus een voorgaande taak genaamd Muren Reinigen. U wilt de muren gereinigd hebben niet eerder dan 3 dagen voor er wordt geschilderd. Door op de link tussen deze taken een maximum tijdsverschil in te stellen van 3 dagen, zorgt u ervoor dat, wanneer de taak Muren Schilderen later start, de taak Muren Reinigen mee schuift. U voorkomt hiermee dat de taken meer dan 3 dagen van elkaar gescheiden worden.</p>
+        <MadCap:dropDown MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Voorbeeld</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Er is een maximum wachttijd op de link tussen de eerste taak, Muren Reinigen, en de tweede taak, Muren Schilderen. Merk op dat de mijlpaal, die de datum aangeeft waarop de verf geleverd wordt, de start van de taak Muren Schilderen, vertraagt:</p>
+                <table style="margin-left: 0;margin-right: auto;">
+                    <col style="width: 33px;" />
+                    <col style="width: 33px;" />
+                    <col style="width: 33px;" />
+                    <col style="width: 33px;" />
+                    <col style="width: 33px;" />
+                    <col style="width: 33px;" />
+                    <col style="width: 33px;" />
+                    <col style="width: 33px;" />
+                    <tbody>
+                        <tr>
+                            <td style="text-align: center;">M</td>
+                            <td style="text-align: center;">T</td>
+                            <td style="text-align: center;">W</td>
+                            <td style="text-align: center;">T</td>
+                            <td style="text-align: center;">F</td>
+                            <td style="text-align: center;">M</td>
+                            <td style="text-align: center;">T</td>
+                            <td style="text-align: center;">W</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p xmlns="">
+                    <img src="../../../../Graphics/Starting_work/maxlag1.gif" alt="Example of maximum lag" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="269" height="71" border="0">
+                    </img>
+                </p>
+                <p>Na herberekenen begint de taak, Muren Schilderen, een dag later vanwege de mijlpaal Verf Leveren. De eerste taak, Muren Reinigen, begint nu een dag later, zodat er niet meer dan 3 dagen wachttijd zit tussen deze taak en de taak Muren Schilderen:</p>
+                <table style="margin-left: 0;margin-right: auto;">
+                    <col style="width: 33px;" />
+                    <col style="width: 33px;" />
+                    <col style="width: 33px;" />
+                    <col style="width: 33px;" />
+                    <col style="width: 33px;" />
+                    <col style="width: 33px;" />
+                    <col style="width: 33px;" />
+                    <col style="width: 33px;" />
+                    <tbody>
+                        <tr>
+                            <td style="text-align: center;">T</td>
+                            <td style="text-align: center;">W</td>
+                            <td style="text-align: center;">T</td>
+                            <td style="text-align: center;">F</td>
+                            <td style="text-align: center;">M</td>
+                            <td style="text-align: center;">T</td>
+                            <td style="text-align: center;">W</td>
+                            <td style="text-align: center;">T</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>
+                    <img src="../../../../Graphics/Starting_work/maxlag2.gif" alt="Maximum lag example" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="260" height="71" border="0" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>U kunt als volgt het maximum tijdsverschil instellen op een link:</p>
+        <ol>
+            <li class="p">U toont het dialoogvenster <span style="font-weight: bold;">Link Eigenschappen</span> door met de rechtermuisknop te klikken op de link en vervolgens <span style="font-weight: bold;">Eigenschappen</span> te kiezen.            </li>
+            <li class="p">Op het tabblad <span style="font-weight: bold;">Details</span> schakelt u het selectievakje <span style="font-weight: bold;">Maximum Tijdsverschil</span> in.            </li>
+            <li class="p">In het daarnaast gelegen veld typt u het maximum tijdsverschil in. Bijvoorbeeld: typ 2u om een tijdsverschil van 2 uur aan te geven, typ 3d om een tijdsverschil van 3 dagen aan te geven.            </li>
+            <li class="p">Sluit het dialoogvenster.            </li>
+        </ol>
+        <p>Op de link wordt een M getoond om aan te geven dat er een maximum tijdsverschil is op deze link.</p>
+        <p class="Note">Wanneer u een maximum tijdsverschil van 0 in typt, zal er geen tijdsverschil worden toegestaan tussen de twee gelinkte taken. Dit is nuttig wanneer u wilt dat er doorlopend aan de taken gewerkt wordt.</p>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p><a href="Editing_leadlag_type_and_time.htm">Wachttijdtype en duur aanpassen</a>
+        </p>
+        <p><a href="Leadlag_tasks_same_bar.htm">Wachttijden op de links tussen taken op dezelfde balk</a>
+        </p>
+        <p><a href="Specifying_a_maximum_lag_time.htm">Maximum wachttijd opgeven</a>
+        </p>
+        <p><a href="Exchange_other_programs.htm">Hoe met wachttijd wordt omgegaan wanneer u naar een andere project management applicatie exporteert</a>
+        </p>
+        <p style="margin-bottom: 0;"><a href="../../Rescheduling_projects/Reschedule_errors/Link_loops_maximum_lag.htm">Linklussen, veroorzaakt door links met een maximum tijdsverschil</a>
+        </p>
+    </body>
+</html>

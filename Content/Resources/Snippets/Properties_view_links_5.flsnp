@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... een nieuwe inkomende of uitgaande link naar de geselecteerde taak maken?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Klik op <b>Toevoegen Link</b> onderaan het juiste tabelraster, of rechtsklik op het juiste tabelraster en selecteer <b>Toevoegen nieuwe link naar...</b> of <b xmlns="">Toevoegen nieuwe link vanaf...</b>. Het <b>Nieuwe Link</b> dialoogvenster verschijnt.</li>
+                    <li>Geef de taak op waarnaartoe u de geselecteerde taak naartoe wilt linken door informatie in te voeren in de velden op het dialoogvenster. Voer bijvoorbeeld de naam of WBS-code in van de taak waarmee u de geselecteerde taak wilt linken.</li>
+                    <li>Specificeer het type link dat u wilt aanmaken in het <b>Linktype</b> veld.</li>
+                    <li>Voer de hoeveelheid positieve / negatieve wachttijd in, bijvoorbeeld 2d of 15u, die u wilt toepassen op de link in het veld <b xmlns="">Wachttijd</b>. Laat dit veld leeg om geen positieve / negatieve wachttijd op de link toe te passen. </li>
+                    <li xmlns="">Klik op <b>Link</b>. Als slechts één taak aan uw criteria voldoet, wordt er onmiddellijk een link aangemaakt tussen de geselecteerde taak en die taak. Als meer dan één taak aan uw criteria voldoet, verschijnt het <b>Selecteer Link Einde</b> dialoogvenster en worden hierin alle taken weergegeven die aan de criteria voldoen.</li>
+                    <li>Binnen het <b>Selecteer Link Einde</b> dialoogvenster, schakel het selectievakje links van de taken waarnaar of waarvandaan u links wilt aanmaken, en klik vervolgens op <b>OK</b>.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

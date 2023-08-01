@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="100" MadCap:lastWidth="1284">
+    <head>
+    </head>
+    <body>
+        <p>Bij Einde-Start links is de vrije speling het verschil de vroegste einddatum van de start taak en de vrije startdatum van de eind taak. Voor andere linktypen, worden overeenkomstige datums gebruikt - bijvoorbeeld, voor Start-Start links, is dit het verschil tussen de vroegste startdatum van de start taak en de vrije startdatum van de eind taak.</p>
+    </body>
+</html>

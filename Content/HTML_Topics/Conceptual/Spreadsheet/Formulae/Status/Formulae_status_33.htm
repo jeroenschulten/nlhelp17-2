@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" class="KLAAR" xml:lang="nl-nl">
+    <head>
+    </head>
+    <body>
+        <h1>Niet gedefinieerde variable</h1>
+        <h2>Uitleg bij deze fout:</h2>
+        <p>Deze formule bevat een lokale variabele die niet is gedefinieerd. Lokale variabelen moeten worden gedefinieerd met behulp van een <b>Let</b>-instructie aan het begin van een formule.</p>
+        <h2>Voorbeeld:</h2>
+        <p><b>Let var = 42; var1 * 2</b>
+        </p>
+        <p>In dit voorbeeld is een lokale variabele met de naam "var" gedefinieerd in een <b>Let</b>-instructie, maar naar een andere lokale variabele - "var1" wordt in de formule verwezen.</p>
+        <h2>Hoe deze fout op te lossen:</h2>
+        <p>Controleer de formule en zorg ervoor dat elke lokale variabele wordt gedefinieerd met behulp van een <b>Let</b>-instructie aan het begin van de formule.</p>
+        <p>Het bovenstaande voorbeeld kan worden gecorrigeerd door de naam van de variabele "var1" te wijzigen in "var", wat resulteert in <b xmlns="">Let var = 42; var * 2</b>.</p>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="../Formulae_components.htm">De samenstellende componenten van een formule</a>
+        </p>
+        <p><a href="../Formulae_simplifying.htm" xmlns="">Simplificeren van complexe formules door lokale variabelen te gebruiken</a>
+        </p>
+    </body>
+</html>

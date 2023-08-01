@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>U gebruikt het <b>Lijn Opmaak</b> dialoogvenster om de opmaak van lijnen te specificeren.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b>Lijn Opmaak</b> dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p style="margin-bottom: 0;">U kunt het <span style="font-weight: bold;">Lijn Opmaak</span> dialoogvenster oproepen vanuit een aantal andere dialoogvensters in <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" />, inclusief het <span style="font-weight: bold;">Kalenderschaal Eigenschappen</span> dialoogvenster, het <span style="font-weight: bold;">Horizontale Lijn Eigenschappen</span> dialoogvenster<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"> en de <span style="font-weight: bold;">Baseline/What If Manager</span></MadCap:conditionalText>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Verklaring van de velden op het dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');caption-side: top;margin-left: 0;margin-right: auto;" cellspacing="0">
+                    <col style="width: 19px;" class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <thead>
+                        <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Veld</th>
+                            <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Omschrijving</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Lijn stijl selector</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Specificeer de stijl voor de lijn.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Omlijning</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Klik op dit keuzerondje om de geselecteerde kleur op de omlijning van de lijn toe te passen.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Vullend</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Klik op dit keuzerondje om de geselecteerde kleur op de opvulling van de lijn toe te passen.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Beide</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Klik op dit keuzerondje om de geselecteerde kleur toe te passen op zowel de omlijning als op de opvulling  van de lijn.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Kleur selector</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Selecteer de kleur om de lijn toe te passen.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Dikte</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Specificeer de dikte waarin de lijn wordt weergegeven.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Comprimeren... rekken</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">
+                                <p class="ParagraphsInTables" xmlns="">Gebruik het schuif besturingselement om de hoeveelheid te specificeren waarmee de lijnstijl moet worden gecomprimeerd of uitgerekt</p>
+                                <p class="ParagraphsInTables" xmlns="">Merk op dat het effect van dit besturingselement alleen merkbaar is bij onderbroken lijnstijlen - een gestippelde lijn, bijvoorbeeld.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="How_do_I.flsnp" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... de opmaak van een geselecteerde lijn specificeren ?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Specificeer de stijl voor de lijn via de lijn stijl selector.</li>
+                    <li>Specificeer de kleur voor de lijn in de <b xmlns="">Kleur selectie</b> groep.</li>
+                    <li>Specificeer breedte waarmee de lijn wordt weergegeven in het <b>Dikte</b> veld.</li>
+                    <li>Gebruik het <b xmlns="">Comprimeren... rekken</b> schuif besturingselement om de hoeveelheid te specificeren waarmee de lijnstijl moet worden gecomprimeerd of uitgerekt.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

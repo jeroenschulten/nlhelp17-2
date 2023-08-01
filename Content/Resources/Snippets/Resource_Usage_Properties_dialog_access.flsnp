@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="126" MadCap:lastWidth="948">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b>Hulpmiddel Inzet Eigenschappen</b> dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Om toegang te krijgen tot het <b>Hulpmiddel Inzet Eigenschappen</b> dialoogvenster, klik op <b xmlns="">Eigenschappen</b> in het linkerpaneel van de hulpmiddel inzet view, of rechtsklik op een allocatieregel in de hulpmiddel inzet view en selecteer <b xmlns="">Hulpmiddel Inzet View Eigenschappen</b>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

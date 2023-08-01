@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="84" MadCap:lastWidth="895">
+    <body>
+        <li><b>Type</b> - een tekststring het type document definieert: stel dit in op "file" om het <b>helpitem</b> element te koppelen aan een document van elk type; "help" om het te linken aan een CHM bestand; "mail" voor een hyperlink naar een email naar een specifiek email adres; of "url" voor een link naar een URL, ofwel op het Internet ofwel op een Intranet.</li>
+    </body>
+</html>

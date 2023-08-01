@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:priority="0" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" class="KLAAR" xml:lang="nl-nl">
+    <head>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Taken dwingen:om te voltooien binnen een enkele tijdsperiode;Taken dwingen:om te voltooien binnen een enkele shift;Taken dwingen om te voltooien binnen een enkel werkpatroon;Tijdsperiodes;Tijdsperiodes:taken dwingen om te voltooien binnen een enkele;Shifts:taken dwingen om te voltooien binnen een enkele;Werkpatronen:taken dwingen om te voltooien binnen een enkel;Filters:en taken die gedwongen zijn te voltooien binnen een enkele tijdsperiode, shift of werkpatroon" />Dwingen dat taken voltooid worden binnen een enkele tijdsperiode, shift of werkpatroon</h1>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Constraining_tasks.flsnp" />
+        <table wrapperparagraphselector="P" cellspacing="0" width="100%">
+            <tr>
+                <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="margin-bottom: 0;" align="center">
+                        <img src="../../../../Graphics/Bar_chart_editing/mustcompletewithin1.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" border="0" />
+                    </p>
+                </td>
+                <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="margin-bottom: 0;" align="center">
+                        <img src="../../../../Graphics/Bar_chart_editing/mustcompletewithin2.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" border="0" />
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="margin-bottom: 0;" align="center">Voor het herberekenen</p>
+                </td>
+                <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="margin-bottom: 0;" align="center">Na het herberekenen</p>
+                </td>
+            </tr>
+        </table>
+        <p>Merk op dat in bovenstaande illustraties, de herberekening taak C verplaatst zodat deze start halverwege de woensdagochtend – omdat dan taak A eindigt – en eindigt midden op de woensdagmiddag. Hoewel dit logischerwijs correct is – de linklogica toont dat taak C kan starten zodra taak A is voltooid – kan dit mogelijk niet de manier weergeven waarin met taken wordt gewerkt in de realiteit. Sommige taken moeten wanneer eenmaal gestart zonder onderbreking worden voltooid. Een taak als beton storten is hiervoor een goed voorbeeld.</p>
+        <p>U kunt dit in uw projecten laten terugkomen door taken te dwingen binnen een bepaalde periode, shift of werkpatroon waarin ze zijn gestart te voltooien, ervoor zorgend dat ze niet worden opgebroken in meer dan een segment. Wanneer in bovenstaand voorbeeld taak C werd gedwongen binnen een periode voltooid te zijn, zou herberekenen erin resulteren dat de taak start op woensdagmiddag – de start van de volgende periode – als in onderstaande afbeelding:</p>
+        <p>
+            <img src="../../../../Graphics/Bar_chart_editing/mustcompletewithin3.gif" />
+        </p>
+        <p>Als de duur van een taak langer is dan de duur van een periode maar minder dan of gelijk aan de duur van een shift, zou het zin hebben deze te dwingen binnen een enkele shift te voltooien in plaats van in een tijdsperiode. In de volgende illustratie is taak D te lang om in het resterend deel van de woensdag shift te passen. Aangezien de taak wordt gedwongen te voltooien binnen een enkel shift, zou herberekenen van het project erin resulteren dat de taak start op donderdagochtend – de start van de volgende shift:</p>
+        <p>
+            <img src="../../../../Graphics/Bar_chart_editing/mustcompletewithin4.gif" />
+        </p>
+        <p>Als de duur van een taak langer is dan de duur van een shift maar korter of gelijk aan de duur van een werkpatroon, zou het zin hebben deze te dwingen binnen een enkel werkpatroon in plaats van in een enkele shift. Wanneer u een taak configureert om te voltooien in een enkele tijdsperiode, shift of werkpatroon wanneer de tijdsperiode, shift of werkpatroon korter is dan de duur van de taak, ziet u een waarschuwing wanneer u het project herberekent.</p>
+        <p>Tijdsperiodes, shifts en werkpatronen worden als volgt gedefinieerd:</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Must_complete_within_2.flsnp" />
+        <p>U kunt filteren op taken die worden gedwongen om te voltooien binnen een enkele tijdsperiode, shift of werkpatroon met behulp van de <b>Vlaggen en Buffers</b> pagina van de <b>Filter Wizard</b>.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Om een enkele taak te dwingen te voltooien binnen een enkele tijdsperiode, shift of werkpatroon na een herberekening</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Rechtsklik op de taak en selecteer <b>Eigenschappen</b>. Het <b>Balk en Taak Eigenschappen</b> dialoogvenster verschijnt.</li>
+                    <li>Klik op het Taak tabblad.</li>
+                    <li>In het Vlaggen deel van dit tabblad, selecteert u Tijdsperiode, Shift of Werkpatroon in het <b>Moet Voltooid Binnen</b> veld om de taak te dwingen te voltooien binnen een enkele tijdsperiode, shift of werkpatroon.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>U kunt de volgende taaktypes niet configureren om te voltooien binnen een enkele tijdsperiode, shift of werkpatroon:</p>
+        <ul>
+            <li>Taken geconfigureerd om ZLM te starten.</li>
+            <li>Taken met een Starten Op of Eindigen Op vlag.</li>
+            <li>Taken die zijn geconfigureerd om op een nieuwe dag te starten.</li>
+            <li>Buffertaken.</li>
+            <li>Duur berekende taken.</li>
+        </ul>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p><a href="Using_constraints.htm">Vlaggen gebruiken</a>
+        </p>
+        <p><a href="New_day.htm">Taken dwingen om op een nieuwe dag te starten</a>
+        </p>
+        <p><a href="../../Views/Filtering/Filtering_for_specific_bars_and_tasks.htm">Filteren op specifieke balken en taken</a>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>In het volgende voorbeeld vertegenwoordigt de zwarte lijn de datum die we gebruiken om te beoordelen of een taak al dan niet laat wordt gestart. Beide taken 1 en 2 waren oorspronkelijk gepland voor deze datum en taak 3 zou na deze datum moeten starten. Op dat moment werd een baseline gemaakt. De baselinetaken worden hieronder geel weergegeven. In het actuele project zijn nu alle drie de taken opnieuw gepland om later te beginnen dan hun oorspronkelijke startdatums:</p>
+        <p>
+            <img src="../../Graphics/Baselines/latestartingtasks.gif" />
+        </p>
+        <p>Wanneer u filterde op taken die laat startend zijn, en de gegeven datum gebruikte die bij de zwarte lijn hoort:</p>
+        <ul>
+            <li>Taak 1 zou voldoen aan het filter, omdat deze oorspronkelijk gepland was om te starten vóór de gegeven datum en nu gepland staat om te starten na de opgegeven datum. Ze wordt beschouwd als zijnde laat startend.</li>
+            <li>Taak 2 zou niet voldoen aan het filter, omdat deze oorspronkelijk gepland was om te starten vóór de gegeven datum en nu nog steeds gepland staat voor de gegeven datum. Ze wordt dus niet beschouwd als zijnde laat startend.</li>
+            <li>Taak 3 zou niet voldoen aan het filter, omdat deze oorspronkelijk gepland was om te starten ná de gegeven datum. Ze wordt dus ook niet beschouwd als zijnde laat startend.</li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Rescheduling_projects\Reschedule_errors\Link_loops_caused_by_links_with_maximum_lag.htm" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Linklussen:en maximale negatieve wachttijd op links" />Linklussen, veroorzaakt door links met een maximum tijdsverschil</h1>
+        <p>Een mogelijke oorzaak van linklussen kan zijn dat de maximale wachttijd voor de link is ingesteld. Deze linklussen zijn niet altijd meteen zichtbaar als u kijkt naar de balkkaart. Kijkt u eens naar de taken in het onderstaande voorbeeld:</p>
+        <p>
+            <img src="../../../../Graphics/Rescheduling_projects/maxlaglinkloop1.gif" style="border: none;" width="219" height="170" border="0" />
+        </p>
+        <p>Een maximale wachttijd van twee dagen is aangegeven op de link tussen taak A en taak B. De startdatum van taak B wordt niet alleen bepaald door de einddatum van taak A, maar ook nog door de mijlpaal eronder. Omdat de link tussen taak A en taak B een maximale wachttijd heeft, zal als de mijlpaal in de tijd naar voren wordt verschoven en het project wordt herberekend, taak B overeenkomstig verschuiven, evenals taak A, om er zeker van te zijn dat taak B niet later start dan twee dagen nadat taak A is beëindigd. Omdat taak A verplaatst is, zal taak C - haar opvolger taak - ook naar voren in de tijd worden verplaatst.</p>
+        <p>Kijkend naar de bovenstaande taken, zou het volledig logisch zijn om in staat zijn om een link te creëren tussen taak C en taak B, zoals hieronder geïllustreerd wordt:</p>
+        <p>
+            <img src="../../../../Graphics/Rescheduling_projects/maxlaglinkloop2.gif" style="border: none;" width="219" height="170" border="0" />
+        </p>
+        <p>Echter, wanneer deze link is toegevoegd aan het project, zou er een linklus worden gerapporteerd de eerstvolgende keer dat het project wordt herberekend. De oorzaak van de linklus is niet onmiddelijk duidelijk. Een linklus bestaat omdat om taak A correct op de balkkaart te positioneren, taak B eerst moet worden gepositioneerd. Dit betekent dat er een afhankelijkheid bestaat van taak B aan taak A, zelfs als dit niet meteen zichtbaar is op de balkkaart - en daarom ook van taak B aan elke van de opvolgers van taak A. Omdat taak C een opvolger is van taak A, betekent het creëren van een link van taak C naar taak B daarom het creëren van een linklus.</p>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p><a href="Finding_link_loops.htm">Zoeken naar linklussen</a>
+        </p>
+        <p><a href="../../Bar_chart_editing/Links_lead_lag/Specifying_a_maximum_lag_time.htm">Maximum wachttijd opgeven</a>
+        </p>
+    </body>
+</html>

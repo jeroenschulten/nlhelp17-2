@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Rescheduling_projects\Setting_reschedule_options\Setting_reschedule_options.htm" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" class="KLAAR" xml:lang="nl-nl">
+    <head>
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Herberekenen:specificeren hoe taken zonder links worden beïnvloed;Herberekenen:specificeren hoe taken met alleen uitgaande links worden beïnvloed;Vlaggen velden:taken toestaan om bepaalde eindvlaggen te overschrijden;Herberekenen:taken toestaan om bepaalde eindvlaggen te overschrijden;Herberekenen:samenvattingstaken als kritiek weergeven wanneer gedeelte inhoud dat is;Links:gedurende herberekening verplaatsen van gedeeltelijk voltooide;Herberekenen:gedeeltelijk voltooide links verplaatsen;Gedeeltelijk voltooide links;Speling:afkappen binnen kaartgrenzen;Kaarten:afgekapte speling binnen grenzen;Herberekenen:afgekapte speling;Links:hoe ze worden beïnvloed door voltooide taken;Herberekenen:specificeren hoe links rond voltooide taken worden beïnvloed;Voortgangsperioden:voortgangslijnen rechttrekken tijdens de herberekening;Voortgangslijnen:rechttrekken tijden herberekening;Voortgangslijnen;Voortgang:hoe taken met voortgang worden herberekend;Herberekenen:specificeren hoe taken met voortgang worden beïnvloed;Link categorieën:negeren gedurende een herberekening;Herberekenen:negeren van link categorieen tijdens;Herberekeningsopties instellen;Herberekenen:de projectdeadline datum als een deadline gebruiken;Projectdeadline:gebruiken als een deadline bij het herberekenen" />Herberekeningsopties instellen</h1>
+        <p>Er zijn een aantal opties die u kunt selecteren om de wijze te controleren waarop het programma taken herberekent. U kunt standaard herberekening opties instellen en u kunt herberekening opties specificeren op het moment van herberekenen.</p>
+        <p>U kunt uw standaard opties voor de herberekening instellen met behulp van het tabblad <span style="font-weight: bold;">Herberekenen</span> in het dialoogvenster <b>Opties</b>. Om toegang te krijgen tot het  dialoogvenster <b>Opties</b>: klik op het tabblad <b>Bestand</b>, klik vervolgens op <b>Opties</b>.</p>
+        <p>U kunt de opties op het moment van herberekenen specificeren door gebruik te maken van het dialoogvenster <b>Herberekenen</b>. Om toegang te krijgen tot het dialoogvenster <b>Herberekenen</b>: klik in het tabblad <b>Start</b>, in de <b>Planning</b> groep, op het <b>Herberekenen</b> keuzelijstje en selecteer <b>Opties</b>.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Om te specificeren hoe taken zonder links worden herberekend</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <a name="Tasks_with_no_links">
+                    </a>Gebruik de opties in de groep <span style="font-weight: bold;">Taken zonder links</span> in het  dialoogvenster <b>Herberekenen</b> om te bepalen hoe taken zonder links worden herberekend.</p>
+                <p>In de onderstaande illustratie is de taak op balk 4 niet gelinkt en bepaalt deze op dit moment de einddatum van het project.</p>
+                <p>
+                    <img src="../../../../Graphics/Rescheduling_projects/taskswithnolinks1.gif" alt="De laatste taak bepaalt de einddatum van het project" title="De laatste taak bepaalt de einddatum van het project" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="193" height="118" border="0" />
+                </p>
+                <p>U schakelt het selectievakje <span style="font-weight: bold;">Ongewijzigd laten</span> in, om te specificeren dat taken zonder links niet worden verplaatst. In dit voorbeeld, zou dit resulteren in speling op balken 1-3:</p>
+                <p>
+                    <img src="../../../../Graphics/Rescheduling_projects/taskswithnolinks2.gif" alt="De taak op balk 4 gaat verder om de einddatum van het project te bepalen" title="De taak op balk 4 gaat verder om de einddatum van het project te bepalen" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="195" height="118" border="0" />
+                </p>
+                <p>U schakelt het selectievakje <span style="font-weight: bold;">Verplaatsen indien buiten project- of kaartgrenzen</span> in, om te specificeren dat taken zonder links de minimum noodzakelijke hoeveelheid worden verplaatst, wanneer deze de start- of einddatum van de kaart of het project bepalen. In dit voorbeeld, zou dit resulteren tot het achterwaarts verplaatsen van de taak op balk 4 zodat deze niet langer de einddatum bepaalt:</p>
+                <p>
+                    <img src="../../../../Graphics/Rescheduling_projects/taskswithnolinks3.gif" alt="De taak op balk 4 bepaalt niet langer de einddatum van het project" title="De taak op balk 4 bepaalt niet langer de einddatum van het project" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="159" height="118" border="0" />
+                </p>
+                <p>U schakelt het selectievakje <span style="font-weight: bold;">Verplaatsen naar ZSM of ZLM positie</span> in, om aan te geven dat taken zonder links worden verplaatst naar de ZSM of ZLM positie. In dit voorbeeld, zou dit resulteren in het verplaatsen van de taak op balk 4 naar de vroegst mogelijke positie:</p>
+                <p>
+                    <img src="../../../../Graphics/Rescheduling_projects/taskswithnolinks4.gif" alt="De taak op balk 4 wordt verplaatst naar de vroegst mogelijke positie" title="De taak op balk 4 wordt verplaatst naar de vroegst mogelijke positie" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="158" height="118" border="0" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Om te specificeren hoe taken met uitgaande links worden herberekend</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <a name="Tasks_with_only_outgoing_links">
+                    </a>Gebruik de opties in de groep <span style="font-weight: bold;">Taken met alleen uitgaande links</span> in het dialoogvenster <b>Herberekenen</b> om te bepalen hoe taken met uitgaande links maar geen inkomende links worden herberekend.</p>
+                <p>In de onderstaande illustratie, heeft de taak op balk 3 een uitgaande link maar geen binnenkomende link:</p>
+                <p>
+                    <img src="../../../../Graphics/Rescheduling_projects/onlyoutgoing1.gif" alt="De taak op balk 3 heeft geen binnenkomende links" title="De taak op balk 3 heeft geen binnenkomende links" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="131" height="118" border="0" />
+                </p>
+                <p>U schakelt het selectievakje <span style="font-weight: bold;">Ongewijzigd laten</span> in, om te specificeren dat taken met alleen uitgaande links niet worden verplaatst. In dit voorbeeld, zou de taak op balk 3 invloed hebben op de einddatum van het project:</p>
+                <p>
+                    <img src="../../../../Graphics/Rescheduling_projects/onlyoutgoing2.gif" alt="De taak op balk 3 heeft invloed op de einddatum van het project" title="De taak op balk 3 heeft invloed op de einddatum van het project" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="163" height="118" border="0" />
+                </p>
+                <p>U schakelt het selectievakje <span style="font-weight: bold;">Verplaats naar ZSM of ZLM positie</span> in, om aan te geven dat taken met alleen uitgaande links worden verplaatst naar de ZSM of ZLM positie. In dit voorbeeld, zou dit resulteren in het verplaatsen van de taak op balk 3 naar de vroegst mogelijke positie:</p>
+                <p>
+                    <img src="../../../../Graphics/Rescheduling_projects/onlyoutgoing3.gif" alt="De taak op balk 3 wordt verplaatst naar de vroegste positie" title="De taak op balk 3 wordt verplaatst naar de vroegste positie" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="132" height="118" border="0" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Om compatibiliteit opties te specificeren</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <a name="Compatibility_options">
+                    </a>Gebruik de opties in de groep <span style="font-weight: bold;">Compatibiliteit</span>  van het dialoogvenster <b>Herberekenen</b> om het programma <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> ZLM taken en taken met een eindvlag te laten herberekenen zoals voorgaande versies van <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> dat gedaan zouden hebben. U kunt er voor kiezen om deze opties in te schakelen als u graag op dezelfde manier werkt zoals de vroegere versie van <MadCap:variable name="Primary.Asta Asta Powerproject Name" />.</p>
+                <p>Gebruik het selectievakje <span style="font-weight: bold;">ZLM taken hebben geen vrije speling</span> om te kiezen of u de weergave van vrije speling links van ZLM taken wilt onderdrukken. Wanneer het selectievakje is ingeschakeld wordt er geen vrije speling links naast ZLM taken weergegeven. Wanneer het selectievakje is uitgeschakeld wordt vrije speling links naast ZLM taken weergegeven.</p>
+                <p>Maak gebruik van het selectievakje <span style="font-weight: bold;">Eindig op of voor vlaggen zijn "zacht"</span> om te kiezen of taken met een eindvlag voorbij hun eindvlagdatum mogen komen. Wanneer het selectievakje is ingeschakeld mogen taken voorbij hun eindvlagdatum komen. Wanneer het selectievakje niet is ingeschakeld zal de herberekening de taken niet voorbij hun eindvlagdatum plaatsen, wat kan resulteren in een negatieve speling, en zeer kritische taken, op het kritieke pad.</p>
+                <p>Als u een deadlinevlag toewijst aan een taak, heeft de taak altijd de mogelijkheid om voorbij zijn eindvlagdatum te komen, ongeacht uw selectie van het selectievakje, dit gaat op dezelfde manier als taken voorbij gewone eindvlaggen kunnen komen als het selectievakje <span style="font-weight: bold;">Eindig op of voor vlaggen zijn "zacht"</span> ingeschakeld is. Deadlinevlaggen wijzen in de tegenovergestelde richting van andere eindvlaggen. De eindvlag wordt blauw weergegeven, totdat de taak eraan voorbij gaat, waarna de eindvlag rood wordt.</p>
+                <p>Gebruik het <span style="font-weight: bold;">Samenvattingen zijn kritiek als inhoud ervan dat is</span> selectievakje om te kiezen of u wilt dat samenvattingstaken als kritiek worden weergegeven wanneer sommige taken - maar niet alle - daarbinnen zich op het kritieke pad bevinden. Wanneer dit keuzevakje is ingeschakeld worden zulke samenvattingstaken getoond als kritiek. Wanneer dit keuzevakje is uitgeschakeld worden zulke samenvattingstaken niet getoond als kritiek</p>
+                <p>Gebruik het <span style="font-weight: bold;">Negatieve speling toepassen op keten</span> selectievakje om de wijze waarop u wilt dat negatieve speling wordt toegepast op een keten van taken na het herberekenen. Wanneer deze optie is ingeschakeld zullen reeksen van taken waarbinnen negatieve speling zit de vlag aan het einde van de reeks overschrijden, waardoor de negatieve speling feitelijk wordt toegepast op alle taken in de keten. Wanneer deze optie is uitgeschakeld zal de vlag aan het einde worden gerespecteerd waardoor de negatieve speling alleen zal worden toegepast op de taak aan het begin van de keten.</p>
+                <p>Dit wordt hieronder afgebeeld:</p>
+                <table wrapperparagraphselector="P" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <img src="../../../../Graphics/Rescheduling_projects/negativefloatcleared.gif" style="border: none;" width="247" height="152" border="0" />
+                            </p>
+                        </td>
+                        <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <img src="../../../../Graphics/Rescheduling_projects/negativefloatselected.gif" style="border: none;" width="248" height="152" border="0" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <span style="font-weight: bold;">Negatieve speling...</span> selectievakje uitgeschakeld</p>
+                        </td>
+                        <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <span style="font-weight: bold;">Negatieve speling...</span> selectievakje ingeschakeld</p>
+                        </td>
+                    </tr>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Om de projectdeadline datum te gebruiken als een deadline bij een herberekening</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <a name="Delivery_date_as_deadline">
+                    </a>Schakel het selectievakje <b>Gebruik projectdeadline</b> in om de projectdeadline die bij het project is opgegeven als deadline te gebruiken of schakel het selectievakje uit om de einddatum van de laatste taak in het project te gebruiken om de late en vrije einddatums in te stellen en de speling te berekenen. </p>
+                <p>Een projectdeadline datum biedt een deadline voor alle taken in het project, dus als dit selectievakje is ingeschakeld, hebben taken die de projectdeadline overschrijden negatieve speling (dat wil zeggen dat ze superkritisch worden) na een herberekening.</p>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Project_delivery_date_3.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Om te specificeren hoe gedeeltelijk voltooide links worden herberekend</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <a name="Part_completed_links">
+                    </a>Schakel het selectievakje <span style="font-weight: bold;">Verplaats gedeeltelijk voltooide links</span> in, in het  dialoogvenster <b>Herberekenen</b> om de logische link te behouden wanneer voortgang niet op volgorde plaatsvindt. Wanneer een link bij een onvoltooide taak, start en eindigt op een voltooid gedeelte van een gedeeltelijk voltooide taak (vandaar 'gedeeltelijk voltooide links'), dan kunt u de link verplaatsen van het voltooide gedeelte van de taak tot het volgende onvoltooide gedeelte.</p>
+                <p>In de illustratie hieronder, wordt er een link gelegd vanuit de onvoltooide taak op balk 2 naar het voltooide gedeelte van de taak op balk 1:</p>
+                <p>
+                    <img src="../../../../Graphics/Rescheduling_projects/partcompletedlinks1.gif" alt="De link eindigt op een voltooid gedeelte van de taak op balk 1" title="De link eindigt op een voltooid gedeelte van de taak op balk 1" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="156" height="63" border="0" />
+                </p>
+                <p>Schakel het selectievakje <span style="font-weight: bold;">Verplaats gedeeltelijk voltooide links</span> in, om aan te geven dat gedeeltelijk voltooide links worden verplaatst naar het volgende onvoltooide gedeelte van de taak. In dit voorbeeld, zou de link worden verplaatst naar het tweede gedeelte van de taak op balk 1:</p>
+                <p>
+                    <img src="../../../../Graphics/Rescheduling_projects/partcompletedlinks2.gif" alt="De link wordt verplaatst wanneer het selectievakje is ingeschakeld" title="De link wordt verplaatst wanneer het selectievakje is ingeschakeld" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="134" height="63" border="0" />
+                </p>
+                <p>U schakelt het selectievakje <span style="font-weight: bold;">Verplaats gedeeltelijk voltooide links</span> uit, om aan te geven dat gedeeltelijk voltooide links niet worden verplaatst. In dit voorbeeld, blijft de link op het eerste gedeelte van de taak op balk 1:</p>
+                <p>
+                    <img src="../../../../Graphics/Rescheduling_projects/partcompletedlinks3.gif" alt="De link wordt niet verplaatst wanneer het selectievakje niet is ingeschakeld" title="De link wordt niet verplaatst wanneer het selectievakje niet is ingeschakeld" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="131" height="63" border="0" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Om te specificeren of speling wordt afgekapt bij een herberekening</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <a name="Truncating_float">
+                    </a>Schakel het selectievakje <span style="font-weight: bold;">Speling berekenen per niveautaak</span> in, in het dialoogvenster <b>Herberekenen</b> om te kiezen of de speling in een subkaart wordt weergegeven tot aan de einddatum van het project, of dat deze wordt ingekort tot de einddatum van de bovenliggende niveautaak.</p>
+                <p>Wanneer het selectievakje is uitgeschakeld, dan wordt speling in samenvattingstaken en niveautaken weergegeven in relatie tot de einddatum van het projectbestand, zoals in de onderstaande illustratie, waar de einddatum van het project later is dan de laatste taak in de weergegeven subkaart (de taken in het erboven liggende plaatje vertegenwoordigen de subkaart van de niveautaak die linksboven te zien is):</p>
+                <p>
+                    <img src="../../../../Graphics/Rescheduling_projects/truncatefloat1.gif" alt="De speling wordt weergegeven tot aan de projecteinddatum" title="De speling wordt weergegeven tot aan de projecteinddatum" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="227" height="142" border="0" />
+                </p>
+                <p>Wanneer u deze weergave van de speling verwarrend vindt en het prefereert om de speling tot de einddatum van bovenliggende niveautaak in te korten, kunt u dit doen door de optie te selecteren, zoals hieronder wordt geïllustreerd:</p>
+                <p>
+                    <img src="../../../../Graphics/Rescheduling_projects/truncatefloat2.gif" alt="De speling is afgekapt" title="De speling is afgekapt" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="227" height="142" border="0" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Om te specificeren hoe links worden beïnvloed door voltooide taken</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <a name="Links_completed_tasks">
+                    </a>U schakelt het selectievakje <span style="font-weight: bold;">Herlink om voltooide taken</span> in bij het dialoogvenster <b>Herberekenen</b> om links opnieuw te plaatsen om voltooide taken heen, wanneer de voortgang in een niet geplande volgorde wordt uitgevoerd. Wanneer een reeks gelinkte taken een voltooide taak in het midden heeft, dan zullen de links rond de taak deze 'passeren', en zullen de omliggende onvoltooide taken aan elkaar worden gelinkt.</p>
+                <p>Wanneer u het selectievakje uitschakelt, dan zullen voltooide taken te midden van de onvoltooide binnen de link logica blijven.</p>
+                <p>In de onderstaande illustratie, worden de drie taken gelinkt, maar is alleen de middelste taak voltooid:</p>
+                <p>
+                    <img src="../../../../Graphics/Rescheduling_projects/linkscomplete1.gif" alt="De middelste taak is voltooid" title="De middelste taak is voltooid" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="140" height="81" border="0" />
+                </p>
+                <p>U schakelt het selectievakje <span style="font-weight: bold;">Herlinken om voltooide taken</span> in, om aan te geven dat voltooide taken worden verwijderd uit de link logica. In dit voorbeeld, zouden de links naar en vanuit de taak op balk 2 worden verwijderd en de taken op balk 1 en 3 rechtstreeks aan elkaar worden gelinkt</p>
+                <p>
+                    <img src="../../../../Graphics/Rescheduling_projects/linkscomplete3.gif" alt="De voltooide taak is verwijderd uit de link volgorde" title="De voltooide taak is verwijderd uit de link volgorde" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="140" height="81" border="0" />
+                </p>
+                <p>U schakelt het selectievakje <span style="font-weight: bold;">Herlinken om voltooide taken</span> uit, om aan te geven dat onvoltooide taken de eigen posities behouden in de link volgorde. In dit voorbeeld, blijven de links naar en vanuit de taak op balk 2 bestaan en wordt de taak op balk 1 verplaatst naar de ZLM positie:</p>
+                <p>
+                    <img src="../../../../Graphics/Rescheduling_projects/linkscomplete2.gif" alt="De bestaande links worden niet veranderd en taak 1 wordt verplaatst" title="De bestaande links worden niet veranderd en taak 1 wordt verplaatst" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="140" height="81" border="0" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Om te specificeren hoe taken met voortgang herberekend worden</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <a name="Moving_progressed_tasks">
+                    </a>Selecteer een voortgangsperiode, in het veld <span style="font-weight: bold;">Voortgangslijn rechttrekken tot periode</span>  in het dialoogvenster <b>Herberekenen</b> als u de voortgangslijn recht wil trekken naar de rapportdatum van de geselecteerde voortgangslijn tijdens het herberekenen. Als u kiest om de voortgangslijn recht te trekken, worden alle onvoltooide taken die voor de rapportdatum vallen, naar voren geplaatst in overeenstemming met de rapportdatum, zodat ze in de toekomst komen te liggen (wat aangeeft dat ze nog steeds uitgevoerd moeten worden).</p>
+                <p>Als u de voortgangslijn rechttrekt, kunt u kiezen of u wilt dat alle voltooide taken die na de rapportdatum liggen ook terug verplaatst worden naar vóór de rapportdatum (wat aangeeft dat ze uitgevoerd zijn en in het verleden liggen). Als u kiest om voltooide taken die na de rapportdatum vallen te verplaatsen, zal de voortgangslijn volledig recht worden na de herberekening, maar de werkelijke startdatums van sommige voltooide taken zullen veranderd zijn. Als u kiest om voltooide taken die na de rapportdatum vallen niet te verplaatsen, zal de voortgangslijn niet geheel recht zijn - de herberekening zal alleen onvoltooide taken naar voren schuiven.</p>
+                <p>In de onderstaande afbeelding toont de zaagtandlijn dat de taak op balk 2 ligt voor op de planning en de taak op regel 3 ligt achter op de planning:</p>
+                <p>
+                    <img src="../../../../Graphics/Rescheduling_projects/progressedtasks1.gif" alt="Taak 2 ligt voor op de planning; taak 3 ligt achter op de planning" title="Taak 2 ligt voor op de planning; taak 3 ligt achter op de planning" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="209" height="118" border="0" />
+                </p>
+                <p>Wanneer de voortgangsperiode geselecteerd is in het veld <span style="font-weight: bold;">Voortgangslijn rechttrekken tot periode</span>, dan wordt de voortgangslijn rechtgetrokken tijdens de herberekening. Het voltooide deel van taak 2 is verplaatst naar achter de voortgangslijn en taak 3 ervoor:</p>
+                <p>
+                    <img src="../../../../Graphics/Rescheduling_projects/progressedtasks2.gif" alt="De taken zijn verplaats rondom de voortgangslijn" title="De taken zijn verplaats rondom de voortgangslijn" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="345" height="118" border="0" />
+                </p>
+                <p>Wanneer er geen voortgangsperiode is geselecteerd, dan worden voltooide taken niet achter de voortgangslijn verplaatst en worden onvoltooide taken alleen verplaatst wanneer deze worden beïnvloed door links en vlaggen. Dit kan resulteren in onvoltooide taken die achter de voortgangslijn liggen, zoals hieronder wordt geïllustreerd:</p>
+                <p>
+                    <img src="../../../../Graphics/Rescheduling_projects/progressedtasks3.gif" alt="De taken worden niet verplaatst" title="De taken worden niet verplaatst" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="291" height="118" border="0" />
+                </p>
+                <p>Wanneer u een voortgangsperiode selecteert in het veld <span style="font-weight: bold;">Voortgangslijn rechttrekken tot periode</span> en het selectievakje <span style="font-weight: bold;">Behoud werkelijke start</span> is ingeschakeld, dan worden onvoltooide taken verplaatst voorbij de rapportdatum, maar worden voltooide taken niet voor de rapportdatum geplaatst. Dit wordt hieronder geïllustreerd, waar taak 3 voor de rapportdatum is geplaatst, maar waar het voltooide deel van taak 2 niet is verplaatst, hetgeen resulteert in een gedeeltelijk rechtgetrokken voortgangslijn:</p>
+                <p>
+                    <img src="../../../../Graphics/Rescheduling_projects/progressedtasks4.gif" alt="Alleen niet voltooide taken worden verplaatst" title="Alleen niet voltooide taken worden verplaatst" style="border: none;" width="305" height="118" border="0" />
+                </p>
+                <p xmlns="">&#160;</p>
+                <p>In plaats van het kiezen van een specifieke voortgangsperiode in het <span style="font-weight: bold;">Voortgangslijn Rechttrekken tot periode</span> veld, kunt u ook aangeven dat de voortgangslijn recht moet worden getrokken tot de rapportdatum van de voortgangsperiode die op dat moment gebruikt wordt om voortgang te rapporteren - de Voortgangsrapportdatum. Selecteer hiervoor Voortgangsrapportdatum in het veld.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Om te specificeren dat links van een bepaalde categorie moeten worden genegeerd in herberekening</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <a name="Ignoring_link_categories">
+                    </a>Selecteer één of meer link categorieën in het veld <span style="font-weight: bold;">Negeer link categorieën</span> van het dialoogvenster <b>Herberekenen</b> om links uit die categorie te negeren tijdens een herberekening Bijvoorbeeld, als u Hoge Prioriteit, Gemiddelde Prioriteit en Lage Prioriteit link categorieën hebt, dan kunt u herberekenen zonder rekening te houden met de links van de categorie Lage Prioriteit. U kunt dit doen door het selectievakje van de Lage Prioriteit categorie in te schakelen.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>Elke keer dat u een project herberekent kunt u <a href="../Reschedule_errors/Reschedule_reports.htm">een herberekeningsrapport maken</a> waarin de details staan van de resultaten van het herberekenen en alle als resultaat ervan ontstane fouten en afwijkingen. U zou het nuttig kunnen vinden om herberekeningsrapporten te maken om een aantal redenen - bijvoorbeeld, om linklussen te lokaliseren en op te lossen, om inconsistenties met vlaggen te lokaliseren, en om de taken op het langste pad - dit is het kritieke pad - te identificeren in het project netwerk. Het herberekeningsrapport is vooral handig bij kritieke pad analyse, en verschaft u cijfers of de kwaliteit van geplande projecten. Bijvoorbeeld, kritieke pad analyse vereist dat een project netwerk slechts één starttaak en één eindtaak bevat en dat er geen linklussen zijn of verkeerde voortgang is; U kunt het herberekeningsrapport gebruiken om erachter te komen of dit al dan niet het geval is in een project.</p>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p>
+            <a href="Calculating_drag.htm">De drag van kritieke taken berekenen bij herberekening</a>
+        </p>
+        <p>
+            <a href="Cascade_activity_numbers.htm">Cascade activiteitsnummers van taken berekenen bij herberekening</a>
+        </p>
+        <p>
+            <a href="Critical_path_integrity.htm">Checken van de integriteit van het kritieke pad bij het herberekenen</a>
+        </p>
+        <p>
+            <a href="../Reschedule_errors/Reschedule_reports.htm">Maken en bekijken van herberekeningsrapporten</a>
+        </p>
+        <p>
+            <a href="../Factors_that_affect/Factors_rescheduling.htm">Factoren die een herberekening beïnvloeden</a>
+        </p>
+        <p>
+            <a href="../../Structuring_your_project/Editing_the_properties_of_a_project/Specify_delivery_date.htm">Specificeren van een projectdeadline voor een project</a>
+        </p>
+    </body>
+</html>

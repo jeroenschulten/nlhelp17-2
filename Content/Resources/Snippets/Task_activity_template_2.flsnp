@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>If a task has an existing task activity with an identical name to one of the activities in the template, a warning is displayed and none of the task activities from the template are added to the task.</body>
+</html>

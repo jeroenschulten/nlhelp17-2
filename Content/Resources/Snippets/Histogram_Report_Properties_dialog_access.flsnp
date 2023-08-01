@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="231" MadCap:lastWidth="1001">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b>Histogram Rapport Eigenschappen</b> dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p style="margin-bottom: 0;">Om toegang te krijgen tot het <span style="font-weight: bold;" xmlns="">Histogram Rapport Eigenschappen</span> dialoogvenster, ofwel:</p>
+                <ul type="disc">
+                    <li class="p">rechtsklik op een open histogram en selecteer <span style="font-weight: bold;" xmlns="">Histogram Rapport Eigenschappen</span>.</li>
+                    <li class="p">Klik op <span style="font-weight: bold;" xmlns="">Bewerken</span> of <span style="font-weight: bold;" xmlns="">Nieuw</span> op het <span style="font-weight: bold;" xmlns="">Details</span> tabblad van het <span style="font-weight: bold;" xmlns="">Opmaak Histogram</span> dialoogvenster.</li>
+                    <li class="p">Rechtsklik op een histogram rapport in de Bibliotheek Verkenner en selecteer <span style="font-weight: bold;" xmlns="">Eigenschappen</span>.</li>
+                    <li class="p">Klik op <img src="../../Graphics/Toolbars/Histogram/histogramreportproperties.gif" alt="Histogram report properties" title="Histogram report properties" style="border: none;" width="19" height="19" border="0" xmlns="" /> op het Histogram werkbak.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

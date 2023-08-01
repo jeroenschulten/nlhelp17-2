@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1430" MadCap:lastWidth="774" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" class="KLAAR" xml:lang="nl-nl">
+    <head>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Herberekening:calculeren van cascade activiteitsnummers;Cascade activiteitsnummers;Cascade activiteitsnummers:calculeren tijdens herberekening" />Cascade activiteitsnummers van taken berekenen bij herberekening</h1>
+        <p>U kunt het cascade activiteitsnummer van taken berekenen bij herberekening. Berekenen van het cascade activiteitsnummer van taken maakt het mogelijk <MadCap:snippetText src="../../../../Resources/Snippets/Cascade_activity_numbers.flsnp" /></p>
+        <p>Om het cascade activiteitsnummer van taken te berekenen bij herberekening, selecteert u het <b>Cascade activiteitsnummers</b> keuzevakje op het <b>Herberekenen</b> tabblad van het <b>Opties</b> dialoogvenster (gebruikt om de standaard herbereken opties in te stellen) of het <b>Herberekenen</b> dialoogvenster (gebruikt om de opties in te stellen tijdens een herberekening).</p>
+        <p>Als u ervoor kiest de cascade activiteitsnummers te berekenen, zal het langer duren om een project te herberekenen; hierom worden cascade activiteitsnummers niet berekend wanneer Risico Analyse of de hulpmiddel leveller het project herberekent.</p>
+        <h2>Hoe cascade activiteitsnummers worden berekend</h2>
+        <p>Cascade activiteitsnummers worden bereken volgens onderstaande regels:</p>
+        <ul>
+            <li>De eerste taak wordt toegewezen aan cascade activiteitsnummer 1.</li>
+            <li>Volgende taken worden op volgorde genummerd - 2, 3, 4, etc. - tot de eerste "gebroken activiteit" (een taak waarop het pad zich deelt). Eén pad van deze gebroken activiteit wordt genummerd tot een "samenvoeg activiteit" (een taak waarop het pad een ander pad ontmoet) is bereikt.</li>
+            <li>Wanneer een samenvoegactiviteit is bereikt, wordt deze niet onmiddellijk genummerd, maar het genummerde pad wordt terug gevolgd tot de laatste gebroken activiteit ( d.w.z. naar diegene met het hoogste cascade activiteitsnummer). Indien een ander pad van deze gebroken activiteit naar dezelfde samenvoegactiviteit leidt, wordt dit pad genummerd. Indien de gebroken activiteit geen andere paden heeft die leiden naar de samenvoegactiviteit, wordt het genummerde pad terug gevolgd tot de dichtstbijzijnde hoogste gebroken activiteit. Dit proces wordt herhaald tot alle paden die leiden naar de samenvoegactiviteit zijn genummerd.</li>
+            <li>De samenvoeg activiteit wordt dan genummerd, en de cascade activiteitsnummering wordt hervat. </li>
+        </ul>
+        <p>Cascade activiteitsnummers worden berekend voor alle taak typen; voltooide taken hebben geen effectieve logica en worden derhalve beschouwd als hebbend een cascade activiteitsnummer nul. </p>
+        <p>In onderstaand voorbeeld, zijn de cascade activiteitsnummers berekend en de kaart is gesorteerd op cascade activiteitsnummer. Alle links lopen van boven naar beneden en de paden door het netwerk zijn duidelijk gescheiden, waarbij het kritieke pad als eerste verschijnt: </p>
+        <p>
+            <img src="../../../../Graphics/Rescheduling_projects/cascadeactivitynumbers.gif" />
+        </p>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p><a href="../Performing_a_reschedule/Resch_intro.htm">Introductie over het herberekenen van projecten</a>
+        </p>
+        <p><a href="../Performing_a_reschedule/Performing_a_reschedule.htm">Een herberekening uitvoeren</a>
+        </p>
+        <p><a href="../Reschedule_results/Logical_paths.htm">Gebruik maken van logische paden om de erosie van de totale speling te monitoren</a>
+        </p>
+        <p><a href="Setting_reschedule_options.htm">Herberekeningsopties instellen</a>
+        </p>
+    </body>
+</html>

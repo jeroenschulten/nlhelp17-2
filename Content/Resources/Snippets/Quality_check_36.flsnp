@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>Wanneer u dit selectievakje inschakelt, en er één taak in het domein van de kwaliteitscheck is zonder inkomende links en er één taak in het domein is zonder uitgaande links, dan wordt aangenomen dat deze taken de start- en eindtaken zijn en zal er voor dit criterium geslaagd zijn. Wanneer u dit selectievakje inschakelt en er meerdere taken zijn met alleen inkomende of uitgaande links, zullen al deze taken niet voldoen aan het criterium, net zoals ze falen als u het selectievakje uitschakelt.</body>
+</html>

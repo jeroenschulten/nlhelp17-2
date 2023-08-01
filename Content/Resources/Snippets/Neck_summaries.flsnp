@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>in om samenvattingstaken<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"> en hammocks</MadCap:conditionalText> 'in te knijpen', of 'in te deuken', om de positie van de onderliggende taken binnen de samenvattingsgroepen<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"> of hammocks</MadCap:conditionalText> weer te geven, of schakel het selectievakje uit samenvattingstaken<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"> en hammocks</MadCap:conditionalText> zonder deze inkepingen weer te geven. U kunt deze optie niet gebruiken wanneer de niet-werktijd markering op de taken getekend wordt. <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Merk op dat dit 'inknijpen' niet wordt toegepast op views wanneer ze in 'zaagtand voortgangs' mode worden weergegeven.</MadCap:conditionalText></body>
+</html>

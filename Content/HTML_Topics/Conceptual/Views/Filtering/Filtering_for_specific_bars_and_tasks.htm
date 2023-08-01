@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="Filteren op specifieke balken en taken" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl">
+    <head>
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Views:filteren op informatie in;Filters:voor specifieke balken en taken;Balken:filteren op specifieke;Taken:filteren op specifieke;Filters:types;Filters:balk en taak filters" />
+            <MadCap:keyword term="Filters:RBS/CBS filters" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" />Filteren op specifieke balken en taken</h1>
+        <p>Met behulp van filteren kunt u specifieke taken uit het geheel van projectgegevens extraheren. U zou bijvoorbeeld kunnen filteren op:</p>
+        <ul>
+            <li class="p">Alle taken waaraan een bepaald permanent hulpmiddel is toegewezen, om een lijst met taken voor dat hulpmiddel te maken.            </li>
+            <li class="p">Alle taken met een bepaalde "verantwoordelijkheid"code, om te zien welke taken de verantwoordelijkheid zijn van bepaalde afdelingen.            </li>
+            <li class="p" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Alle kritieke taken in het project, om te zien welke taken de einddatum van het project bepalen.            </li>
+            <li class="p">Alle taken waarvan werk in maart plaatsvindt, of alle taken die volgende week beginnen.            </li>
+            <li class="p">Alle taken met kosten van een bepaalde kostengroep, om de inkomsten en de uitgaven van die kostengroep te controleren.            </li>
+        </ul>
+        <p>Gefilterde balken en taken kunnen worden aangepast op dezelfde manier waarop balken en taken in de balkkaart kunnen worden aangepast.</p>
+        <p>U kunt <a href="Displaying_subheadings_in_filtered_views.htm">subtitels in een gefilterde view weergeven</a> die het kaartpad van de gefilterde objecten laat zien. Dit maakt het makkelijker om het gefilterde object te vinden in de samenvattingsgroepen <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">of subkaarten</MadCap:conditionalText>.</p>
+        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">U kunt een filter <a href="../Create_save_open/Creating_a_view.htm">opslaan als een eigenschap bij een view</a>, zodat bij het openen van die view dat filter automatisch wordt toegepast. Voorbeeld: een takenlijst view kan refereren aan een filter voor een bepaald hulpmiddel, zodat als die gebruiker zijn takenlijst view opent hij onmiddellijk een gefilterde view krijgt met alleen de taken waaraan hij is toegewezen.</p>
+        <p>U gebruikt filtercategorieën om de filters in uw project te classificeren. Het categoriseren van filters maakt het makkelijker om de filter te vinden waarnaar u op zoek bent, bijvoorbeeld bij het selecteren van een filter om deze toe te passen op de actieve view.</p>
+        <p>Filteren is een manier om de database van het project te raadplegen. Misschien bent u vertrouwd met het gebruik van SQL (Structured Query Language) om databases aan te spreken in andere programma kaarten zoals Oracle® en Microsoft Access<span style="vertical-align: Super;">TM</span>. <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> heeft zijn eigen query taal, te weten <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> TQL, die grotendeels gebaseerd is op SQL. Als u wilt, kunt u uw project database aanspreken door een TQL statement in te typen in het dialoogvenster <b>Filter Eigenschappen</b> in plaats van het gebruiken van de <b>Filter Wizard</b> die u stap voor stap door het aanmaken van een filter leidt.</p>
+        <MadCap:dropDown MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Balk en taak filters en RBS/CBS filters</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <a name="RBS_CBS_filter">
+                    </a>Er zijn twee soorten filters in Asta <MadCap:variable name="Primary.Asta Asta Powerproject Name" />: balk- en taakfilters, die balken en taken filteren in de projecthiërarchie, en RBS/CBS filters, die allocaties filteren in Resource Breakdown Structure en <![CDATA[
+				]]>Cost Breakdown structure views. U maakt beide filtertypen op dezelfde manier. Het filtertype wordt bepaald door de view die actief is op het moment dat u een filter maakt: indien u een filter maakt wanneer in de huidige view de projecthiërarchie zichtbaar is, maakt u een balk- en taakfilter; indien u een filter maakt terwijl de huidige view een RBS of CBS view laat zien, maakt u een RBS/CBS filter.</p>
+                <p>U kunt alleen een filter toepassen op het bijbehorende type view: u kunt geen balk- en taakfilter toepassen op een RBS of CBS view, en u kunt geen RBS/CBS filter toepassen op een view dat de projecthiërarchie toont. Filters verschijnen alleen  in het tabblad <span style="font-weight: bold;">View</span>, in de <span style="font-weight: bold;">View Gegevens</span> groep, op het <b>Filter</b> keuzelijstje en in het dialoogvenster <b>Meer Filters</b> wanneer u het daarbij behorende type view weergeeft: balk- en taakfilters verschijnen alleen in het menu wanneer de huidige view de projecthiërarchie weergeeft, en RBS/CBS filters verschijnen alleen in het menu in een RBS of een CBS view.</p>
+                <p>Wanneer u eenmaal een filter gemaakt hebt, kunt u het type niet meer veranderen: u kunt een RBS/CBS filter niet veranderen in een balk- en taakfilter of andersom.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p>
+            <a href="New_filter_Filter_Wizard.htm">Een nieuw filter maken met de Filter Wizard</a>
+        </p>
+        <p>
+            <a href="New_filter_SQL.htm">Een nieuw filter maken door het invoeren van een TQL statement</a>
+        </p>
+        <p>
+            <a href="Categorising_filters.htm">Categoriseren van filters</a>
+        </p>
+        <p>
+            <a href="How_to_apply_filter_criteria.htm">Filter criteria toepassen</a>
+        </p>
+        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+            <a href="Filters_expanded.htm">Het effect van filters op niveau- en samenvattingstaken</a>
+        </p>
+        <p MadCap:conditions="Powerproject_Easyplan.Easyplan_only">
+            <a href="Filters_expanded.htm">Het effect van filters op samenvattingstaken</a>
+        </p>
+        <p>
+            <a href="Filters_and_bar_start_and_end_dates.htm">Bepalen hoe filters de begin- en einddatums van balken beïnvloeden</a>
+        </p>
+        <p>
+            <a href="Displaying_subheadings_in_filtered_views.htm">Het weergeven van subtitels in gefilterde views</a>
+        </p>
+        <p>
+            <a href="Applying_and_editing_filters.htm">Filters toepassen en bewerken</a>
+        </p>
+        <p>
+            <a href="Applying_filter_project_view.htm">Een filter toepassen op de project view</a>
+        </p>
+        <p>
+            <a href="Using_a_filter_to_search_for_bars_and_tasks.htm">Een filter gebruiken om te zoeken naar balken en taken</a>
+        </p>
+    </body>
+</html>

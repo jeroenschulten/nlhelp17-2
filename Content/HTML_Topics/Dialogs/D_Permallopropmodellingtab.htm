@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="Dialoogvenster Permanente Allocatie Eigenschappen - tabblad Modellering" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl" MadCap:ignoredWords="graafmachinisten;graafmachinist">
+    <head>
+        <link href="../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1>Dialoogvenster Permanente Allocatie Eigenschappen - tabblad Modellering</h1>
+        <p>U gebruikt het <span style="font-weight: bold;">Modellering</span> tabblad van het
+<b>Permanente Allocatie Eigenschappen</b> dialoogvenster om de hulpmiddel modellering details van de geselecteerde permanente hulpmiddelallocatie te bekijken en te bewerken. De velden die beschikbaar zijn op dit tabblad worden bepaald door het type modellering die u heeft geselecteerd: sommige velden zijn alleen van toepassing bij bepaalde types hulpmiddelmodellering.</p>
+        <p MadCap:conditions="Powerproject_Easyplan.V17_Edit_resource_allocation_task_rights,Powerproject_Easyplan.Powerproject_only">Als u probeert een hulpmiddelallocatie zodanig te bewerken dat de einddatum van de taak ook wordt gewijzigd - dit omvat ook het uitschakelen van het selectievakje <b>Korter dan taak</b> voor een allocatie - zal uw bewerking mislukken, tenzij <a href="../Conceptual/Multi_user/Specifying_user_access_rights/Specifying_user_access_rights.htm">u ook het toegangsrecht 'Wijzigen' hebt bij taken</a>.</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Permanent_Allocation_Properties_dialog_access.flsnp" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Verklaring van de velden op het dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../../Resources/Stylesheets/Table_Stylesheet.css');caption-side: top;margin-left: 0;margin-right: auto;" cellspacing="0">
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <thead>
+                        <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Veld</th>
+                            <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Omschrijving</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Modelleringstype</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Selecteer het modelleringstype wat van toepassing is op de permanente hulpmiddelallocatie. <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Easyplan_only">Het modelleringstype dat van toepassing is op de permanente hulpmiddelallocatie.</MadCap:conditionalText></p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Zie: <a href="../Conceptual/Resources/Modelling/Modelling_permanent_resources.htm">Permanente hulpmiddelen modelleren</a></p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Inspanning</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Voer de hoeveelheid inspanning in die wordt verbruikt wanneer het hulpmiddel de allocatie uitvoert.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">De resterende, werkelijke en totale inspanning waarden worden weergegeven. Afhankelijk van het gebruikte modelleringstype kunt u de werkelijke en totale waardes ook hier bewerken.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Duur</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Voer de duur in waarover de allocatie van het hulpmiddel is verdeeld.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">De resterende, werkelijke en totale duur waarden worden weergegeven. Afhankelijk van het gebruikte modelleringstype kunt u de werkelijke en totale waarden ook hier bewerken.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Allocatie</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Voer het aantal hulpmiddelen in dat is gealloceerd, bijvoorbeeld 3 programmeurs of 2 graafmachinisten.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Te berekenen</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Specificeer of u wilt dat <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> de allocatie, duur, inspanning, werk of werk tempo van de allocatie moet berekenen. Het veld dat is gerelateerd aan de optie die u selecteert wordt vergrijsd op het dialoogvenster.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Variabele</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Specificeer of u wilt dat <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> de allocatie, inspanning, werk of werk tempo standaard aanpast wanneer u de allocatieduur wijzigt met behulp van de muis op de balkkaart. Selecteer Geen om de allocatieduur vast te houden en de wijziging niet te accepteren.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Taak werk</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De hoeveelheid werk die voltooid moet worden voor de taak. Dit wordt alleen berekend bij het gebruik van de Hoeveelheid van Taak modelleringstype.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Inspanning budget</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Voer de hoeveelheid inspanning in die is gedefinieerd voor de taak, en die is verdeeld over de Inspanning Taak Budget gemodelleerde allocaties op de taak. Dit veld is alleen van toepassing op Inspanning Taak Budget gemodelleerde allocaties.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Werk</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Voer de hoeveelheid werk in die wordt voltooid door het hulpmiddel, bijvoorbeeld 200 bakstenen gemetseld.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Werk van taak factor</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Voer de factor in waarmee het werk van de taak moet worden vermenigvuldigd  bij gebruik van het Werk Van Taak modelleringstype. Bijvoorbeeld, wanneer 1 eenheid van het werk vereist dat een graafmachinist 5 ton aarde verplaatst, dan is de factor 5.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Type</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Specificeer of het <b>Werk tempo</b> moet worden berekend als tijd per eenheid (bijvoorbeeld uren per ton aarde) of eenheden per tijdseenheid (bijvoorbeeld ton aarde per uur).</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+                            <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Werk tempo</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Voer de hoeveelheid in. Dit kan worden uitgedrukt in tijd (bijvoorbeeld 1 uur per ton aarde) of hoeveelheid eenheden (bijvoorbeeld 1 ton aarde per uur), afhankelijk van uw keuze in het veld Type.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../Resources/Snippets/How_do_I.flsnp" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... de modellering details van de geselecteerde allocatie bekijken en bewerken?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Gebruik de velden op het dialoogvenster om de modellering details te bekijken en te bewerken.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="Powerproject_Easyplan.Easyplan_only">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... de werkelijke hoeveelheid inspanning die is verricht aan de allocatie invoeren?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Voer de hoeveelheid inspanning die is verricht in de Huidige kolom van het <span style="font-weight: bold;">Inspanning</span> veld.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="Powerproject_Easyplan.Easyplan_only">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... de allocatie van het hulpmiddel dat nodig is voor deze allocatie berekenen?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol style="list-style-type: decimal;">
+                    <li class="p">Selecteer Allocatie in het <span style="font-weight: bold;">Te berekenen</span> veld.</li>
+                    <li class="p">Voer de door het hulpmiddel te verrichten inspanning  in bij de <span style="font-weight: bold;">Inspanning</span> velden.</li>
+                </ol>
+                <p>De allocatie van het hulpmiddel dat nodig is voor deze allocatie verschijnt in het <span style="font-weight: bold;">Allocatie</span> veld.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="Powerproject_Easyplan.Easyplan_only">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... de benodigde hulpmiddel inspanning voor deze allocatie berekenen?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol style="list-style-type: decimal;">
+                    <li class="p">Selecteer Inspanning in het <span style="font-weight: bold;">Te berekenen</span> veld.</li>
+                    <li class="p">Voer de voor de allocatie beschikbare allocatie van het hulpmiddel in bij het <span style="font-weight: bold;">Allocatie</span> veld.</li>
+                </ol>
+                <p>De voor de allocatie benodigde hulpmiddel inspanning verschijnt in de <span style="font-weight: bold;">Inspanning</span> velden.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Resource_Properties_More_Less_1.flsnp" />
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p>
+            <a href="../Other/Workingdialogs.htm">Met dialoogvensters werken</a>
+        </p>
+        <p>
+            <a href="../Conceptual/Resources/Editing_resource_allocations/Editing_resource_allocations.htm">Hulpmiddelallocaties bewerken</a>
+        </p>
+        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+            <a href="../Conceptual/Resources/Modelling/Modelling_permanent_resources.htm">Permanente hulpmiddelen modelleren</a>
+        </p>
+    </body>
+</html>

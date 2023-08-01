@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="Determining_the_project_end_date.htm" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:lastBlockDepth="10" MadCap:lastHeight="3634" MadCap:lastWidth="1050" class="KLAAR" xml:lang="nl-nl" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Verkorten van projecten;Speling:introductie in;Projecten:korter maken;Einddatum van project" />De projecteinddatum bepalen</h1>
+        <p>
+            <MadCap:keyword term="Kritieke pad analyse" />
+            <MadCap:keyword term="Speling" />Wanneer u de taken in een project gelinkt hebt, kunt u de kortst durende planning voor het project berekenen en daarmee de projecteinddatum bepalen. Dit heet herberekenen van een project. Wanneer een project is herberekend, kunt u de taken zien die speling of speelruimte hebben, en kunt u de taken zien die zonder enige vertraging uitgevoerd moeten worden (kritieke taken). Een gebruikelijke methode om projecten te herberekenen is door gebruik te maken van de kritieke pad analyse (CPA), ook bekend als kritieke pad methode (CPM).</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Kritieke pad analyse</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Dit betekent dat u twee sets datums berekent. Eerst wordt vanaf de startdatum van het project vooruit door het project (forward pass) gerekend, om de vroegste startdatum (VS) en vroegste einddatum (VE) voor elke taak te berekenen Daarna wordt terug door het project (backward pass) gerekend om de laatst mogelijke startdatum (LS) en de laatst mogelijke einddatum (LE) voor elke taak te berekenen. De laatste datums zijn de laatst mogelijke datums waarop een taak kan beginnen en kan eindigen zonder vertraging van de projecteinddatum te veroorzaken. Het verschil tussen de vroegst mogelijke en laatst mogelijke datum van een taak is de hoeveelheid beschikbare speling van de taak. Wanneer de vroegst mogelijke en de laatst mogelijke datums gelijk zijn, is de taak kritiek, omdat de taak dan geen vertraging kan oplopen zonder de projecteinddatum te beïnvloeden.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Voorbeeld:</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>In dit voorbeeld is de onderste taak kritiek omdat hierbij de vroegst mogelijke start- en einddatum gelijk zijn net zoals dat bij de laatst mogelijke start- en einddatum het geval is, terwijl de eerste twee taken speling hebben:</p>
+                        <table wrapperparagraphselector="P" cellspacing="0" width="100%">
+                            <tr>
+                                <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                                    <p style="text-align: center;margin-bottom: 0;">
+                                        <img src="../../../Graphics/Intro_project_management/projectenddatetasks1.gif" alt="De &quot;forward pass&quot; berekent de vroegst mogelijke start- en einddatums" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="105" height="100" border="0" />
+                                    </p>
+                                </td>
+                                <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                                    <p style="text-align: center;margin-bottom: 0;">
+                                        <img src="../../../Graphics/Intro_project_management/projectenddatetasks2.gif" alt="De &quot;backward pass&quot; berekent de laatst mogelijke start- en einddatums" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="105" height="100" border="0" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                                    <p style="text-align: center;margin-bottom: 0;"><span>De "forward pass" berekent de vroegst mogelijke start- en einddatums</span>
+                                    </p>
+                                </td>
+                                <td style="vertical-align: TOP;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                                    <p style="text-align: center;margin-bottom: 0;"><span>De "backward pass" berekent de laatst mogelijke start- en einddatums</span>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <div MadCap:targetName="t8">&#160;</div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <div MadCap:targetName="t9">
+            <p>Als u een absolute niet verplaatsbare deadline hebt, of wanneer u niet zeker weet wanneer een project zal beginnen (u wacht bijvoorbeeld op goedkeuring of inbreng van een derde partij), zult u het project willen herberekenen vanaf de projecteinddatum in plaats van vanaf de startdatum, om zo te bepalen wanneer het project moet beginnen.</p>
+        </div>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Het kritieke pad</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Het kritieke pad is de langst durende reeks van taken van een project. Het bepaalt de projecteinddatum. Iedere vertraging op een taak op het kritieke pad verschuift de projecteinddatum verder naar achteren. U dient dus de voortgang van kritieke taken goed te bewaken.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Voorbeeld:</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>In dit voorbeeld vormen de eerste vier taken het kritieke pad, omdat deze taken de langst durende reeks van taken in het project vormen:</p>
+                        <p style="text-align: center;">
+                            <img src="../../../Graphics/Intro_project_management/criticalpath1.gif" alt="De taken die het kritieke pad vormen zijn gemarkeerd" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="211" height="136" border="0" />
+                        </p>
+                        <p class="Note">Merk op, dat het kritieke pad gemarkeerd is. Meer complexe projecten kunnen meer dan één kritiek pad hebben.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <p>Wanneer u de duur van een project wilt inkorten, moet u het kritieke pad inkorten. Om het kritieke pad in te korten kunt u:</p>
+                <ul>
+                    <li class="p">Overwerken aan taken op het kritieke pad.            </li>
+                    <li class="p">De duur van taken op het kritieke pad verminderen.            </li>
+                    <li class="p">Meer hulpmiddelen toewijzen aan taken op het kritieke pad, zodat deze taken in minder tijd voltooid kunnen worden.            </li>
+                    <li class="p">Bekijken of gelinkte taken op het kritieke pad elkaar kunnen overlappen in plaats van elkaar van eind naar start op te volgen.            </li>
+                </ul>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Voorbeeld:</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <table wrapperparagraphselector="P" cellspacing="0" width="100%">
+                            <tr>
+                                <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                                    <p style="text-align: center;margin-bottom: 0;">
+                                        <img src="../../../Graphics/Intro_project_management/linkedtasks.gif" alt="De tweede taak kan niet beginnen voor de eerste is voltooid" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="182" height="40" border="0" />
+                                    </p>
+                                </td>
+                                <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                                    <p style="text-align: center;margin-bottom: 0;">
+                                        <img src="../../../Graphics/Intro_project_management/linkedoverlappingtasks.gif" alt="De tweede taak kan beginnen voor de eerst taak is voltooid." style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="131" height="40" border="0" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                                    <p style="text-align: center;margin-bottom: 0;"><span>De tweede taak kan niet beginnen voor de eerste taak is voltooid, omdat de taken van eind naar start gelinkt zijn</span>
+                                    </p>
+                                </td>
+                                <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                                    <p style="text-align: center;margin-bottom: 0;"><span>De tweede taak kan beginnen voor de eerste taak voltooid is en kan daarmee de totale duur van het project verminderen.</span>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <p>Om het effect op het kritieke pad te zien nadat u één van de hiervoor genoemde veranderingen uitgevoerd hebt, moet u het project eerst herberekenen.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Speling</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Taken die niet kritiek zijn hebben speling. Taken met speling bieden de mogelijkheid om binnen het project te schuiven, omdat deze taken als buffer fungeren en daarmee de gehele projectplanning beschermen tegen fouten die gemaakt kunnen zijn toen de duur van de taken in eerste instantie werd geschat. Het is niet verstandig een project te plannen zonder speling. U hebt dan geen speelruimte wanneer taken vertraagd worden.</p>
+                <p>Speling wordt berekend als u een project herberekent. Wanneer u veranderingen aanbrengt in een project moet u herberekenen om te zien welk effect de veranderingen hebben op de speling.</p>
+                <p>Tijdens een herberekening worden voor elke taak drie soorten speling berekend:</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Vrije Speling</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>De vrije speling van een taak is de hoeveelheid tijd die de taak kan worden uitgesteld zonder een andere taak of de projecteinddatum te beïnvloeden. Dit is het verschil tussen de vroegst mogelijke einddatum van een taak en de vroegst mogelijke begindatum van de opvolgende taak.</p>
+                        <p>In dit voorbeeld is de derde taak kritiek omdat deze taak geen speling heeft. Deze taak bepaalt ook de projecteinddatum. De eerste twee taken zijn gelinkt en de tweede taak is gelinkt aan de derde, de laatste link voorkomt dat de derde taak kan starten als de eerste taak is voltooid:</p>
+                        <p style="text-align: center;">
+                            <img src="../../../Graphics/Intro_project_management/freefloat1.gif" alt="Voorbeeld van vrije speling" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="139" height="100" border="0" />
+                        </p>
+                        <p>De eerste taak heeft een vrije speling van vijf dagen (weergegeven als <img src="../../../Graphics/Intro_project_management/freefloat2.gif" alt="een dubbele lijn" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="34" height="5" border="0" />), omdat deze taak naar de start van de tweede taak kan verschuiven zonder de start van deze tweede taak te beïnvloeden. De tweede taak heeft ook een vrije speling van vijf dagen, omdat deze taak niet voltooid hoeft te zijn voor de derde taak is voltooid.</p>
+                        <p>Vrije speling geeft aan dat een taak uitgesteld kan worden binnen de periode van de vrije speling, zonder andere taken of de projecteinddatum te beïnvloeden. U kunt de taak uitvoeren op elk moment binnen de periode van vrije speling.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Totale speling</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>De totale speling van een taak is de hoeveelheid tijd die de taak kan worden uitgesteld zonder de projecteinddatum te beïnvloeden. Dit is het verschil tussen de vroegst mogelijke en laatst mogelijke einddatum van een taak.</p>
+                        <p>Dit voorbeeld komt overeen met het voorgaande voorbeeld van vrije speling, maar er is geen link tussen de tweede en de derde taak, zodat de tweede taak kan beginnen zodra de eerste voltooid is. De derde taak is kritiek en bepaalt de projecteinddatum:</p>
+                        <p style="text-align: center;">
+                            <img src="../../../Graphics/Intro_project_management/totalfloat1.gif" alt="Voorbeeld van totale speling" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="139" height="100" border="0" />
+                        </p>
+                        <p>De eerste taak heeft een totale speling (weergegeven als <img src="../../../Graphics/Intro_project_management/totalfloat2.gif" alt="een dichte lijn" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="36" height="7" border="0" />) van 10 dagen, omdat deze taak moet eindigen voor de tweede taak start, die 5 dagen nodig heeft om te voltooien. De tweede taak heeft eveneens een totale speling van 10 dagen.</p>
+                        <p>Totale speling is nuttig omdat het aangeeft dat een taak uitgesteld kan worden voor de duur van de totale speling, zonder de projecteinddatum te beïnvloeden. Wanneer een taak echter de totale speling gebruikt, zal dit van invloed zijn op andere taken in de planning. In dit voorbeeld kan de eerste taak niet uitgesteld worden zonder de tweede taak te vertragen, wat problemen kan geven als de tweede taak moeilijk verzet kan worden.</p>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Logical_path_3.flsnp" />
+                        <p>
+                            <MadCap:snippetText src="../../../Resources/Snippets/Logical_path_2.flsnp" />
+                        </p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Negatieve speling</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>Sommige taken kunnen na herberekenen negatieve speling hebben. Negatieve speling geeft de hoeveelheid tijd aan die moet worden ingehaald om te voorkomen dat andere taken worden vertraagd. Negatieve speling wordt gewoonlijk veroorzaakt door beperkingen op taken.</p>
+                        <p>In dit voorbeeld heeft de eerste taak een duur van 10 dagen en moet deze taak beginnen op dag één. De tweede taak heeft een duur van 10 dagen en moet eindigen op dag vijftien. Deze voorwaarden worden aangegeven door de vlaggen op de taken. Er is een eind-start link van de eerste taak naar de tweede taak, wat betekent dat er, na herberekening, vijf dagen negatieve speling zal zijn (weergegeven als <img src="../../../Graphics/Intro_project_management/negativefloat3.gif" alt="een dikke rode lijn" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="50" height="4" border="0" />), omdat er onvoldoende tijd is om beide taken te voltooien:</p>
+                        <table wrapperparagraphselector="P" cellspacing="0" width="100%">
+                            <tr>
+                                <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                                    <p style="text-align: center;margin-bottom: 0;">
+                                        <img src="../../../Graphics/Intro_project_management/negativefloat1.gif" alt="Beide taken hebben vlaggen" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="137" height="51" border="0" />
+                                    </p>
+                                </td>
+                                <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                                    <p style="text-align: center;margin-bottom: 0;">
+                                        <img src="../../../Graphics/Intro_project_management/negativefloat2.gif" alt="Er is onvoldoende tijd om beide taken te voltooien" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="187" height="51" border="0" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                                    <p style="text-align: center;margin-bottom: 0;"><span>Voor de herberekening</span>
+                                    </p>
+                                </td>
+                                <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                                    <p style="text-align: center;margin-bottom: 0;"><span>Na de herberekening</span>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                        <p class="Note">Merk op dat beide taken na herberekenen kritiek worden.</p>
+                        <p>Een taak met negatieve speling wordt beschouwd als uiterst-kritiek</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <p>U kunt kiezen of u wel of niet de speling weergeeft op uw projectplanning.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;" cellspacing="0" width="100%">
+            <tr>
+                <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: center;margin-bottom: 0;"><a href="Grouping_related_tasks.htm"><img src="../../../Graphics/Intro_project_management/browsebackwardsarrow.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="45" height="47" border="0" /></a>
+                    </p>
+                </td>
+                <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: center;margin-bottom: 0;"><a href="Introducing_lead_and_lag_time.htm"><img src="../../../Graphics/Intro_project_management/browseforwardarrow.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="45" height="47" border="0" /></a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: center;margin-bottom: 0;"><span><a href="Grouping_related_tasks.htm">Gerelateerde taken groeperen</a></span>
+                    </p>
+                </td>
+                <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: center;margin-bottom: 0;"><span><a href="Introducing_lead_and_lag_time.htm">Positieve en negatieve wachttijden introduceren</a></span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="../Rescheduling_projects/Rescheduling_projects.htm">Projecten herberekenen</a>
+        </p>
+        <p><a href="../Rescheduling_projects/Reschedule_results/Logical_paths.htm">Gebruik maken van logische paden om de erosie van de totale speling te monitoren</a>
+        </p>
+    </body>
+</html>

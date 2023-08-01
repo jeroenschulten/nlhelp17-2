@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>de factor in waarmee het kwaliteitscriterium moet worden vermenigvuldigd om de impact ervan op het gewogen totaal resultaat van de kwaliteitscheck te beïnvloeden - een indicatie of de kwaliteitscheck als geheel is geslaagd of mislukt. Voer bijvoorbeeld 2,00 in om de impact van een criterium te verdubbelen of 0,50 om deze te halveren; een weging van nul zou betekenen dat het criterium geen effect had op het gewogen totale resultaat. Het een hogere weging geven aan juist die criteria waarbij u zich het meest zorgen maakt vergroot hun impact op het gewogen totale resultaat. </p>
+    </body>
+</html>

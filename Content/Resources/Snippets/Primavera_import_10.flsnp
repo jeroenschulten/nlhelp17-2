@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>Schakel dit selectievakje uit om het project te importeren zonder de codebibliotheken met dezelfde naam in het project en het sjabloon te combineren, wat betekent dat het resulterende project twee codebibliotheken met precies dezelfde naam zal bevatten.</body>
+</html>

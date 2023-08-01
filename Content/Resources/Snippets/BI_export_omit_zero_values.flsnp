@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>Gebruik het selectievakje <b>Uitvoer van tijdsegmenten met nulwaarde weglaten</b> om op te geven of u tijdgefaseerde gegevenswaarden die nul zijn, wilt uitsluiten van de uitvoer, wat resulteert in een veel kleinere databasetabel.</body>
+</html>

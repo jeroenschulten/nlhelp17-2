@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h2>Als een gedistribueerd gemiddelde de voortgang op hoger-niveau taken berekenen </h2>
+        <div>
+            <p>De velden Overall percentage voltooid, Percentage voltooid en Gepland percentage voltooid (PPC) geven normaal gesproken waarden weer voor <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">niveau en </MadCap:conditionalText> samenvattingstaken die het percentage van de voltooide voortgang aangeven zonder rekening te houden met hoe de voortgang is verdeeld over de <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">subkaart of </MadCap:conditionalText>samenvattingsgroep.</p>
+            <p>U kunt er in plaats daarvan voor kiezen om gedistribueerde gemiddelde waarden weer te geven, die rekening houden met hoe de voortgang is verdeeld binnen de <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">subkaart of </MadCap:conditionalText>samenvattingsgroep. Deze waarden komen exact overeen met de arcering op <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">niveau en </MadCap:conditionalText> samenvattingstaken.</p>
+            <p>Om de waarden weer te geven als een gedistribueerd gemiddelde, selecteert u het selectievakje <b>Toon gedistribueerd gemiddelde  voor kaarten/samenvattingen</b> dat verschijnt op het tabblad <b>Kolomdefinities</b> van het <b>Tabeldefinitie Eigenschappen</b> dialoogvenster wanneer het veld Overall percentage voltooid, Percentage voltooid of Gepland percentage voltooid (PPC) is geselecteerd.</p>
+        </div>
+    </body>
+</html>

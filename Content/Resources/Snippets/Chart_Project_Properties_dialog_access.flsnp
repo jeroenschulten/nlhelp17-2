@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b>Kaart/Project Eigenschappen</b> dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Om toegang te krijgen tot het <span style="font-weight: bold;">Kaart/Project Eigenschappen</span> dialoogvenster, rechtsklik op leeg gebied in de balkkaart en selecteer <span style="font-weight: bold;">Kaart Eigenschappen</span>, of rechtsklik op het icoon van een kaart of een project in de project view en selecteer <span style="font-weight: bold;">Eigenschappen</span>. </p>
+                <p style="margin-bottom: 0;">U kunt dit dialoogvenster niet oproepen wanneer de balkkaart een <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">RBS, CBS of</MadCap:conditionalText> gefilterde view weergeeft.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

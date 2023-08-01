@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Selecteer de valuta-eenheid waarin alle bedragen worden geconverteerd in het geëxporteerde project in het veld <b>Valuta-eenheid voor export</b>. Als u naar XML-indeling exporteert, moet u de basisvaluta van de Primavera-database selecteren; als u naar XER-indeling exporteert, wordt de korte naam van de valuta gecodeerd in de XER-bestandsheader.</p>
+    </body>
+</html>

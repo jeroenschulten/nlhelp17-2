@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="376" MadCap:lastWidth="867">
+    <head>
+    </head>
+    <body>
+        <li class="p">Selecteer het project waarin u de voortgang van het bronproject wilt invoeren in het <b>Bestemming/Naar</b> veld. <MadCap:snippetText src="Copy_progress_1.flsnp" /></li>
+        <li class="p">Specificeer de voortgang die u wilt kopiëren naar het bestemmingsproject in de <b>Domein</b> groep.</li>
+        <li class="p">Schakel het <b>Schrijf rapport</b> <MadCap:snippetText src="Copy_progress_2.flsnp" /></li>
+        <li>Klik op <b>OK</b>. De Voortgang wordt nu van het bronproject naar het bestemmingsproject gekopieerd. Er verschijnt een dialoogvenster dat u informeert over de resultaten van de voortgangsoverbrenging, en wanneer u gekozen heeft een rapport te produceren, wordt deze opgeslagen op de geselecteerde locatie.</li>
+        <li>Open het rapport om het resultaat van het voortgangskopiëren te bekijken.</li>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="158" MadCap:lastWidth="1014">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specificeren of het hulpmiddel  moet worden beschouwd als hoofdhulpmiddel wanneer deze wordt toegewezen aan taken?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Schakel het <b><b>Hoofdhulpmiddel</b></b> selectievakje in om te specificeren dat dit hulpmiddel moet worden beschouwd als hoofdhulpmiddel met als doel het bepalen van de taak opmaak wanneer deze toegewezen wordt aan taken, of schakel het selectievakje uit om te specificeren dat dit hulpmiddel niet moet worden beschouwd als het hoofdhulpmiddel.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Working_with_resources\Modelling_resources\Effort_on_Allocation_modelled_permanent_resources.htm" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:lastBlockDepth="4" MadCap:lastHeight="1247" MadCap:lastWidth="788" class="KLAAR" xml:lang="nl-nl" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+    <head>
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Modellering Inspanning Op Allocatie voor permanente hulpmiddelen;Modelleringstype Inspanning Op Allocatie;Permanente hulpmiddelen:modelleringstype Inspanning Op Allocatie" />Modelleringstype Inspanning Op Allocatie voor permanente hulpmiddelen</h1>
+        <p>Gebruik dit modelleringstype als u de hoeveelheid inspanning weet die is vereist om een taak te voltooien. U weet bijvoorbeeld dat een taak 10 mandagen vereist. U zou dan 1 bouwvakker 10 dagen kunnen laten werken of 2 bouwvakkers elk 5 dagen. Als u deze modelleringsmethode gebruikt, moet er vanuit kunnen gaan dat de schatting van de inspanning betrouwbaar is.</p>
+        <ol>
+            <li class="p">Selecteer Inspanning op Allocatie in het <span style="font-weight: bold;">Modelleringstype</span> veld.</li>
+            <li class="p">Selecteer een <span style="font-weight: bold;">Te berekenen parameter</span> en een <span style="font-weight: bold;">Variabele parameter</span> in het groepsveld <span style="font-weight: bold;">Parameters</span>. De te berekenen parameter bevat informatie die u wilt laten berekenen. De variabele parameter bevat informatie die u automatisch wilt laten wijzigen als de taakduur in de balkkaart wordt gewijzigd. Als u de variabele parameter Geen selecteert, maakt u een gefixeerde hulpmiddelallocatie, die niet wordt gewijzigd als u de taakduur wijzigt.</li>
+            <li class="p">Typ in het veld <span style="font-weight: bold;">Allocatie</span> het aantal hulpmiddelen dat u wilt toewijzen.</li>
+            <li class="p">Typ in het veld <span style="font-weight: bold;">Inspanning</span> de hoeveelheid inspanning die is vereist om de taak te voltooien.</li>
+            <li class="p">Typ in het veld <span style="font-weight: bold;">Duur</span> de duur waarvoor het hulpmiddel werkt.
+                Afhankelijk van de te berekenen parameter die is geselecteerd, is het veld <span style="font-weight: bold;">Allocatie</span>, <span style="font-weight: bold;">Inspanning</span> of <span style="font-weight: bold;">Duur</span> gedeactiveerd.</li>
+        </ol>
+        <p>Veronderstel dat u bijvoorbeeld vier schilders beschikbaar hebt voor werk aan een taak die een schilder 50 uur kost om te voltooien en u wilt weten hoe lang het duurt voor de taak is voltooid. U kunt dit bepalen met behulp van Inspanning op Allocatie Hulpmiddel Modellering:</p>
+        <p>Maak een taak van 50 uur en wijs hieraan het permanent hulpmiddel Schilders toe. Gebruik van het tabblad <span style="font-weight: bold;">Allocatie</span> van het dialoogvenster <b>Permanente Hulpmiddel Eigenschappen</b>, configureert de allocaties als volgt:</p>
+        <ul type="disc">
+            <li class="p">
+                <span style="font-weight: bold;">Modellering type</span>: Inspanning op Allocatie.</li>
+            <li class="p">
+                <span style="font-weight: bold;">Berekende Parameter</span>: Duur.</li>
+            <li class="p">
+                <span style="font-weight: bold;">Variabele Parameter</span>: Inspanning.</li>
+            <li class="p">
+                <span style="font-weight: bold;">Allocatie</span>: 4.</li>
+        </ul>
+        <p><MadCap:variable name="Primary.Asta Asta Powerproject Name" /> berekent dat met 4 schilders gealloceerd aan de taak, deze in 12 uur en 30 minuten voltooid is. Wanneer het aantal beschikbare schilders duidelijk verandert en u de allocatie bewerkt, zal <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> automatisch de duur van de taak herberekenen.</p>
+        <p>Wanneer u vervolgens de taakduur verkort, wordt de hulpmiddelallocatie aangepast in overeenstemming met de geselecteerde variabele parameter:</p>
+        <ul>
+            <li class="p">Wanneer Allocatie is geselecteerd, wordt de allocatie verkleind, aangezien de inspanning gelijk blijft maar er meer tijd beschikbaar is en er dus minder hulpmiddelen nodig zijn om dezelfde hoeveelheid inspanning te voltooien.</li>
+            <li class="p">Wanneer Inspanning is geselecteerd, neemt de inspanning af, aangezien dezelfde hoeveelheid hulpmiddelen werken over een langere periode wat betekent dat de taak nu meer inspanning vraagt.</li>
+        </ul>
+        <p class="RelatedTopics">Verwante Onderwerpen<span style="font-weight: normal;">:</span></p>
+        <p>
+            <a href="Questions.htm">Vragen die u kunt beantwoorden door het modelleren van hulpmiddelen</a>
+        </p>
+        <p>
+            <span style="font-weight: normal;">
+                <a href="Non_modelled_permanent_resources.htm">Niet gemodelleerde permanente hulpmiddelen</a>
+            </span>
+        </p>
+        <p>
+            <span style="font-weight: normal;">
+                <a href="Work_on_Allocation_perm_res.htm">Modelleringstype Werk Op Allocatie voor permanente hulpmiddelen</a>
+            </span>
+        </p>
+        <p>
+            <span style="font-weight: normal;">
+                <a href="Work_from_Task_perm_res.htm">Modelleringstype Werk Van Taak voor permanente hulpmiddelen</a>
+            </span>
+        </p>
+        <p>
+            <a href="Effort_Activity_Budget_perm_res.htm">Modelleringstype Inspanning Taak Budget voor permanente hulpmiddelen</a>
+        </p>
+        <p>
+            <a href="Combining_EOA_and_EAB_allocations.htm">Allocaties Inspanning op allocatie en Inspanning taak budget combineren</a>
+        </p>
+        <p>
+            <a href="Share_effort.htm">Inspanning delen bij Inspanning op Allocatie gemodelleerde hulpmiddelen</a>
+        </p>
+    </body>
+</html>

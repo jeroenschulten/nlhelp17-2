@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="1" MadCap:lastHeight="100" MadCap:lastWidth="1046">
+    <head>
+    </head>
+    <body>de unieke taak ID's hernummeren van de taken binnen de huidige view, of van een selectie van taken. U zou dit kunnen doen wanneer u een serie taken in een andere volgorde heeft aangemaakt dan de volgorde waarin ze plaats zullen vinden en u de unieke taak ID's zodanig wilt hernummeren dat ze de volgorde waarin de taken uitgevoerd moeten worden of de volgorde waarin ze op de balkkaart verschijnen weerspiegelen. U kunt de unieke taak ID's van een serie taken ook veranderen door het zoeken naar een alfanumerieke string binnen hun unieke taak ID's en deze vervangen door een alternatieve string.</body>
+</html>

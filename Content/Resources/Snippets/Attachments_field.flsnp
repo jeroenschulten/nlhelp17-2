@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p><b>ALT</b>-klik op een bestand of URL-opmerking om het gedeelte Opmerkingen van het tabblad <b>Taak</b> van het <b>Balk en Taak Eigenschappen</b> dialoogvenster weer te geven, van waaruit u het bestand of de URL kunt bekijken door erop te klikken. <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Als een balk meer dan één taak bevat, moet u de balk weergeven in de één-taak-per-regel modus voordat u <b>ALT</b>-klikt op het bestand of op de URL-opmerking.</MadCap:conditionalText></p>
+    </body>
+</html>

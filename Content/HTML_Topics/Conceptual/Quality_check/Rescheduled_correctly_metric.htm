@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" xml:lang="nl-nl" class="KLAAR-NL">
+    <head>
+        <link href="../../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Kwaliteitschecks:correct herberekend criterium;Correct herberekend kwaliteitscriterium" />'Correct herberekend' kwaliteitscriterium </h1>
+        <p>U gebruikt dit kwaliteitscriterium om te checken of projecten correct zijn gelinkt, en dat het project dus geen <a href="../Rescheduling_projects/Reschedule_errors/Finding_link_loops.htm">linklussen</a> of taken met <a href="../Rescheduling_projects/Reschedule_results/Reschedule_results.htm#Negative_float">negatieve speling</a> bevat.</p>
+        <p>Dit kwaliteitscriterium voldoet aan de vereisten van de CIOB-stresstest 14 (Herberekenen) en de CIOB-stresstest 15 (Kritieke pad)</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Voorbeelden van linklussen</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In de volgende illustratie zijn de taken 1 en 2 gelinkt in linklus; taken 3, 4 en 5 zijn in een andere linklus gelinkt:</p>
+                <p>
+                    <img src="../../../Graphics/Quality_check/linkloops.gif" alt="Tasks 1 and 2 are linked in a link loop; tasks 3, 4 and 5 are linked in another link loop" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Voorbeeld van negatieve speling</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Negative_float_example.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_2.flsnp" />
+        </p>
+        <h2>Slaag en faal criteria</h2>
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Slaagt of faalt?</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Criteria</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #afffaf;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Slaagt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Een project slaagt op dit criterium wanneer het geen linklussen of items met negatieve speling bevat.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="background-color: #ff6464;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;">Faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Een project faalt op dit criterium wanneer het één of meer linklussen of items met negatieve speling bevat.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Voorgestelde instellingen</h2>
+        <p>NVT: dit kwaliteitscriterium kan alleen slagen of falen.</p>
+        <h2>Forceert dit criterium dat het project wordt herberekend?</h2>
+        <p>Ja. <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_1.flsnp" /></p>
+        <h2>Voorgestelde acties als een project faalt voor dit criterium</h2>
+        <p>Wanneer een project faalt voor dit kwaliteitscriterium, kunt u de volgende acties uitvoeren:</p>
+        <ul>
+            <li><a href="../Rescheduling_projects/Reschedule_errors/Finding_link_loops.htm">Zoek en vind alle linklussen in het project</a> en wijzig de links bij de falende taken om elke linklus te verwijderen.</li>
+            <li>Zoek en vind alle taken met negatieve speling - u kunt dit doen door gebruik te maken van het <a href="Negative_float_metric.htm">'Negatieve speling' kwaliteitscriterium</a> or <a href="../Views/Filtering/Filtering_for_specific_bars_and_tasks.htm">door een filter te gebruiken</a> - en verwijder alle conflicterende vlaggen bij deze taken.</li>
+        </ul>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="Checking_quality_intro.htm">Introductie over planningskwaliteitchecks</a>
+        </p>
+        <p><a href="../Rescheduling_projects/Reschedule_errors/Finding_link_loops.htm">Zoeken naar linklussen</a>
+        </p>
+        <p><a href="../Rescheduling_projects/Reschedule_results/Reschedule_results.htm">Het resultaat van herberekening begrijpen</a>
+        </p>
+        <p><a href="Negative_float_metric.htm">'Negatieve speling' kwaliteitscriterium</a>
+        </p>
+        <p><a href="../Views/Filtering/Filtering_for_specific_bars_and_tasks.htm">Filteren op specifieke balken en taken</a>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>De link met de positieve wachttijd:</p>
+        <p>
+            <img src="../../Graphics/Quality_check/removelag1.gif" alt="A link with lag" />
+        </p>
+        <p>Kan worden vervangen door een 2d lang taak:</p>
+        <p>
+            <img src="../../Graphics/Quality_check/removelag2.gif" alt="A 2d long task replacing the link" />
+        </p>
+    </body>
+</html>

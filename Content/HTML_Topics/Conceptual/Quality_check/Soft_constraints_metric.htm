@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" xml:lang="nl-nl" class="KLAAR-NL">
+    <head>
+        <link href="../../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Kwaliteitschecks:zachte vlaggen criterium;Zachte vlaggen kwaliteitscriterium" />'Zachte vlaggen' kwaliteitscriterium </h1>
+        <p style="font-weight: normal;">Gebruik dit kwaliteitscriterium om het aandeel taken dat geen Starten Op of Na of Eindigen Op of Voor <a href="../Bar_chart_editing/Using_constraints/Set_constraint.htm">vlaggen</a> heeft te checken. Deze "zachte" vlaggen verdienen de voorkeur ten opzichte van "harde" vlaggen in een planning omdat ze meer flexibiliteit bieden. Echter, een hoog aandeel taken met zachte vlaggen kan er ook op wijzen dat een planning gepland is met te weinig flexibiliteit.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Voorbeelden van taken met zachte vlaggen</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In de volgende afbeelding heeft Taak 2 een Starten Op of Na vlag en Taak 3 een Eindigen Op of Voor vlag. Deze zachte vlaggen betekenen dat beide taken  zouden falen voor dit kwaliteitscriterium:</p>
+                <p>
+                    <img src="../../../Graphics/Quality_check/softconstraints.gif" alt="Task 2 has a Start On or After constraint flag and Task 3 has a Finish On or Before constraint flag" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_2.flsnp" />
+        </p>
+        <h2>Slaag en faal criteria</h2>
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Slaagt of faalt?</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Criteria</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #afffaf;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Slaagt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Een project slaagt op dit criterium wanneer het percentage taken zonder zachte vlag groter is dan of gelijk is aan het slaaggrens percentage. </p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Wanneer bijvoorbeeld de slaaggrens ingesteld stond op 90,00%, zou een project op dit criterium slagen wanneer 90,00% of meer van de taken geen Starten Op of Na of Eindigen Op of Voor vlaggen heeft.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #ff6464;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Een project faalt op dit criterium wanneer het percentage taken zonder zachte vlag kleiner is dan het faalgrens percentage. </p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Wanneer bijvoorbeeld de faalgrens ingesteld stond op 80,00%, zou een project op dit criterium falen wanneer minder dan 80,00% van de taken geen Starten Op of Na of Eindigen Op of Voor vlaggen heeft.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="background-color: #ffaf45;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;">Slaagt noch faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Als het percentage taken zonder zachte vlag valt tussen het slaaggrens en het faalgrens percentage, is het resultaat noch geslaagd noch gefaald, maar ligt dat ergens daartussenin.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Voorgestelde instellingen</h2>
+        <ul xmlns="" type="disc">
+            <li>Slaaggrens: 90,00%. Een project zal slagen voor dit criterium als 90,00%  of meer van de taken geen Starten Op of Na of Eindigen Op of Voor vlaggen heeft.</li>
+            <li>Faalgrens: 80,00%. Een project zal falen voor dit criterium als minder dan 80,00%   of meer van de taken geen Starten Op of Na of Eindigen Op of Voor vlaggen heeft.</li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_39.flsnp" />
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Percentage taken zonder Starten Op of Na of Eindigen Op of Voor vlaggen</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Slaagt of faalt?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">0,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">50,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">79,99%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">80,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Slaagt noch faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">89,99%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Slaagt noch faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">90,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Slaagt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1">100,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Slaagt</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Forceert dit criterium dat het project wordt herberekend?</h2>
+        <p>Nee.</p>
+        <h2>Voorgestelde acties als een project faalt voor dit criterium</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_37.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_38.flsnp" />
+        <ul xmlns="" type="disc">
+            <li><a href="../Bar_chart_editing/Using_constraints/Remove_constraint.htm">Verwijder Starten Op Na of Eindigen Op of Voor vlaggen</a> van de taken waar ze niet absoluut nodig zijn.</li>
+            <li>Gebruik <a href="../Starting_work/Linking_tasks/Linking_tasks.htm">links tussen taken</a> om de datums te bepalen waarop taken moeten starten en eindigen, in plaats van beperkende vlaggen.</li>
+        </ul>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="Checking_quality_intro.htm">Introductie over planningskwaliteitchecks</a>
+        </p>
+        <p><a href="../Bar_chart_editing/Using_constraints/Set_constraint.htm">Een <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">start- of eind</MadCap:conditionalText>vlag plaatsen</a>
+        </p>
+        <p><a href="../Bar_chart_editing/Using_constraints/Remove_constraint.htm">Een <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">start- of eind</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Easyplan_only">beperkende </MadCap:conditionalText>vlag verwijderen</a>
+        </p>
+        <p><a href="../Starting_work/Linking_tasks/Linking_tasks.htm">Taken linken</a>
+        </p>
+    </body>
+</html>

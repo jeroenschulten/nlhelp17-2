@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="Filter Wizard - Taak Unieke ID's pagina" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl">
+    <head>
+        <link href="../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1>Filter Wizard - Unieke Taak ID's pagina</h1>
+        <p>U gebruikt de <span style="font-weight: bold;">Filter Wizard</span> om de criteria voor filters te maken en te bewerken en om te aan te geven welke items er in een filter opgenomen moeten worden. De <span style="font-weight: bold;">Filter Wizard</span> bestaat uit een aantal pagina's. Deze pagina van de <span style="font-weight: bold;">Filter Wizard</span> verschijnt wanneer u gekozen hebt om te filteren op het unieke taak ID van balken en taken. U gebruikt deze pagina om de unieke taak ID's van balken en taken te specificeren die worden opgenomen in de gefilterde view. U kunt uw filter hoofdlettergevoelig maken.</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Filter_Wizard_access.flsnp" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Verklaring van de velden op het dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../../Resources/Stylesheets/Table_Stylesheet.css');caption-side: top;margin-left: 0;margin-right: auto;" cellspacing="0">
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <thead>
+                        <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Veld</th>
+                            <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Omschrijving</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Zoek naar volgend ID</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Voer het unieke taak ID in waarop u wilt filteren.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">U kunt jokertekens (wildcards) gebruiken om een groep van unieke taak ID's op te nemen. Typ bijvoorbeeld ID9* om te zoeken naar balken en taken met unieke taak ID's beginnend met 'ID9'.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Hoofdlettergevoelig</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Schakel dit selectievakje in om het filter hoofdlettergevoelig te maken, of schakel het selectievakje uit om te zoeken naar de tekst die u hebt ingevoerd, ongeacht de hoofdlettergevoeligheid. Indien u een filter hoofdlettergevoelig maakt, zal zoeken naar taken met een uniek taak ID 'ID0001' geen taken opleveren met een code 'id0001' of 'Id0001'.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Reguliere expressies gebruiken in plaats van wildcards</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Schakel dit selectievakje in wanneer u wilt zoeken en daarbij reguliere expressies wilt gebruiken in plaats van jokertekens</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables"><a href="../Conceptual/teamplan_reference/teamplan_SQL.htm#Regular_expression">Klik hier</a> voor meer informatie.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;"><span style="font-weight: bold;"><span><span style="font-weight: bold;">Vraag steeds opnieuw naar de</span></span> ID's...</span>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Schakel dit selectievakje in wanneer u de op te nemen unieke taak ID wilt kunnen specificeren iedere keer dat u het filter toepast, of schakel het selectievakje uit om  de gespecificeerde  parameters in deze wizard elke keer te gebruiken.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <ol style="list-style-type: decimal;">
+            <li class="p">Typ het ID waarop u wilt filteren in het veld <span style="font-weight: bold;">Zoek naar volgend ID</span> in. U kunt jokertekens (wildcards) gebruiken om een groep van unieke taak ID's op te nemen. Typ bijvoorbeeld ID9* om te zoeken naar balken en taken met unieke taak ID's beginnend met 'ID9'.</li>
+            <li class="p">Kies het selectievakje <b>Hoofdlettergevoelig</b> om het filter hoofdlettergevoelig te maken, of maak het selectievakje leeg om te zoeken naar de tekst die u hebt ingevoerd, ongeacht de case. Indien u een filter hoofdlettergevoelig maakt, zal zoeken naar taken met een uniek taak ID 'ID0001' geen taken opleveren met een code 'id0001' of 'Id0001'.</li>
+            <li class="p">Schakel het selectievakje <span style="font-weight: bold;">Reguliere expressies gebruiken in plaats van wildcards</span> in indien u reguliere expressies, een krachtige tool om met tekst en gegevens om te gaan, in uw filtercriteria wilt gebruiken.</li>
+            <li class="p">Wanneer u de op te nemen unieke taak ID wilt kunnen specificeren iedere keer dat u het filter toepast, schakel dan het selectievakje <span style="font-weight: bold;"><span><span style="font-weight: bold;">Vraag steeds opnieuw naar de</span></span> id's... </span>in.</li>
+            <li class="p">Klik op <span style="font-weight: bold;">Volgende</span> om naar de volgende pagina van de wizard te gaan.</li>
+        </ol>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="../Other/Workingdialogs.htm">Met dialoogvensters werken</a>
+        </p>
+        <p><a href="../Conceptual/Views/Filtering/New_filter_Filter_Wizard.htm">Een nieuw filter maken met de Filter Wizard</a>
+        </p>
+        <p><a href="../Conceptual/Numbering_tasks/Unique_task_ID_numbering/Unique_task_ID_numbering.htm">Unieke taak ID nummering</a>
+        </p>
+    </body>
+</html>

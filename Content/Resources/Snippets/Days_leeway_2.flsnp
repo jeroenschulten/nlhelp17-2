@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Een manier om dit probleem op te lossen is door alle Start-Start- en Start-Einde-links in een project te identificeren en te elimineren. Als u dit niet wilt doen - het kan nodig zijn om één of meer links van dit type in een project te hebben - kunt u het probleem oplossen door de hoeveelheid speelruimte te vergroten die elke taak krijgt voordat deze geacht wordt de kritieke pad integriteit te doorbreken. Als u bijvoorbeeld 10d speelruimte opgeeft, mag een taak tot 10d langer duren voordat wordt aangenomen dat de integriteit van het kritieke pad wordt doorbroken.</p>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>U wilt bijvoorbeeld de codebibliotheek die u gebruikt om taken te laten verschijnen op het <MadCap:variable name="Primary.Site Progress Mobile Name" /> <b>Ticksheet</b> scherm - de codebibliotheek die de bouwfase van een taak identificeert - om <MadCap:variable name="Primary.Site Progress Mobile Name" /> gebruikers te koppelen aan hun taken in het project. Als dit het geval is, selecteert u de codebibliotheek voor bouwfasen in dit veld.</p>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="436" MadCap:lastWidth="837">
+    <body>
+        <p>De Punaise lijkt op de Starten Op of Na vlag. De beide types vlaggen verschillen echter op de volgende manieren:</p>
+        <ul>
+            <li>Wanneer een taak waaraan een Starten Op of Na vlag is toegewezen wordt verplaatst, wordt de Starten Op of Na vlag zelf niet verplaatst, wanneer een taak waaraan een Punaise vlag is toegewezen wordt verplaatst, wordt de Punaise zelf ook verplaatst naar de startdatum van de nieuwe taak.</li>
+            <li>U kunt een ander type vlag toewijzen aan taken met een Punaise vlag, in aanvulling op de Punaise.</li>
+            <li>U kunt Punaise vlaggen alleen toewijzen aan taken; u kunt ze niet toewijzen aan mijlpalen, samenvattingstaken, niveautaken of hammocks.</li>
+        </ul>
+        <p>Punaises worden automatisch aan taken toegewezen die u door te slepen verplaatst in een Line of Balance grafiek.</p>
+        <p>Alhoewel het hoofddoel van een Punaise vlag het op hun plaats houden van niet gelinkte taken is, is het makkelijker om de Punaise vlag in werking te tonen in een voorbeeld waarin taken wel gelinkt zijn. In dit voorbeeld moet de tweede taken starten op of na haar huidige startdatum, alhoewel de linklogica toont dat ze zou moeten starten zodra de eerste taak geëindigd is. Na een herberekening zal de tweede taak worden verplaatst naar een latere startdatum en zal de Punaise vlag ook worden verplaatst naar deze nieuwe datum:</p>
+        <table wrapperparagraphselector="P" cellspacing="0" width="100%">
+            <tr>
+                <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="margin-bottom: 0;" align="center">
+                        <img src="../../Graphics/Intro_project_management/holdingpin1.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="92" height="40" border="0" />
+                    </p>
+                </td>
+                <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="margin-bottom: 0;" align="center">
+                        <img src="../../Graphics/Intro_project_management/holdingpin2.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="117" height="40" border="0" />
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="margin-bottom: 0;" align="center">Vóór het herberekenen</p>
+                </td>
+                <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="margin-bottom: 0;" align="center">Na het herberekenen</p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

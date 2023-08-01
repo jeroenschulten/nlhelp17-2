@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3073" MadCap:lastWidth="870" class="KLAAR" xml:lang="nl-nl" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+    <head>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Herberekenen:berekening kritieke pad drag;Drag;Drag:berekenen tijdens herberekening;Kritieke pad drag;Kritieke pad drag:berekenen tijdens herberekening;Devaux's Removed Activity Gauge;Devaux's Removed Activity Gauge:berekenen tijdens herberekening;Drag:taken filteren op;Filters:en kritieke pad drag;Kritieke pad drag:taken filteren op;Devaux's Removed Activity Gauge:taken filteren op;Drag kosten;Drag kosten:berekenen met een formule" />De drag van kritieke taken berekenen bij herberekening </h1>
+        <p>U kunt de drag van kritieke taken berekenen bij herberekenen. Kritieke pad drag (Devaux's Removed Activity Gauge) kan gezien worden als:</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Critical_path_drag.flsnp" />
+        <p>Om de drag van kritieke taken te berekenen bij herberekenen schakelt u het <b>Kritieke pad drag</b> selectievakje in, op het <b>Herberekenen</b> tabblad van het <b>Opties</b> dialoogvenster (gebruikt voor het instellen van de standaard herbereken opties) of op het <b>Herberekenen</b> dialoogvenster (gebruikt om opties in te stellen tijdens een herberekening).</p>
+        <p>Wanneer u ervoor kiest om de kritieke pad drag te berekenen, duurt het langer om een project te herberekenen; om deze reden wordt drag niet berekend wanneer het project wordt herberekend door Risico Analyse of de resource leveller.</p>
+        <p>U kunt de drag van kritieke taken tonen in de tabel met het Kritieke pad drag veld. Drag wordt ook getoond in een veld op het <b>Taak</b> tabblad van het <b>Balk en Taak Eigenschappen</b> dialoogvenster en op het bijbehorende tabblad van de eigenschappen view.</p>
+        <p>U kunt filteren op taken met bepaalde hoeveelheden kritieke pad drag met de <b>Speling en Kritieke pad</b> pagina van de <b>Filter Wizard</b>. Dit is een manier om taken met een grote hoeveelheid drag te identificeren, welke de eerste zijn om te behandelen in een poging de duur van een project te bekorten. </p>
+        <h2>Hoe kritieke pad drag wordt berekend</h2>
+        <p>Alleen taken op het kritieke pad hebben drag. Voor elke kritieke taak, wordt de kritieke pad drag berekend door herkennen van de einddatum van het netwerk van taken en door berekenen van de hoeveelheid waarmee de einddatum zal verschillen wanneer de kritieke taak zou worden gewijzigd in een mijlpaal.</p>
+        <p>Indien er bij een taak op het kritieke pad geen andere parallelle taken zijn, is de drag gelijk aan de duur; indien een taak op het kritieke pad één of meer parallelle taken heeft, zal de drag gelijk zijn aan de kortste: ofwel de totale speling van ongeacht welke parallelle taak de minste speling heeft, of zijn eigen duur.</p>
+        <p>In onderstaand voorbeeld:</p>
+        <p>
+            <img src="../../../../Graphics/Rescheduling_projects/drag1.gif" />
+        </p>
+        <ul>
+            <li>Taak 1 staat op het kritieke pad; er zijn geen parallelle taken, dus de drag is gelijk aan de duur.</li>
+            <li>Taak 2 staat niet op het kritieke pad, dus deze heeft geen drag. </li>
+            <li>Taak 3 staat op het kritieke pad en parallel aan Taak 2; de totale speling van Taak 2 is minder dan de duur van Taak 3, dus de drag van Taak 3 is gelijk aan de totale speling van Taak 2: 1d.</li>
+        </ul>
+        <p>In onderstaand voorbeeld:</p>
+        <p>
+            <img src="../../../../Graphics/Rescheduling_projects/drag3.gif" />
+        </p>
+        <ul>
+            <li>Taken 1 en 5 staan op het kritieke pad; ze hebben geen parallelle taken, dus de drag van elke taak is gelijk aan hun duur.</li>
+            <li>Taak 2 staat op het kritieke pad en parallel aan Taak 4; de totale speling van Taak 4 is minder dan de duur van Taak 2, dus de drag van Taak 2 is gelijk aan de totale speling van Taak 4: 8d.</li>
+            <li>Taak 3 staat op het kritieke pad en parallel aan Taak 4; de duur van Taak 3 is minder dan de totale speling van Taak 4, dus de drag van Taak 3 is gelijk aan zijn duur.</li>
+            <li>Taak 4 staat niet op het kritieke pad, dus deze heeft geen drag.</li>
+        </ul>
+        <p>In onderstaand voorbeeld:</p>
+        <p>
+            <img src="../../../../Graphics/Rescheduling_projects/drag2.gif" />
+        </p>
+        <ul>
+            <li>Taken 1 en 5 staan op het kritieke pad; ze hebben geen parallelle taken, dus de drag van iedere taak is gelijk aan hun duur.</li>
+            <li>Taak 2 staat op het kritieke pad en parallel aan de Taken 6 en 8; de totale speling van Taak 8 is minder dan de totale speling van taak 6 en de duur van Taak 2, dus de drag van Taak 2 is gelijk aan de totale speling van Taak 8: 8d.</li>
+            <li>Taak 3 staat op het kritieke pad en parallel aan de Taken 7, 9 en 10; de totale speling van Taak 9 is minder dan de totale speling van de Taken 7 en 10 en de duur van Taak 3, dus de drag van Taak 3 is gelijk aan de totale speling van Taak 9: 3d.</li>
+            <li>Taak 4 staat op het kritieke pad en parallel aan de Taken 7 en 10; de duur van Taak 4 is minder dan de totale speling van de Taken 7 en 10, dus de drag van Taak 4 is gelijk aan zijn duur.</li>
+            <li>Taken 6, 7, 8, 9 en 10 staan niet op het kritieke pad, dus zij hebben geen drag.</li>
+        </ul>
+        <h2>De drag kosten van kritieke taken berekenen</h2>
+        <p>Wanneer u de drag van kritieke taken berekent, kunt u ook hun drag kosten berekenen - het bedrag waarmee de drag van een taak op het kritieke pad de verwachte waarde van het project vermindert. Drag kosten vormen een heel belangrijke waarde in project management, omdat deze het mogelijk maken project investeringen te optimaliseren door rechtvaardiging van de hulpmiddelkosten welke worden gebruikt om de drag van kritieke taken te verminderen. </p>
+        <p>De drag kosten worden berekend door de kritieke pad drag van elke taak te vermenigvuldigen met een waarde die staat voor ofwel de kosten van elke dag vertraging van het project, of de opbrengst die verkregen kan worden per dag van eerdere levering.</p>
+        <p>U kunt een formule gebruiken om de drag kosten van kritieke taken te berekenen. Bijvoorbeeld, in onderstaande formule zijn drag kosten per dag van € 1000 opgenomen: </p>
+        <p>
+            <img src="../../../../Graphics/Rescheduling_projects/dragcost.gif" />
+        </p>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p><a href="../Performing_a_reschedule/Resch_intro.htm">Introductie op herberekenen</a>
+        </p>
+        <p><a href="../Performing_a_reschedule/Performing_a_reschedule.htm">Een herberekening uitvoeren</a>
+        </p>
+        <p><a href="Setting_reschedule_options.htm">Herberekeningsopties instellen</a>
+        </p>
+        <p><a href="../../Views/Filtering/Filtering_for_specific_bars_and_tasks.htm">Filteren op specifieke baken en taken</a>
+        </p>
+        <p><a href="../../Spreadsheet/Formulae/Formulae.htm" xmlns="">Formules gebruiken in spreadsheet kolommen</a>
+        </p>
+    </body>
+</html>

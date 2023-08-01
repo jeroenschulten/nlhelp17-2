@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="298" MadCap:lastWidth="1090">
+    <body>
+        <p>U gebruikt het <b>Taak Pools </b> dialoogvenster om te specificeren welke typen allocaties behouden blijven wanneer u taak pools creëert vanuit kaarten of samenvattingsgroepen, en welke typen zouden moeten worden verwijderd. U kunt specificeren of aangevraagde en ingeplande permanente hulpmiddelallocaties, aangevraagde en ingeplande verbruiksgoederenallocaties en kostenallocaties zouden moeten worden behouden of verwijderd. Bijvoorbeeld:</p>
+        <ul>
+            <li>Wanneer u gebruik maakt van hulpmiddelen aanvraag en uw projecten vergelijkbare netwerken van taken bevatten die altijd door de permanente hulpmiddelen van een bepaalde vaardigheid worden uitgevoerd, zou het kunnen dat u de permanente aanvraagallocaties bij het aanmaken van taak pools wilt behouden; u kunt de taak pools gebruiken om de netwerken van taken te creëren, die zullen verschijnen in uw projecten met de juiste aanvraag hulpmiddelen er al aan toegewezen. U kunt vervolgens op een later tijdstip de aanvraagallocaties honoreren met individuele, ingeplande allocaties.</li>
+            <li>Wanneer u geen gebruik maakt van hulpmiddelen aanvraag en uw projecten vergelijkbare netwerken van taken bevatten die altijd door de dezelfde individuele permanente hulpmiddelen worden uitgevoerd, zou het kunnen dat u de permanente ingeplande allocaties bij het aanmaken van taak pools wilt behouden; u kunt de taak pools gebruiken om de netwerken van taken te creëren, die zullen verschijnen in uw projecten met de juiste hulpmiddelen er al aan toegewezen.</li>
+            <li>Wanneer uw projecten vergelijkbare netwerken van taken bevatten die altijd door verschillende permanent hulpmiddelen worden uitgevoerd, wilt u waarschijnlijk dat alle allocaties bij het aanmaken taak pools worden verwijderd.</li>
+        </ul>
+    </body>
+</html>

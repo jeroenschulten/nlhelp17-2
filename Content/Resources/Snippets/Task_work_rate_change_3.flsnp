@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>Het taak werk tempo wordt aangepast zodat de taakduur een geheel getal is in de tijdseenheid die is gespecificeerd staat in het taak werk tempo. Als een 10d-taak bijvoorbeeld 100 eenheden taak werk had met een werktempo van 50 eenheden per week en u het werktempo veranderde in 40 eenheden per week, zou het taak werk automatisch worden aangepast tot 33,33 eenheden per week en zou de taakduur veranderen van 10d naar 15d - dat wil zeggen van 2w naar 3w - aangezien 'week' de tijdseenheid is die gespecificeerd staat in het taak werk tempo.</body>
+</html>

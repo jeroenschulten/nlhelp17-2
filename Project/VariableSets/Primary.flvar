@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Name="APP BIM Name"
+    Comment=""
+    EvaluatedDefinition="Asta Powerproject 4D">Asta Powerproject 4D</Variable>
+  <Variable
+    Name="BIM Cloud Name"
+    Comment="">Elecosoft BIMCloud</Variable>
+  <Variable
+    Name="Asta Vision Name"
+    Comment=""
+    EvaluatedDefinition="Asta Vision">Asta Vision</Variable>
+  <Variable
+    Name="Asta Asta Powerproject Name"
+    Comment=""
+    EvaluatedDefinition="Asta Powerproject">Asta Powerproject</Variable>
+  <Variable
+    Name="Archive Manager Name"
+    Comment=""
+    EvaluatedDefinition="Archive Manager">Archive Manager</Variable>
+  <Variable
+    Name="Easyplan Name"
+    Comment=""
+    EvaluatedDefinition="Asta Easyplan">Asta Easyplan</Variable>
+  <Variable
+    Name="Developers Toolkit Name"
+    Comment=""
+    EvaluatedDefinition="Developers' Toolkit">Developers' Toolkit</Variable>
+  <Variable
+    Name="Serveradmin Name"
+    Comment=""
+    EvaluatedDefinition="Server Admin">Server Admin</Variable>
+  <Variable
+    Name="Resource Search Name"
+    Comment=""
+    EvaluatedDefinition="Resource Search">Resource Search</Variable>
+  <Variable
+    Name="Asta Asta Powerproject SaaS Name"
+    Comment=""
+    EvaluatedDefinition="Asta Powerproject SaaS">Asta Powerproject SaaS</Variable>
+  <Variable
+    Name="Powerdraw Name"
+    EvaluatedDefinition="Powerdraw">Powerdraw</Variable>
+  <Variable
+    Name="Project Viewer Name"
+    Comment=""
+    EvaluatedDefinition="Project Viewer">Project Viewer</Variable>
+  <Variable
+    Name="Risk Analysis Name"
+    Comment=""
+    EvaluatedDefinition="Risico Analyse">Risico Analyse</Variable>
+  <Variable
+    Name="Project Comparison Name"
+    Comment=""
+    EvaluatedDefinition="Project Comparison">Project Comparison</Variable>
+  <Variable
+    Name="EVA Reporter Name"
+    Comment=""
+    EvaluatedDefinition="EVA Reporter">EVA Reporter</Variable>
+  <Variable
+    Name="Network Viewer Name"
+    Comment=""
+    EvaluatedDefinition="Netwerk Viewer">Netwerk Viewer</Variable>
+  <Variable
+    Name="Site Progress Mobile Name"
+    Comment=""
+    EvaluatedDefinition="Asta Site Progress">Asta Site Progress</Variable>
+  <Variable
+    Name="Asta Enterprise Name"
+    Comment=""
+    EvaluatedDefinition="Asta Enterprise">Asta Enterprise</Variable>
+</CatapultVariableSet>

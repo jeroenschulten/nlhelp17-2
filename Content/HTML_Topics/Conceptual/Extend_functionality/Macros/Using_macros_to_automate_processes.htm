@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Extend_functionality\Macros\Using_macros_to_automate_processes.htm" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:lastBlockDepth="6" MadCap:lastHeight="32304" MadCap:lastWidth="282" MadCap:ignoredWords="for" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" class="KLAAR" xml:lang="nl-nl">
+    <head>
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Macro's;Visual Basic Editor:maken van macros in;Visual Basic Editor;Macro's uitvoeren:opslaan in een project;Macro's uitvoeren:lokaal opslaan;Macro's uitvoeren:globaal opslaan;Macro's uitvoeren:creëren;Macro's uitvoeren:bestand maken om op te slaan in;Visual Basic Editor:testen van macros in;Testen van macros;Macro's uitvoeren:testen;Visual Basic Editor:bewerken van macros in;Macro's uitvoeren:bewerken;Macro's uitvoeren:verwijderen;Macro's uitvoeren;Macro's uitvoeren:uitvoeren;Opslaan:macros;Macro's uitvoeren:opslaan;Macro's;Macro's uitvoeren:laden in projecten" />Macro's gebruiken om processen te automatiseren</h1>
+        <p>U kunt macro's gebruiken om taken te automatiseren die herhaaldelijk moeten worden uitgevoerd, zodat u minder tijd kwijt bent om deze handmatig uit te voeren. U kunt macro's bijvoorbeeld gebruiken om:</p>
+        <ul>
+            <li class="p">Maandelijkse voortgangsrapporten te maken.            </li>
+            <li class="p">Al uw kosten- en inkomstentarieven aan te passen met een bepaald percentage.            </li>
+            <li class="p">De herberekening en de levelling van de hulpmiddelen 's nachts te laten plaatsvinden, wanneer niemand het systeem gebruikt            </li>
+            <li class="p">Details van hulpmiddelen uit externe databases, zoals een salarissysteem, te importeren.            </li>
+        </ul>
+        <p>U kunt macro's schrijven met behulp van Visual Basic® of Visual Basic® for Applications (VBA). Visual Basic® for Applications wordt meegeleverd met <MadCap:variable name="Primary.Asta Asta Powerproject Name" />.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Om een macro te creëren</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>U kunt in <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> een macro schrijven door Visual Basic® Editor uit te voeren en daarin opdrachten te typen. Om de Visual Basic® Editor te gebruiken klikt u in het tabblad <b>View</b>, in de <b>Macro's</b> groep, op de  <span style="font-weight: bold;">Macro's</span> keuzelijst en selecteert u <span style="font-weight: bold;">Visual Basic® Editor</span>. De Visual Basic® Editor wordt als een apart programma geopend.</p>
+                <p>Raadpleeg de Help-tekst bij Visual Basic® Editor, voor informatie over het gebruik ervan.</p>
+                <p>Wanneer u een macro maakt, kunt u opgeven waar u deze wilt opslaan. U kunt macro's opslaan:</p>
+                <ul>
+                    <li class="p">Op een gedeelde computer, waar ze beschikbaar zijn voor elke client die de computer kan zien (globaal).            </li>
+                    <li class="p">Op de client-computer waar ze beschikbaar zijn voor elk project op die client-computer (lokaal)            </li>
+                    <li class="p">In een project, waar ze beschikbaar zijn voor iedereen die dat project bewerkt.            </li>
+                </ul>
+                <p>Om een gebruiker macrobestand te maken, of een globaal macrobestand te maken waarin macro's worden opgeslagen:</p>
+                <ol>
+                    <li class="p">Open een project.            </li>
+                    <li class="p">Klik in het tabblad <b>Bestand</b> op  <span style="font-weight: bold;">Opties</span>. Het dialoogvenster <b>Opties</b> verschijnt.            </li>
+                    <li class="p">Klik op het tabblad <span style="font-weight: bold;">Bestandslocaties</span>.            </li>
+                    <li class="p">Kies Gebruiker Macro's als u de macro lokaal beschikbaar wilt hebben, kies Globale Macro's als u deze globaal beschikbaar wilt hebben. Klik vervolgens op <span style="font-weight: bold;">Bewerken</span>.            </li>
+                    <li class="p">Voer een bestandsnaam in voor het macrobestand met een .VBA-extensie, of selecteer een bestaand macrobestand. Klik dan op <span style="font-weight: bold;">Open</span>. Kies niet voor het al aanwezige bestand macros.vba.            </li>
+                    <li class="p">Herstart het programma.            </li>
+                    <li class="p">Klik in het tabblad <b>View</b>, in de <b>Macro's</b> groep, op de  <span style="font-weight: bold;">Macro's</span> keuzelijst en selecteer  <span style="font-weight: bold;">Visual Basic® Editor</span>. De Engelstalige Visual Basic® Editor wordt als een apart programma geopend.            </li>
+                    <li class="p">Wanneer u een bestaand bestand selecteert, ziet u de inhoud daarvan. Wanneer u een nieuw bestand maakt, klikt u met de rechtermuisknop op User Macro's of Global Macro's, afhankelijk van het type bestand dat u gemaakt hebt. Kies dan de opdracht <span style="font-weight: bold;">Module</span> in het menu <span style="font-weight: bold;">Insert</span> om een nieuwe module binnen het bestand te maken.            </li>
+                    <li class="p">Typ uw macrocode in de nieuwe module in en kies de opdracht <span style="font-weight: bold;">Save</span> in het menu <span style="font-weight: bold;">File</span> om de macro op te slaan.            </li>
+                </ol>
+                <p>Wanneer u een macro maakt of uitvoert met Visual Basic® in plaats van met de Visual Basic® Editor, hoeft u niet eerst <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> op te starten, omdat Visual Basic® een client programma aanroept. Wanneer u een macro maakt of uitvoert met Visual Basic® en <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> OCX, is de OCX de client. De OCX is een Microsoft ActiveX® besturingselement, het bevat de <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> client zonder gebruikers interface. Dit betekent dat u uw eigen invoegprogramma zou kunnen schrijven met een totaal andere gebruikersinterface dan die van de <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> client. Bijvoorbeeld: u kunt een <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> programma schrijven of u kunt de OCX gebruiken om direct projectgegevens op een website te tonen. U kunt alleen toegang krijgen tot de OCX wanneer u de <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Developers Kit hebt.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Omgaan met notificaties bij het schrijven van macro's</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>Wanneer u een macro schrijft dient u rekening te houden met het feit dat de berekening van de business objecten plaats vindt op de server en niet op de client. Bijvoorbeeld, als u de startdatum van een taak bepaalt worden de links met betrekking tot die taak op de server herberekend en wordt dit vervolgens via notificaties teruggegeven aan de clients. Daarom, als een  taak verplaatst en de gegevens over de links van de taak wilt zien, zult u moeten wachten op de notificaties die terugkomen van de server.</p>
+                        <p>Daarom is het essentieel om project.WaitforNotificationsProcessing na elke update aan te roepen (wijziging, aanmaak of verwijdering) van een business object, als u bepaalde velden achtereenvolgens wilt benaderen die waarschijnlijk na een wijziging herberekend worden. Dit is zowel van toepassing op de berekende velden van de business objecten zelf als van velden op de verbonden objecten.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Om een macro te testen</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="p">Klik in het tabblad <b>View</b>, in de  <span style="font-weight: bold;">Macro's</span> groep, op het  <span style="font-weight: bold;">Macro's</span> keuzelijstje en selecteer  <span style="font-weight: bold;">Macro's</span>. Het dialoogvenster <span style="font-weight: bold;">Macro's</span> verschijnt.            </li>
+                    <li class="p">Selecteer in het veld <span style="font-weight: bold;">Macro's in</span> de module met de macro die u wilt testen. Een lijst van de macro's in de module wordt getoond.            </li>
+                    <li class="p">Selecteer de macro die u wilt testen.            </li>
+                    <li class="p">Schakel het selectievakje <span style="font-weight: bold;">No Break on Errors</span> in, als u over fouten in de geselecteerde macro wilt springen en de macro tot het eind wilt uitvoeren. Of schakel het selectievakje uit, als u wilt dat de macro wel onderbroken wordt wanneer een fout wordt ontdekt.            </li>
+                    <li class="p">Klik op <span style="font-weight: bold;">Step</span> om stap voor stap door de geselecteerde macro te gaan.            </li>
+                    <li class="p">De geselecteerde macro wordt geopend in Visual Basic® Editor en stap voor stap uitgevoerd. Bij iedere instructie wordt er gepauzeerd en wordt de instructie gemarkeerd voordat deze wordt uitgevoerd. Om uw macro stap voor stap te doorlopen, klikt u op de knop <span style="font-weight: bold;">Step Into</span> op de werkbalk Debug in Visual Basic® Editor of drukt u op <span style="font-weight: bold;">F8</span>.            </li>
+                    <li class="p">Wanneer u klaar bent met het doorlopen van uw macro, sluit u de Visual Basic® Editor door te klikken op de knop <span style="font-weight: bold;">Close</span>. Als u de macro hebt bewerkt, kunt u uw bewerkingen opslaan voordat Visual Basic® Editor wordt gesloten.            </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Om een macro te bewerken</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="p">Klik in het tabblad <b>View</b>, in de  <span style="font-weight: bold;">Macro's</span> groep, op het  <span style="font-weight: bold;">Macro's</span> keuzelijstje en selecteer  <span style="font-weight: bold;">Macro's</span>. Het dialoogvenster <span style="font-weight: bold;">Macro's</span> verschijnt.            </li>
+                    <li class="p">Selecteer in het veld <span style="font-weight: bold;">Macro's in</span> de module met de macro die u wilt bewerken. Een lijst van de macro's in de module wordt getoond.            </li>
+                    <li class="p">Selecteer de macro die u wilt bewerken.            </li>
+                    <li class="p">Klik op <span style="font-weight: bold;">Bewerken</span> om de macro te openen in de Visual Basic® Editor.            </li>
+                    <li class="p">Bewerk de macro zoals gewenst.            </li>
+                    <li class="p">Wanneer u klaar ben met het bewerken van de macro, slaat u de wijzigingen op en sluit u Visual Basic® Editor door te klikken op het veld <span style="font-weight: bold;">Sluiten</span>.            </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Om een macro te verwijderen</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="p">Klik in het tabblad <b>View</b>, in de  <span style="font-weight: bold;">Macro's</span> groep, op het  <span style="font-weight: bold;">Macro's</span> keuzelijstje en selecteer <span style="font-weight: bold;">Macro's</span>. Het dialoogvenster <span style="font-weight: bold;">Macro's</span> verschijnt.            </li>
+                    <li class="p">Selecteer in het veld <span style="font-weight: bold;"><MadCap:keyword term="Verwijderen:macros" />Macro's in</span> de module met de macro die u wilt verwijderen. Een lijst van de macro's in de module wordt getoond.            </li>
+                    <li class="p">Selecteer de macro die u wilt verwijderen.            </li>
+                    <li class="p">Klik op <span style="font-weight: bold;">Verwijderen</span> om de macro te verwijderen.            </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Om een macro te runnen</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="p">Klik in het tabblad <b>View</b>, in de  <span style="font-weight: bold;">Macro's</span> groep, op het  <span style="font-weight: bold;">Macro's</span> keuzelijstje en selecteer   <span style="font-weight: bold;">Macro's</span>. Het dialoogvenster <span style="font-weight: bold;">Macro's</span> verschijnt.            </li>
+                    <li class="p">Selecteer in het veld <span style="font-weight: bold;">Macro's in</span> de module met de macro die u wilt uitvoeren. Een lijst van de macro's in de module wordt getoond.            </li>
+                    <li class="p">Selecteer de macro die u wilt uitvoeren.            </li>
+                    <li class="p">Klik op <span style="font-weight: bold;">Uitvoeren</span> om de macro uit te voeren.            </li>
+                </ol>
+                <p>De macro neemt het bureaublad van <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> over terwijl het wordt uitgevoerd; als de macro wordt uitgevoerd, kunt u in <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> tijdelijk geen acties uitvoeren.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Om de macro's in het huidige project op te slaan als een .VBA bestand, voordat u ze in een ander project gaat laden</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="p">Kies het submenu <span style="font-weight: bold;">Macro's</span> in het menu <span style="font-weight: bold;">Extra</span>. Kies vervolgens de opdracht <span style="font-weight: bold;">Macro's Opslaan</span>.            </li>
+                    <li class="p">Geef een pad op en typ een bestandsnaam in met een .VBA-extensie voor het bestand waarin de macro's moeten worden opgeslagen.            </li>
+                    <li class="p">Klik op <span style="font-weight: bold;">Opslaan</span> om de macro's op te slaan in het opgegeven bestand.            </li>
+                </ol>
+                <p>Als u de macro's van een project eenmaal hebt opgeslagen, kunt u ze in een ander project laden.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Om de macro's in een project te laden die opgeslagen zijn in een .VBA bestand </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="p">Klik in het tabblad <b>View</b>, in de  <span style="font-weight: bold;">Macro's</span> groep, op het  <span style="font-weight: bold;">Macro's</span> keuzelijstje en selecteer  <span style="font-weight: bold;">Macro's Laden</span>.            </li>
+                    <li class="p">Selecteer het .VBA-bestand dat u wilt laden.            </li>
+                    <li class="p">Klik op <span style="font-weight: bold;">Openen</span>.            </li>
+                </ol>
+                <p>De macro's in het geselecteerde .VBA-bestand zijn nu beschikbaar voor bewerking en uitvoering.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p>
+            <a href="../../Customising_menus/Ribbon/Customise_Ribbon.htm">Aanpassen van het Lint</a>
+        </p>
+    </body>
+</html>

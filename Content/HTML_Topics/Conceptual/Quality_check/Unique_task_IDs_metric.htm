@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" xml:lang="nl-nl" class="KLAAR-NL">
+    <head>
+        <link href="../../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Kwaliteitschecks:unieke taak ID's criterium;Unique task IDs kwaliteitscriterium" />'Unieke taak ID's' kwaliteitscriterium</h1>
+        <p>U gebruikt dit kwaliteitscriterium om het aandeel van taken met exclusieve <a href="../Numbering_tasks/Unique_task_ID_numbering/Unique_task_ID_numbering.htm">unieke taak ID's</a> - die geen unieke taak-ID delen met één of meer andere taken - te checken. Taken die een unieke taak-ID delen met andere taken kunnen fouten in de planning aangeven.</p>
+        <p>Om een project te kunnen laten falen op dit criterium, moet u de <a href="../Numbering_tasks/Unique_task_ID_numbering/Setting_up_unique_task_IDs.htm">unieke taak ID's zodanig geconfigureerd hebben dat ze niet gedwongen zijn om uniek te zijn</a>, door te klikken op het <b>Niet uniek</b> keuzerondje op het <b>Unieke Taak ID Nummering</b> dialoogvenster. Wanneer u geconfigureerd heeft dat unieke taak ID's gedwongen worden om uniek te zijn, zal het project nooit op dit criterium falen.</p>
+        <p>Als u 'Scheidt de resultaten...' selecteert in het veld <b>Resultaten</b>, onderaan op het tabblad <b>Domein</b> van het dialoogvenster <b>Kwaliteitscheck Eigenschappen</b>, worden unieke taak-ID's gecontroleerd op uniekheid binnen elke afzonderlijke groep van het project dat is opgenomen in de kwaliteitscheck-domein; Als u 'Combineer resultaten...' in dit veld selecteert, worden unieke taak-ID's gecontroleerd op uniekheid in het gehele bereik van de kwaliteitscheck.</p>
+        <p>Met de slaag en faal grenzen ingesteld op 100,00%, voldoet dit kwaliteitscriterium aan de vereisten van de CIOB stress test 13 (Unieke identifiers).</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Voorbeelden van taken met niet-exclusieve unieke taak ID's</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In de volgende afbeelding hebben Task 2 en Task 3 hetzelfde unieke taak ID - 'GTD77'. Beide taken zouden falen voor dit kwaliteitscriterium :</p>
+                <p>
+                    <img src="../../../Graphics/Quality_check/nonuniquetaskids.gif" alt="Task 2 and Task 3 have the same unique task ID - 'GTD77'" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_2.flsnp" />
+        </p>
+        <h2>Slaag en faal criteria</h2>
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Slaagt of faalt?</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Criteria</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #afffaf;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Slaagt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Een project slaagt op dit criterium wanneer het percentage taken met exclusieve unieke taak-ID's  groter dan of gelijk is aan het slaaggrens percentage. </p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Wanneer bijvoorbeeld de slaaggrens ingesteld stond op 100,00%, zou een project op dit criterium slagen wanneer 100,00% van de taken exclusieve unieke taak-ID's heeft.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #ff6464;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Een project faalt op dit criterium wanneer het percentage taken met exclusieve unieke taak-ID's minder is dan het faalgrens percentage.</p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Wanneer bijvoorbeeld de faalgrens ingesteld stond op 100,00%, zou een project op dit criterium slagen wanneer minder dan 100,00% van de taken exclusieve unieke taak-ID's heeft.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="background-color: #ffaf45;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;">Slaagt noch faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Als het percentage taken met exclusieve unieke taak-ID's  valt tussen het slaaggrens en het faalgrens percentage, is het resultaat noch geslaagd noch gefaald, maar ligt dat ergens daartussenin.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Voorgestelde instellingen om te voldoen aan de vereisten van CIOB stress test 13 (Unieke identifiers)</h2>
+        <ul xmlns="" type="disc">
+            <li>Slaaggrens: 100,00%. Een project zal slagen voor dit criterium als  alle taken exclusieve unieke taak-ID's hebben.</li>
+            <li>Faalgrens: 100,00%. Een project zal falen voor dit criterium als één taak een uniek taak-ID deelt met één of meer andere taken.</li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_39.flsnp" />
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Percentage taken met exclusieve unieke taak-ID's</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Slaagt of faalt?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">0,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">50,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">99,99%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1">100,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Slaagt</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Forceert dit criterium dat het project wordt herberekend?</h2>
+        <p>Nee.</p>
+        <h2>Voorgestelde acties als een project faalt voor dit criterium</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_37.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_38.flsnp" />
+        <ul>
+            <li><a href="../Numbering_tasks/Unique_task_ID_numbering/Editing_unique_task_IDs.htm">Wijzig de unieke taak ID's</a> van de falende taken, om te zorgen dat ze uniek worden.</li>
+            <li><a href="../Numbering_tasks/Unique_task_ID_numbering/Renumbering_UTIDs.htm">Hernummer de unieke taak ID's</a> in het project.</li>
+        </ul>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="Checking_quality_intro.htm">Introductie over planningskwaliteitchecks</a>
+        </p>
+        <p><a href="../Numbering_tasks/Unique_task_ID_numbering/Unique_task_ID_numbering.htm">Unieke taak ID nummering</a>
+        </p>
+        <p><a href="../Numbering_tasks/Unique_task_ID_numbering/Setting_up_unique_task_IDs.htm">Instellen van unieke taak-ID's</a>
+        </p>
+        <p><a href="../Numbering_tasks/Unique_task_ID_numbering/Editing_unique_task_IDs.htm">Aanpassen van unieke taak ID's</a>
+        </p>
+        <p><a href="../Numbering_tasks/Unique_task_ID_numbering/Renumbering_UTIDs.htm">Hernummeren van unieke taak ID's om de volgorde van de taken terug te laten komen</a>
+        </p>
+    </body>
+</html>

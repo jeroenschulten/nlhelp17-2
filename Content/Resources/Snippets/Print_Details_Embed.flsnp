@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p class="ParagraphsInTables">You can embed borders within a project so that they can always be 
+	 used for printing even if the original border file itself is not distributed 
+	 with the project.</p>
+        <p class="ParagraphsInTables">&#160;</p>
+        <p class="ParagraphsInTables">Click this button to embed the selected border into the current project. Note that embedding a border file into a project increases the file 
+	 size of the project.</p>
+        <p class="ParagraphsInTables">&#160;</p>
+        <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Selecting_a_border_file_for_printing.htm#Embed_border">Embedding border files into projects</a>
+        </p>
+    </body>
+</html>

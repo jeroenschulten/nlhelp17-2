@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>selectievakje in om de huidige view automatisch bij te werken wanneer u dubbelklikt op een link in de tabelrasters op de tabbladen <b>Links</b> van de <b>Balk en Taak Eigenschappen</b> dialoogvenster of van de eigenschappen view, zodat de taak aan het andere uiteinde van de link in beeld wordt gebracht en wordt geselecteerd (op voorwaarde dat de huidige view een balkkaart-view is).</p>
+    </body>
+</html>

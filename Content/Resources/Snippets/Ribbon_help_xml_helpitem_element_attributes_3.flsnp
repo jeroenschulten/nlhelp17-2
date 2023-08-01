@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="84" MadCap:lastWidth="1028">
+    <body>
+        <li><b>Filename</b> - een tekststring, die alleen gebruikt wordt bij <b>helpitem</b> elementen van het <b>Type</b> "file", die de bestandsnaam definieert van het bestand en (optioneel) haar locatie. Wanneer de locatie niet is gespecificeerd, wordt verondersteld dat het document zich in dezelfde map bevind als ribbon_help.xml.</li>
+    </body>
+</html>

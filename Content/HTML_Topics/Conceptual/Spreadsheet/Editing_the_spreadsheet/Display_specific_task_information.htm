@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Using_the_spreadsheet\Editing_the_spreadsheet\Display_specific_task_information.htm" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Velden:configureren om gegevens weer te geven over specifieke taken op een balk;Tabel:weergeven van informatie over specifieke taken in;Kolommen:weergeven van informatie over specifieke taken in;Een-taak-per-regel modus:weergeven van gegevens over specifieke taken in de tabel" />Informatie over specifieke taken in de tabel tonen</h1>
+        <p>Als er meerdere taken op een balk staan, kunt u aangeven dat velden informatie tonen over specifieke taken op de balk, in plaats van informatie te tonen over de balk zelf. Bijvoorbeeld, als er tien taken op een balk staan, kunt u aangeven dat velden informatie tonen over de eerste, vierde, zevende of laatste taak op de balk. U kunt ook aangeven dat velden informatie moeten tonen over alle taken op een balk waaraan specifieke codebibliotheekitems zijn toegewezen.</p>
+        <p>Dit is vooral erg handig als u uw projecten dusdanig structureert dat er meerdere taken op dezelfde regel staan, waarbij elke taak een aparte stap in het proces vertegenwoordigt, mogelijk met codebibliotheken die het type van elke taak aangeven, zoals hieronder geïllustreerd wordt:</p>
+        <p>
+            <img src="../../../../Graphics/Spreadsheet/manytasks.gif" style="border: none;" width="384" height="47" border="0" />
+        </p>
+        <p>In situaties zoals deze, waar de op opeenvolging van taken hetzelfde is, kunt u de tabel kolommen configureren om informatie te tonen over de eerste taak, tweede taak, derde taak, etc. <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Anders is deze informatie alleen beschikbaar als u de balken in de <a href="../../Starting_work/Entering_bar_and_task_names/Working_in_one_task_per_line.htm">in één-taak-per-regel modus</a> weergeeft.</MadCap:conditionalText></p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Om een tabel veld te laten refereren aan een specifieke taak volgens zijn positie op een balk:</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="p">Klik met de rechtermuisknop op de kolomkop van de tabel en selecteer <span style="font-weight: bold;">Tabel definitie</span> in het menu. Het dialoogvenster <b>Tabel Definitie Eigenschappen</b> verschijnt.            </li>
+                    <li class="p">Selecteer het veld dat u wilt refereren aan een specifieke taak in het <span style="font-weight: bold;">Veld</span> gedeelte.            </li>
+                    <li class="p">Klik op <span style="font-weight: bold;">Instellingen</span>. Het dialoogvenster <b>Specifieke Taak Data</b> verschijnt.            </li>
+                    <li class="p">Klik op het keuzerondje <span style="font-weight: bold;">Specifieke taak</span>.            </li>
+                    <li class="p">Selecteer het nummer van de taak waar u het veld aan wilt refereren - bijvoorbeeld de tweede of vierde taak op de balk - in het <span style="font-weight: bold;">Taak nummer</span> veld, of schakel het selectievakje <span style="font-weight: bold;">Laatste taak</span> in om het veld te laten refereren aan de laatste taak op elke balk.            </li>
+                    <li class="p">Klik op <span style="font-weight: bold;">OK</span> om het dialoogvenster <span style="font-weight: bold;">Specifieke Taak Data</span> te sluiten, klik daarna op <span style="font-weight: bold;">Sluiten</span> om het dialoogvenster <span style="font-weight: bold;">Tabel Definitie Eigenschappen</span> te sluiten.            </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Om een tabel veld te laten refereren aan taken op een balk waaraan specifieke codebibliotheekitems zijn toegewezen:</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol style="list-style-type: decimal;">
+                    <li class="p">Klik met de rechtermuisknop op de kolomkop van de tabel en selecteer <span style="font-weight: bold;">Tabel definitie</span> in het menu. Het dialoogvenster <b>Tabel Definitie Eigenschappen</b> verschijnt.            </li>
+                    <li class="p">Selecteer het veld dat u wilt refereren aan een specifieke taak in het <span style="font-weight: bold;">Veld</span> gedeelte.            </li>
+                    <li class="p">Klik op <span style="font-weight: bold;">Instellingen</span>. Het dialoogvenster <b>Specifieke Taak Data</b> verschijnt.            </li>
+                    <li class="p">Klik op het keuzerondje <span style="font-weight: bold;">Codebibliotheek gefilterde taak</span>.            </li>
+                    <li class="p">Selecteer het codebibliotheekitem of items waarmee de taken gefilterd moeten worden.</li>
+                    <li class="p"> Als u meerdere codebibliotheekitems selecteert, schakel dan het <b>Alle items moeten overeenkomen</b> selectievakje in <MadCap:snippetText src="../../../../Resources/Snippets/All_entries_must_match.flsnp" /><![CDATA[            ]]></li>
+                    <li class="p">Wanneer er op een balk meerdere taken matchen met uw codebibliotheekcriteria, dan worden de taakdetails in de tabelcel getoond in een kommagescheiden lijst. U kunt het selectievakje <span style="font-weight: bold;">Oprollen waar meer dan 1 taak overeenkomt</span> inschakelen om de waarden te totaliseren naar een enkel getal. Merk op dat de waarden alleen worden getotaliseerd naar een enkel getal als het zinvol is om dit te doen, bijvoorbeeld in het geval van financiële waarden.            </li>
+                    <li class="p">Klik op <span style="font-weight: bold;">OK</span> om het dialoogvenster <span style="font-weight: bold;">Specifieke Taak Data</span> te sluiten, klik daarna op <span style="font-weight: bold;">Sluiten</span> om het dialoogvenster <span style="font-weight: bold;">Tabel Definitie Eigenschappen</span> te sluiten.            </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Om specifieke taak data instellingen te verwijderen van een tabel veld:</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol style="list-style-type: decimal;">
+                    <li class="p">Klik met de rechtermuisknop op de kolomkop van de tabel en selecteer <span style="font-weight: bold;">Tabel definitie</span> in het menu. Het dialoogvenster <b>Tabel Definitie Eigenschappen</b> verschijnt.            </li>
+                    <li class="p">Selecteer het veld dat u wilt refereren aan een specifieke taak in het <span style="font-weight: bold;">Veld</span> gedeelte.            </li>
+                    <li class="p">Klik op <span style="font-weight: bold;">Instellingen</span>. Het dialoogvenster <b>Specifieke Taak Data</b> verschijnt.            </li>
+                    <li class="p">Klik op het keuzerondje <span style="font-weight: bold;">Geen</span>.            </li>
+                    <li class="p">Klik op <span style="font-weight: bold;">OK</span> om het dialoogvenster <span style="font-weight: bold;">Specifieke Taak Data</span> te sluiten, Klik daarna op <span style="font-weight: bold;">Sluiten</span> om het dialoogvenster <span style="font-weight: bold;">Tabel Definitie Eigenschappen</span> te sluiten.            </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Opmerkingen over cellen die zijn geconfigureerd om informatie te tonen over specifieke taken in de tabel:</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul type="disc">
+                    <li class="p">Als een tabelcel informatie toont over één specifieke taak op een balk, kunt u deze cel aanpassen, mits de informatie in de cel op normaal gesproken ook is aan te passen. Als een tabelcel informatie toont over meerdere taken op een balk, kunt de cel niet aanpassen.            </li>
+                    <li class="p">De tabel toont alleen informatie over allocaties waarbij de eraan verbonden taken matchen met de specifieke taakcriteria.            </li>
+                    <li class="p" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Wanneer een balk wordt getoond in de één-taak-per-regel modus, worden tabelcellen blanco weergegeven en zijn niet te wijzigen behalve als de taak met de specifieke taakcriteria matcht.            </li>
+                    <li class="p" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">In RBS en CBS modus worden alle cellen die zijn afgeleid van velden die zijn geconfigureerd om informatie te tonen over specifieke taken blanco weergegeven.            </li>
+                    <li class="p">Sommige velden refereren altijd naar gegevens op balk-niveau, in plaats van op taak-niveau, bijvoorbeeld Balk naam en Balk ID, velden zoals deze tonen altijd balk-niveau informatie en houden geen rekening met uw specifieke taakinstellingen.            </li>
+                    <li class="p">Als u klikt op <span style="font-weight: bold;">Toevoegen</span> om een nieuw veld aan de tabeldefinitie in het dialoogvenster <span style="font-weight: bold;">Tabel Definitie Eigenschappen</span> toe te voegen, wordt er een nieuw veld aan de veldenlijst in de <span style="font-weight: bold;">Veld</span> groep toegevoegd na het geselecteerde veld - of aan het einde van de lijst als er geen veld geselecteerd is. In de meeste gevallen is het nieuwe veld een kopie van het huidig geselecteerde veld. Als het huidig geselecteerde veld refereert aan een specifieke taak, dan wordt het nieuwe veld gekoppeld aan de eerstvolgende taak. Bijvoorbeeld, als het geselecteerde veld refereert aan de derde taak op een balk, dan zal het nieuwe veld refereren aan de vierde taak op de balk.            </li>
+                    <li class="p">Als u meer dan één datum specificeert in de <span style="font-weight: bold;">Datums</span> velden in het dialoogvenster <span style="font-weight: bold;">Tabel Definitie Eigenschappen</span>, omdat u informatie wilt tonen over taken in een bepaald datumbereik, wordt alleen de informatie die tussen de geselecteerde datums valt getoond zodra ze matchen met de specifieke taakcriteria.            </li>
+                    <li class="p">Als u een filter toepast op de huidige view en u ervoor kiest om informatie over, bijvoorbeeld, de tweede taak op een balk weer te geven, dan wordt de informatie over de tweede taak zichtbaar op de balk wanneer het filter wordt toegepast. Dit hoeft niet hetzelfde te zijn als de tweede taak op de balk wanneer er nog geen filter op de view is toegepast.            </li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="Adding_columns_to_the_spreadsheet.htm">Kolommen toevoegen aan de tabel</a>
+        </p>
+        <p><a href="Setting_up_spreadsheet_columns.htm">Tabelkolommen instellen</a>
+        </p>
+    </body>
+</html>

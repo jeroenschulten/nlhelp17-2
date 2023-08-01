@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Klik op het juiste <b>Aanvraagallocaties</b> keuzerondje om op te geven welke hulpmiddelallocaties u wilt exporteren: selecteer het <b>Alle aanvragen</b> keuzerondje als u alle aanvraagallocaties wilt exporteren, selecteer het <b>Alleen resterende aanvragen</b> keuzerondje als u alleen die hulpmiddelaanvraagallocaties wilt exporteren die geen overeenkomstige ingeplande hulpmiddelallocaties bevatten, of selecteer <b>Geen</b> keuzerondje als u alleen geplande hulpmiddelallocaties wilt exporteren. </p>
+        <p>Merk op dat het kiezen van gehonoreerde hulpmiddelaanvraagallocaties u onverwachte resultaten kan opleveren, omdat een afzonderlijke allocatie in het geëxporteerde project wordt gemaakt voor zowel de aanvraag als de ingeplande allocatie - resulterend in twee afzonderlijke en niet-geassocieerde allocaties - dus is het kiezen om alleen resterende hulpmiddelaanvraagallocaties te exporteren in de meeste gevallen logischer.</p>
+    </body>
+</html>

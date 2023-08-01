@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>In sommige omstandigheden kan het passender zijn om het werktempo voor elke afzonderlijke taak vast te leggen in plaats van voor verschillende hulpmiddelen. Een taak 'Glazen ruit produceren' kan bijvoorbeeld een bepaald werktempo hebben - misschien ingesteld door de machine die wordt gebruikt - ongeacht het hulpmiddel dat aan de taak is toegewezen; of een staalvlechter kan in een ander tempo werken, afhankelijk van de dikte van het staal waarmee hij werkt. Om een standaard allocatie tempo voor een individuele taak te specificeren, voert u dit in bij het veld <b>Standaard allocatie tempo</b> in de velden 'Inspanning en modellering' in op het tabblad <b>Taak</b> van het dialoogvenster <b>Balk- en Taak Eigenschappen</b>. Als u dit doet, wordt het  standaard allocatie tempo van de taak toegepast op alle permanente hulpmiddelallocaties die later aan de taak worden toegewezen, waarbij het standaard werktempo van het permanente hulpmiddel wordt overschreven.</p>
+    </body>
+</html>

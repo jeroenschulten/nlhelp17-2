@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Door een project naar XML- of XER-indeling te exporteren, kunt u projectinformatie delen met collega's die toegang hebben tot Primavera-software maar geen toegang hebben tot <MadCap:variable name="Primary.Asta Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" />. Houd er echter rekening mee dat vanwege de beperkingen van deze bestandsindelingen, <a href="../../HTML_Topics/Conceptual/Starting_work/Primavera/Xfer_Primavera.htm" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">sommige informatie uit uw <MadCap:variable name="Primary.Asta Asta Powerproject Name" />-project verloren kan gaan</a> omdat niet alle gegevens naar XML- of XER-indeling kunnen worden geëxporteerd.</p>
+    </body>
+</html>

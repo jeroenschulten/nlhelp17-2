@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="185" MadCap:lastWidth="1192">
+    <head>
+    </head>
+    <body>
+        <ul>
+            <li>De hoeveelheid tijd die een taak of een vlag op het kritieke pad bijdraagt aan de totale projectduur.</li>
+            <li>De maximale hoeveelheid tijd dat de duur van een taak korter gemaakt kan worden alvorens de taak zich niet meer op het kritieke pad bevindt, of voor haar duur 0 wordt.</li>
+            <li>Een manier van het identificeren van de taken die het eerst zouden moeten worden aangepakt om te proberen de duur van een project in te korten - d.w.z. die taken met de grootste hoeveelheid drag.</li>
+        </ul>
+    </body>
+</html>

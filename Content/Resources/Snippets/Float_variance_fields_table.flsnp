@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');caption-side: top;margin-left: 0;margin-right: auto;" cellspacing="0">
+            <col style="width: 19px;" class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Veld</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Omschrijving</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Kosten van kostengroep</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De kosten  die zijn geregistreerd bij de taak, ofwel van een geselecteerde kostengroep ofwel van alle kostengroepen.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Werkelijke kosten</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De hoeveelheid kosten dat voltooid is bij de taak, ofwel van een geselecteerde kostengroep ofwel van alle kostengroepen.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Kosten resterend</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De hoeveelheid kosten dat nog moet worden voltooid is bij de taak, ofwel van een geselecteerde kostengroep ofwel van alle kostengroepen.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Inkomsten in kostengroep</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De inkomsten die zijn geregistreerd bij de taak, ofwel van een geselecteerde kostengroep ofwel van alle kostengroepen.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Werkelijke inkomsten</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De hoeveelheid inkomsten dat voltooid is bij de taak, ofwel van een geselecteerde kostengroep ofwel van alle kostengroepen.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Inkomsten resterend</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De hoeveelheid inkomsten dat nog moet worden voltooid is bij de taak, ofwel van een geselecteerde kostengroep ofwel van alle kostengroepen.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Totale speling</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De hoeveelheid tijd dat de taak kan worden vertraagd zonder de  project einddatum te beïnvloeden; het verschil tussen de vroegste en de laatste einddatum van de taak.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Vrije speling</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De hoeveelheid tijd dat de taak kan worden vertraagd zonder enig andere taak of de  project einddatum te beïnvloeden; het verschil tussen de vroegste  einddatum van de taak en de vroegste  startdatum van de direct opvolgende taak.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Positie</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Of de taak op haar balk als ZSM, ZLM of ZSM Forceer Kritiek is geplaatst.</p>
+                        <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Rescheduling_projects.htm">Klik hier</a> voor meer informatie.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Buffertaak</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Of de taak een buffertaak is, d.w.z. een taak die een belangrijke datum beschermt.</p>
+                        <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Bar_chart_editing/Buffer_tasks/Buffer_tasks.htm">Klik hier</a> voor meer informatie.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Originele buffertaak duur</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De duur van een buffertaak of van een duur berekende taak op het moment dat deze als een buffer taak of een duur berekende taak werd gedefinieerd.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Kritiek</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Of de taak zich op het kritieke pad bevindt, zoals berekend is na een herberekening.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Mijlpaal - Positie</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Bij mijlpalen, of de mijlpaal op haar balk als ZSM, ZLM of ZSM Forceer Kritiek is geplaatst.</p>
+                        <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Rescheduling_projects.htm">Klik hier</a> voor meer informatie.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Gegeven einddatum/tijd</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Bij mijlpalen, de datum en tijd waarop de mijlpaal plaatsvindt.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Mijlpaaltype</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Bij mijlpalen, of de mijlpaal een Start of een Eind mijlpaal is.</p>
+                        <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Starting_work/Working_with_milestones/Working_with_milestones.htm">Klik hier</a> voor meer informatie.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Voltooid</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Bij mijlpalen, of de mijlpaal is voltooid.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Vroege startdatum</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De vroegst mogelijke datum/tijd waarop de taak kan starten binnen de logische en opgelegde beperkingen/vlaggen in de planning.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Vrije startdatum</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De vroegst mogelijke datum/tijd waarop de taak kan starten binnen de logische en opgelegde beperkingen/vlaggen in de planning, zonder de startdatum van enig andere taak te beïnvloeden.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Late startdatum</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De laatst mogelijke datum/tijd waarop de taak kan starten binnen de logische en opgelegde beperkingen/vlaggen in de planning</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Vroege einddatum</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De vroegst mogelijke datum/tijd waarop de taak kan eindigen binnen de logische en opgelegde beperkingen/vlaggen in de planning.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Vrije einddatum</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De vroegst mogelijke datum/tijd waarop de taak kan eindigen binnen de logische en opgelegde beperkingen/vlaggen in de planning, zonder de startdatum van enig andere taak te beïnvloeden.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Late einddatum</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">De laatst mogelijke datum/tijd waarop de taak kan eindigen binnen de logische en opgelegde beperkingen/vlaggen in de planning.</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

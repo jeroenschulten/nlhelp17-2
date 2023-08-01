@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Working_with_resources\Resource_levelling\How_the_resource_leveller_works.htm" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:lastBlockDepth="2" MadCap:lastHeight="1691" MadCap:lastWidth="882" class="KLAAR" xml:lang="nl-nl" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Levelling van hulpmiddelen:hoe hulpmiddel levelling werkt" />Hoe werkt hulpmiddel levelling?</h1>
+        <p>Als hulpmiddel levelling moet kiezen tussen het levellen van allocaties tussen 2 taken die aan elkaar gekoppeld zijn, wordt de opvolgende taak het eerst geleveld, ongeacht de prioriteitsinstellingen die u heeft ingevoerd. In de afbeelding hieronder lijkt het minder waarschijnlijk dat Fase 13 geleveld is in plaats van Fase 12, afgaande op de levelling prioriteit van de 2 fasen:</p>
+        <p>
+            <img src="../../../../Graphics/Resources/level1.gif" alt="Fase 12 heeft een lagere levelling prioriteit" title="Fase 12 heeft een lagere levelling prioriteit" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="272" height="140" border="0" />
+        </p>
+        <p>Toch wordt Fase 13 verplaatst door hulpmiddel levelling, omdat het de opvolgende taak is:</p>
+        <p>
+            <img src="../../../../Graphics/Resources/level2.gif" alt="Maar Fase 13 wordt verplaatst, omdat fase 13 een opvolgende taak is" title="Maar Fase 13 wordt verplaatst, omdat fase 13 een opvolgende taak is" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="300" height="140" border="0" />
+        </p>
+        <p>Bij een overallocatie veroorzaakt door meerdere allocaties op dezelfde taak, zal hulpmiddel- levelling de overallocatie proberen op te lossen door individuele allocaties op de taak te vertragen. Allocaties die later starten, worden eerder vertraagd dan allocaties die eerder starten. In de afbeelding hieronder heeft Fase 12 twee allocaties van hetzelfde hulpmiddel:</p>
+        <p>
+            <img src="../../../../Graphics/Resources/level3.gif" alt="Jan Park is twee keer ingepland" title="Jan Park is twee keer ingepland" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="192" height="113" border="0" />
+        </p>
+        <p>Hulpmiddel levelling verplaatst de latere allocatie, zodat die begint na de eerste allocatie:</p>
+        <p>
+            <img src="../../../../Graphics/Resources/level4.gif" alt="De twee allocaties zijn nu opeenvolgend" title="De twee allocaties zijn nu opeenvolgend" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="223" height="96" border="0" />
+        </p>
+        <p>Als twee taken overlappende allocaties hebben, die overallocatie tot gevolg hebben, kan hulpmiddel levelling de allocatie op de taak met de lagere prioriteit opsplitsen mits de allocatie op de taak met de lagere prioriteit eerder start dan de allocatie op de taak met de hogere prioriteit. In dit geval wordt de prioriteit van de taken bepaald door de sortering/groepering en niet door de levelling prioriteiten die u aan de taken hebt toegevoegd. In de afbeelding hieronder zijn de taken gesorteerd/gegroepeerd in hun natuurlijke volgorde:</p>
+        <p>
+            <img src="../../../../Graphics/Resources/level5.gif" alt="Jan Park is twee keer ingepland" title="Jan Park is twee keer ingepland" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="174" height="140" border="0" />
+        </p>
+        <p>Hulpmiddel levelling splitst de allocatie van Fase 13 op, om ruimte te maken voor de allocatie op Fase 12:</p>
+        <p>
+            <img src="../../../../Graphics/Resources/level6.gif" alt="Fase 13 is opgesplitst" title="Fase 13 is opgesplitst" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="198" height="140" border="0" />
+        </p>
+        <p>Gemodelleerde hulpmiddelallocaties kunnen verlengd worden om overallocatie te verwijderen. Voorbeeld: een allocatie bestaande uit 2 Elektriciens die 5 dagen werken, kan verlengd worden, zodat 1 Elektricien 10 dagen werkt. Niet-gemodelleerde hulpmiddelallocaties kunnen ook verlengd worden als dat nodig is: de allocatie van het hulpmiddel wordt minder om de overallocatie te verwijderen en de duur wordt langer naar de tijd die vereist is om de inspanning te voltooien. U kunt <a href="Setting_resource_levelling_options.htm">een minimum allocatie opgeven voor elke hulpmiddelallocatie</a>, zodat de hulpmiddelallocatie niet beneden het minimum komt wanneer de hulpmiddelallocatie wordt verlengd.</p>
+        <p>Hulpmiddelallocaties op niveautaken, samenvattingstaken en hammock taken worden niet aangepast door hulpmiddel levelling. Hulpmiddel levelling probeert alle overallocatie te verwijderen door hulpmiddel allocaties aan te passen, behalve hoger-niveau taken. Maar een samenvattingstaak die geen onderliggende taken heeft, kan verplaatst worden door middel van hulpmiddel levelling.</p>
+        <p>Veronderstel dat een hoger niveau taak en één van zijn onderliggende taken dezelfde hulpmiddelallocaties bevatten. En deze allocaties een overallocatie veroorzaken. Dan zal hulpmiddel levelling mislukken, want het verplaatsen van onderliggende taken zal alleen de duur van de hoger-niveau taak veranderen; De overallocatie kan niet opgelost worden.</p>
+        <p>Hulpmiddel levelling houdt geen rekening met mijlpalen.</p>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p><a href="Resource_levelling_process_flowchart.htm">Hulpmiddel levelling stroomschema</a>
+        </p>
+        <p><a href="Setting_resource_levelling_options.htm">Hulpmiddel levelling opties instellen</a>
+        </p>
+        <p><a href="Setting_the_levelling_priority_of_tasks.htm">Levelling prioriteit van taken instellen</a>
+        </p>
+        <p><a href="Undoing_resource_levelling.htm">Hulpmiddel levelling ongedaan maken</a>
+        </p>
+    </body>
+</html>

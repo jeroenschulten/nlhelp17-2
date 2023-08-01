@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... de eigenschappen van een link bewerken?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Klik op de rij van de link die u wilt bewerken om deze rij te selecteren.</li>
+                    <li>Binnen de geselecteerde rij, klik op de kolom met de informatie die u wilt bewerken.</li>
+                    <li>Overschrijf zoals gewenst de aanwezige informatie en klik vervolgens buiten de rij.</li>
+                </ol>
+                <p>Als u de informatie in de kolommen Voorganger naam of Opvolger naam bewerkt, en de namen van taken invoert, kunt u de linkcategorie, het linktype en de hoeveelheid positieve / negatieve wachttijd opgeven, hoewel deze informatie niet in de kolom wordt weergegeven. U doet dit op dezelfde manier als wanneer u links maakt en bewerkt met behulp van de kolommen Voorgangers en Opvolgers in de tabel.</p>
+                <p>Als u bijvoorbeeld de kolom Naam van de Voorganger voor een link als volgt bewerkt - <b>Loodgieter (Categorie A) SS 2d</b> - zou de link worden verplaatst om te kunnen starten bij de Loodgieter-taak, zou deze worden gewijzigd in een Start-Start-link, zou 2 dagen positieve / negatieve wachttijd hebben en de categorie A linkcategorie eraan worden toegewezen. <a href="../../HTML_Topics/Conceptual/Starting_work/Linking_tasks/Link_spreadsheet.htm">Klik hier</a> voor meer informatie.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

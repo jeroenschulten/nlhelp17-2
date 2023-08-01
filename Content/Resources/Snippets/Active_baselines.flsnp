@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="81" MadCap:lastWidth="1355">
+    <head>
+    </head>
+    <body>Het is aan te bevelen om alleen die baselines die u op dit moment echt gebruikt als "actief" aan te merken. Wanneer u ervoor kiest om projecten en baselines te premounten, worden inactieve baselines niet mee gepremounted, hetgeen de project performance verbetert. Gegevens van inactieve baselines worden uitgesloten van de gebruikersinterface, behalve van het <b>Baseline/What If Manager</b> dialoogvenster zelf.</body>
+</html>

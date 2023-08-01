@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Dialogs\D_Serverlocation.htm" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+    <head>
+        <link href="../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1>Dialoogvenster Client/Server communicatie details</h1>
+        <p>U maakt gebruik van het dialoogvenster <b>Client/Server communicatie details</b> om de methode te specificeren waarvan uw <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> client gebruik zou moeten maken om verbinding te leggen met de server, of servers, waarop projecten zijn gelokaliseerd. </p>
+        <p>De manier waarop u dit doet hangt af of uw implementatie van <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise een Windows-gebaseerde of een web-gebaseerde <MadCap:variable name="Primary.Serveradmin Name" /> bevat:</p>
+        <ul>
+            <li>Als uw implementatie van <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise een Windows-gebaseerde <MadCap:variable name="Primary.Serveradmin Name" /> omvat, moeten de serverlocatiegegevens overeenkomen met die gegevens die gespecificeerd zijn in <MadCap:variable name="Primary.Serveradmin Name" />. Bij dit type implementatie kunnen <MadCap:variable name="Primary.Asta Asta Powerproject Name" />-clients verbinding maken met servers via één van de twee methoden, en als een client verbinding maakt met meer dan één server, kan deze een andere methode gebruiken om met elke server te communiceren. U moet alle communicatiemethoden specificeren die door een client worden gebruikt om verbinding te maken met zijn servers.</li>
+            <li>Als uw implementatie van <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise een webgebaseerde <MadCap:variable name="Primary.Serveradmin Name" /> omvat, omvatten de serverlocatiegegevens de servernaam van de servermachine waarop <MadCap:variable name="Primary.Serveradmin Name" /> is geïnstalleerd, vervolgens een dubbele punt en vervolgens een poortnummer - standaard 5400.</li>
+        </ul>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b>Client/Server Communicatie&#160;Details</b> dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Om toegang te krijgen tot het <span style="font-weight: bold;">Client/Server Communicatie Details</span> dialoogvenster, klik op het <b>Bestand</b> tabblad, klik op <b>Openen</b>, klik op <b>Enterprise</b>, en klik vervolgens op <b>Server Locator</b>.</p>
+                <p>
+                    <MadCap:snippetText src="../../Resources/Snippets/APP_SaaS_standalone_dialog_not_available.flsnp" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Verklaring van de velden op het dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../../Resources/Stylesheets/Table_Stylesheet.css');caption-side: top;margin-left: 0;margin-right: auto;" cellspacing="0">
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <thead>
+                        <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Veld</th>
+                            <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Omschrijving</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Name Server</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">
+                                    <MadCap:variable name="Primary.Asta Asta Powerproject Name" style="font-weight: bold;" />
+                                    <b> Enterprise implementaties met een Windows-gebaseerde </b>
+                                    <MadCap:variable name="Primary.Serveradmin Name" style="font-weight: bold;" />
+                                </p>
+                                <p class="ParagraphsInTables" xmlns="">&#160;</p>
+                                <p class="ParagraphsInTables">Schakel dit selectievakje in wanneer u gebruik maakt van de <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Name Server communicatie methode, via de applicatie <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Name Server. Wanneer u een Enterprise server start, communiceert deze met de <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Name Server, welke alle details van alle op dat moment draaiende Enterprise servers beheert. De <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Name Server publiceert vervolgens de details van de Enterprise servers naar de clients, zonder dat de clients naar elke afzonderlijke server hoeven te verbinden. De <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Name Server moet ten allen tijde draaien om clients en servers er naar te kunnen verbinden.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">U moet deze server locatie methode gebruiken wanneer <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> clients via het Internet verbinding moeten maken met een server, aangezien het de enige server locatie methode is die Internet-capabel is.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Voer het IP adres of de hostnaam in van de computer waarop de <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Name Server draait in het veld rechts van het selectievakje.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables" style="font-weight: bold;">
+                                    <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise  implementaties met een web-gebaseerde <MadCap:variable name="Primary.Serveradmin Name" /></p>
+                                <p class="ParagraphsInTables" xmlns="">&#160;</p>
+                                <p class="ParagraphsInTables" xmlns="">Schakel dit selectievakje in en voer de  servernaam van de server machine waarop <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise geïnstalleerd is, gevolgd door een dubbele punt, en een poortnummer - standaard is dat 5400  - bijvoorbeeld PROJECTSERVER:5400.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Gedeelde Map</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">
+                                <p class="ParagraphsInTables">Schakel dit selectievakje in wanneer uw <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise  implementatie een Windows-gebaseerde <MadCap:variable name="Primary.Serveradmin Name" /> heeft en u gebruik maakt van de Gedeelde Map server locatie methode . Dan zal de client, servers lokaliseren die gebruik maken van een gedeeld bestand, dat wordt opgeslagen in de map die u specificeert in dit dialoogvenster. De <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> clients gebruiken de bestanden die in de folder gezet zijn om te bepalen welke servers op dit moment beschikbaar zijn.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Voer het station en het pad van de map die u gedeeld heeft in het veld aan de rechterkant van het selectievakje. U kunt het pad rechtstreeks opgeven (bijvoorbeeld //servernaam/mapnaam/) of gebruik maken van een mapping naar een netwerk station (bijvoorbeeld T:/mapnaam/).</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../Resources/Snippets/How_do_I.flsnp" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... een client/server communicatie opzetten via de <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Name Server methode (Windows-gebaseerde <MadCap:variable name="Primary.Serveradmin Name" />)?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="p">Schakel het selectievakje <span style="font-weight: bold;"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Name Server</span> in.</li>
+                    <li class="p">Voer het IP adres of de hostnaam in van de computer waarop de <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Name Server draait in het veld rechts van het selectievakje.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... een client/server communicatie opzetten via de Gedeelde Map server locatie methode (web-gebaseerde <MadCap:variable name="Primary.Serveradmin Name" />?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="p">Schakel het selectievakje <b>Gedeelde Map</b> in.</li>
+                    <li class="p">Voer het station en het pad van de map die u gedeeld heeft in het veld aan de rechterkant van het selectievakje. U kunt het pad rechtstreeks opgeven (bijvoorbeeld //servernaam/mapnaam/) of gebruik maken van een mapping naar een netwerk station (bijvoorbeeld T:/mapnaam/).</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... een client/server communicatie opzetten in een <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise  implementatie met een web-gebaseerde <MadCap:variable name="Primary.Serveradmin Name" />?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="p">Schakel het selectievakje <MadCap:variable name="Primary.Asta Asta Powerproject Name" style="font-weight: bold;" /> <span style="font-weight: bold;">Name Server</span> in.</li>
+                    <li class="p">Voer de  servernaam van de server machine waarop <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise geïnstalleerd is, gevolgd door een dubbele punt, en een poortnummer - standaard is dat 5400  - bijvoorbeeld PROJECTSERVER:5400.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p>
+            <a href="../Other/Workingdialogs.htm">Met dialoogvensters werken</a>
+        </p>
+        <p>
+            <a href="../Conceptual/Multi_user/Using_multi_user/Locating_the_teamplan_ENTERPRISE_server.htm">De Enterprise server lokaliseren</a>
+        </p>
+    </body>
+</html>

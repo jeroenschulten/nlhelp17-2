@@ -1,0 +1,407 @@
+/*<meta />*/
+
+@font-face 
+{
+	font-family: 'Roboto';
+	src: url('../../../../../../fonts/roboto/roboto-regular-webfont.eot');
+	src: url('../../../../../../fonts/roboto/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../../../../../../fonts/roboto/roboto-regular-webfont.woff2') format('woff2'), url('../../../../../../fonts/roboto/roboto-regular-webfont.woff') format('woff'), url('../../../../../../fonts/roboto/roboto-regular-webfont.ttf') format('truetype'), url('../../../../../../fonts/roboto/roboto-regular-webfont.svg#robotoregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body
+{
+	font-family: Roboto, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	background-color: #FFFFFF;
+	color: #262626;
+	margin: 0px;
+	padding: 8px;
+	font-size: 16px;
+}
+
+h1
+{
+	font-weight: normal;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-left: 8px;
+	padding-right: 8px;
+	margin: 0px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font-family: Roboto, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	font-size: 26px;
+	color: #262626;
+	background-color: #ffffff;
+}
+
+h2
+{
+	font-weight: bold;
+	margin: 0px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-family: Roboto, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	color: #262626;
+	font-size: 18px;
+}
+
+h1.MainTopicHeading
+{
+	x-next-class: ;
+	x-next-type: P;
+	font-weight: normal;
+	color: #262626;
+	font-size: 26px;
+	background-color: #ffffff;
+}
+
+p
+{
+	color: #262626;
+	font-family: Roboto, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin: 0px;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	margin-top: 0px;
+	padding: 8px;
+	font-size: 16px;
+}
+
+p.note
+{
+	
+}
+
+p.RelatedTopics
+{
+	margin: 0px;
+	margin-bottom: 5px;
+	margin-top: 8px;
+	padding-bottom: 3px;
+	padding-top: 6px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-top: solid 2px;
+	border-top-color: #dddddd;
+	font-family: Roboto, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	color: #262626;
+	font-size: 18px;
+}
+
+UL
+{
+	color: #262626;
+	list-style-type: disc;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-left: 40px;
+	padding-bottom: 6px;
+	padding-top: 6px;
+}
+
+OL
+{
+	color: #262626;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-left: 40px;
+	padding-bottom: 6px;
+	padding-top: 6px;
+}
+
+TABLE
+{
+	text-align: left;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	margin-top: 1.12em;
+	margin-bottom: 1.12em;
+	font-size: 16px;
+}
+
+TR
+{
+	margin: 0.20em;
+	vertical-align: top;
+}
+
+TH
+{
+	background: #dddddd;
+	margin: 0.20em;
+	text-align: left;
+	vertical-align: top;
+}
+
+TD
+{
+	background: #FFFFFF;
+	margin: 0.20em;
+	vertical-align: top;
+}
+
+CITE.expandspot
+{
+	font-style: normal;
+	color: #262626;
+	cursor: hand;
+}
+
+DFN.collapsed
+{
+	font-style: normal;
+	font-weight: normal;
+	display: 'none';
+	color: #e42313;
+}
+
+DFN.expanded
+{
+	font-style: normal;
+	font-weight: normal;
+	color: #e42313;
+}
+
+EM.dropspot
+{
+	font-style: normal;
+	color: #262626;
+	cursor: hand;
+}
+
+CITE.glossterm
+{
+	font-style: normal;
+	color: #e42313;
+	cursor: hand;
+}
+
+DFN.glosscollapsed
+{
+	font-style: normal;
+	font-weight: normal;
+	display: 'none';
+	color: #e42313;
+}
+
+DFN.glossexpanded
+{
+	font-style: normal;
+	font-weight: normal;
+	color: #e42313;
+}
+
+.mvd-CITE-expandspot
+{
+	font-style: normal;
+	color: #262626;
+	cursor: hand;
+}
+
+.mvd-DFN-collapsed
+{
+	font-style: normal;
+	font-weight: normal;
+	display: 'none';
+	color: #e42313;
+}
+
+.mvd-DFN-expanded
+{
+	font-style: normal;
+	font-weight: normal;
+	color: #e42313;
+}
+
+.mvd-EM-dropspot
+{
+	cursor: hand;
+	color: #262626;
+}
+
+.mvd-CITE-glossterm
+{
+	font-style: normal;
+	color: #e42313;
+	cursor: hand;
+}
+
+.mvd-DFN-glosscollapsed
+{
+	font-style: normal;
+	font-weight: normal;
+	display: 'none';
+	color: #e42313;
+}
+
+.mvd-DFN-glossexpanded
+{
+	font-style: normal;
+	font-weight: normal;
+	color: #e42313;
+}
+
+MadCap|dropDownHead
+{
+	color: #e42313;
+	mc-closed-image: url('../../Graphics/Help/ExpandingClosed.gif');
+	mc-open-image: url('../../Graphics/Help/ExpandingOpen.gif');
+}
+
+MadCap|dropDown
+{
+	padding: 8px;
+	padding-left: 8px;
+	color: #e42313;
+	mc-closed-image: url('../../Graphics/Help/ExpandingClosed.gif');
+	mc-open-image: url('../../Graphics/Help/ExpandingOpen.gif');
+}
+
+MadCap|dropDownHotspot
+{
+	color: #e42313;
+}
+
+A.GlossaryPageTerm
+{
+	
+}
+
+A
+{
+	color: #e42313;
+	border-bottom: solid 0px;
+}
+
+P.DropDownBody
+{
+	
+}
+
+li
+{
+	padding-bottom: 6px;
+	padding-top: 6px;
+}
+
+MadCap|dropDownBody
+{
+	background-color: #f4f4f4;
+}
+
+div.GlossaryPageTerm
+{
+	font-size: 16px;
+	font-family: Roboto, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	padding: 4px;
+}
+
+div.GlossaryPageDefinition
+{
+	font-size: 16px;
+	font-family: Roboto, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	padding: 4px;
+}
+
+div.GlossaryPageEntry
+{
+	font-family: Roboto, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	font-size: 16px;
+}
+
+img.IMG
+{
+	border: none;
+}
+
+MadCap|breadcrumbsProxy
+{
+	mc-breadcrumbs-prefix: ' ';
+}
+
+p.ParagraphsInTables
+{
+	padding-top: 0px;
+	padding: 0px;
+	font-family: Roboto, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+}
+
+h2.h2Italic
+{
+	margin: 0px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-weight: bold;
+	font-style: italic;
+	font-family: Roboto, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	color: #262626;
+}
+
+MadCap|toggler
+{
+	mc-closed-image: url('../../Graphics/Help/ExpandingClosed.gif');
+	mc-open-image: url('../../Graphics/Help/ExpandingOpen.gif');
+}
+
+map
+{
+	border: none;
+}
+
+img
+{
+	border: none;
+}
+
+h3
+{
+	margin: 0px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-family: Roboto, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	color: #262626;
+}
+
+A:link
+{
+	text-decoration: none;
+	color: #e42313;
+}
+
+A:visited
+{
+	text-decoration: none;
+	color: #e42313;
+}
+
+A:hover
+{
+	text-decoration: underline;
+	color: #a2180c;
+}
+
+:focus
+{
+	outline: none;
+}
+

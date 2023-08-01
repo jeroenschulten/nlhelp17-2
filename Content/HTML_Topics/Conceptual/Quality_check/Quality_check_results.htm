@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="KLAAR" xml:lang="nl-nl" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+    <head>
+        <link href="../../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Kwaliteitschecks:begrijpen van de resultaten van;Kwaliteitscriteria:bekijken van taken die falen bij;Kwaliteitschecks:bekijken van taken die falen bij;Kwaliteitschecks:gewogen totalen;Weighted total of quality checks" />De resultaten van een planningskwaliteitscheck begrijpen</h1>
+        <p>Nadat u een planningskwaliteitscheck heeft uitgevoerd, verschijnen de resultaten in een rastertabel op het <b>Kwaliteitscheck Resultaten</b> dialoogvenster. <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_22.flsnp" /></p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_25.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_26.flsnp" />
+        <p>Om de taken te bekijken die gefaald hebben op een kwaliteitscriterium:</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_29.flsnp" />
+        <h2><a name="Weighted_total"></a>Begrijpen van het gewogen totaal resultaat</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_32.flsnp" />
+        <p>Het gewogen totaal wordt berekend door het procentuele resultaat van elk kwaliteitscriterium te vermenigvuldigen met de wegingswaarde, de gewogen resultaten op te tellen en dit vervolgens te delen door het aantal gewogen kwaliteitscriteria in de kwaliteitscheck.</p>
+        <p>Bijvoorbeeld, wanneer een kwaliteitscheck de volgende criteria bevat:</p>
+        <table style="mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" style="width: 32px;" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Kwaliteitscriterium </th>
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Percentage resultaat</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Weging</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Geslaagd of Gefaald?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">Link logica</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">60%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">2,00</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Gefaald</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">Detail</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">75%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">0,50</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Geslaagd</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1">Veel speling</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1">85%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1">1,00</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Valt tussen een geslaagd en een gefaald in</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Het gewogen totaal zou nu worden berekend als volgt:</p>
+        <p>Link logica: ((60 x 2) + (75 x 0.5) + (85 x 1)) / 3 = 80.83</p>
+        <p>Dit is afgerond naar beneden 80% (resultaten worden altijd naar beneden naar het dichtstbijzijnde gehele getal afgerond, i.p.v. naar boven).</p>
+        <p>De 'link logica dichtheid', 'kritieke pad lengte index' en 'baseline uitvoering index' kwaliteitscheckcriteria  moeten naar percentages worden geconverteerd voor weging doeleinden:</p>
+        <ul>
+            <li>Het 'link logica dichtheid' criterium levert een slaag of faal resultaat op: als het criterium slaagt, krijgt het een percentage van 100%; als het criterium faalt, krijgt het een percentage van  0%.</li>
+            <li>De 'kritieke pad lengte index' en 'baseline uitvoering index' kwaliteitscheckcriteria resulteren in een ratio waarbij elke ratio hoger dan 1 een gewenst resultaat is; hoe dichter de ratio de nul benadert, hoe slechter het resultaat. De ratio wordt vermenigvuldigd met 100 om een percentage te verkrijgen; elk resulterend percentage boven de 100% wordt gereduceerd tot 100%.</li>
+        </ul>
+        <p>U kunt gewogen totaal slaag- en faalgrenzen voor elke kwaliteitscheck specificeren. Deze staan standaard ingesteld op 75% en 25%. Wanneer de gewogen totaal slaag- en faalgrenzen op hun standaard waarden zouden behouden, dan zou een gewogen totaal van 80% een geslaagd vertegenwoordigen.</p>
+        <p>Merk op dat de gewogen totale slaag- en faalgrenzen geen relatie hebben met de slaag- en faalgrenzen van individuele criteria. Dit betekent dat u een kwaliteitscheck zou kunnen hebben die één of meer criteria bevat die falen met percentages van minder dan 100%, met een gewogen totaal dat slaagt, omdat het totale resultaat groter is dan de gewogen totaal slaaggrens.</p>
+        <p>Merk op dat het criterium Gemiste taken bijdraagt aan het gewogen totaal door haar procentuele resultaat af te trekken van 100%, omdat de slaag- en faal-grenzen worden omgekeerd. Als dit criterium een procentueel resultaat van 75% zou hebben, zou haar bijdrage aan het gewogen totaal 25% vermenigvuldigd met haar wegingswaarde zijn</p>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="Checking_quality_intro.htm" xmlns="">Introductie over planningskwaliteitschecks</a>
+        </p>
+        <p><a href="Creating_quality_check.htm" xmlns="">Creëren van een nieuwe planningskwaliteitscheck</a>
+        </p>
+        <p><a href="Executing_quality_check.htm" xmlns="">Uitvoeren van een planningskwaliteitscheck</a>
+        </p>
+        <p><a href="Quality_checks_pane.htm" xmlns="">Het Kwaliteitschecks paneel gebruiken om de kwaliteitscheck resultaten te bekijken</a>
+        </p>
+        <p><a href="Quality_check_import_export.htm" xmlns="">Delen van kwaliteitscheckcriteria tussen kwaliteitschecks en projecten</a>
+        </p>
+    </body>
+</html>

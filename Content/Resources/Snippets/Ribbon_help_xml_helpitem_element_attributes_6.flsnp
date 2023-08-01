@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="58" MadCap:lastWidth="1126">
+    <body>
+        <li><b>Url</b> - een tekststring, die alleen gebruikt wordt bij <b>helpitem</b> elementen van het <b>Type</b> "url", die e URL of de webpagina definieert die zou moeten worden geopend.</li>
+    </body>
+</html>

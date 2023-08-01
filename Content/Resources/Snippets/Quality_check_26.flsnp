@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>De resultatentabel toont informatie over elk kwaliteitscriterium in de volgende kolommen:</p>
+        <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');caption-side: top;margin-left: 0;margin-right: auto;" cellspacing="0">
+            <col style="width: 86px;" class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Kolom</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Omschrijving</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Check</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De naam van het kwaliteitscriterium. Bovenaan de resultatentabel staat het <a href="../../HTML_Topics/Conceptual/Quality_check/Quality_check_results.htm#Weighted_total" xmlns="">gewogen totaal</a>, dat een overall indicatie geeft of het project de planningskwaliteitscheck heeft doorstaan of dat deze gefaald is, waarbij de gewogen resultaten van alle kwaliteitscriteria in beschouwing zijn genomen.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Een omschrijving van het kwaliteitscriterium.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Resultaat</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables" xmlns="">Het percentage resultaat of de ratio waarde van het kwaliteitscriterium, naar beneden afgerond naar het meest dichtstbijzijnde gehele getal. Het resultaat is kleurgecodeerd volgens de slaag en faalgrenzen van de criteria:</p>
+                        <ul>
+                            <li type="disc">Groen geeft een geslaagd aan.</li>
+                            <li>Rood geeft een gefaald aan.</li>
+                            <li>Oranje geeft een resultaat aan tussen een geslaagd en een gefaald.</li>
+                        </ul>
+                        <p class="ParagraphsInTables" xmlns="">Als er in het project niets was om een bepaald kwaliteitscriterium te laten checken - bijvoorbeeld als de kwaliteitscheck het uitvoercriterium van een baseline bevatte en het project geen baseline heeft - wordt het resultaat weergegeven als nul en groen gekleurd.</p>
+                        <p class="ParagraphsInTables" xmlns="">Kwaliteitscriteria waarvoor u geen slaag- en faalgrenzen kunt opgeven (correct herberekend, ongeldige datums, kritieke pad-test en linklogica dichtheid) geven een resultaat van 100% weer indien geslaagd en 0% indien gefaald.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Geslaagd</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1" xmlns="">Indien van toepassing, het aantal items dat bij het kwaliteitscriterium geslaagd is. Er wordt in deze kolom niets getoond voor het gewogen totaal of voor kwaliteitscriteria die enkel resulteren in een simpele geslaagd of gefaald.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Totaal</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1" xmlns="">Indien van toepassing, het aantal items waarmee de geslaagd waarde vergeleken is om het geslaagd percentage of het ratio resultaat te berekenen. Er wordt in deze kolom niets getoond voor het gewogen totaal of voor kwaliteitscriteria die enkel resulteren in een simpele geslaagd of gefaald.</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>selectievakje in om ook de revisies op te nemen van het programma en haar baselines die geen naam hebben in de <b>Programma</b> en <b>Baseline</b> velden, of schakel dit selectievakje uit om niet benoemde revisies van deze velden uit te sluiten. Wanneer u ervoor kiest om niet benoemde revisies op te nemen, worden ze in een lijst weergeven op datum.</body>
+</html>

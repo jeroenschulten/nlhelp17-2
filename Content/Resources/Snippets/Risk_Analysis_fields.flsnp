@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>Voor meer informatie over het gebruik van deze velden, zie de Risico Analyse Help.</p>
+        <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');caption-side: top;margin-left: 0;margin-right: auto;" cellspacing="0">
+            <col style="width: 19px;" class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Veld</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Omschrijving</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Minimum duur</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Voer de kortste duur in die u inschat dat de taak nodig zou hebben om voltooid te worden.</p>
+                        <p class="ParagraphsInTables">
+                            <MadCap:snippetText src="Risk_Analysis_min_max_durations.flsnp" />
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Maximum duur</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Voer de langste duur in die u inschat dat de taak nodig zou hebben om voltooid te worden.</p>
+                        <p class="ParagraphsInTables">
+                            <MadCap:snippetText src="Risk_Analysis_min_max_durations.flsnp" />
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Taak waarschijnlijkheid</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Voer een waarde tussen de 0 en 100 in om te specificeren, in percentages, de waarschijnlijkheid dat de taak plaats zal vinden.</p>
+                        <p class="ParagraphsInTables">
+                            <MadCap:snippetText src="Risk_event.flsnp" />
+                        </p>
+                        <p class="ParagraphsInTables">Wanneer u risico analyses uitvoert, kunt u specificeren om rekening te houden met de waarschijnlijkheden die zijn ingevoerd bij individuele taken. wanneer u ervoor kiest om dit te doen, wordt bij elke iteratie van de risico analyse rekening gehouden met de waarschijnlijkheid van risico gebeurtenis taken, hetgeen betekent dat de risico gebeurtenis taken in sommige iteraties zullen worden opgenomen, maar niet in andere. Wanneer u specificeert dat een taak voor 80% waarschijnlijkheid plaatsvindt, zal de taak verschijnen in - en daarom invloed hebben op - ruwweg 80% van de risico analyse iteraties.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Taak verdeling</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1" xmlns="">
+                        <p class="ParagraphsInTables">Wanneer u een specifieke verdeling wilt toepassen op de wijze waarin de duur van de taak geselecteerd wordt tijdens een risico analyse, selecteer dan het type verdeling in dit veld.</p>Wanneer u een specifieke verdeling op een taak toepast, wordt deze verdeling altijd gebruikt voor die bepaalde taak, bij het bepalen van de duur van de taken tijdens de risico analyse, ongeacht de verdeling die u selecteert op het Wanneer u een specifieke verdeling op een taak toepast, wordt deze verdeling altijd gebruikt voor die bepaalde taak, bij het bepalen van de duur van de taken tijdens de risico analyse, ongeacht de verdeling die u selecteert op het <b>Risico Instellingen</b> tabblad van het <b>Risico Analyse</b> dialoogvenster. tabblad van het <b>Risico Analyse</b> dialoogvenster. Om te specificeren dat de verdeling die u selecteert op het <b>Risico Instellingen</b> tabblad van het <b>Risico Analyse</b> dialoogvenster bij de risico analyse standaard voor de taak zou moeten worden gebruikt, selecteer <b>Standaard</b> in dit veld.</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

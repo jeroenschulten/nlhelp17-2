@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="103" MadCap:lastWidth="990">
+    <head>
+    </head>
+    <body>De positie van een taak in relatie tot haar voorgangertaken ( die er aan gelinkt zijn). De logische rangorde wordt ingesteld wanneer u een project herberekent. Bijvoorbeeld, wanneer Taak B gelinkt is aan Taak A, en Taak A de eerste taak is in de link keten, dan zal Taak A een logische rangorde hebben van 1 en Taak B een logische rangorde van 2.</body>
+</html>

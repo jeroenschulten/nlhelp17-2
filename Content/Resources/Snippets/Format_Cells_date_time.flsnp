@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>De volgende velden worden weergegeven wanneer u de 'Datum/Tijd' categorie selecteert:</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');caption-side: top;margin-left: 0;margin-right: auto;" cellspacing="0">
+                    <col style="width: 86px;" class="TableStyle-Table_Stylesheet-Column-Column1">
+                    </col>
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1">
+                    </col>
+                    <thead>
+                        <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Veld</th>
+                            <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Omschrijving</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Datum opmaak</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Selecteer de opmaak waarin u de datum en tijd wilt weergeven.</p>
+                                <p class="ParagraphsInTables">Wanneer geen van de bestaande formaten aansluit bij uw wensen, selecteert u Gebruikersformaat in dit veld en voert u uw eigen formaat in het veld hieronder in.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Gebruikersformaat</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Wanneer u Gebruikersformaat heeft geselecteerd in het  <b>Datum formaat</b> veld, voert u uw eigen datumformaat in dit veld in, waarbij u één van de datumopmaak velden gebruikt uit de lijst in de volgende tabel.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');caption-side: top;margin-left: 0;margin-right: auto;" cellspacing="0">
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1">
+                    </col>
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1">
+                    </col>
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1">
+                    </col>
+                    <thead>
+                        <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Aangepaste datum opmaak veld</th>
+                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Omschrijving</th>
+                            <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Voorbeeld</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>d</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Dag van de maand in cijfers zonder voorloopnul voor één-cijferige dagen.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>2, 12</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>dd</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Dag van de maand in cijfers met een voorloopnul voor één-cijferige dagen.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>02, 12</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>ddd</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Dag van de week als een drie-letter afkorting.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>Maa, Woe</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>dddd</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Dag van de week als volledige naam.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>Maandag, Vrijdag</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>M</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Maand als cijfers zonder voorloopnul voor één-cijferige maanden.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>6, 10</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>MM</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Maand als cijfers met een voorloopnul voor één-cijferige maanden.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>06, 10</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>MMM</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Maand als een drie-letter afkorting.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>Jun, Okt</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>MMMM</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Maand als volledige naam.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>Juni, Oktober</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>y</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Jaar als de laatste twee cijfers zonder voorloopnul voor jaren kleiner dan 10.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>5, 11</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>yy</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Jaar als de laatste twee cijfers met een voorloopnul voor jaren kleiner dan 10.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>05, 11</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>yyyy</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Jaar als vier cijfers.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>2005, 2011</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>gg</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Periode/tijdperk tekststring.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>AD, BC</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>h</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Uren zonder voorloopnul voor één-cijferige uren; 12-uurs klok.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>9, 11</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>hh</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Uren met een voorloopnul voor één-cijferige uren; 12-uurs klok.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>09, 11</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>H</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Uren zonder voorloopnul voor één-cijferige uren; 24-uurs klok.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>9, 23</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>HH</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Uren met een voorloopnul voor één-cijferige uren; 24-uurs klok.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>09, 23</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>m</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Minuten zonder voorloopnul voor één-cijferige minuten.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>3, 56</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>mm</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Minuten met een voorloopnul voor één-cijferige minuten.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>03, 56</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>s</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Seconden zonder voorloopnul voor één-cijferige seconden.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>8, 37</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>ss</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Seconden met een voorloopnul voor één-cijferige seconden.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>08, 37</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>t</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>AM/PM tijdmarkeer tekststring als een één-letter afkorting.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>A, P</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>tt</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>AM/PM tijdmarkeer tekststring als een twee-letter afkorting.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>AM, PM</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>q</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Kwartaal als cijfer.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>1, 2, 3, 4</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>R</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Derde deel van de maand als volledige naam met beginhoofdletters.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>Vroeg, Midden, Laat</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>r</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Derde deel van de maand als volledige naam met beginhoofdletters.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>vroeg, midden, laat</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>W</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>ISO 8601 week nummer (week 1 is de eerste week in het jaar met een donderdag) zonder voorloopnul voor één-cijferige weken.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>3, 24</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>WW</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>ISO 8601 week nummer (week 1 is de eerste week in het jaar met een donderdag) met een voorloopnul voor één-cijferige weken.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>03, 24</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>l</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>ISO 8601 jaar nummer (zo berekend dat het jaar begint op de eerste dag van de eerste week met een donderdag).</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>2005, 2006</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>w</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Eenvoudig weeknummer, waarbij 1 Jan altijd dag 1, week 1 is.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>1, 45</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>a</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Dag van de week in cijfers, waarbij maandag dag 1 is, zoals in ISO 8601 bepaald wordt.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>1, 6</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>aa</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Dag van de week in cijfers, waarbij zondag dag 1 is.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>2, 7</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>aaa</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Dag van de week in cijfers, waarbij zaterdag dag 1 is.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>3, 1</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>A</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Dag van het jaar in cijfers zonder voorloopnullen voor enkel- en dubbelcijferige dagen.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>9, 57, 306</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>AA</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Dag van het jaar in cijfers zonder voorloopnullen voor enkel- en dubbelcijferige dagen.</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>009, 057, 306</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">D</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" xmlns="">Dag van de week in cijfers zonder voorloopnullen, waarbij dag 1 de dag is waarop "datum dag 1" valt. <MadCap:snippetText src="Date_zero_8.flsnp" /></td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">6</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">DD</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">Dag van de week in cijfers met een voorloopnul, waarbij dag 1 de dag is waarop "datum dag 1" valt.  <MadCap:snippetText src="Date_zero_8.flsnp" /></td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">06</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>E</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Het aantal verstreken dagen tussen de 'datum dag 1' die staat gespecificeerd in het dialoogvenster <span style="font-weight: bold;">Kalenderschaal Eigenschappen</span> voor de huidige view en de datum of tijd dat het veld representeert, zonder voorloopnullen. <MadCap:snippetText src="Date_zero_8.flsnp" /></p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>7, 24, 112</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>EE</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Het aantal verstreken dagen tussen de 'datum dag 1' die staat gespecificeerd in het dialoogvenster <span style="font-weight: bold;">Kalenderschaal Eigenschappen</span> voor de huidige view en de datum of tijd dat het veld representeert, met een voorloopnul bij dagen met 1 cijfer. <MadCap:snippetText src="Date_zero_8.flsnp" /></p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>07, 24, 112</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>EEE</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Het aantal verstreken dagen tussen de 'datum dag 1' die staat gespecificeerd in het dialoogvenster <span style="font-weight: bold;">Kalenderschaal Eigenschappen</span> voor de huidige view en de datum of tijd dat het veld representeert, met voorloopnullen bij dagen met 1 en 2 cijfers. <MadCap:snippetText src="Date_zero_8.flsnp" /></p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>007, 024, 112</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>F</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Het aantal verstreken weken tussen de 'datum dag 1' die staat gespecificeerd in het dialoogvenster <span style="font-weight: bold;">Kalenderschaal Eigenschappen</span> voor de huidige view en de datum of tijd dat het veld representeert, zonder voorloopnullen. <MadCap:snippetText src="Date_zero_8.flsnp" /></p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>9, 22, 100</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>FF</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Het aantal verstreken weken tussen de 'datum dag 1' die staat gespecificeerd in het dialoogvenster <span style="font-weight: bold;">Kalenderschaal Eigenschappen</span> voor de huidige view en de datum of tijd dat het veld representeert, met een voorloopnul bij weken met 1 cijfer. <MadCap:snippetText src="Date_zero_8.flsnp" /></p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>09, 22, 100</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>FFF</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Het aantal verstreken weken tussen de 'datum dag 1' die staat gespecificeerd in het dialoogvenster <span style="font-weight: bold;">Kalenderschaal Eigenschappen</span> voor de huidige view en de datum of tijd dat het veld representeert, met voorloopnullen bij weken met 1 en 2 cijfers. <MadCap:snippetText src="Date_zero_8.flsnp" /></p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>009, 022, 100</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>J</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Het aantal verstreken maanden tussen de 'datum dag 1' die staat gespecificeerd in het dialoogvenster <span style="font-weight: bold;">Kalenderschaal Eigenschappen</span> voor de huidige view en de datum of tijd dat het veld representeert, zonder voorloopnullen. <MadCap:snippetText src="Date_zero_8.flsnp" /></p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>4, 10, 103</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>JJ</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Het aantal verstreken maanden tussen de 'datum dag 1' die staat gespecificeerd in het dialoogvenster <span style="font-weight: bold;">Kalenderschaal Eigenschappen</span> voor de huidige view en de datum of tijd dat het veld representeert, met een voorloopnul bij maanden met 1 cijfer. <MadCap:snippetText src="Date_zero_8.flsnp" /></p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>04, 10, 103</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>JJJ</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Het aantal verstreken maanden tussen de 'datum dag 1' die staat gespecificeerd in het dialoogvenster <span style="font-weight: bold;">Kalenderschaal Eigenschappen</span> voor de huidige view en de datum of tijd dat het veld representeert, met voorloopnullen bij maanden met 1 en 2 cijfers. <MadCap:snippetText src="Date_zero_8.flsnp" /></p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>004, 010, 103</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>Q</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Het aantal verstreken kwartalen tussen de 'datum dag 1' die staat gespecificeerd in het dialoogvenster <span style="font-weight: bold;">Kalenderschaal Eigenschappen</span> voor de huidige view en de datum of tijd dat het veld representeert, zonder voorloopnullen. <MadCap:snippetText src="Date_zero_8.flsnp" /></p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>3, 10, 117</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>QQ</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                                <p>Het aantal verstreken kwartalen tussen de 'datum dag 1' die staat gespecificeerd in het dialoogvenster <span style="font-weight: bold;">Kalenderschaal Eigenschappen</span> voor de huidige view en de datum of tijd dat het veld representeert, met een voorloopnul bij kwartalen met 1 cijfer. <MadCap:snippetText src="Date_zero_8.flsnp" /></p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>03, 10, 117</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: normal;">
+                                <p>QQQ</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1">
+                                <p>Het aantal verstreken kwartalen tussen de 'datum dag 1' die staat gespecificeerd in het dialoogvenster <span style="font-weight: bold;">Kalenderschaal Eigenschappen</span> voor de huidige view en de datum of tijd dat het veld representeert, met voorloopnullen bij kwartalen met 1 en 2 cijfers. <MadCap:snippetText src="Date_zero_8.flsnp" /></p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">
+                                <p>003, 010, 117</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Merk op dat bij de E, F, J en Q datumopmaak velden, toevoegen van een ander teken aan het veld nog een voorloopnul wordt toegevoegd. Bijvoorbeeld, EEEE voegt een voorloopnul toe aan drie-cijferige dagen en FFFFF voegt voorloopnullen toe voor drie- en viercijferige dagen.</p>
+                <p>U kunt andere tekens opnemen, bijvoorbeeld letters en punten, in uw standaard datum formaat. Echter, wanneer u woorden wilt toevoegen die tekens bevatten die worden gebruikt als aangepaste datumformaat velden - tekens die verschijnen in bovenstaande - moet u de woorden invoeren met enkele aanhalingstekens. Wanneer u want een enkel aanhalingsteken wilt opnemen in uw aangepaste datumopmaak, moet u dit vervangen door een dubbel aanhalingsteken.</p>
+                <p>De onderstaande tabel laat enkele voorbeelden zien van aangepaste datumopmaak:</p>
+                <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');caption-side: top;margin-left: 0;margin-right: auto;" cellspacing="0">
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1">
+                    </col>
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1">
+                    </col>
+                    <thead>
+                        <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Aangepast datumopmaak</th>
+                            <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Voorbeeld resultaat</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>'dag is' dddd</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>dag is Vrijdag</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>dd MM "yy</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>08 04 '06</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>ddd, MMM dd yy hh:mm:ss tt</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>Maa, Dec 19 05 11:00:51 AM</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: normal;">
+                                <p>'Dagen sinds datum dag 1:' E</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p>Dagen sinds datum dag 1: 47</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: normal;">
+                                <p>F 'weken en' D 'dagen sinds datum dag 1'</p>
+                            </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">
+                                <p>3 weken en 2 dagen sinds datum dag 1</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

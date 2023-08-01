@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li class="p">Klik op <b>Weergave Bibliotheken</b>. Het <b>Meervoudige Weergave Codebibliotheken</b> dialoogvenster verschijnt. </li>
+            <li class="p">Selecteer de codebibliotheken die u wilt gebruiken om balken in te kleuren door ze toe te voegen aan het <b xmlns="">Toon bibliotheken in deze volgorde</b> veld.</li>
+            <li class="p">
+                <MadCap:snippetText src="Multiple_code_libraries_5.flsnp" />
+                <br />
+                <br />Codebibliotheken bovenaan de lijst hebben voorrang op die onderaan de lijst. Als aan een balk een code van meer dan één bibliotheek wordt toegewezen, wordt de weergave van de taken op de balk overgenomen uit de bibliotheek die het meest bovenaan deze lijst verschijnt.</li>
+            <li>Klik op <b xmlns="">OK</b> om terug te keren naar het <b xmlns="">Opmaak Balkkaart</b> dialoogvenster.</li>
+            <li class="p" xmlns="">Klik op het <b>Gebruik op balken</b> keuzerondje.</li>
+            <li class="p" xmlns="">Klik op <b>Toepassen</b>.</li>
+        </ol>
+    </body>
+</html>

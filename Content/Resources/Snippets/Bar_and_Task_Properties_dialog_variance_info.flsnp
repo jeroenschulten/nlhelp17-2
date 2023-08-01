@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:dropDown MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>...  de huidige informatie vergelijken met de informatie die opgeslagen is in een baseline?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Klik op <b xmlns="">Variantie </b>om het <b xmlns="">Taak Variantie Eigenschappen</b> dialoogvenster weer te geven.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

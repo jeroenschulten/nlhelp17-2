@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="226" MadCap:lastWidth="760">
+    <body>
+        <ul>
+            <li>
+                <b>Filename</b> - een tekststring die de bestandsnaam definieert van het bestand waarover met aanvullende informatie.</li>
+            <li>
+                <b>Alias</b> - een tekststring die de titel definieert van het document zoals het zou moeten verschijnen op het <b>Help</b> tabblad van de Backstage view - wanneer u geen alias specificeert, zullen documenten binnen "dynamische" <b>groep</b> elementen worden geïdentificeerd op het <b>Help</b> tabblad van de Backstage view via hun bestandsnaam.</li>
+            <li>
+                <b>
+                    <b>Omschrijving</b>
+                </b> - een tekststring die de tekst definieert die zou moeten verschijnen in een popup wanneer gebruikers de muisaanwijzer over de titel schuiven van het document op het <b>Help</b> tabblad van de Backstage view.</li>
+        </ul>
+    </body>
+</html>

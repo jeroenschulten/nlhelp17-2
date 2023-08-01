@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>De eerste keer dat u een kalender view opent, wordt de programmakaart en de maand met de datum van vandaag weergegeven. Nadat een kalender view is geopend, gebruikt u de project view om het bereik op te geven van wat erin wordt weergegeven, net zoals u de project view gebruikt om het bereik op te geven van wat wordt weergegeven in een balkkaart view: klik op een <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">kaart, </MadCap:conditionalText>samenvattingsgroep<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"> of hammock</MadCap:conditionalText> om de inhoud ervan in de kalender view weer te geven, of <b>CTRL</b> of <b>SHIFT</b>-klik op meer dan één <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">kaart,</MadCap:conditionalText> samenvattingsgroep<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"> of hammock</MadCap:conditionalText> om de inhoud ervan in de kalender view weer te geven.</body>
+</html>

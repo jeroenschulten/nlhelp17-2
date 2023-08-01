@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\teamplan_reference\Tokens\Function_tokens_for_annotations.htm" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Functie velden bij notities;Notities:functievelden voor notities;Velden:functievelden voor notities" />Functievelden voor notities</h1>
+        <p>U kunt functievelden gebruiken om niet-standaard projectinformatie weer te geven in notities. U kunt ze bijvoorbeeld gebruiken om de volgende informatie weer te geven:</p>
+        <ul>
+            <li class="p">Het verschil tussen twee datums.            </li>
+            <li class="p">Wat een einddatum van een taak zou zijn als er een bepaalde duur wordt toegevoegd aan de taak.            </li>
+            <li class="p">Conditionele tekst, waardoor de notitie in verschillende situaties verschillende teksten weergeeft. Bijvoorbeeld, voor een bepaalde datum geeft de notitie 'Binnen planning' weer, maar na een bepaalde datum is de notitie: 'Achter op planning'.            </li>
+        </ul>
+        <p class="Note">Wanneer u een veld in het menu selecteert, wordt de syntaxis voor het geselecteerde veld weergegeven op de statusbalk. Optionele parameters worden hieronder weergegeven tussen [vierkante haken].</p>
+        <hr size="2" width="100%" align="center" />
+        <h2>@+</h2>
+        <p><span style="font-weight: bold;">Syntaxis</span>
+        </p>
+        <p>@+ ( waarde1, waarde2 )</p>
+        <p><span style="font-weight: bold;">Omschrijving</span>
+        </p>
+        <p>Het functie veld @+ geeft het totaal van twee gegeven waarden weer.</p>
+        <hr size="2" width="100%" align="center" />
+        <h2>@-</h2>
+        <p><span style="font-weight: bold;">Syntaxis</span>
+        </p>
+        <p>@- ( waarde1, waarde2 )</p>
+        <p><span style="font-weight: bold;">Omschrijving</span>
+        </p>
+        <p>Het functie veld @- trekt een waarde af van een tweede waarde en geeft de resterende hoeveelheid weer.</p>
+        <hr size="2" width="100%" align="center" />
+        <h2>@*</h2>
+        <p><span style="font-weight: bold;">Syntaxis</span>
+        </p>
+        <p>@* ( waarde1, waarde2 )</p>
+        <p><span style="font-weight: bold;">Omschrijving</span>
+        </p>
+        <p>Het functie veld @* vermenigvuldigt twee gegeven waarden en geeft het totaal weer.</p>
+        <hr size="2" width="100%" align="center" />
+        <h2>@/</h2>
+        <p><span style="font-weight: bold;">Syntaxis</span>
+        </p>
+        <p>@/ ( waarde1, waarde2 )</p>
+        <p><span style="font-weight: bold;">Omschrijving</span>
+        </p>
+        <p>Het functieveld @/ deelt twee gegeven waarden en geeft het totaal weer.</p>
+        <hr size="2" width="100%" align="center" />
+        <h2>@min</h2>
+        <p><span style="font-weight: bold;">Syntaxis</span>
+        </p>
+        <p>@min ( waarde1, waarde2)</p>
+        <p><span style="font-weight: bold;">Omschrijving</span>
+        </p>
+        <p>Het functie veld @min geeft het minimum van twee gegeven waarden weer.</p>
+        <hr size="2" width="100%" align="center" />
+        <h2>@max</h2>
+        <p><span style="font-weight: bold;">Syntaxis</span>
+        </p>
+        <p>@max ( waarde1, waarde2 )</p>
+        <p><span style="font-weight: bold;">Omschrijving</span>
+        </p>
+        <p>Het functie veld @max geeft het maximum van twee gegeven waarden weer.</p>
+        <hr size="2" width="100%" align="center" />
+        <h2>@mod</h2>
+        <p><span style="font-weight: bold;">Syntaxis</span>
+        </p>
+        <p>@mod ( waarde1, waarde2 )</p>
+        <p><span style="font-weight: bold;">Omschrijving</span>
+        </p>
+        <p>Het functie veld @mod geeft het restant weer nadat een getal is gedeeld door de deler.</p>
+        <hr size="2" width="100%" align="center" />
+        <h2>@datumverschil</h2>
+        <p><span style="font-weight: bold;">Syntaxis</span>
+        </p>
+        <p>@datumverschil ( [ kalender of taak, ] datum1, datum2 )</p>
+        <p><span style="font-weight: bold;">Omschrijving</span>
+        </p>
+        <p>Het functie veld @datumverschil geeft het verschil tussen twee datums in seconden weer. Deze datums worden ingevoegd door start- en einddatumvelden te kiezen bijvoorbeeld @datumverschil(#Start#,#Eind#).</p>
+        <p>Deze waarde kan dan weer worden omgezet in uren door het functieveld @/ te gebruiken, waarbij twee waarden worden gedeeld en het totaal wordt weergegeven, bijvoorbeeld: @/(@datumverschil(#Start#,#Eind# ),3600). Om deze waarde om te zetten naar verstreken weken gebruikt u @/(@datumverschil(#Start#,#Eind# ),604800). U kunt ook het veld @opmaakdatum gebruiken om de tijd, standaard in seconden, in een ander formaat zoals minuten of uren weer te geven.</p>
+        <p>U kunt zowel een kalender als een taak object ID als een optionele parameter gebruiken om de resulterende waarde als werktijd weer te geven. Als er geen kalender of taakID wordt gegeven, wordt deze waarde in verstreken seconden getoond.</p>
+        <p style="font-weight: bold;">Voorbeeld</p>
+        <p>Om het nummer van de week waarin een taak begint weer te geven, plaatst u een startmijlpaal aan het begin van het project en voegt u de volgende functie veldexpressie toe aan een notitie:</p>
+        <p>@+(@/(@datumverschil(#&lt;start mijlpaal ID&gt;:Start#,#Start#),604800),1)</p>
+        <p>waarbij het &lt;start mijlpaal ID&gt; het ID van de startmijlpaal taak aan het begin van het project is, bijvoorbeeld 4048.</p>
+        <p>De @datumverschil functie rekent dan het verschil uit in seconden tussen de startdatum van de taak en die van de startmijlpaal, de @/ functie zet dit vervolgens om in verstreken weken en de @+ functie telt daarbij de waarde 1 op om zo het weeknummer te verkrijgen.</p>
+        <hr size="2" width="100%" align="center" />
+        <h2>@startdatum</h2>
+        <p><span style="font-weight: bold;">Syntaxis</span>
+        </p>
+        <p>@startdatum ( [ kalender of taak, ] datum, duur )</p>
+        <p><span style="font-weight: bold;">Omschrijving</span>
+        </p>
+        <p>Het functie veld @startdatum geeft de startdatum en -tijd weer waarbij een bepaald aantal seconden is toegevoegd.</p>
+        <p>U kunt zowel een kalender als een taak object ID als een optionele parameter gebruiken om de resulterende waarde als werktijd weer te geven. Als er geen kalender of taakID wordt gegeven, wordt deze waarde in verstreken seconden getoond.</p>
+        <p><span style="font-weight: bold;">Voorbeeld</span>
+        </p>
+        <p>@startdatum(3,#Eind#,3600)</p>
+        <hr size="2" width="100%" align="center" />
+        <h2>@einddatum</h2>
+        <p><span style="font-weight: bold;">Syntaxis</span>
+        </p>
+        <p>@einddatum ( [ kalender of taak, ] datum, duur )</p>
+        <p><span style="font-weight: bold;">Omschrijving</span>
+        </p>
+        <p>Het functie veld @einddatum geeft de einddatum en -tijd weer waarbij een bepaald aantal seconden is toegevoegd.</p>
+        <p>U kunt zowel een kalender als een taak object ID als een optionele parameter gebruiken om de resulterende waarde als werktijd weer te geven. Als er geen kalender of taakID wordt gegeven, wordt deze waarde in verstreken seconden getoond.</p>
+        <p><span style="font-weight: bold;">Voorbeeld</span>
+        </p>
+        <p>@einddatum(3,#Eind#,3600)</p>
+        <hr size="2" width="100%" align="center" />
+        <h2>@viewstart</h2>
+        <p><span style="font-weight: bold;">Syntaxis</span>
+        </p>
+        <p>@viewstart</p>
+        <p><span style="font-weight: bold;">Omschrijving</span>
+        </p>
+        <p>Het functie veld @viewstart geeft de startdatum en tijd weer van de eerste taak in de kaart.</p>
+        <hr size="2" width="100%" align="center" />
+        <h2>@vieweind</h2>
+        <p><span style="font-weight: bold;">Syntaxis</span>
+        </p>
+        <p>@vieweind</p>
+        <p><span style="font-weight: bold;">Omschrijving</span>
+        </p>
+        <p>Het functie veld @vieweind geeft de einddatum en tijd weer van de laatste taak in de kaart.</p>
+        <hr size="2" width="100%" align="center" />
+        <h2>@&gt;=</h2>
+        <p><span style="font-weight: bold;">Syntaxis</span>
+        </p>
+        <p>@&gt;= ( waarde1, waarde2 )</p>
+        <p><span style="font-weight: bold;">Omschrijving</span>
+        </p>
+        <p>Het functie veld @&gt;= geeft WAAR weer als de eerste waarde groter is dan of gelijk is aan de tweede waarde en NIET WAAR als de eerste waarde niet groter is dan of gelijk is aan de tweede waarde.</p>
+        <hr size="2" width="100%" align="center" />
+        <h2>@&lt;=</h2>
+        <p><span style="font-weight: bold;">Syntaxis</span>
+        </p>
+        <p>@&lt;= ( waarde1, waarde2 )</p>
+        <p><span style="font-weight: bold;">Omschrijving</span>
+        </p>
+        <p>Het functie veld @&lt;= geeft WAAR weer als de eerste waarde kleiner is dan of gelijk is aan de tweede waarde en NIET WAAR als de eerste waarde niet kleiner is dan of gelijk is aan de tweede waarde.</p>
+        <hr size="2" width="100%" align="center" />
+        <h2>@&gt;</h2>
+        <p><span style="font-weight: bold;">Syntaxis</span>
+        </p>
+        <p>@&gt; ( waarde1, waarde2 )</p>
+        <p><span style="font-weight: bold;">Omschrijving</span>
+        </p>
+        <p>Het functie veld @&gt; geeft WAAR weer als de eerste waarde groter is dan de tweede waarde en NIET WAAR als de eerste waarde niet groter is dan de tweede waarde.</p>
+        <hr size="2" width="100%" align="center" />
+        <h2>@&lt;</h2>
+        <p><span style="font-weight: bold;">Syntaxis</span>
+        </p>
+        <p>@&lt; ( waarde1, waarde2 )</p>
+        <p><span style="font-weight: bold;">Omschrijving</span>
+        </p>
+        <p>Het functie veld @&lt; geeft WAAR weer als de eerste waarde kleiner is dan de tweede waarde en NIET WAAR als de eerste waarde niet kleiner is dan de tweede waarde.</p>
+        <hr size="2" width="100%" align="center" />
+        <h2>@!=</h2>
+        <p><span style="font-weight: bold;">Syntaxis</span>
+        </p>
+        <p>@!= ( waarde1, waarde2 )</p>
+        <p><span style="font-weight: bold;">Omschrijving</span>
+        </p>
+        <p>Het functie veld @!= geeft WAAR weer als de eerste waarde niet gelijk is aan de tweede waarde en NIET WAAR als de eerste waarde gelijk is aan de tweede waarde.</p>
+        <hr size="2" width="100%" align="center" />
+        <h2>@conditional_text</h2>
+        <p><span style="font-weight: bold;">Syntaxis</span>
+        </p>
+        <p>@conditionele_tekst ( voorwaarde,tekst1,tekst2 )</p>
+        <p><span style="font-weight: bold;">Omschrijving</span>
+        </p>
+        <p>Het functie veld @conditionele_tekst geeft tekst1 weer als de conditie WAAR is en tekst 2 als de conditie NIET WAAR is.</p>
+        <p><span style="font-weight: bold;">Voorbeeld</span>
+        </p>
+        <p>@conditionele_tekst(@&gt;(#Start#,01/05/00),Achter'!,Voor'!)</p>
+        <hr size="2" width="100%" align="center" />
+        <h2>@datumtijd</h2>
+        <p><span style="font-weight: bold;">Syntaxis</span>
+        </p>
+        <p>@datumtijd</p>
+        <p><span style="font-weight: bold;">Omschrijving</span>
+        </p>
+        <p>Het functie veld @datumtijd geeft de huidige datum en tijd weer.</p>
+        <hr size="2" width="100%" align="center" />
+        <h2>@datum</h2>
+        <p><span style="font-weight: bold;">Syntaxis</span>
+        </p>
+        <p>@datum</p>
+        <p><span style="font-weight: bold;">Omschrijving</span>
+        </p>
+        <p>Het functie veld @datum geeft de huidige datum weer.</p>
+        <hr size="2" width="100%" align="center" />
+        <h2>@tijd</h2>
+        <p><span style="font-weight: bold;">Syntaxis</span>
+        </p>
+        <p>@tijd</p>
+        <p><span style="font-weight: bold;">Omschrijving</span>
+        </p>
+        <p>Het functie veld @tijd geeft de huidige tijd weer.</p>
+        <hr size="2" width="100%" align="center" />
+        <h2>@opmaakdatum</h2>
+        <p><span style="font-weight: bold;">Syntaxis</span>
+        </p>
+        <p>@opmaakdatum ( &lt;datum&gt;, korte-notatie | lange-notatie | korte-notatie-datum-tijd | lange-notatie-datum-tijd )</p>
+        <p><span style="font-weight: bold;">Omschrijving</span>
+        </p>
+        <p>Het functie veld @opmaakdatum geeft de huidige datum en tijd weer in één van de beschikbare opmaken; lange datumnotatie, korte datumnotatie, korte datumnotatie en tijd en lange datumnotatie en tijd.</p>
+        <p><span style="font-weight: bold;">Voorbeeld</span>
+        </p>
+        <p>@opmaakdatum(#Start#, lange-notatie-datum-tijd))</p>
+        <hr size="2" width="100%" align="center" />
+        <h2>@opmaakduur</h2>
+        <p><span style="font-weight: bold;">Syntaxis</span>
+        </p>
+        <p>@opmaakduur (&lt;duur&gt; [,&lt;eenheid afkorting&gt;])</p>
+        <p><span style="font-weight: bold;">Omschrijving</span>
+        </p>
+        <p>Het functie veld @opmaakduur geeft de huidige duur weer in de gegeven tijdseenheid.</p>
+        <p><span style="font-weight: bold;">Voorbeeld</span>
+        </p>
+        <p>Duur is @opmaakduur(#Duur#,u) uren, @opmaakduur(#Duur#,d) dagen</p>
+        <hr size="2" width="100%" align="center" />
+        <h2>@xview</h2>
+        <p><span style="font-weight: bold;">Syntaxis</span>
+        </p>
+        <p>@xview</p>
+        <p><span style="font-weight: bold;">Omschrijving</span>
+        </p>
+        <p>Het functie veld @xview geeft de datum en de tijd weer van de plaats waar de notitie geplaatst is.</p>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p><a href="Tokens.htm">Velden</a>
+        </p>
+        <p><a href="Additional_tokens_for_annotations.htm">Aanvullende velden voor notities</a>
+        </p>
+        <p><a href="../../Annotations/Text_annotations/Function_tokens_annotations.htm">Functievelden invoegen in tekstnotities</a>
+        </p>
+    </body>
+</html>

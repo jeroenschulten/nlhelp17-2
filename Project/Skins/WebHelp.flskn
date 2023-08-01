@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="3"
+  SkinType="WebHelp2"
+  ComponentType="MasterPage"
+  TemplateName="Fluid"
+  Comment="HTML5 Side Navigation skin"
+  EnableResponsiveOutput="True"
+  AutoSyncTOC="true"
+  LogoUrl="Content/HTML_Topics/Other/Startup.htm">
+  <WebHelpOptions
+    NavigationPanePosition="Right"
+    OffCanvasMenuStyle="Accordion"
+    MainMenuPosition="Left"
+    EnableSticky="All" />
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="Side Navigation Menu">
+        <Properties>
+          <Property
+            Name="BackgroundColor">#4a4a49</Property>
+          <Property
+            Name="PaddingLeft">10px</Property>
+          <Property
+            Name="PaddingRight">10px</Property>
+          <Property
+            Name="PaddingTop">10px</Property>
+          <Property
+            Name="PaddingBottom">10px</Property>
+          <Property
+            Name="Width">25%</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Menu" />
+      <Style
+        Name="Header">
+        <Properties>
+          <Property
+            Name="BackgroundImage">none</Property>
+          <Property
+            Name="BackgroundColor">#b90022</Property>
+          <Property
+            Name="PaddingTop">15px</Property>
+          <Property
+            Name="PaddingBottom">15px</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Logo">
+        <Properties>
+          <Property
+            Name="BackgroundImage">url('PowerprojectHelpLogo10PTCalibri.png')</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Input">
+        <Properties>
+          <Property
+            Name="Color">#4a4a49</Property>
+          <Property
+            Name="FontFamily">Calibri, Helvetica Neue LT, sans-serif;</Property>
+          <Property
+            Name="FontSize">11pt</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Filter Drop-down">
+        <Properties>
+          <Property
+            Name="Color">#4a4a49</Property>
+          <Property
+            Name="FontFamily">Calibri, Helvetica Neue LT, sans-serif;</Property>
+          <Property
+            Name="FontSize">11pt</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Auto-complete Item">
+        <Properties>
+          <Property
+            Name="Color">#4a4a49</Property>
+          <Property
+            Name="FontFamily">Calibri, Helvetica Neue LT, sans-serif;</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Side Navigation Menu Item">
+        <Properties>
+          <Property
+            Name="FontWeight">normal</Property>
+          <Property
+            Name="FontStyle">normal</Property>
+          <Property
+            Name="FontFamily">Calibri, Helvetica Neue LT, sans-serif;</Property>
+          <Property
+            Name="FontSize">11pt</Property>
+        </Properties>
+        <Classes>
+          <StyleClass
+            Name="1st Level">
+            <Properties>
+              <Property
+                Name="MarginLeft">1em</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="2nd Level">
+            <Properties>
+              <Property
+                Name="MarginLeft">2em</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="3rd Level">
+            <Properties>
+              <Property
+                Name="MarginLeft">3em</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="4th Level">
+            <Properties>
+              <Property
+                Name="MarginLeft">4em</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+      <Style
+        Name="Search Filter Drop-down (hover)">
+        <Properties>
+          <Property
+            Name="Color">#4a4a49</Property>
+          <Property
+            Name="FontFamily">Calibri, Helvetica Neue LT, sans-serif;</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Auto-complete Item: Phrase">
+        <Properties>
+          <Property
+            Name="FontSize">11pt</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Auto-complete Item: Description">
+        <Properties>
+          <Property
+            Name="Color">#4a4a49</Property>
+          <Property
+            Name="FontSize">11pt</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Heading">
+        <Properties>
+          <Property
+            Name="Color">#b90022</Property>
+          <Property
+            Name="FontFamily">Calibri, Helvetica Neue LT, sans-serif;</Property>
+          <Property
+            Name="FontSize">14pt</Property>
+          <Property
+            Name="FontWeight">normal</Property>
+          <Property
+            Name="MarginTop">5px</Property>
+          <Property
+            Name="MarginBottom">5px</Property>
+          <Property
+            Name="PaddingLeft">8px</Property>
+          <Property
+            Name="PaddingRight">8px</Property>
+          <Property
+            Name="PaddingTop">3px</Property>
+          <Property
+            Name="PaddingBottom">3px</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Abstract">
+        <Properties>
+          <Property
+            Name="Color">#4a4a49</Property>
+          <Property
+            Name="FontFamily">Calibri, Helvetica Neue LT, sans-serif;</Property>
+          <Property
+            Name="FontSize">11pt</Property>
+          <Property
+            Name="MarginLeft">0px</Property>
+          <Property
+            Name="PaddingLeft">8px</Property>
+          <Property
+            Name="PaddingRight">8px</Property>
+          <Property
+            Name="PaddingTop">8px</Property>
+          <Property
+            Name="PaddingBottom">8px</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Link">
+        <Properties>
+          <Property
+            Name="FontFamily">Calibri, Helvetica Neue LT, sans-serif;</Property>
+          <Property
+            Name="FontSize">11pt</Property>
+          <Property
+            Name="MarginBottom">0px</Property>
+          <Property
+            Name="Color">#4169e1</Property>
+          <Property
+            Name="PaddingLeft">8px</Property>
+          <Property
+            Name="PaddingRight">8px</Property>
+          <Property
+            Name="PaddingTop">4px</Property>
+          <Property
+            Name="PaddingBottom">4px</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Link (active)">
+        <Properties>
+          <Property
+            Name="Color">#4169e1</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Link (focus)">
+        <Properties>
+          <Property
+            Name="FontFamily">Calibri, Helvetica Neue LT, sans-serif;</Property>
+          <Property
+            Name="Color">#4169e1</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Link (visited)">
+        <Properties>
+          <Property
+            Name="Color">#4169e1</Property>
+          <Property
+            Name="TextDecoration">none</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Path">
+        <Properties>
+          <Property
+            Name="FontFamily">Calibri, Helvetica Neue LT, sans-serif;</Property>
+          <Property
+            Name="Color">#b90022</Property>
+          <Property
+            Name="FontSize">11pt</Property>
+          <Property
+            Name="PaddingLeft">8px</Property>
+          <Property
+            Name="PaddingRight">8px</Property>
+          <Property
+            Name="PaddingTop">4px</Property>
+          <Property
+            Name="PaddingBottom">4px</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Glossary Result">
+        <Properties>
+          <Property
+            Name="Color">#4a4a49</Property>
+          <Property
+            Name="FontFamily">Calibri, Helvetica Neue LT, sans-serif;</Property>
+          <Property
+            Name="FontSize">11pt</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Glossary Term">
+        <Properties>
+          <Property
+            Name="Color">#4a4a49</Property>
+          <Property
+            Name="FontFamily">Calibri, Helvetica Neue LT, sans-serif;</Property>
+          <Property
+            Name="FontSize">14pt</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Pagination Item">
+        <Properties>
+          <Property
+            Name="FontSize">11pt</Property>
+          <Property
+            Name="FontFamily">Calibri, Helvetica Neue LT, sans-serif;</Property>
+          <Property
+            Name="Color">#4169e1</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Suggestion Link">
+        <Properties>
+          <Property
+            Name="Color">#4169e1</Property>
+          <Property
+            Name="FontFamily">Calibri, Helvetica Neue LT, sans-serif;</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Results">
+        <Properties>
+          <Property
+            Name="LineHeight">1em</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Main Page">
+        <Properties>
+          <Property
+            Name="PaddingLeft">0em</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Glossary Definition">
+        <Properties>
+          <Property
+            Name="Color">#4a4a49</Property>
+          <Property
+            Name="FontFamily">Calibri, Helvetica Neue LT, sans-serif;</Property>
+          <Property
+            Name="FontSize">11pt</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Pagination Item (hover)">
+        <Properties>
+          <Property
+            Name="TextDecoration">underline</Property>
+        </Properties>
+      </Style>
+    </Styles>
+    <Resources>
+      <Resource
+        Name="PowerprojectHelpLogo2018.png">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</Resource>
+      <Resource
+        Name="PowerprojectHelp2018.png">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</Resource>
+      <Resource
+        Name="PowerprojectLogo2018.png">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</Resource>
+      <Resource
+        Name="PowerprojectHelpLogo10PTCalibri.png">H4sIAAAAAAAEAAHJCTb2iVBORw0KGgoAAAANSUhEUgAAANMAAAAaCAIAAACigv7yAAAALHRFWHRDcmVhdGlvbiBUaW1lAFRodSAxOSBKdWwgMjAxOCAxNTo1MDoxNiAtMDAwMMyJ99cAAAAHdElNRQfiBxMOMzpfLaXAAAAACXBIWXMAAB7BAAAewQHDaVRTAAAABGdBTUEAALGPC/xhBQAACSBJREFUeNrtm1uMFEUUhjc8+OCDDz744IMPhBijCQ8kmmiMIZpgwgOJxhijBAyJRI0aQ/ASQgiKiIJIAEEgoEtAiLqIBAOM3O+35bbcL8suC7vsbfYyOzvdO7PL+lWfoWi6Z6arZwaGRSbFZqa6+lSdc/465z/VTVmkbPCD9qDl3XY+8eKlr+dfnDJn26PDQt1Yxr9/H3rq9PhJ3OxuVWMmIrTkig3INmjI0VHj8cfhl98p/WIMwMGA6m8XXpj0Q1j00BB7o6+vL5kEMKGRd+LtT1Nd8f7bP/T02XbHweO7Bg8vue0GVjsyclwq3o31ei1779CRJV9PGhy2nQ0cDOjr6ckDPXKvACYf5Omb/Z8bvb3Jjti+YaNKbr4B1GpmLsbNWK83YZ35cModmsU8zQWCI2/0FA15LZt21v64jFa/Yq3d2CLm49Nx6ETJ3TmAGqm2tzvBpiXm7Xn61Ts0i3maGwDI89x8+v3JqViXyryxrjtnwfuwOTyvevqCO8rzzF0+8JBH6zp1XpAHF3RbFvpCHrkyr/zchOnQGk/AP/TSW2QcP2OVBEHz1C5bHn6GwcRaj6uA+6lxX9B/9pOvuEQl5FmeUGPWIEtCMvPqpcpViieucm/liLGSnlheWFHmukeC8mCgUrrtePz5Y69/wDIYjBa7n3xFy0d4dNs+8VrjXxEpCrEhliwu8gJX67/X0OwByKtfvkbxFctmYumpGj0h1Rmj/qCRUOQLMR8hzCRj2g8cUxyxr69p3Wa3tJYN2+mkNf+zzd1fM2tJXyrFLQBdY7Fh9XpoL6BHOH/hTNa16x7CLhmH5UEP4AYihJGEnFtXuxPH3/y4p7lVibJt/sJcrasN2pEmosx1j2TPg4ZK0bY+MrRu0So1pivOknTBFz9/eftjz4p8PylH04zYyg955i7w3Gto9gDkWXX19CfbOwEsP1u37BVD+D+YJn6uWhxwcfLsNMW2bLdLqPi0jdz93ZfrpL/6m58izilP98Ua9Mxg3ITl1lxWnmzrQKAew9TC629d9a0ZYCWj7W4KkVuUue7Z7GmuFC7HYRnnYiLcSUTJjLyEVSzkhXWBB3kmZs+OvEFDqqfNF56HA9iFpB5gKz+R27bz4NWlv/MXXMqhDH+hhtzLygRk3C6QpVEg67Mb+g++8Ib0s4nZWGqtHTFRiaxBaGGVKNm2p7J2bjmlj4pDtk2kaYns8qgtbkBPQmnjnxvA8YHnXvNcZWpMWbdgBQLFoExaX15hKMpc92z2NFeKS7JC9kDsxNm6hSvJFQQbOaYhBpPEL02d277viMyi68Lzn3+XO9vqvOxpOnHrBYd1gR95gWYv86/s8veLozsOYGixKV8ufDmTTdDT2iayGn5b507YaNu4ZpOECjwhW99uaFLTJJNIk2HYRW8C+sn96RQ2ZqLgm40u0sTHdLoTIqQn3R/v5rtHbWbXjvcbBZ1RQcekMx9N1avVrsohKqzufmeYK6X2YTIpZodguZfBtnRjK48KI/AjovJzgQd5gWYPOM/j5uj2/RGnaOAGdVu03U8zsVeajtysgq/MXy4WJGzImLbdh/lpN7WKnK4zF6W/sWKjzHVt2R/8hJASVPgZP3vJszW5pd+V+m/bMxUbc1ic7O+5ZF9vFlES0nKLCqu73xnmSlGy9LRE1UjStxmeio68/FzgR15us2dGHoBTaSXarradg1kqDFlNw8q/M6rXvH6r7FTKMX6STCVkEl3ZHzhMM2XxIv1kcEX+bh7cSP5VEzkDsn240a9kWH7TsnGHLMZEVFjd/aLMldJz6VxRROTpvOxpOnHfWkMBLjA0e4aTZCIkFoSWuff3lXnlJHjGZDuUr5m9VNakDiYcmqghBXxV2HACNWWv7Bv6Icua/PFTIA6tkYmyfdzcMW/kXZ7xc7+T9MlfgYPD6u4XZa6UHulJtUVBnmGFUaALDM1eZqgDNhXo1M75JeMA6Ha/E0j1MYScyChAb9gOI1b1eVccOeopoVP5QuE1+YNiRm7SwTRG9x/NuEFPvvuZoU0DNx8Tgf7AwWF194syV0qPpIAtFfIKdIGh2U2Rp/iHw7Ktqw3uAxFpVFvpcixh6VNi3CBhD2zBGMQ3MFbIkIgirXRWVvU7pF7jlS9CdCi4chvUHHnpMKzbzXickef5RYXV3S/KXClGWvWNjOw8ctJzCVaOIjoR6Vlg7sVFXoEuMDS7KfKwb/qgpCteM2uJ2wHQNdK0hC5dN0ScklBTb4ne+E8u2Y0t0i9VCJK1QSGF2pH+jEN9RzCA1IdCHvLPTZyh+6ETsjAQb1IqhtXdL8pcKUamOmP9vtqW7QoiMaM7SItVSSnFRV6BLjA0uynyIg6bkaoY0wAdIic90R0HAJA4Bix73mppieySvC5gJ/9KP0zC3U/Z676rbtGq9BITVqL2WtPaCBO1bt0HcOVAXD2ZCYM8EcXt9eUVncdOixb06JOdQFGhdM8oylwp9eTA2ZDMSIXLjWQGfa8epk+juHTt14qmdZv1gWiByCvQBYZmD4E89rd6GOJ7ky89h2X7qYl688+xjodUUcYKk+h3zmarRk/wTtTapt+U8U6UsPTjVEPk+c/iWS0VvhTXJqJC6Z5RlLlSuwYPV6e4Dvg8H/o1mdGnOfoDk9YPOQtEXiEuMDR7GnmG79sQJGvnljMS/KafbFo23+2GJk2YPHlKr55htzw9aIhGHuvzP1lnIjkRVK9YOhOpE/yERX6hFnFzHbXyVCo38lo371HrdPwkTwIIxm7YBYoKpXs2TxsqJfmufW8lSEqf+9tqotjxM543hk69N0ktxnkCJIP1k6FQqmUckLcLDM2ukCfvPlDRGL4MjV0goYynzAH7uV+gwivEA1rliLHufspyOmtmLs4IWfdErE3elUCCBy65V+5GABECCVeXrM72lr+hEUx0r542v9/hEhk9HaiUbqRvkhrDoOrZXs5FL3mXJMeYQNVyDMjDBYZmLzOB2gBthbx2VkhLn5d2xiiKS26Ee9bsD5BXtMaehulTRUn6I0nlCOf3cXuAvLuNPJiDm03HL9SU3AL3stnvc+Tl9x/y8mtwHSmniHbJaPv/9r9NGZr9fkZe2MqpwCbPGK7MK4fy350Z781maPb/APB3fpjbXnr9AAAAAElFTkSuQmCCFkk2o8kJAAA=</Resource>
+    </Resources>
+  </Stylesheet>
+  <Strings />
+</CatapultSkin>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" xml:lang="nl-nl" class="KLAAR-NL">
+    <head>
+        <link href="../../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Kwaliteitschecks:Totaliseer-taken niet gelinkt kwaliteitscriterium;Totaliseer-taken niet gelinkt kwaliteitscriterium" />'Totaliseer-taken niet gelinkt' kwaliteitscriterium</h1>
+        <p>U gebruikt dit kwaliteitscriterium om het aandeel van<a href="../Structuring_your_project/Working_with_summary_tasks/Working_with_summary_tasks.htm">samenvattingstaken</a>, <a href="../Structuring_your_project/Working_with_charts/Working_with_charts.htm">niveautaken </a>en hammocks dat geen directe links heeft te checken. Het is niet verstandig om direct naar en vanaf samenvattingstaken, niveautaken en hammocks te linken; het is beter om te linken naar en vanaf de taken die ze bevatten.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Voorbeeld van een samenvattingstaak met directe links</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In de volgende afbeelding heeft Samenvattingstaak 1 directe links - één van Taak 1 naar het begin en één van het einde naar Taak 4. Samenvattingstaak 2 heeft geen directe links; Taak 5 is gekoppeld aan het begin van de eerste taak in de samenvattingsgroep en de laatste taak in de samenvattingsgroep is gekoppeld aan Taak 8. Samenvattingstaak 1 zou niet voldoen aan deze kwaliteitscheck:</p>
+                <p>
+                    <img src="../../../Graphics/Quality_check/rolluptasksnotlinked.gif" alt="Summary 1 has direct links - one from Task 1 to its start and one from its end to Task 4" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_2.flsnp" />
+        </p>
+        <h2>Slaag en faal criteria</h2>
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Slaagt of faalt?</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Criteria</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #afffaf;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Slaagt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Een project slaagt op dit criterium wanneer het percentage samenvattingstaken, niveautaken en hammocks dat geen links heeft groter is dan of gelijk is aan het slaaggrens percentage. </p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Wanneer bijvoorbeeld de slaaggrens ingesteld stond op 100,00%, zou een project op dit criterium slagen wanneer 100,00% van de samenvattingstaken, niveautaken en hammocks geen directe links zou hebben.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #ff6464;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Een project faalt op dit criterium wanneer het percentage samenvattingstaken, niveautaken en hammocks dat geen links heeft kleiner is dan het faalgrens percentage. </p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Wanneer bijvoorbeeld de faalgrens ingesteld stond op 100,00%, zou een project op dit criterium falen wanneer minder dan 100,00% of samenvattingstaken, niveautaken en hammocks geen directe links zou hebben.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="background-color: #ffaf45;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;">Slaagt noch faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Wanneer het percentage samenvattingstaken, niveautaken en hammocks dat geen links heeft valt tussen het slaaggrens en het faalgrens, is het resultaat noch geslaagd noch gefaald, maar ligt dat ergens daartussenin.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Voorgestelde instellingen</h2>
+        <ul xmlns="" type="disc">
+            <li>Slaaggrens: 100,00%. Een project zal slagen voor dit criterium als alle samenvattingstaken, niveautaken en hammocks geen directe links hebben.</li>
+            <li>Faalgrens: 100,00%. Een project zal falen voor dit criterium als één of meerdere samenvattingstaken, niveautaken en hammocks wel directe links hebben.</li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_39.flsnp" />
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1">
+            </col>
+            <col class="TableStyle-Table_Stylesheet-Column-Column1">
+            </col>
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Percentage samenvattingstaken, niveautaken en hammocks zonder directe links</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Slaagt of faalt?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">0,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">50,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">99,99%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1">100,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Slaagt</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Forceert dit criterium dat het project wordt herberekend?</h2>
+        <p>Nee.</p>
+        <h2>Voorgestelde acties als een project faalt voor dit criterium</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_37.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_38.flsnp" />
+        <ul>
+            <li><a href="../Starting_work/Linking_tasks/Moving_links.htm">Verplaats alle directe links</a> aan start van elke falende (totaliseer-) taak naar de start van de eerste taak in de samenvattingsgroep, subkaart of hammock.</li>
+            <li>Verplaats alle directe links aan einde van elke falende (totaliseer-) taak naar het einde van de laatste taak in de samenvattingsgroep, subkaart of hammock.</li>
+        </ul>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="Checking_quality_intro.htm">Introductie over planningskwaliteitchecks</a>
+        </p>
+        <p><a href="../Structuring_your_project/Working_with_summary_tasks/Working_with_summary_tasks.htm">Met samenvattingstaken werken</a>
+        </p>
+        <p><a href="../Structuring_your_project/Working_with_charts/Working_with_charts.htm">Met kaarten werken</a>
+        </p>
+        <p><a href="../Structuring_your_project/Working_with_hammocks/Working_with_hammocks.htm">Met hammocks werken</a>
+        </p>
+        <p><a href="../Starting_work/Linking_tasks/Moving_links.htm">Links van de ene naar de andere taak verplaatsen</a>
+        </p>
+    </body>
+</html>

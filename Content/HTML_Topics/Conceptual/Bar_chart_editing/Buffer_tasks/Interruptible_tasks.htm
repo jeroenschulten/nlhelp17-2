@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Bar_chart_editing_and_rescheduling\Buffer_tasks\Interruptible_tasks.htm" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" class="KLAAR" xml:lang="nl-nl">
+    <MadCap:keyword term="Mogelijk duur berekende taken" />
+    <MadCap:keyword term="Mogelijk duur berekende taken:filteren op" />
+    <MadCap:keyword term="Filters:voor mogelijk duur berekende taken" />
+    <MadCap:keyword term="Filters:voor duur berekende taken" />
+    <MadCap:keyword term="Duur berekende taken:introductie over" />
+    <MadCap:keyword term="Duur berekende taken:filteren op mogelijk duur berekende taken" />
+    <MadCap:keyword term="Duur berekende taken" />
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+           Werken met duur berekende taken</h1>
+        <p>Wanneer een taak minimaal twee inkomende links heeft, waarvan één het begin van die taak bepaalt en de ander het eind van die taak, is het mogelijk dat de datums die berekend worden door het herberekenen tegenstrijdig zijn. Bijvoorbeeld een Start-Start relatie tussen twee taken kan ervoor zorgen dat de opvolgende taak misschien eerder moet beginnen voordat de Eind-Eind relatie dit toe kan staan, zoals hieronder geïllustreerd:</p>
+        <p>
+            <img src="../../../../Graphics/Bar_chart_editing/interruptible4.gif" style="border: none;" width="148" height="43" border="0" />
+        </p>
+        <p>Normaal gesproken zal het herberekenen de relatie tussen deze twee taken niet veranderen, dat betekent dat in het project de Start-Start relatie niet accuraat is afgebeeld. Om dit probleem te verhelpen is het mogelijk om taken te karakteriseren zoals taak B in dit voorbeeld - welke tenminste twee inkomende links heeft, één die de start bepaalt en één die het einde bepaalt - als duur berekende taken. Duur berekende taken zijn taken waarbij het mogelijk is om eerder te beginnen en waarin werkzaamheden onderbroken kunnen worden op een bepaald punt voor het einde van een taak. Als taak B in dit voorbeeld een duur berekende taak is, zal herberekenen van het project het volgende resultaat hebben:</p>
+        <p>
+            <img src="../../../../Graphics/Bar_chart_editing/interruptible5.gif" style="border: none;" width="152" height="43" border="0" />
+        </p>
+        <h2>Monitoren van het verbruik van duur berekende taken</h2>
+        <p>U kunt het Bufferverbuik veld gebruiken om toezicht te houden op de manier waarop de duur van duur berekende taken verandert door herberekening. Dit gebeurt op dezelfde manier als wanneer het veld gebruikt wordt om het <a href="Buffer_tasks.htm">bufferverbruik te monitoren</a>.</p>
+        <h2>
+Filteren op duur berekende en potentieel duur berekende taken</h2>
+        <p>De pagina <span style="font-weight: bold;">Vlaggen en Buffers</span> van de <b>Filter Wizard</b> kan gebruikt worden om op duur berekende taken te filteren, en ook op potentieel duur berekende taken, d.w.z. die taken die tenminste twee inkomende links hebben, waarvan één <span lang="nl">&#160;</span>de start bepaalt en de ander de einddatum bepaalt. Als taak B in de illustratie hierboven niet al veranderd was in een duur berekende taak, zou deze door de <span style="font-weight: bold;">Filter Wizard</span> geïdentificeerd worden als een mogelijk duur berekende taak, aangezien het een ideale kandidaat is voor omzetting in een duur berekende taak. Wanneer de mogelijk duur berekende taken eruit gefilterd zijn kunnen deze indien gewenst <a href="Creating_interruptible.htm">omgezet worden naar duur berekende taken</a>.</p>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="Creating_interruptible.htm">Duur berekende taken creëren</a>
+        </p>
+        <p><a href="Interruptible_examples.htm">Voorbeelden van duur berekende taken in de praktijk</a>
+        </p>
+        <p><a href="Buffer_tasks.htm">Werken met buffertaken</a>
+        </p>
+    </body>
+</html>

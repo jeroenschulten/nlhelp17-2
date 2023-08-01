@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>De duur van een taak nog voordat er enige voortgang op is toegepast - de duur tussen de Originele start en de Originele einde velden. Wanneer de duur van een taak verandert voordat er voortgang op is toegepast, wordt dit veld automatisch bijgewerkt om de nieuwe duur te weerspiegelen; wanneer er eenmaal voortgang op een taak is toegepast, verandert dit veld niet meer, zelfs wanneer de duur van de taak dat wel doet, behalve als de Originele start of Originele einde velden aangepast worden.</p>
+    </body>
+</html>

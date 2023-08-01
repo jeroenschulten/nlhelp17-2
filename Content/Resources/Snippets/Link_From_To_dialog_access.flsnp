@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b>Link Van/Naar</b> dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p style="margin-bottom: 0;">Om toegang te krijgen hot het <b>Link Van/Naar</b> dialoogvenster, selecteer één of meer taken en klik dan op het <b>Start</b> tabblad, in de <b>Planning</b> groep, op het <b>Links</b> keuzelijstje en selecteer <b>Link Van/Naar</b>, of rechtsklik op een taak en selecteer <b>Linken - Link Van/Naar</b>. Dit dialoogvenster wordt ook weergegeven wanneer u een link tekent of u het einde van een link verplaatst naar een leeg gebied op de balkkaart en wanneer u een aantal andere menu-opdrachten of knoppen gebruikt om links te creëren of te verplaatsen.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

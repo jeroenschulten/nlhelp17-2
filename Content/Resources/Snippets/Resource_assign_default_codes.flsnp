@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="130" MadCap:lastWidth="935">
+    <body>
+        <ol>
+            <li>Lokaliseer de codebibliotheken van waaruit u de standaard codes wilt toewijzen. De namen van de beschikbare codebibliotheken worden in de <b>Bibliotheek</b> kolom weergegeven.</li>
+            <li>Voor elke codebibliotheek van waaruit u één of meer codes wilt toewijzen, selecteer de code, of codes, die u wilt toewijzen in de <b>Item</b> kolom.</li>
+        </ol>
+    </body>
+</html>

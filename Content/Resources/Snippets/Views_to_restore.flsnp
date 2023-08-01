@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="177" MadCap:lastWidth="1293">
+    <body>
+        <ul>
+            <li class="p" type="disc">De laatste actieve view, d.w.z. de view die de huidige was en in de focus stond wanneer het project voor de laatste keer afgesloten werd.</li>
+            <li class="p" type="disc" xmlns="">Alle views die open stonden wanneer het project voor de laatste keer afgesloten werd.</li>
+            <li class="p" type="disc">De standaard view van de gebruiker, d.w.z. de view die staat geselecteerd in het <b>Standaard view</b> veld op het tabblad <b>Algemeen</b> van het <b>Gebruiker Eigenschappen</b> dialoogvenster (andere standaard views kunnen voor elke gebruiker worden opgegeven).</li>
+            <li class="p" type="disc">De standaard project view, d.w.z. de view die staat geselecteerd in het <b>Standaard view</b> veld op het tabblad <b>Eigenschappen</b> van het <b>Eigenschappen</b> dialoogvenster.</li>
+        </ul>
+    </body>
+</html>

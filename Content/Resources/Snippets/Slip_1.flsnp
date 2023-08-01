@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Voor taken geldt dat uitloop het verschil is tussen de rapportdatum van een bepaalde voortgangsperiode of de huidige datum, en de start of hervattingsdatum van een taak. Een positieve waarde betekent dat het werk voor ligt op de planning, een negatieve waarde geeft aan dat het werk achter ligt op de planning. Voor samenvattings- en niveautaken wordt uitloop berekend als het verschil tussen de rapportdatum en de effectieve voortgangsdatum van de taak. De effectieve voortgangsdatum voor een samenvattings- of niveautaak wordt berekend op basis van het percentage voltooid en de duur van de taak. Het voltooide percentage voor een samenvattings- of niveautaak wordt berekend als de totale werkelijke duur van de onderliggende taken, gedeeld door de totale duur van de onderliggende taken.</p>
+    </body>
+</html>

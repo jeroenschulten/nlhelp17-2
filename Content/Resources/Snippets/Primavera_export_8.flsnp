@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>Klik op het juiste <b>Kalender voor link</b> keuzerondje om op te geven welke kalender moet worden toegepast op linkwachttijden in het geëxporteerde project. Hoewel dit per link kan worden geconfigureerd in <MadCap:variable name="Primary.Asta Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only"></MadCap:variable><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" />, is dit een algemene instelling in de Primavera-software, dus moet dezelfde instelling op elke link worden toegepast tijdens de export.</body>
+</html>

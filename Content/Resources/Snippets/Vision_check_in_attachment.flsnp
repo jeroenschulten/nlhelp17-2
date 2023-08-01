@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Afhankelijk van de manier waarop <MadCap:variable name="Primary.Asta Vision Name" /> is geconfigureerd, is het voor u mogelijk een bestand aan het programma toevoegen wanneer u het incheckt of verzendt. Als u dat wel doet, wordt een knop <b>bijlage</b> weergegeven. Als u een bestand wilt toevoegen aan het programma, klikt u op deze knop en gebruikt u het dialoogvenster dat verschijnt om het bestand te selecteren dat u wilt bijvoegen. </p>
+        <p>Als u een bestand bijvoegt bij het inchecken of indienen van een programma, wordt er een nieuwe programma-opmerking bij het programma opgenomen, waarbij het bestand is bijgevoegd. Daarnaast worden de bestanden die u bijvoegt als bijlage toegevoegd aan de e-mails die automatisch worden verzonden als gevolg van het inchecken of verzenden, als onderdeel van uw workflow. Dit maakt het voor reviewers gemakkelijker om toegang te krijgen tot alle bestanden met betrekking tot het ingecheckte of ingediende programma.</p>
+    </body>
+</html>

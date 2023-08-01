@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="2124" MadCap:lastWidth="1072" class="KLAAR" xml:lang="nl-nl" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+    <head>
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Balken:overlappende taken op" />
+            <MadCap:keyword term="Overlappende taken" />
+            <MadCap:keyword term="Taken:overlappende;Mijlpalen:weergeven op hun eigen regel op een balk" />Specificeren dat taken op een balk kunnen overlappen</h1>
+        <p>Standaard worden de taken op elke balk van elkaar gescheiden gehouden: taken moeten starten na het eind van voorgaande taken op dezelfde balk. U kunt echter specificeren dat de taken op een balk elkaar kunnen overlappen - met andere woorden, dat zij in tijd kunnen samenvallen. Mogelijk wilt u dit doen om groepen van taken te plannen die worden herhaald, waarin herhaalde werkzaamheden getekend worden met een serie van gelinkte stappen om een enkele oplevering te plannen, waar sommige taken kunnen beginnen voor hun voorloper taken gereed zijn. Een groep van zulke taken wordt soms een 'unit network' ofwel 'netwerk productie-eenheid' genoemd. Bijvoorbeeld, wanneer u de bouw van een aantal huizen plant, wilt u mogelijk een unit network plannen voor elk huis.</p>
+        <p>Het volgende diagram toont een klein unit network van de taken van de bouw van een enkel huis, waarin geen taken elkaar overlappen:</p>
+        <p>
+            <img src="../../../../Graphics/Starting_work/overlap1.gif" style="border: none;" border="0" />
+        </p>
+        <p>Soms wilt u niet dat de taken in een unit network elkaar overlappen. Er kunnen echter momenten zijn - waar taken kunnen starten voor hun voorloper taken voltooid zijn - waar u overlappen van taken wilt toestaan. U kunt dit laten zien in een project door elke taak op zijn eigen balk te tekenen. Echter, wanneer u ruimte wilt sparen in uw planningen - wat nuttig kan zijn wanneer een project veel netwerk productie-eenheden bevat - kunt u hetzelfde resultaat bereiken door al deze taken in een unit network te tekenen op dezelfde balk en de balk zo te configureren dat de taken toegestaan wordt te overlappen.</p>
+        <p>Het volgende diagram toont hetzelfde unit network als het voorgaande, maar met een aantal overlappende taken, en getekend op een balk die is geconfigureerd om taken te laten overlappen:</p>
+        <p>
+            <img src="../../../../Graphics/Starting_work/overlap2.gif" style="border: none;" border="0" />
+        </p>
+        <p>
+            <a name="Show_ascending_descending">
+            </a>Om te specificeren dat taken op een balk kunnen overlappen:</p>
+        <ul>
+            <li class="p">Schakel het <span style="font-weight: bold;">Taken mogen overlappen</span> selectievakje in op het <span style="font-weight: bold;">Balk</span> tabblad van het <b>Balk en Taak Eigenschappen</b> dialoogvenster, of op het <span style="font-weight: bold;">Balk</span> tabblad van de <b>Eigenschappen view</b>.            </li>
+            <li class="p">
+                <a href="../../Spreadsheet/Editing_the_spreadsheet/Setting_up_spreadsheet_columns.htm">Toon het Taken mogen overlappen veld in de tabel</a> en schakel het selectie vakje dat het veld weergeeft in.</li>
+            <li class="p">Rechtsklik op een balk en selecteer <span style="font-weight: bold;">Taken mogen overlappen</span>.      </li>
+        </ul>
+        <p>Wanneer u heeft gespecificeerd dat taken op een balk mogen overlappen, kunt u taken op een balk naar elke datum verplaatsen, zelfs wanneer de start en einddatums van de taak samenvallen met één of meer andere taken op de balk. Herberekenen verplaatst taken op zo'n balk overeenkomstig inkomende links en vlaggen, maar de taken worden niet beperkt door de links naar voorloper taken op dezelfde balk zoals zij zouden worden op een standaard balk waar taken niet mogen overlappen. Wanneer u een aantal overlappende taken heeft getekend, <a href="../../Bar_chart_editing/Editing_link_properties/Maintain_offsets.htm">kunt u links gebruiken om de afstanden ertussen handhaven</a> en voorkomen dat taken worden verplaatst wanneer het project wordt herberekend.</p>
+        <h2>
+            <a name="Separation_percentage">
+            </a>De verticale scheiding tussen overlappende taken veranderen</h2>
+        <p>Overlappende taken worden getekend op een balk in zo min mogelijk rijen. Het aantal rijen wordt bepaald door het hoogste aantal overlappende taken, zoals hieronder te zien is:</p>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;" cellspacing="0" width="100%">
+            <tr>
+                <td style="vertical-align: top;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: center;margin-bottom: 0;">
+                        <img src="../../../../Graphics/Starting_work/overlap3.gif" style="border: none;" border="0" />
+                    </p>
+                </td>
+                <td style="vertical-align: top;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: center;margin-bottom: 0;">
+                        <img src="../../../../Graphics/Starting_work/overlap4.gif" style="border: none;" border="0" />
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: center;margin-bottom: 0;">Het hoogst aantal overlappende taken is twee, dus taken verschijnen in twee rijen</p>
+                </td>
+                <td style="vertical-align: top;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: center;">Het hoogst aantal overlappende taken is vier, dus taken verschijnen in vier rijen</p>
+                </td>
+            </tr>
+        </table>
+        <p>U kunt de verticale scheiding tussen overlappende taken wijzigen, om ze dichter bij elkaar of verder van elkaar af te laten verschijnen. Om dit te doen:</p>
+        <ol>
+            <li>Klik in het tabblad <b>Opmaak</b>, in de <b>Opmaak</b> groep, op <b>Opmaak Balkkaart</b>. Het <b>Opmaak Balkkaart</b> dialoogvenster verschijnt.</li>
+            <li>Klik op het tabblad <span style="font-weight: bold;">Taak</span> op de knop <b>Instellingen</b>.  Het <b>Overlappen Taken en Mijlpalen Regels instellingen </b>dialoogvenster verschijnt., </li>
+            <li>typ een percentage in het <span style="font-weight: bold;">Afstands %</span> veld en klik op <b>OK</b>.</li>
+            <li>Klik op <span style="font-weight: bold;">Toepassen</span> of <b>Sluiten</b> in het <b>Opmaak Balkkaart </b>dialoogvenster<b></b>.</li>
+        </ol>
+        <p>Het standaard percentage is 100%, wat betekent dat taken direct boven elkaar verschijnen:</p>
+        <p>
+            <img src="../../../../Graphics/Starting_work/overlap4.gif" style="border: none;" border="0" />
+        </p>
+        <p>Een percentage boven 100% invoeren resulteert erin dat de taken verder boven elkaar verschijnen. Zo'n scheidingspercentage invoeren maakt het makkelijker links tussen de taken in afzonderlijke rijen te zien. Hieronder is het scheidingspercentage 200%:</p>
+        <p>
+            <img src="../../../../Graphics/Starting_work/overlap5.gif" style="border: none;" border="0" />
+        </p>
+        <p>een percentage onder 100% invoeren resulteert in elkaar overlappende taken. Hieronder is het scheidingspercentage 50%:</p>
+        <p>
+            <img src="../../../../Graphics/Starting_work/overlap6.gif" style="border: none;" border="0" />
+        </p>
+        <p>
+            <a name="Milestone_placement">
+            </a>U kunt specificeren of u samenvallende mijlpalen op dezelfde manier wilt scheiden als gewone taken (met het scheidingspercentage dat u bepaalt), of dat u wilt dat ze altijd volledig verticaal overlapt verschijnen, ongeacht het scheidingspercentage dat de scheiding van niet-mijlpaal taken bepaalt. Gebruik het <span style="font-weight: bold;">Mijlpaal scheiding altijd 0</span> selectievakje op het <span style="font-weight: bold;">Taak</span> tabblad van het <span style="font-weight: bold;">Opmaak Balkkaart</span> dialoogvenster om dit te doen, zoals hieronder afgebeeld:</p>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;" cellspacing="0" width="100%">
+            <tr>
+                <td style="vertical-align: top;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: center;margin-bottom: 0;">
+                        <img src="../../../../Graphics/Starting_work/overlap7.gif" style="border: none;" border="0" />
+                    </p>
+                </td>
+                <td style="vertical-align: top;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: center;margin-bottom: 0;">
+                        <img src="../../../../Graphics/Starting_work/overlap8.gif" style="border: none;" border="0" />
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: center;margin-bottom: 0;">
+                        <span style="font-weight: bold;">Mijlpaal scheiding altijd 0</span> uitgeschakeld:<br />mijlpalen gebruiken scheidingspercentage</p>
+                </td>
+                <td style="vertical-align: top;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: center;">
+                        <span style="font-weight: bold;">Mijlpaal scheiding altijd 0</span> ingeschakeld:<br />alle mijlpalen hebben elkaar volledig overlapt</p>
+                </td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Opmerkingen met betrekking tot overlappende taken:</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul type="disc">
+                    <li class="p">Overlappende taken worden gesorteerd op balken overeenkomstig hun startdatum. Wanneer u dus een balkkaart toont die overlappende taken toont in één-taak-per-regel modus, verschijnen de taken in startdatum volgorde. Wanneer taken dezelfde startdatum hebben, worden zij gesorteerd op duur; als taken ook dezelfde duur hebben is hun volgorde onbepaald.            </li>
+                    <li class="p">Hulpmiddel- en kostenallocaties worden nooit overlappend getekend, ook niet wanneer de taken waaraan ze gekoppeld zijn wel overlappen.            </li>
+                    <li class="p">Baseline taken worden niet overlappend getekend, tenzij het <span style="font-weight: bold;">Toon baselines op hun eigen regel</span> selectievakje is ingeschakeld in het <span style="font-weight: bold;">Baselines</span> tabblad van het <span style="font-weight: bold;">Opmaak Balk Kaart</span> dialoogvenster.            </li>
+                    <li class="p">Het kan moeilijk zijn overlappende taken met de muis te bewerken. U vindt het misschien makkelijker om <a href="Drawing_in_one_task_per_line.htm">balken die overlappende taken bevatten om te schakelen naar de één-taak-per-regel modus</a> voor u de taken met de muis bewerkt.            </li>
+                    <li class="p">Het is niet aan te raden <a href="../../Bar_chart_editing/Task_height_colour/Height_colour_to_represent.htm">taken toe te staan waarvan de hoogte varieert om informatie weer te geven</a> te laten overlappen op een balk, omdat het resultaat hiervan niet zou kunnen zijn wat u ervan verwacht.            </li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p>
+            <a href="../../Bar_chart_editing/Editing_link_properties/Maintain_offsets.htm">Links gebruiken om onderlinge afstand tussen taken te behouden</a>
+        </p>
+        <p>
+            <a href="Drawing_in_one_task_per_line.htm">Taken tekenen in één-taak-per-regel modus</a>
+        </p>
+        <p>
+            <a href="../Moving_bars_and_tasks/Rollup_tasks.htm">Taken oprollen naar een enkele balk</a>
+        </p>
+        <p>
+            <a href="../Moving_bars_and_tasks/Unrolling_tasks.htm">Taken weer uitrollen vanuit een enkele balk naar individuele balken</a>
+        </p>
+    </body>
+</html>

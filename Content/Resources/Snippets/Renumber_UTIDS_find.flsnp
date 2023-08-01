@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="1" MadCap:lastHeight="66" MadCap:lastWidth="1139">
+    <head>
+    </head>
+    <body>de alfanumerieke string in waarnaar u wilt zoeken binnen de unieke taak ID's van een serie taken, en wilt vervangen met de string die u invoert in het <b>Vervang</b> veld. Bijvoorbeeld, wanneer u AAA1 in dit veld invoert en BBB2 in het <b><b>Vervang</b></b> veld, zullen alle voorkomens van AAA1 in de unieke taak ID's van de serie taken worden vervangen met BBB2.</body>
+</html>

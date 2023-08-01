@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="1" MadCap:lastHeight="100" MadCap:lastWidth="1230">
+    <body>aan hulpmiddel- of kostenallocaties voor niet-lineaire toewijzingen - toewijzingen <MadCap:snippetText src="Nonlinear_assignment_description.flsnp" />. Een hulpmiddel curve bestaat uit een aantal aparte rechthoekige segmenten - of 'punten' - waarbij elk daarvan een percentage van de duur en een bijbehorend niveau van allocatie bepaald. Bijvoorbeeld, wanneer een hulpmiddel curve tien punten heeft, zal het eerste segment horen bij de eerste 10% van de duur van de allocatie en de hoeveelheid allocatie bepaalt die bij dat segment hoort. U kunt hulpmiddel curves configureren om nauwkeurig de verschillende niveaus van inspanning, hoeveelheid of kosten gedurende de duur van de allocaties waaraan de hulpmiddel curve is toegewezen te bepalen.</body>
+</html>

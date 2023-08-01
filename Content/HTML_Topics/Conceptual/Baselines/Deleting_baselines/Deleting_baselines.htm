@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Using_baselines\Deleting_baselines\Deleting_baselines.htm" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+    <head>
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Baselines:verwijderen;Verwijderen:baselines" />Baselines verwijderen</h1>
+        <p>Als u niet langer een baseline met een project wilt gebruiken, kunt u deze verwijderen. De verwijderingsmethode varieert afhankelijk van of u werkt met een lokaal project of een Enterprise project, en - bij lokale projecten - of de baseline embedded is of als een apart bestand bestaat. <MadCap:snippetText src="../../../../Resources/Snippets/Embedded_baseline_8.flsnp" /></p>
+        <p>Nadat een baseline is verwijderd, is de informatie daarvan niet langer beschikbaar. Als u de informatie uit een baseline wilt behouden voor referentiedoeleinden, maar deze toch uit een project wilt verwijderen, exporteert u de baseline naar een apart bestand voordat u deze verwijdert</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Verwijderen van een embedded baseline van een lokaal project</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <MadCap:snippetText src="../../../../Resources/Snippets/Embedded_baseline_1.flsnp" /> Het verwijderen van zo een baseline verwijdert de koppelingen van het project naar de  baseline en verwijdert de baseline gegevens uit het projectbestand.</p>
+                <p>Om een embedded baseline van een lokaal project te verwijderen:</p>
+                <ol>
+                    <li class="p">
+                        <MadCap:snippetText src="../../../../Resources/Snippets/Deleting_baselines_1.flsnp" />
+                    </li>
+                    <li class="p">
+                        <MadCap:snippetText src="../../../../Resources/Snippets/Deleting_baselines_2.flsnp" />
+                    </li>
+                    <li>U wordt gewaarschuwd dat u de baseline naar een afzonderlijk bestand moet exporteren voordat u de baseline verwijdert, als u de gegevens uit de baseline wilt behouden. Klik op <b>OK</b> om door te gaan of klik op <b>Annuleren</b> om het verwijderen te annuleren. Als u ervoor kiest om door te gaan, is de baseline gemarkeerd voor verwijdering, maar is deze nog niet verwijderd.</li>
+                    <li class="p">
+                        <MadCap:snippetText src="../../../../Resources/Snippets/Deleting_baselines_4.flsnp" />
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Verwijderen van een niet-embedded baseline van een lokaal project</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Niet-embedded baselines zijn aanwezig in bestanden die apart van het bijbehorende project staan opgeslagen. Het verwijderen van zo een baseline verwijdert de koppelingen naar de baseline vanuit het project en verwijdert het baselinebestand zelf.</p>
+                <p>Om een niet-embedded baseline van een lokaal project te verwijderen:</p>
+                <ol>
+                    <li class="p">
+                        <MadCap:snippetText src="../../../../Resources/Snippets/Deleting_baselines_1.flsnp" />
+                    </li>
+                    <li class="p">
+                        <MadCap:snippetText src="../../../../Resources/Snippets/Deleting_baselines_2.flsnp" />
+                        <MadCap:snippetText src="../../../../Resources/Snippets/Deleting_baselines_3.flsnp" />
+                    </li>
+                    <li class="p">
+                        <MadCap:snippetText src="../../../../Resources/Snippets/Deleting_baselines_4.flsnp" />
+                    </li>
+                </ol>
+                <p>Probeer niet om niet-embedded baselines te verwijderen door eenvoudig het baselinebestand te verwijderen - bijvoorbeeld met Windows® Explorer - omdat hierdoor de koppelingen naar de baseline niet uit het project worden verwijderd en er door <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> foutberichten zullen worden weergegeven met de melding dat de baseline niet kan worden gevonden.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Verwijderen van een baseline van een Enterprise project</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Baselines in Enterprise-projecten worden opgeslagen in een datasource op een Enterprise-server. Als u een dergelijke baseline verwijdert, worden de koppelingen naar de baseline uit het project verwijderd, maar worden de baselinegegevens niet uit de gegevensbron verwijderd; dit is zo omdat alle exemplaren van een Enterprise-project die de baseline delen, nog steeds toegang hebben tot de gegevens. Als u de baselinegegevens zelf uit de datasource wilt verwijderen, moet u dit afzonderlijk doen.</p>
+                <p>Om een baseline uit een Enterprise-project verwijderen:</p>
+                <ol>
+                    <li class="p">
+                        <MadCap:snippetText src="../../../../Resources/Snippets/Deleting_baselines_1.flsnp" />
+                    </li>
+                    <li class="p">
+                        <MadCap:snippetText src="../../../../Resources/Snippets/Deleting_baselines_2.flsnp" />
+                        <MadCap:snippetText src="../../../../Resources/Snippets/Deleting_baselines_3.flsnp" />
+                    </li>
+                    <li class="p">Klik op <b>Sluiten</b>. Er verschijnt een waarschuwing om u te informeren dat het verwijderen van een baseline niet ongedaan kan worden gemaakt. Klik op <b>OK</b> om de baseline te verwijderen of klik op <b>Annuleren</b> om het verwijderen te annuleren. Wanneer u ervoor kiest om door te gaan zullen de koppelingen naar de baseline verwijderd worden uit het project, maar zullen de baseline gegevens zelf niet verwijderd worden uit de datasource.</li>
+                </ol>
+                <p>Als u de baselinegegevens uit de datasource zelf wilt verwijderen, moet u eerst controleren of er geen kopieën van het Enterprise-project zijn gemaakt die de baseline zouden kunnen delen. Als u zeker weet dat het veilig is om de baselinegegevens te verwijderen, klikt u op het tabblad <b>Bestand</b> op <b>Verwijderen</b>. Het dialoogvenster <b>Verwijderen</b> verschijnt dan. Selecteer de baselinegegevens in het dialoogvenster en klik op Verwijderen.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p>
+            <a href="../Creating_and_merging_baselines/BL_Merge.htm">Nieuwe en gewijzigde gegevens samenvoegen in bestaande baselines</a>
+        </p>
+        <p>
+            <a href="../Embedded/Embedding_a_baseline_into_a_project.htm">Embedden van een baseline in een project</a>
+        </p>
+        <p>
+            <a href="../Embedded/Exporting_a_baseline_to_a_separate_file.htm">Exporteren van een baseline naar een apart bestand</a>
+        </p>
+        <p>
+            <a href="../Open_baseline_as_project/Open_baseline_as_project.htm">Een baseline als een apart project openen</a>
+        </p>
+        <p>
+            <a href="../Importing_a_project_as_a_baseline/Importing_a_project_as_a_baseline.htm">Een project importeren als een baseline</a>
+        </p>
+    </body>
+</html>

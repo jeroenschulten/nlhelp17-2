@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="1" MadCap:lastHeight="83" MadCap:lastWidth="713">
+    <body>Bijvoorbeeld, met dit selectievakje ingeschakeld, zal het zoeken naar items die de tekststring 'grond' in hun naam bevatten taken vinden met de naam 'grond werk' en 'begane grond', maar geen items vinden met de naam 'grondwerk' of 'ondergrond'. Met dit selectievakje uitgeschakeld, zullen alle hierboven genoemde items worden gevonden.</body>
+</html>

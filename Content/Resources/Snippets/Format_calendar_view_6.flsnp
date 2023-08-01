@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li class="p">Schakel het <b xmlns="">Codebibliotheek</b> selectievakje uit.</li>
+            <li class="p" xmlns="">Klik voor elk type taak op de <b>Optie</b> kolom in het <b>Standaard weergave</b> tabelraster en selecteer één van de volgende inkleuringsopties:<MadCap:snippetBlock src="Format_calendar_view_1.flsnp" /></li>
+            <li class="p" xmlns="">Wanneer u Patroon of Mengsel inkleuringsoptie heeft gekozen, selecteer dan in de <b>Voorgrond</b> en <b>Achtergrond</b> kolommen de voorgrond- en achtergrondkleuren om toe te passen op elk type taak; wanneer u de Patroon inkleuringsoptie heeft gekozen, selecteer dan het patroon om toe te passen op elk type taak in de <b>Patroon</b> kolom.</li>
+            <li class="p" xmlns="">Klik op <b>Toepassen</b>.</li>
+        </ol>
+    </body>
+</html>

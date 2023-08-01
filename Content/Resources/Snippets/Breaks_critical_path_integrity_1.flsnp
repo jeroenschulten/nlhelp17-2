@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>U kunt <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> configureren om de integriteit van het kritieke pad te checken bij het herberekenen. Wanneer u dat doet, identificeert dit veld de niet voltooide kritieke taken die onjuist zijn gelinkt, zodat de integriteit van het kritieke pad wordt doorbroken. Als een taak de integriteit van het kritieke pad doorbreekt, moet u de links ervan onderzoeken op logische fouten.</body>
+</html>

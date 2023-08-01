@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>U gebruikt het tabblad <b>Allocaties</b> van het dialoogvenster <b>Opmaak Kalender View</b> om de manier op te geven waarop toewijzingen worden weergegeven in de actieve kalender view, wanneer in de kalender view hulpmiddel- of kostentoewijzingen worden weergegeven vanuit een RBS- of CBS- view. U kunt opgeven of toewijzingen moeten worden weergegeven op basis van de view van de (hoger-niveau) taken, op basis van de view van het juiste hulpmiddel of kostenplaats, op basis van de view van de codes die aan hen zijn toegewezen vanuit een bepaalde codebibliotheek of met behulp van een standaard weergave voor elk type toewijzing.</p>
+    </body>
+</html>

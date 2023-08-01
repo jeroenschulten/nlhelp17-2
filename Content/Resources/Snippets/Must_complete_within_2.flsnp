@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="227" MadCap:lastWidth="1075">
+    <head>
+    </head>
+    <body>
+        <ul>
+            <li>Een tijdsperiode is een aaneengesloten stuk werktijd binnen een shift. Bijvoorbeeld, een ochtend kan bestaan uit een tijdsperiode van 09:00 tot 12:30.</li>
+            <li>Een shift is een groep tijdsperiodes. Bijvoorbeeld, een shift zou kunnen bestaan uit een werktijdperiode in de ochtend en een werktijdperiode in de middag, met een niet-werktijdperiode op lunchtijd tussen de twee werktijdperiodes.</li>
+            <li>Een werkpatroon is een repeterend patroon van shifts, meestal bestaand uit zeven shifts, met een shift per dag van de week.</li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul>
+            <li>
+                <b>ContentType</b> - een tekststring, altijd ingesteld op "dynamic", die dit definieert als een groep op het <b>Help</b> menu die alle documenten bevat van een bepaald type in een specifieke map, in plaats van als een groep dat een aantal specifieke documenten bevat.</li>
+            <li>
+                <b>Caption</b> - een tekststring die de titel definieert van de groep zoals het zou moeten verschijnen op het <b>Help</b> tabblad van de Backstage view.</li>
+            <li>
+                <b>Description</b> - een tekststring die de tekst definieert die zou moeten verschijnen in een popup wanneer gebruikers de muisaanwijzer over de titel schuiven van de groep op het <b>Help</b> tabblad van de Backstage view.</li>
+            <li>
+                <b>Folder</b> - een tekststring die de locatie van de map definieert waarin de documenten die opgenomen moeten worden in de groep zich bevindt. Bijvoorbeeld, u kunt dit instellen op "C:\Mijn_Documentatie" of "T:\<MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Documenten". Dit attribuut is optioneel; wanneer u geen map specificeert, wordt verondersteld dat alle documenten zich in dezelfde map bevinden als waar ribbon_help.xml staat.</li>
+            <li>
+                <b>Extension</b> - een tekststring die het type, of de types, documenten definieert in de gespecificeerde map om op te nemen in de groep. Wanneer u meer dan één type document specificeert, moet u de types scheiden met een puntkomma. Bijvoorbeeld, stel dit in op "pdf" om alle PDF bestanden erin op te nemen; "doc;docx" voor alle Microsoft Word documenten; "pdf;doc;docx" voor alle PDF bestanden en Microsoft Word documenten; enzovoorts.</li>
+            <li>
+                <b>Expanded</b> - een getal dat aangeeft of de groep uitgeklapt (open) of ingeklapt (gesloten) moet worden weergegeven op het <b>Help</b> tabblad van de Backstage view. Stel dit in op "0" om de groep ingeklapt weer te geven; of op "1" om ze uitgeklapt weer te geven.</li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Als één van de geselecteerde gebruikers momenteel vergrendeld is voor een andere <MadCap:variable name="Primary.Asta Asta Powerproject Name" />-gebruiker - bijvoorbeeld als iemand anders momenteel het gebruikersrecord aan het bewerken is - worden de toegangsrechten en opties niet naar die gebruiker gekopieerd en wordt u gewaarschuwd dat het bijwerken van de rechten voor die specifieke gebruiker mislukt is.</p>
+    </body>
+</html>

@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" class="KLAAR" xml:lang="nl-nl">
+    <head>
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Formules:voorbeelden;Formules:voorbeelden" />Voorbeeldformules</h1>
+        <p>Dit onderwerp bevat een reeks voorbeeldformules die u van pas zouden kunnen komen - niet alleen nuttig als aparte formules, maar juist nuttig bij het helpen om uw eigen formules op de bouwen, gebaseerd op de hier getoonde voorbeelden. Instructies over hoe elke formule te creëren worden gegeven.</p>
+        <p>De instructies in dit onderwerp over hoe elke voorbeeld formule te creëren veronderstelt dat u het <b>Formule Eigenschappen</b> dialoogvenster al heeft geopend. Om toegang te krijgen tot dit dialoogvenster, rechtsklik op een formule in de Bibliotheek Verkenner en selecteer <span style="font-weight: bold;">Eigenschappen</span>, of selecteer een formule in het <span style="font-weight: bold;">Tabel Definitie Eigenschappen</span> dialoogvenster en klik op <span style="font-weight: bold;">Formule bewerken</span> . Ze gaan er ook van uit dat u het <b>Formule Eigenschappen</b> dialoogvenster al heeft gebruikt om een passende naam en omschrijving van de formule in te voeren.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die een alleen-lezen Naam kolom weergeeft </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Deze eenvoudige voorbeeld formule - feitelijk één van de eenvoudigste formules die kunnen worden geconstrueerd - toont een Naam kolom die niet kan worden gewijzigd. Een voorbeeld van een situatie waarin dit nuttig kan zijn is wanneer u een voortgangsinvoer view wilt opzetten waarin gebruikers wel de % voltooid kolom in de tabel voor elke taak kunnen wijzigen, maar niet de Naam kolom. Wanneer u gewoon de standaard Naam kolom in de tabel zou opnemen, zou deze wijzigbaar zijn geweest; door een formule te creëren voor de naam van elke taak ontstaat er een alleen-lezen Naam kolom.</p>
+                <ol>
+                    <li>Op het <b>Formule Eigenschappen</b> dialoogvenster, klik op de <b>Veld</b> knop. Een menu verschijnt, waaruit u het veld dat u wilt invoegen in de formule kunt kiezen.</li>
+                    <li>Klik op het <b>Identificatie</b> submenu, klik vervolgens op het <b>Naam </b>veld. Het <b>Selecteer Object</b> dialoogvenster verschijnt. U gebruikt dit dialoogvenster het object te specificeren waarover u het veld informatie wilt laten weergeven.</li>
+                    <li>Voor deze eenvoudige formule, klik op <b>OK</b> zonder de standaard instellingen van het dialoogvenster te bewerken. Het <b>Formule</b> veld op het <b>Formule Eigenschappen</b> dialoogvenster geeft de eenvoudige formule weer die het resultaat is van het selecteren van het Naam veld:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula1.gif" /><br /><br />Merk op dat het <b>Status</b> veld 'OK' weergeeft, waarmee aangegeven wordt dat de formule geldig is.</li>
+                    <li>Klik op <b>OK</b> om het <b>Formule Eigenschappen</b> dialoogvenster te sluiten.</li>
+                </ol>
+                <p>U kunt de bovenstaande instructies volgen om een formule te creëren die een alleen-lezen versie toont van elk veld. Bijvoorbeeld, om een formule te creëren die een alleen-lezen Start kolom toont, volg de bovenstaande instructies, maar in plaats van het selecteren van <b>Naam </b>in het <b>Identificatie</b> submenu in stap 2, selecteer <b>Start</b> uit het <b>Datum</b> submenu.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die de duur weergeeft tussen de startdatums van de eerste en de  tweede taken op elke balk</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Deze formule illustreert hoe te refereren aan gegeven van specifieke taken op balken die meer dan één taak bevatten. Het toont de duur tussen de eerste en tweede taken op elke balk. Om dit te kunnen doen, moet u een formule construeren die de startdatum van de eerste taak op elke balk aftrekt van de start datum van de tweede taak.</p>
+                <ol>
+                    <li>Ten eerste, moet u de startdatum van de tweede taak op elke balk in de formule opnemen. Op het <b>Formule Eigenschappen</b> dialoogvenster, klik op de <b>Veld</b> knop. Een menu verschijnt.</li>
+                    <li>Klik op het <b>Datum</b> submenu, klik vervolgens op het <b>Start</b> veld. Het <b>Selecteer Object</b> dialoogvenster verschijnt.</li>
+                    <li>Selecteer Taak in het <b>Object om te evalueren</b> veld, klik op de <b>Gebruik op volgorde</b> keuzerondje knop en selecteer 2de in het veld rechts van de keuzerondje knop om aan te geven dat u wilt refereren aan de startdatum van de tweede taak op elke balk, klik vervolgens op <b>OK</b>. Het <b>Formule</b> veld op het <b>Formule Eigenschappen</b> dialoogvenster toont de formule zoals deze nu samengesteld is:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula2.gif" /><br /><br /><b>Taak[&gt;2].Start</b> geeft aan dat de formule startdatum van de tweede taak op elke balk zal evalueren.</li>
+                    <li>U moet nu een min-symbool in formule invoegen. Klik op de <b>Symbool</b> knop. Een menu verschijnt, waaruit u het symbool kunt kiezen dat u wilt invoegen in de formule.</li>
+                    <li>In de <b>Rekenkundige</b> sectie van het menu, klik op <b>-</b>. Er verschijnt nu een min teken in de formule:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula3.gif" /><br /><br />Merk op dat het <b>Status</b> veld nu een foutmelding toont en dat de locatie van de fout in de formule zelf wordt gehighlight met een rode onderstreping. De fout is veroorzaakt doordat de formule nog incompleet is.<br /><br />Merk ook op dat als alternatief op het selecteren van het min teken uit het <b>Symbool</b> menu, u dit rechtstreeks in kunt typen in het <b>Formule</b> veld; wanneer u eenmaal thuis bent in het construeren van formules, kunt u gedeelte van een formule rechtstreeks in het <b>Formule</b> veld intypen.</li>
+                    <li>Tenslotte, moet u de start datum van de eerste taak op elke balk in de formule invoegen. Klik op de <b>Veld</b> knop, klik op het <b>Datum</b> submenu, klik vervolgens op het <b>Start</b> veld. Het <b>Selecteer Object</b> dialoogvenster verschijnt.</li>
+                    <li>Selecteer Taak in het <b>Object om te evalueren</b> veld, klik op de <b>Gebruik op volgorde</b> keuzerondje knop en selecteer 1ste in het veld rechts van het keuzerondje knop om aan te geven dat u wilt verwijzen naar de start datum van de eerste taak op elke balk, klik vervolgens op <b>OK</b>. Het <b>Formule</b> veld op het <b>Formule Eigenschappen</b> dialoogvenster toont nu de complete formule, die - zoals het <b>Status</b> veld bevestigt - nu geldig is:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula4.gif" /></li>
+                    <li>Klik op <b>OK</b> om het <b>Formule Eigenschappen</b> dialoogvenster te sluiten.</li>
+                </ol>
+                <p>Merk op dat u om formules leesbaarder te maken spatie tekens kunt invoegen - met de <b>SPATIE</b> balk op uw toetsenbord - tussen de verschillende elementen. In deze voorbeeld formule, zou het goed zijn om spaties in te voegen aan beide kanten van het min-teken, zoals hieronder geïllustreerd wordt:</p>
+                <p>
+                    <img src="../../../../Graphics/Spreadsheet/exampleformula5.gif" />
+                </p>
+                <p>Alle illustraties van de nu volgende voorbeeldformules in dit onderwerp zullen zulke spatietekens op de juiste plaatsen bevatten.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die de duur van elke taak weergeeft als een percentage van de duur van haar bovenliggende samenvattingstaak</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Deze formule illustreert hoe verwezen kan worden naar de samenvattingstaak waarin elke taak zich bevindt. Het toont de duur van elke taak als een percentage van de duur van haar bovenliggende samenvattingstaak. Om dit te kunnen doen, moet u een formule construeren dat de duur van elke taak deelt door de duur van haar samenvattingstaak, en vervolgens het resultaat vermenigvuldigen met 100 om deze weer te geven als een percentage.</p>
+                <ol>
+                    <li>Ten eerste, moet u het Duur veld in de formule invoegen. Op het <b>Formule Eigenschappen</b> dialoogvenster, klik op de <b>Veld</b> knop. Een menu verschijnt.</li>
+                    <li>Klik op het <b>Datum</b> submenu, klik vervolgens op het <b>Duur</b> veld. Het <b>Selecteer Object</b> dialoogvenster verschijnt. Klik op <b>OK</b> om dit te sluiten.</li>
+                    <li>Voeg een deel-symbool in bij de formule, ofwel door deze te selecteren uit de <b>Rekenkundige</b> sectie van het <b>Symbool</b> menu ofwel door deze rechtstreeks in te typen in de formule. De formule zou er nu als volgt uit moeten zien:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula6.gif" /></li>
+                    <li>U moet nu de duur van elke taak haar samenvatting in de formule invoegen. Klik op de <b>Veld</b> knop, klik op het <b>Datum</b> submenu, klik vervolgens op het <b>Duur</b> veld. Het <b>Selecteer Object</b> dialoogvenster verschijnt.</li>
+                    <li>Selecteer Samenvatting in het <b>Object om te evalueren</b> veld, klik vervolgens op <b>OK</b>. Het <b>Formule</b> veld op het <b>Formule Eigenschappen</b> dialoogvenster toont de formule zoals deze nu is:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula7.gif" /><br /><br /><b>Samenvatting.Duur</b> geeft aan dat de formule de duur van elke taak's bovenliggende samenvattingstaak zal evalueren .</li>
+                    <li>Op dit moment zal de formule een decimale waarde teruggeven. Om de duur van elke taak als een percentage van de duur van haar bovenliggende samenvattingstaak te kunnen weergeven, voeg open- en sluithaakjes rondom de formule - ofwel door deze te selecteren in de <b>Diversen</b> sectie van het <b>Symbool</b> menu of door deze rechtstreeks in de formule te typen - en type <b>* 100</b> na het sluithaakje:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula8.gif" /></li>
+                    <li>Klik op <b>OK</b> om het <b>Formule Eigenschappen</b> dialoogvenster te sluiten.</li>
+                </ol>
+                <p>Door deze formule een klein beetje te veranderen - namelijk door Project in plaats van Samenvatting in stap 5 hierboven te selecteren - wordt de duur van elke taak als een percentage van haar bovenliggende project weergegeven:</p>
+                <p>
+                    <img src="../../../../Graphics/Spreadsheet/exampleformula9.gif" />
+                </p>
+                <p>Door Programma in plaats van Samenvatting in stap 5 hierboven te selecteren - wordt de duur van elke taak als een percentage van het overall programma van projecten weergegeven:</p>
+                <p>
+                    <img src="../../../../Graphics/Spreadsheet/exampleformula10.gif" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die de duur van elke taak weergeeft  als een percentage van de duur van haar bovenliggende samenvattingstaak in de huidige baseline</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Deze formule is te vergelijken met het bovenstaande voorbeeld, maar in plaats van dat de duur van elke taak als een percentage van de duur van haar bovenliggende samenvattingstaak in de actuele projectdata, toont het een percentage van de duur van haar bovenliggende samenvattingstaak in de huidige baseline. Om deze formule te laten werken, moet u een baseline hebben die ingesteld staat als 'Huidige'.</p>
+                <ol>
+                    <li>Op het <b>Formule Eigenschappen</b> dialoogvenster, voeg het Duur veld in bij de formule, gevolgd door een deelteken:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula6.gif" /></li>
+                    <li>U moet nu de duur van elke taak haar samenvatting in de huidige baseline in de formule invoegen. Klik op het <b>Veld</b> knop, klik op het <b>Datum</b> submenu, klik vervolgens op het <b>Duur</b> veld. Het <b>Selecteer Object</b> dialoogvenster verschijnt.</li>
+                    <li>Selecteer Samenvatting in het <b>Object om te evalueren</b> veld, selecteer HB Huidige Baseline in het <b>Project of baseline</b> veld, klik vervolgens op <b>OK</b>. Het <b>Formule</b> veld op het <b>Formule Eigenschappen</b> dialoogvenster geeft de formule weer zoals die nu is opgebouwd:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula11.gif" /><br /><br /><b>Samenvatting[~HB].Duur</b> geeft aan dat de formule de duur van elke taak's bovenliggende samenvattingstaak in de huidige baseline zal evalueren, in plaats van in de actuele projectdata.</li>
+                    <li>Net zoals in het bovenstaande voorbeeld, completeer de formule door er open- en sluithaakjes om de formule heen te zetten en typ <b>* 100</b> na het sluithaakje:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula12.gif" /></li>
+                    <li>Klik op <b>OK</b> om het <b>Formule Eigenschappen</b> dialoogvenster te sluiten.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die de duur tussen de huidige datum en de startdatum van elke taak weergeeft</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Deze formule illustreert één manier om variabele datums binnen formules te gebruiken. Het toont de duur tussen de huidige datum - een variabele datum - en de startdatum van elke taak. Een voorbeeld van een situatie waarin dit nuttig zou kunnen zijn is wanneer u wilt dat uw resources kunnen zien hoe lang ze nog de tijd hebben voordat ze moeten starten met werken aan een taak.</p>
+                <ol>
+                    <li>Op het <b>Formule Eigenschappen</b> dialoogvenster, voeg het Start veld in bij de formule, gevolgd door een minteken:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula13.gif" /></li>
+                    <li>U moet nu de variabele datum van de huidige datum in de formule invoegen. Klik op de <b>Symbool</b> knop, klik op het <b>Variabele Datum</b> submenu, klik vervolgens op de <b>Huidige</b> variabele datum. De voltooide formule zou er nu als volgt uit moeten zien:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula14.gif" /></li>
+                    <li>Klik op <b>OK</b> om het <b>Formule Eigenschappen</b> dialoogvenster te sluiten.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die de duur tussen de huidige datum en de startdatum van elke taak in uren weergeeft, zonder de tijdseenheid</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Deze formule is te vergelijken met het voorbeeld hierboven, maar het toont de duur in uren zonder dat er daarbij een tijdseenheid wordt weergegeven. Het zou kunnen dat u dit nuttig vindt om de tijdseenheid weg te laten bij de resultaten van zo'n formule wanneer u de data zou moeten exporteren naar een externe applicatie - bijvoorbeeld Microsoft Excel® - via een tabellarisch rapport.</p>
+                <ol>
+                    <li>Voeg net als in het voorbeeld hierboven, op het <b>Formule Eigenschappen</b> dialoogvenster, het Start veld in bij een formule, gevolgd door een minteken, gevolgd door de variabele datum van Vandaag:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula14.gif" /></li>
+                    <li>Voeg open- en sluithaakjes rondom de formule toe - ofwel door deze te selecteren in de <b>Diversen</b> sectie van het <b>Symbool</b> menu of door deze rechtstreeks in de formule te typen - en typ <b>/ '1u'</b> na het sluithaakje:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula15.gif" /><br /><br /><b>/ '1u'</b> converteert de resulterende duur naar uren, volgens de kalender die toegepast is op elke taak. Wanneer u de duur naar dagen wilt converteren, zou u hier ook <b>/ '1d'</b> kunnen invoeren. </li>
+                    <li>Klik op <b>OK</b> om het <b>Formule Eigenschappen</b> dialoogvenster te sluiten.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die de duur tussen de huidige datum en de startdatum van elke taak in uren weergeeft, afgerond naar gehele getallen</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>De formule in het bovenstaande voorbeeld zou waarschijnlijk veel resultaten teruggeven die geen gehele getallen (integers) zijn, bijvoorbeeld 96.34 of 15.89. Om dit te voorkomen, en om de informatie die door de bovenstaande formule wordt teruggegeven te vereenvoudigen, kunt u de resultaten als volgt naar gehele getallen afronden.</p>
+                <ol>
+                    <li>Op het <b>Formule Eigenschappen</b> dialoogvenster, voer de formule uit het in het bovenstaande voorbeeld in:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula15.gif" /></li>
+                    <li>Klik in het <b>Formule</b> veld aan het begin van de formule.</li>
+                    <li>Klik op de <b>Functie</b> knop, klik op het <b>Mathematisch</b> submenu, klik vervolgens op de <b>Afronden(waarde, decimale_plaatsen)</b> functie. De formule zou er nu als volgt uit moeten zien:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula16.gif" /><br /><br />U moet nu de <b>waarde</b> parameter van de <b>Afronden</b> functie vervangen met de formule van hiervoor.</li>
+                    <li>Klik en sleep de cursor over het <b>(Start - Vandaag) / '1u'</b> gedeelte van de formule om deze te selecteren, rechtsklik vervolgens op de geselecteerde tekst en selecteer <b>Knippen</b> in het menu dat verschijnt:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula17.gif" /></li>
+                    <li>Klik en sleep de cursor over het <b>waarde</b> gedeelte van de formule om deze te selecteren, rechtsklik vervolgens op de geselecteerde tekst en selecteer <b>Plakken</b> in het menu dat verschijnt:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula18.gif" /></li>
+                    <li>Tenslotte, specificeer het aantal decimale plaatsen waarin de formule resultaten moeten worden afgerond door het <b>decimale_plaatsen</b> gedeelte van de formule te selecteren en er <b>0 </b>overheen te typen. De voltooide formule zou er nu als volgt uit moeten zien:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula19.gif" /></li>
+                    <li>Klik op <b>OK</b> om het <b>Formule Eigenschappen</b> dialoogvenster te sluiten.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die de datum van één week voor de startdatum van elke taak weergeeft</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Deze formule illustreert één manier om datums te manipuleren. Het toont de datum van één week voor de startdatum van elke taak. Een voorbeeld van een situatie waarin dit nuttig zou kunnen zijn is wanneer u moet u materialen een week voor de start van de taak waarvoor ze nodig zijn moet bestellen. Deze formule zal de datum waarop de materialen moeten worden besteld teruggeven.</p>
+                <ol>
+                    <li>Op het <b>Formule Eigenschappen</b> dialoogvenster, voeg het Start veld in bij formule, gevolgd door een minteken:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula13.gif" /></li>
+                    <li>Om de formule te voltooien, moet u een week van de start date aftrekken. Typ daarvoor <b>- '1w'</b> aan het einde van de formule:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula20.gif" /></li>
+                    <li>Klik op <b>OK</b> om het <b>Formule Eigenschappen</b> dialoogvenster te sluiten.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die het BTW gedeelte van de kosten weergeeft</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Deze formule illustreert één manier om kostengegevens te manipuleren. Het berekent en toont het BTW gedeelte van kosten - uitgaande van een BTW-tarief van 21%.</p>
+                <ol>
+                    <li>Op het <b>Formule Eigenschappen</b> dialoogvenster, klik op de <b>Veld</b> knop, klik op het <b>Kosten of Inkomsten</b> submenu, klik vervolgens op het <b>Kosten</b> veld. Het <b>Selecteer Object</b> dialoogvenster verschijnt.</li>
+                    <li>Klik op <b>OK</b> zonder de standaardinstellingen van het dialoogvenster te wijzigen. Het <b>Formule</b> veld op het <b>Formule Eigenschappen</b> dialoogvenster toont nu de formule als:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula21.gif" /></li>
+                    <li>Om het BTW gedeelte van kosten weer te geven, moeten we de kosten eerst delen 100, en vervolgens vermenigvuldigen met het huidige BTW-tarief - 21 in dit geval. Voeg open- en sluithaakjes toe rondom het <b>Kosten</b> veld - ofwel door deze te selecteren in de <b>Diversen</b> sectie van het <b>Symbool</b> menu of door deze rechtstreeks in de formule te typen - typ <b>/ 100</b> voor het sluithaakje, en typ vervolgens <b>* 20</b> na het sluithaakje:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula22.gif" /></li>
+                    <li>Klik op <b>OK</b> om het <b>Formule Eigenschappen</b> dialoogvenster te sluiten.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die de kosten van elke taak als een percentage van de kosten van het hele programma weergeeft</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Deze formule illustreert een andere manier om kostengegevens te manipuleren. Het berekent en toont de kosten van elke taak als een percentage van de kosten van het programma.</p>
+                <ol>
+                    <li>Op het <b>Formule Eigenschappen</b> dialoogvenster, voeg het Kosten veld in bij de formule, gevolgd door een deelteken:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula23.gif" /></li>
+                    <li>U moet nu de kosten van het programma in de formule invoegen. Klik op het <b>Veld</b> knop, klik op het <b>Kosten of Inkomsten</b> submenu, klik vervolgens op het <b>Kosten</b> veld. Het <b>Selecteer Object</b> dialoogvenster verschijnt.</li>
+                    <li>Selecteer Programma in het <b>Object om te evalueren</b> veld, klik vervolgens op <b>OK</b>. Het <b>Formule</b> veld op het <b>Formule Eigenschappen</b> dialoogvenster geeft de formule weer zoals die nu is opgebouwd:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula24.gif" /><br /><br /><b>Programma.Kosten</b> geeft aan dat de formule de kosten van het hele programma van projecten zal evalueren, in plaats van de kosten van elke taak.</li>
+                    <li>Voeg open- en sluithaakjes rondom de formule toe, en typ vervolgens <b>* 100</b> achter het sluithaakje:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula25.gif" /></li>
+                    <li>Voltooi nu de formule door aan het einde <b>&amp; "%" </b>in te typen. Hierdoor zal er een percentage teken aan het eind van de formule resultaten worden getoond:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula26.gif" /></li>
+                    <li>Klik op <b>OK</b> om het <b>Formule Eigenschappen</b> dialoogvenster te sluiten.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die alleen de kosten van een specifieke kostengroep weergeeft</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Deze formule illustreert een andere manier om kostengegevens te manipuleren. Het toont alleen de kosten van een specifieke kostengroep bij elke taak, hetgeen nuttig kan zijn wanneer u meer dan één kostengroep heeft toegewezen aan elke taak.</p>
+                <ol>
+                    <li>Op het <b>Formule Eigenschappen</b> dialoogvenster, klik op de <b>Veld</b> knop, klik op het <b>Kosten of Inkomsten</b> submenu, klik vervolgens op het <b>Kosten</b> veld. Het <b>Selecteer Object</b> dialoogvenster verschijnt.</li>
+                    <li>Selecteer de kostengroep waarvan u de kosten in het <b>Kostengroep</b> veld wilt weergeven, klik vervolgens op <b>OK</b>. De voltooide formule zou er nu als volgt uit moeten zien:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula27.gif" /><br /><br />De parameters die zijn toegevoegd aan het Kosten veld geven aan dat de formule de kosten van de kostengroep met een interne ID van 2552 zal evalueren, in plaats van de kosten van alle kostengroepen. Merk op dat in uw project, de interne ID van de geselecteerde kostengroep waarschijnlijk anders zal zijn.</li>
+                    <li>Klik op <b>OK</b> om het <b>Formule Eigenschappen</b> dialoogvenster te sluiten.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die het percentage waarmee de inspanning is toe- of afgenomen in vergelijking tot de huidige baseline berekent en toont</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Deze formule illustreert één manier om hulpmiddel gegevens te manipuleren. Het berekent en toont het percentage waarmee de inspanning is toe- of afgenomen in vergelijking tot de huidige baseline. Uitgedrukt als een berekening is dit het verschil tussen de ingeplande inspanning en de werkelijke inspanning gedeeld door de ingeplande inspanning en wordt dit uitgedrukt als een percentage.</p>
+                <ol>
+                    <li>Op het <b>Formule Eigenschappen</b> dialoogvenster, klik in het <b>Formule</b> veld en voeg een openingshaakje toe aan de formule.</li>
+                    <li>Klik op de <b>Veld</b> knop, klik op het <b>Hulpmiddel</b> submenu, klik vervolgens op het <b>Inspanning variantie</b> veld. Het <b>Selecteer Object</b> dialoogvenster verschijnt. Klik op <b>OK</b>. De formule zou er nu als volgt uit moeten zien:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula28.gif" /></li>
+                    <li>Voeg een deelteken toe achteraan de formule.</li>
+                    <li>Klik op het <b>Veld</b> knop, klik op het <b>Hulpmiddel</b> submenu, klik vervolgens op het <b>Inspanning</b> veld. Het <b>Selecteer Object</b> dialoogvenster verschijnt.</li>
+                    <li>Selecteer HB Huidige Baseline in het <b>Project of baseline</b> veld, klik vervolgens op <b>OK</b>. De formule zou er nu als volgt uit moeten zien:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula29.gif" /></li>
+                    <li>Voltooi de formule door er een sluithaakje aan toe te voegen, typ vervolgens <b>* 100 &amp; "%"</b> om aan te geven dat u het resultaat wilt vermenigvuldigen met 100 en een percentage teken aan het einde van de formule resultaten wilt weergeven:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula30.gif" /></li>
+                    <li>Klik op <b>OK</b> om het <b>Formule Eigenschappen</b> dialoogvenster te sluiten.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die in het Opmerkingen veld  van elke taak  zoekt naar een tekststring en deze tekststring weergeeft wanneer deze gevonden wordt</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Deze formule illustreert één manier om condities in formules te gebruiken. Het scant de inhoud van <b>Opmerkingen</b> veld van elke taak uit te vinden om het woord "vertraging" bevat. Wanneer het woord is gevonden bij taak, toont de formule dit; wanneer het woord niet wordt gevonden, toont de formule het woord "OK". Deze formule gebruikt een <b>Als</b> functie, waarmee u formules kunt construeren die het ene doen wanneer voldaan wordt aan de conditie, en het andere wanneer niet voldaan wordt aan de conditie.</p>
+                <ol>
+                    <li>Op het <b>Formule Eigenschappen</b> dialoogvenster, klik op de <b>Functie</b> knop, klik op het <b>Voorwaardelijk</b> submenu, klik vervolgens op de <b>Als(exp1, exp2, exp3)</b> functie. De formule zou er nu als volgt uit moeten zien:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula31.gif" /><br /><br />U moet de <b>exp1</b> parameter (de eerste expressie dus) van de functie vervangen door de conditie, de <b>exp2</b> parameter met de actie die plaats vindt wanneer voldaan wordt aan de conditie en de <b>exp3</b> parameter met de actie die plaats vindt wanneer niet voldaan wordt aan de conditie.</li>
+                    <li>Klik en sleep de cursor over de <b>exp1</b> parameter om deze te selecteren, en druk vervolgens op <b>DELETE</b> op het toetsenbord.</li>
+                    <li>Klik op de <b>Functie</b> knop, klik op het <b>Tekst</b> submenu, klik vervolgens op de <b>VindSpec(zoeken_tekst, in_tekst)</b> functie. De formule zou er nu als volgt uit moeten zien:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula32.gif" /></li>
+                    <li>Selecteer de <b>zoeken_tekst</b> parameter en overschrijf deze met de tekst waarnaar u wilt zoeken, opgesloten tussen dubbele aanhalingstekens - <b>"vertraging"</b>:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula33.gif" /></li>
+                    <li>Selecteer de <b>in_tekst</b> parameter, klik vervolgens op de <b>Veld</b> knop, klik op het <b>Identificatie</b> submenu en klik op <b>Opmerkingen</b>. Klik op <b>OK</b> in het <b>Selecteer Object</b> dialoogvenster dat nu verschijnt. De formule zou er nu als volgt uit moeten zien:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula34.gif" /></li>
+                    <li>Selecteer de <b>exp2</b> parameter en overschrijf deze met <b>"Vertraging"</b>, om aan te geven dat dit woord moet worden weergegeven wanneer het woord "vertraging" aanwezig is in het <b>Opmerkingen</b> veld van de taak.</li>
+                    <li>Selecteer de <b>exp3</b> parameter en overschrijf deze met <b>"OK"</b>, om aan te geven dat dit woord moet worden weergegeven wanneer het woord "vertraging" niet aanwezig is in het <b>Opmerkingen</b> veld van de taak. De voltooide formule zou er nu als volgt uit moeten zien:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula35.gif" /></li>
+                    <li>Klik op <b>OK</b> om het <b>Formule Eigenschappen</b> dialoogvenster te sluiten.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die in het Opmerkingen veld  van elke taak  zoekt naar een tekststring en een stoplicht weergeeft dat het zoekresultaat weergeeft</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Deze formule illustreert een alternatieve manier van het gebruiken van condities in formules. Het scant de inhoud van <b>Opmerkingen</b> veld van elke taak uit te vinden om het woord "vertraging" bevat. Wanneer het woord is gevonden bij taak, toont de formule een rood stoplicht; wanneer het woord niet wordt gevonden wordt er een groen stoplicht weergegeven.</p>
+                <ol>
+                    <li>Op het <b>Formule Eigenschappen</b> dialoogvenster, klik op de <b>Functie</b> knop, klik op het <b>Voorwaardelijk</b> submenu, klik vervolgens op de <b>Als(exp1, exp2, exp3)</b> functie. De formule zou er nu als volgt uit moeten zien:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula31.gif" /><br /><br />U dient de <b>exp1</b> parameter van de functie te vervangen door de conditie, de <b>exp2</b> parameter met de uit te voeren actie wanneer voldaan wordt aan de conditie en de <b>exp3</b> parameter met de uit te voeren actie wanneer niet voldaan wordt aan de conditie.</li>
+                    <li>Klik en sleep de cursor over het <b>exp1</b> parameter om deze te selecteren, druk vervolgens op <b>DELETE</b> op het keyboard.</li>
+                    <li>Klik op het <b>Functie</b> knop, klik op het <b>Tekst</b> submenu, klik vervolgens op het <b>VindSpec(zoeken_tekst, in_tekst)</b> functie. De formule zou er nu als volgt uit moeten zien:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula32.gif" /></li>
+                    <li>Selecteer de <b>zoeken_tekst</b> parameter en overschrijf deze met de tekst waarnaar u wilt zoeken, opgesloten tussen dubbele aanhalingstekens - <b>"vertraging"</b>:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula33.gif" /></li>
+                    <li>Selecteer de <b>in_tekst</b> parameter, klik vervolgens op het <b>Veld</b> knop, klik op het <b>Identificatie</b> submenu en klik op <b>Opmerkingen</b>. Klik op <b>OK </b>in het <b>Selecteer Object</b> dialoogvenster wanneer dat verschijnt. De formule zou er nu als volgt uit moeten zien:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula34.gif" /><br /><br />U moet nu de <b>exp2</b> en <b>exp3</b> parameters overschrijven met de stoplicht indicatoren die in ieder geval zullen moeten worden weergegeven. Dit zijn gereserveerde woorden binnen elke formule: Hoog toont een rood stoplicht, Medium toont oranje, Laag toont groen en Geen toont grijs.</li>
+                    <li>Selecteer de <b>exp2</b> parameter en overschrijf deze met <b>Hoog</b>, om aan te geven dat een rood stoplicht moet worden weergegeven wanneer het woord "vertraging" aanwezig is in het <b>Opmerkingen</b> veld van de taak.</li>
+                    <li>Selecteer de <b>exp3</b> parameter en overschrijf deze met <b>Laag</b>,om aan te geven dat een groen stoplicht moet worden weergegeven wanneer het woord "vertraging" aanwezig is in het <b>Opmerkingen</b> veld van de taak. De voltooide formule zou er nu als volgt uit moeten zien:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula36.gif" /></li>
+                    <li>Klik op <b>OK</b> om het <b>Formule Eigenschappen</b> dialoogvenster te sluiten.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die een stoplicht weergeeft  dat een indicatie geeft van de kosten van elke taak</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Deze formule illustreert een manier van het in formules gebruiken van condities met de <b>Wissel</b> functie, die - in tegenstelling tot de <b>Als</b> functie - om kan gaan met meer dan twee alternatieve uitkomsten. Deze formule toont een rood stoplicht wanneer de kosten van een taak zich bevindt tussen 200 en 300, een oranje stoplicht wanneer dat tussen 100 en 200 is en een groen stoplicht wanneer dat minder is dan 100.</p>
+                <ol>
+                    <li>Op het <b>Formule Eigenschappen</b> dialoogvenster, klik op de <b>Functie</b> knop, klik op het <b>Voorwaardelijk</b> submenu, klik vervolgens op de <b>Wissel(test1, exp1, test2, exp2, ...)</b> functie. De formule zou er nu als volgt uit moeten zien:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula37.gif" /><br /><br />U moet nu de <b>test1</b> parameter van de functie vervangen met de eerste conditie, de <b>exp1 </b>met de uit te voeren actie wanneer voldaan wordt aan de conditie, de <b>test2</b> parameter met de tweede conditie, de <b>exp2</b> parameter de uit te voeren actie wanneer voldaan wordt aan die tweede conditie, enzovoorts.</li>
+                    <li>Klik en sleep de cursor over het <b>test1</b> parameter om deze te selecteren, druk vervolgens op <b>DELETE</b> op het toetsenbord.</li>
+                    <li>Klik op de <b>Veld</b> knop, klik op het <b>Kosten of Inkomsten</b> submenu, klik vervolgens op het <b>Kosten</b> veld. Klik op <b>OK</b> in het <b>Selecteer Object</b> dialoogvenster wanneer dat verschijnt. De formule zou er nu als volgt uit moeten zien:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula38.gif" /></li>
+                    <li>Omdat het kostenveld wordt weergegeven als een tekststring, moet u deze nu weer terug vertalen naar een numerieke waarde. U kunt dit doen door deze te delen door €1: typ <b>/ '€1'</b> na het <b>Kosten</b> veld in de formule:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula39.gif" /></li>
+                    <li>Om de eerste conditie af te maken, typ <b>&lt; 100</b> na <b>/ '€1'</b>. De volledige conditie moet nu zijn <b>Kosten / '€1' &lt;100</b>:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula40.gif" /></li>
+                    <li>U moet nu de <b>exp1</b> parameter overschrijven met de stoplicht indicator die zou moeten worden weergegeven wanneer aan de eerste conditie wordt voldaan. U wilt dat er in dit geval een groen stoplicht wordt weergegeven, dus moet u de <b>exp1</b> parameter selecteren en deze overschrijven met <b>Laag</b>:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula41.gif" /></li>
+                    <li>U moet nu de <b>test2</b> parameter overschrijven met de tweede conditie: eentje die test of de kosten liggen tussen 100 en 200. Selecteer de <b>test2</b> parameter en overschrijf deze met <b>Kosten / '€1' &gt;= 100 AND Kosten / '€1' &lt; 200</b>:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula42.gif" /></li>
+                    <li>Overschrijf de <b>exp2</b> parameter met de stoplicht indicator die zou moeten worden weergegeven wanneer aan de tweede conditie wordt voldaan. U wilt dat er in dit geval een oranje stoplicht wordt weergegeven, dus moet u de <b>exp2</b> parameter selecteren en deze overschrijven met <b>Gemiddeld</b>:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula43.gif" /></li>
+                    <li>U moet nu de formule voltooien door er uw eigen derde test en expressie aan toe te voegen, die een rood stoplicht if de kosten is tussen 200 en 300. Overschrijf de <b>...</b> met <b>Kosten / '€1' &gt;= 200 AND Kosten / '€1' &lt; 300, Hoog</b>. De voltooide formule zou er nu als volgt uit moeten zien:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula44.gif" /></li>
+                    <li>Klik op <b>OK</b> om het <b>Formule Eigenschappen</b> dialoogvenster te sluiten.</li>
+                </ol>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Local_variables.flsnp" />
+                <p>
+                    <img src="../../../../Graphics/Spreadsheet/exampleformula64.gif" />
+                </p>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Local_variables_1.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die een stoplicht  weergeeft die een indicatie geeft van de kosten van elke taak en  potentiele fouten afhandelt</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>De voorbeeld formule hierboven, die gebruik maakt van de <b>Wissel</b> functie om een rode stoplicht indicator weer te geven als de kosten van de taak zich tussen 200 en 300 bevindt, een oranje stoplicht wanneer ze tussen 100 en 200 ligt en een groen stoplicht wanneer ze kleiner is dan 100, toont niets wanneer de taak kosten groter of gelijk zijn aan 300. Dit kan worden gezien als een fout in de formule zelf, omdat het niet om kan gaan met alle mogelijke situaties. Andere formules zouden fouten kunnen genereren. Bijvoorbeeld, u kunt een formule construeren die verwijst naar een gebruikersveld die niet bestaat, eentje die verwijst naar een kostengroep die niet is gealloceerd aan een taak, of eentje die de kosten deelt door de geplande kosten in omstandigheden waarbij de geplande kosten nul zouden kunnen zijn (het proberen om iets te delen door nul resulteert altijd in een fout).</p>
+                <p>Het is mogelijk om formules op een zodanige wijze te construeren dat er iets - in plaats van niets - bij de fout wordt weergegeven wanneer deze voorkomt. Dit doet met de <b>Probeer</b> functie, die u in staat stelt om te specificeren wat er zou moeten worden weergegeven wanneer de formule niets teruggeeft. In haar simpelste vorm, heeft de <b>Probeer</b> functie twee parameters: de formule zelf, en de uit te voeren actie wanneer er een fout optreedt.</p>
+                <p>Deze voorbeeldformule illustreert het gebruik van de <b>Probeer</b> functie door eerst het bovenstaande voorbeeld over te nemen en dit vervolgens op te sluiten binnen de <b>Probeer</b> functie, waarbij er een rode stoplicht indicator moet worden weergegeven wanneer de kosten van een taak buiten de parameters van de formule vallen.</p>
+                <ol>
+                    <li>Op het <b>Formule Eigenschappen</b> dialoogvenster, voer de formule van het bovenstaande voorbeeld in:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula44.gif" /></li>
+                    <li>Klik in het <b>Formule</b> veld aan het begin van de formule.</li>
+                    <li>Klik op de <b>Functie</b> knop, klik op het <b>Foutafhandeling</b> submenu, klik vervolgens op de <b>Probeer(exp, &lt;alt&gt;)</b> functie. De formule zou er nu als volgt uit moeten zien:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula45.gif" /><br /><br />U moet nu de <b>exp</b> parameter van de <b>Probeer</b> functie vervangen door de formule zoals deze hiervoor gold.</li>
+                    <li>Klik en sleep daarvoor de cursor over de gehele formule vanaf <b>Wissel(Kosten</b> naar voren om deze te selecteren, rechtsklik vervolgens op de geselecteerde tekst en selecteer <b>Knippen</b> in het menu dat verschijnt.</li>
+                    <li>Klik en sleep de cursor over het <b>expressie</b> gedeelte van de formule om deze te selecteren, rechtsklik vervolgens op de geselecteerde tekst en selecteer <b>Plakken</b> in het menu dat verschijnt. Het gedeelte van de formule dat u heeft geknipt wordt als volgt geplakt over de <b>expressie</b> parameter:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula46.gif" /></li>
+                    <li>Overschrijf vervolgens de <b>&lt;alternatief&gt;</b> parameter met <b>Hoog</b>, om aan te geven dat er een rood stoplicht moet worden weergegeven wanneer de kosten van een taak buiten de parameters van de formule vallen. De voltooide formule zou er nu als volgt uit moeten zien:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula47.gif" /></li>
+                    <li>Klik op <b>OK</b> om het <b>Formule Eigenschappen</b> dialoogvenster te sluiten.</li>
+                </ol>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Local_variables.flsnp" />
+                <p>
+                    <img src="../../../../Graphics/Spreadsheet/exampleformula65.gif" />
+                </p>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Local_variables_1.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die voor elke taak de kosten van een specifieke kostengroep minus de inkomsten van dezelfde kostengroep  weergeeft</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Deze formule toont van elke taak de kosten van de kostengroep met een object ID van 30, min de inkomsten van elke taak in dezelfde kostengroep.</p>
+                <p>
+                    <img src="../../../../Graphics/Spreadsheet/exampleformula48.gif" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die het verschil tussen de inkomsten in de actuele projectdata en de inkomsten in de baseline voor elke taak weergeeft</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Deze formule toont voor elke taak de inkomsten in de actuele projectdata minus de inkomsten die zijn geregistreerd in de huidige baseline. Om deze formule te laten werken, moet u een baseline hebben die ingesteld staat als 'Huidige'.</p>
+                <p>
+                    <img src="../../../../Graphics/Spreadsheet/exampleformula49.gif" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die voor elke taak het gecombineerde werk van twee permanente hulpmiddelen weergeeft</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Deze formule gebruikt de <b>Waarde</b> functie om de werk tekststrings van de permanente hulpmiddelen met de ID's 1074 en 1075 om te zetten in numerieke waarden, en ze vervolgens bij elkaar op te tellen het resultaat te tonen.</p>
+                <p>
+                    <img src="../../../../Graphics/Spreadsheet/exampleformula50.gif" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die voor elke taak de kosten van twee specifieke kostengroepen, min een 5% korting, weergeeft</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Deze formule toont voor elke taak de gecombineerde kosten van twee specifieke kostengroepen nadat er een 5% korting op is toegepast .</p>
+                <p>
+                    <img src="../../../../Graphics/Spreadsheet/exampleformula51.gif" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die de dagelijkse  kosten van elke taak weergeeft</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Deze formule toont van elke taak de kosten, gedeeld door de duur in dagen.</p>
+                <p>
+                    <img src="../../../../Graphics/Spreadsheet/exampleformula52.gif" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die een ruwe schatting weergeeft van de benodigde inspanning van elke allocatie, berekend via de kosten van een allocatie en de kosten van de allocatie per dag</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Om deze formule te laten werken, moet u een permanente ingeplande allocatie-type gebruikersveld hebben opgezet met de naam <b>KostenPerDagFactor</b>, een integer-type veld dat wordt gebruikt om de kosten per dag van elke allocatie vast te leggen, uitgedrukt in € per dag.</p>
+                <p>
+                    <img src="../../../../Graphics/Spreadsheet/exampleformula53.gif" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die een stoplicht weergeeft dat aangeeft of de kosten van elke taak hoger of gelijk zijn aan de inkomsten</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Deze formule toont een rood stoplicht wanneer de kosten van een taak hoger zijn dan haar inkomsten en een groen stoplicht wanneer de kosten van elke taak kleiner of gelijk zijn aan haar inkomsten.</p>
+                <p>
+                    <img src="../../../../Graphics/Spreadsheet/exampleformula54.gif" />
+                </p>
+                <p>De volgende formule produceert een identiek resultaat:</p>
+                <p>
+                    <img src="../../../../Graphics/Spreadsheet/exampleformula55.gif" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die een stoplicht weergeeft die de urgentie van de orders aangeeft</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Om deze formule te laten werken, moet u een de volgende balk-type gebruikersvelden hebben opgezet:</p>
+                <ul>
+                    <li>
+                        <b>OrderGeplaatst</b>, een boolean-type veld dat wordt gebruikt om de vast te leggen of de order al dan niet is geplaatst.</li>
+                    <li>
+                        <b>LevTijd</b>, een Duur-type veld dat wordt gebruikt om de levertijd in dagen vast te leggen.</li>
+                </ul>
+                <p>Deze formule toont een rood stoplicht wanneer de voor de taak vastgelegde leverdatum niet gehaald wordt op of vroeger dan gisteren, een oranje stoplicht verschijnt wanneer het op vandaag valt, een groen stoplicht wanneer het op of na vandaag valt, en een grijs stoplicht wanneer een order inmiddels al is geplaatst.</p>
+                <p>
+                    <img src="../../../../Graphics/Spreadsheet/exampleformula56.gif" />
+                </p>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Local_variables.flsnp" />
+                <p>
+                    <img src="../../../../Graphics/Spreadsheet/exampleformula66.gif" />
+                </p>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Local_variables_1.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die voor elke taak de hoogste kosten  van twee specifieke kostengroepen weergeeft</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Deze formule toont de kosten van elke taak uit ofwel de kostengroep met een object ID van 30 of de kostengroep met een object ID van 1080, afhankelijk van welke de hoogste kosten heeft.</p>
+                <p>
+                    <img src="../../../../Graphics/Spreadsheet/exampleformula57.gif" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die voor elke taak de laagste kosten  van twee specifieke kostengroepen weergeeft</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Deze formule toont de kosten van elke taak uit ofwel de kostengroep met een object ID van 30 of de kostengroep met een object ID van 1080, afhankelijk van welke de laagste kosten heeft.</p>
+                <p>
+                    <img src="../../../../Graphics/Spreadsheet/exampleformula58.gif" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die van elke taak de duur tussen het taakeinde en de einddatum van het project weergeeft</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Deze formule toont de duur tussen het einde van elke taak en het einde van het project</p>
+                <p>
+                    <img src="../../../../Graphics/Spreadsheet/exampleformula59.gif" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die van elke taak de duur tussen het taakeinde en de einddatum van het project weergeeft, in dagen</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Deze formule toont het aantal dagen tussen de einddatum van elke taak de einddatum van het project.</p>
+                <p>
+                    <img src="../../../../Graphics/Spreadsheet/exampleformula60.gif" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die  van elke taak het percentage  weergeeft van de kosten die verbonden zijn aan een specifieke kostengroep</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Deze formule toont het percentage van de totale kosten van elke taak die verbonden zijn aan de kostengroep met het object ID van 1080.</p>
+                <p>
+                    <img src="../../../../Graphics/Spreadsheet/exampleformula61.gif" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een formule die de hoeveelheid van een hulpmiddel dat is gebruikt, gebaseerd op het percentage voltooid van de bijbehorende taak, weergeeft</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Deze formule geeft de hoeveelheid van een hulpmiddel dat is gebruikt, gebaseerd op het percentage voltooid van de bijbehorende taak, weer. Merk op dat het PercentComplete veld moet worden gedeeld door 100 om dit op deze wijze te kunnen gebruiken, omdat ze wordt behandeld als een integer in formules. Bijvoorbeeld, een waarde van 50% voltooid zou worden vertaald in een integer van 50, en zo moeten we die dus delen door 100 alvorens deze te vermenigvuldigen met het Quantity veld de correcte waarden te verkregen. Wanneer een taak 50% voltooid zou zijn en het Quantity veld de waarde zou hebben van 1.000, dan zou deze formule de waarde 500 teruggeven.</p>
+                <p>
+                    <img src="../../../../Graphics/Spreadsheet/exampleformula63.gif" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p>
+            <a href="Formulae_creating.htm" xmlns="">Creëren van formules</a>
+        </p>
+        <p>
+            <a href="Formulae_components.htm" xmlns="">De componenten van een formule</a>
+        </p>
+        <p>
+            <a href="Formulae_simplifying.htm" xmlns="">Simplificeren van complexe formules door lokale variabelen te gebruiken</a>
+        </p>
+    </body>
+</html>

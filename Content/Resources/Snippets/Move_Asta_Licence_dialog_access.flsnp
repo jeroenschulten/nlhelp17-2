@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b>Verplaatsen Licentie</b> dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Het <span style="font-weight: bold;">Verplaatsen Licentie</span> dialoogvenster verschijnt wanneer u ervoor kiest om uw licentie vanaf deze computer naar een andere computer wilt verplaatsen via <span style="font-weight: bold;">Verplaats Licentie Wizard</span>.</p>
+                <p>
+                    <MadCap:snippetText src="Licence_type_unavailable.flsnp" />
+                </p>
+                <MadCap:snippetBlock src="APP_SaaS_dialog_not_available.flsnp" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

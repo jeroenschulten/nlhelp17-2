@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li class="p">Klik op het <b xmlns="">Van standaard type</b> keuzerondje.</li>
+            <li class="p" xmlns="">Voor elk type allocatie, klik op de <b>Optie</b> kolom in het <b>Standaard weergave</b> tabelraster en selecteer één van de volgende inkleuringsopties:<MadCap:snippetBlock src="Format_calendar_view_3.flsnp" /></li>
+            <li class="p" xmlns="">Wanneer u Patroon of Mengsel inkleuringsoptie heeft gekozen, selecteer dan in de <b>Voorgrond</b> en <b>Achtergrond</b> kolommen de voorgrond- en achtergrondkleuren om toe te passen op elk type allocatie; wanneer u de Patroon inkleuringsoptie heeft gekozen, selecteer dan het patroon om toe te passen op elk type allocatie in de <b>Patroon</b> kolom.</li>
+            <li class="p" xmlns="">Klik op <b>Toepassen</b>.</li>
+        </ol>
+    </body>
+</html>

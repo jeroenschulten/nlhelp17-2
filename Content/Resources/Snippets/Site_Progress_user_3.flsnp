@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>U hoeft alleen een <MadCap:variable name="Primary.Site Progress Mobile Name" /> gebruiker op te geven voor codes in de codebibliotheek die u gebruikt om te bepalen welke informatie voor elke gebruiker wordt geëxporteerd - dat wil zeggen de codebibliotheek die geselecteerd is in het veld <b>Site Progress bibliotheek</b> op het tabblad <b>Eigenschappen</b> van de Backstage-view.</p>
+    </body>
+</html>

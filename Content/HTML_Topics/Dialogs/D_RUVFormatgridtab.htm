@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" class="KLAAR" xml:lang="nl-nl">
+    <head>
+        <link href="../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Opmaak Kolommen en Cellen dialoogvenster - Tabel tabblad</h1>
+        <p>U gebruikt het <b>Tabel</b> tabblad van het <b>Opmaak Kolommen en Cellen</b> dialoogvenster om de opmaak van de cellen in de rechter gedeelte van de hulpmiddel inzet view te specificeren.</p>
+        <p>Klik op <b>Reset</b> om alle velden in dit dialoogvenster terug te zetten naar hun standaard waarden.</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Format_Columns_and_Cells_dialog_access_2.flsnp" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Verklaring van de velden op het dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../Resources/Snippets/Format_Cells_category.flsnp" />
+                <MadCap:snippetBlock src="../../Resources/Snippets/Format_Cells_number.flsnp" />
+                <MadCap:snippetBlock src="../../Resources/Snippets/Format_Cells_currency.flsnp" />
+                <p>De volgende velden worden weergegeven wanneer u de 'Inspanning' categorie selecteert:</p>
+                <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../../Resources/Stylesheets/Table_Stylesheet.css');caption-side: top;margin-left: 0;margin-right: auto;" cellspacing="0">
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <thead>
+                        <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Veld</th>
+                            <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Omschrijving</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Decimalen </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Selecteer het aantal decimalen dat moet worden getoond.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Tijdseenheden</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Selecteer de tijdseenheid in waarin de inspanning moet worden getoond.  </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Kalender</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Selecteer een kalender om de inspanning te tonen gebruik makend van de tijdseenheid overschrijving specifiek voor die kalender.</p>
+                                <p class="ParagraphsInTables">In iedere kalender kan overschrijven worden gespecificeerd voor iedere werktijdeenheid, waarbij de juiste lengte in die kalender wordt gedefinieerd. Een werkweek kan bijvoorbeeld variëren in verschillende kalenders, afhankelijk van de werktijdenpatronen die door de kalenders worden gebruikt.</p>
+                                <p class="ParagraphsInTables">Wanneer in de geselecteerde kalender geen overschrijving is gespecificeerd, gebruikt <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> de overschrijving die is gespecificeerd voor de kalender van de geselecteerde taak of balk; indien hier geen overschrijving is gespecificeerd gebruikt <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> het standaard aantal seconden van de geselecteerde tijdseenheid.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Duur formaat</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Selecteer het formaat waarin de inspanning moet worden getoond:</p>
+                                <ul>
+                                    <li class="p" type="disc">Selecteer Compact (4:2) om de inspanning weer te geven met de afkortingen die zijn gespecificeerd voor iedere tijdseenheid in het <b>Tijdseenheid Eigenschappen</b> dialoogvenster (dit kunnen tekens zijn zoals uitroeptekens of asterisken).</li>
+                                    <li class="p" type="disc">Selecteer Decimaal (4,00d, 4,40w) om de inspanning weer te geven als decimaal getal van de geselecteerde tijdseenheid, waarbij u het exacte aantal decimale plaatsen gebruikt dat u hebt gespecificeerd (ook als dit nullen zijn), bijvoorbeeld 4,60w, 11,75m of 2,00j.</li>
+                                    <li class="p" type="disc">Selecteer Decimaal (4d, 4,4w) om de inspanning weer te geven als decimaal getal van de geselecteerde tijdseenheid, waarbij u zo min mogelijk decimale plaatsen gebruikt (tot aan het maximum aantal dat u hebt gespecificeerd) bijvoorbeeld 4,6w, 11,7m of 2j.</li>
+                                    <li class="p" type="disc">Selecteer Gemengde tijdseenheden (4w 2d) om de inspanning weer te geven met een combinatie van tijdseenheden, bijvoorbeeld 4w 3d of 2d 11u.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Toon geen tijdseenheid</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">
+                                <p class="ParagraphsInTables">Schakel dit selectievakje in om de inspanning weer te geven zonder tijdseenheid weer te geven, of schakel dit selectievakje uit om deze hoeveelheden met de bijbehorende tijdseenheden weer te geven.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../Resources/Snippets/How_do_I.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/Format_Cells_specify_category.flsnp" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... de opmaak specificeren van 'Nummer'-type cellen?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <MadCap:snippetText src="../../Resources/Snippets/Format_Cells_specify_number.flsnp" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... de opmaak specificeren van 'Munteenheid'-type cellen?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <MadCap:snippetText src="../../Resources/Snippets/Format_Cells_specify_currency.flsnp" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... de opmaak specificeren van 'Inspanning'-type cellen?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol style="list-style-type: decimal;">
+                    <li class="p">Selecteer het aantal decimalen dat moet worden weergegeven in het <span style="font-weight: bold;">Decimalen</span> veld</li>
+                    <li class="p">Selecteer de tijdseenheid waarin u de inspanning wilt weergeven in het <span style="font-weight: bold;">Tijdseenheden</span> veld.</li>
+                    <li class="p">Selecteer een kalender in het <span style="font-weight: bold;">Kalender</span> veld om de inspanning te tonen gebruik makend van de tijdseenheid overschrijving specifiek voor deze kalender. </li>
+                    <li class="p">Selecteer de opmaak waarin de inspanning moet worden weergegeven in het <span style="font-weight: bold;">Duur/Inspanning formaat</span> veld.</li>
+                    <li class="p" xmlns="">Schakel het <b>Toon de tijdseenheid niet</b> selectievakje in om de inspanning weer te geven zonder tijdseenheid weer te geven, of schakel dit selectievakje uit om deze hoeveelheden met de bijbehorende tijdseenheden weer te geven.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p>
+            <a href="../Other/Workingdialogs.htm">Met dialoogvensters werken</a>
+        </p>
+        <p>
+            <a href="../Conceptual/RUV/RUV_format.htm" xmlns="">De kolommen, koppen en cellen van hulpmiddel inzet view opmaken</a>
+        </p>
+    </body>
+</html>

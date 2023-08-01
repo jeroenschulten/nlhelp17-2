@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Bar_chart_editing_and_rescheduling\Buffer_tasks\Interruptible_examples.htm" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" class="KLAAR" xml:lang="nl-nl">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Duur berekende taken:voorbeelden van" />Een voorbeeld van duur berekende taken in de praktijk</h1>
+        <p>In de illustratie hieronder, zijn taken A, B en C samen gelinkt. Let erop dat er twee links van taak A naar taak B zijn, een Start-Start link en een Einde-Einde link:</p>
+        <p>
+            <img src="../../../../Graphics/Bar_chart_editing/interruptible1.gif" style="border: none;" width="148" height="71" border="0" />
+        </p>
+        <p>Als geen van de taken aangeduid is als duur berekende taak, zouden de taken er na een herberekening als volgt uitzien:</p>
+        <table cellspacing="0" width="100%">
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tr style="vertical-align: top;">
+                <td style="width: 50%;padding-right: 10px;padding-left: 10px;">
+                    <p>
+                        <img src="../../../../Graphics/Bar_chart_editing/interruptible2.gif" style="border: none;" width="148" height="71" border="0" />
+                    </p>
+                </td>
+                <td style="width: 50%;padding-right: 10px;padding-left: 10px;">
+                    <p>De taken staan in dezelfde positie als voor de herberekening, ondanks dat de Start-Start link van taak A naar B aangeeft dat taak B eerder zou kunnen beginnen.</p>
+                </td>
+            </tr>
+        </table>
+        <p>Als taak B aangeduid wordt als duur berekende taak, zou het er na herberekening als volgt uitzien:</p>
+        <table cellspacing="0" width="100%">
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tr style="vertical-align: top;">
+                <td style="width: 50%;padding-right: 10px;padding-left: 10px;">
+                    <p>
+                        <img src="../../../../Graphics/Bar_chart_editing/interruptible3.gif" style="border: none;" width="152" height="71" border="0" />
+                    </p>
+                </td>
+                <td style="width: 50%;padding-right: 10px;padding-left: 10px;">
+                    <p>De duur van taak B, de duur berekende taak, is toegenomen, taak B is uitgerekt zodat beide links vanuit taak A na herberekening recht gezet zijn. De planning laat nu nauwkeurig zien dat taak B op dezelfde tijd kan starten als taak A.</p>
+                </td>
+            </tr>
+        </table>
+        <p>Merk op dat als één van de beperkende links van de duur berekende taak verwijderd wordt, de duur berekende taak terug zal keren naar haar oorspronkelijke duur - ze zal niet meer 'uitgerekt' zijn, zoals hiernaast geïllustreerd wordt.</p>
+        <table wrapperparagraphselector="P" cellspacing="0" width="100%">
+            <tr>
+                <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: center;margin-bottom: 0;">
+                        <img src="../../../../Graphics/Bar_chart_editing/interruptible7.gif" style="border: none;" width="148" height="71" border="0" />
+                    </p>
+                </td>
+                <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: center;margin-bottom: 0;">
+                        <img src="../../../../Graphics/Bar_chart_editing/interruptible8.gif" style="border: none;" width="149" height="71" border="0" />
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: center;margin-bottom: 0;">Start-Start link verwijderd</p>
+                </td>
+                <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="text-align: center;margin-bottom: 0;">Einde-Einde link verwijderd</p>
+                </td>
+            </tr>
+        </table>
+        <h2>duur berekende taken en mijlpalen</h2>
+        <p>Het zou kunnen zijn dat u een duur berekende taak in een mijlpaal wilt omzetten om haar effect op uw projectplanning te elimineren. Wanneer u een duur berekende taak in een mijlpaal omzet, behoudt de mijlpaal de duur berekende status van de taak. Wanneer u vervolgens uw project herberekent, zal het herberekenen alle inkomende Einde-Einde en Start-Einde links negeren die naar de duur berekende mijlpaal lopen, zodat de mijlpaal zo vroeg mogelijk in het project gepositioneerd kan worden. U kunt een duur berekende mijlpaal weer terug omzetten naar een taak door de duur ervan te vergroten.</p>
+        <p>Wanneer taak B in het bovenstaande voorbeeld omgezet wordt naar een  mijlpaal, zullen de taken er als volgt uitzien na een herberekening:</p>
+        <table style="vertical-align: top;" cellspacing="0" width="100%">
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tr style="vertical-align: top;">
+                <td style="width: 50%;padding-right: 10px;padding-left: 10px;">
+                    <p>
+                        <img src="../../../../Graphics/Bar_chart_editing/interruptible6.gif" style="border: none;" width="155" height="71" border="0" />
+                    </p>
+                </td>
+                <td style="width: 50%;padding-right: 10px;padding-left: 10px;">
+                    <p>taak B, de duur berekende taak, is zo vroeg mogelijk in het project gepositioneerd. Merk op dat dit kan resulteren in achterover hellende links, zoals hiernaast geïllustreerd wordt.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p><a href="Creating_interruptible.htm">Duur berekende taken creëren</a>
+        </p>
+    </body>
+</html>

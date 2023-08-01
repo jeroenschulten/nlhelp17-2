@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Wanneer u<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Easyplan_only"> de taken in</MadCap:conditionalText> een project <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">herberekent </MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Easyplan_only">uitlijnt </MadCap:conditionalText>wordt de startdatum van de taak bepaald door de einddatum van de laatste voorganger taak. Dit wordt hieronder afgebeeld, waarbij de startdatum van taak C bepaald is door de einddatum van taak A:</p>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="288" MadCap:lastWidth="760">
+    <body>
+        <ul>
+            <li>
+                <b>ContentType</b> - een tekststring, altijd ingesteld op "static", die dit definieert als een groep op het <b>Help</b> tabblad van de Backstage view dat een aantal specifieke documenten bevat, in plaats van als een groep die alle documenten van een bepaald type in een specifieke map bevat .</li>
+            <li>
+                <b>Caption</b> - een tekststring die de titel van de groep definieert zoals het zou moeten verschijnen op het <b>Help</b> tabblad van de Backstage view.</li>
+            <li>
+                <b>Omschrijving</b> - een tekststring die de tekst definieert die zou moeten verschijnen in een popup wanneer gebruikers de muisaanwijzer over de titel schuiven van de groep op het <b>Help</b> tabblad van de Backstage view. Dit attribuut is optioneel.</li>
+            <li>
+                <b>Expanded</b> - een getal dat aangeeft of de groep uitgeklapt (open) of ingeklapt (gesloten) moet worden weergegeven op het <b>Help</b> tabblad van de Backstage view. Stel dit in op "0" om de groep ingeklapt weer te geven; of op "1" om ze uitgeklapt weer te geven.</li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Using_baselines\Creating_and_merging_baselines\BL_Merge.htm" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:lastBlockDepth="5" MadCap:lastHeight="1985" MadCap:lastWidth="788" class="KLAAR" xml:lang="nl-nl" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+    <head>
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Samenvoegen van nieuwe en veranderde gegevens in baselines;Project baselines:samenvoegen van nieuwe en veranderde gegevens in;Project baselines:samenvoegen van nieuwe en veranderde gegevens in;Baselines:samenvoegen van nieuwe en veranderde gegevens in" />Nieuwe en gewijzigde gegevens samenvoegen in bestaande baselines</h1>
+        <p>Nadat u een baseline heeft <strong>gemaakt</strong> van een project of view, zou u meer detail aan het project willen toevoegen en die details willen opnemen in de oorspronkelijke baseline. U kunt dit doen door de nieuwe informatie samen te voegen in een bestaande baseline.</p>
+        <p>Wanneer u data in een baseline samenvoegt, dient u er zeker van te zijn dat het project en de baseline nauw met elkaar corresponderen - d.w.z. dat de baseline waarin u aan het samenvoegen bent gebaseerd is op het project. Dit is in de meeste situaties het geval. Echter, wanneer u een project als een baseline heeft geïmporteerd, is het mogelijk dat de resulterende baseline te sterk kan verschillen met het project waardoor het samenvoegen van informatie in de baseline zou resulteren in fouten. Deze fouten kunnen ontstaan doordat interne ID's in het project zijn toegewezen aan het ene objecttype en hetzelfde ID is toegewezen aan een ander objecttype in de baseline. Om deze reden verschijnt er een waarschuwing als u gegevens probeert samen te voegen in een baseline die eerst was geïmporteerd.</p>
+        <p>Om nieuwe en veranderde gegevens in een baseline samen te voegen:</p>
+        <ol>
+            <li class="p">
+                <a href="../../Views/Create_save_open/Opening_a_view.htm">Toon een view waarin de nieuwe en veranderde gegevens worden weergeven die u wilt samenvoegen in een bestaande baseline</a>. Wanneer u de nieuwe en veranderde gegevens overal in het hele project wilt samenvoegen, moet u de kaart die programma (hoogste niveau) vertegenwoordigt weergeven. Om alleen bepaalde taken samen te voegen selecteert u de taken die u wilt samenvoegen.<br /><br />Wanneer u <a href="Project_baselines.htm">verschillende baselines met individuele projecten binnen een portfolio</a> wilt samenvoegen, zie de sectie hieronder voor details hoe nieuwe en veranderde gegevens in een project baseline samen te voegen.            </li>
+            <li class="p">Klik in het tabblad  <b>Project</b>, in de <b>Eigenschappen</b> groep, op <span style="font-weight: bold;">Baseline Manager</span>. De <span style="font-weight: bold;">Baseline/What If Manager</span> verschijnt.            </li>
+            <li class="p">Selecteer de baseline waarin u de nieuwe en veranderde gegevens wilt samenvoegen.            </li>
+            <li class="p">Klik op <span style="font-weight: bold;">Samenvoegen</span>. Het <span style="font-weight: bold;">Details</span> venster van de <span style="font-weight: bold;">Baseline Wizard</span> verschijnt.            </li>
+            <li class="p">Wijzig indien gewenst de beschrijving van de baseline, klik vervolgens op <span style="font-weight: bold;">Volgende</span>. Het <span style="font-weight: bold;">Domein</span> scherm verschijnt.            </li>
+            <li class="p">Wanneer u bepaalde taken had geselecteerd voordat u de <span style="font-weight: bold;">Baseline Wizard</span> startte, specificeer dan of u alle taken in de huidige view wilt samenvoegen, of alleen de geselecteerde taken.            </li>
+            <li class="p">Specificeer de wijze waarop u de baseline wilt bijwerken met nieuwe en veranderde gegevens:            </li>
+            <ul>
+                <li class="p" type="disc">Klik op <span style="font-weight: bold;">Alleen nieuwe gegevens toevoegen</span> om de baseline bij te werken met de taken en allocaties die zijn toegevoegd aan het project sinds dat de baseline het laatst was bijgewerkt.            </li>
+                <li class="p" type="disc">Klik op <span style="font-weight: bold;">Nieuwe en gewijzigde gegevens toevoegen</span> om de baseline bij te werken met de taken en allocaties die zijn toegevoegd aan het project sinds dat de baseline het laatst was bijgewerkt en om de taken en allocaties die al in de in baseline bestonden bij te werken met de informatie die veranderd is sinds dat de baseline het laatst was bijgewerkt.            </li>
+                <li class="p" type="disc">Klik op <span style="font-weight: bold;">Volledig bijwerken</span> om de baseline bij te werken met alle wijzigingen sinds het voor het laatst was bijgewerkt, inclusief het verwijderen van de taken en allocaties uit de baseline waar deze ook zijn verwijderd uit het project.            </li>
+            </ul>
+            <li class="p">Klik op <span style="font-weight: bold;">Maak een backup van de baseline</span> wanneer u een kopie wilt maken van de bestaande baseline voordat u er nieuwe en veranderde gegevens in samenvoegt. Merk op dat u geen baselines kunt backuppen als deze in het project geïmporteerd zijn.            </li>
+            <li class="p">Klik op <span style="font-weight: bold;">Volgende</span>. Het <span style="font-weight: bold;">Samenvatting</span> scherm verschijnt. Dit scherm toont een overzicht van wat u gekozen heeft te doen. Wanneer u het eens bent met de op het scherm getoonde details klikt u <strong>Voltooien</strong> om de nieuwe en veranderde gegevens in de baseline samen te voegen.            </li>
+        </ol>
+        <p>Om er voor te zorgen dat de geplande <a href="../../Progress/Expanded_summary/Progoverall.htm">overall percentage voltooid waarden van hoger-niveautaken</a> correct in baselines worden berekend, berekent <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> automatisch de weging van alle taken waarbij het overall percentage weging nog niet veranderd is - d.w.z. taken met een weging die nog steeds op 1 staat - alvorens de data samen te voegen. Bij alle taken die zijn betrokken bij de baseline operatie met op dit moment een weging van 1 wordt een weging gecalculeerd volgens de taakduur, waarmee verzekerd is dat de geplande voortgangswaarden in uw baselines correct zijn.</p>
+        <p>Wanneer u nieuwe en veranderde gegevens in een baseline samenvoegt, terwijl de baseline al op de balkkaart wordt weergegeven, zullen de opnieuw samengevoegde taken automatisch worden getoond.</p>
+        <h2>Nieuwe en gewijzigde gegevens samenvoegen in project baselines</h2>
+        <p>Wanneer u verschillende baselines aan individuele projecten binnen een portfolio gekoppeld heeft - deze staan bekend als 'project baselines' - en u een project baseline wilt bijwerken, moet u de <span style="font-weight: bold;">Baseline Wizard</span> starten vanuit het <b>Kaart/Project Eigenschappen dialoogvenster</b>in plaats van vanuit het <b> Baseline/What If Manager</b> dialoogvenster. Het starten van de <span style="font-weight: bold;">Baseline Wizard</span> op deze wijze beperkt automatisch het domein van de baseline samenvoeging tot gegevens die zich binnen het geselecteerde project bevinden - en binnen alle subprojecten met dezelfde project baseline of die geen project baseline hebben.</p>
+        <p>Om nieuwe en veranderde gegevens in een project baseline samen te voegen:</p>
+        <ol style="list-style-type: decimal;">
+            <li class="p">Klik met de rechtermuisknop op het kaart of samenvattingsgroep pictogram in de project view dat een project representeert en selecteer <span style="font-weight: bold;">Eigenschappen</span>. Het <span style="font-weight: bold;">Kaart/Project Eigenschappen</span> dialoogvenster verschijnt.            </li>
+            <li class="p">Klik op het tabblad <span style="font-weight: bold;">Project</span>.            </li>
+            <li class="p">Controleer of de project baseline in het <span style="font-weight: bold;">Project Baseline</span> veld wordt weergegeven, klik vervolgens op <span style="font-weight: bold;">Baseline Samenvoegen</span>. De <span style="font-weight: bold;">Baseline Wizard</span> verschijnt.            </li>
+            <li class="kadov-p">Volg de instructies in de wizard om de nieuwe en veranderde gegevens in de geselecteerde project baseline samen te voegen.</li>
+        </ol>
+        <p>Merk op dat u geen backup van de baseline kunt maken wanneer u op deze wijze nieuwe en veranderde gegevens in de baseline wilt samenvoegen.</p>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p>
+            <a href="Creating_and_merging_baselines.htm">Baselines aanmaken</a>
+        </p>
+        <p>
+            <a href="Project_baselines.htm">Verschillende baselines associëren aan individuele projecten</a>
+        </p>
+        <p>
+            <a href="../Displaying_baseline_info/Baseline_bar_chart.htm">Baseline informatie weergeven in de balkkaart</a>
+        </p>
+        <p>
+            <a href="../Displaying_baseline_info/Baseline_spreadsheet.htm">Baseline informatie weergeven in de tabel</a>
+        </p>
+        <p>
+            <a href="../Reverting_to_a_baseline/Reverting_to_a_baseline.htm">Terugkeren naar een baseline</a>
+        </p>
+        <p>
+            <a href="../Deleting_baselines/Deleting_baselines.htm">Baselines verwijderen</a>
+        </p>
+        <p>
+            <a href="../Viewing_baseline_information/Viewing_baseline_information.htm">Baseline informatie bekijken</a>
+        </p>
+    </body>
+</html>

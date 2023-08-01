@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Explanation of the Spreadsheet fields on the dialog</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');margin-left: 0;margin-right: auto;caption-side: top;" cellspacing="0">
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <thead>
+                        <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Field</th>
+                            <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Fit columns to text</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Select this check box to alter the size of the spreadsheet columns so that the text they contains fits neatly within, or clear it to print the columns at their current size, which may result in some text being truncated. If you choose to auto-size rows when word wrapping, you may not need to use this printing option in order to display all of the text in the spreadsheet in a printout.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">
+                                    <a href="../../HTML_Topics/Conceptual/Setting_up_the_bar_chart/Setting_display_options/Setting_vertical_scale_display_options.htm">Setting vertical scale display options</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Show 3D effect</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Select this check box to print the spreadsheet using a 3-dimensional effect, matching the way it appears on screen, or clear it to print the spreadsheet more simply.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Show bar shading</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1"> Select this check box to print alternate spreadsheet shading, matching the way it appears on screen, or clear it to print the spreadsheet more simply.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Show task-per-line column</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Select this check box to print the column that shows whether a task is being displayed in one-task-per-line mode, or clear it to omit this column.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Visible columns only</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Select this check box to print only the spreadsheet columns that are currently in view, or clear it to include all the spreadsheet columns in the printout, including those that are not currently in view.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Keep line numbers when printing selection</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Select this check box to maintain the line numbering that is applied to bars in the spreadsheet when you are printing a selection of bars, or clear it to renumber the selection of bars that you are printing, starting at 1.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

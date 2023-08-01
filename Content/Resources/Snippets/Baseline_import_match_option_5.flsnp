@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Wanneer u ervoor kiest om het project of de baseline die u aan het importeren bent te embedden moet u specificeren hoe de taken in het geïmporteerde project of baseline gemapt moeten worden aan de taken in het actieve project. Dit is omdat wanneer een project of baseline geïmporteerd en embedded wordt, haar interne object ID's veranderd zijn. U kunt taken mappen met behulp van interne object-ID's - de ID die automatisch aan elk object wordt toegewezen door <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> wanneer het object wordt gemaakt - of met unieke taak-ID's. De standaard mappingmethode is om interne object-ID's te gebruiken, maar als u unieke taak-ID's gebruikt om objecten in uw projecten te identificeren, geeft u er wellicht de voorkeur aan te mappen met behulp van unieke taak-ID's.</p>
+    </body>
+</html>

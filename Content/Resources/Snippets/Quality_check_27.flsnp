@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Een planningskwaliteitscheck bevat een set door de gebruiker definieerbare kwaliteitscriteria die u kunt gebruiken om de kwaliteit van een planning te controleren. U kunt kiezen welke kwaliteitscriteria in elke kwaliteitscheck moeten worden opgenomen en voor elk criterium kunt u definiëren wat een geslaagd of een gefaald is - met uitzondering van enkele criteria die resulteren in een eenvoudige slaging of falen. U kunt bijvoorbeeld het linklogica criterium opnemen, die controleert of de taken ten minste één inkomende en uitgaande link hebben, en specificeren dat de planning moet slagen als 95% van de taken of meer gelinkt zijn en dat het moet falen als minder dan 85% van taken zijn gelinkt. Als het aandeel van onvolledig gelinkte taken tussen deze twee percentages valt, is het resultaat niet geslaagd of niet gefaald, maar ligt het ergens daartussenin. Een planningskwaliteitscheck kan een enkel kwaliteitscriterium bevatten, of een willekeurig aantal criteria.</p>
+    </body>
+</html>

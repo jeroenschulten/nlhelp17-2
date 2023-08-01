@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Als het passend is dat een link positieve wachttijd heeft, overweeg dan om de positieve wachttijd van de link te verwijderen en een extra taak te maken die de positieve wachttijd vertegenwoordigt. Als een taak 'Beton storten' bijvoorbeeld is gelinkt aan een opvolger taak 'Drainage werkt' door een link met een positieve wachttijd van 2 d, waarbij de positieve wachttijd de tijd aangeeft die nodig is om het beton uit te harden, overweeg dan om de positieve wachttijd van de link te verwijderen en een 2d lange taak genaamd 'Beton uitharden'  toe te voegen tussen de taken 'Beton storten' en 'Drainagewerken', zoals hieronder geïllustreerd.</p>
+    </body>
+</html>

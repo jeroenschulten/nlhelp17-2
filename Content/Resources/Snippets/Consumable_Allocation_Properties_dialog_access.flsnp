@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b>Verbruiksgoederen Allocatie Eigenschappen</b> dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Om toegang te krijgen tot het <span style="font-weight: bold;">Verbruiksgoederen Allocatie Eigenschappen</span> dialoogvenster, rechtsklik op een verbruiksgoederen allocatie en selecteer <span style="font-weight: bold;">Eigenschappen</span>. <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Of open een allocatieview bij een taak, rechtsklik op een verbruiksgoed en selecteer <span style="font-weight: bold;">Eigenschappen</span>.</MadCap:conditionalText></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

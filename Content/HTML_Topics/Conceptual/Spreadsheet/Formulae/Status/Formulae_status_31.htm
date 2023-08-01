@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" class="KLAAR" xml:lang="nl-nl">
+    <head>
+    </head>
+    <body>
+        <h1>Ongeldige lokale variabele definitie</h1>
+        <h2>Uitleg bij deze fout:</h2>
+        <p>Deze formule bevat een lokale variabele met een ongeldige naam - u kunt geen gereserveerd woord zoals "let", "low", "true" of "try" gebruiken als de naam van een lokale variabele - of de syntaxis van een <b>Let</b>-instructie in de formule die een lokale variabele definieert, is ongeldig.</p>
+        <h2>Examples:</h2>
+        <p><b>Let let = 42; Let var = 43; var * 2</b>
+        </p>
+        <p>In dit voorbeeld is aan de eerste lokale variabele een ongeldige naam gegeven: "let".</p>
+        <p><b>Let var 42; var * 2</b>
+        </p>
+        <p>In dit voorbeeld ontbreekt er bij de <b xmlns="">Let</b>-instructie die de lokale variabele defineert een "=".</p>
+        <h2>Hoe deze fout op te lossen:</h2>
+        <p>Controleer de formule en zorg ervoor dat elke lokale variabele een naam heeft die geldig is in de formule en dat de syntaxis van de <b xmlns="">Let</b> instructies in de formule die de lokale variabelen definieert geldig is.</p>
+        <p>Het eerste voorbeeld hierboven kan worden gecorrigeerd door de eerste lokale variabele te hernoemen, wat resulteert in (bijvoorbeeld) <b>Let locvar = 42; Let var = 43; var * 2</b>.</p>
+        <p>Het eerste voorbeeld hierboven kan worden gecorrigeerd door het toevoegen van een "=" aan de <b xmlns="">Let</b>-instructie die de lokale variabele definieert, resulterend in <b xmlns="">Let var = 42; var * 2</b>.</p>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="../Formulae_components.htm">De samenstellende componenten van een formule</a>
+        </p>
+        <p><a href="../Formulae_simplifying.htm" xmlns="">Simplificeren van complexe formules door lokale variabelen te gebruiken</a>
+        </p>
+    </body>
+</html>

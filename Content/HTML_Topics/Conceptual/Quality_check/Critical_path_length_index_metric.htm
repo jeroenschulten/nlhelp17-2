@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" xml:lang="nl-nl" class="KLAAR-NL">
+    <head>
+        <link href="../../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Kwaliteitschecks:kritieke pad lengte index criterium;Kritieke pad lengte index kwaliteitscriterium" />'Kritieke pad lengte index' kwaliteitscriterium</h1>
+        <p>Gebruik dit kwaliteitscriterium om te controleren of de opleverdatum van een project gemist dreigt te worden. Dit kwaliteitscriterium deelt de verstreken duur tussen de start van het project en de <a href="../Structuring_your_project/Editing_the_properties_of_a_project/Specify_delivery_date.htm">opleverdatum </a>door de verstreken duur tussen de start en het einde van het project om de verhouding tussen deze waarden te bepalen. Deze verhouding is de kritieke pad lengte index. Een ratio kleiner dan 1 kan erop wijzen dat de leveringsdatum dreigt te worden gemist omdat de projectplanning overloopt.</p>
+        <p><i>Verstreken duur tussen start van het project en opleverdatum / Verstreken duur tussen start van het project en einde van het project = Kritieke pad lengte index</i>
+        </p>
+        <p>Om dit kwaliteitscriterium te gebruiken, moet u een leveringsdatum specificeren van het programma van projecten en/of van de individuele kaarten of samenvattingstaken die projecten vertegenwoordigen.</p>
+        <p>Dit kwaliteitscriterium voldoet aan de vereisten van DCMA-test 13 (Critical Path Length Index (CPLI)).</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Voorbeelden van de kritieke pad lengte index</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In de volgende afbeelding is de startdatum van het project 6 april, de leveringsdatum 22 mei en de einddatum van het project 3 juni:</p>
+                <p>
+                    <img src="../../../Graphics/Quality_check/criticalpathlengthindex1.gif" alt="The project start date is 6th April, the delivery date is 22nd May and the project finish date is 3rd June" />
+                </p>
+                <p>In dit project is de kritieke pad lengte index 0,79 (46d / 58d = 0,79). Als de slaaggrens is ingesteld op 1,00 en de faalgrens is ingesteld op 0,95, zou het project voor dit criterium niet slagen, omdat de leveringsdatum eerder is dan de einddatum van het project.</p>
+                <p>De volgende afbeelding toont hetzelfde project, maar met de leverdatum verplaatst naar 19 juni:</p>
+                <p>
+                    <img src="../../../Graphics/Quality_check/criticalpathlengthindex2.gif" alt="The same project, but with the delivery date moved to 19th June" />
+                </p>
+                <p>De kritieke pad lengte index is nu 1,28 (74d / 58d = 1,28). Met de slaaggrens ingesteld op 1,00 en de faalgrens ingesteld op 0,95, zou het project nu voor dit criterium slagen, aangezien de leverdatum later is dan de einddatum van het project.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_2.flsnp" />
+        </p>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_33.flsnp" />
+        </p>
+        <h2>Slaag en faal criteria</h2>
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Slaagt of faalt?</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Criteria</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #afffaf;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Slaagt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Een project slaagt voor dit kwaliteitscriterium als de kritieke pad lengte index groter is dan of gelijk is aan de slaaggrens.</p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Als de slaaggrens bijvoorbeeld was ingesteld op 1,00, zou een project voor dit kwaliteitscriterium slagen als de verhouding 1,00 of hoger was.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #ff6464;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Een project faalt voor dit kwaliteitscriterium als de kritieke pad lengte index kleiner is dan de faalgrens.</p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Als de faalgrens bijvoorbeeld was ingesteld op 0,95, zou een project voor dit kwaliteitscriterium niet slagen als de verhouding kleiner was dan 0,95.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="background-color: #ffaf45;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;">Slaagt noch faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Als kritieke pad lengte index valt tussen het slaaggrens en het faalgrens percentage, is het resultaat noch geslaagd noch gefaald, maar ligt dat ergens daartussenin.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Voorgestelde instellingen om te voldoen aan de vereisten van de DCMA test 13 (Kritieke pad lengte index (CPLI))</h2>
+        <ul xmlns="" type="disc">
+            <li>Slaaggrens: 1.00. Een project zal slagen voor dit kwaliteitscriterium als de kritieke pad lengte index 1,00 of hoger is.</li>
+            <li>Faalgrens: 0.95. Een project zal falen voor dit kwaliteitscriterium als de kritieke pad lengte index kleiner is dan 0,95.</li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_39.flsnp" />
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Kritieke pad lengte index</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Slaagt of faalt?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">0.00</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">0.50</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">0.94</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">0.95</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Slaagt noch faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">0.99</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Slaagt noch faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">1.00</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Slaagt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1">2.00</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Slaagt</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Forceert dit criterium dat het project wordt herberekend?</h2>
+        <p>Nee.</p>
+        <h2>Voorgestelde acties als een project faalt voor dit criterium</h2>
+        <p>U kunt de volgende acties ondernemen wanneer een project faalt voor dit kwaliteitscriterium:</p>
+        <ul>
+            <li>Bekijk de opleverdatum van het project om te bepalen of deze realistisch is; als dit niet het geval is, wijzigt u de leveringsdatum naar een meer realistische datum in de toekomst.</li>
+            <li>Bekijk de taken op het kritieke pad om te bepalen of er een manier is om het kritieke pad te verkorten.</li>
+        </ul>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="Checking_quality_intro.htm">Introductie over planningskwaliteitchecks</a>
+        </p>
+        <p><a href="../Structuring_your_project/Editing_the_properties_of_a_project/Specify_delivery_date.htm">Specificeren van een projectdeadline voor een project</a>
+        </p>
+    </body>
+</html>

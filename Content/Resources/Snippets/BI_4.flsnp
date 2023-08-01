@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="662" MadCap:lastWidth="647">
+    <body>
+        <ul type="disc">
+            <li>"Verwijder alle inhoud" om alle aanwezige gegevens uit het werkboek te verwijderen, waardoor alleen nog maar de macro's achterblijven die zouden kunnen voorkomen.</li>
+            <li>"Verwijder alleen huidige planningsgegevens" om alle gegevens objecten uit het werkboek te verwijderen die dezelfde interne ID hebben als alle gegevens objecten die geëxporteerd worden, waardoor alle andere gegevens achterblijven. Het selecteren van deze optie stelt u in staat om een bestaand werkboek bij te werken met alle gegevens die veranderd zijn sinds de laatste export.</li>
+            <li>"Zo laten" Om alle gegevens hetzelfde te laten als in het werkboek. Door deze optie te selecteren bent u in staat om een historische registratie van de geëxporteerde gegevens bij te houden.</li>
+        </ul>
+    </body>
+</html>

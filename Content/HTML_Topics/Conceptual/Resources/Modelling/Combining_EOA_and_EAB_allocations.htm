@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Working_with_resources\Modelling_resources\Combining_EOA_and_EAB_allocations.htm" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:lastBlockDepth="6" MadCap:lastHeight="633" MadCap:lastWidth="1217" class="KLAAR" xml:lang="nl-nl" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+    <head>
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Modelleringstype Inspanning Taak Budget voor permanente hulpmiddelen:gecombineerd met modellering Inspanning op allocatie;Modellering Inspanning Op Allocatie voor permanente hulpmiddelen:gecombineerd met modellering Inspanning taak budget" />Combineren van Inspanning Taak en Inspanning Taak Budget allocaties</h1>
+        <p>Een combinatie van verschillend gemodelleerde hulpmiddelen kan worden gealloceerd aan een taak. De combinatie van de modelleringsmethoden die u gebruikt hangen af van de manier waarop u wilt dat <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> de verschillende hulpmiddelen modelleert.</p>
+        <p>Handig is om Inspanning op Allocatie en Inspanning Taak Budget allocaties op een taak te combineren. Als u dit doet, dan kan worden aangegeven dat Inspanning op Allocatie gemodelleerde allocaties bijdragen aan het inspanningsbudget van een taak; normaal dragen alleen Inspanning Taak Budget allocaties hieraan bij.</p>
+        <p>Een voorbeeld, als een taak een inspanningsbudget heeft van 200 uur, en u weet dat twee hulpmiddelen elk precies 40 uur met de taak bezig zijn en u wilt uitrekenen wat de benodigde inspanning is die door een derde hulpmiddel moet worden geleverd, dan kan dat als volgt:</p>
+        <ol>
+            <li class="p">Alloceer de drie hulpmiddelen aan de taak</li>
+            <li class="p">
+                <span style="font-weight: normal;">Typ 200u in het veld</span> <span style="font-weight: bold;">Inspanning Budget</span> <span style="font-weight: normal;">in de <span style="font-weight: bold;">Inspanning &amp; Modellering</span> sectie van het tabblad</span> <span style="font-weight: bold;">Taak</span> in het dialoogvenster <b>Balk en Taak Eigenschappen</b> om de taak een inspanningsbudget van 200 uur te geven.</li>
+            <li class="p">Voor elk van de twee hulpmiddelen dat meer dan 40 uur voor de taak bezig zijn.</li>
+            <ul>
+                <li class="p">Zet de allocaties op Inspanning Taak, in het tabblad <span style="font-weight: bold;">Modellering</span> van het dialoogvenster <b>Permanente Allocatie Eigenschappen</b> en geef elke allocatie 40 uur inspanning.</li>
+                <li class="p">Selecteer de optie <span style="font-weight: bold;">Bijdrage aan Inspanning Taak</span> in het tabblad <span style="font-weight: bold;">Allocatie</span> van het venster. Dit geeft aan dat zonder gebruik te maken van het Inspanning Taak Budget modellering methode, de inspanning wordt meegenomen wanneer de inspanning van Inspanning Taak Budget allocaties wordt berekend.</li>
+            </ul>
+            <li class="p">Zet de allocatie waarvoor u de inspanning wilt berekenen in het Inspanning Taak Budget model.</li>
+        </ol>
+        <p>De inspanning van de Inspanning Taak Budget allocatie wordt automatisch tot 120 uur berekend. Als u vervolgens het inspanningsbudget van de taak verandert, zal de allocatie opnieuw worden berekend, maar de inspanning van de andere twee allocaties blijft op 40 uur staan. Als u vervolgens een ander Inspanning Taak Budget allocatie toevoegt aan de taak, dan wordt de 120 uur herverdeeld tussen de twee Inspanning Taak Budget allocaties.</p>
+        <p class="RelatedTopics">Verwante Onderwerpen</p>
+        <p>
+            <a href="Questions.htm">Vragen die u kunt beantwoorden door het modelleren van hulpmiddelen</a>
+        </p>
+        <p>
+            <a href="Effort_on_Allocation_perm_res.htm">Inspanning op Allocatie gemodelleerd als permanente hulpmiddelen</a>
+        </p>
+        <p>
+            <a href="Effort_Activity_Budget_perm_res.htm">Inspanning Taak Budget gemodelleerd als permanente hulpmiddelen</a>
+        </p>
+        <p>
+            <a href="Share_effort.htm">Inspanning delen bij Inspanning op Allocatie gemodelleerde hulpmiddelen</a>
+        </p>
+    </body>
+</html>

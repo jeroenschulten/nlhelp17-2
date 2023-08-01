@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Asta Powerproject 15 NLHelp"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  DefaultUrl="/Content/HTML_Topics/Other/Startup.htm"
+  Skin="/Project/Skins/WebHelp.flskn"
+  InsertMOTW="true"
+  PreCompileScaledImages="false"
+  MasterStylesheet="/Content/Resources/Stylesheets/Web_Stylesheet.css"
+  MasterToc="/Project/TOCs/Powerproject_Easyplan.fltoc"
+  ConditionTagExpression="exclude[Powerproject_Easyplan.Easyplan_only]"
+  ExcludeUnreferencedContent="true"
+  AliasFile="/Project/Advanced/powerproject.flali">
+  <PrintedOutput
+    CollapseMargins="true" />
+</CatapultTarget>

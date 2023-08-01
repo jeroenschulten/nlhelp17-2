@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Als u de weging van een taak handmatig hebt bewerkt en vervolgens wilt terugkeren naar de automatische berekening van de weging, voert u in dit veld '1,00' in. De weging wordt dan automatisch opnieuw berekend volgens de oorspronkelijke duur in uren, en deze waarde verschijnt in het veld <b>Berekende weging</b>.</p>
+    </body>
+</html>

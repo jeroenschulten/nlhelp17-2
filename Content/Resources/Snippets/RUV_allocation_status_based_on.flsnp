@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="579" MadCap:lastWidth="956">
+    <body>
+        <ul type="disc">
+            <li>Klik op het <b>Inspanning</b> keuzerondje <MadCap:snippetText src="RUV_allocation_status_effort_1.flsnp" /> <MadCap:snippetText src="RUV_allocation_status_effort_2.flsnp" /><MadCap:snippetText src="RUV_allocation_status_effort_3.flsnp" /></li>
+            <li>Klik op het <b>Allocatie</b> keuzerondje <MadCap:snippetText src="RUV_allocation_status_allocation_1.flsnp" /> <MadCap:snippetText src="RUV_allocation_status_allocation_2.flsnp" /><MadCap:snippetText src="RUV_allocation_status_allocation_3.flsnp" /></li>
+            <li>Klik op het <b>Geen</b> keuzerondje om de <MadCap:snippetText src="RUV_allocation_status_4.flsnp" /></li>
+        </ul>
+    </body>
+</html>

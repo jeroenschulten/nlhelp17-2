@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="173" MadCap:lastWidth="1274">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... basisinformatie invoeren bij een sortering/groepering?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="p">Voer een naam in voor de sortering/groepering in het <span style="font-weight: bold;">Naam</span> veld.</li>
+                    <li class="p">Wanneer u een categorie wilt toewijzen aan de sortering/groepering, selecteer een sortering/groepering categorie in het <span style="font-weight: bold;">Categorie</span> veld.</li>
+                    <li class="p" xmlns="">Schakel <span style="font-weight: bold;">Tonen op menu</span> selectievakje in wanneer u wilt dat de sortering/groepering verschijnt in het <span style="font-weight: bold;">Sortering/Groepering</span> keuzelijstje in de <span style="font-weight: bold;">View Gegevens</span> groep op het <b>View </b>tabblad, waardoor het makkelijker is om de sortering/groepering toe te passen.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

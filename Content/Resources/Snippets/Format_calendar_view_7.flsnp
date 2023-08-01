@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Selecteer de velden die u wilt weergeven op elke taak in de <b xmlns="">Taak gegevens weergave</b> velden.</p>
+        <p>
+            <MadCap:snippetText src="Task_data_display_info.flsnp" />
+        </p>
+        <p>Klik op <b>Wijzig lettertype...</b> om het lettertype te specificeren waarin de informatie wordt getoond en gebruik de <b>Ondoorzichtigheid</b> <MadCap:snippetText src="Format_calendar_view_2.flsnp" /></p>
+        <p>De tekst die u voor elke taak weergeeft, wordt indien nodig afgekapt om binnen de grenzen van de taak in de kalender view te passen. Als tekst op deze manier wordt afgekapt, kunt u de volledige tekst bekijken door de muisaanwijzer over de taak te bewegen.</p>
+    </body>
+</html>

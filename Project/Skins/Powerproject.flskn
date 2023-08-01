@@ -1,0 +1,571 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="6"
+  SkinType="WebHelp2"
+  ComponentType="MasterPage"
+  TemplateName="Fluid"
+  Comment="HTML5 Side Navigation skin"
+  EnableResponsiveOutput="True"
+  AutoSyncTOC="true"
+  LogoUrl="Content/HTML_Topics/Other/Startup.htm"
+  conditions="Powerproject_Easyplan.Powerproject_only">
+  <WebHelpOptions
+    NavigationPanePosition="Right"
+    OffCanvasMenuStyle="Accordion"
+    MainMenuPosition="Left"
+    EnableSticky="All" />
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="Side Navigation Menu">
+        <Properties>
+          <Property
+            Name="PaddingLeft">10px</Property>
+          <Property
+            Name="PaddingTop">10px</Property>
+          <Property
+            Name="PaddingBottom">10px</Property>
+          <Property
+            Name="BackgroundColor">#ffffff</Property>
+          <Property
+            Name="Width">300px</Property>
+          <Property
+            Name="BorderRight">solid 2px #dddddd</Property>
+          <Property
+            Name="PaddingRight">0px</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Menu" />
+      <Style
+        Name="Header">
+        <Properties>
+          <Property
+            Name="BackgroundImage">none</Property>
+          <Property
+            Name="PaddingTop">15px</Property>
+          <Property
+            Name="PaddingBottom">15px</Property>
+          <Property
+            Name="BackgroundColor">#e42313</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Logo">
+        <Properties>
+          <Property
+            Name="BackgroundImage">url('PowerprojectHelp28ptRoboto.png')</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Input">
+        <Properties>
+          <Property
+            Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
+          <Property
+            Name="FontSize">16px</Property>
+          <Property
+            Name="Color">#262626</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Filter Drop-down">
+        <Properties>
+          <Property
+            Name="Color">#262626</Property>
+          <Property
+            Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
+          <Property
+            Name="FontSize">16px</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Auto-complete Item">
+        <Properties>
+          <Property
+            Name="Color">#262626</Property>
+          <Property
+            Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Side Navigation Menu Item">
+        <Properties>
+          <Property
+            Name="FontWeight">normal</Property>
+          <Property
+            Name="FontStyle">normal</Property>
+          <Property
+            Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
+          <Property
+            Name="FontSize">16px</Property>
+          <Property
+            Name="BorderBottom">solid 1px #ffffff</Property>
+          <Property
+            Name="Color">#262626</Property>
+        </Properties>
+        <Classes>
+          <StyleClass
+            Name="1st Level">
+            <Properties>
+              <Property
+                Name="MarginLeft">1em</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="2nd Level">
+            <Properties>
+              <Property
+                Name="MarginLeft">2em</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="3rd Level">
+            <Properties>
+              <Property
+                Name="MarginLeft">3em</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="4th Level">
+            <Properties>
+              <Property
+                Name="MarginLeft">4em</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="Expander Icon">
+            <Properties>
+              <Property
+                Name="ExpanderBorderColor">#262626</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+      <Style
+        Name="Search Filter Drop-down (hover)">
+        <Properties>
+          <Property
+            Name="Color">#262626</Property>
+          <Property
+            Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Auto-complete Item: Phrase">
+        <Properties>
+          <Property
+            Name="FontSize">16px</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Auto-complete Item: Description">
+        <Properties>
+          <Property
+            Name="Color">#262626</Property>
+          <Property
+            Name="FontSize">16px</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Heading">
+        <Properties>
+          <Property
+            Name="FontWeight">normal</Property>
+          <Property
+            Name="MarginTop">5px</Property>
+          <Property
+            Name="MarginBottom">5px</Property>
+          <Property
+            Name="PaddingLeft">8px</Property>
+          <Property
+            Name="PaddingRight">8px</Property>
+          <Property
+            Name="PaddingTop">3px</Property>
+          <Property
+            Name="PaddingBottom">3px</Property>
+          <Property
+            Name="BorderBottom">solid 1px #dddddd</Property>
+          <Property
+            Name="Color">#262626</Property>
+          <Property
+            Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
+          <Property
+            Name="FontSize">16px</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Abstract">
+        <Properties>
+          <Property
+            Name="MarginLeft">0px</Property>
+          <Property
+            Name="PaddingLeft">8px</Property>
+          <Property
+            Name="PaddingRight">8px</Property>
+          <Property
+            Name="PaddingTop">8px</Property>
+          <Property
+            Name="PaddingBottom">8px</Property>
+          <Property
+            Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
+          <Property
+            Name="FontSize">16px</Property>
+          <Property
+            Name="Color">#262626</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Link">
+        <Properties>
+          <Property
+            Name="MarginBottom">0px</Property>
+          <Property
+            Name="PaddingLeft">8px</Property>
+          <Property
+            Name="PaddingRight">8px</Property>
+          <Property
+            Name="PaddingTop">4px</Property>
+          <Property
+            Name="PaddingBottom">4px</Property>
+          <Property
+            Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
+          <Property
+            Name="Color">#e42313</Property>
+          <Property
+            Name="FontSize">16px</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Link (active)">
+        <Properties>
+          <Property
+            Name="Color">#e42313</Property>
+          <Property
+            Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
+          <Property
+            Name="FontSize">16px</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Link (focus)">
+        <Properties>
+          <Property
+            Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
+          <Property
+            Name="Color">#e42313</Property>
+          <Property
+            Name="FontSize">16px</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Link (visited)">
+        <Properties>
+          <Property
+            Name="TextDecoration">none</Property>
+          <Property
+            Name="Color">#e42313</Property>
+          <Property
+            Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Path">
+        <Properties>
+          <Property
+            Name="PaddingLeft">8px</Property>
+          <Property
+            Name="PaddingRight">8px</Property>
+          <Property
+            Name="PaddingTop">4px</Property>
+          <Property
+            Name="PaddingBottom">4px</Property>
+          <Property
+            Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
+          <Property
+            Name="FontSize">11px</Property>
+          <Property
+            Name="Color">#262626</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Glossary Result">
+        <Properties>
+          <Property
+            Name="Color">#262626</Property>
+          <Property
+            Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
+          <Property
+            Name="FontSize">16px</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Glossary Term">
+        <Properties>
+          <Property
+            Name="Color">#262626</Property>
+          <Property
+            Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
+          <Property
+            Name="FontSize">16px</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Pagination Item">
+        <Properties>
+          <Property
+            Name="FontSize">11pt</Property>
+          <Property
+            Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
+          <Property
+            Name="Color">#e42313</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Suggestion Link">
+        <Properties>
+          <Property
+            Name="Color">#e42313</Property>
+          <Property
+            Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Results">
+        <Properties>
+          <Property
+            Name="LineHeight">1em</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Main Page">
+        <Properties>
+          <Property
+            Name="PaddingLeft">0em</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Glossary Definition">
+        <Properties>
+          <Property
+            Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
+          <Property
+            Name="FontSize">16px</Property>
+          <Property
+            Name="Color">#262626</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Pagination Item (hover)">
+        <Properties>
+          <Property
+            Name="TextDecoration">underline</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Side Navigation Menu Item (selected)">
+        <Properties>
+          <Property
+            Name="BackgroundColor">#dddddd</Property>
+          <Property
+            Name="FontStyle">normal</Property>
+          <Property
+            Name="BorderLeft">solid 5px #e42313</Property>
+          <Property
+            Name="BorderTopLeftRadius">5px</Property>
+          <Property
+            Name="BorderBottomLeftRadius">5px</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Skip to Content">
+        <Properties>
+          <Property
+            Name="Color">#262626</Property>
+          <Property
+            Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
+          <Property
+            Name="FontSize">16px</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Micro Content Response Button">
+        <Properties>
+          <Property
+            Name="BackgroundRepeat">no-repeat</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Bar">
+        <Properties>
+          <Property
+            Name="BorderTopLeftRadius">5px</Property>
+          <Property
+            Name="BorderTopRightRadius">5px</Property>
+          <Property
+            Name="BorderBottomRightRadius">5px</Property>
+          <Property
+            Name="BorderBottomLeftRadius">5px</Property>
+          <Property
+            Name="Height">38px</Property>
+          <Property
+            Name="Width">300px</Property>
+          <Property
+            Name="BorderLeft">solid 1px #dddddd</Property>
+          <Property
+            Name="BorderRight">solid 1px #dddddd</Property>
+          <Property
+            Name="BorderTop">solid 1px #dddddd</Property>
+          <Property
+            Name="BorderBottom">solid 1px #dddddd</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Filter">
+        <Properties>
+          <Property
+            Name="Width">0px</Property>
+          <Property
+            Name="BorderBottom">solid 0px #dddddd</Property>
+          <Property
+            Name="BorderTop">solid 0px #dddddd</Property>
+          <Property
+            Name="BorderRight">solid 0px #000000</Property>
+          <Property
+            Name="BorderLeft">solid 0px #000000</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Submit Button">
+        <Properties>
+          <Property
+            Name="BackgroundImage">url('searchmagnifyingglass.gif')</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Auto-complete">
+        <Properties>
+          <Property
+            Name="BorderLeft">solid 1px #dddddd</Property>
+          <Property
+            Name="BorderRight">solid 1px #dddddd</Property>
+          <Property
+            Name="BorderTop">solid 1px #dddddd</Property>
+          <Property
+            Name="BorderBottom">solid 1px #dddddd</Property>
+          <Property
+            Name="BorderTopLeftRadius">5px</Property>
+          <Property
+            Name="BorderTopRightRadius">5px</Property>
+          <Property
+            Name="BorderBottomRightRadius">5px</Property>
+          <Property
+            Name="BorderBottomLeftRadius">5px</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Side Navigation Menu Item (hover)">
+        <Properties>
+          <Property
+            Name="BackgroundColor">#dddddd</Property>
+        </Properties>
+      </Style>
+      <Medium
+        Name="Tablet">
+        <Style
+          Name="Skip to Content">
+          <Properties>
+            <Property
+              Name="Color">#4a4a49</Property>
+            <Property
+              Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
+          </Properties>
+        </Style>
+        <Style
+          Name="Navigation Panel">
+          <Properties>
+            <Property
+              Name="BackgroundColor">transparent</Property>
+          </Properties>
+        </Style>
+        <Style
+          Name="Navigation Panel Item (hover)">
+          <Properties>
+            <Property
+              Name="BackgroundColor">#dddddd</Property>
+            <Property
+              Name="Color">#262626</Property>
+          </Properties>
+        </Style>
+        <Style
+          Name="Navigation Panel Item (selected)">
+          <Properties>
+            <Property
+              Name="FontStyle">italic</Property>
+          </Properties>
+        </Style>
+        <Style
+          Name="Navigation Slide Out Button">
+          <Properties>
+            <Property
+              Name="BackgroundColor">transparent</Property>
+            <Property
+              Name="BackgroundImage">url('menuicon_orange.png')</Property>
+          </Properties>
+        </Style>
+        <Style
+          Name="Navigation Panel Item">
+          <Properties>
+            <Property
+              Name="BorderBottom">solid 1px #ffffff</Property>
+            <Property
+              Name="Color">#262626</Property>
+            <Property
+              Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
+            <Property
+              Name="FontSize">16px</Property>
+          </Properties>
+          <Classes>
+            <StyleClass
+              Name="Expander Icon">
+              <Properties>
+                <Property
+                  Name="ExpanderBorderColor">#262626</Property>
+              </Properties>
+            </StyleClass>
+          </Classes>
+        </Style>
+      </Medium>
+      <Medium
+        Name="Mobile">
+        <Style
+          Name="Skip to Content">
+          <Properties>
+            <Property
+              Name="Color">#4a4a49</Property>
+            <Property
+              Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
+          </Properties>
+        </Style>
+        <Style
+          Name="Navigation Panel Item (selected)">
+          <Properties>
+            <Property
+              Name="FontStyle">normal</Property>
+          </Properties>
+        </Style>
+      </Medium>
+    </Styles>
+    <Resources>
+      <Resource
+        Name="searchmagnifyingglass.gif">H4sIAAAAAAAEAHP3dLOwTJRkkGT4/p9BTU3NwMDAzMzMysrK1tbWwcHBxcXF3d3dz88vMDAwOjo6KSkpNTU1JycnPz+/srKypqamubm5ra2tvb29t7d3woQJEydOnDJlyvTp02fNmjV//vwFCxasWLFi69atu3fv3rNnz/79+w8dOnT06NETJ06cPHnyzJkzZ8+ePX/+/OXLl69du3bz5s27d+8+ePDg8ePHT548ef78+atXr969e/fly5fv37///v2bYRSMAloCHRABygsMHE8ZMjlkMpKYmhgYmFRmTEhacLidKVTDoIDRlUfKwC9A4UID65F2WbaCGR8D3dgYFey4eG4GLD0gyOJUE2K4YKl3oxLbjoYVDYfPtovK2OgkNjw532jEUSFj8fDQxXZBAwuXhM+avPzcMmw7MkIfcDHzMZbI/ljUELYuNlymYMaDIzdW88h4bfjwzZGtXbOrrNdwwdHDbOVrgyoYJh5tEPJ3FGn4aMjCeMTckeXCA6MjDDxGdscWBCQcZhDSi7VQEGBk4ZbQtnOQ+NDwseO8eWRCRMKCA4xskn/4anh/vXW+t6/+MN++aotCKWU+FhYGawCIi9A5AAQAAA==</Resource>
+      <Resource
+        Name="menuicon_orange.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0pJALMzBBCRfCRiCBHRKXCNKnItSE0sy8/MUQjJzUxlCSlMVjCwV/PLLFIwMjIwUDI2tDE2sjA0UdA2AQGjuz0tAfewlnr6u7M94WDl5uE8FPmIHCnEWeEQWMzDwHQZhxuP5K1KAgizpjr6ODAwb+7n/JLIC+YaeLo4hFbeSKxbp+OgeYTjyX5Ptisnr0C32vGeYlBTahVo+KJserjORc39caCLXHm/DxLDXfuED+VUFukDNDJ6ufi7rnBKaAKvNLjfaAAAA</Resource>
+      
+      <Resource
+        Name="PowerprojectHelp28ptRoboto.png">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</Resource>
+    </Resources>
+    <Stylesheet></Stylesheet>
+  </Stylesheet>
+  <Strings />
+</CatapultSkin>

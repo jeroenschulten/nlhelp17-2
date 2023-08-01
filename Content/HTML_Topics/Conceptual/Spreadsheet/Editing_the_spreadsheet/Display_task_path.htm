@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Using_the_spreadsheet\Editing_the_spreadsheet\Display_task_path.htm" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Weergeven:hiërarchische pad van taken in de tabel;Taken:weergeven van hierarchische pad in de tabel;Stijl attribuut in het dialoogvenster Tabel Definitie Eigenschappen;Tabel:weergeven van hierarchische pad van taken in;Padnaam van taken in tabel;Kolommen:taakpad weergeven in;Hierarchische pad van taken in de tabel" />Het hiërarchische pad van taken in de tabel weergeven</h1>
+        <p>U kunt het hiërarchische pad van taken weergeven in de tabel. Het hiërarchische pad toont de taak vanaf het programma naar beneden door de projecthiërarchie, waarbij iedere hoger-niveau taak genoemd wordt.</p>
+        <p>De standaard instelling is dat de volledige padnaam vanaf de kaart die het programma vertegenwoordigt wordt weergegeven. Voorbeeld, als u het hiërarchische pad wilt weergeven van een taak binnen de F <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">niveau</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Easyplan_only">- samenvattings</MadCap:conditionalText>taak bij het onderstaande voorbeeld, dan is haar pad '/A/B/C/D/E/F': 'A', 'B', 'C', 'D', 'E' en 'F' zijn de  vanaf de programma kaart naar beneden:</p>
+        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+            <img src="../../../../Graphics/Spreadsheet/pathnametoken.gif" style="border: none;" width="155" height="107" border="0" />
+        </p>
+        <p MadCap:conditions="Powerproject_Easyplan.Easyplan_only" xmlns="">
+            <img src="../../../../Graphics/Spreadsheet/easyplanpathnametoken.gif" />
+        </p>
+        <p>Om het hiërarchische pad van taken in een tabel te laten zien kunt u het volgende doen:</p>
+        <ol style="list-style-type: decimal;">
+            <li class="p">Klik met de rechtermuisknop op een kolomkop en kies vervolgens de opdracht <span style="font-weight: bold;">Tabel Definitie</span>. Het dialoogvenster <span style="font-weight: bold;">Tabel Definitie Eigenschappen</span> verschijnt.            </li>
+            <li class="p">Lokaliseert u de tabel kolom die u wilt bewerken, en vervolgens klikt u op de eerste rij om de balk of taak attribuut te wijzigen, of u klikt op de tweede rij om het allocatie attribuut te wijzigen. Een hiërarchische drop-down lijst van attributen wordt geactiveerd.            </li>
+            <li class="p">U selecteert Padnaam uit de Identificatie groep.            </li>
+        </ol>
+        <p>Bestaat het pad uit vele lagen, dan is het mogelijk om niet alle niveaus van het pad te tonen. Voorbeeld, u wilt alleen het eerste of het laatste gedeelte van de hiërarchie laten zien. Ook kunt u alleen het middelste gedeelte van de hiërarchie laten zien. U doet dit door twee gehele getallen in de <span style="font-weight: bold;">Start positie</span> en <span style="font-weight: bold;">Eind positie</span> velden in te voeren:</p>
+        <ul>
+            <li class="p" type="disc">Het getal in het <span style="font-weight: bold;">Start positie</span> veld geeft de positie in het pad aan vanwaar u wilt beginnen met het weergeven van de onderliggende hoger-niveau taken. Een positief getal geeft aan 'begin op deze positie in het pad'; een negatief getal geeft aan 'start zover voor het eind van het pad'.            </li>
+            <li class="p" type="disc">Het getal in het <span style="font-weight: bold;">Eind positie</span> veld geeft de positie in het pad aan tot waar u de hoger-niveau taken wilt weergeven. Een positief getal geeft aan 'eindig op deze positie in het pad'; een negatief getal geeft aan 'eindig zover voor het eind van het pad'.            </li>
+        </ul>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Voorbeelden</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Bij het hierboven weergegeven hiërarchie voorbeeld ('A/B/C/D/E/F'):</p>
+                <ul type="disc">
+                    <li class="p">Een Start positie van 0, en een Eind positie van 0 geeft 'A/B/C/D/E/F' weer - het gehele pad.            </li>
+                    <li class="p">Een Start positie van 2, en een Eind positie van 0 geeft 'B/C/D/E/F' weer, omdat de padnaam start op de tweede positie in het pad.            </li>
+                    <li class="p">Een Start positie van -2, en een Eind positie van 0 geeft '/E/F' weer, omdat de padnaam start op twee posities voor het einde van het pad.            </li>
+                    <li class="p">Een Start positie van 0, en een Eind positie van 2 geeft 'A/B' weer, omdat de padnaam eindigt op de tweede positie in het pad.            </li>
+                    <li class="p">Een Start positie van 0, en een Eind positie van -2 geeft 'A/B/C/D' weer, omdat de padnaam eindigt op twee posities voor het einde van het pad.            </li>
+                    <li class="p">Een Start positie van 2, en een Eind positie van 3 geeft '/B/C' weer, omdat de padnaam start op de tweede positie in het pad en eindigt op de derde positie in het pad.            </li>
+                    <li class="p">Een Start positie van -4, en een Eind positie van -2 geeft '/C/D' weer, omdat de padnaam start op vier posities voor het einde van het pad en eindigt op twee posities voor het einde van het pad.            </li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>Om een gedeelte van het hiërarchische pad niet te tonen:</p>
+        <ol style="list-style-type: decimal;">
+            <li class="p">Toon de padnaam in de tabel zoals eerder beschreven.            </li>
+            <li class="p">Specificeer de gedeelten van de padhiërarchie die u wilt weergeven door twee gehele getallen in de <span style="font-weight: bold;">Start positie</span> en <span style="font-weight: bold;">Eind positie</span> velden in te voeren.            </li>
+        </ol>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p><a href="Adding_columns_to_the_spreadsheet.htm">Kolommen toevoegen aan de tabel</a>
+        </p>
+        <p><a href="../../teamplan_reference/Tokens/Identification_tokens.htm">Identificatievelden</a>
+        </p>
+        <p><a href="Removing_columns_from_the_spreadsheet.htm">Kolommen verwijderen uit de tabel</a>
+        </p>
+        <p><a href="Setting_up_spreadsheet_columns.htm">Tabelkolommen instellen</a>
+        </p>
+        <p><a href="Sorting_on_spreadsheet_columns.htm">Tabelkolommen sorteren</a>
+        </p>
+    </body>
+</html>

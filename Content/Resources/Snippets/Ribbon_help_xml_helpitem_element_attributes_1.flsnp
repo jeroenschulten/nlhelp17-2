@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="135" MadCap:lastWidth="773">
+    <body>
+        <li>
+            <b>Caption</b> - een tekststring die de titel definieert van het document zoals het zou moeten verschijnen op het <b>Help</b> tabblad van de Backstage view.</li>
+        <li>
+            <b>Omschrijving</b> - een tekststring die de tekst definieert die zou moeten verschijnen in een popup wanneer gebruikers de muisaanwijzer over de titel schuiven van her document op het <b>Help</b> tabblad van de Backstage view. Dit attribuut is optioneel.</li>
+    </body>
+</html>

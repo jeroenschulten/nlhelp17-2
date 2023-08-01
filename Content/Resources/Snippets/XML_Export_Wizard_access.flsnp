@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot de <b>Microsoft Project Export Wizard</b></MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Het <b>Microsoft Project Export Wizard</b> dialoogvenster verschijnt wanneer u ervoor kiest om een project in Microsoft Project MPP (*.MPP) of XML (*.XML) formaat op te slaan<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"> en wanneer u ervoor kiest om een groep of view naar één van deze formaten te exporteren.</MadCap:conditionalText></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

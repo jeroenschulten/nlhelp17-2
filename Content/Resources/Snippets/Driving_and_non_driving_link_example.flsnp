@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>De link van de eerste taak is een sturende link, omdat deze link de grootste hellingshoek heeft en het de positie bepaald van de taak aan het einde van de link; de link van de derde taak is een niet sturende link, omdat het niet de meest schuine helling heeft van alle links die de tweede taak binnenkomen.</p>
+        <p style="margin-bottom: 0;">
+            <img src="../../Graphics/Setting_up_the_bar_chart/drivingnondrivinglinks.gif" alt="The upper link is a driving link; the lower link is non-driving" title="The upper link is a driving link; the lower link is non-driving" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="99" height="63" border="0" />
+        </p>
+    </body>
+</html>

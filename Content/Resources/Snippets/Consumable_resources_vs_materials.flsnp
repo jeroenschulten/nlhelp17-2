@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Consumable resources differ from materials - which can also be used to represent the materials and components required to complete tasks - in that you do not assign materials to tasks; you use materials to identify the type of task work that is carried out<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"> when <a href="../../HTML_Topics/Conceptual/Resources/Modelling/Model_task_work_no_resources.htm" xmlns="">modelling tasks in terms of task work without using resources</a></MadCap:conditionalText>.</p>
+    </body>
+</html>

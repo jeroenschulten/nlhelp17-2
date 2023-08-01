@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Asta Powerproject Help"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  DefaultUrl="/Content/HTML_Topics/Other/Startup.htm"
+  Skin="/Project/Skins/Powerproject.flskn"
+  InsertMOTW="true"
+  PreCompileScaledImages="false"
+  MasterStylesheet="/Content/Resources/Stylesheets/Web_Stylesheet.css"
+  MasterToc="/Project/TOCs/Powerproject_Easyplan.fltoc"
+  ConditionTagExpression="include[Powerproject_Easyplan.Powerproject_only or Powerproject_Easyplan.V17_Assignment_options or Powerproject_Easyplan.V17_Auto_save or Powerproject_Easyplan.V17_Edit_assignments_rights or Powerproject_Easyplan.V17_Edit_resource_allocation_task_rights or Powerproject_Easyplan.V17_Link_activity_finishes_metric or Powerproject_Easyplan.V17_Print_preview_rights or Powerproject_Easyplan.V17_Production_rates or Powerproject_Easyplan.V17_Project_timeline or Powerproject_Easyplan.V17_Reschedule_rights or Powerproject_Easyplan.V17_Shade_between_dates_histograms or Powerproject_Easyplan.V17_Tab_colouring or Powerproject_Easyplan.V17_Task_activities], exclude[Powerproject_Easyplan.Easyplan_only]"
+  ExcludeUnreferencedContent="true"
+  AliasFile="/Project/Advanced/powerproject.flali"
+  conditions="Powerproject_Easyplan.Powerproject_only,Powerproject_Easyplan.V17_Auto_save,Powerproject_Easyplan.V17_Link_activity_finishes_metric,Powerproject_Easyplan.V17_Shade_between_dates_histograms,Powerproject_Easyplan.V17_Assignment_options,Powerproject_Easyplan.V17_Edit_assignments_rights,Powerproject_Easyplan.V17_Edit_resource_allocation_task_rights,Powerproject_Easyplan.V17_Print_preview_rights,Powerproject_Easyplan.V17_Production_rates,Powerproject_Easyplan.V17_Reschedule_rights,Powerproject_Easyplan.V17_Task_activities"
+  MasterPage="/Content/Resources/Template_Files/Topic_Template_PP.flmsp">
+  <PrintedOutput
+    CollapseMargins="true" />
+</CatapultTarget>

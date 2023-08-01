@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>U kunt deze datums als variabele datums specificeren - bijvoorbeeld 'Vandaag', 'Maand start' en 'Jaar eind' - in plaats van als specifieke datums. Misschien wilt u dit doen om informatie af te drukken met betrekking tot de huidige week, maand of kwartaal - door op te geven 'Week start' en 'Week eind', 'Maand start' en 'Maand eind' of 'Kwartaal start 'en' Kwartaal eind '.</body>
+</html>

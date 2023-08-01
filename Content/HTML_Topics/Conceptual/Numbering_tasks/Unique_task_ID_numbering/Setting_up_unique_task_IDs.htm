@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Numbering_tasks_in_a_project\Unique_task_ID_numbering\Setting_up_unique_task_IDs.htm" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Unieke taak ID nummering:instellen;Unieke taak ID nummering:resetten van de cache" />Instellen van unieke taak-ID's</h1>
+        <p>Een unieke taak ID is een combinatie van een alfanumerieke voorloopcode, welke u zelf kunt bepalen, en een nummer. Omdat elke nieuwe taak binnen een project wordt aangemaakt, wordt het nummer opgehoogd met een hoeveelheid die u zelf kunt opgeven.</p>
+        <p>Opstellen van een unieke taak ID nummering:</p>
+        <ol>
+            <li class="p">Klik in het tabblad <b>Project</b>,in de <b>Eigenschappen</b> groep, op <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">de <span style="font-weight: bold;">Unieke Taak ID's </span>dropdown<span style="font-weight: bold;"><![CDATA[  ]]></span>en selecteer<span style="font-weight: bold;"> </span></MadCap:conditionalText><span style="font-weight: bold;">Unieke Taak ID Nummering</span>.            </li>
+            <li class="p">Typ in het veld <span style="font-weight: bold;">Voorloop code</span> een alfanumerieke reeks tekens in, die als voorloopcode gebruikt moet worden voor elke unieke taak ID.<br />Om een voorloopcode te gebruiken, moet deze worden opgegeven voordat de taken aan de kaart worden toegevoegd. Als eenmaal is begonnen met het creëren van taken,  alhoewel u de voorloopcode wel in dit dialoogvenster kunt wijzigen, dan worden de veranderingen daarvan niet meer overgenomen in de unieke taak ID's die al zijn toegewezen aan de taken.            </li>
+            <li class="p">Geeft in het veld <span style="font-weight: bold;">Start waarde</span> het getal dat het programma aan de eerste taak in de kaart moet toepassen als ID (samen met de voorloopcode).            </li>
+            <li class="p">Geef in het veld <span style="font-weight: bold;">Minimum breedte</span> het minimaal aantal cijfers waaraan elk ID moet voldoen (uitgezonderd de voorloopcode) aan. Taak-ID's smaller dan deze minimum breedte worden opgevuld met nullen om ze aan de minimale breedte te laten voldoen.            </li>
+            <li class="p">Omdat elke nieuwe taak in een view gecreëerd wordt, zal haar unieke taak ID ten opzichte van de voorafgaande taak in de view opgehoogd worden met het getal dat in het veld <span style="font-weight: bold;">Verhogen</span> staat ingesteld. Een voorbeeld, als u wilt dat de taak-ID's oplopend zijn, voer dan in dit veld 1 in; als u wilt dat de taak-ID's telkens met 10 moeten worden opgehoogd als u een nieuwe taak aanmaakt, geef dan de waarde 10 op.            </li>
+            <li class="p">Als een nieuwe taak in een view wordt toegevoegd tussen twee bestaande taken, dan wordt in plaats van de volgende beschikbare ID aan de taak toe te wijzen, de taak de ID toegewezen van de taak die er direct boven ligt, met daarbij opgeteld de waarde die in het veld <span style="font-weight: bold;">Sub-toename</span> is opgegeven. Een voorbeeld, als u een taak tussen de taken met de taak-ID's AA100 en AA110 invoegt en de sub-toename waarde is 5, dan wordt het ID van de nieuwe taak AA105. Als de sub-toename waarde gelijk is aan de waarde van een bestaand ID, dan wordt voor de volgende volledig opgehoogde beschikbare ID gekozen, en wordt deze aan de taak toegewezen.            </li>
+            <li class="p">Het toewijzen van sub-toenamen kan worden uitgeschakeld als u dit wenst. Als u dit zo doet dan wordt bij alle volgende taken de eerstvolgende volledig verhoogde ID gebruikt, ongeacht de plaats in de view waar de taak wordt gecreëerd. Als u de sub-toename waarden niet wilt gebruiken, schakelt u het selectievakje <span style="font-weight: bold;">Activeren sub-toename bij tussenvoegen taken</span> uit.            </li>
+            <li class="p">In het groepsveld <span style="font-weight: bold;">Uniek</span> geeft u op of de taak al dan niet uniek moet zijn:            </li>
+            <ul>
+                <li class="p">Uniek binnen het hele bestand.            </li>
+                <li class="p">Uniek binnen <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">niveautaken en</MadCap:conditionalText> samenvattingstaken, wat kan resulteren in het gebruik van hetzelfde ID voor taken in verschillende <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">kaarten en</MadCap:conditionalText> samenvattingstaken            </li>
+                <li class="p">Niet uniek, wat kan resulteren in het gebruik van hetzelfde ID voor taken in het gehele project.            </li>
+            </ul>
+            <li class="p">Klik op <span style="font-weight: bold;">OK</span>.            </li>
+        </ol>
+        <p>
+            <MadCap:snippetText src="../../../../Resources/Snippets/UTID_reset_cache.flsnp" /> Wanneer dit gebeurt kunt u het probleem oplossen door te klikken op <b>Reset Cache</b> op het <b>Unieke Taak ID Nummering</b> dialoogvenster. Dit maakt de cache van unieke taak ID's leeg.</p>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p><a href="Editing_unique_task_IDs.htm">Aanpassen van unieke taak ID's</a>
+        </p>
+        <p xmlns="" MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><a href="Renumbering_UTIDs.htm">Hernummeren van unieke taak ID's om de volgorde van de taken terug te laten komen</a>
+        </p>
+        <p><a href="View_UTID_spreadsheet.htm">Bekijken van unieke taak-ID's in de tabel</a>
+        </p>
+        <p><a href="../../Setting_up_the_bar_chart/Setting_display_options/Display_bar_and_task_info.htm">Het tonen van balk- en taakinformatie op de balkkaart</a>
+        </p>
+    </body>
+</html>

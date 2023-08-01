@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="142" MadCap:lastWidth="1247">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... de opmaak specificeren van de geselecteerde tabelcellen?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="p">Selecteer het soort nummering dat u wilt wijzigen in het <span style="font-weight: bold;">Categorie</span> veld.</li>
+                    <li class="p">Specificeer de wijze waarop nummers van dat type worden weergegeven in de overblijvende velden, zoals beschreven in onderstaande secties.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

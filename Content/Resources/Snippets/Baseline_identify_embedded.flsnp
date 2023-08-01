@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>Embedded baselines worden opgeslagen als onderdeel van het bijbehorende projectbestand, dus hebben ze geen bestandsnaam; baselines in <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise-projecten hebben ook geen bestandsnaam. Om deze reden worden embedded baselines en <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise-baselines altijd geïdentificeerd door hun titels</body>
+</html>

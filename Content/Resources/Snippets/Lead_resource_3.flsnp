@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="100" MadCap:lastWidth="822">
+    <head>
+    </head>
+    <body>selectievakje in om te specificeren dat de hulpmiddel allocatie moet worden beschouwd als het hoofdmiddel voor de bijbehorende taak. Wanneer u dit selectievakje inschakelt, zal de bijbehorende taak worden weergegeven in dezelfde opmaak als die gedefinieerd staat bij hulpmiddel van deze allocatie, mits u ervoor kiest om taken in te kleuren volgens de opmaak van hun hoofdhulpmiddel. Merk op dat u slechts één hulpmiddel of kostengroep allocatie bij elke taak als zijnde het hoofdhulpmiddel moet aanwijzen.</body>
+</html>

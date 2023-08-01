@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Schakel het <b>Exporteer codebibliotheken als project activiteitscodes</b> selectievakje in als u de codebibliotheekitems van dit project wilt exporteren als projectspecifieke in plaats van globale activiteitscodes. U moet dit doen als u codebibliotheekitems met dezelfde naam hebt in verschillende projecten om te voorkomen dat Primavera-software ze verwart.</p>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>De datum waarop u de eenheid nummering  in alle "verstreken eenheden" of "werktijd eenheden" regels die u wilt weergeven op de kalenderschaal laat beginnen in de kalenderschaal. Het instellen van een "datum dag 1" is zinvol wanneer u een regel in de kalenderschaal wilt aanmaken die de verstreken dagen toont, en deze laat starten met de nummering vanaf een specifieke datum. Wanneer u in dit veld een project-brede "datum dag 1" specificeert, zal deze toegepast worden op alle nieuwe views die u aanmaakt. Echter, elke view kan ook haar eigen individuele "datum dag 1" - krijgen die dan gespecificeerd moet worden in het <b>Datum dag 1</b> veld op het <b>Datum/Schaal</b> tabblad van het <b>Kalenderschaal Eigenschappen</b> dialoogvenster.</body>
+</html>

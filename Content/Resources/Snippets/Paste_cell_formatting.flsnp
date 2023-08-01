@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul>
+            <li>'<b>Alleen tekst bewaren</b>'. Bij het plakken van gegevens die vanuit een andere applicatie zijn gekopieerd, of vanuit de <MadCap:variable name="Primary.Asta Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> tabel,  worden alleen de gegevens geplakt. Elke opmaak van de broncellen wordt genegeerd. De gegevens nemen de opmaak aan van de doel-tabelcellen.</li>
+            <li>'<b>Opmaak samenvoegen</b>'. Bij het plakken van gegevens die vanuit een andere applicatie zijn gekopieerd, worden alleen de gegevens geplakt. Elke opmaak van de broncellen wordt genegeerd. De gegevens nemen de opmaak aan van de doel-tabelcellen.<br /><br />Bij het plakken van gegevens die vanuit een <MadCap:variable name="Primary.Asta Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> tabel zijn gekopieerd, zullen zowel de gegevens als ook de opmaak ervan worden geplakt. Elke opmaak van de broncellen zal worden samengevoegd met de opmaak van de doel-tabelcellen: wanneer een broncel een specifieke opmaak heeft, zal deze de opmaak overschrijven van de doelcel.</li>
+            <li>'<b>Behoud bronopmaak</b>'. Bij het plakken van gegevens die vanuit een andere toepassing, of vanuit een <MadCap:variable name="Primary.Asta Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> tabel zijn gekopieerd, worden zowel de gegevens als de opmaak geplakt. Elke opmaak van de broncellen wordt samengevoegd met de opmaak van de doel-tabelcellen: wanneer een broncel een specifieke opmaak heeft toegepast, zal dit de opmaak van de doelcel overschrijven.</li>
+        </ul>
+    </body>
+</html>

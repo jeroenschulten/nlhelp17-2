@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" xml:lang="nl-nl" class="KLAAR-NL">
+    <head>
+        <link href="../../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Kwaliteitschecks:kritieke pad test criterium;Critical path test kwaliteitscriterium" />'Kritieke pad test' kwaliteitscriterium</h1>
+        <p>Gebruik dit kwaliteitscriterium om te controleren of het kritieke pad loopt van het begin tot het einde van een project. Dit wordt gecontroleerd door het project te herberekenen en vervolgens, na het herberekenen, de duur van elke onvoltooide taak op het kritieke pad tijdelijk te verlengen tot 600d en te controleren of de einddatum van het project met hetzelfde aantal dagen naar de toekomst is verschoven. Als dit gebeurt wanneer de duur van een taak tijdelijk wordt verlengd, wordt de taak als correct gelinkt beschouwd. Als dit niet het geval is, verbreekt de taak de integriteit van het kritieke pad en faalt het project voor dit kwaliteitscriterium.</p>
+        <p>Als er meer dan één tak van kaarten of samenvattingsgroepen is geselecteerd in het kader van de kwaliteitscheck, wordt dit kwaliteitscriterium berekend voor elke afzonderlijke tak, aangezien de afzonderlijke takken afzonderlijk worden herberekend.</p>
+        <p>U kunt configureren dat <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> <a href="../Rescheduling_projects/Setting_reschedule_options/Critical_path_integrity.htm">de integriteit van het kritieke pad checkt bij het herberekenen</a>.</p>
+        <p>Dit kwaliteitscriterium voldoet aan de eisen van CIOB stresstest 14 (Herberekenen), CIOB stresstest 15 (Kritieke pad) en DCMA test 12 (Kritieke pad test).</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Critical_path_integrity_1.flsnp" />
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_2.flsnp" />
+        </p>
+        <h2>Slaag en faal criteria</h2>
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Slaagt of faalt?</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Criteria</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #afffaf;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Slaagt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Een project slaagt voor dit kwaliteitscriterium wanneer alle onvoltooide kritieke taken correct gelinkt zijn in het project.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="background-color: #ff6464;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;">Faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Een project slaagt voor dit kwaliteitscriterium wanneer één of meer onvoltooide kritieke taken niet correct gelinkt is in het project.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Voorgestelde instellingen</h2>
+        <p>N/A: Voor dit kwaliteitscriterium geldt ofwel geslaagd of gefaald.</p>
+        <h2>Forceert dit criterium dat het project wordt herberekend?</h2>
+        <p>Ja. <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_1.flsnp" /></p>
+        <h2>Voorgestelde acties als een project faalt voor dit criterium</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_37.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_38.flsnp" />
+        <ul>
+            <li>Controleer eventuele beperkende vlaggen op de falende taken en  <a href="../Bar_chart_editing/Using_constraints/Remove_constraint.htm">verwijder alle beperkingen</a> die de verplaatsing van taken onnodig beperken. </li>
+            <li>Als een falende taak geen vlag heeft, controleer dan eventuele beperkende vlaggen op andere taken die zich op hetzelfde kritieke pad bevinden als de falende taak, en verwijder alle vlaggen die de verplaatsing van taken onnodig beperken. </li>
+            <li>Controleer de inkomende en uitgaande links van de falende taken om ervoor te zorgen dat taken correct zijn gelinkt in het kritieke pad en pas de links indien nodig aan.</li>
+        </ul>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="Checking_quality_intro.htm">Introductie over planningskwaliteitchecks</a>
+        </p>
+        <p><a href="../Rescheduling_projects/Setting_reschedule_options/Critical_path_integrity.htm">Checken van de integriteit van het kritieke pad bij het herberekenen</a>
+        </p>
+        <p><a href="../Bar_chart_editing/Using_constraints/Remove_constraint.htm">Een <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">start- of eind</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Easyplan_only">beperkende </MadCap:conditionalText>vlag verwijderen</a>
+        </p>
+    </body>
+</html>

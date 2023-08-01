@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Negatieve wachttijd is de periode dat een opvolgende taak kan beginnen voordat zijn voorganger is afgelopen. Het treedt op wanneer twee taken met elkaar verbonden zijn en elkaar overlappen. Zodra de opvolgende taak is gestart, gaan beide taken parallel verder. Overlappende taken door gebruik te maken van negatieve wachttijd is een manier om de duur van een planning te verkorten.</p>
+        <p>De negatieve wachttijd wordt geïllustreerd door de blauwe pijl in het volgende voorbeeld:</p>
+        <p align="center">
+            <img src="../../Graphics/Intro_project_management/leadtime.gif" alt="Lead time" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="124" height="40" border="0" />
+        </p>
+    </body>
+</html>

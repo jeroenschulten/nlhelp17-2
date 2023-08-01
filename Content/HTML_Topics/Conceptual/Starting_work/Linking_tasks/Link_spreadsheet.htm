@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Starting_work\Linking_tasks\Link_spreadsheet.htm" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl">
+    <head>
+        <link href="../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Voorgangers kolom:creeren en wijzen van links in;Tabel:gebruiken om links te creeren en wijzigen;Opvolger kolom:creeren en wijzigen van links in;Opvolger kolom;Links:creeren en wijzigen via de tabel;Linken van taken:gebruikmakend van de tabel" />Links creëren en wijzigen via de tabelkolommen</h1>
+        <p>
+            <MadCap:keyword term="Voorgangers kolom" />Naast het rechtstreeks trekken van links tussen taken op de balkkaart kunt u ook links creëren, wijzigen en verwijderen via de Voorgangers en Opvolgers kolommen wanneer deze worden weergegeven in de tabel. De Voorgangers kolom toont de taken bij de start van de links die eindigen op een taak; de Opvolgers kolom toont de taken aan het einde van de links die starten op een taak. U kunt de tekst in deze kolommen direct wijzigen om nieuwe links te creëren en om bestaande links te wijzigen of verwijderen.</p>
+        <p>Om links op deze wijze te creëren en wijzigen moet u eerst de Voorgangers en Opvolgers velden (welke <a href="../../teamplan_reference/Tokens/Logic_tokens.htm">logische velden</a> zijn) in de tabel tonen. U kunt dit doen door gebruik te maken van het Tabel Definitie Eigenschappen dialoogvenster, of door <a href="../../Spreadsheet/Editing_the_spreadsheet/Adding_columns_to_the_spreadsheet.htm">nieuwe kolommen toe te voegen aan de tabel</a> en <a href="../../Spreadsheet/Editing_the_spreadsheet/Setting_up_spreadsheet_columns.htm">deze zo te configureren dat ze beide velden tonen</a> .</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Illustratie van wat de Voorgangers en Opvolgers velden tonen:</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>De volgende afbeelding biedt u een eenvoudig voorbeeld van wat de Voorgangers en Opvolgers velden tonen:</p>
+                <p>
+                    <img src="../../../../Graphics/Starting_work/predsucc.gif" style="border: none;" width="293" height="170" border="0" />
+                </p>
+                <p>In de bovenstaande afbeelding geldt dat:</p>
+                <ul type="disc">
+                    <li class="p">Taak A ligt aan het begin van een Einde-Start link met taak B en een Start-Start link met taak D. Taken B en D zijn daarom de opvolgers van taak A. Taak A heeft geen voorgangers.            </li>
+                    <li class="p">Taak B ligt aan het einde van een Einde-Start link van taak A en aan het begin van een Einde-Start link met taak C. Taak A is daarom de voorganger van taak B en taak C is zijn opvolger.            </li>
+                    <li class="p">Taak C ligt aan het einde van twee Einde-Start links: één vanaf taak B en één vanaf taak D. Taken B en D zijn daarom de voorgangers van taak C. Taak C heeft geen opvolgers.            </li>
+                    <li class="p">Taak D ligt aan het einde van een Start-Start link vanaf taak A en aan het begin van een Einde-Start link met taak C. Taak A is daarom de voorganger van taak D en taak C is zijn opvolger.            </li>
+                </ul>
+                <p>Merk op dat wanneer een taak meer dan één voorganger of opvolger heeft deze worden gescheiden door een scheidingsteken - gewoonlijk een komma - in de Voorgangers en Opvolgers kolommen. Merk ook op dat u de Voorgangers en Opvolgers velden kunt configureren om de volgende andere informatie dan de taaknaam weer te geven (via het Tabel Definitie Eigenschappen dialoogvenster):</p>
+                <ul type="disc">
+                    <li class="p">Taak ID.            </li>
+                    <li class="p">WBN padnaam.            </li>
+                    <li class="p">Pad naam.            </li>
+                    <li class="p">Unieke taak ID.            </li>
+                    <li class="p">Regelnummer.            </li>
+                </ul>
+                <p>U kunt ook de velden configureren om het type link en de positieve of negatieve wachttijd op de link te tonen. Dit wordt hieronder afgebeeld, waarbij de Voorgangers en Opvolgers velden zijn geconfigureerd om het regel nummer in plaats van de taak naam, plus het type link en de hoeveelheid positieve of negatieve wachttijd bij iedere link:</p>
+                <p>
+                    <img src="../../../../Graphics/Starting_work/predsucc1.gif" style="border: none;" width="293" height="170" border="0" />
+                </p>
+                <p>U kunt de velden ook zo configureren dat ze de aan de link toegewezen linkcategorie tonen. Wanneer u kiest om ook de linkcategorie te tonen, verschijnt deze tussen blokhaken tussen de taakomschrijving en de beschrijving van de link.</p>
+                <p>En tenslotte, u kunt deze velden ook configureren om alle commentaar weer te geven die zijn ingevoerd bij de link. Merk op dat het commentaar bij een link niet in de tabel kunt wijzigen, zelfs als ze getoond worden; u moet gebruik maken van het Link Eigenschappen dialoogvenster om  commentaar bij een link te kunnen wijzigen.
+</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Om nieuwe links te creëren via de Voorgangers en Opvolgers kolommen:</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p xmlns="">&#160;</p>
+                <ol style="list-style-type: decimal;">
+                    <li class="p">Wanneer de balk met de taak waarop u de nieuwe link wilt laten starten meer dan één taak weergeeft, <a href="../Creating_bars_and_tasks/Drawing_in_one_task_per_line.htm">geef dan de balk eerst in de één-taak-per-regel modus weer</a>.            </li>
+                    <li class="p">Klik in de Voorgangers of Opvolgers kolom bij de taak waarop u de nieuwe link wilt laten starten.            </li>
+                    <li class="p">Voer de details van de nieuwe link in volgens de volgende syntaxis:<span style="font-weight: bold;"><br /><br />&lt;taak identifier&gt; (&lt;link categorie&gt;) &lt;link type&gt; &lt;wachttijd hoeveelheid&gt;</span></li>
+                </ol>
+                <p>De onderdelen van deze syntaxis worden in de volgende tabel uitgelegd:</p>
+                <table style="vertical-align: top;mc-table-style: url('../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css');" cellspacing="0" width="100%" class="TableStyle-Table_Stylesheet_No_Gridlines">
+                    <col style="width: 20%;" class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+                    <col style="width: 80%;" class="TableStyle-Table_Stylesheet_No_Gridlines-Column-Column1" />
+                    <tr style="vertical-align: top;" class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                        <td style="border: Solid 2px #ffffff;padding-right: 10px;padding-left: 10px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1">
+                            <p style="font-weight: bold;">&lt;taak identifier&gt;</p>
+                        </td>
+                        <td style="border-top: Solid 2px #ffffff;border-right: Solid 2px #ffffff;border-bottom: Solid 2px #ffffff;padding-right: 10px;padding-left: 10px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                            <p>Voer de naam, taak ID, WBN padnaam, padnaam, unieke taak ID of regelnummer van de taak waarbij u wilt dat de nieuwe link eindigt. U moet de identifier invoeren waarmee kolom op dit moment voor weergave geconfigureerd is. Bijvoorbeeld wanneer de kolom op dit moment het unieke taak ID weergeeft dan is dat de identifier die u moet invoeren.</p>
+                            <p>Let op de volgende punten over de <span style="font-weight: bold;">&lt;taak identifier&gt;</span>:</p>
+                            <ul type="disc">
+                                <li class="p" style="margin-left: -20px;">Wanneer u de taak ID, WBN padnaam, padnaam of het unieke taak ID als een taak identifier gebruikt, is <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> in staat om de taak aan de andere kant van de link precies te identificeren omdat deze per definitie uniek zijn.            </li>
+                                <li class="p" style="margin-left: -20px;">Wanneer u de taak naam als een taak identifier gebruikt zoekt <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> eerst naar taken met die naam in de huidige kaart of samenvattingsgroep. Wanneer er geen gevonden wordt, zoekt het naar taken met die naam in de rest van het project.            </li>
+                                <li class="p" style="margin-left: -20px;">Wanneer u het regelnummer als taak identifier gebruikt creëert <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> de link mits het gespecificeerde regelnummer in de huidige balkkaart maar een enkele taak bevat.            </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr style="vertical-align: top;" class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                        <td style="border-left: Solid 2px #ffffff;border-right: Solid 2px #ffffff;border-bottom: Solid 2px #ffffff;padding-right: 10px;padding-left: 10px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1">
+                            <p style="font-weight: bold;">(&lt;link categorie&gt;)<span style="font-weight: normal;"><br />(optioneel)</span></p>
+                        </td>
+                        <td style="border-right: Solid 2px #ffffff;border-bottom: Solid 2px #ffffff;padding-right: 10px;padding-left: 10px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                            <p style="font-weight: normal;">Voer de naam van de link categorie in dat u wilt toepassen op de link, tussen de haakjes.</p>
+                        </td>
+                    </tr>
+                    <tr style="vertical-align: top;" class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                        <td style="border-left: Solid 2px #ffffff;border-right: Solid 2px #ffffff;border-bottom: Solid 2px #ffffff;padding-right: 10px;padding-left: 10px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1">
+                            <p style="font-weight: bold;">&lt;link type&gt;<span style="font-weight: normal;"><br />(optioneel)</span></p>
+                        </td>
+                        <td style="border-right: Solid 2px #ffffff;border-bottom: Solid 2px #ffffff;padding-right: 10px;padding-left: 10px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                            <p style="font-weight: normal;">Voer in ofwel EE, ES, SS of SE.</p>
+                        </td>
+                    </tr>
+                    <tr style="vertical-align: top;" class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
+                        <td style="border-left: Solid 2px #ffffff;border-right: Solid 2px #ffffff;border-bottom: Solid 2px #ffffff;padding-right: 10px;padding-left: 10px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1">
+                            <p class="style1">
+                                <span style="font-weight: bold;">&lt;Wachttijd hoeveelheid &gt;</span>
+                                <br />(optioneel)</p>
+                        </td>
+                        <td style="border-right: Solid 2px #ffffff;border-bottom: Solid 2px #ffffff;padding-right: 10px;padding-left: 10px;" bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
+                            <p class="style1">Voer de hoeveelheid positieve of negatieve wachttijd die u wilt toepassen op de link. De wachttijd zal worden toegepast op de start van de link.</p>
+                        </td>
+                    </tr>
+                </table>
+                <p>Merk op dat de <span style="font-weight: bold;">(&lt;link categorie&gt;)</span>, <span style="font-weight: bold;">&lt;link type&gt;</span> en <span style="font-weight: bold;">&lt;wachttijd hoeveelheid&gt;</span> elementen optioneel zijn: u hoeft alleen maar de taak identifier te specificeren. Wanneer u niet het <span style="font-weight: bold;">&lt;link type&gt;</span> en de <span style="font-weight: bold;">&lt;Wachttijd hoeveelheid&gt;</span> specificeert, dan zal de gecreëerde link van het type ES (Einde-Start) zijn en zal deze geen wachttijd hebben. Merk ook op dat u in de <span style="font-weight: bold;">&lt;link type&gt;</span> en <span style="font-weight: bold;">&lt;wachttijd hoeveelheid&gt;</span> elementen kunt specificeren tijdens het creëren van een nieuwe link, zelfs als de Voorgangers of Opvolgers kolommen op dat moment niet zijn geconfigureerd om hen te tonen.</p>
+                <p>U kunt meer dan één link tegelijkertijd naar of vanaf een taak creëren door de details van elke link te scheiden met het scheidingsteken, welke normaal gesproken een komma is. Wanneer de Voorgangers of Opvolgers kolom al details toont van één of meer links bij een taak kunt u nieuwe links creëren door hen toe te voegen aan de lijst, waarbij wederom de details van elke link met het scheidingsteken worden gescheiden.</p>
+                <p>Wanneer u in de Voorgangers of Opvolgers kolom klikt, verschijnt een besturingselement met keuzelijst:</p>
+                <p>
+                    <img src="../../../../Graphics/Starting_work/predsucc7.gif" style="border: none;" width="64" height="38" border="0" />
+                </p>
+                <p>U kunt ook nieuwe links creëren door op deze keuzelijst te klikken en vervolgens <span style="font-weight: bold;">Toevoegen nieuwe Link naar...</span> (voor de Voorgangers kolom) of <span style="font-weight: bold;">Toevoegen nieuwe Link van...</span> (voor de Opvolgers kolom) te selecteren. Het <span style="font-weight: bold;">Link Van/Naar</span> dialoogvenster verschijnt, welke u kunt gebruiken om de taak die u aan de andere kant van de nieuwe link wilt hebben te selecteren.</p>
+                <h2>Voorbeelden van het creëren van nieuwe links</h2>
+                <p>De onderstaande voorbeelden tonen het gebruik van de volgende taken als uitgangspunt. Merk op dat de Voorgangers en Opvolgers kolommen zijn geconfigureerd om de taak naam van de voorganger en opvolger taken weer te geven, zonder andere details:</p>
+                <p>
+                    <img src="../../../../Graphics/Starting_work/predsucc2.gif" style="border: none;" width="293" height="139" border="0" />
+                </p>
+                <p>Het klikken in de Opvolgers kolom in regel 1 en invoeren van <span style="font-weight: bold;">B</span> zou een Einde-Start link creëren zonder wachttijd van taak A naar taak B:</p>
+                <p>
+                    <img src="../../../../Graphics/Starting_work/predsucc3.gif" style="border: none;" width="293" height="140" border="0" />
+                </p>
+                <p>Het klikken in de Opvolgers kolom in regel 1 en invoeren van <span style="font-weight: bold;">B,C</span> zou twee Einde-Start links zonder wachttijd: één van taak A naar taak B en de andere van taak A naar taak C:</p>
+                <p>
+                    <img src="../../../../Graphics/Starting_work/predsucc4.gif" style="border: none;" width="293" height="140" border="0" />
+                </p>
+                <p>Het klikken in de Voorgangers kolom in regel 3 en invoeren van <span style="font-weight: bold;">A (Categorie A) SE 2d</span> zou een Start-Einde link met 2d wachttijd aan de start van de link van taak A naar taak C, met de Categorie A link categorie toegewezen naar de link:</p>
+                <p>
+                    <img src="../../../../Graphics/Starting_work/predsucc5.gif" style="border: none;" width="293" height="140" border="0" />
+                </p>
+                <p>Merk op dat in het bovenstaand voorbeeld  Voorgangers kolom is geconfigureerd om alleen de taak naam te tonen, zodat de <span style="font-weight: bold;">(&lt;link categorie&gt;)</span>, het <span style="font-weight: bold;">&lt;link type&gt;</span> en de <span style="font-weight: bold;">&lt;wachttijd hoeveelheid&gt;</span> niet worden weer gegeven nadat de link was gecreëerd. Wanneer de kolom was geconfigureerd om all details weer te geven, zou die er als volgt uitzien:</p>
+                <p>
+                    <img src="../../../../Graphics/Starting_work/predsucc6.gif" style="border: none;" width="64" height="140" border="0" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Om bestaande links te wijzigen via de Voorgangers en Opvolgers kolommen:</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol style="list-style-type: decimal;">
+                    <li class="p">Wanneer de balk waarop de link start of eindigt die u wenst te wijzigen meer dan één taak bevat, <a href="../Creating_bars_and_tasks/Drawing_in_one_task_per_line.htm">toon dan de balk eerst in de één-taak-per-regel modus</a>.            </li>
+                    <li class="p">Klik in de Voorgangers of Opvolgers kolom bij de taak waarop de link start of eindigt.            </li>
+                    <li class="p">Wijzig de details van de link en gebruik daarbij dezelfde syntaxis die u gebruikte bij het creëren van de links (<span style="font-weight: bold;">&lt;taak identifier&gt; (&lt;link categorie&gt;) &lt;link type&gt; &lt;wachttijd hoeveelheid&gt;</span>): voer een nieuwe taak identifier in om de taak aan de andere kant van de link te wijzigen en verander indien gewenst de link categorie het link type en de wachttijd hoeveelheid.            </li>
+                </ol>
+                <p>Net zoals bij het creëren van nieuwe links, kunt u bij het wijzigen van bestaande links ook de <span style="font-weight: bold;">(&lt;link categorie&gt;)</span>, het <span style="font-weight: bold;">&lt;link type&gt;</span> en de <span style="font-weight: bold;">&lt;wachttijd hoeveelheid&gt;</span> elementen veranderen, zelfs als de Voorgangers of Opvolgers kolommen op dit moment niet zijn geconfigureerd om hen te tonen.</p>
+                <p>U kunt ook bestaande links wijzigen door het klikken op het keuzelijst besturingselement dat verschijnt als u klikt in de Voorgangers of Opvolgers kolom en <span style="font-weight: bold;">Eigenschappen van...</span> kiest. Het <span style="font-weight: bold;">Link Eigenschappen</span> dialoogvenster verschijnt, waarmee u de eigenschappen van de geselecteerde link kunt wijzigen.</p>
+                <h2>Voorbeelden of het wijzigen van bestaande links</h2>
+                <p>De onrstaan voorbeelden tonen het gebruik van de volgende taken als uitgangspunt. Merk op dat de Voorgangers en Opvolgers kolommen zijn geconfigureerd om de taak naam van de voorganger en opvolger taken weer te geven, zonder andere details:</p>
+                <p>
+                    <img src="../../../../Graphics/Starting_work/predsucc4.gif" style="border: none;" width="293" height="140" border="0" />
+                </p>
+                <p>Het klikken in de Voorgangers kolom in regel 2 en overschrijven van <span style="font-weight: bold;">A</span> met <span style="font-weight: bold;">A SS</span> zou de bestaande Einde-Start link vanaf taak A naar taak B veranderen in een Start-Start link:</p>
+                <p>
+                    <img src="../../../../Graphics/Starting_work/predsucc8.gif" style="border: none;" width="294" height="140" border="0" />
+                </p>
+                <p>Het klikken in de Opvolgers kolom in regel 1 en overschrijven van <span style="font-weight: bold;">C</span> met <span style="font-weight: bold;">C FF 5d</span> zou de bestaande Einde-Start link vanaf taak A naar taak C veranderen in een Einde-Einde link met vijf dagen positieve wachttijd bij de start van de link:</p>
+                <p>
+                    <img src="../../../../Graphics/Starting_work/predsucc9.gif" style="border: none;" width="294" height="140" border="0" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Om bestaande links te verwijderen via de Voorgangers en Opvolgers kolommen:</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol style="list-style-type: decimal;">
+                    <li class="p">Wanneer de balk waarop de taak staat waarvan een link wenst te verwijderen meer dan één taak bevat, <a href="../Creating_bars_and_tasks/Drawing_in_one_task_per_line.htm">toon dan de balk eerst in de één-taak-per-regel modus</a>.            </li>
+                    <li class="p">Klik in de Voorgangers of Opvolgers kolom bij de taak waarvan de link wilt verwijderen.            </li>
+                    <li class="p">Selecteer de details van de link(s) die u wilt verwijderen in de kolom en druk op <span style="font-weight: bold;">DEL</span> om de link te verwijderen.            </li>
+                </ol>
+                <p>Wanneer de Voorgangers of Opvolgers kolom details toont van meer dan één link bij een taak - wanneer de taak meer dan één voorganger of opvolger heeft - kunt u alle links verwijderen, of juist maar één van de links, en laat u de andere links daarmee staan.</p>
+                <h2>Voorbeelden van het verwijderen van links</h2>
+                <p>De onrstaan voorbeelden tonen het gebruik van de volgende taken als uitgangspunt. Merk op dat de Voorgangers en Opvolgers kolommen zijn geconfigureerd om de taak naam van de voorganger en opvolger taken weer te geven, zonder andere details:</p>
+                <p>
+                    <img src="../../../../Graphics/Starting_work/predsucc4.gif" style="border: none;" width="293" height="140" border="0" />
+                </p>
+                <p>Het klikken in de Voorgangers kolom in regel 3 en het verwijderen van <span style="font-weight: bold;">A</span> zou de link tussen taak A en taak C verwijderen (het klikken in de Opvolgers kolom in regel 1 en het verwijderen van <span style="font-weight: bold;">C</span> zou hetzelfde effect hebben):</p>
+                <p>
+                    <img src="../../../../Graphics/Starting_work/predsucc3.gif" style="border: none;" width="293" height="140" border="0" />
+                </p>
+                <p>Het klikken in de Opvolgers kolom in regel 1 en het verwijderen van <span style="font-weight: bold;">B, C</span> zou beide links, van taak A naar taak B en naar taak C, verwijderen:</p>
+                <p>
+                    <img src="../../../../Graphics/Starting_work/predsucc2.gif" style="border: none;" width="293" height="139" border="0" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p>
+            <a href="../../Spreadsheet/Editing_the_spreadsheet/Adding_columns_to_the_spreadsheet.htm">Kolommen toevoegen aan de tabel</a>
+        </p>
+        <p>
+            <a href="../../Spreadsheet/Editing_the_spreadsheet/Setting_up_spreadsheet_columns.htm">Tabelkolommen instellen</a>
+        </p>
+        <p>
+            <a href="Link_types.htm">Link typen</a>
+        </p>
+        <p>
+            <a href="../../Bar_chart_editing/Links_lead_lag/Drawing_links_with_leadlag_time.htm">Links tekenen met wachttijd</a>
+        </p>
+        <p>
+            <a href="../../Bar_chart_editing/Editing_link_properties/editing_link_properties.htm">Link-eigenschappen bewerken en opmerkingen bij links invoeren</a>
+        </p>
+        <p>
+            <a href="Link_Tasks_mode.htm">Taken automatisch linken wanneer ze gecreëerd of geselecteerd worden</a>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specify where legends appear in the printed output?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li>Click the <b>Bottom</b><MadCap:snippetText src="Legend_print_bottom.flsnp" /></li>
+                    <li style="font-weight: normal;">Click the <b>All</b><MadCap:snippetText src="Legend_print_all.flsnp" /></li>
+                    <li style="font-weight: normal;">Click the <b>Relevant</b><MadCap:snippetText src="Legend_print_relevant.flsnp" /></li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

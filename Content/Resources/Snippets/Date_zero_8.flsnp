@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="72" MadCap:lastWidth="1054">
+    <head>
+    </head>
+    <body>Wanneer er een "datum dag 1" gespecificeerd staat voor een individuele view op het <b>Datum/Schaal</b> tabblad van het <b>Kalenderschaal Eigenschappen</b> dialoogvenster, dan wordt deze gebruikt; indien dat niet het geval is, wordt de project-brede "datum dag 1" die gespecificeerd staat op het <b>Eigenschappen</b> tabblad van de Backstage view gebruikt.</body>
+</html>

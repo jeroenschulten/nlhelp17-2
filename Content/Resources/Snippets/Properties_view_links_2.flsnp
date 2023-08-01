@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');caption-side: top;margin-left: 0;margin-right: auto;" cellspacing="0">
+            <col style="width: 19px;" class="TableStyle-Table_Stylesheet-Column-Column1">
+            </col>
+            <col class="TableStyle-Table_Stylesheet-Column-Column1">
+            </col>
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Knop</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Omschrijving</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Toevoegen Link</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables" xmlns="">Klik op deze knop om een nieuwe inkomende of uitgaande link naar de geselecteerde taak toe te voegen, via het <b>Nieuwe Link</b> dialoogvenster</p>
+                        <p class="ParagraphsInTables" xmlns="">Als u meer dan één taak in balkkaart hebt geselecteerd, voegt u op deze knop een link toe aan elke geselecteerde taak.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Ontlink Taken</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables" xmlns="">Selecteer een link in één van de rastertabellen en klik vervolgens op deze knop om de link te verwijderen.</p>
+                        <p class="ParagraphsInTables" xmlns="">Wanneer u meer dan één link hebt geselecteerd door het ingedrukt houden van <b>CTRL</b> en het klikken op links in een rastertabel, betekent het klikken op deze knop het verwijderen van alle geselecteerde links.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Wijzigen</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Selecteer een link in één van de rastertabellen en klik vervolgens op deze knop om de  link naar een andere taak te verplaatsen, via het <b>Verplaats Van/Naar</b> dialoogvenster.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Eigenschappen</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Selecteer een link in één van de rastertabellen en klik vervolgens op deze knop om de eigenschappen van de link te bekijken en te bewerken.</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

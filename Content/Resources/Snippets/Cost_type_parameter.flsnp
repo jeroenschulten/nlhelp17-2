@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="49" MadCap:lastWidth="1276">
+    <body> specificeer het type kosten waar u het veld naar toe wilt verwijzen, bijvoorbeeld alleen de kosten van resterende aanvraagallocaties, alleen de kosten van ingeplande allocaties, alleen de vaste kosten, etc. De standaard instelling hier toont de totale kosten van alle allocaties, exclusief de gehonoreerde aanvraag. </body>
+</html>

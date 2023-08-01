@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="109" MadCap:lastWidth="879" MadCap:ignoredWords="work;numbering;gebruikerswaarde;Startvlag;Eindvlag;Ingeplande">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b>Allocatie Groep Eigenschappen</b> dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Om toegang te krijgen tot het <b xmlns="">Allocatie Groep Eigenschappen</b> dialoogvenster, rechtsklik op een allocatiegroep in Bibliotheek Verkenner van de project view en selecteer <span style="font-weight: bold;">Eigenschappen</span>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

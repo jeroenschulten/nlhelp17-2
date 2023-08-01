@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Setting_up_the_bar_chart\Using_the_date_zone\Numbering_in_the_date_zone.htm" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Week startdag:tonen van de dag van de week in relatie tot;Week startdag:specificeren voor een view;Week startdag;Verstreken tijd:weergeven van verstreken eenheden sinds datum dag 1;Velden:configureren om de verstreken eenheden sinds datum dag 1 weer te geven;Velden:configureren om de dag van de week in relatie tot de week startdag weer te geven;Tabel:configureren om de verstreken eenheden sinds datum dag 1 te tonen;Markeringen in de kalenderschaal:opgeven waar ze verschijnen;Markeringen in de kalenderschaal;Kalenderschaal:opgeven of markeringsstreepjes verschijnen;Datums:configureren om het aantal verstreken eenheden sinds datum dag 1 te tonen;Datums:configureren om de week in relatie tot de week start dag te tonen;Datum dag 1:tonen van het aantal verstreken eenheden sinds;Datum dag 1:specificeren voor een view" />
+            <MadCap:keyword term="Datum dag 1" />Nummering in de kalenderschaal</h1>
+        <p>U gebruikt het tabblad <span style="font-weight: bold;">Data/Schaal</span> van het dialoogvenster Kalenderschaal Eigenschappen om de nummering van de regels van de kalenderschaal in te stellen.</p>
+        <p>Selecteer de dagen van de week waarop u de week markering wilt starten en eindigen in de velden <span style="font-weight: bold;">Weekstart dag</span> en <span style="font-weight: bold;">Weekeinde dag</span>.</p>
+        <p>Geef in het veld <span style="font-weight: bold;">Maand start</span> de dag van de maand op waarop uw maandelijkse markeringen effectief moeten worden. Voorbeeld: voer 15 in om maandelijkse markeringen te laten zien op dag 15 van elke maand.</p>
+        <p>In het veld <span style="font-weight: bold;">Fiscaal jaar start</span>, typt u de maand en de dag waarop het fiscale jaar start en de nummering begint. U hoeft alleen de dag en maand in te voeren (het jaar wordt genegeerd). Deze datum krijgt alleen effect als de Fiscale regel is ingevoegd in de kalenderschaal. Als u geen datum intypt dan wordt de projectstartdatum (of de dag van vandaag als er geen projectstartdatum is opgegeven) gebruikt.</p>
+        <p>Schakel in het <b>Datum dag 1</b> veld het <MadCap:snippetText src="../../../../Resources/Snippets/Date_zero_7.flsnp" /></p>
+        <p xmlns="">
+            <MadCap:snippetText src="../../../../Resources/Snippets/Date_zero_6.flsnp" />
+        </p>
+        <h2>Het aantal verstreken eenheden sinds 'datum dag 1' in de tabel tonen</h2>
+        <p>U kunt nu bij tabelcellen met 'Datum/Tijd'-type velden de periode laten weergeven tussen de 'datum dag 1' die u specificeert bij een view en de datum of tijd dat het veld vertegenwoordigt, gemeten in verstreken dagen, verstreken weken, verstreken maanden of verstreken kwartalen. Bijvoorbeeld, wanneer de 'datum dag 1' van de huidige view 1 januari 2018 is en het veld in een cel een datum toont van 14 januari 2018, zou het opmaken van de cel om het aantal verstreken dagen sinds 'datum dag 1' ervoor zorgen dat er in de cel 13 wordt weergegeven.</p>
+        <p>Om een tabelcel het aantal verstreken dagen sinds 'datum dag 1' te laten weergeven:</p>
+        <ol style="list-style-type: decimal;">
+            <li class="p">Selecteer de cel(len) die u wilt configureren. Dit moeten cellen zijn die op dat moment een 'Datum/Tijd'-type veld tonen, zoals Werkelijke Start of Werkelijk Einde.            </li>
+            <li class="p">Klik in het tabblad <b>Start</b>, in de <b>Lettertype</b> groep, op het dialoogvenster oproep icoon:  <img src="../../../../Graphics/Ribbon/dialoglauncher.gif" /> . Het <span style="font-weight: bold;">Opmaak Cellen</span> dialoogvenster verschijnt.            </li>
+            <li class="p">Klik op het tabblad <span style="font-weight: bold;">Nummering</span>.            </li>
+            <li class="p">Met Datum/Tijd geselecteerd in het <span style="font-weight: bold;">Categorie</span> veld, selecteer Aangepast in het <span style="font-weight: bold;">Datum Opmaak</span> veld en voer één van de onderstaande tekens in:            </li>
+            <ul>
+                <li class="p" type="disc">E - om het aantal verstreken dagen tussen de twee datums te tonen.            </li>
+                <li class="p" type="disc">F - om het aantal verstreken weken tussen de twee datums te tonen.            </li>
+                <li class="p" type="disc">J - om het aantal verstreken maanden tussen de twee datums te tonen.            </li>
+                <li class="p" type="disc">Q - om het aantal verstreken kwartalen tussen de twee datums te tonen.            </li>
+            </ul>
+            <li class="p">Klik op <span style="font-weight: bold;">OK</span>.            </li>
+        </ol>
+        <p><a href="../../../Dialogs/D_Formatcells.htm">U kunt in een aangepast datumopmaak ook andere tekens invoegen zoals bijvoorbeeld letters en leestekens om het begrijpelijker te maken</a>.</p>
+        <h2>de dag van de week in getallen tonen</h2>
+        <p>U kunt nu bij tabelcellen met 'Datum/Tijd'-type velden de dag van de week in een getal laten weergeven, waarbij dag 1 de dag is waarop de 'datum dag 1' die u specificeert valt . Bijvoorbeeld, wanneer de 'datum dag 1' van de huidige view op een maandag valt en het veld in een cel een datum toont die valt op een woensdag, dan zou het opmaken van de cel om de dag van de week in een getal laten weergeven erin resulteren in dat cel het getal 3 toont.</p>
+        <p>Om een tabelcel de dag van de week in getallen weer te laten geven, waarbij dag 1 de dag is waarop 'datum dag 1' valt:</p>
+        <ol style="list-style-type: decimal;">
+            <li class="p">Selecteer de cel(len) die u wilt configureren. Dit moeten cellen zijn die op dat moment een 'Datum/Tijd'-type veld tonen, zoals Werkelijke Start of Werkelijk Einde.            </li>
+            <li class="p">Selecteer de <span style="font-weight: bold;">Cellen</span> menu-opdracht in het <span style="font-weight: bold;">Exta</span> menu. Het <span style="font-weight: bold;">Opmaak Cellen</span> dialoogvenster verschijnt.            </li>
+            <li class="p">Klik op het tabblad <span style="font-weight: bold;">Nummering</span>.            </li>
+            <li class="p">Met Datum/Tijd geselecteerd in het <span style="font-weight: bold;">Categorie</span> veld, selecteer Aangepast in het <span style="font-weight: bold;">Datum Opmaak</span> veld en voer D in bij het veld eronder.            </li>
+        </ol>
+        <ol start="5" style="list-style-type: decimal;">
+            <li class="p">Klik op <span style="font-weight: bold;">OK</span>.            </li>
+        </ol>
+        <p class="RelatedTopics">Verwante onderwerpen:</p>
+        <p><a href="Using_multiple_horizontal_scales.htm">Meerdere horizontale schalen gebruiken</a>
+        </p>
+    </body>
+</html>

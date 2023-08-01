@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>De <b>Embed</b> optie wordt niet weergegeven voor baselines die al zijn embedded in het huidige project, voor baselines van <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise-projecten of voor baselines van projecten die zijn opgeslagen in <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Vision.</body>
+</html>

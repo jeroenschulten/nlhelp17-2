@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Dit kan handig zijn als u bijvoorbeeld een spreadsheet heeft gekregen met data die feestdagen zijn of waarop een aannemer niet kan werken. U kunt het type uitzondering specificeren dat op elk van de datums moet worden gemaakt. U kunt bijvoorbeeld een vakantie van 24 uur creëren, of een tijdsperiode van 2 uur overwerk op elke dag. Als één van de nieuwe uitzonderingen in strijd is met een al aanwezige uitzondering, krijgt u de kans om de import te annuleren.</p>
+        <p>&#160;</p>
+    </body>
+</html>

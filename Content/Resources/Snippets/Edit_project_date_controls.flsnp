@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Schakel het selectievakje <b>Project datum velden bewerken</b> in om aan te geven dat leden van deze security groep de velden in het gedeelte 'Datums' van het tabblad <b>Eigenschappen</b> van de Backstage view en de overeenkomstige velden op het tabblad <b>Eigenschappen</b> van het dialoogvenster <b>Eigenschappen</b> kunnen bewerken, of schakel het selectievakje uit als u niet wilt dat zij dit kunnen doen.</p>
+    </body>
+</html>

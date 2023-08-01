@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Als u wilt werken met een <MadCap:variable name="Primary.Asta Vision Name" /> programma in <MadCap:variable name="Primary.Asta Asta Powerproject Name" />, bewerken en opslaan van uw wijzigingen, moet u het uitchecken. Wanneer u een programma uitcheckt, wordt het naar uw computer gedownload en geopend in <MadCap:variable name="Primary.Asta Asta Powerproject Name" />. Wanneer u klaar bent met het bewerken van het programma, moet u het opnieuw inchecken. Slechts één gebruiker kan een programma op een willekeurig moment uitchecken.</p>
+    </body>
+</html>

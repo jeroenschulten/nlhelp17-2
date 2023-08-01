@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Verklaring van de velden en knoppen op het dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');caption-side: top;margin-left: 0;margin-right: auto;" cellspacing="0">
+                    <col style="width: 86px;" class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <thead>
+                        <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Veld/Knop</th>
+                            <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Omschrijving</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Taken zonder links - Ongewijzigd laten</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Klik op dit keuzerondje om te specificeren dat niet-gelinkte taken niet worden verplaatst, behalve als ze conflicteren met instellingen of vlaggen zoals de project startdatum of startvlaggen op hogerniveau taken.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Zie: <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Setting_reschedule_options/Setting_reschedule_options.htm#Tasks_with_no_links">Specificeren hoe taken zonder links worden herberekend</a>.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Taken zonder links - Verplaatsen indien buiten project- of kaartgrenzen</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Klik op dit keuzerondje om te specificeren dat niet-gelinkte taken zo min mogelijk worden verplaatst wanneer ze de start of einddatum van de project of kaart bepalen.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Zie: <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Setting_reschedule_options/Setting_reschedule_options.htm#Tasks_with_no_links">Specificeren hoe taken zonder links worden herberekend</a>.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Taken zonder links - Verplaatsen naar ZSM of ZLM positie</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Klik op dit keuzerondje om niet gelinkte taken naar hun ZSM/ZLM positie te verplaatsen.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Zie: <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Setting_reschedule_options/Setting_reschedule_options.htm#Tasks_with_no_links">Specificeren hoe taken zonder links worden herberekend</a>.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">ZLM taken hebben geen vrije speling</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Schakel dit selectievakje in om de vrije speling links van ZSM taken weer te geven (zoals bij Microsoft Project), of schakel het selectievakje uit om ook de vrije speling links van ZSM taken weer te geven.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Zie: <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Setting_reschedule_options/Setting_reschedule_options.htm#Compatibility_options">Compatibiliteit opties</a>.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Vlaggen die moeten eindigen op of voor zijn zacht</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Schakel dit selectievakje in om het mogelijk te maken dat taken verplaatst kunnen worden voorbij een Eindigen Op of Voor vlag. Schakel het selectievakje uit om dit te voorkomen, wat kan resulteren in een negatieve speling in het kritieke pad.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Zie: <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Setting_reschedule_options/Setting_reschedule_options.htm#Compatibility_options">Compatibiliteit opties</a>.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Samenvattingstaken zijn kritiek als inhoud kritiek is </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Schakel dit selectievakje om te kiezen of u wilt dat samenvattingstaken als kritiek worden weergegeven wanneer sommige taken - maar niet alle - daarbinnen zich op het kritieke pad bevinden. Wanneer dit selectievakje is ingeschakeld worden zulke samenvattingstaken getoond als kritiek. Wanneer dit selectievakje is uitgeschakeld worden zulke samenvattingstaken niet getoond als kritiek.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Zie: <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Setting_reschedule_options/Setting_reschedule_options.htm#Compatibility_options">Compatibiliteit opties</a>.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Negatieve speling toepassen op keten</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Schakel dit selectievakje in bij een keten van taken waarin ook negatieve speling zit zodat deze taken voorbij de vlag aan het eind van de keten kunnen doorlopen, waardoor de negatieve speling feitelijk wordt toegepast op alle taken in de keten. Wanneer dit selectievakje is uitgeschakeld zal de vlag aan het einde van de keten worden gerespecteerd, waardoor de negatieve speling alleen zal worden toegepast op de taak aan het begin van de keten.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Zie: <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Setting_reschedule_options/Setting_reschedule_options.htm#Compatibility_options">Compatibiliteit opties</a>.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Negeer link categorieën</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Selecteer één of meer link categorieën om links uit die categorie te negeren tijdens een herberekening.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Zie: <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Setting_reschedule_options/Setting_reschedule_options.htm#Ignoring_link_categories">Specificeren dat links van een bepaalde categorie moeten worden genegeerd in herberekening</a>.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Taken met alleen uitgaande links - Ongewijzigd laten</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Klik op dit keuzerondje om te specificeren dat taken met alleen uitgaande links niet worden verplaatst, behalve wanneer ze conflicteren met beperkingen zoals de project startdatum of met startvlaggen op hogerniveau-taken.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Zie: <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Setting_reschedule_options/Setting_reschedule_options.htm#Tasks_with_only_outgoing_links">Specificeren hoe taken met uitgaande links worden herberekend</a>.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Taken met alleen uitgaande links - Verplaats naar ZSM of ZLM positie </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Klik op dit keuzerondje om gelinkte taken met alleen uitgaande links naar hun ZSM/ZLM positie te verplaatsen.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Zie: <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Setting_reschedule_options/Setting_reschedule_options.htm#Tasks_with_no_links">Specificeren hoe taken met uitgaande links worden herberekend</a>.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Verplaats gedeeltelijk voltooide links</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Schakel dit selectievakje in om te specificeren of links die starten vanaf een onvoltooide taak (bijvoorbeeld op balk A) en eindigen bij een voltooide taak (bijvoorbeeld op balk B) worden verplaatst, zodat deze eindigen bij de eerste onvoltooide taak op balk B. </p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Schakel dit selectievakje in om de linklogica te behouden wanneer de voortgang niet op volgorde plaatsvindt, of schakel het selectievakje uit, om te voorkomen dat gedeeltelijk voltooide links worden verplaatst.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Zie: <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Setting_reschedule_options/Setting_reschedule_options.htm#Tasks_with_no_links">Specificeren hoe gedeeltelijk voltooide links worden herberekend</a>.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Speling berekenen binnen kaart</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Schakel dit selectievakje in om te kiezen of de speling op taken in subkaart of samenvattingsgroepen wordt weergegeven tot aan de einddatum van de hogerniveau taak, of schakelt het selectievakje <span style="font-weight: normal;">in </span>om te kiezen dat deze zichtbaar wordt ingekort tot de einddatum van de view.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Zie: <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Setting_reschedule_options/Setting_reschedule_options.htm#Tasks_with_no_links">Specificeren of speling wordt afgekapt bij een herberekening</a>.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Gebruik projectdeadline</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Schakel dit selectievakje in om de projectdeadline die bij het project is opgegeven als deadline te gebruiken of schakel het selectievakje uit om de einddatum van de laatste taak in het project te gebruiken om de late en vrije einddatums in te stellen en de speling te berekenen.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">
+                                    <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Setting_reschedule_options/Setting_reschedule_options.htm#Delivery_date_as_deadline">De projectdeadline datum te gebruiken als een deadline bij een herberekening</a>.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Herlink om voltooide taken</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">U schakelt dit selectievakje in, om aan te geven dat voltooide taken, die zich tussen twee onvoltooide taken bevinden, worden verwijderd uit de link logica waardoor de onvoltooide taken gelinkt worden in een keten, of schakelt het selectievakje uit om aan te geven dat voltooide taken de eigen posities behouden in de link volgorde.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Zie: <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Setting_reschedule_options/Setting_reschedule_options.htm#Links_completed_tasks">Specificeren hoe links worden beïnvloed door voltooide taken</a>.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Rechttrekken voortgangslijn tot periode</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Selecteer de voortgangsperiode met de voortgangsdatum ten opzichte waarvan u voltooide en onvoltooide taken wilt plaatsen. Laat dit op &lt;Geen&gt; staan als u niet wilt dat taken ten opzichte van een voortgangsdatum worden verplaatst.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Als u bijvoorbeeld voortgang registreert op vrijdag en een taak die op vrijdag voltooid had moeten zijn heeft nog twee onvoltooide dagen werk, verplaatst de herberekening de 2 onvoltooide dagen naar maandag, waarmee wordt aangegeven dat die sectie nog moet worden voltooid. </p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Wanneer u een voortgangsperiode selecteert, zullen alle onvoltooide taken die (deels) plaatsvinden voor de voortgangsdatum naar voren verplaatst worden om in lijn te komen met de voortgangsdatum zodat ze in de toekomst komen te liggen (waardoor aangegeven wordt dat ze nog steeds zullen moeten worden uitgevoerd).</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">In plaats van het kiezen van een specifieke voortgangsperiode kunt u ook aangeven dat de voortgangslijn recht moet worden getrokken tot de rapportdatum van de voortgangsperiode die op dat moment gebruikt wordt om voortgang te registreren - de Huidige voortgangsdatum. Selecteer hiervoor Huidige voortgangsdatum in het veld.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Zie: <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Setting_reschedule_options/Setting_reschedule_options.htm#Moving_progressed_tasks">Specificeren hoe taken met voortgang worden herberekend</a>.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Behoud werkelijke start</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Als u de voortgangslijn rechttrekt tot de voortgangsdatum van een voortgangsperiode, schakelt u dit selectievakje in om de voltooide taken die na de rapportdatum liggen op hun plaats te houden. Als u het selectievakje uitschakelt, verplaatst u deze terug naar een datum die voor de voortgangsdatum ligt (waarmee wordt aangegeven dat ze zijn uitgevoerd en in het verleden liggen).</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Wanneer u ervoor kiest om voltooide taken die voor de voortgangsdatum vallen te verplaatsen, dan zal de voortgangslijn een volledig rechte lijn worden na een herberekening, maar dan zullen de datums van sommige voltooide taken veranderen. </p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Of u al dan niet deze optie gebruikt is afhankelijk van het feit of u wilt accurate registratie van datums waarop taken voltooid zijn, of dat u een view wilt die onderscheid maakt tussen het op een bepaalde datum al voltooide werk en het nog te verrichten werk.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Zie: <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Setting_reschedule_options/Setting_reschedule_options.htm#Moving_progressed_tasks">Specificeren hoe taken met voortgang worden herberekend</a>.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Kritieke pad drag</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Schakel dit selectievakje in om de drag van kritieke taken te berekenen bij een herberekening, of schakel dit selectievakje om hierbij geen drag te berekenen. Wanneer u ervoor kiest om de kritieke pad drag te berekenen, duurt het langer om een project te herberekenen</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Zie: <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Setting_reschedule_options/Calculating_drag.htm">De drag van kritieke taken berekenen bij herberekening</a>.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Cascade activiteitsnummers</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Schakel dit selectievakje in om het cascade activiteitsnummer van taken te berekenen bij een herberekening, of schakel dit selectievakje om hierbij geen cascade activiteitsnummers te berekenen. Als u ervoor kiest de cascade activiteitsnummers te berekenen, zal het langer duren om een project te herberekenen.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Zie: <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Setting_reschedule_options/Cascade_activity_numbers.htm">Cascade activiteitsnummers van taken berekenen bij herberekening</a>.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Kritieke pad integriteit</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Schakel dit <MadCap:snippetText src="Critical_path_integrity.flsnp" /></p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Zie: <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Setting_reschedule_options/Critical_path_integrity.htm">Checken van de integriteit van het kritieke pad bij het herberekenen</a>.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Dagen speelruimte</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">
+                                    <MadCap:snippetText src="Days_leeway_1.flsnp" />
+                                </p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">
+                                    <MadCap:snippetText src="Days_leeway_2.flsnp" />
+                                </p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">
+                                    <MadCap:snippetText src="Days_leeway_3.flsnp" />
+                                </p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Zie: <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Setting_reschedule_options/Critical_path_integrity.htm">Checken van de integriteit van het kritieke pad bij het herberekenen</a>.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Instellingen</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Klik op deze knop om het <b>Instellingen Herberekeningsrapport</b> dialoogvenster op te roepen. U gebruikt dit dialoogvenster om te specificeren of er herberekeningsrapporten moeten worden geproduceerd, en hoe deze zijn geconfigureerd.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Zie: <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Reschedule_errors/Reschedule_reports.htm">Maken en bekijken van herberekeningsrapporten</a>.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Weergave</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Dit veld geeft aan of ingesteld is dat herberekeningsrapporten worden geproduceerd, en zo ja, hoe ze zijn geconfigureerd :</p>
+                                <ul type="disc">
+                                    <li class="p">Uit - er worden geen herberekeningsrapport geproduceerd.</li>
+                                    <li class="p">Tonen - er wordt een herberekeningsrapport weergegeven in uw web browser na elke herberekening.</li>
+                                    <li class="p">Bestand - er wordt een herberekeningsrapport opgeslagen als een log bestand na elke herberekening.</li>
+                                    <li class="p" xmlns="">Tonen, Bestand - er wordt een herberekeningsrapport weergegeven in uw web browser en opgeslagen als een log bestand na elke herberekening.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Automatisch herberekenen</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">
+                                <p class="ParagraphsInTables">Specificeer of <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> de huidige view, de huidige groep (dus het in de Project View geselecteerde (sub-)project), of het gehele programma van projecten automatisch herberekent, elke keer dat u een wijziging aanbrengt die erin resulteert dat één of meerdere taken worden verplaatst. Selecteer Herberekenen view om te configureren dat <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> de huidige view automatisch herberekent, elke keer dat u een wijziging aanbrengt die erin resulteert dat één of meerdere taken worden verplaatst of van grootte worden veranderd. Selecteer Herberekenen alles om te configureren dat <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> het volledige programma van projecten automatisch herberekent. Selecteer Herberekenen groep om  de huidige groep automatisch te herberekenen. Of selecteer Uit wanneer u niet wilt dat <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> automatisch herberekent elke keer dat u een wijziging aanbrengt.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Automatisch herberekenen is meest nuttig bij kleinere projecten: hoe groter een project wordt, des te meer tijd het kost om het project te herbereken. Wanneer u automatische herberekening wilt activeren in een groter project, is het aan te bevelen dat u <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> configureert om alleen de huidige view of huidige groep te herberekenen, in plaats van het gehele programma van projecten, omdat dit dan na elke wijziging veel minder tijd kost.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Zie: <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Reschedule_automatically/Reschedule_automatically.htm" xmlns="">Configureer  <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> voor automatische herberekening</a>.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

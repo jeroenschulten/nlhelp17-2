@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Als u beide velden leeg laat, wordt alle informatie afgedrukt; als u het <b>Vanaf</b> veld leeg laat, wordt informatie afgedrukt vanaf de startdatum van het project tot de <b>Tot</b> datum ; als u de <b>Tot</b>-datum leeg laat, wordt informatie afgedrukt vanaf de <b>Vanaf</b>-datum tot de einddatum van het project.</p>
+    </body>
+</html>

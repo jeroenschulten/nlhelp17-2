@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="868" MadCap:lastWidth="867">
+    <head>
+        <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table class="TableStyle_Table_Stylesheet" style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');caption-side: top;margin-left: 0;margin-right: auto;" cellspacing="0">
+            <col style="width: 19px;" />
+            <col />
+            <thead>
+                <tr>
+                    <th class="TableStyle_Table_Stylesheet_Head_0_0_RowSep_ColSep">Veld</th>
+                    <th class="TableStyle_Table_Stylesheet_Head_0_0_RowSep_ColEnd">Omschrijving</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColSep" style="font-weight: bold;">Cumulatieve aangevraagde inspanning</td>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColEnd">De hoeveelheid aangevraagde inspanning dat is geregistreerd op de taak en haar onderliggende taken.</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColSep" style="font-weight: bold;">Cumulatieve ingeplande inspanning</td>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColEnd">De hoeveelheid ingeplande inspanning dat is geregistreerd op de taak en haar onderliggende taken.</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColSep" style="font-weight: bold;">Cumulatieve inspanning tijdseenheid</td>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColEnd">De tijdseenheid waarin de cumulatieve inspanningswaarden worden weergegeven.</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColSep" style="font-weight: bold;">Cumulatieve kosten</td>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColEnd">De kosten die zijn geregistreerd op de taak en haar onderliggende taken.</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColSep" style="font-weight: bold;">Cumulatieve inkomsten</td>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColEnd">De inkomsten die zijn geregistreerd op de taak en haar onderliggende taken.</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColSep" style="font-weight: bold;">Werkelijke cumulatieve hoeveelheid</td>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColEnd">De hoeveelheid die is voltooid voor de taak en haar onderliggende taken.</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColSep" style="font-weight: bold;">Cumulatieve hoeveelheid resterend</td>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColEnd">De hoeveelheid die nog moet worden voltooid van de taak en haar onderliggende taken.</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColSep" style="font-weight: bold;">Werkelijk cumulatief werk</td>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColEnd">Het werk dat is voltooid van de taak en haar onderliggende taken.</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColSep" style="font-weight: bold;">Cumulatief werk resterend</td>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColEnd">Het werk dat nog moet worden voltooid bij de taak en haar onderliggende taken.</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColSep" style="font-weight: bold;">Werkelijke cumulatieve inspanning</td>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColEnd">De inspanning die is voltooid van de taak en haar onderliggende taken.</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColSep" style="font-weight: bold;">Cumulatieve inspanning resterend</td>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColEnd">De inspanning die nog moet worden voltooid van de taak en haar onderliggende taken.</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColSep" style="font-weight: bold;">Cumulatieve inspanning percentage voltooid</td>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColEnd">Het percentage van de benodigde inspanning dat voltooid is bij de taak en haar onderliggende taken.</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColSep" style="font-weight: bold;">Cumulatief werk percentage voltooid</td>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColEnd">Het percentage van de benodigde werk dat voltooid is bij de taak en haar onderliggende taken.</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColSep" style="font-weight: bold;">Cumulatieve hoeveelheid percentage voltooid</td>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColEnd">Het percentage van de benodigde hoeveelheid dat voltooid is bij de taak en haar onderliggende taken.</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColSep" style="font-weight: bold;">Cumulatieve duur</td>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColEnd">De duur van de taak en haar onderliggende taken.</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColSep" style="font-weight: bold;">Werkelijke cumulatieve duur</td>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColEnd">De duur van de taak en haar onderliggende taken dat is voltooid.</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColSep" style="font-weight: bold;">Cumulatieve duur percentage voltooid</td>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowSep_ColEnd">Het percentage van de duur van de taak en haar onderliggende taken dat is voltooid.</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowEnd_ColSep" style="font-weight: bold;">Berekende voortgangsdatum</td>
+                    <td class="TableStyle_Table_Stylesheet_Body_0_0_RowEnd_ColEnd">De effectieve voortgangsdatum van een samenvattingstaak of niveautaak, berekend vanuit het percentage voltooid en de duur van de taak.</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

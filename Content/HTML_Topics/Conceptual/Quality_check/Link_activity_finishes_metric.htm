@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="nl" MadCap:conditions="Powerproject_Easyplan.Powerproject_only,Powerproject_Easyplan.V17_Link_activity_finishes_metric" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="KLAAR-V17">
+    <head><title>'Linkactiviteit eindigt' kwaliteitscriterium</title>
+        <link href="../../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>'Linkactiviteit eindigt' kwaliteitscriterium</h1>
+        <p>U gebruikt dit kwaliteitscriterium om het aandeel taken te checken dat minstens één uitgaande link heeft die start aan het einde van de taak. Een hoog aandeel nauwelijks-gelinkte taken kan erop wijzen dat de linklogica van de planning foutief is. </p>
+        <p>Als een balk meer dan één taak bevat, wordt een taak geacht te zijn gelinkt aan zijn onmiddellijke opvolgertaken op de balk door middel van een "impliciete link", zelfs als er geen daadwerkelijke link bestaat tussen de taken, tenzij de balk is geconfigureerd om taken toe te staan te overlappen. Dit kwaliteitscriterium behandelt impliciete links op dezelfde manier als normale links.</p>
+        <p>De eindtaak van een project zal geen opvolgertaken hebben. U kunt ervoor kiezen om de eindtaak van een  project uit te sluiten bij dit kwaliteitscriterium. <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_46.flsnp" /> Schakel het <b>Toestaan eindtaak</b> selectievakje in om de eindtaak  uit te sluiten bij dit kwaliteitscriterium. <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_47.flsnp" /></p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Voorbeelden van taken zonder uitgaande links die starten aan het einde van de taak</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In de volgende afbeelding hebben Task 1 en Task 5 helemaal geen uitgaande links; Task 2 heeft één uitgaande link, maar begint niet aan het einde van de taak. Alle drie de taken zouden niet voldoen aan dit kwaliteitscriterium. Hoewel de eerste taak op de Task 4-balk geen uitgaande links heeft, is er een "impliciete link" tussen de taak en de tweede taak op de balk, wat betekent dat het kwaliteitscriterium niet zal mislukken:</p>
+                <p>
+                    <img src="../../../Graphics/Quality_check/linkactivityfinishes.png" alt="Tasks 1, 2 and 5 have no outgoing links that start at the end of the task" />
+                </p>
+                <p>Wanneer het <b>Toestaan eindtaak</b> selectievakje ingeschakeld zou zijn, zal omdat er meerdere taken zijn zonder uitgaande links die starten aan het einde van de taak, zullen Task 1, Task 2 en Task 5 nog steeds falen voor dit kwaliteitscriterium.</p>
+                <p>In de volgende illustratie is Taak 5 de enige taak zonder uitgaande links(zoals in de bovenstaande afbeelding heeft de eerste taak op de Taak 4-balk een "impliciete link" tussen deze en de tweede taak op de balk):</p>
+                <p> <img src="../../../Graphics/Quality_check/linkactivityfinishes1.png" alt="Task 5 has no outgoing links that start at the end of the task" /></p>
+                <p>Als het selectievakje <b>Toestaan eindtaak</b> is ingeschakeld, aangezien er slechts één taak zonder uitgaande links is die aan het einde van de taak begint, zou taak 5 - de eindtaak - worden uitgesloten van dit kwaliteitscriterium; als dit selectievakje zou zijn uitgeschakeld, zou taak 5 worden opgenomen en zou dit kwaliteitscriterium niet slagen.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_2.flsnp" />
+        </p>
+        <h2>Slaag en faal criteria</h2>
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Slaagt of faalt?</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Criteria</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #afffaf;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Slaagt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Een project slaagt op dit criterium wanneer het percentage taken met minstens één uitgaande link die start aan het eind van de taak groter is dan of gelijk is aan het slaaggrens percentage. </p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Wanneer bijvoorbeeld de slaaggrens ingesteld stond op 90,00%, zou een project op dit criterium slagen wanneer 90,00% of meer taken minstens één uitgaande link heeft die start aan het eind van de taak.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #ff6464;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Een project faalt op dit criterium wanneer het percentage taken met minstens één uitgaande link die start aan het eind van de taak kleiner is dan het faalgrens percentage. </p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Wanneer bijvoorbeeld de slaaggrens ingesteld stond op 90,00%, zou een project op dit criterium falen wanneer minder dan 90,00% van de taken minstens één uitgaande link heeft die start aan het eind van de taak.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="background-color: #ffaf45;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;">Slaagt noch faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Als het  percentage taken met minstens één uitgaande link die start aan het eind van de taak valt tussen het slaaggrens en het faalgrens percentage, is het resultaat noch geslaagd noch gefaald, maar ligt dat ergens daartussenin.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Voorgestelde instellingen</h2>
+        <ul xmlns="" type="disc">
+            <li>Toestaan eindtaak: ingeschakeld wanneer het domein het gehele project is; uitgeschakeld wanneer  het domein slechts een gedeelte van een project is.</li>
+            <li>Slaaggrens: 90,00%. Een project zal slagen voor dit criterium als 90,00% of meer van de taken minstens één uitgaande link heeft die start aan het eind van de taak.</li>
+            <li>Faalgrens: 90,00%. Een project zal falen voor dit criterium als minder dan 90.00% één uitgaande link die start aan het eind van de taak.</li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_39.flsnp" />
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">taken met minstens één uitgaande link die start aan het eind van de taak</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Slaagt of faalt?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">0.00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">50.00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">89.99%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">90.00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Slaagt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">95.00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Slaagt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1">100.00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Slaagt</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Forceert dit criterium dat het project wordt herberekend?</h2>
+        <p>Nee.</p>
+        <h2>Voorgestelde acties als een project faalt voor dit criterium</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_37.flsnp" />
+        <p><a href="../Starting_work/Linking_tasks/Linking_tasks.htm">Zorg ervoor dat alle falende taken correct worden gelinkt </a>aan hun opvolgers.</p>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="Checking_quality_intro.htm">Introductie over planningskwaliteitchecks</a>
+        </p>
+        <p><a href="../Intro_project_management/Creating_relationships_between_tasks.htm">Relaties tussen taken aanbrengen</a>
+        </p>
+        <p><a href="../Starting_work/Linking_tasks/Linking_tasks.htm">Linken van taken</a>
+        </p>
+    </body>
+</html>

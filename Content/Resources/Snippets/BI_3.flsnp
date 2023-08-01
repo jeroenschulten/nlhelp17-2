@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="376" MadCap:lastWidth="812">
+    <body>
+        <ul type="disc">
+            <li>Full export - exporteert alle gegevens, inclusief tijd-gefaseerde gegevens hetgeen nuttig is voor hulpmiddel-gefocuste gebruikers; om te gebruiken in de meeste situaties.</li>
+            <li>Large - exporteert alle gegevens, exclusief tijd-gefaseerde gegevens.</li>
+            <li>Reduced - exporteert een subset van nuttige gegevens.</li>
+            <li>Earned value - exporteert gegevens die nuttig zijn voor earned value analyse.</li>
+            <li>Timephased - exporteert gegevens die nuttig zijn voor hulpmiddel-gefocuste gebruikers.</li>
+        </ul>
+    </body>
+</html>

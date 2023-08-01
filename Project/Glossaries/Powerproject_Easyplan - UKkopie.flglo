@@ -1,0 +1,2425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlossary>
+  <GlossaryEntry
+    glossTerm="powerproject.Term0"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Access rights</Term>
+    </Terms>
+    <Definition
+      Link="">A mechanism whereby one user can define a subordinate user's access to project information, for example for reasons of confidentiality.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term1">
+    <Terms>
+      <Term>Actual amounts</Term>
+    </Terms>
+    <Definition
+      Link="">The amount of an item that has been done, for example, actual cost, actual effort and actual quantity.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term2"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>ALAP</Term>
+    </Terms>
+    <Definition
+      Link="">An option to position a task as late as possible, without affecting the position of other tasks. The free float period is consumed. Any free float is shown before the task as an indication of how much earlier the task could start.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term3"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Allocation group</Term>
+    </Terms>
+    <Definition
+      Link="">Multiple resource and/or cost allocations that have been saved as a group so that they can be assigned as one. When an allocation group is assigned, each resource and/or cost within the group is displayed as its own allocation on the task for individual editing.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term4">
+    <Terms>
+      <Term>Annotation</Term>
+    </Terms>
+    <Definition
+      Link="">Notes, comments or illustrations on the bar chart.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term5"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Archiving</Term>
+    </Terms>
+    <Definition
+      Link="">The act of moving historical data from a live project into an archive file. You can only archive data if you use Asta Powerproject Enterprise. A project can have more than one archive. You may, for example, want to create a single archive for a project, and update it each time you archive data. Alternatively, you may want to create a different archive each time you archive data. Archives can be located in a different data source to the corresponding projects, provided that each archive is located on the same Enterprise server as the project. Data from any baselines that are associated with a project is archived into a separate baseline archive. As with project archives, baseline archives can be located in a different data source to the corresponding baseline, provided that each baseline archive is located on the same Enterprise server as the baseline.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term6"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>ASAP</Term>
+    </Terms>
+    <Definition
+      Link="">An option to position a task in its earliest possible position. This is the normal setting for tasks.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term7"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Archive Manager</Term>
+    </Terms>
+    <Definition
+      Link="">An application that Asta Powerproject Enterprise users can use to archive data from their live projects and baselines, and to restore previously-archived data back into their live projects and baselines.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term8"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Licence server</Term>
+    </Terms>
+    <Definition
+      Link="">A server containing one or more Asta Powerproject licences. The number of licences on a server determines the number of Asta Powerproject clients that can be run at the same time. Licences may be available on more than one licence server and clients can search more than one server for an available licence.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term9">
+    <Terms>
+      <Term>Automatic page break</Term>
+    </Terms>
+    <Definition
+      Link="">A page break that you can add to sorted views, that causes a new page on printout each time a sort/group criterion changes. Automatic page breaks appear in the bar chart as a horizontal line, with an appearance that you can specify.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term10"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Backstage view</Term>
+    </Terms>
+    <Definition
+      Link="">Part of the user interface that contains the commands that you use to do things to a project. For example, the Backstage view contains the commands that you use to open, save and print a project. To access the Backstage view, open a project and click the File tab.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term11"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Backward pass</Term>
+    </Terms>
+    <Definition
+      Link="">The reschedule procedure whereby the latest task dates of a plan are calculated.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term12">
+    <Terms>
+      <Term>Bar</Term>
+    </Terms>
+    <Definition
+      Link="">A line across the spreadsheet and bar chart, which may have a name and can comprise one task, several tasks or no tasks.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term13">
+    <Terms>
+      <Term>Bar chart</Term>
+    </Terms>
+    <Definition
+      Link="">A graphical chart on which activities are represented as tasks drawn to a common time scale, connected by links drawn as arrows.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term14">
+    <Terms>
+      <Term>Bar chart window</Term>
+    </Terms>
+    <Definition
+      Link="">A tab or window that can be split into up to three panes showing the project view, the spreadsheet and the bar chart. The panes are synchronized, for example if you open a subchart in the bar chart pane the project view updates to highlight the chart now displayed and the spreadsheet updates to display data in the current chart.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term15"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Baseline</Term>
+    </Terms>
+    <Definition
+      Link="">A record of all or any part of a project at a particular point in time. You can open a baseline as a separate project, or display it within its original project to compare the baselined tasks against the current plan. If you have built up a portfolio of projects within one file by identifying that individual charts and summary groups are projects themselves, you can associate a different baseline with each individual project. Once a baseline has been associated with a project, it is known as a 'project baseline'. From version 15.0.01 onwards, new baselines can be embedded within the project, making it easy to distribute projects along with their baselines.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term16"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Book in/book out</Term>
+    </Terms>
+    <Definition
+      Link="">The process of taking ownership of sections of a project for independent editing, then incorporating the edited sections back into the project to bring it up to date.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term17"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Border</Term>
+    </Terms>
+    <Definition
+      Link="">A file containing a frame for outputting the active view. You could design a border to include your company logo, project data and other text or graphics. You create and edit borders in Powerdraw. You can embed border files within your projects. Embedding a border file in a project means that the border file can always be used for printing when the project is distributed, without the need to distribute the original border file itself separately.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term18">
+    <Terms>
+      <Term>Branch</Term>
+    </Terms>
+    <Definition
+      Link="">A part of the project hierarchy originating from a single chart. A branch contains all the subordinate tasks at all lower levels of the hierarchy.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term19"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Bucket planning</Term>
+    </Terms>
+    <Definition
+      Link="">See Nonlinear assignment.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term20"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Buffer task</Term>
+    </Terms>
+    <Definition
+      Link="">Also known as 'contingency tasks', these can be used within projects to protect important dates and reduce excess float. Buffer tasks, which do not have float, instead shrink or expand in size as required without moving beyond their finish date, or the start date of successor tasks. There are two types of buffer task: project buffer tasks, which protect an finish date that you specify, and feeder buffer tasks, which protect the start date of successor tasks.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term21"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Calculated parameter</Term>
+    </Terms>
+    <Definition
+      Link="">The value that is calculated for a modelled resource allocation.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term22">
+    <Terms>
+      <Term>Calendar</Term>
+    </Terms>
+    <Definition
+      Link="">A named record of dates defining when working or non-working time (such as holidays, weekends and overtime) take place. A project can contain many calendars, each with different working and non-working periods.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term23"
+    conditions=""
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Chart</Term>
+    </Terms>
+    <Definition
+      Link="">All the bars owned by an expanded bar, and all the bars in the topmost level of a project. A chart may contain further nested charts. See also Summary group.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term24"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Client</Term>
+    </Terms>
+    <Definition
+      Link="">The computer and software system that runs the user's interface to the application on the server.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term25"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Client/server computing</Term>
+    </Terms>
+    <Definition
+      Link="">A computer system where a client computer, a server computer, and a network connecting the two share the computing workload of an application. The client and server may have different levels of processing power - they share the computing workload.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term26">
+    <Terms>
+      <Term>Clipboard</Term>
+    </Terms>
+    <Definition
+      Link="">A temporary storage area used to transfer information within and between programs. The Cut and Copy commands transfer items to the Clipboard, and the Paste command inserts the items that are on the Clipboard back into the active window.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term27">
+    <Terms>
+      <Term>Code</Term>
+    </Terms>
+    <Definition
+      Link="">Colour codes that can be assigned to bars, tasks and allocations in a project. You can use the codes to sort/group and filter tasks for views and reporting. Codes are stored within code libraries. Depending on the way in which each code library has been set up, you may be able to assign more than one code from each library to an object.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term28">
+    <Terms>
+      <Term>Code library</Term>
+    </Terms>
+    <Definition
+      Link="">A hierarchical collection of codes that can be assigned to bars, tasks or allocations to allow sorting and classification of tasks. See also Code.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term29"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Concatenate</Term>
+    </Terms>
+    <Definition
+      Link="">To add things together as in a series or chain. You can concatenate filter subheadings, to join together multiple subheadings so that they are displayed on a single line rather than on separate lines.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term30"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Constraint flag</Term>
+    </Terms>
+    <Definition
+      Link="">A reschedule feature that allows a task to start or finish on, before or after a specific date. Also known as start flags and finish flags.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term31">
+    <Terms>
+      <Term>Consumable resource</Term>
+    </Terms>
+    <Definition
+      Link="">A resource that is depleted by its use in a project. Once a quantity of a consumable resource has been assigned to a task that quantity cannot be used again. Tasks in a project can consume or supply consumable resources.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term32">
+    <Terms>
+      <Term>Contiguous tasks</Term>
+    </Terms>
+    <Definition
+      Link="">Adjacent tasks on a bar, where the tasks are touching end-to-end except when separated by non-working time.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term33">
+    <Terms>
+      <Term>Cost</Term>
+    </Terms>
+    <Definition
+      Link="">An amount of money associated with a particular task. All costs have an associated cost centre. Costs can be expenditure from a cost centre or they can provide income to a cost centre.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term34"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Cost Breakdown Structure</Term>
+    </Terms>
+    <Definition
+      Link="">The hierarchy that results from having cost centres as headings, with tasks that have costs being listed under the appropriate cost centre headings. When a task has costs from more than one cost centre, the task is listed more than once.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term35">
+    <Terms>
+      <Term>Cost centre</Term>
+    </Terms>
+    <Definition
+      Link="">Cost centres are like funds; they are a way of grouping related costs together. Tasks can use money from (expenditure) or supply money to (income) a cost centre. You can create as many cost centres as you need.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term36"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Critical path</Term>
+    </Terms>
+    <Definition
+      Link="">A sequence of critical tasks spanning the project from start to finish.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term37"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Critical task</Term>
+    </Terms>
+    <Definition
+      Link="">A task without float. If a critical task is delayed or extended, it will delay or extend the completion of the project.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term38"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Cross-chart link</Term>
+    </Terms>
+    <Definition
+      Link="">A link between two tasks in different charts.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term39">
+    <Terms>
+      <Term>CSV</Term>
+    </Terms>
+    <Definition
+      Link="">The comma-separated file format in which records are stored as text, with each new record beginning on a new line, and fields of data within each record separated by a comma.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term40"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Current baseline</Term>
+    </Terms>
+    <Definition
+      Link="">A baseline that has been marked as 'current' using the Baseline/What If Manager dialog. You can configure spreadsheet fields to display information from whichever baseline is marked as being the current baseline.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term41"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Data source</Term>
+    </Terms>
+    <Definition
+      Link="">A database or directory in which Asta Powerproject projects and group projects may be stored. One data source can contain many projects and group projects. Data sources can be in either Oracle® or Microsoft SQL Server® format.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term42"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Database server</Term>
+    </Terms>
+    <Definition
+      Link="">The computer and software system responsible for managing Asta Powerproject's database access. The database server may be run from the same computer as the Asta Powerproject server.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term43"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Date zero</Term>
+    </Terms>
+    <Definition
+      Link="">The date at which you want unit numbering to begin in the date zone. Setting a "date zero" is useful if you want to set up a line in the date zone showing elapsed days and have it start numbering from a specific date. Each view can have its own individual "date zero" - specified in the Date zero field on the Dates/Scales tab of the Date Zone Properties dialog. You can configure spreadsheet cells that display 'Date/Time'-type fields to display the time period between the 'date zero' that you specify and the date or time that the field represents, measured in elapsed days, elapsed weeks or elapsed months.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term44">
+    <Terms>
+      <Term>Date zone</Term>
+    </Terms>
+    <Definition
+      Link="">An area along the top of the bar chart displaying dates and time unit numbers. The date zone can have up to three horizontal scales so that you could show the past and the future at a small scale, but show the current month's work at a larger scale.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term45">
+    <Terms>
+      <Term>Default</Term>
+    </Terms>
+    <Definition
+      Link="">A value used the first time an action is carried out when no user-entered value is available. That is, a preset value.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term46"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Demand allocation</Term>
+    </Terms>
+    <Definition
+      Link="">Demand resource allocations indicate a task's requirement for a particular skill. For example, a task may require 30 Bricklayer days of effort. Demand resource allocations are satisfied by scheduled resource allocations which assign resources with the required skill to the task.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term47"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Destination project</Term>
+    </Terms>
+    <Definition
+      Link="">The project into which you book out tagged objects. See also Master project.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term48"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Devolved allocation</Term>
+    </Terms>
+    <Definition
+      Link="">A resource allocation whose effort is subtracted from another existing allocation (usually a parent allocation).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term49">
+    <Terms>
+      <Term>Direct cost</Term>
+    </Terms>
+    <Definition
+      Link="">A cost assigned directly from a cost centre to a task. A direct cost can be a fixed amount, a variable amount based on the duration of the task, or a variable amount based on the amount of work on the task.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term50"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Displaced items</Term>
+    </Terms>
+    <Definition
+      Link="">Items that no longer have a place within a project as the chart or summary group in which they were located has been archived. Although displaced items will normally only occur in baselines - and then, only rarely - it is possible for displaced items to appear in a live project in some circumstances. For example, if you archive data from a project and its baselines and the archive results in items in a baseline becoming displaced, then you revert to the baseline, the displaced items will then appear in the project itself.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term51"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Drag and drop</Term>
+    </Terms>
+    <Definition
+      Link="">A mouse action where an item is dragged from one location then dropped on another. For example, you can assign resources, costs, codes and calendars by dragging them from Library Explorer and dropping them onto specific tasks.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term52">
+    <Terms>
+      <Term>Duration</Term>
+    </Terms>
+    <Definition
+      Link="">The estimated or actual time required for the completion of a task or resource allocation.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term53"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Duration-driven</Term>
+    </Terms>
+    <Definition
+      Link="">A duration-driven resource allocation means that the duration of the task to which the resource is assigned determines the length of time the resource works for on the task. The resource will always work for the entire task duration (excluding non-working periods such as holidays and weekends).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term54">
+    <Terms>
+      <Term>Early finish date</Term>
+    </Terms>
+    <Definition
+      Link="">The earliest possible time by which a task can finish within the logical and imposed constraints of the plan.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term55">
+    <Terms>
+      <Term>Early start date</Term>
+    </Terms>
+    <Definition
+      Link="">The earliest possible time by which a task can start within the logical and imposed constraints of the plan.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term56">
+    <Terms>
+      <Term>Effort</Term>
+    </Terms>
+    <Definition
+      Link="">The amount of a resource assigned to a task multiplied by the length of time the resource is assigned. For example, it takes 2 Writers 5 days or 1 Writer 10 days to do 10 Writer days of effort.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term57">
+    <Terms>
+      <Term>Elapsed accounting period</Term>
+    </Terms>
+    <Definition
+      Link="">A default time unit that relates to a 28 day period that starts on the start date of the project.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term58">
+    <Terms>
+      <Term>Elapsed time</Term>
+    </Terms>
+    <Definition
+      Link="">Durations that include both working and non-working time. For example, a task might have a duration of 2 elapsed weeks while the task's working duration is 10 working days.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term59"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Enterprise server</Term>
+    </Terms>
+    <Definition
+      Link="">The computer and software system responsible for providing most of Asta Powerproject Enterprise's functionality to the Asta Powerproject clients. The Enterprise server may be run from the same computer as the database server.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term60"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Estimate task</Term>
+    </Terms>
+    <Definition
+      Link="">A task whose resource allocations are all demand resource allocations. An estimate task represents an activity that is planned to happen at some time in the future and indicates a possible need for resources.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term61">
+    <Terms>
+      <Term>Exception</Term>
+    </Terms>
+    <Definition
+      Link="">An irregular period of working or non-working time, such as overtime, holidays and hospital appointments. You mark exceptions against days in your calendars.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term62">
+    <Terms>
+      <Term>Expanded task</Term>
+    </Terms>
+    <Definition
+      Link="">A task that contains charts or tasks lower in the chart hierarchy. The position and duration of an expanded task is determined by the charts or tasks contained within it.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term63"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Feeder buffer task</Term>
+    </Terms>
+    <Definition
+      Link="">A task that can be used in a project to protect the start date of successor tasks. Feeder buffer tasks, which do not have float, instead shrink or expand in size as required without delaying the start date of successor tasks. Feeder buffer tasks will only delay the start date of successor tasks once they are completely consumed. Feeder buffer tasks differ from project buffer tasks in that they have one or more outgoing links, or a task to the right on the same bar, and they do not have a deadline flag applied to them.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term64"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Field</Term>
+    </Terms>
+    <Definition
+      Link="">A string that refers to a piece of project data that can be included in a spreadsheet column or text annotation. The field is replaced with the correct project information. For example the project start date field would be replaced with a real date such as July 18 2019.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term65">
+    <Terms>
+      <Term>Filter</Term>
+    </Terms>
+    <Definition
+      Link="">A named set of conditions that defines a subset of the project. For example, you could filter all tasks with allocations of a particular resource, or all tasks taking place between May and October. You can apply filters to views and to tabular reports.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term66"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Fixed task set</Term>
+    </Terms>
+    <Definition
+      Link="">A chart or subchart that a user is able to move around the project hierarchy, but is not able to edit. You define a chart as a fixed task set for one or more users by editing the security group of which the users are a member and changing the access rights for that chart.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term67"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Float</Term>
+    </Terms>
+    <Definition
+      Link="">The period by which a task can be delayed without affecting other tasks or the project finish date. Some tasks may have negative float which indicates the amount of time that must be saved to prevent other tasks from being delayed. Negative float is usually caused by conflicting constraints on tasks.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term68">
+    <Terms>
+      <Term>Folding</Term>
+    </Terms>
+    <Definition
+      Link="">Removing non-working periods from the bar chart display so that only working periods are shown.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term69"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Force critical</Term>
+    </Terms>
+    <Definition
+      Link="">An option to force a task to be critical. This is usually used to mark tasks indicating sectional completion. This option has no effect on tasks that are already critical or have negative float.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term70"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Forward pass</Term>
+    </Terms>
+    <Definition
+      Link="">The reschedule procedure whereby the earliest task dates of a plan are calculated.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term71"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Fragnet</Term>
+    </Terms>
+    <Definition
+      Link="">See Task pool.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term72"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Free float</Term>
+    </Terms>
+    <Definition
+      Link="">The period by which a task can be delayed, brought forward or extended without affecting any other tasks, or the project finish date.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term73"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Future bucket planning</Term>
+    </Terms>
+    <Definition
+      Link="">See Nonlinear assignment.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term74">
+    <Terms>
+      <Term>Graduated task colour</Term>
+    </Terms>
+    <Definition
+      Link="">An optional task attribute used to convey information at a glance. For example you could specify that a task net profit of -£10,000 or less could be solid red, a profit of £0 could be solid white, and a profit of £5000 or more could be solid black. A task with a loss of £2000 would then be drawn using a slight red tint, and one with a profit of £2,500 would be drawn in a medium grey. You can see the approximate cost of tasks at a glance without the need for any figures.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term75">
+    <Terms>
+      <Term>Graph</Term>
+    </Terms>
+    <Definition
+      Link="">Visual display (as a line or area) of resource or cost centre information on a histogram.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term76">
+    <Terms>
+      <Term>Grid</Term>
+    </Terms>
+    <Definition
+      Link="">Vertical lines drawn on the bar chart at regular intervals (for example every week or every 10 days) to improve readability. You can also draw grid lines at specific dates.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term77">
+    <Terms>
+      <Term>Group</Term>
+    </Terms>
+    <Definition
+      Link="">Organising bars, tasks, library objects or allocations in a particular order. For example, you could group tasks by their start date or cost.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term78"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Group project</Term>
+    </Terms>
+    <Definition
+      Link="">A single file containing one or more related projects with shared access to project level information such as libraries. A data source can contain one or more group projects.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term79">
+    <Terms>
+      <Term>Half link</Term>
+    </Terms>
+    <Definition
+      Link="">A link between two tasks where only one end of the link is displayed in the current view.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term80"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Hammock</Term>
+    </Terms>
+    <Definition
+      Link="">A task that gives an overview of tasks which may be dispersed throughout the project.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term81"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Hierarchy</Term>
+    </Terms>
+    <Definition
+      Link="">Organisation structure with grades or classes ranked one above the other with a single entity at the topmost level. Specifically, this term refers to the organisation of tasks where the tasks on one level are summarised by the tasks on the level above, and the programme is the topmost level. In addition to this task hierarchy, there is also a hierarchy of Library Explorer objects such as resources, codes and calendars.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term82"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Histogram</Term>
+    </Terms>
+    <Definition
+      Link="">One or more graphs presenting a visual display of the usage of resources or costs, of task work, or of the days on which activities are scheduled during a project.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term83"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Holding pin</Term>
+    </Terms>
+    <Definition
+      Link="">A constraint flag that ensures that a task can be moved to a later date but cannot be moved to an earlier date when you reschedule the project; if the task is moved, the pin moves with the task. The main purpose of the Holding Pin constraint is to hold unlinked tasks in place in a schedule.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term84">
+    <Terms>
+      <Term>Holiday</Term>
+    </Terms>
+    <Definition
+      Link="">A type of non-working period.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term85">
+    <Terms>
+      <Term>HTML</Term>
+    </Terms>
+    <Definition
+      Link="">The Hypertext Markup Language which is used for formatting text and graphics for publication on the internet, intranets and extranets.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term86"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Interruptible task</Term>
+    </Terms>
+    <Definition
+      Link="">Tasks that have at least two incoming links, one of which constrains the start of the task and one of which constrains the finish of the task, in which work can be interrupted at some point before the finish of the task, that have been marked as interruptible. Tasks that meet these criteria that have not been marked as interruptible tasks are known as potentially interruptible tasks.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term87"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Lag</Term>
+    </Terms>
+    <Definition
+      Link="">A delay between the finish of one task and the start of its successor task. A link has lag if it has lead/lag at the link start greater than zero, or lead/lag at the link end less than zero. You can specify minimum and maximum lag periods. See also Lead.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term88">
+    <Terms>
+      <Term>Late finish date</Term>
+    </Terms>
+    <Definition
+      Link="">The latest possible time by which an activity must finish, within the logical and imposed constraints of the plan, without affecting the total project duration.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term89">
+    <Terms>
+      <Term>Late start date</Term>
+    </Terms>
+    <Definition
+      Link="">The latest possible time by which an activity must start, within the logical and imposed constraints of the plan, without affecting the total project duration.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term90"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Lead</Term>
+    </Terms>
+    <Definition
+      Link="">A period that one task has already worked for before its successor task starts, resulting in the two tasks overlapping until either task finishes. A link has lead if it has lead/lag at the link start less than zero, or lead/lag at the link end greater than zero. See also Lag.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term91"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Lead resource</Term>
+    </Terms>
+    <Definition
+      Link="">The resource or cost centre that represents the "main" allocation against a task.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term92">
+    <Terms>
+      <Term>Legend</Term>
+    </Terms>
+    <Definition
+      Link="">A key to bar chart or histogram features which can be included on output.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term93"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Library Explorer</Term>
+    </Terms>
+    <Definition
+      Link="">An organisational tool for viewing and editing libraries and library objects, for example resources, cost centres and calendars.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term94">
+    <Terms>
+      <Term>Line numbers column</Term>
+    </Terms>
+    <Definition
+      Link="">The column at the left-hand edge of the spreadsheet, displaying bar numbers. You can select a whole bar by clicking its number in the line numbers column.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term95"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Line of Balance</Term>
+    </Terms>
+    <Definition
+      Link="">A type of graph that is used to analyse and plan work or production rates in groups of tasks in which repeated work items are drawn with a series of linked steps to plan a single deliverable - 'unit networks'.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term96">
+    <Terms>
+      <Term>Link</Term>
+    </Terms>
+    <Definition
+      Link="">A logical connection between two tasks indicating a dependency between the tasks. Links dictate the sequence in which tasks can be carried out.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term97">
+    <Terms>
+      <Term>Link loop</Term>
+    </Terms>
+    <Definition
+      Link="">A logical error in a plan whereby a link or series of links results in a later task imposing a logical constraint on an earlier task.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term98"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>LOB</Term>
+    </Terms>
+    <Definition
+      Link="">See Line of Balance.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term99"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Locked object</Term>
+    </Terms>
+    <Definition
+      Link="">An object that is selected or being edited by a user of another Asta Powerproject client. A locked object remains locked until the user saves or abandons their changes. Other users cannot edit the object while it is locked.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term100"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Lockout</Term>
+    </Terms>
+    <Definition
+      Link="">The locking of a project, performed using the Asta Powerproject server command prompt. When users are locked out of a project, they cannot edit or save the project, and no new users can access the project. You may find this useful if you want to make changes to a project while being sure that no other user is able to change things in the project at the same time.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term101"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Logical precedence</Term>
+    </Terms>
+    <Definition
+      Link="">The position of a task in relation to its predecessor tasks (those that link to it). The logical precedence is set when you reschedule a project. For example, if Task B is linked to Task A, and Task A is the first task in the link chain, Task A will have a logical precedence of 1 and Task B will have a logical precedence of 2.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term102"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Macro</Term>
+    </Terms>
+    <Definition
+      Link="">An automated procedure that you invoke to carry out a task. You can write macros using Microsoft Visual Basic or Microsoft Visual Basic for Applications.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term103">
+    <Terms>
+      <Term>Manual page break</Term>
+    </Terms>
+    <Definition
+      Link="">A page break that you can add to any bars in a project, that causes a new page on printout. Manual page breaks appear in the bar chart as a horizontal line, with an appearance that you can specify.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term104"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Master project</Term>
+    </Terms>
+    <Definition
+      Link="">The project from which you book out tagged objects. See also Destination project.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term105"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Merging</Term>
+    </Terms>
+    <Definition
+      Link="">The act of updating an existing baseline with changes that have been made to a project since the baseline was created (as opposed to creating a new baseline).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term106">
+    <Terms>
+      <Term>Milestone</Term>
+    </Terms>
+    <Definition
+      Link="">A task with a duration of zero, used to highlight important events or outside influences on a project.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term107">
+    <Terms>
+      <Term>Natural order hierarchy</Term>
+    </Terms>
+    <Definition
+      Link="">The order in which you explicitly create or place bars and tasks. Tasks that summarise other bars or expand into subcharts can be created in a hierarchical fashion.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term108"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Negative float</Term>
+    </Terms>
+    <Definition
+      Link="">Time that a task must make up to stay on schedule. A task with negative float is said to be super-critical.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term109"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Nonlinear assignment</Term>
+    </Terms>
+    <Definition
+      Link="">An allocation in which work or cost occurs sporadically, or at varying levels of effort, quantity or cost. For permanent resource allocations, consumable resource allocations and cost allocations, you can plan nonlinear assignment using resource curves, which you can configure to accurately represent the varying levels of effort, quantity or cost across the duration of the allocations to which the resource curve is assigned. In the case of permanent resource allocations, you can also plan nonlinear assignment using individual allocation profiles, which act in a similar way to resource curves but which apply to individual allocations only.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term110">
+    <Terms>
+      <Term>Non-working period</Term>
+    </Terms>
+    <Definition
+      Link="">A period marked on a calendar during which no work can be carried out. Typical non-working periods are weekends and vacations.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term111"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Object linking and embedding (OLE)</Term>
+    </Terms>
+    <Definition
+      Link="">A way for one program to take control of another, performing operations in the second program as if it were an extension of the first. You can write macros to take advantage of the OLE support in Asta Powerproject.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term112"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>OLE annotation</Term>
+    </Terms>
+    <Definition
+      Link="">An annotation that displays a file or object created and stored within another program. For example, you could create OLE annotations to display live spreadsheet data, play an audio file or run a video file.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term113"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>One-task-per-line-mode</Term>
+    </Terms>
+    <Definition
+      Link="">A display mode where each task on a bar is displayed on a separate line in the bar chart.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term114">
+    <Terms>
+      <Term>Overtime</Term>
+    </Terms>
+    <Definition
+      Link="">An irregular working period.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term115">
+    <Terms>
+      <Term>Page break</Term>
+    </Terms>
+    <Definition
+      Link="">An entity that causes a new page on printout. There are two types of page break: manual page breaks and automatic page breaks.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term116">
+    <Terms>
+      <Term>Percentage complete</Term>
+    </Terms>
+    <Definition
+      Link="">The percentage of a task or allocation that is complete. See also Progress.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term117"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Percentage likelihood</Term>
+    </Terms>
+    <Definition
+      Link="">The likelihood, in percentage terms, of a project actually going ahead. You can choose whether or not to apply recorded percentage likelihoods to histograms. If you apply percentage likelihoods to a histogram, the effort, quantity, cost and income of the affected projects are adjusted accordingly.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term118">
+    <Terms>
+      <Term>Permanent resource</Term>
+    </Terms>
+    <Definition
+      Link="">A resource that is not depleted by its use in the project. Once a permanent resource has finished work on a task it is available to work on other tasks in the project. People and equipment are examples of permanent resources.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term119"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Portfolio</Term>
+    </Terms>
+    <Definition
+      Link="">A number of individual projects within one file that share common attributes, such as the resource pool and code libraries. You create a portfolio of projects by identifying that individual charts and summary groups are projects themselves.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term120"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Potentially interruptible task</Term>
+    </Terms>
+    <Definition
+      Link="">Tasks that have at least two incoming links, one of which constrains the start of the task and one of which constrains the finish of the task, in which work can be interrupted at some point before the finish of the task, that have not been marked as interruptible tasks.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term121">
+    <Terms>
+      <Term>Predecessor task</Term>
+    </Terms>
+    <Definition
+      Link="">A task that must start or finish before another (successor) task can start or finish.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term122"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Principal object</Term>
+    </Terms>
+    <Definition
+      Link="">An object that you manually tag for booking out. A principal object may be referenced by other objects which Asta Powerproject automatically tags to ensure that the principal object has the same attributes and allocations in the destination project.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term123">
+    <Terms>
+      <Term>Priority indicator</Term>
+    </Terms>
+    <Definition
+      Link="">A graphical display of the priority of bars, tasks and allocations that you can display in the spreadsheet by inserting the Priority field into a column.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term124"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Programme</Term>
+    </Terms>
+    <Definition
+      Link="">The topmost level in the chart hierarchy. The programme summarises the whole project.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term125">
+    <Terms>
+      <Term>Progress</Term>
+    </Terms>
+    <Definition
+      Link="">Progress marks the date up to which a task or allocation is complete. See also Percentage complete.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term126">
+    <Terms>
+      <Term>Progress entry mode</Term>
+    </Terms>
+    <Definition
+      Link="">A mode of working in which you can mark progress on tasks and allocations by clicking and dragging on the bar chart.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term127"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Progress entry period</Term>
+    </Terms>
+    <Definition
+      Link="">The current progress period: the one that is currently being used to mark progress in a project.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term128">
+    <Terms>
+      <Term>Progress period</Term>
+    </Terms>
+    <Definition
+      Link="">A particular time slice during which progress is reported. For example, you might set up a progress period for each month of the year and have each progress period displayed in a different colour so that progress in January is shown in yellow, progress in February is shown in green, and so on.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term129">
+    <Terms>
+      <Term>Progress report line</Term>
+    </Terms>
+    <Definition
+      Link="">A line marking the date to which progress is up-to-date. For example, if a manager updates his project every Monday afternoon but he only marks progress up to the end of the previous Friday, the progress report line will fall at the end of the working day on Friday even though he is actually entering progress on the following Monday.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term130">
+    <Terms>
+      <Term>Project</Term>
+    </Terms>
+    <Definition
+      Link="">An enterprise involving a number of inter-related operations, with a set of objectives usually including time, cost, and quality constraints. You can create a portfolio of projects by identifying that individual charts and summary groups are projects themselves.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term131"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Project baseline</Term>
+    </Terms>
+    <Definition
+      Link="">A baseline that has been associated with an individual project that exists within a portfolio of projects. You can configure spreadsheet fields to display information from project baselines.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term132"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Project buffer task</Term>
+    </Terms>
+    <Definition
+      Link="">A task that can be used in a project to protect a finish date, which you specify. Project buffer tasks, which do not have float, instead shrink or expand in size as required without moving beyond the specified finish date. Project buffer tasks will only move beyond the specified finish date once they are completely consumed. Project buffer tasks differ from feeder buffer tasks in that they have no outgoing links or tasks to the right on the same bar, and they have a deadline flag applied to them when you create them.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term133">
+    <Terms>
+      <Term>Project group</Term>
+    </Terms>
+    <Definition
+      Link="">A chart or summary group in the project view that contains a project somewhere within its hierarchy.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term134"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Project view</Term>
+    </Terms>
+    <Definition
+      Link="">The graphical representation of the project hierarchy, usually the left-most pane of the bar chart window. In Asta Powerproject, a project view is also a view that has been defined by a Asta Powerproject user with specific rights to create such a view. Project views are accessible to all other users in Asta Powerproject.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term135"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Proprietary database</Term>
+    </Terms>
+    <Definition
+      Link="">Elecosoft's own database format which cannot easily be accessed by other tools.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term136">
+    <Terms>
+      <Term>Quick Access toolbar</Term>
+    </Terms>
+    <Definition
+      Link="">A toolbar that normally appears directly above the Ribbon, containing commonly-used commands.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term137">
+    <Terms>
+      <Term>Recurring task</Term>
+    </Terms>
+    <Definition
+      Link="">A task that occurs again and again throughout the duration of a project, for example, weekly team briefings.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term138"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Referencing objects</Term>
+    </Terms>
+    <Definition
+      Link="">Objects which reference another (principal) object. When a principal object is tagged for booking out, Asta Powerproject automatically tags its referencing objects.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term139">
+    <Terms>
+      <Term>Reflected link</Term>
+    </Terms>
+    <Definition
+      Link="">A symbol used to show the existence of a cross chart link between two subcharts or summary groups.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term140">
+    <Terms>
+      <Term>Relational database</Term>
+    </Terms>
+    <Definition
+      Link="">A database that can be accessed by other tools. A relational database is an 'open' format. Microsoft Access and Oracle are examples of relational database formats.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term141"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Reschedule</Term>
+    </Terms>
+    <Definition
+      Link="">A mathematical calculation (critical path analysis) performed on the tasks and links, to ensure that the project is completed in the minimum possible time within the logical and imposed constraints of the plan.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term142"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Reschedule report</Term>
+    </Terms>
+    <Definition
+      Link="">A report that you can choose to produce each time you reschedule a project that details the results of the reschedule and any errors and anomalies that have come about as a result of it. You may find it useful to produce reschedule reports for a number of reasons - for example, to locate and resolve link loops, to locate inconsistencies regarding constraints, and to identify the tasks that are on the longest path - ie the critical path - through the project network. The reschedule report is extremely useful for critical path analysis, and provides you with metrics on the quality of planned projects. For example, critical path analysis demands that a project network should have just one start task and just one finish task and that there should be no link loops or out of sequence progress; you can use the reschedule report to identify whether or not this is the case in a project. The reschedule report can be configured to appear in your web browser and to be saved as a log file.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term143">
+    <Terms>
+      <Term>Resource</Term>
+    </Terms>
+    <Definition
+      Link="">Any goods or services required to complete the work of a task; for example, labour, machinery, pipes, water and electricity. Resources can be stored in folders, creating a resource hierarchy.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term144"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Resource-driven</Term>
+    </Terms>
+    <Definition
+      Link="">A resource-driven resource assignment means that the length of time a resource works for on a task is not determined by the duration of the task to which it is assigned. You specify that you want a resource-driven resource assignment using resource modelling.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term145"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Resource allocation profile</Term>
+    </Terms>
+    <Definition
+      Link="">See Nonlinear assignment.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term146"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Resource Breakdown Structure</Term>
+    </Terms>
+    <Definition
+      Link="">A hierarchical structure in which tasks are organised under the resources assigned to them. For example, if three resources are allocated to Task A, in the RBS each resource will be a heading with Task A listed below each heading. Tasks with no resource allocations are not displayed in the RBS.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term147">
+    <Terms>
+      <Term>Resource calendar</Term>
+    </Terms>
+    <Definition
+      Link="">The calendar to which a resource works, irrespective of the calendar on the task to which the resource is assigned.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term148">
+    <Terms>
+      <Term>Resource cost</Term>
+    </Terms>
+    <Definition
+      Link="">A cost associated with a particular resource and assigned to tasks whenever the associated resource is assigned. A resource cost can depend on factors such as the duration of the task, the number of resources assigned to the task and the charge rate of the resource.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term149"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Resource curve</Term>
+    </Terms>
+    <Definition
+      Link="">A library object that can be assigned to resource or cost allocations in order to plan nonlinear assignment - assignments in which work or cost occurs sporadically, or at varying levels of effort, quantity or cost. A resource curve consists of a number of discrete rectangular segments - or 'points' - each of which defines a percentage of duration and a corresponding level of allocation. For example, if a resource curve has ten points, the first segment relates to the first 10% of an allocation's duration and defines the amount of allocation that relates to that segment. You can configure resource curves to accurately represent the varying levels of effort, quantity or cost across the duration of the allocations to which the resource curve is assigned.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term150"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Resource levelling</Term>
+    </Terms>
+    <Definition
+      Link="">The process of adjusting the allocation of resources so that there is no over-allocation. You can level resources by delaying one or more tasks, splitting tasks, or by reducing a task's resource allocation and increasing its duration to compensate.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term151"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Resource modelling</Term>
+    </Terms>
+    <Definition
+      Link="">A way of specifying whether you want a resource allocation to be duration-driven or resource-driven.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term152"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Resource report</Term>
+    </Terms>
+    <Definition
+      Link="">A report based on resource and cost information, which can be displayed graphically or in tabular format. These reports produce output similar to Asta Powerproject's histograms.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term153"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Resource usage view</Term>
+    </Terms>
+    <Definition
+      Link="">A pane in Asta Powerproject that can be used to display the planned or actual assignments for one or more resources or cost centres on a daily, weekly, monthly or quarterly basis. The resource usage view pane appears below the spreadsheet and bar chart, attached to the bottom of them.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term154"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Restoring</Term>
+    </Terms>
+    <Definition
+      Link="">The act of moving previously-archived data from an archive back into a live project. When you restore data back into a project, any corresponding baseline data that has been archived is restored back into the appropriate baselines at the same time. You can only archive and restore data if you use Asta Powerproject Enterprise.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term155"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Reverting</Term>
+    </Terms>
+    <Definition
+      Link="">The act of restoring a project (or specific objects within a project) to the state it was in when the project was baselined, thereby undoing all changes that have been made to the project (or to the specific objects) since that time.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term156"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Ribbon</Term>
+    </Terms>
+    <Definition
+      Link="">The commands that you use while working on a project. The Ribbon is designed to help you find the commands that you need as you work with your projects quickly and easily. The commands are organised in logical groups, which are collected together under tabs. Each tab relates to a type of activity, such as displaying different items in a view or working with allocations.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term157">
+    <Terms>
+      <Term>Ruling line</Term>
+    </Terms>
+    <Definition
+      Link="">Horizontal lines drawn across the bar chart and spreadsheet at regular, or irregular, intervals to improve readability and layout.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term158"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>S-curve</Term>
+    </Terms>
+    <Definition
+      Link="">A project management tool that displays cumulative costs, task progress, hours worked or some other quantity, plotted against time. The name 'S-curve' is derived from the S-like shape that such curves usually display - being flatter at the beginning and end and steeper in the middle. This typical shape is a result of the way in which most projects progress. You can use histograms in Asta Powerproject to produce S-curves.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term159"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Scheduled allocation</Term>
+    </Terms>
+    <Definition
+      Link="">Resource allocations that assign particular resources to tasks, possibly to meet skill requirements specified by a demand resource allocation.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term160"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Scheduling constraints</Term>
+    </Terms>
+    <Definition
+      Link="">A general term for the variety of options that can constrain tasks. For example, start flags and finish flags.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term161">
+    <Terms>
+      <Term>Scope</Term>
+    </Terms>
+    <Definition
+      Link="">The area of the project to which you have access rights, or the area of a project to be used when creating baselines, filters and histograms.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term162">
+    <Terms>
+      <Term>Shift</Term>
+    </Terms>
+    <Definition
+      Link="">A 24 hour period defining the working and non-working times within that 24 hours. A work pattern can consist of any number of shifts.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term163">
+    <Terms>
+      <Term>Snapping</Term>
+    </Terms>
+    <Definition
+      Link="">A bar chart mechanism that allows tasks and links to jump or snap to the nearest specified time unit division.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term164">
+    <Terms>
+      <Term>Sort</Term>
+    </Terms>
+    <Definition
+      Link="">Organising bars, tasks, library objects or allocations in a particular order. For example, you could sort tasks by their start date or cost.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term165">
+    <Terms>
+      <Term>Sort/group</Term>
+    </Terms>
+    <Definition
+      Link="">An entity used to organise bars, tasks, library objects or allocations in a particular order. For example, you could sort/group tasks by their start date or cost. You can apply sorts/groups to views and to tabular reports.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term166">
+    <Terms>
+      <Term>Spreadsheet</Term>
+    </Terms>
+    <Definition
+      Link="">The pane of columns displaying project data on the left of the bar chart. You can add and remove columns, edit cells in the columns and print selected columns or the whole spreadsheet.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term167"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>SQL</Term>
+    </Terms>
+    <Definition
+      Link="">SQL (Structured Query Language) is an international standard text language for manipulating databases. Elecosoft software provides its own query language, TQL, which is based largely on SQL.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term168"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Stage</Term>
+    </Terms>
+    <Definition
+      Link="">For use in Line of Balance graphs, a trade or gang that carries out the activities within unit networks. Stages are represented by codes in a special 'stages' code library.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term169">
+    <Terms>
+      <Term>Subchart</Term>
+    </Terms>
+    <Definition
+      Link="">A chart originating from a higher level expanded task. See also Summary group.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term170">
+    <Terms>
+      <Term>Successor task</Term>
+    </Terms>
+    <Definition
+      Link="">A task that cannot start or finish until another (predecessor) task starts or finishes.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term171">
+    <Terms>
+      <Term>Summary group</Term>
+    </Terms>
+    <Definition
+      Link="">The bars and tasks summarised by a summary task. A summary group is identical to a subchart except that by default the summary group is opened in situ below the summary task, whereas a subchart is opened in a separate bar chart window.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term172">
+    <Terms>
+      <Term>Summary task</Term>
+    </Terms>
+    <Definition
+      Link="">A task summarising a subset of bars adjacent on the bar chart. The summary task takes its position and duration from the bars it summarises.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term173"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Super-critical</Term>
+    </Terms>
+    <Definition
+      Link="">A task with negative float, ie a task for which you must make up time in order to stay on schedule.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term174">
+    <Terms>
+      <Term>Table definition</Term>
+    </Terms>
+    <Definition
+      Link="">A saved spreadsheet layout. You can specify the columns to be included in the spreadsheet, the information displayed in each column and how that information is presented. Table definitions are applied to views. You might use one table for progress entry, another for displaying and editing task costs and another for viewing task codes. Table definitions are also used to specify the columns of information that are included in tabular reports: each tabular report has a corresponding table definition. You can only edit tabular report table definitions by editing the tabular reports: they do not appear in Library Explorer.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term175"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Tabular report</Term>
+    </Terms>
+    <Definition
+      Link="">A report based on task, resource or cost information, which can be output in a variety of tabular formats. These reports produce output similar to the spreadsheet.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term176">
+    <Terms>
+      <Term>Tabular report category</Term>
+    </Terms>
+    <Definition
+      Link="">A Library Explorer folder in which tabular reports are located. You use tabular report categories to organise your tabular reports into logical groups.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term178">
+    <Terms>
+      <Term>Task</Term>
+    </Terms>
+    <Definition
+      Link="">A measurable unit of work. Each task has a duration and may consume resources and costs. You can draw multiple tasks on a single bar. Tasks can be split by the allocation of progress.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term179"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Task height</Term>
+    </Terms>
+    <Definition
+      Link="">The height of a task on a bar. Task height is variable. You can use task height to represent information such as the task cost or percentage complete.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term180"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Task pool</Term>
+    </Terms>
+    <Definition
+      Link="">A network of tasks that you can use as a template for the creation of multiple, similar task networks within a project.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term181"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Task work</Term>
+    </Terms>
+    <Definition
+      Link="">The amount of work that must be carried out to complete a task. For example, a task relating to the building of a wall comprising 800 bricks would have a task work amount of 800 bricks; a task relating to the laying of a 500 metre long pipe would have a task work amount of 500 metres. You can generate a histogram to graph the task work in a project.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term182"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Template</Term>
+    </Terms>
+    <Definition
+      Link="">Either a project that has been saved into a particular folder, which enables you to create other projects based upon it, or another name for a Task pool.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term183">
+    <Terms>
+      <Term>Time unit</Term>
+    </Terms>
+    <Definition
+      Link="">A unit of time in which tasks can be created, edited and examined. Standard time units include hours, days, weeks and months.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term184"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Total float</Term>
+    </Terms>
+    <Definition
+      Link="">The period by which a task can be delayed or extended without delaying the completion of the project.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term185">
+    <Terms>
+      <Term>TQL</Term>
+    </Terms>
+    <Definition
+      Link="">TQL is Elecosoft's own version of SQL (Structured Query Language), an international standard text language for manipulating databases.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term186"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>UDE</Term>
+    </Terms>
+    <Definition
+      Link="">See User-defined enumerator.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term187"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>UDF</Term>
+    </Terms>
+    <Definition
+      Link="">See User-defined field.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term188"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>UDT</Term>
+    </Terms>
+    <Definition
+      Link="">See User-defined table.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term189"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Unit network</Term>
+    </Terms>
+    <Definition
+      Link="">A group of tasks in which repeated work items are drawn with a series of linked steps to plan a single deliverable.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term190"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>User-defined enumerator</Term>
+    </Terms>
+    <Definition
+      Link="">A user-definable dropdown list which you can create in Server Admin and include in one or more user-defined tables. For each user-defined enumerator, you can define a name and a list of values. When the user-defined enumerator is added to a user-defined table, users can select any of the values defined within the enumerator for each object against which the user-defined table is used.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term191"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>User-defined field</Term>
+    </Terms>
+    <Definition
+      Link="">Customised fields that you can add to Asta Powerproject dialogs to store information that is important to you but is not accommodated by the default Asta Powerproject interface.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term192"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>User-defined table</Term>
+    </Terms>
+    <Definition
+      Link="">A user-definable table which you can create in Server Admin and use to store information against objects in Asta Powerproject. You can specify the types of Asta Powerproject object that can use each user-defined table, for example tasks, picture annotations or cost centres. You then specify the fields and user-defined enumerators that you want to use as columns in the table.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term193"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>User view</Term>
+    </Terms>
+    <Definition
+      Link="">A view that has been defined by an Asta Powerproject user. All Asta Powerproject users can create user views, regardless of their access rights. You can specify whether user views are accessible to other users or not.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term194"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Variable date</Term>
+    </Terms>
+    <Definition
+      Link="">A date such as 'Today', 'Month start' and 'Year end', which rather than being a fixed date, is converted into an actual date each time you open a project. The date with which a variable date corresponds will change according to the current date. For example, if you open a project on 09/01/2019, 'Today' will be 09/01/2019, 'Month start' will be 01/01/2019 and 'Year end' will be 31/12/2019. A number of date fields allow you to specify variable dates. You can apply offsets to variable dates, using time units - both working and elapsed. For example, you can specify 'Month start+1ew' (the start date of the current month plus one elapsed week) or 'Today-3d' (three working days before today's date).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term195">
+    <Terms>
+      <Term>View</Term>
+    </Terms>
+    <Definition
+      Link="">A view defines the way in which project data is viewed and which data is viewed; it can tailor the information displayed in the bar chart or spreadsheet.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term196">
+    <Terms>
+      <Term>Visual Basic for Applications (VBA)</Term>
+    </Terms>
+    <Definition
+      Link="">A programming language shared by the Microsoft Office family of products. VBA is an integral part of such applications and allows fast automation via a common interface.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term197">
+    <Terms>
+      <Term>WBS</Term>
+    </Terms>
+    <Definition
+      Link="">See Work breakdown structure.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term198">
+    <Terms>
+      <Term>WBS code</Term>
+    </Terms>
+    <Definition
+      Link="">An alphanumeric identifier that indicates the position of tasks within a project's work breakdown structure.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term199">
+    <Terms>
+      <Term>WBS name</Term>
+    </Terms>
+    <Definition
+      Link="">A descriptive title for the WBS code that indicates the position of tasks within a project's work breakdown structure.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term200">
+    <Terms>
+      <Term>Week start day</Term>
+    </Terms>
+    <Definition
+      Link="">The day of the week at which you want week markings to begin in the date zone for a view.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term201"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Work between</Term>
+    </Terms>
+    <Definition
+      Link="">A reschedule feature which constrains a task to take place between two specific dates. See also Constraint flag.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term202">
+    <Terms>
+      <Term>Work Breakdown Structure</Term>
+    </Terms>
+    <Definition
+      Link="">A tool used to define and group a project's discrete work elements (ie its tasks) in a way that helps to organise and define the total work scope of the project. Each element within a work breakdown structure element may represent a product, data, a service, or any combination of the above. A WBS also provides a framework for detailed cost estimating and control. A work breakdown structure is a tree structure, in which all of the elements on one level are summarised by elements on the level above. A WBS is useful when you want to break down the work involved in a project, starting from the main phases of the project and expanding right down to the individual tasks that must be carried out. Each element within a WBS is identified by an alphanumeric WBS code and a descriptive WBS name.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term203"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Work contour</Term>
+    </Terms>
+    <Definition
+      Link="">See Resource curve.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term204"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Work face frequency</Term>
+    </Terms>
+    <Definition
+      Link="">A term used to describe the rate of production of the gangs, trades or stages that are working on activities in a Line of Balance graph. The higher the work face frequency, the higher the rate of production.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term205">
+    <Terms>
+      <Term>Work pattern</Term>
+    </Terms>
+    <Definition
+      Link="">A sequence of working hours that can be applied to calendars to define a potentially infinite set of working days. Within a work pattern, shifts define the working and non-working time over 24 hour periods. When the end of a work pattern is reached, the sequence goes back to the beginning and starts again.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term206">
+    <Terms>
+      <Term>Work rate</Term>
+    </Terms>
+    <Definition
+      Link="">The rate at which a permanent resource can work, or the speed at which task work can be carried out. For example, if a single bricklayer who is capable of laying 200 bricks per day works on a task, the task would have a task work rate of 200 bricks per day; if it is possible to lay 100 metres of pipe per week on a task, the task would have a task work rate of 100 metres per week.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term207"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Workgrouping</Term>
+    </Terms>
+    <Definition
+      Link="">A method of working whereby a team of people using networked computers share ownership of data and any edits made.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term208">
+    <Terms>
+      <Term>Working time</Term>
+    </Terms>
+    <Definition
+      Link="">Durations that include only working time. For example, if a task has to be worked on from Monday-Friday for 4 weeks, the working duration of this task is 20 working days, although its elapsed duration is 4 elapsed weeks.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term209">
+    <Terms>
+      <Term>Working week</Term>
+    </Terms>
+    <Definition
+      Link="">The regular working periods in a week.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term210"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Security group</Term>
+    </Terms>
+    <Definition
+      Link="">An entity that determines the access rights that users have to the charts, summary groups, fields and library objects within a project. You should create a security group for each different level of access that you want to grant the various users in a project.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term211"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>User</Term>
+    </Terms>
+    <Definition
+      Link="">An entity that represents an individual who is to log into a project using a user name and password. You can create a hierarchy of users that reflects the hierarchy of your organisation. You can assign different access rights to different users. You do this by creating a number of security groups in Library Explorer, with each security group defining a different level of access, and assigning users to the security group that matches the level of access that you want them to have.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term212"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Business Intelligence</Term>
+    </Terms>
+    <Definition
+      Link="">A set of techniques and tools for the acquisition and transformation of raw data into meaningful and useful information for business analysis purposes.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term213"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Business Intelligence Controller</Term>
+    </Terms>
+    <Definition
+      Link="">An application that enables you to specify the way in which you want Business Intelligence data to be exported from Asta Powerproject to an external database, for analysis and reporting.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term214"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Business Intelligence export model</Term>
+    </Terms>
+    <Definition
+      Link="">An entity that defines the way in which Business Intelligence data is exported, either to a Microsoft Excel workbook or to an external database. A number of Business Intelligence export models are supplied as standard with Asta Powerproject; you can develop further models as required to meet your requirements.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term215"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Active baseline</Term>
+    </Terms>
+    <Definition
+      Link="">A baseline that has been marked as 'active' using the Baseline/What If Manager dialog. If you choose to premount projects and baselines, inactive baselines are not premounted, which improves project performance. Data from inactive baselines is excluded from the user interface, except from the Baseline/What If Manager dialog itself.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term216"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Inactive baseline</Term>
+    </Terms>
+    <Definition
+      Link="">A baseline that has been marked as 'inactive' using the Baseline/What If Manager dialog. If you choose to premount projects and baselines, inactive baselines are not premounted, which improves project performance. Data from inactive baselines is excluded from the user interface, except from the Baseline/What If Manager dialog itself.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term217"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Drag</Term>
+    </Terms>
+    <Definition
+      Link="">The amount of time that a task or constraint on the critical path is adding to the total project duration; the maximum amount of time that the duration of a task can be shortened before the task is no longer on the critical path or before its duration becomes zero; a way of identifying the tasks that should be addressed first in an attempt to shorten the duration of a project - ie those with the greatest amount of drag.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term218"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Critical path drag</Term>
+    </Terms>
+    <Definition
+      Link="">See Drag.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term219"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Cascade activity number</Term>
+    </Terms>
+    <Definition
+      Link="">A unique number that can be assigned to tasks during rescheduling to enable the use of cascade activity planning, in which you sort tasks according to their cascade activity number. When you do this, all links point downwards and the various paths through the project are distinguished clearly, with the critical path appearing first.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term220"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Path to task view</Term>
+    </Terms>
+    <Definition
+      Link="">A view mode that displays the complete chain of linked predecessor tasks that lead up to a task, from the earliest task(s) in the chain(s) to the task itself.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term221"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Path from task view</Term>
+    </Terms>
+    <Definition
+      Link="">A view mode that displays the complete chain of linked successor tasks that lead from a task to the latest task(s) in the chain(s).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term222"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Jagged progress view</Term>
+    </Terms>
+    <Definition
+      Link="">A view mode that displays the effect of current progress on a baselined plan, giving you an indication of how the project is progressing against the original plan.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term223"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Code breakdown structure</Term>
+    </Terms>
+    <Definition
+      Link="">A view that displays all bars and tasks to which the selected code(s) have been assigned, with a subheading containing a 'fake' summary task, indicating the earliest and latest dates of the items, displayed for each code.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term224"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Heat map</Term>
+    </Terms>
+    <Definition
+      Link="">A resource usage view that is configured to display information about permanent resource allocations, which provides a visual indication of whether the resources are under-allocated, fully-allocated or over-allocated during each day, week, month or quarter.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term225"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Drag cost</Term>
+    </Terms>
+    <Definition
+      Link="">The amount by which the drag of a task on the critical path is reducing a project's expected value. You can use a formula to calculate the drag cost of critical tasks.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term226"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Logical path</Term>
+    </Terms>
+    <Definition
+      Link="">A number, assigned automatically to tasks when you reschedule a project, that indicates the logical path on which a task is located. Tasks with lower logical path numbers are those on logical paths that contain the least amount of total float; the higher the logical path number, the more total float in the logical path. You may find it useful to monitor tasks that are on low-numbered logical paths, as these tasks are more likely to affect the project finish date if they are delayed. Hammocks are always assigned a logical path of zero. The same is true of summary and expanded tasks, even if they have incoming or outgoing links.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term227"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Logical path duration</Term>
+    </Terms>
+    <Definition
+      Link="">The duration of the logical path on which a task is located. You may find it useful to compare the total float of tasks against the duration of the logical paths on which they are located, to ascertain which of the tasks on a particular logical path are most likely to affect the project finish date (ie those with the least total float).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term228"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Logical path order</Term>
+    </Terms>
+    <Definition
+      Link="">The order of a task on the logical path on which it is located. The first task on a logical path has an order of 1; the next has an order of 2; and so on. You may find it useful to create sort/groups in which tasks are sorted/grouped first by logical path and then by logical path order, as this displays logical paths in the clearest possible way.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term229"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Float erosion</Term>
+    </Terms>
+    <Definition
+      Link="">The lessening of the total float of a task, which happens as a result of changes to other tasks in the same logical path. If a task's total float erodes to zero, it becomes critical. This means that delays to the task can affect the finish date of a project. For this reason, it can be useful to monitor the float erosion of tasks, so that you can take action before a task becomes critical. You can use logical paths to help monitor the erosion of total float.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term230"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Asta Powerproject Vision</Term>
+    </Terms>
+    <Definition
+      Link="">A web-based application that stores your Asta Powerproject projects in a single location in the Cloud.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term231"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Vision</Term>
+    </Terms>
+    <Definition
+      Link="">See Asta Powerproject Vision.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term232"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Asta Powerproject Managed Baselines</Term>
+    </Terms>
+    <Definition
+      Link="">A mode of working with Asta Powerproject Vision in which once a baseline copy of a programme is available, provided that the programme is not in progress, the baseline is checked out along with the programme automatically and you can choose whether or not to check in the baseline when you check in the programme. Using this baseline behaviour, you can merge changes to a programme into baselines manually, using Asta Powerproject's standard baseline merge functionality.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term233"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Vision Managed Baselines</Term>
+    </Terms>
+    <Definition
+      Link="">A mode of working with Asta Powerproject Vision in which baselines are not checked in and out along with the corresponding programme. A copy of the baseline is downloaded automatically when you check out the corresponding programme, for viewing purposes only. Using this baseline behaviour, you cannot merge changes to a programme into baselines manually and any changes you make to a baseline in Asta Powerproject are lost as they are not uploaded when you check in the programme.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term234"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Start milestone</Term>
+    </Terms>
+    <Definition
+      Link="">A milestone that indicates the beginning of something, such as the start of a project, or the start of a section of a project. If a start milestone falls at the end of a period of working time, it is positioned at the start of the next period of working time following a reschedule in Asta Powerproject. For example, if a start milestone falls at the end of a working day, rescheduling the project in Asta Powerproject would result in the milestone being positioned at 09:00 the following morning.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term235"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Finish milestone</Term>
+    </Terms>
+    <Definition
+      Link="">A milestone that indicates the end of something, such as the end of a project, or the end of a section of a project. If a finish milestone falls at the end of a period of working time, it is positioned at the end of the current period of working time following a reschedule in Asta Powerproject. For example, if a finish milestone falls at the end of a working day, rescheduling the project in Asta Powerproject would result in the milestone being positioned at 17:30 that day.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term236"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Milestone appearance</Term>
+    </Terms>
+    <Definition
+      Link="">A library of shapes that can be applied to milestones to differentiate between them. You can define different milestone appearances for start and finish milestones, and different milestone appearances for cost centres, permanent and consumable resources and individual allocations.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term237"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Implied link</Term>
+    </Terms>
+    <Definition
+      Link="">If a bar on which tasks cannot overlap contains two adjacent tasks that are not linked, the relationship between them can be defined by an "implied link". Details of implied links - which do not actually exist - appear in some areas of the user interface, for example, when tracing link logic using the Links tab of the properties view, to enable you to visualise the relationships between tasks on the same bar in the same way that you can visualise the relationships that are defined by actual links.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term238"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Slip</Term>
+    </Terms>
+    <Definition
+      Link="">For tasks, the difference between the report date of a specified progress period and the start or resume date of a task. A positive value indicates that work is ahead of schedule; a negative value indicates that work is behind schedule. You can display the Slip field in the spreadsheet and you can filter for tasks with a particular amount of slip, which helps you to identify tasks which are very far behind schedule - or very far ahead of schedule. For summary and expanded tasks, slip is calculated as being the difference between the report date and the task's effective progress date. The effective progress date for a summary or expanded task is calculated from the task's percentage complete and duration. The percentage complete for a summary or expanded task is calculated as the total actual duration of the child tasks, divided by the total duration of the child tasks.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term239"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Late starting</Term>
+    </Terms>
+    <Definition
+      Link="">A task that was scheduled to start before a given date in a baseline, but starts after that date in the live project. You can filter for late starting tasks.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term240"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>CBS</Term>
+    </Terms>
+    <Definition
+      Link="">See Cost Breakdown Structure.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term241"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>RBS</Term>
+    </Terms>
+    <Definition
+      Link="">See Resource Breakdown Structure.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term242"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>PDF</Term>
+    </Terms>
+    <Definition
+      Link="">Portable Document Format. An widely-used document format that enables you to distribute documents.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term244"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Duration percent complete progress</Term>
+    </Terms>
+    <Definition
+      Link="">A measurement of progress that is based on the percentage of the duration of a task that has been completed. For example, if 40% of a task has been completed, you can record that the task is 40% complete, meaning that 60% of the task remains to be completed. This is a simple method of calculating progress, and one in which the progress of a task is always linked to the task's duration. Calculating progress in this way is most useful if you assign resources to your tasks.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term245"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Overall percent complete progress</Term>
+    </Terms>
+    <Definition
+      Link="">A measurement of progress that is independent of the duration of a task. For example, if 20% of the planned duration of a task has been worked but 50% of the task has been completed, you can record that the task is 20% complete as a percentage of its duration but that it is 50% overall complete. Calculating progress in this way is most useful if you do not assign resources to your tasks.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term243"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Delivery date</Term>
+    </Terms>
+    <Definition
+      Link="">The date on which a project must be delivered. You can specify a delivery date for the programme of projects, and a delivery date for each chart or summary group that has been identified as being a project. You can use a project's delivery date as a deadline when rescheduling. If you do this, rather than using the finish date of the last task in the project, the project's late and free finish dates are set to the delivery date when rescheduling and float is calculated out to the project's delivery date. A delivery date provides a deadline for all tasks in the project, so any tasks that exceed the delivery date have negative float (ie they become super-critical) following a reschedule. The delivery date is also used when checking the quality of a schedule to calculate the project's maximum duration, which is the difference between the project's start date and its delivery date.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term246"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Quality check</Term>
+    </Terms>
+    <Definition
+      Link="">A library item containing a set of user-definable metrics that you can use to monitor the quality of a schedule. Once you have set up a quality check in one project, you can export its metrics, then import them into other projects, which saves you from having to set up the quality check for each of your projects individually.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term247"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Quality Checks pane</Term>
+    </Terms>
+    <Definition
+      Link="">A pane that displays the results of all quality checks that have been executed in the current project.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term248"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Merge hotspot</Term>
+    </Terms>
+    <Definition
+      Link="">A task with a large number of predecessors. Such tasks are prone to delay due to the cumulative effect of the incoming links.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term249"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Hard constraint</Term>
+    </Terms>
+    <Definition
+      Link="">A Start On or Finish On constraint flag. These "hard" constraints should be avoided in a schedule as they can lead to inaccurate finish dates and a lack of consideration of the impact of schedule changes, risk and delays to predecessor tasks.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term250"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Soft constraint</Term>
+    </Terms>
+    <Definition
+      Link="">A Start On or After, Finish On or After, Start On or Before or Finish On or Before constraint flag. These "soft" constraints are preferable to "hard" constraints in a schedule as they allow more flexibility. However, a high proportion of tasks with soft constraints can indicate that a schedule has been planned with too little flexibility.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="powerproject.Term251"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Calendar view</Term>
+    </Terms>
+    <Definition
+      Link="">A view that displays the tasks in one or more charts or summary groups in a calendar, or diary format, displaying whichever tasks appear in a project within a particular time period - a week or a month, for example. Calendar views can also be used to display the allocations that appear within a particular time period for specific resources or cost centres.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Powerproject_Easyplan.Term0"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Activity days</Term>
+    </Terms>
+    <Definition
+      Link="">The days in a project on which tasks are scheduled. You can generate a histogram to graph the activity days in a project.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Powerproject_Easyplan.Term1"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>CIOB</Term>
+    </Terms>
+    <Definition
+      Link="">The Chartered Institute of Building. You can use the CIOB Planning Protocol 15 point test as a basis for a schedule quality check. The sample template files that are installed with Asta Powerproject include a CIOB quality check.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Powerproject_Easyplan.Term2"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>DCMA</Term>
+    </Terms>
+    <Definition
+      Link="">The US Defense Contract Management Agency. You can use the DCMA 14 point test as a basis for a schedule quality check. The sample template files that are installed with Asta Powerproject include a DCMA quality check.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Powerproject_Easyplan.Term3"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>JSON</Term>
+    </Terms>
+    <Definition
+      Link="">JavaScript Object Notation. A data interchange file format that is easy for humans to read and write, and easy for computers to parse and generate. Asta Powerproject uses this file format when you export quality metrics from a quality check and you can import these files into other projects and upload these files to create quality checks in Asta Powerproject Vision.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Powerproject_Easyplan.Term4"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Materials</Term>
+    </Terms>
+    <Definition
+      Link="">The type of material that is involved in task work, for example Cement, Pipework or Skirting.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Powerproject_Easyplan.Term5"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only,Powerproject_Easyplan.V17_Task_activities">
+    <Terms>
+      <Term>Task activity</Term>
+    </Terms>
+    <Definition
+      Link="">An entity that can be used to break down tasks into smaller steps, without having to create as many individual tasks in the bar chart. Each task can have multiple activities. If a task has one or more task activities, you mark progress on the task by progressing the individual task activities, rather than the task itself. Task activities correspond to 'activity steps' in Primavera software.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Powerproject_Easyplan.Term6"
+    conditions="Powerproject_Easyplan.V17_Task_activities,Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Task activity template</Term>
+    </Terms>
+    <Definition
+      Link="">A way of storing commonly-used sets of task activities, making it quicker to apply task activities to tasks.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Powerproject_Easyplan.Term7"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.V17_Project_timeline">
+    <Terms>
+      <Term>Project timeline</Term>
+    </Terms>
+    <Definition
+      Link="">See Timeline.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Powerproject_Easyplan.Term9"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.V17_Project_timeline">
+    <Terms>
+      <Term>Timeline</Term>
+    </Terms>
+    <Definition
+      Link="">A time-based view of a project that you can use to display a visual summary of a project. You can choose which tasks and milestones to add to the timeline. It is usual to add high-level tasks - perhaps top level summary tasks - and key milestones. Timelines give you an easy way of reporting the progress of a project at a high level to stakeholders who do not want - or need - to view detailed information about a project.</Definition>
+  </GlossaryEntry>
+</CatapultGlossary>

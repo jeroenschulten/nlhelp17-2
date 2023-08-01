@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" xml:lang="nl-nl" class="KLAAR-NL">
+    <head>
+        <link href="../../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Kwaliteitschecks:unique names criterium;Unique names kwaliteitscriterium" />'Unieke namen' kwaliteitscriterium</h1>
+        <p>U gebruikt dit kwaliteitscriterium om het aandeel van taken en mijlpalen te checken met <a href="../Starting_work/Entering_bar_and_task_names/Entering_bar_and_task_names.htm">namen</a> die uniek zijn - d.w.z. het aandeel van taken dat geen naam deelt met één of meer andere taken in het domein van de kwaliteitscheck. Taken met namen die niet uniek zijn kunnen wijzen op fouten in de planning.</p>
+        <p>Dit kwaliteitscriterium negeert volgspaties en andere speciale opmaaktekens en hoofdletters bij het onderzoeken van taaknamen. Deze wijziging betekent dat bijvoorbeeld "TAAK 1" en "taak 1" als hetzelfde worden beschouwd.</p>
+        <p>U kunt specificeren of padnamen van taken in aanmerking worden genomen bij het checken op uniekheid.</p>
+        <p>Met de slaag- en faal-grenzen ingesteld op 100,00%, voldoet dit kwaliteitscriterium aan de vereisten van de CIOB stress test 13 (Unieke identifiers).</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Voorbeeld van taken met niet-unieke namen</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In de volgende afbeelding delen "Task 1" en "TASK 1" dezelfde naam - ongeacht het verschil in hoofdlettergebruik. Beide taken zouden falen voor dit kwaliteitscriterium:</p>
+                <p>
+                    <img src="../../../Graphics/Quality_check/uniquenames.gif" alt="Task 1 and TASK 1 share the same name - despite the difference in capitalisation" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_2.flsnp" />
+        </p>
+        <h2>Slaag en faal criteria</h2>
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Slaagt of faalt?</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Criteria</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #afffaf;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Slaagt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Een project slaagt op dit criterium wanneer het percentage taken met unieke namen groter dan of gelijk is aan het slaaggrens percentage. </p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Wanneer bijvoorbeeld de slaaggrens ingesteld stond op 100,00%, zou een project op dit criterium slagen wanneer 100,00% van de taken unieke namen hebben.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #ff6464;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">Een project faalt op dit criterium wanneer het percentage taken met unieke namen kleiner is dan het faalgrens percentage. </p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Wanneer bijvoorbeeld de faalgrens ingesteld stond op 100,00%, zou een project op dit criterium falen wanneer minder dan 100,00% van de taken  unieke namen heeft.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="background-color: #ffaf45;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;">Slaagt noch faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Als het percentage taken met unieke namen  tussen het slaaggrens en het faalgrens percentage valt, is het resultaat noch geslaagd noch gefaald, maar ligt dat ergens daartussenin.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Voorgestelde instellingen om te voldoen aan de vereisten van CIOB stress test 13 (Unieke identifiers)</h2>
+        <ul xmlns="" type="disc">
+            <li>Slaaggrens: 100,00%. Een project zal slagen voor dit criterium als  alle taken unieke namen hebben.</li>
+            <li>Faalgrens: 100,00%. Een project zal falen voor dit criterium als er één of meerdere taken geen unieke naam heeft.</li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_39.flsnp" />
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Percentage taken met unieke namen</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Slaagt of faalt?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">0,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">50,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">99,99%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1">100,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Slaagt</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Gebruik het selectievakje <b>Padnaam negeren</b> om aan te geven of u wilt dat de padnaam van taken in aanmerking wordt genomen bij het checken op uniekheid:</p>
+        <ul type="disc">
+            <li>Als het selectievakje is uitgeschakeld, wordt de padnaam van de taken meegenomen bij het controleren op uniekheid, dus "Programma\Kavel 1\Grondwerken" zou worden beschouwd als iets anders dan "Programma\Kavel 2 \Grondwerken".</li>
+            <li>Als het selectievakje is uitgeschakeld, wordt de padnaam van de taken genegeerd bij het controleren op uniekheid, dus "Programma\Kavel 1\Grondwerken" zou worden beschouwd als identiek aan "Programma\Kavel 2 \Grondwerken".</li>
+        </ul>
+        <h2>Forceert dit criterium dat het project wordt herberekend?</h2>
+        <p>Nee.</p>
+        <h2>Voorgestelde acties als een project faalt voor dit criterium</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_37.flsnp" />
+        <p>
+            <a href="../Starting_work/Entering_bar_and_task_names/Entering_bar_and_task_names_in_the_spreadsheet.htm">Bewerk de namen van alle falende taken</a>, om ervoor te zorgen dat ze uniek worden.</p>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p>
+            <a href="Checking_quality_intro.htm">Introductie over planningskwaliteitchecks</a>
+        </p>
+        <p>
+            <a href="../Starting_work/Entering_bar_and_task_names/Entering_bar_and_task_names.htm">Balk- en taaknamen invoeren</a>
+        </p>
+        <p>
+            <a href="../Starting_work/Entering_bar_and_task_names/Entering_bar_and_task_names_in_the_spreadsheet.htm">Balk- en taaknamen invoeren in de tabel</a>
+        </p>
+    </body>
+</html>

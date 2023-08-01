@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Als u naar XER-indeling exporteert, geeft u een versie van XER op in het veld XER-versie wanneer u wilt exporteren met een eerdere versie van XER; in de meeste gevallen kunt u dit veld op het standaardversienummer laten staan. Afgezien van het XER-versienummer in de koptekst van het resulterende XER-bestand, is er geen verschil in de geëxporteerde gegevens.</p>
+    </body>
+</html>

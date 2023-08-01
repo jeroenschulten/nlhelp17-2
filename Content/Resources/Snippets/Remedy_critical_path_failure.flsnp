@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul>
+            <li>Controleer alle vlaggen bij de falende taken en <a href="../../HTML_Topics/Conceptual/Bar_chart_editing/Using_constraints/Remove_constraint.htm">verwijder elke vlag</a> die de verplaatsing van taken onnodig beperkt.</li>
+            <li>Als een falende taak geen beperkingen heeft, controleer dan eventuele vlaggen voor andere taken die zich op hetzelfde kritieke pad bevinden als de falende  probleemtaak, en verwijder alle vlaggen die de verplaatsing van taken onnodig beperken.</li>
+            <li>Controleer de inkomende en uitgaande links van de falende taken om ervoor te zorgen dat taken correct zijn gelinkt aan het kritieke pad en pas de links indien nodig aan.</li>
+            <li>Vergroot de hoeveelheid speelruimte die elke taak is toegestaan voordat deze geacht wordt de integriteit van het kritieke pad te doorbreken, met behulp van het veld <b>Dagen speelruimte</b> op het tabblad <b>Herberekenen</b> van het dialoogvenster Opties of het dialoogvenster <b>Herberekenen</b>.</li>
+        </ul>
+    </body>
+</html>

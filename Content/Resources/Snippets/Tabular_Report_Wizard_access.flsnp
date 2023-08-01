@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot de <b>Tabellarisch Rapport Wizard</b></MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Om toegang te krijgen tot de<span style="font-weight: bold;"> Tabellarisch Rapport Wizard</span>, op het <b xmlns="">Project</b> tabblad, in de <b xmlns="">Gegevens</b> groep, klik op het<b xmlns=""> Rapporten</b> keuzelijstje en selecteer <b xmlns="">Nieuw Tabellarisch Rapport</b>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

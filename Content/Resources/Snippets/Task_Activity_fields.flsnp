@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');margin-left: 0;margin-right: auto;caption-side: top;" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Field</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Actitivies</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">This grid displays a list of all task activities that have been associated with the task. For each task activity, specify the following information in the columns of the grid:</p>
+                        <ul type="disc">
+                            <li>Activity - Enter a name to identify the task activity. Each task activity name in the grid must be unique.</li>
+                            <li>% Complete - If a task activity is partially complete, enter the percentage progress. As soon as you update the progress of a task activity, the overall percentage complete of the task is updated accordingly.</li>
+                            <li>Weight - Specify a factor by which the progress of the task activity should be multiplied to affect its impact on progress of the task. The greater the weight of a task activity, the greater proportion of the task duration it will contribute to as it is completed. If a task activity has a weight of zero, it will not contribute towards the progress of the task at all.</li>
+                            <li>Completed - Select this check box to indicate that the task activity is 100% complete.</li>
+                        </ul>
+                        <p class="ParagraphsInTables">To create a task activity template based on the task activities listed in the grid, right-click the grid and select <b xmlns="">Create Activity Template</b>.</p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Task_activities/Break_down_tasks_activities.htm">Breaking down tasks into smaller steps using task activities</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Add</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Click this button to add a new task activity to the grid. The new activity appears at the bottom of the list of task activities.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Remove</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Click this button to delete the selected task activity from the grid.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Move Up</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Click this button to move the selected task activity up one position in the grid.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Move Down</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Click this button to move the selected task activity down one position in the grid.</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Template Selector</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">To add a predefined list of task activities to the task, select the task activity template in which the task activities are defined, then click <b>Add From Template</b>.</p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Task_activities/Using_task_activity_templates.htm">Using templates to speed up task activity creation</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Add From Template</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">
+                        <p class="ParagraphsInTables">Click this button to add the predefined list of task activities from the selected task activity template to the task. <MadCap:snippetText src="Task_activity_template_1.flsnp" /></p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">
+                            <MadCap:snippetText src="Task_activity_template_2.flsnp" />
+                        </p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Task_activities/Using_task_activity_templates.htm">Using templates to speed up task activity creation</a>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

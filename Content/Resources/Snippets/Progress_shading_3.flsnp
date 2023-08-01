@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>De samenvattingen<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">/hammocks</MadCap:conditionalText> voortgangsmarkering instellingen die u hier kiest bepaalt ook de weergave van de voortgangsmarkering op de 'nep' samenvattingen die kunnen worden weergegeven in de subkoppen van sorteringen/groeperingen.</p>
+    </body>
+</html>

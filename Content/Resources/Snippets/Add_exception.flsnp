@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <li>Selecteer het type uitzondering dat u wilt toevoegen, bijvoorbeeld vakantie of overuren, in het veld <b xmlns="">Uitzondering type</b>.</li>
+        <ul>
+            <li>Als u een uitzondering wilt creëren met begin- en eindtijden die niet overeenkomen met een standaard ochtend, middag of hele dag - bijvoorbeeld een ziekenhuisafspraak die twee uur duurt - klikt u op het keuzerondje <b>Specifieke start- en eind tijdstippen</b> en voert u de tijden in waarop de uitzondering begint en eindigt in de velden <b>Start</b> en <b>Eind</b>. </li>
+            <li>Als u een uitzondering wilt creëren die een volledige ochtend-, middag- of werkdag beslaat, zoals gedefinieerd door het werkpatroon dat van toepassing is op de geselecteerde dag(en), klikt u op het keuzerondje <b>Van werktijdenpatroon</b> en gebruikt u vervolgens de selectievakjes <b>Ochtend</b> en <b>Middag</b> om aan te geven of de uitzondering alleen de ochtend of de middag of de hele dag dekt. </li>
+            <li>Als u een uitzondering wilt creëren die een volledige periode van vierentwintig uur bestrijkt, klikt u op het keuzerondje <b>24-uurs uitzondering</b>.</li>
+        </ul>
+    </body>
+</html>

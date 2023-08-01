@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Een taak wordt beschouwd als laat startend wanneer ze in een baseline oorspronkelijk gepland was te starten vóór de gegeven datum, maar nu in het actuele project gepland staat te starten ná die gegeven datum.</p>
+    </body>
+</html>

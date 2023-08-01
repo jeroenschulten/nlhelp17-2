@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Schakel het <b>Exporteer kalenders als projectkalenders</b> selectievakje in om de kalenders van dit project te exporteren als projectspecifieke in plaats van globale kalenders. U moet dit doen als u kalenders met dezelfde naam in verschillende projecten hebt om te voorkomen dat Primavera-software ze verwart. Houd er rekening mee dat zelfs als u ervoor kiest kalenders als projectspecifiek te exporteren, alle kalenders die aan een hulpmiddel zijn toegewezen, als globale kalenders worden geëxporteerd, aangezien hulpmiddelen in de Primavera-software globaal zijn, en de verstreken kalender altijd als een globale kalender geëxporteerd wordt.</p>
+    </body>
+</html>

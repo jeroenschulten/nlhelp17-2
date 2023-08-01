@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Views\Sorting_views\Sort_perm_RBS.htm" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+    <head>
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Sorteren/groeperen:RBS views voor permanente hulpmiddelen;Sorteringen/groeperingen:specificeren van criteria voor een permanente hulpmiddelen RBS view;Resource Breakdown Structure (RBS):specificeren van sorteer/groepeer criteria voor (permanente hulpmiddelen);RBS:specificeren van sorteer/groepeer criteria voor (permanente hulpmiddelen)" />Sorteer/groepeer criteria specificeren  bij een permanente hulpmiddelen RBS view</h1>
+        <p>U gebruikt het tabblad <span style="font-weight: bold;">Permanente RBS</span> van het Sorteer Eigenschappen dialoogvenster om de sorteercriteria te specificeren waarmee de allocaties in een permanente hulpmiddelen RBS view worden gesorteerd. Gebruik de andere tabbladen van het dialoogvenster om de sorteercriteria te specificeren voor projecthiërarchie, verbruiksgoederen RBS en CBS views.</p>
+        <p>In de <span style="font-weight: bold;">Identificatie</span> groep velden typt u een naam voor de sortering/groepering in het <span style="font-weight: bold;">Naam</span> veld, specificeert u desgewenst een categorie om toe te wijzen en schakelt u het <span style="font-weight: bold;">Toon in menu</span> selectievakje in wanneer u wilt dat de sortering/groepering verschijnt in het <span style="font-weight: bold;">Sorteren/groeperen</span> keuzelijstje in de <span style="font-weight: bold;">View Gegevens</span> groep op het tabblad <b>View</b>, waarmee het makkelijker wordt de sortering/groepering toe te passen.</p>
+        <p>U gebruikt de <span style="font-weight: bold;">Detail</span> groep velden om de criteria te specificeren waarop allocaties moeten worden gesorteerd. Elk criterium wordt getoond als een rij in het raster aan de linkerzijde van het dialoogvenster. U kunt meer dan één sorteer/groepeer criterium specificeren. elk criterium kan gebaseerd zijn op een ander attribuut van de allocatie, van de geassocieerde taak, van de balk waarop de geassocieerde taak zich bevindt, of van het hulpmiddel of de kostengroep die is geassocieerd met de allocatie - of met andere allocaties op de geassocieerde taak. &#160;Bijvoorbeeld, u kunt specificeren dat allocaties eerst worden gesorteerd/gegroepeerd op hun startdatum, vervolgens op het unieke taak ID van de geassocieerde taak. Wanneer u meer dan één criterium specificeert, worden de allocaties gesorteerd/gegroepeerd op het eerste criterium, vervolgens op het tweede, en zo verder.</p>
+        <p>Om individuele sorteercriteria te specificeren:</p>
+        <ol>
+            <li class="p">Klik op <span style="font-weight: bold;">Toevoegen</span>. Er verschijnt een nieuw sorteer/groepeer criterium in het raster.            </li>
+            <li class="p">Klik op de <span style="font-weight: bold;">Type</span> kolom en selecteer het type sortering dat u wilt uitvoeren.</li>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Beschikbare sorteer/groepeer criteria velden</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <ul>
+                        <li class="p">Permanente allocatie - selecteer dit om allocaties te sorteren volgens een specifiek attribuut van de permanent hulpmiddel allocaties die zijn toegewezen aan de geassocieerde taken, bijvoorbeeld de allocatie startdatum of de werkelijke inspanning.            </li>
+                        <li class="p">Projecthiërarchie - selecteer dit om allocaties te sorteren volgens hun positie in de projecthiërarchie.            </li>
+                        <li class="p">WBS - selecteer dit om allocaties te sorteren volgens de WBS code, WBS naam of WBS pad van de geassocieerde taken.            </li>
+                        <li class="p">Balk - selecteer dit om allocaties te sorteren volgen een specifiek attribuut van de geassocieerde taakbalken, bijvoorbeeld de startdatum of de codes die zijn toegepast op balken vanuit een specifieke codebibliotheek.            </li>
+                        <li class="p">Taak - selecteer dit om allocaties te sorteren volgens een specifiek attribuut van de geassocieerde taken, bijvoorbeeld het unieke taak ID of de hoeveelheid voortgang die is toegepast op de taken.            </li>
+                        <li class="p">Permanent hulpmiddel - selecteer dit om allocaties te sorteren volgens een specifiek attribuut van de permanente hulpmiddelen dat is toegewezen aan de geassocieerde taken, bijvoorbeeld de hulpmiddelnaam of beschikbaar vanaf datum.            </li>
+                        <li class="p">Permanente vaardigheid - selecteer dit wanneer hulpmiddelen met meerdere vaardigheden in gebruik zijn om allocaties te sorteren volgens een specifiek attribuut van de permanente hulpmiddelvaardigheden van de permanente hulpmiddelen die zijn toegewezen aan de geassocieerde taken, bijvoorbeeld de hulpmiddelrol of de beschikbaar vanaf datum,  of volgens hun positie in de permanente hulpmiddelen vaardigheid hiërarchie.            </li>
+                        <li class="p">Kostengroep - selecteer dit om allocaties te sorteren volgens een specifiek attribuut van de kostengroepen dat is toegewezen aan de geassocieerde taken, bijvoorbeeld de kostengroepnaam of cumulatieve kosten,  of volgens hun positie in de kostengroepen hiërarchie.            </li>
+                        <li class="p">Kostenallocatie - selecteer dit om allocaties te sorteren volgens een specifiek attribuut van de kostenallocaties dat is toegewezen aan de geassocieerde taken, bijvoorbeeld de werkelijke kosten of prioriteit.            </li>
+                        <li class="p">Verbruiksgoederen - selecteer dit om allocaties te sorteren volgens een specifiek attribuut van de geassocieerde verbruiksgoederen, bijvoorbeeld de hulpmiddelnaam of de beschikbaarheid,  of volgens hun positie in de verbruiksgoederen hiërarchie.            </li>
+                        <li class="p">Verbruiksallocatie - selecteer dit om taken te sorteren volgens een specifiek attribuut van hun verbruiksgoederen allocaties, bijvoorbeeld de allocatieduur of allocatiegroep.            </li>
+                    </ul>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <li class="p">Klik op de <span style="font-weight: bold;">Attribuut</span> kolom en selecteer de parameter waarmee allocaties zijn gesorteerd/gegroepeerd onder dit sorteer/groepeer criterium. De beschikbare attributen verschillen afhankelijk van het type sorteer/groepeer criterium.            </li>
+            <li class="p">Gebruik de velden aan de rechterzijde van het dialoogvenster om de manier te specificeren waarop u wilt dat elk sorteer/groepeer criterium wordt gebruikt. De velden die verschijnen zijn afhankelijk van het type sorteer/groepeer criterium dat is geselecteerd in het raster aan de linkerzijde van het dialoogvenster.</li>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Beschikbare sorteer/groepeer criteria velden</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <ul>
+                        <li class="p">
+                            <span style="font-weight: bold;">Richting</span> - Specificeer of items volgens het sorteer/groepeer criterium in oplopende of aflopende alfabetische volgorde moeten worden gesorteerd.</li>
+                        <li class="p">
+                            <span style="font-weight: bold;">Hiërarchie</span>
+                            <b>afvlakken</b> - Schakel dit selectievakje in om de hulpmiddel hiërarchie te negeren in de gesorteerde/gegroepeerde view, of schakel het selectievakje uit om de items in de view binnen de grenzen van de hiërarchie te sorteren/groeperen.            </li>
+                        <li class="p">
+                            <span style="font-weight: bold;">Houd gescheiden bij ingeklapte RBS/CBS view</span> - Schakel dit selectievakje in om te specificeren dat dit sorteer/groepeer criterium moet worden gerespecteerd wanneer een RBS view waarop de sortering/groepering is toegepast is ingeklapt, of schakel het selectievakje uit om te specificeren dat dit sorteer/groepeer criterium kan worden genegeerd wanneer een RBS view is ingeklapt. Inschakelen van dit selectievakje kan betekenen dat een RBS view niet kan worden samengetrokken op zo weinig mogelijk regels als normaal het geval zou zijn; het resulteert hoe dan ook in een meer accuraat samengetrokken en gesorteerde RBS view.            </li>
+                        <li class="p">
+                            <b>Groeperen op</b> - selecteer een tijdsperiode om de items met het criterium te groeperen op dag, week, maand, kwartaal of jaar. Wanneer u een tijdsperiode selecteert  in dit veld en subtitels voor het criterium weergeeft, zal de datum of duur van elke tijdsperiode in de subtitels verschijnen.<br /><br />Wanneer een op datum of duur-gebaseerde sortering/groepering in een ongewenst groot aantal sorteerbanden resulteert, kan het op deze wijze groeperen van items zorgen dat het aantal weergegeven sorteerbanden wordt gereduceerd.<br /><br />Merk op dat dit selectievakje alleen verschijnt bij sorteer/groepeer criteria die horen bij datums.</li>
+                        <li class="p">
+                            <span style="font-weight: bold;">Toon dubbele items voor meerdere toewijzingen</span> - Schakel dit selectievakje in om te specificeren dat items met meerdere codes, kosten of hulpmiddelen&#160;allocaties (of balken met meerdere codeallocaties) meerdere keren verschijnen in een gesorteerde view: eenmaal voor elke unieke allocatiewaarde of toegewezen code; schakel dit selectievakje uit om te specificeren dat items met meerdere allocaties slechts eenmaal in een gesorteerde view verschijnen, volgens de eerste relevante allocatie die overeenkomt met de sorteercriteria.            </li>
+                        <li class="p">
+                            <span style="font-weight: bold;">Behoud hiërarchie</span> - Schakel dit selectievakje in om de codebibliotheek of WBS hiërarchie te behouden binnen een sorteer/groepeer criterium dat is gebaseerd op een codebibliotheek of op de WBS; schakel dit selectievakje uit om items alleen te sorteren op de code - of WBS attribuut - ongeacht hun positie in de codebibliotheekhiërarchie - of in de WBS.<br /><br />Merk op dat dit selectievakje alleen verschijnt voor sorteer/groepeer criteria die verbonden zijn aan codebibliotheek toewijzingen of aan de WBS, en voor sorteer/groepeer criteria die verbonden zijn aan de hulpmiddelen of kostengroepen hiërarchie (het staat permanent ingeschakeld voor de laatstgenoemde soorten criteria).<br /><br />U kunt het aantal niveaus binnen de codebibliotheek of WBS hiërarchie specificeren waarop u wilt sorteren/groeperen door een hiërarchielimiet te specificeren. Bijvoorbeeld, wanneer u een hiërarchielimiet van 2 specificeert, zullen items alleen gesorteerd/gegroepeerd worden op de eerste twee niveaus van de hiërarchie; wanneer u een hiërarchielimiet van 1 specificeert, zullen items alleen gesorteerd/gegroepeerd worden op het eerste niveau van de hiërarchie. </li>
+                    </ul>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <li>Gebruik de <span style="font-weight: bold;">Opmaak</span> groep velden om de manier te specificeren waarop u de scheidingen tussen elke groep gesorteerde items wilt accentueren.</li>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Beschikbare opmaak/weergave opties</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <ul>
+                        <li class="p">
+                            <span style="font-weight: bold;">Lijn</span> - Wanneer u een lijn wilt weergeven tussen iedere sortering/groepering van items, selecteer dan de stijl van de lijn die u wilt weergeven. Misschien wilt u liever lijnen weergeven dan subtitels om ruimte te besparen op de balkkaart.</li>
+                        <li class="p">
+                            <span style="font-weight: bold;">Subtitel</span> - Specificeer het soort subtitel dat weergegeven moet worden boven iedere gesorteerde groep van items. U kunt kiezen voor de volgende weergaves: geen subtitels, subtitels met alle kolommen of alleen de naam van het sorteer/groepeer criterium, of subtitels met valse samenvattingstaken weergegeven. Wanneer u ervoor kiest om subtitels weer te geven, dan worden deze weergegeven als sorteer/groepeer criteria in een balkregel boven iedere gesorteerde groep van items. Bijvoorbeeld, wanneer u sorteert/groepeert op een codebibliotheek, dan wordt de code binnen de bibliotheek weergegeven die is toegewezen aan de gesorteerde groep van items.<br /><br />Merk op dat de nu volgende opmaak velden alleen verschijnen als u ervoor kiest om ook subtitels bij een sorteer/groepeer criterium weer te geven.</li>
+                        <li class="p">
+                            <span style="font-weight: bold;">Toon verticale kleurband in de tabel</span> - Schakel dit selectievakje in wanneer u de kleur van de subtitels verticaal wilt laten doorlopen aan de linkerzijde van de tabel, of schakel het selectievakje uit om de kleur te beperken tot  horizontale subtitelbalken. Kleurbanden weergeven in de tabel bij sorteringen/groeperingen die meerdere sorteer/groepeer criteria bevatten maken het eenvoudiger de sorteer/groepeer criteria van items te identificeren.</li>
+                        <li class="p">
+                            <span style="font-weight: bold;">Sorteer/groepeer verticale kleurband voor items op hetzelfde niveau</span> - Schakel dit selectievakje in bij 'projecthiërarchie' sorteer/groepeer criteria, voor criteria die zijn gebaseerd om hulpmiddelen en kosten hiërarchie, en voor criteria die zijn gebaseerd op codebibliotheek toewijzingen of de WBS waarvoor het  <span style="font-weight: bold;">Behoud hiërarchie</span> selectievakje is geselecteerd,  wanneer u wilt dat de subtitels van de sorteer/groepeer criteria worden weergegeven samen met andere items in de gesorteerde/gegroepeerde view; schakel dit selectievakje uit om subtitels weer te geven in de volgorde van het project, het hulpmiddel, de kostengroep, codebibliotheek of WBS hiërarchie. Dit is van toepassing alleen op sorteringen/groeperingen met meer dan 1 sorteer/groepeer criterium.</li>
+                        <li class="p">
+                            <span style="font-weight: bold;">Subtitel kleur</span> - Selecteer de kleur die wordt gebruikt voor de subtitel balkregel, en de kleurband, wanneer kleurbanden worden gebruikt.</li>
+                        <li class="p">
+                            <span style="font-weight: bold;">Subtitel lettertype</span> - Klik op deze knop om het lettertype, kleur en de stijl te selecteren die moet worden gebruikt voor de tekst van de subtitel.</li>
+                        <li class="p">
+                            <span style="font-weight: bold;">Gebruik hiërarchische weergave</span> - Schakel dit selectievakje in bij 'projecthiërarchie' sorteer/groepeer criteria en bij 'WBS' sorteer/groepeer criteria om de hiërarchische weergave instellingen (die van invloed zijn op het lettertype en de achtergrondkleur die is toegewezen aan subtitels) die zijn aangemaakt voor de project hiërarchie of de WBS te gebruiken wanneer deze sortering/groepering wordt toegepast; bij sorteer/groepeer criteria die horen bij codebibliotheek toewijzingen, of bij hulpmiddel of kostengroep hiërarchie, schakelt u dit selectievakje in om gebruik te maken van de voorgrond en achtergrondkleuren van  individuele codes, hulpmiddelen of kostengroepen wanneer deze sortering/groepering wordt toegepast; schakel dit selectievakje uit om de specifieke sorteer/groepeer weergave opties in dit dialoogvenster in te stellen en te gebruiken.<br /><br />Merk op dat dit selectievakje alleen verschijnt wanneer u sorteer/groepeer criteria gebruikt die horen bij codebibliotheek toewijzingen, de hulpmiddel of kostengroep hiërarchie, de 'Projecthiërarchie' of de 'WBS' sorteer/groepeer criteria. Merk ook op dat de kleur en het lettertype die u specificeert in het  <span style="font-weight: bold;">Subtitel kleur</span> veld en de  <span style="font-weight: bold;">Subtitel lettertype </span> knop worden toegepast op de 'Niet van toepassing' subtitels in sorteringen/groeperingen die gebruik maken van de hiërarchische  weergave waar de groep objecten die gespecificeerd is in de sorteer/groepeer criteria niet van toepassing is. Bijvoorbeeld een taak zonder codebibliotheek toewijzing.</li>
+                        <li class="p">
+                            <span style="font-weight: bold;">Toon pad</span> - Schakel dit selectievakje in om het volledige pad van de codes of WBS&#160;criteria weer te geven in subtitels; schakel dit selectievakje uit om de naam van het criterium weer te geven zonder het pad wat de positie in de hiërarchie geeft.<br /><br />Merk op dat dit selectievakje alleen verschijnt voor codebibliotheek toewijzingen en 'WBS' sorteer/groepeer criteria.</li>
+                        <li class="p">
+                            <b>Voorvoegsel GV naam</b> - Schakel dit selectievakje in <MadCap:snippetText src="../../../../Resources/Snippets/Sort_properties_dialog_prefix_with_UDF_name.flsnp" /> <MadCap:snippetText src="../../../../Resources/Snippets/Sort_properties_dialog_prefix_with_UDF_name_1.flsnp" /></li>
+                    </ul>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+        </ol>
+        <p>Volg bovenstaande instructies om zoveel sorteercriteria te definiëren als u nodig heeft om de sortering/groepering te maken. U kunt de prioriteit van elk criterium wijzigen door het te selecteren en te klikken op <span style="font-weight: bold;">Naar Boven</span> en <span style="font-weight: bold;">Naar beneden</span> om de positie in het raster te veranderen. Selecteer een criterium en klik op <span style="font-weight: bold;">Verwijderen</span> om het uit de sortering/groepering te verwijderen.</p>
+        <p>Het <span style="font-weight: bold;">Sorteer Eigenschappen</span> dialoogvenster kan drie tabbladen tonen die u kunt gebruiken om te specificeren hoe de sortering/groepering taken sorteert in andere typen views: <span style="font-weight: bold;">Balk/Taak</span>, <span style="font-weight: bold;">Verbruiksgoederen RBS</span> en <span style="font-weight: bold;">CBS</span>. Wanneer deze drie tabbladen niet worden getoond, kunt u klikken op <span style="font-weight: bold;">Meer &gt;&gt;</span> om ze zichtbaar te maken. Wanneer ze worden getoond, kunt u klikken op <span style="font-weight: bold;">Minder &lt;&lt;</span> om ze voor de view te verbergen.</p>
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p>
+            <a href="Creating_sorts.htm">Aanmaken, toepassen en bewerken van sorteringen/groeperingen</a>
+        </p>
+        <p>
+            <a href="Categorising_sort_orders.htm">Categoriseren van sorteringen/groeperingen</a>
+        </p>
+        <p>
+            <a href="Grouping_by_date.htm">Groeperen van taken of allocaties per dag, week, maand, kwartaal of jaar</a>
+        </p>
+        <p>
+            <a href="Show_multiples.htm">Specificeren of dubbele items voor meerdere toepassingen getoond worden in gesorteerde views</a>
+        </p>
+        <p>
+            <a href="Resource_hierarchies_filtered_sorts.htm">Behouden van de hulpmiddelen en kostengroep hiërarchieën in gefilterde sorteringen/groeperingen</a>
+        </p>
+        <p>
+            <a href="Sorting_using_hierarchical_code_libraries.htm">Omgaan met codebibliotheek, WBS, hulpmiddelen en kosten hiërarchieën in sorteringen/groeperingen</a>
+        </p>
+        <p>
+            <a href="Specifying_order_code_library_sorts.htm">De volgorde specificeren waarin codebibliotheeksorteringen verschijnen</a>
+        </p>
+        <p>
+            <a href="Separate_when_contracted.htm">Specificeren of sorteer/groepeer criteria gerespecteerd moeten worden wanneer gesorteerde/gegroepeerde RBS of CBS views ingeklapt zijn</a>
+        </p>
+    </body>
+</html>

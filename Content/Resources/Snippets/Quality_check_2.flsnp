@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>U kunt de impact die deze waarde heeft op het gewogen totaalresultaat van een kwaliteitscheck wijzigen door een factor in te voeren waarmee het kwaliteitscriterium moet worden vermenigvuldigd in het veld <b>Weging</b>. Om de weging te laten werken, moet een kwaliteitscheck meer dan één kwaliteitscriterium hebben.</p>
+    </body>
+</html>

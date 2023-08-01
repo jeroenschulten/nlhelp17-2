@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Om een schaduw selectie vanuit een view te kopiëren:</p>
+        <ol>
+            <li>Ga naar de view waar vandaan u de schaduw selecties wilt kopiëren.</li>
+            <li>Open het <b>Schaduw</b> tabblad van het <b>Kalenderschaal Eigenschappen</b> dialoogvenster.</li>
+            <li>Rechtsklik op de schaduw selectie in het raster en selecteer <b>Kopieer schaduwing naar klembord</b>.</li>
+        </ol>
+        <p>Om meer dan één schaduw selectie tegelijk te kopiëren:</p>
+        <ol>
+            <li><b>CTRL</b>-selecteer de schaduw selecties die u wilt kopiëren.</li>
+            <li>Rechtsklik op eentje ervan en selecteer <b>Kopieer schaduwing naar klembord</b>.</li>
+        </ol>
+        <p>Om één of meer schaduw selecties te plakken die u van de ene view naar een andere view - indien nodig in een ander project- hebt gekopieerd:</p>
+        <ol>
+            <li>Open de view waarin u de schaduw selecties wilt plakken. Dit kan een view in hetzelfde project zijn, of een view in een ander project.</li>
+            <li>Open het <b xmlns="">Schaduw</b> tabblad van de <b xmlns="">Kalenderschaal Eigenschappen</b> dialoogvenster in deze view.</li>
+            <li>Rechtsklik op het raster en selecteer <b>Plakken schaduwing vanaf klembord</b>.</li>
+        </ol>
+    </body>
+</html>

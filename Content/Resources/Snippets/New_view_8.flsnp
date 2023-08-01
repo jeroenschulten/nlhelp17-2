@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>Schakel het selectievakje <span style="font-weight: bold;">Beschikbaar in Project viewer</span> in wanneer u deze view voor gebruikers die dit project openen beschikbaar wilt maken in Elecosoft gratis project viewer software - <MadCap:variable name="Primary.Project Viewer Name" /> - of schakel het selectievakje uit om de view te verbergen voor de gebruikers wanneer het project wordt geopend in de <MadCap:variable name="Primary.Project Viewer Name" />. Door dit selectievakje uit te schakelen kunt u op eenvoudige wijze voor de gebruikers van <MadCap:variable name="Primary.Project Viewer Name" /> kaarten met gevoelige informatie - bijvoorbeeld kosten informatie - verbergen.</body>
+</html>

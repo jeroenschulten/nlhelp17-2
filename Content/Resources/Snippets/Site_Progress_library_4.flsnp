@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Als u <MadCap:variable name="Primary.Site Progress Mobile Name" /> gebruikers aan hun taken wilt koppelen met behulp van de 'ASPUsers'-codebibliotheek - de codebibliotheek die automatisch een vermelding voor elke <MadCap:variable name="Primary.Site Progress Mobile Name" /> gebruiker bevat - selecteert u Standaard Gesynchroniseerde Site Progress bibliotheek in dit veld en koppelt u elke gebruikerscode uit deze bibliotheek aan hun taken in het project.</p>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="168" MadCap:lastWidth="2385">
+    <body>
+        <ul type="disc">
+            <li class="p"><b xmlns="">Eigenschappen</b>: het type informatie dat wordt vergeleken.</li>
+            <li class="p" xmlns=""><b>Huidig: </b>de waarde van de huidige projectdata.</li>
+            <li class="p"><b xmlns="">Baseline</b>: de beginwaarde van de baseline toe hij aangemaakt werd.</li>
+            <li class="p" xmlns=""><b>Verschillen: </b>de verschillen tussen de baseline en de huidige waarden.</li>
+        </ul>
+    </body>
+</html>

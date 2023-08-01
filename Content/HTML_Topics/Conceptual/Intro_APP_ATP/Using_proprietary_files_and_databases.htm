@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="Using_proprietary_files_and_databases.htm" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl">
+    <head>
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="PP bestanden" />
+            <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+                <MadCap:variable name="Primary.Asta Asta Powerproject Name" />
+            </MadCap:conditionalText>
+            <MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" />'s eigen bestandsformaat</h1>
+        <p style="font-weight: normal;" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Behalve als u gebruik maakt van <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise, worden <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> projecten opgeslagen in <MadCap:variable name="Primary.Asta Asta Powerproject Name" />'s eigen bestandsformaat met de extensie .PP, bijvoorbeeld PROJECT.PP. U selecteert het bestandsformaat dat u wilt gebruiken via het Opslaan als type veld op het Opslaan als dialoogvenster.</p>
+        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Als u <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> als een aan een Enterprise server verbonden client gebruikt, kunt u uw projecten ook opslaan in een database op de server (een server-mounted database of datasource), hetgeen een Microsoft SQL Server® bestandsformaat is. Raadpleeg de Help-tekst bij Serveradmin voor meer informatie over het opzetten van datasources.</p>
+        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">U kunt projecten die zijn opgeslagen in een database op de server alleen openen als u in een Enterprise-omgeving werkt.</p>
+        <MadCap:dropDown MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Projecten opslaan in een standalone omgeving</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Als u projecten opslaat in een standalone-omgeving, wordt elk project opgeslagen in een apart bestand. Elk .PP bestand bevat één project. Elk project kan meerdere subprojecten of subkaarten bevatten:</p>
+                <table wrapperparagraphselector="P" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <img src="../../../Graphics/Intro_APP_ATP/proprietaryfiles1.gif" alt="Elk bestand bevat één project" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="107" height="96" border="0" />
+                            </p>
+                        </td>
+                        <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: left;">
+                                <span style="font-weight: bold;">Sleutel:</span>
+                            </p>
+                            <p style="text-align: left;">
+                                <img src="../../../Graphics/Intro_APP_ATP/proprietaryfiles2.gif" alt="Blauw" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="36" height="12" border="0" />
+                                <span style="font-weight: normal;">- Lokaal .PP</span>
+                            </p>
+                            <p style="text-align: left;">
+                                <img src="../../../Graphics/Intro_APP_ATP/proprietaryfiles3.gif" alt="Rood" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="36" height="12" border="0" />
+                                <span style="font-weight: normal;">- Project (programma)</span>
+                            </p>
+                            <p style="text-align: left;margin-bottom: 0;">
+                                <img src="../../../Graphics/Intro_APP_ATP/proprietaryfiles4.gif" alt="Subkaart" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="36" height="12" border="0" />
+                                <span style="font-weight: normal;">- Subkaart</span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Projecten opslaan in een Enterprise-omgeving</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Wanneer u projecten opslaat in <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> en u bent verbonden met een Enterprise server, kunt u elk project lokaal opslaan in een apart .PP bestand, of in een database of datasource van de server. Elke database van de server bevat één of meer groepsprojecten, die op hun beurt weer één of meer projecten kunnen bevatten. Elk project kan meerdere subprojecten of subkaarten bevatten:</p>
+                <table wrapperparagraphselector="P" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: center;margin-bottom: 0;">
+                                <img src="../../../Graphics/Intro_APP_ATP/proprietaryfiles5.gif" alt="Elke database van de server bevat één of meer groepsprojecten." style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="145" height="231" border="0" />
+                            </p>
+                        </td>
+                        <td style="width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                            <p style="text-align: left;">
+                                <span style="font-weight: bold;">Sleutel:</span>
+                            </p>
+                            <p style="text-align: left;">
+                                <img src="../../../Graphics/Intro_APP_ATP/proprietaryfiles6.gif" alt="Groen" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="36" height="12" border="0" />
+                                <span style="font-weight: normal;">- Server-mounted database of datasource</span>
+                            </p>
+                            <p style="text-align: left;">
+                                <img src="../../../Graphics/Intro_APP_ATP/proprietaryfiles7.gif" alt="Grijs" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="36" height="12" border="0" />
+                                <span style="font-weight: normal;">- Groepsproject</span>
+                            </p>
+                            <p style="text-align: left;">
+                                <img src="../../../Graphics/Intro_APP_ATP/proprietaryfiles3.gif" alt="Rood" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="36" height="12" border="0" />
+                                <span style="font-weight: normal;">- Project (programma)</span>
+                            </p>
+                            <p style="text-align: left;margin-bottom: 0;">
+                                <img src="../../../Graphics/Intro_APP_ATP/proprietaryfiles4.gif" alt="Subkaart" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="36" height="12" border="0" />
+                                <span style="font-weight: normal;">- Subkaart</span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+                <p>Bibliotheekobjecten, zoals hulpmiddelen, kalenders en codes, worden gedeeld door alle projecten in het groepsproject. Een hulpmiddel dat u bijvoorbeeld hebt gemaakt voor een bepaald project, kan door elk ander project in hetzelfde groepsproject worden gebruikt.</p>
+                <p>De systeembeheerder maakt datasources met de toepassing Serveradmin. Als u projecten maakt die bibliotheekobjecten moeten delen met andere projecten, zorg er dan voor dat het project wordt opgeslagen in dezelfde datasource.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p MadCap:conditions="Powerproject_Easyplan.Easyplan_only">
+            <MadCap:variable name="Primary.Easyplan Name" /> projecten worden standaard opgeslagen in Elecosoft's eigen bestandsformaat, met de extensie .PP, bijvoorbeeld PROJECT.PP. U kunt kiezen om projecten op te slaan in een aantal bestandsformaten. U selecteert het bestandsformaat dat u wilt gebruiken via het <b>Opslaan als type</b> veld op het <b>Opslaan al</b>s dialoogvenster.</p>
+        <p MadCap:conditions="Powerproject_Easyplan.Easyplan_only">Als u projecten opslaat in <MadCap:variable name="Primary.Easyplan Name" /> wordt elk project opgeslagen in een apart bestand. Elk .PP bestand bevat één project. Elk project kan meerdere subprojecten of subkaarten bevatten:</p>
+        <table wrapperparagraphselector="P" cellspacing="0" width="100%" MadCap:conditions="Powerproject_Easyplan.Easyplan_only">
+            <tr>
+                <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="margin-bottom: 0;" align="center">
+                        <img src="../../../Graphics/Intro_APP_ATP/proprietaryfiles1.gif" alt="Each file contains a single project" title="Each file contains a single project" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="106px" height="95px" border="0" />
+                    </p>
+                </td>
+                <td style="vertical-align: middle;width: 50%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;">
+                    <p style="font-weight: bold;" align="left">Key:</p>
+                    <p align="left">
+                        <img src="../../../Graphics/Intro_APP_ATP/proprietaryfiles2.gif" alt="Blue" title="Blue" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="36" height="12" border="0" /> - Lokaal .PP file</p>
+                    <p align="left">
+                        <img src="../../../Graphics/Intro_APP_ATP/proprietaryfiles3.gif" alt="Red" title="Red" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="36" height="12" border="0" /> - Project (programma kaart)</p>
+                    <p style="margin-bottom: 0;" align="left">
+                        <img src="../../../Graphics/Intro_APP_ATP/proprietaryfiles4.gif" alt="Subchart" title="Subchart" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="36" height="12" border="0" /> - Samenvattingsgroep</p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

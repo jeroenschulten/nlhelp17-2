@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>Wanneer u ervoor kiest om gekleurde voortgangsmarkering weer te geven op samenvattingstaken, <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">niveautaken en hammocks, </MadCap:conditionalText>zal de voortgang worden berekend volgens de voortgangsmethode die ingesteld staat in het <b>Voortgangsmethode</b> veld op het <b>Eigenschappen</b> tabblad van de Backstage view. Merk op dat wanneer u hier één van de op kosten of inspanning-gebaseerde voortgangsmethodes kiest, het niet mogelijk is om gekleurde voortgangsmarkering weer te geven op samenvattingstaken<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">, niveautaken en hammocks</MadCap:conditionalText>.</body>
+</html>

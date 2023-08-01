@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b>Link instellingen</b> dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li xmlns="">Klik op het <b>Bestand</b> tabblad, klik vervolgens op <b>Opties</b>. Het <b>Opties</b> dialoogvenster verschijnt.</li>
+                    <li>Klik op het <b xmlns="">Bewerken</b> tabblad, en klik op <b xmlns="">Link instellingen</b>.</li>
+                </ol>
+                <p>U kunt ook toegang krijgen tot het <b>Logica najagen</b> tabblad van dit <b>Link instellingen</b> dialoogvenster door rechts te klikken op een kop van een kolom in één van de rastertabellen van het <b>Links</b> tabblad van het <b>Balk en Taak Eigenschappen</b> dialoogvenster of van de eigenschappen view en vervolgens <b>Logica najagen instellingen</b> te selecteren.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" xml:lang="nl-nl" class="KLAAR-NL">
+    <head>
+        <link href="../../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Kwaliteitschecks:baseline variantie criterium;Baseline variantie kwaliteitscriterium" />'Baseline variantie' kwaliteitscriterium</h1>
+        <p>Gebruik dit kwaliteitscriterium om het aandeel taken in de actuele projectgegevens te controleren met start- of einddatums die minder dan een bepaalde duur afwijken van de overeenkomstige datums in de <a href="../Baselines/Creating_and_merging_baselines/BL_set_as_current.htm">huidige baseline</a>. Als een taak voortgang heeft, wordt de werkelijke startdatum vergeleken met de startdatum in de baseline. Een groot aandeel van de taken met datums die aanzienlijk verschillen van hun baseline-equivalenten, kan erop wijzen dat een projectplanning niet volgens plan verloopt en dat er mogelijk actie moet worden ondernomen.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Voorbeelden van taken significant verschillen van hun baseline equivalenten</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In de volgende afbeelding zijn de begin- en einddatums van taak 1 identiek aan de datums van de corresponderende taak in de huidige baseline. Als 5d de opgegeven duur was in de instellingen van deze kwaliteitscriterium, zou taak 1 voor dit criterium slagen:</p>
+                <p>
+                    <img src="../../../Graphics/Quality_check/baselinevariance1.gif" alt="The start and finish dates of Task 1 are identical to the dates of the corresponding task in the current baseline" />
+                </p>
+                <p>In de volgende afbeelding verschilt de einddatum van taak 1 met 2d van de einddatum van de overeenkomstige baseline taak. Als 5d de opgegeven duur was in de instellingen van dit kwaliteitscriterium, zou taak 1 dit criterium doorstaan:</p>
+                <p>
+                    <img src="../../../Graphics/Quality_check/baselinevariance2.gif" alt="The finish date of Task 1 differs from the finish date of the corresponding baseline task by 2d" />
+                </p>
+                <p>In de volgende afbeelding verschilt de einddatum van taak 1 met 5d van de einddatum van de overeenkomstige baseline taak. Als 5d de opgegeven duur was in de instellingen van dit kwaliteitscriterium, zou taak 1 dit criterium niet halen:</p>
+                <p>
+                    <img src="../../../Graphics/Quality_check/baselinevariance3.gif" alt="The finish date of Task 1 differs from the finish date of the corresponding baseline task by 5d" />
+                </p>
+                <p>In de volgende afbeelding verschilt de einddatum van taak 1 met 6d van de einddatum van de overeenkomstige baseline taak. Als 5d de opgegeven duur was in de instellingen van dit kwaliteitscriterium, zou taak 1 dit criterium niet halen:</p>
+                <p>
+                    <img src="../../../Graphics/Quality_check/baselinevariance4.gif" alt="The finish date of Task 1 differs from the finish date of the corresponding baseline task by 6d" />
+                </p>
+                <p>In de volgende afbeelding verschilt de werkelijke startdatum van taak 1 met 6d van de startdatum van de overeenkomstige baseline taak. Als 5d de opgegeven duur was in de instellingen van dit kwaliteitscriterium, zou taak 1 dit criterium niet halen:</p>
+                <p>
+                    <img src="../../../Graphics/Quality_check/baselinevariance5.gif" alt="The actual start date of Task 1 differs from the start date of the corresponding baseline task by 6d" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_2.flsnp" />
+        </p>
+        <h2>Slaag en faal criteria</h2>
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Slaagt of faalt?</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Criteria</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #afffaf;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Slaagt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p>Een project slaagt voor dit kwaliteitscriterium als het percentage taken in de actuele projectdata met start- of einddatums die minder dan de opgegeven duur verschillen van de equivalente datums in de huidige baseline, groter is dan of gelijk is aan het slaaggrens percentage.</p>
+                        <p>Als de duur bijvoorbeeld was ingesteld op 5d en de slaaggrens was ingesteld op 100,00%, zou een project voor dit criterium slagen als 100% van zijn taken een start- of einddatum had die minder dan 5d zou verschillen van de corresponderende datum in de baseline.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="background-color: #ff6464;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;border-bottom-style: solid;border-bottom-width: 1px;">Faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p>Een project faalt voor dit kwaliteitscriterium als het percentage taken in de actuele projectdata met start- of einddatums die minder dan de opgegeven duur verschillen van de equivalente datums in de huidige baseline, kleiner is dan het faalgrens percentage.</p>
+                        <p>Als de duur bijvoorbeeld was ingesteld op 5d en de faalgrens was ingesteld op 100,00%, zou een project niet slagen voor dit kwaliteitscriterium als minder dan 100% van zijn taken een start- of einddatum had die minder dan 5d verschilde van de corresponderende datum in de baseline.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="background-color: #ffaf45;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;border-right-style: solid;border-right-width: 1px;border-right-color: #4a4a49;">Slaagt noch faalt</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">
+                        <p>Als het percentage taken in de actuele projectdata met start- of einddatums die minder dan de opgegeven duur verschillen van de equivalente datums in de huidige baseline, tussen de grens voor geslaagd en mislukt valt, is het resultaat noch een voldoende noch een onvoldoende, maar ergens tussenin.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Voorgestelde instellingen</h2>
+        <ul xmlns="" type="disc">
+            <li>Duur: 5d.</li>
+            <li>Slaaggrens: 100,00%. Een project slaagt voor dit kwaliteitscriterium als alle taken in de actuele projectdata start- of einddatums hebben die minder dan 5d afwijken van de equivalente datums in de huidige baseline.</li>
+            <li>Faalgrens: 100,00%. Een project zal dit kwaliteitscriterium niet halen als taken in de live data een start- of einddatum hebben die 5d of meer verschilt van de equivalente data in de huidige baseline.</li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_39.flsnp">
+        </MadCap:snippetBlock>
+        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1">
+            </col>
+            <col class="TableStyle-Table_Stylesheet-Column-Column1">
+            </col>
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Percentage taken met datums die minder dan 5d van de baseline verschillen</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Slaagt of faalt?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">0,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">50,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">99,99%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Faalt</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1">100,00%</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Slaagt</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Forceert dit criterium dat het project wordt herberekend?</h2>
+        <p>Ja. <MadCap:snippetText src="../../../Resources/Snippets/Quality_check_1.flsnp" /></p>
+        <h2>Voorgestelde acties als een project faalt voor dit criterium</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_37.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_38.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Quality_check_45.flsnp" />
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p>
+            <a href="Checking_quality_intro.htm">Introductie over planningskwaliteitchecks</a>
+        </p>
+        <p>
+            <a href="../Baselines/Creating_and_merging_baselines/BL_set_as_current.htm">Specificeren welke baseline de "huidige baseline" is</a>
+        </p>
+    </body>
+</html>

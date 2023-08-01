@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="KLAAR" xml:lang="nl-nl">
+    <head>
+        <link href="../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Kosten Allocatie Eigenschappen dialoogvenster - Niet lineaire Allocatie tabblad</h1>
+        <p>U gebruikt het <b>Niet lineaire Allocatie</b> tabblad van het <b>Kosten Allocatie Eigenschappen</b> dialoogvenster om<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"> te specificeren of de kosten waarden van de geselecteerde verbruiksgoed allocatie constant zijn gedurende de duur van de allocatie, of dat ze variëren, en worden berekend via een hulpmiddel curve. Wanneer u een hulpmiddel curve wilt toewijzen aan een allocatie, selecteert u de hulpmiddel curve op dit tabblad.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Easyplan_only"> de niet-lineaire allocatie instellingen van een kostenallocatie te bekijken. Dit tabblad verschijnt alleen als u een project bekijkt dat voorheen geopend was in <MadCap:variable name="Primary.Asta Asta Powerproject Name" />, en is alleen beschikbaar voor kostenallocaties die in <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> geconfigureerd zijn als niet-lineair.</MadCap:conditionalText></p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Cost_Allocation_Properties_dialog_access.flsnp" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Verklaring van de velden op het dialoogvenster</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../../Resources/Stylesheets/Table_Stylesheet.css');caption-side: top;margin-left: 0;margin-right: auto;" cellspacing="0">
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1">
+                    </col>
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1">
+                    </col>
+                    <thead>
+                        <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Veld</th>
+                            <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Omschrijving</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Lineair</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Klik op dit keuzerondje om te specificeren dat de allocatie plat is - lineair - d.w.z. dat hoeveelheid waarden constant blijven gedurende de duur van de allocatie.</MadCap:conditionalText>
+                                <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Easyplan_only">Dit keuzerondje zou ingeschakeld zijn wanneer de allocatie plat is - lineair - d.w.z. dat hoeveelheid waarden constant blijven gedurende de duur van de allocatie.</MadCap:conditionalText>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Hulpmiddel curve</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" xmlns="">Specificeert dat de kosten waarden van de allocatie  niet constant blijven gedurende de duur van de allocatie, maar worden berekend met behulp van de hulpmiddelcurve die rechts van dit veld verschijnt.</p>
+                                <p class="ParagraphsInTables" xmlns="" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Klik op dit keuzerondje om te specificeren dat de kosten waarden voor de allocatie niet constant zijn gedurende de duur van de allocatie, maar worden berekend via een hulpmiddel curve.</p>
+                                <p class="ParagraphsInTables" xmlns="" MadCap:conditions="Powerproject_Easyplan.Powerproject_only"> <MadCap:snippetText src="../../Resources/Snippets/Nonlinear_allocs_props_select_resource_curve.flsnp" /></p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Weergave periode</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables" xmlns="" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Specificeer of het tabelraster op dit tabblad kosten waarden moet weergeven voor elke week, dag, halve dag of uur gedurende de duur van de allocatie.</p>
+                                <p class="ParagraphsInTables" xmlns="" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Voor lineaire allocaties geldt dat de cijfers in de <b>Kosten</b> kolom gelijk zullen zijn voor elke rij; voor allocaties die een hulpmiddel curve gebruiken, zullen deze cijfers verschillen volgens de manier waarop de hulpmiddel curve is geconfigureerd.</p>
+                                <p class="ParagraphsInTables" xmlns="" MadCap:conditions="Powerproject_Easyplan.Easyplan_only">Specificeer of de rastertabel op dit tabblad de kosten waarden voor elke week, dag, halve dag of uur gedurende de duur van de allocatie weergegeven worden.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Detail raster - Periode</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1"> <MadCap:snippetText src="../../Resources/Snippets/Nonlinear_period.flsnp" /></td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Detail raster - Kosten</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1" xmlns="">De kosten (in de juiste valuta) van elke periode gedurende de duur van de allocatie.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../Resources/Snippets/How_do_I.flsnp" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+        </MadCap:snippetBlock>
+        <MadCap:dropDown MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specificeren dat de kosten waarden van de geselecteerde allocatie constant zijn gedurende de duur van de allocatie?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Klik op het <b>Lineair</b> keuzerondje. De cijfers in de <b>Kosten</b> kolom in het raster op dit tabblad geven dezelfde waarde voor elke rij.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... een hulpmiddel curve aan de geselecteerde allocatie toewijzen?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li> <MadCap:snippetText src="../../Resources/Snippets/Nonlinear_specify_resource_curve.flsnp" /></li>
+                    <li>Selecteer de hulpmiddel curve om toe te passen op de allocatie in het veld rechts van het keuzerondje. De getallen in de <b>Kosten</b> kolom in het raster op dit tabblad variëren volgens de manier waarop de hulpmiddel curve is geconfigureerd.</li>
+                </ol>
+                <p> <MadCap:snippetText src="../../Resources/Snippets/Nonlinear_specify_resource_curve_1.flsnp" /></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Resource_Properties_More_Less_1.flsnp" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" />
+        <p class="RelatedTopics">Verwante Onderwerpen:</p>
+        <p><a href="../Other/Workingdialogs.htm">Met dialoogvensters werken</a>
+        </p>
+        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><a href="../Conceptual/Resource_and_cost_allocations/Nonlinear_allocations/Nonlinear_allocations_resource_curves.htm">Werken met niet-lineaire allocaties en hulpmiddelcurves</a>
+        </p>
+        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><a href="../Conceptual/Resource_and_cost_allocations/Nonlinear_allocations/Configure_allocations_nonlinear.htm">Configureren van niet-lineaire hulpmiddel- en kostenallocaties</a>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>Omdat Microsoft Project geen codebibliotheken als zodanig ondersteunt, worden codebibliotheek toewijzingen geëxporteerd en verschijnen ze bij de relevante taken en hulpmiddelen in Microsoft Project als tekst-type gebruikersvelden. Omdat er een limiet is aan het aantal tekst-type gebruikersvelden in Microsoft Project, zou het kunnen dat u het aantal codebibliotheken dat u opneemt in een export moet inperken bij het exporteren van een erg groot project of een project met een groot aantal codebibliotheek toewijzingen.</body>
+</html>

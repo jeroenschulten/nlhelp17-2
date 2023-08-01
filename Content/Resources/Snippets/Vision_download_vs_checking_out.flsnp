@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>Het downloaden van een programma verschilt van het uitchecken van een programma als volgt:</p>
+        <table style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table_Stylesheet" cellspacing="0">
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">&#160;</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Downloaden</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Uitchecken naar uw computer</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Uitchecken naar een <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise server</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1"><b>Uitchecken</b>
+                    </td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                        Andere gebruikers kunnen het programma bekijken.<![CDATA[
+                    ]]></td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                       Andere gebruikers kunnen het programma pas inchecken als u het hebt ingecheckt.
+                    </td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                       Andere gebruikers kunnen het programma pas inchecken als u het hebt ingecheckt.
+</td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1"><b>Wijzigen</b>
+                    </td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">U kunt het programma wijzigen, maar alle wijzigingen die u aanbrengt zijn tijdelijk omdat u ze niet kunt inchecken.
+                    </td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">
+                        <p class="ParagraphsInTables">U kunt het programma wijzigen.</p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Andere gebruikers kunnen het programma pas bekijken als u het hebt ingecheckt</p>
+                    </td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">U kunt het programma wijzigen.</p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Andere gebruikers kunnen het programma wijzigen, mits ze toegang hebben tot de <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise server.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1"><b>Verzenden wijzigingen</b>
+                    </td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">U kunt geen wijzigingen verzenden die u in het programma aanbrengt.</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">U kunt alle wijzigingen die u gemaakt heeft aan het  programma verzenden.</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p class="ParagraphsInTables">U kunt geen wijzigingen verzenden die u en andere gebruikers in het programma aangebracht hebben.</p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Andere gebruikers kunnen geen enkele wijziging verzenden.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1"><b>Inchecken en verzenden</b>
+                    </td>
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1">U kunt geen enkele wijzigingen die u gemaakt heeft aan het  programma inchecken en verzenden.</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1">U kunt alle wijzigingen die u gemaakt heeft aan het  programma inchecken en verzenden.</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">
+                        <p class="ParagraphsInTables">U kunt alle wijzigingen verzenden die u en andere gebruikers in het programma aangebracht hebben.</p>
+                        <p class="ParagraphsInTables">&#160;</p>
+                        <p class="ParagraphsInTables">Andere gebruikers kunnen niet inchecken en geen enkele wijziging verzenden; alleen de gebruiker die het programma uitgecheckt heeft kan inchecken en wijzigingen verzenden.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

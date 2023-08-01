@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>Het uitsluiten van waarden die nul zijn, resulteert in een veel kleinere databasetabel - tijdsegmenttabellen leveren de grootste bijdrage aan het gegevensvolume - wat leidt tot kosten- en prestatievoordelen.</body>
+</html>

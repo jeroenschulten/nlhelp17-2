@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li class="p">Klik op het <b>Bestand</b> tabblad, klik vervolgens op <b>Openen</b>.</li>
+            <li class="p">Klik op <b xmlns="">Enterprise</b>. Er verschijnt nu een navigeerbare lijst met datasources en projecten.</li>
+            <li>Navigeer door de datasources en projecten.</li>
+            <li>Klik op een project om deze te openen.</li>
+        </ol>
+        <p>Als u <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise draait en een project opent dat is opgeslagen op een server mounted datasource, moet u mogelijk zowel aanmeldingsgegevens invoeren om u aan te melden bij de server als bij het project. Als uw gebruikersnaam en wachtwoord hetzelfde zijn voor zowel de server als het project, hoeft u slechts één set aanmeldingsgegevens in te voeren.</p>
+    </body>
+</html>
