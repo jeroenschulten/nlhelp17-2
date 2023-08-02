@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
-    <body>Dit selectievakje verschijnt alleen bij 32 bit <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise builds, omdat de geheugenmonitor niet nodig is bij 64 bit <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise builds of wanneer u <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> als standalone versie gebruikt.</body>
+    <body>Dit selectievakje verschijnt alleen bij 32 bit <MadCap:variable name="Primary.Asta Powerproject Name" /> Enterprise builds, omdat de geheugenmonitor niet nodig is bij 64 bit <MadCap:variable name="Primary.Asta Powerproject Name" /> Enterprise builds of wanneer u <MadCap:variable name="Primary.Asta Powerproject Name" /> als standalone versie gebruikt.</body>
 </html>

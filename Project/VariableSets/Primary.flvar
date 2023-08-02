@@ -12,7 +12,7 @@
     Comment=""
     EvaluatedDefinition="Asta Vision">Asta Vision</Variable>
   <Variable
-    Name="Asta Asta Powerproject Name"
+    Name="Asta Powerproject Name"
     Comment=""
     EvaluatedDefinition="Asta Powerproject">Asta Powerproject</Variable>
   <Variable
@@ -36,7 +36,7 @@
     Comment=""
     EvaluatedDefinition="Resource Search">Resource Search</Variable>
   <Variable
-    Name="Asta Asta Powerproject SaaS Name"
+    Name="Asta Powerproject SaaS Name"
     Comment=""
     EvaluatedDefinition="Asta Powerproject SaaS">Asta Powerproject SaaS</Variable>
   <Variable
@@ -70,4 +70,11 @@
     Name="Asta Enterprise Name"
     Comment=""
     EvaluatedDefinition="Asta Enterprise">Asta Enterprise</Variable>
+  <Variable
+    Name="NewVariable"
+    Comment="" />
+  <Variable
+    Name="Powerproject Name"
+    Comment=""
+    EvaluatedDefinition="Asta Powerproject">Asta Powerproject</Variable>
 </CatapultVariableSet>

@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
     <body>
-        <p>Als voor één of meer opmerkingen bij een programma het selectievakje <b>Weergeven voltooiing commentaar</b> ingeschakeld staat, verschijnt een kolom <b>Voltooid</b> op de pagina <b>Programma-opmerkingen</b> in <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Vision en kunnen gebruikers de selectievakjes in deze kolom inschakelen om aan te geven dat ze een opmerking in het programma hebben opgenomen .</p>
+        <p>Als voor één of meer opmerkingen bij een programma het selectievakje <b>Weergeven voltooiing commentaar</b> ingeschakeld staat, verschijnt een kolom <b>Voltooid</b> op de pagina <b>Programma-opmerkingen</b> in <MadCap:variable name="Primary.Asta Powerproject Name" /> Vision en kunnen gebruikers de selectievakjes in deze kolom inschakelen om aan te geven dat ze een opmerking in het programma hebben opgenomen .</p>
     </body>
 </html>

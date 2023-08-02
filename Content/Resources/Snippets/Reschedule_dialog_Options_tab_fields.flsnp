@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
@@ -122,8 +122,7 @@
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
                                 <p class="ParagraphsInTables">Schakel dit selectievakje in om de projectdeadline die bij het project is opgegeven als deadline te gebruiken of schakel het selectievakje uit om de einddatum van de laatste taak in het project te gebruiken om de late en vrije einddatums in te stellen en de speling te berekenen.</p>
                                 <p class="ParagraphsInTables">&#160;</p>
-                                <p class="ParagraphsInTables">
-                                    <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Setting_reschedule_options/Setting_reschedule_options.htm#Delivery_date_as_deadline">De projectdeadline datum te gebruiken als een deadline bij een herberekening</a>.</p>
+                                <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Setting_reschedule_options/Setting_reschedule_options.htm#Delivery_date_as_deadline">De projectdeadline datum te gebruiken als een deadline bij een herberekening</a>.</p>
                             </td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
@@ -225,11 +224,11 @@
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                             <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Automatisch herberekenen</td>
                             <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">
-                                <p class="ParagraphsInTables">Specificeer of <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> de huidige view, de huidige groep (dus het in de Project View geselecteerde (sub-)project), of het gehele programma van projecten automatisch herberekent, elke keer dat u een wijziging aanbrengt die erin resulteert dat één of meerdere taken worden verplaatst. Selecteer Herberekenen view om te configureren dat <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> de huidige view automatisch herberekent, elke keer dat u een wijziging aanbrengt die erin resulteert dat één of meerdere taken worden verplaatst of van grootte worden veranderd. Selecteer Herberekenen alles om te configureren dat <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> het volledige programma van projecten automatisch herberekent. Selecteer Herberekenen groep om  de huidige groep automatisch te herberekenen. Of selecteer Uit wanneer u niet wilt dat <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> automatisch herberekent elke keer dat u een wijziging aanbrengt.</p>
+                                <p class="ParagraphsInTables">Specificeer of <MadCap:variable name="Primary.Asta Powerproject Name" /> de huidige view, de huidige groep (dus het in de Project View geselecteerde (sub-)project), of het gehele programma van projecten automatisch herberekent, elke keer dat u een wijziging aanbrengt die erin resulteert dat één of meerdere taken worden verplaatst. Selecteer Herberekenen view om te configureren dat <MadCap:variable name="Primary.Asta Powerproject Name" /> de huidige view automatisch herberekent, elke keer dat u een wijziging aanbrengt die erin resulteert dat één of meerdere taken worden verplaatst of van grootte worden veranderd. Selecteer Herberekenen alles om te configureren dat <MadCap:variable name="Primary.Asta Powerproject Name" /> het volledige programma van projecten automatisch herberekent. Selecteer Herberekenen groep om  de huidige groep automatisch te herberekenen. Of selecteer Uit wanneer u niet wilt dat <MadCap:variable name="Primary.Asta Powerproject Name" /> automatisch herberekent elke keer dat u een wijziging aanbrengt.</p>
                                 <p class="ParagraphsInTables">&#160;</p>
-                                <p class="ParagraphsInTables">Automatisch herberekenen is meest nuttig bij kleinere projecten: hoe groter een project wordt, des te meer tijd het kost om het project te herbereken. Wanneer u automatische herberekening wilt activeren in een groter project, is het aan te bevelen dat u <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> configureert om alleen de huidige view of huidige groep te herberekenen, in plaats van het gehele programma van projecten, omdat dit dan na elke wijziging veel minder tijd kost.</p>
+                                <p class="ParagraphsInTables">Automatisch herberekenen is meest nuttig bij kleinere projecten: hoe groter een project wordt, des te meer tijd het kost om het project te herbereken. Wanneer u automatische herberekening wilt activeren in een groter project, is het aan te bevelen dat u <MadCap:variable name="Primary.Asta Powerproject Name" /> configureert om alleen de huidige view of huidige groep te herberekenen, in plaats van het gehele programma van projecten, omdat dit dan na elke wijziging veel minder tijd kost.</p>
                                 <p class="ParagraphsInTables">&#160;</p>
-                                <p class="ParagraphsInTables">Zie: <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Reschedule_automatically/Reschedule_automatically.htm" xmlns="">Configureer  <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> voor automatische herberekening</a>.</p>
+                                <p class="ParagraphsInTables">Zie: <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Reschedule_automatically/Reschedule_automatically.htm" xmlns="">Configureer  <MadCap:variable name="Primary.Asta Powerproject Name" /> voor automatische herberekening</a>.</p>
                             </td>
                         </tr>
                     </tbody>

@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
-    <body>Als u een programma hebt uitgecheckt naar een <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise server, kunt alleen u het programma vervolgens verzenden: andere gebruikers kunnen het niet verzenden. U kunt een bij een <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise-server uitgecheckt programma alleen verzenden als er op dat moment geen andere gebruikers gebruik van maken. Programma's worden automatisch verwijderd op de <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise-server wanneer u ze verzendt.</body>
+    <body>Als u een programma hebt uitgecheckt naar een <MadCap:variable name="Primary.Asta Powerproject Name" /> Enterprise server, kunt alleen u het programma vervolgens verzenden: andere gebruikers kunnen het niet verzenden. U kunt een bij een <MadCap:variable name="Primary.Asta Powerproject Name" /> Enterprise-server uitgecheckt programma alleen verzenden als er op dat moment geen andere gebruikers gebruik van maken. Programma's worden automatisch verwijderd op de <MadCap:variable name="Primary.Asta Powerproject Name" /> Enterprise-server wanneer u ze verzendt.</body>
 </html>

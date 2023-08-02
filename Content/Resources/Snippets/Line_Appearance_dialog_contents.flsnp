@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
@@ -10,7 +10,7 @@
                 <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b>Lijn Opmaak</b> dialoogvenster</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p style="margin-bottom: 0;">U kunt het <span style="font-weight: bold;">Lijn Opmaak</span> dialoogvenster oproepen vanuit een aantal andere dialoogvensters in <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" />, inclusief het <span style="font-weight: bold;">Kalenderschaal Eigenschappen</span> dialoogvenster, het <span style="font-weight: bold;">Horizontale Lijn Eigenschappen</span> dialoogvenster<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"> en de <span style="font-weight: bold;">Baseline/What If Manager</span></MadCap:conditionalText>.</p>
+                <p style="margin-bottom: 0;">U kunt het <span style="font-weight: bold;">Lijn Opmaak</span> dialoogvenster oproepen vanuit een aantal andere dialoogvensters in <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" />, inclusief het <span style="font-weight: bold;">Kalenderschaal Eigenschappen</span> dialoogvenster, het <span style="font-weight: bold;">Horizontale Lijn Eigenschappen</span> dialoogvenster<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"> en de <span style="font-weight: bold;">Baseline/What If Manager</span></MadCap:conditionalText>.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>

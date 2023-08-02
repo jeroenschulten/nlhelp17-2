@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-    <body>Misschien wilt u dit doen om een baseline beschikbaar te maken voor iemand anders zonder het project zelf te verstrekken, of om een kopie van een baseline voor referentiedoeleinden op te slaan voordat u deze uit een project verwijdert. Nadat u een baseline naar een afzonderlijk bestand hebt geëxporteerd, kunt u de baseline in <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> op dezelfde manier openen als andere projecten.</body>
+    <body>Misschien wilt u dit doen om een baseline beschikbaar te maken voor iemand anders zonder het project zelf te verstrekken, of om een kopie van een baseline voor referentiedoeleinden op te slaan voordat u deze uit een project verwijdert. Nadat u een baseline naar een afzonderlijk bestand hebt geëxporteerd, kunt u de baseline in <MadCap:variable name="Primary.Asta Powerproject Name" /> op dezelfde manier openen als andere projecten.</body>
 </html>

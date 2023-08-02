@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="128" MadCap:lastWidth="869">
     <body>
-        <p>Als alternatief voor het telkens handmatig herberekenen van een project, kunt u <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> ook configureren om de huidige view of het gehele project automatisch te laten herberekenen, telkens wanneer u een wijziging aanbrengt die erin resulteert dat één of meerdere taken worden verplaatst of van grootte worden veranderd. Automatische herberekening is het meest nuttig bij kleinere projecten: hoe groter een project wordt, hoe langer het zal duren om het te laten herberekenen.</p>
+        <p>Als alternatief voor het telkens handmatig herberekenen van een project, kunt u <MadCap:variable name="Primary.Asta Powerproject Name" /> ook configureren om de huidige view of het gehele project automatisch te laten herberekenen, telkens wanneer u een wijziging aanbrengt die erin resulteert dat één of meerdere taken worden verplaatst of van grootte worden veranderd. Automatische herberekening is het meest nuttig bij kleinere projecten: hoe groter een project wordt, hoe langer het zal duren om het te laten herberekenen.</p>
     </body>
 </html>

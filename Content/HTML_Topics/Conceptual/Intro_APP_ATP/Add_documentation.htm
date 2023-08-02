@@ -1,35 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="KLAAR" xml:lang="nl-nl">
     <head>
-        <link href="../../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
-        <title>
-        </title>
+        <link href="../../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
     </head>
     <body>
         <h1>
-            <MadCap:keyword term="Help:maak uw eigen documentatie beschikbaar;Documenten:maak uw eigen beschikbaar;Documenten:toevoegen aan de Backstage view;Backstage view:toevoegen van uw eigen documenten aan het Help tabblad;ribbon_help.xml;Eigenschappen tabblad" />Maak uw eigen documentatie beschikbaar in <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /></h1>
-        <p>U kunt uw eigen documentatie beschikbaar maken in <MadCap:variable name="Primary.Asta Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> door een XML bestand te bewerken - ribbon_help.xml, dat zich standaard in de map bevindt waarin <MadCap:variable name="Primary.Asta Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> is geïnstalleerd - en daarin details van de documenten die u beschikbaar wilt maken in te voeren. Het is mogelijk om zowel documentatie van een specifiek type beschikbaar te maken - bijvoorbeeld, een PDF bestand, Microsoft Word document of URL - als om documenten van een bepaald type in een specifieke map beschikbaar te stellen. Bijvoorbeeld, wanneer u een aantal PDF bestanden beschikbaar wilt maken, kunt u ze alle in een enkele map zetten en specificeren dat alle PDF's binnen de map beschikbaar moeten worden gemaakt in <MadCap:variable name="Primary.Asta Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" />. U kunt ook aan ieder specifiek document-item een ander icoon toewijzen.</p>
+            <MadCap:keyword term="Help:maak uw eigen documentatie beschikbaar;Documenten:maak uw eigen beschikbaar;Documenten:toevoegen aan de Backstage view;Backstage view:toevoegen van uw eigen documenten aan het Help tabblad;ribbon_help.xml;Eigenschappen tabblad" />Maak uw eigen documentatie beschikbaar in <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /></h1>
+        <p>U kunt uw eigen documentatie beschikbaar maken in <MadCap:variable name="Primary.Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> door een XML bestand te bewerken - ribbon_help.xml, dat zich standaard in de map bevindt waarin <MadCap:variable name="Primary.Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> is geïnstalleerd - en daarin details van de documenten die u beschikbaar wilt maken in te voeren. Het is mogelijk om zowel documentatie van een specifiek type beschikbaar te maken - bijvoorbeeld, een PDF bestand, Microsoft Word document of URL - als om documenten van een bepaald type in een specifieke map beschikbaar te stellen. Bijvoorbeeld, wanneer u een aantal PDF bestanden beschikbaar wilt maken, kunt u ze alle in een enkele map zetten en specificeren dat alle PDF's binnen de map beschikbaar moeten worden gemaakt in <MadCap:variable name="Primary.Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" />. U kunt ook aan ieder specifiek document-item een ander icoon toewijzen.</p>
         <p>Elk document-item dat u beschikbaar stelt verschijnt op het <b>Help</b> tabblad van de Backstage view. U kunt ribbon_help.xml configureren om de documenten op het <b>Help</b> tabblad van de Backstage view in groepen weer te geven, die kunnen worden uit- en ingeklapt. Dit stelt u in staat om gerelateerde documenten logisch te groeperen. Wanneer u op een document klikt, opent deze in iedere applicatie die aan dat bestandstype is geassocieerd. Bijvoorbeeld, PDF bestanden zullen meestal openen in Adobe Acrobat.</p>
         <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
             <MadCap:snippetText src="../../../Resources/Snippets/APP_SaaS_own_docs_not_available.flsnp" />
         </p>
         <h2>Bewerken van ribbon_help.xml om uw eigen documentatie beschikbaar te maken</h2>
-        <p>Het bestand Ribbon_help.xml bevindt zich standaard in de map waarin  <MadCap:variable name="Primary.Asta Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> is geïnstalleerd, alhoewel het mogelijk is om een andere locatie voor het bestand te specificeren - en een andere bestandsnaam, indien gewenst - door het register te wijzigen.</p>
+        <p>Het bestand Ribbon_help.xml bevindt zich standaard in de map waarin  <MadCap:variable name="Primary.Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> is geïnstalleerd, alhoewel het mogelijk is om een andere locatie voor het bestand te specificeren - en een andere bestandsnaam, indien gewenst - door het register te wijzigen.</p>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Hoe een andere locatie en een andere bestandsnaam voor het bestand  ribbon_help.xml te specificeren </MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Om een andere locatie en een andere bestandsnaam voor het bestand ribbon_help.xml te specificeren, voeg een tekststring waarde met de naam DynHelpRibbon toe aan de <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">HKEY_LOCAL_MACHINE\SOFTWARE\Asta\<MadCap:variable name="Primary.Asta Asta Powerproject Name" /> TeamPlan\1.0\Misc\</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Easyplan_only">HKEY_LOCAL_MACHINE\SOFTWARE\Asta\Easyplan\1.0\Misc\</MadCap:conditionalText> register sleutel en voer de gewenste locatie en bestandsnaam in bij de waarde.</p>
-                <p>De locatie die u specificeert kan zich op een netwerk station bevinden. <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Het zou kunnen dat u een locatie op een netwerk station wilt specificeren wanneer u gebruik wilt maken van één versie van ribbon_help.xml en dit beschikbaar wilt stellen aan alle gebruikersinstallaties in een <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise installatie. Merk op dat wanneer u een groot aantal <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> gebruikersinstallaties in een domein moet onderhouden, U misschien de registersleutel wilt aanpassen via Groepsbeleid (Group Policy).</MadCap:conditionalText></p>
-                <p>Bijvoorbeeld, om de locatie te wijzigen naar C:\<MadCap:variable name="Primary.Asta Asta Powerproject Name" /> XML Files\ en de bestandsnaam ongewijzigd te laten, maak de registersleutel DynHelpRibbon tekststring waarde aan en voer het volgende in:</p>
-                <p>C:\<MadCap:variable name="Primary.Asta Asta Powerproject Name" /> XML File\ribbon_help.xml</p>
-                <p>Om de locatie te wijzigen naar T:\<MadCap:variable name="Primary.Asta Asta Powerproject Name" /> XML Files\ en de bestandsnaam in asta_extra_docs_lint_modus.xml, maak de registersleutel DynHelpRibbon tekststring waarde aan en voer het volgende in:</p>
-                <p>T:\<MadCap:variable name="Primary.Asta Asta Powerproject Name" /> XML Files\asta_extra_docs_lint_modus.xml</p>
+                <p>Om een andere locatie en een andere bestandsnaam voor het bestand ribbon_help.xml te specificeren, voeg een tekststring waarde met de naam DynHelpRibbon toe aan de <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">HKEY_LOCAL_MACHINE\SOFTWARE\Asta\<MadCap:variable name="Primary.Asta Powerproject Name" /> TeamPlan\1.0\Misc\</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Easyplan_only">HKEY_LOCAL_MACHINE\SOFTWARE\Asta\Easyplan\1.0\Misc\</MadCap:conditionalText> register sleutel en voer de gewenste locatie en bestandsnaam in bij de waarde.</p>
+                <p>De locatie die u specificeert kan zich op een netwerk station bevinden. <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Het zou kunnen dat u een locatie op een netwerk station wilt specificeren wanneer u gebruik wilt maken van één versie van ribbon_help.xml en dit beschikbaar wilt stellen aan alle gebruikersinstallaties in een <MadCap:variable name="Primary.Asta Powerproject Name" /> Enterprise installatie. Merk op dat wanneer u een groot aantal <MadCap:variable name="Primary.Asta Powerproject Name" /> gebruikersinstallaties in een domein moet onderhouden, U misschien de registersleutel wilt aanpassen via Groepsbeleid (Group Policy).</MadCap:conditionalText></p>
+                <p>Bijvoorbeeld, om de locatie te wijzigen naar C:\<MadCap:variable name="Primary.Asta Powerproject Name" /> XML Files\ en de bestandsnaam ongewijzigd te laten, maak de registersleutel DynHelpRibbon tekststring waarde aan en voer het volgende in:</p>
+                <p>C:\<MadCap:variable name="Primary.Asta Powerproject Name" /> XML File\ribbon_help.xml</p>
+                <p>Om de locatie te wijzigen naar T:\<MadCap:variable name="Primary.Asta Powerproject Name" /> XML Files\ en de bestandsnaam in asta_extra_docs_lint_modus.xml, maak de registersleutel DynHelpRibbon tekststring waarde aan en voer het volgende in:</p>
+                <p>T:\<MadCap:variable name="Primary.Asta Powerproject Name" /> XML Files\asta_extra_docs_lint_modus.xml</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <p>U kunt ribbon_help.xml bewerken met behulp van elke XML editing applicatie, of met eenvoudige applicatie zoals Kladblok. Het is aan te raden om een kopie te maken van het originele ribbon_help.xml bestand voordat u dit gaat bewerken, zodat u terug kunt keren naar het origineel wanneer dit nodig mocht zijn. Wanneer u ribbon_help.xml bewerkt, dan kun u nieuwe documentgroepen toevoegen, en bestaande documentgroepen bewerken of verwijderen.</p>
-        <p>Er worden automatisch backup kopieën van ribbon_help.xml gemaakt wanneer u <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> opstart, nadat u het XML bestand heeft aangepast. Deze kopieën worden opgeslagen in uw Documenten map, met de datum en de tijd waarop ze het laatst zijn gewijzigd toegevoegd aan de bestandsnaam. Bijvoorbeeld, wanneer u het ribbon_help.xml heeft aangepast op 14 November 2012 om 09:40, wordt de volgende keer dat u <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> opstart een kopie van het bestand aangemaakt met de naam ribbon_help 14-11-2012 09-40-14.xml (de laatste drie nummers in de bestandsnaam geven het tijdstip aan waarop het bestand voor het laatst is bewerkt). Deze automatische backup's zijn handig ook wanneer u de <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> upgrade naar een latere versies, namelijk toekomstige versies van <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> kunnen aangepaste versies bezitten van ribbon_help.xml files waarbij het originele bestand dat u heeft aangepast wordt overschreven. U kun dan een backup kopie uit uw Documenten map gebruiken om de geüpdate versie te vervangen.</p>
+        <p>Er worden automatisch backup kopieën van ribbon_help.xml gemaakt wanneer u <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> opstart, nadat u het XML bestand heeft aangepast. Deze kopieën worden opgeslagen in uw Documenten map, met de datum en de tijd waarop ze het laatst zijn gewijzigd toegevoegd aan de bestandsnaam. Bijvoorbeeld, wanneer u het ribbon_help.xml heeft aangepast op 14 November 2012 om 09:40, wordt de volgende keer dat u <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> opstart een kopie van het bestand aangemaakt met de naam ribbon_help 14-11-2012 09-40-14.xml (de laatste drie nummers in de bestandsnaam geven het tijdstip aan waarop het bestand voor het laatst is bewerkt). Deze automatische backup's zijn handig ook wanneer u de <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> upgrade naar een latere versies, namelijk toekomstige versies van <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> kunnen aangepaste versies bezitten van ribbon_help.xml files waarbij het originele bestand dat u heeft aangepast wordt overschreven. U kun dan een backup kopie uit uw Documenten map gebruiken om de geüpdate versie te vervangen.</p>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Uitleg van de structuur van ribbon_help.xml</MadCap:dropDownHotspot>
@@ -76,8 +74,7 @@
                             <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;background-color: #d7fdfd;">&#160;</td>
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
                                 <p class="ParagraphsInTables">Een <b>helpitem</b> element binnen een <b>groep</b> element van het <b>ContentType</b> gelijk "static". Ieder <b>helpitem</b> element is gerelateerd aan een enkel document binnen de groep.</p>
-                                <p class="ParagraphsInTables">
-                                    <b>helpitem</b> elementen hebben de volgende attributen:</p>
+                                <p class="ParagraphsInTables"><b>helpitem</b> elementen hebben de volgende attributen:</p>
                                 <ul>
                                     <MadCap:snippetBlock src="../../../Resources/Snippets/Ribbon_help_xml_helpitem_element_attributes_1.flsnp" />
                                     <MadCap:snippetBlock src="../../../Resources/Snippets/Ribbon_help_xml_helpitem_element_attributes_7.flsnp" />
@@ -105,8 +102,7 @@
                             <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;background-color: #f5deb3;">&#160;</td>
                             <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">
                                 <p class="ParagraphsInTables">Een <b>iteminfo</b> element binnen een <b>groep</b> element met het <b>ContentType</b> gelijk aan "dynamic". Ieder <b>iteminfo</b> element bevat informatie dat is gerelateerd aan een enkel document binnen de groep. Omdat u de documenten binnen de "dynamic" groepen niet individueel specificeert, dan is het niet nodig om een nieuw <b>iteminfo</b> in te voeren voor de elementen, maar misschien wilt u dit wel doen om aan te geven op welke manier bepaalde documenten binnen de "dynamic" groep worden weergegeven.</p>
-                                <p class="ParagraphsInTables">
-                                    <b>iteminfo</b> elementen hebben de volgende attributen:</p>
+                                <p class="ParagraphsInTables"><b>iteminfo</b> elementen hebben de volgende attributen:</p>
                                 <MadCap:snippetBlock src="../../../Resources/Snippets/Ribbon_help_xml_iteminfo_element_attributes.flsnp" />
                             </td>
                         </tr>
@@ -122,7 +118,7 @@
                 </p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
-        <p>De volgende secties beschrijven op welke manier u ribbon_help.xml moet aanpassen om specifieke documenten of groepen van documenten beschikbaar te maken in <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" />.</p>
+        <p>De volgende secties beschrijven op welke manier u ribbon_help.xml moet aanpassen om specifieke documenten of groepen van documenten beschikbaar te maken in <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" />.</p>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Hoe kunt u een groep van specifieke documenten beschikbaar stellen</MadCap:dropDownHotspot>
@@ -145,8 +141,7 @@
                     </MadCap:dropDownHead>
                     <MadCap:dropDownBody>
                         <p>Om een specifiek bestand van welk type dan ook ter beschikking te stellen, moet u eerst binnen ribbon_help.xml een <b>groep</b> element creëren van het <b>ContentType</b> "static" (zoals hierboven beschreven), vervolgens creëert u een ondergeschikt <b>helpitem</b> element binnen het <b>groep</b> element dat gerelateerd is aan het bestand. Als het <b>groep</b> element waaraan u het bestand wilt relateren al bestaat, dan is het niet nodig om een nieuw <b>groep</b> element te creëren; u voegt eenvoudigweg een <b>helpfile</b> element toe aan het bestaande <b>groep</b> element.</p>
-                        <p>
-                            <b>helpitem</b> elementen die gerelateerd zijn aan bestanden van welk type dan ook hebben de volgende attributen:</p>
+                        <p><b>helpitem</b> elementen die gerelateerd zijn aan bestanden van welk type dan ook hebben de volgende attributen:</p>
                         <ul>
                             <MadCap:snippetBlock src="../../../Resources/Snippets/Ribbon_help_xml_helpitem_element_attributes_1.flsnp" />
                             <MadCap:snippetBlock src="../../../Resources/Snippets/Ribbon_help_xml_helpitem_element_attributes_8.flsnp" />
@@ -170,8 +165,7 @@
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>Om een specifiek CHM (HTML Help) ter beschikking te stellen, moet u eerst binnen ribbon_help.xml een <b>groep</b> element creëren van het <b>ContentType</b> "static" (zoals hierboven beschreven), vervolgens creëert u een ondergeschikt <b>helpitem</b> element binnen het <b>groep</b> element dat gerelateerd is aan het CHM bestand. Als het <b>groep</b> element waaraan u het CHM bestand wilt relateren al bestaat, dan is het niet nodig om een nieuw <b>groep</b> element te creëren; u voegt eenvoudigweg een <b>helpfile</b> element toe aan het bestaande <b>groep</b> element.</p>
-                <p>
-                    <b>helpitem</b> elementen die gerelateerd zijn aan bestanden van het CHM type hebben de volgende attributen:</p>
+                <p><b>helpitem</b> elementen die gerelateerd zijn aan bestanden van het CHM type hebben de volgende attributen:</p>
                 <ul>
                     <MadCap:snippetBlock src="../../../Resources/Snippets/Ribbon_help_xml_helpitem_element_attributes_1.flsnp" />
                     <MadCap:snippetBlock src="../../../Resources/Snippets/Ribbon_help_xml_helpitem_element_attributes_9.flsnp" />
@@ -194,8 +188,7 @@
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>Om een hyperlink te maken die een email creëert naar een specifiek emailadres moet u eerst binnen ribbon_help.xml een <b>groep</b> element van het <b>ContentType</b> "static" (zoals hierboven beschreven), vervolgens creëert u een ondergeschikt <b>helpitem</b> element binnen het <b>groep</b> element dat is gerelateerd aan de hyperlink. Als het <b>groep</b> element waarbinnen u een hyperlink wilt toevoegen al bestaat, dan is het niet nodig om een nieuw <b>groep</b> element aan te maken; u kunt eenvoudigweg een <b>helpfile</b> element toevoegen aan het bestaande <b>groep</b> element.</p>
-                <p>
-                    <b>helpitem</b> elementen die gerelateerd zijn aan hyperlinks die email's creëren hebben de volgende attributen:</p>
+                <p><b>helpitem</b> elementen die gerelateerd zijn aan hyperlinks die email's creëren hebben de volgende attributen:</p>
                 <ul>
                     <MadCap:snippetBlock src="../../../Resources/Snippets/Ribbon_help_xml_helpitem_element_attributes_1.flsnp" />
                     <MadCap:snippetBlock src="../../../Resources/Snippets/Ribbon_help_xml_helpitem_element_attributes_10.flsnp" />
@@ -217,8 +210,7 @@
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>Om een link te maken naar een URL, moet u eerst in ribbon_help.xml een <b>groep</b> element creëren van het <b>ContentType</b> "static" (zoals hierboven beschreven), vervolgens creëert u een ondergeschikt <b>helpitem</b> element binnen het <b>groep</b> element dat is gerelateerd aan de hyperlink. Als het <b>groep</b> element waaraan u een hyperlink wilt toevoegen al bestaat, dan is het niet nodig om een nieuw <b>groep</b> element te creëren; u kunt eenvoudigweg een <b>helpfile</b> element toevoegen aan het bestaande <b>groep</b> element.</p>
-                <p>
-                    <b>helpitem</b> elementen die gerelateerd zijn aan URL hyperlinks hebben de volgende attributen:</p>
+                <p><b>helpitem</b> elementen die gerelateerd zijn aan URL hyperlinks hebben de volgende attributen:</p>
                 <ul>
                     <MadCap:snippetBlock src="../../../Resources/Snippets/Ribbon_help_xml_helpitem_element_attributes_1.flsnp" />
                     <MadCap:snippetBlock src="../../../Resources/Snippets/Ribbon_help_xml_helpitem_element_attributes_11.flsnp" />
@@ -247,8 +239,7 @@
                     <img src="../../../Graphics/Help/xmlfileribbondynamicgroup1.gif" />
                 </p>
                 <p class="ParagraphsInTables"> Alhoewel u geen individuele documenten specificeert in een groep van dit type - de documenten behorende tot de groep worden bepaald door de <b>Folder</b> en de <b>Extension</b> attributen van het <b>groep</b> element zelf - wilt u misschien wel specificeren op welke manier één of meer van de documenten worden getoond. Voor ieder document dat wordt getoond kunt u een titel aangeven die wordt weergegeven op het <b>Help</b> tabblad van de Backstage view en de tekst die wordt weergegeven in een popup wanneer gebruikers de muisaanwijzer boven de titel van het document houden. Hiervoor dient u ondergeschikte <b>iteminfo</b> elementen aan te maken - één voor ieder document waarover u informatie wilt weergeven.</p>
-                <p>
-                    <b>Iteminfo</b> elementen hebben de volgende attributen:</p>
+                <p><b>Iteminfo</b> elementen hebben de volgende attributen:</p>
                 <MadCap:snippetBlock src="../../../Resources/Snippets/Ribbon_help_xml_iteminfo_element_attributes.flsnp" />
                 <p>Een voorbeeld"dynamic" <b>groep</b> element met twee ondergeschikte <b>helpitem</b> elementen is hieronder weergegeven:</p>
                 <p>
@@ -257,8 +248,7 @@
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <p class="RelatedTopics">Verwante onderwerpen:</p>
-        <p>
-            <a href="../../Conceptual/Ribbon/Backstage_intro.htm">Introductie in de Backstage view</a>
+        <p><a href="../../Conceptual/Ribbon/Backstage_intro.htm">Introductie in de Backstage view</a>
         </p>
     </body>
 </html>

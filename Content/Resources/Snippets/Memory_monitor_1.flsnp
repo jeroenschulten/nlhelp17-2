@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
     <body>
-        <p>om een indicator op de statusbalk weer te geven die de hoeveelheid geheugen aangeeft die momenteel beschikbaar is, of schakel het selectievakje uit om de geheugenmonitor uit de statusbalk weg te laten. De geheugenmonitor kan handig zijn als u <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise gebruikt en uw projecten erg groot zijn.</p>
+        <p>om een indicator op de statusbalk weer te geven die de hoeveelheid geheugen aangeeft die momenteel beschikbaar is, of schakel het selectievakje uit om de geheugenmonitor uit de statusbalk weg te laten. De geheugenmonitor kan handig zijn als u <MadCap:variable name="Primary.Asta Powerproject Name" /> Enterprise gebruikt en uw projecten erg groot zijn.</p>
     </body>
 </html>

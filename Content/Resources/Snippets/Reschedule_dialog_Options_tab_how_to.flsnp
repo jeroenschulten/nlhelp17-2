@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
@@ -144,10 +144,10 @@
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>... specificeren of <MadCap:variable name="Primary.Asta Asta Powerproject Name" />  de huidige view, de huidige groep of het gehele programma van projecten automatisch herberekent?</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>... specificeren of <MadCap:variable name="Primary.Asta Powerproject Name" />  de huidige view, de huidige groep of het gehele programma van projecten automatisch herberekent?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>In het <b>Automatisch herberekenen</b> veld, selecteer Herberekenen view om te configureren dat <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> de huidige view automatisch herberekent elke keer dat u een wijziging aanbrengt die erin resulteert dat één of meerdere taken worden verplaatst of van grootte worden veranderd. Selecteer Herberekenen alles om te configureren dat <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> het volledige programma van projecten automatisch herberekent, selecteer Herberekenen groep om  de huidige groep automatisch te herberekenen, of selecteer Uit wanneer u niet wilt dat <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> automatisch herberekent elke keer dat u een wijziging aanbrengt.</p>
+                <p>In het <b>Automatisch herberekenen</b> veld, selecteer Herberekenen view om te configureren dat <MadCap:variable name="Primary.Asta Powerproject Name" /> de huidige view automatisch herberekent elke keer dat u een wijziging aanbrengt die erin resulteert dat één of meerdere taken worden verplaatst of van grootte worden veranderd. Selecteer Herberekenen alles om te configureren dat <MadCap:variable name="Primary.Asta Powerproject Name" /> het volledige programma van projecten automatisch herberekent, selecteer Herberekenen groep om  de huidige groep automatisch te herberekenen, of selecteer Uit wanneer u niet wilt dat <MadCap:variable name="Primary.Asta Powerproject Name" /> automatisch herberekent elke keer dat u een wijziging aanbrengt.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

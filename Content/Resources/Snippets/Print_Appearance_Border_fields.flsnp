@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
@@ -25,7 +25,7 @@
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                             <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Trust printer's margins</td>
-                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Select this check box if you are printing to PDF and want to print using the full extent of the page as far as possible, or clear this check box if you are printing to a physical printer, in which case <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> will adjust the margins of the output to ensure that it fits onto the printed page within the limitations of the selected printer.</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Select this check box if you are printing to PDF and want to print using the full extent of the page as far as possible, or clear this check box if you are printing to a physical printer, in which case <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> will adjust the margins of the output to ensure that it fits onto the printed page within the limitations of the selected printer.</td>
                         </tr>
                     </tbody>
                 </table>

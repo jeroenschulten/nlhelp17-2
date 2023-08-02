@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" class="KLAAR" xml:lang="nl-nl">
     <head>
     </head>
@@ -9,7 +9,7 @@
         <p>
             <MadCap:snippetText src="../../../../Resources/Snippets/Logical_path_2.flsnp" /> </p>
         <p>Het zorgt voor een break down van de planningsdata in de paden van de taken die verbonden zijn via logische links, en ordent deze paden op de hoeveelheid speling die ze er binnenin bevatten. Elke taak krijgt een logisch pad nummer dat het logische pad waartoe het behoort identificeert. <MadCap:snippetText src="../../../../Resources/Snippets/Logical_path.flsnp" /> Taken krijgen ook een logische pad rangorde toegewezen dat de volgorde van een taak op het logische pad waarop het zich bevindt bepaalt. De eerste taak op het logische pad heeft een logische pad rangorde van 1; de volgende heeft de rangorde 2; enzovoorts.</p>
-        <p><MadCap:variable name="Primary.Asta Asta Powerproject Name" /> berekent ook de <MadCap:snippetText src="../../../../Resources/Snippets/Logical_path_duration.flsnp" /></p>
+        <p><MadCap:variable name="Primary.Asta Powerproject Name" /> berekent ook de <MadCap:snippetText src="../../../../Resources/Snippets/Logical_path_duration.flsnp" /></p>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Hoe logische paden gecalculeerd worden</MadCap:dropDownHotspot>
@@ -21,7 +21,7 @@
                     <li>Vanaf de eindknoop taak die de grootste potentiële impact heeft op de einddatum van het project, worden de sturende voorganger-links achteruit gevolgd, waarbij telkens de link wordt geselecteerd met de grootste potentiële impact op de einddatum van het project. De links worden gekozen volgens de volgende criteria, in de onderstaande volgorde:<ul type="disc"><li>Link met de minste totale speling.</li><li>Of de link sturend is (sturende links worden eerst verwerkt).</li><li>Voorganger-taken met de minste totale speling, en vervolgens de taken met de minste vrije speling.</li><li>Voorganger-taken met de verste vroegste einddatum.</li><li>Voorganger-taken Unieke taak ID.</li></ul><img src="../../../../Graphics/Rescheduling_projects/logicalpath6.gif" /></li>
                     <li>Zodra een taak zonder voorgangers (of met alleen voorgangers die al zijn bezocht of zijn gelinkt via niet-sturende links) wordt bereikt, begint de logische pad berekening met deze taak. Dit zou de taak zijn op balk 1 in de bovenstaande afbeelding.</li>
                     <li>Vanaf deze taak worden de uitgaande links die het meest belangrijk zijn voor de einddatum van het project naar voren gevolgd en op hetzelfde logische pad geplaatst. Als een taak meerdere inkomende links heeft wanneer deze wordt bezocht, worden de voorganger taken aan het andere uiteinde van deze links toegevoegd aan de lijst met eindknopen. Deze worden later geëvalueerd. De taak op balk 6 in de volgende afbeelding zou worden toegevoegd als een nieuwe eindknoop taak:<br /><br /><img src="../../../../Graphics/Rescheduling_projects/logicalpath7.gif" /></li>
-                    <li>Zodra een taak zonder sturende links (of die helemaal geen uitgaande links heeft) of een taak met een grotere hoeveelheid totale speling (wat betekent dat deze minder "kritisch" is) wordt bereikt, stopt het logische pad en wijst <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> er een nummer aan toe. Het nummer 1 wordt toegewezen aan het eerste logische pad en dit nummer wordt met 1 verhoogd voor elk volgende logische pad.</li>
+                    <li>Zodra een taak zonder sturende links (of die helemaal geen uitgaande links heeft) of een taak met een grotere hoeveelheid totale speling (wat betekent dat deze minder "kritisch" is) wordt bereikt, stopt het logische pad en wijst <MadCap:variable name="Primary.Asta Powerproject Name" /> er een nummer aan toe. Het nummer 1 wordt toegewezen aan het eerste logische pad en dit nummer wordt met 1 verhoogd voor elk volgende logische pad.</li>
                     <li>Als het logische pad is gestopt bij een andere taak dan die waarmee het proces in stap 2 was begonnen, worden de stappen 2 tot en met 5 nogmaals gevolgd, te beginnen bij de taak waarmee het proces in stap 2 was begonnen. Dit proces wordt als zo vaak als nodig herhaald totdat het logische pad dat wordt gevolgd stopt bij de taak waarmee het proces is begonnen.</li>
                     <li>Zodra het logische pad dat wordt gevolgd stopt bij de taak waarmee het proces is begonnen, zijn alle logische paden die teruggaan van deze taak verkend. De resterende eindknopen worden opnieuw gesorteerd volgens de criteria vermeld in stap 1, waarna de berekening van het logische pad opnieuw begint, beginnend bij de volgende eindknoop.</li>
                     <li>Wanneer de paden die van alle eindknooppunten naar achteren leiden zijn verkend, is het proces voltooid.</li>
@@ -29,7 +29,7 @@
                 <p>
                     <MadCap:snippetText src="../../../../Resources/Snippets/Logical_path_hammocks_summaries.flsnp" /> Voltooide taken hebben geen effectieve logica en worden daarom genegeerd. Wanneer een balk meer dan één taak bevat, dan worden de impliciete links tussen de diverse taken op de balk behandeld als logische links.</p>
                 <h2>Hoe links bij samenvattingstaken en niveautaken de logische pad berekeningen beïnvloeden</h2>
-                <p>In <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> kunt u ook naar en vanaf samenvattingstaken en niveautaken linken, hetgeen daarmee extra impliciete voorgangers en opvolgers introduceert. Zo is het linken naar de start van een samenvattingstaak gelijk aan het linken naar de start van elke taak in de samenvattingsgroep - ook al wordt alleen de vroegste taak (taken) in de samenvattingsgroep daadwerkelijk beperkt door de link.</p>
+                <p>In <MadCap:variable name="Primary.Asta Powerproject Name" /> kunt u ook naar en vanaf samenvattingstaken en niveautaken linken, hetgeen daarmee extra impliciete voorgangers en opvolgers introduceert. Zo is het linken naar de start van een samenvattingstaak gelijk aan het linken naar de start van elke taak in de samenvattingsgroep - ook al wordt alleen de vroegste taak (taken) in de samenvattingsgroep daadwerkelijk beperkt door de link.</p>
                 <p>Met deze impliciete links wordt rekening gehouden bij het berekenen van de logische paden. Dit betekent dat als taken die zich op een bepaald logisch pad bevinden naar en vanaf een samenvattingstaak linken, de meest kritieke taken in de samenvattingsgroep in het logische pad worden opgenomen. Dit wordt hieronder geïllustreerd, waarbij de taken op de balken 1 en 4, die zich op logisch pad 1 bevinden, linken naar en vanaf een samenvattingstaak; de taak 3 binnen de samenvattingsgroep is opgenomen in logisch pad 1:</p>
                 <p>
                     <img src="../../../../Graphics/Rescheduling_projects/logicalpath8.gif" />
@@ -41,7 +41,7 @@
                 <MadCap:dropDownHotspot>Hoe de logische pad duur berekend wordt</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p><MadCap:variable name="Primary.Asta Asta Powerproject Name" /> berekent de logische pad duur als een opsomming van de duur van de taken in elk logisch pad. Wanneer een logisch pad alleen maar Einde-Start links zonder positieve/negatieve wachttijd bevat, is de logische pad duur de som van de duur van de taken op het pad. Wanneer een logisch pad links van andere types bevat, of links met positieve/negatieve wachttijd, zal dit van invloed zijn op de logische pad duur, zoals hieronder geïllustreerd wordt.</p>
+                <p><MadCap:variable name="Primary.Asta Powerproject Name" /> berekent de logische pad duur als een opsomming van de duur van de taken in elk logisch pad. Wanneer een logisch pad alleen maar Einde-Start links zonder positieve/negatieve wachttijd bevat, is de logische pad duur de som van de duur van de taken op het pad. Wanneer een logisch pad links van andere types bevat, of links met positieve/negatieve wachttijd, zal dit van invloed zijn op de logische pad duur, zoals hieronder geïllustreerd wordt.</p>
                 <p>In het volgende voorbeeld is de som van de duur van de taken in het logische pad 7d. Echter, de logische pad duur is 9d, omdat één van de logische links 2d positieve wachttijd bevat, hetgeen de duur van het pad logische verhoogd:</p>
                 <p>
                     <img src="../../../../Graphics/Rescheduling_projects/logicalpath1.gif" />
@@ -75,30 +75,26 @@
         </ul>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Logische pad verschillen tussen <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> en Primavera software</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Logische pad verschillen tussen <MadCap:variable name="Primary.Asta Powerproject Name" /> en Primavera software</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Wanneer u hetzelfde project in <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> en in Primavera software opent en de logische paden in elk daarvan berekent, zou u kunnen opmerken dat sommige taken op verschillende logische paden verschijnen. Dit wordt veroorzaakt door het volgende Primavera gedrag, dat verschilt van <MadCap:variable name="Primary.Asta Asta Powerproject Name" />:</p>
+                <p>Wanneer u hetzelfde project in <MadCap:variable name="Primary.Asta Powerproject Name" /> en in Primavera software opent en de logische paden in elk daarvan berekent, zou u kunnen opmerken dat sommige taken op verschillende logische paden verschijnen. Dit wordt veroorzaakt door het volgende Primavera gedrag, dat verschilt van <MadCap:variable name="Primary.Asta Powerproject Name" />:</p>
                 <ul>
-                    <li>Primavera-software behandelt alle uitgaande links van taken die beperkt zijn tot zo laat mogelijk als sturende links; in <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> worden dergelijke links alleen behandeld als sturende links als de taak al kritiek was volgens de linklogica.</li>
-                    <li>In Primavera-software omvat het herberekende netwerk alle taken; in <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> worden de links tussen voltooide taken uitgesloten van het herberekende netwerk. Dit betekent dat we bij het berekenen van logische paden in <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> nooit van het ene logische pad naar het andere kunnen "springen" als de eerdere taken al zijn voltooid.</li>
-                    <li>Primavera-software berekent vrije speling voor alle taken, zelfs voor kritieke taken; <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> berekent geen vrije speling voor kritieke taken. Dit kan verschillende resultaten opleveren bij het doorlopen van de taakhiërarchie bij het berekenen van logische paden. Dit is het best zichtbaar wanneer een logisch pad eindigt op een taak die wordt beperkt door een Starten Op of Eindigen Op vlag: in <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> heeft deze taak nul totale speling en nul vrije speling, maar in Primavera-software heeft deze taak meer dan nul vrije speling.</li>
-                    <li>Wanneer Primavera-software de eindknooptaken opnieuw sorteert op paden die niet kritisch zijn, worden de eindknooptaken soms anders gerangschikt dan bij <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> - schijnbaar onlogisch.</li>
+                    <li>Primavera-software behandelt alle uitgaande links van taken die beperkt zijn tot zo laat mogelijk als sturende links; in <MadCap:variable name="Primary.Asta Powerproject Name" /> worden dergelijke links alleen behandeld als sturende links als de taak al kritiek was volgens de linklogica.</li>
+                    <li>In Primavera-software omvat het herberekende netwerk alle taken; in <MadCap:variable name="Primary.Asta Powerproject Name" /> worden de links tussen voltooide taken uitgesloten van het herberekende netwerk. Dit betekent dat we bij het berekenen van logische paden in <MadCap:variable name="Primary.Asta Powerproject Name" /> nooit van het ene logische pad naar het andere kunnen "springen" als de eerdere taken al zijn voltooid.</li>
+                    <li>Primavera-software berekent vrije speling voor alle taken, zelfs voor kritieke taken; <MadCap:variable name="Primary.Asta Powerproject Name" /> berekent geen vrije speling voor kritieke taken. Dit kan verschillende resultaten opleveren bij het doorlopen van de taakhiërarchie bij het berekenen van logische paden. Dit is het best zichtbaar wanneer een logisch pad eindigt op een taak die wordt beperkt door een Starten Op of Eindigen Op vlag: in <MadCap:variable name="Primary.Asta Powerproject Name" /> heeft deze taak nul totale speling en nul vrije speling, maar in Primavera-software heeft deze taak meer dan nul vrije speling.</li>
+                    <li>Wanneer Primavera-software de eindknooptaken opnieuw sorteert op paden die niet kritisch zijn, worden de eindknooptaken soms anders gerangschikt dan bij <MadCap:variable name="Primary.Asta Powerproject Name" /> - schijnbaar onlogisch.</li>
                 </ul>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <p class="RelatedTopics">Verwante Onderwerpen:</p>
-        <p>
-            <a href="../Performing_a_reschedule/Resch_intro.htm">Introductie over het herberekenen van projecten</a>
+        <p><a href="../Performing_a_reschedule/Resch_intro.htm">Introductie over het herberekenen van projecten</a>
         </p>
-        <p>
-            <a href="../Performing_a_reschedule/Performing_a_reschedule.htm">Een herberekening uitvoeren</a>
+        <p><a href="../Performing_a_reschedule/Performing_a_reschedule.htm">Een herberekening uitvoeren</a>
         </p>
-        <p>
-            <a href="../Setting_reschedule_options/Setting_reschedule_options.htm">Herberekeningsopties instellen</a>
+        <p><a href="../Setting_reschedule_options/Setting_reschedule_options.htm">Herberekeningsopties instellen</a>
         </p>
-        <p>
-            <a href="../Setting_reschedule_options/Cascade_activity_numbers.htm">Cascade activiteitsnummers van taken berekenen bij herberekening</a>
+        <p><a href="../Setting_reschedule_options/Cascade_activity_numbers.htm">Cascade activiteitsnummers van taken berekenen bij herberekening</a>
         </p>
     </body>
 </html>

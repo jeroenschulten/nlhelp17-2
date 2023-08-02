@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
-    <body>Als uw setup niet toestaat dat baselines extern worden opgeslagen - bijvoorbeeld als u <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise gebruikt met een webgebaseerd hulpprogramma voor serverbeheer - moeten baselines worden embedded, zodat u niet de keuze krijgt om al dan niet in te sluiten.</body>
+    <body>Als uw setup niet toestaat dat baselines extern worden opgeslagen - bijvoorbeeld als u <MadCap:variable name="Primary.Asta Powerproject Name" /> Enterprise gebruikt met een webgebaseerd hulpprogramma voor serverbeheer - moeten baselines worden embedded, zodat u niet de keuze krijgt om al dan niet in te sluiten.</body>
 </html>

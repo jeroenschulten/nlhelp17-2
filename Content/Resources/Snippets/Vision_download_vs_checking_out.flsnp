@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
@@ -15,7 +15,7 @@
                     <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">&#160;</th>
                     <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Downloaden</th>
                     <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Uitchecken naar uw computer</th>
-                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Uitchecken naar een <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise server</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Uitchecken naar een <MadCap:variable name="Primary.Asta Powerproject Name" /> Enterprise server</th>
                 </tr>
             </thead>
             <tbody>
@@ -45,7 +45,7 @@
                     <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
                         <p class="ParagraphsInTables">U kunt het programma wijzigen.</p>
                         <p class="ParagraphsInTables">&#160;</p>
-                        <p class="ParagraphsInTables">Andere gebruikers kunnen het programma wijzigen, mits ze toegang hebben tot de <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise server.</p>
+                        <p class="ParagraphsInTables">Andere gebruikers kunnen het programma wijzigen, mits ze toegang hebben tot de <MadCap:variable name="Primary.Asta Powerproject Name" /> Enterprise server.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">

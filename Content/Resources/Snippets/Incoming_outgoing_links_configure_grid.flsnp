@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
@@ -61,7 +61,7 @@
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                     <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Logica najagen instellingen</td>
                     <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1" xmlns="">
-                        <p class="ParagraphsInTables">Selecteer deze menu-opdracht om het <b>Logica Najagen</b> tabblad van het <b>Link Instellingen</b> dialoogvenster weer te geven, dat u kunt gebruiken om de manier waarop <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> werkt wanneer u de linklogica in een project aan het najagen bent te specificeren.</p>
+                        <p class="ParagraphsInTables">Selecteer deze menu-opdracht om het <b>Logica Najagen</b> tabblad van het <b>Link Instellingen</b> dialoogvenster weer te geven, dat u kunt gebruiken om de manier waarop <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> werkt wanneer u de linklogica in een project aan het najagen bent te specificeren.</p>
                         <p class="ParagraphsInTables">&#160;</p>
                         <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Starting_work/Following_link_logic/Following_link_logic_in_a_project.htm">Klik hier</a> voor meer informatie.</p>
                     </td>

@@ -1,14 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\teamplan_reference\teamplan_SQL\teamplan_SQL.htm" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl">
     <head>
-        <link href="../../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
-        <title>
-        </title>
+        <link href="../../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
     </head>
     <body>
         <h1>
             <MadCap:keyword term="Filters:TQL gebruiken om te creëren;TQL;SQL" />TQL</h1>
-        <p>U kunt TQL gebruiken bij het <a href="../Views/Filtering/New_filter_SQL.htm">maken van filters</a> en aangepaste velden in rapporten. TQL is gebaseerd op standaard SQL. TQL wordt alleen gebruikt voor queries, dus veel SQL operaties zoals INSERT, CREATE etc. en veel van de gereserveerde woorden zijn betekenisloos in <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" />.</p>
+        <p>U kunt TQL gebruiken bij het <a href="../Views/Filtering/New_filter_SQL.htm">maken van filters</a> en aangepaste velden in rapporten. TQL is gebaseerd op standaard SQL. TQL wordt alleen gebruikt voor queries, dus veel SQL operaties zoals INSERT, CREATE etc. en veel van de gereserveerde woorden zijn betekenisloos in <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" />.</p>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Verschillen tussen TQL en standaard SQL</MadCap:dropDownHotspot>
@@ -25,7 +23,7 @@
                     <li class="p">De betekenis van een sterretje in het SELECT statement is veranderd, zodat het de ID's van de objecten geeft in de resultaat set, in plaats van alle attributen van het object.            </li>
                     <li class="p">SQL heeft een aantal ingebouwde functies: COUNT, MAX, MIN, SUM en AVG enzovoort. Hiervan wordt alleen COUNT ondersteund door TQL. De COUNT functie is er in twee variaties COUNT (*) en COUNT (expr). In SQL, expr kan iedere scalar expressie zijn, maar in TQL, kan dit alleen maar een object attribuut zijn. COUNT(*) geeft het aantal objecten dat voldoet aan het restant van de query, COUNT(attr) geeft het aantal objecten dat voldoet aan het restant van de query en waarvan het attr veld niet leeg/null/zero is.            </li>
                     <li class="p">In plaats het initiële SELECT... gedeelte van de query, is TEST (object_id_list) toegestaan. Dit geeft aan dat de objecten die vertegenwoordigd zijn door de opgegeven ID's en type in het FROM gedeelte getest moeten worden op het restant van de query. Dit is een filter.            </li>
-                    <li class="p">TQL accepteert ook een verscheidenheid aan datum en tijdformaten (inclusief het gebruik van <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" />'s <a href="Variable_dates.htm">variabele datums</a>) naast de standaard SQL DATE formaten. De formaten worden voorafgegaan door het DATE keyword.            </li>
+                    <li class="p">TQL accepteert ook een verscheidenheid aan datum en tijdformaten (inclusief het gebruik van <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" />'s <a href="Variable_dates.htm">variabele datums</a>) naast de standaard SQL DATE formaten. De formaten worden voorafgegaan door het DATE keyword.            </li>
                     <li class="p">TIMESTAMP wordt niet ondersteund.            </li>
                 </ul>
                 <p>Alle SQL gereserveerde woorden kunnen worden gebruikt vanwege compatibiliteit.</p>
@@ -36,7 +34,7 @@
                 <MadCap:dropDownHotspot>SELECT statement</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>In <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> TQL starten de meeste queries met een SELECT statement, alhoewel in het geval van filters, SELECT # al wordt verondersteld wanneer u het resterende gedeelte van de query handmatig intypt in het dialoogvenster <b>Filter</b> . Queries kunnen ook starten met TEST (object id list).</p>
+                <p>In <MadCap:variable name="Primary.Asta Powerproject Name" /> TQL starten de meeste queries met een SELECT statement, alhoewel in het geval van filters, SELECT # al wordt verondersteld wanneer u het resterende gedeelte van de query handmatig intypt in het dialoogvenster <b>Filter</b> . Queries kunnen ook starten met TEST (object id list).</p>
                 <p>Het SELECT statement specificeert de attributen van de objecten waarin de vrager is geïnteresseerd. U kunt meer dan een object opvragen, en de waardes die worden teruggeleverd zijn in de volgorde van de vraagstelling.</p>
                 <p>De algemene syntaxis is:</p>
                 <p>SELECT &lt;attribute&gt; FROM &lt;object type&gt;</p>
@@ -66,8 +64,7 @@
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>Dit betekent dat de waarde van de expressie aan de linkerkant, moet liggen tussen die aan de rechterkant van het trefwoord BETWEEN. Het BETWEEN key word heeft de algemene vorm:</p>
-                <p>
-                    <span style="font-style: italic;">expressie</span> [NOT] BETWEEN <span style="font-style: italic;">expressie</span> AND <span style="font-style: italic;">expressie</span></p>
+                <p><span style="font-style: italic;">expressie</span> [NOT] BETWEEN <span style="font-style: italic;">expressie</span> AND <span style="font-style: italic;">expressie</span></p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
@@ -76,8 +73,7 @@
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>Het LIKE keyword is bedoeld voor tekststring vergelijkingen. Het attribuut van het object wordt vergeleken met de tekststring. U kunt hiervoor de standaard SQL wildcards (% en _ ) of reguliere expressies. De algemene vorm van het LIKE keyword is:</p>
-                <p>
-                    <span style="font-style: italic;">expression</span> [NOT] LIKE [REGEX] <span style="font-style: italic;">tekststring literal</span></p>
+                <p><span style="font-style: italic;">expression</span> [NOT] LIKE [REGEX] <span style="font-style: italic;">tekststring literal</span></p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
@@ -86,8 +82,7 @@
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>Het IN keyword test de waarde van de expressie links van het IN keyword met de waardes in een lijst aan de rechterkant van het IN keyword. De lijst kan bestaan uit een komma gescheiden lijst met waardes of het resultaat uit een subquery. De algemene vorm is:</p>
-                <p>
-                    <span style="font-style: italic;">scalar expression</span> [NOT] IN (<span style="font-style: italic;">value list</span> )</p>
+                <p><span style="font-style: italic;">scalar expression</span> [NOT] IN (<span style="font-style: italic;">value list</span> )</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
@@ -98,8 +93,7 @@
                 <p>Vergelijkingen komen voor in twee vormen: Gekwantificeerd en niet gekwantificeerd Beiden maken gebruik van de vergelijkings-operatoren: &lt;, &gt;, &lt;=, &gt;= en &lt;&gt;.</p>
                 <h2>Niet gekwantificeerde vergelijkingen</h2>
                 <p>De algemene vorm van een niet gekwantificeerde vergelijking is:</p>
-                <p>
-                    <span style="font-style: italic;">scalar expression</span> OPERATOR <span style="font-style: italic;">scalar expression</span></p>
+                <p><span style="font-style: italic;">scalar expression</span> OPERATOR <span style="font-style: italic;">scalar expression</span></p>
                 <p>Waar de OPERATORS hierboven zijn beschreven.</p>
                 <h2>Gekwantificeerde vergelijkingen</h2>
                 <p>Gekwantificeerde vergelijkingen zijn bijna hetzelfde als niet gekwantificeerde vergelijkingen, behalve dat ze na de 'Scalar comparison operator' meteen worden gevolgd door de keywords ANY of ALL, wat betekent dat sommige of alle van de objectattributen overeen moeten stemmen met de expressie om de vergelijking als waar te beschouwen. Een niet gekwantificeerde vergelijking is hetzelfde als een gekwantificeerde vergelijking met het keyword ANY.</p>
@@ -130,26 +124,18 @@
                 <MadCap:dropDownHotspot>Reguliere expressies</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>
-                    <a name="Regular_expressions">
-                    </a>De betekenis van de symbolen in reguliere expressies is:</p>
+                <p><a name="Regular_expressions"></a>De betekenis van de symbolen in reguliere expressies is:</p>
                 <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/Stylesheets/Table_Stylesheet.css');" class="TableStyle-Table_Stylesheet" cellspacing="0">
                     <col class="TableStyle-Table_Stylesheet-Column-Column1" />
                     <col class="TableStyle-Table_Stylesheet-Column-Column1" />
                     <thead xmlns="">
                         <tr class="TableStyle-Table_Stylesheet-Head-Header1">
                             <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">
-                                <p style="margin-bottom: 0;">
-                                    <span style="font-weight: bold;">
-                                        <span style="color: #FFFFFF;">Symbolen</span>
-                                    </span>
+                                <p style="margin-bottom: 0;"><span style="font-weight: bold;"><span style="color: #FFFFFF;">Symbolen</span></span>
                                 </p>
                             </th>
                             <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">
-                                <p style="margin-bottom: 0;">
-                                    <span style="font-weight: bold;">
-                                        <span style="color: #FFFFFF;">Definitie</span>
-                                    </span>
+                                <p style="margin-bottom: 0;"><span style="font-weight: bold;"><span style="color: #FFFFFF;">Definitie</span></span>
                                 </p>
                             </th>
                         </tr>
@@ -158,32 +144,28 @@
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                             <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">^</td>
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                                <p style="margin-bottom: 0;">
-                                    <span style="font-weight: normal;">Start van de tekststring</span>
+                                <p style="margin-bottom: 0;"><span style="font-weight: normal;">Start van de tekststring</span>
                                 </p>
                             </td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                             <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">$</td>
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                                <p style="margin-bottom: 0;">
-                                    <span style="font-weight: normal;">Eind van de tekststring</span>
+                                <p style="margin-bottom: 0;"><span style="font-weight: normal;">Eind van de tekststring</span>
                                 </p>
                             </td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                             <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1">.</td>
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                                <p style="margin-bottom: 0;">
-                                    <span style="font-weight: normal;">Ieder enkel karakter</span>
+                                <p style="margin-bottom: 0;"><span style="font-weight: normal;">Ieder enkel karakter</span>
                                 </p>
                             </td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                             <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1">\</td>
                             <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">
-                                <p style="margin-bottom: 0;">
-                                    <span style="font-weight: normal;">Gebruik de speciale betekenis van dit karakter niet.</span>
+                                <p style="margin-bottom: 0;"><span style="font-weight: normal;">Gebruik de speciale betekenis van dit karakter niet.</span>
                                 </p>
                             </td>
                         </tr>
@@ -194,37 +176,31 @@
                 <table wrapperparagraphselector="P" style="margin-top: 14pt;border-collapse: separate;border-collapse: separate;" cellspacing="0" width="100%" border="1">
                     <tr>
                         <td style="vertical-align: TOP;width: 30%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0">
-                            <p style="margin-bottom: 0;">
-                                <span style="font-weight: normal;">regexp*</span>
+                            <p style="margin-bottom: 0;"><span style="font-weight: normal;">regexp*</span>
                             </p>
                         </td>
                         <td style="vertical-align: TOP;width: 70%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0">
-                            <p style="margin-bottom: 0;">
-                                <span style="font-weight: normal;">Komt overeen met een tekststring van nul of meer karakters die gelijk is aan regexp</span>
+                            <p style="margin-bottom: 0;"><span style="font-weight: normal;">Komt overeen met een tekststring van nul of meer karakters die gelijk is aan regexp</span>
                             </p>
                         </td>
                     </tr>
                     <tr>
                         <td style="vertical-align: TOP;width: 30%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0">
-                            <p style="margin-bottom: 0;">
-                                <span style="font-weight: normal;">regexp+</span>
+                            <p style="margin-bottom: 0;"><span style="font-weight: normal;">regexp+</span>
                             </p>
                         </td>
                         <td style="vertical-align: TOP;width: 70%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0">
-                            <p style="margin-bottom: 0;">
-                                <span style="font-weight: normal;">Komt overeen met een tekststring van één of meer karakters die gelijk is aan regexp</span>
+                            <p style="margin-bottom: 0;"><span style="font-weight: normal;">Komt overeen met een tekststring van één of meer karakters die gelijk is aan regexp</span>
                             </p>
                         </td>
                     </tr>
                     <tr>
                         <td style="vertical-align: TOP;width: 30%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0">
-                            <p style="margin-bottom: 0;">
-                                <span style="font-weight: normal;">regexp?</span>
+                            <p style="margin-bottom: 0;"><span style="font-weight: normal;">regexp?</span>
                             </p>
                         </td>
                         <td style="vertical-align: TOP;width: 70%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0">
-                            <p style="margin-bottom: 0;">
-                                <span style="font-weight: normal;">Komt overeen met een tekststring van nul of één karakters die gelijk is aan regexp</span>
+                            <p style="margin-bottom: 0;"><span style="font-weight: normal;">Komt overeen met een tekststring van nul of één karakters die gelijk is aan regexp</span>
                             </p>
                         </td>
                     </tr>
@@ -233,13 +209,11 @@
                 <table wrapperparagraphselector="P" style="margin-top: 14pt;border-collapse: separate;border-collapse: separate;" cellspacing="0" width="100%" border="1">
                     <tr>
                         <td style="vertical-align: TOP;width: 30%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0">
-                            <p style="margin-bottom: 0;">
-                                <span style="font-weight: normal;">[Hh]ello</span>
+                            <p style="margin-bottom: 0;"><span style="font-weight: normal;">[Hh]ello</span>
                             </p>
                         </td>
                         <td style="vertical-align: TOP;width: 70%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0">
-                            <p style="margin-bottom: 0;">
-                                <span style="font-weight: normal;">Komt overeen met een tekststring die Hello of hello bevat</span>
+                            <p style="margin-bottom: 0;"><span style="font-weight: normal;">Komt overeen met een tekststring die Hello of hello bevat</span>
                             </p>
                         </td>
                     </tr>
@@ -248,8 +222,7 @@
                             <p style="margin-bottom: 0;">^<span style="font-weight: normal;">[Hh]ello</span></p>
                         </td>
                         <td style="vertical-align: TOP;width: 70%;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" bgcolor="#C0C0C0">
-                            <p style="margin-bottom: 0;">
-                                <span style="font-weight: normal;">Komt overeen met een tekststring die begint met Hello of hello</span>
+                            <p style="margin-bottom: 0;"><span style="font-weight: normal;">Komt overeen met een tekststring die begint met Hello of hello</span>
                             </p>
                         </td>
                     </tr>

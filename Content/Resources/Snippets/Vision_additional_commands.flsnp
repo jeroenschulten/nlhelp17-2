@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
-        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Zodra u een programma hebt uitgecheckt en het hebt geopend in <MadCap:variable name="Primary.Asta Asta Powerproject Name" />, worden de volgende extra opdrachten weergegeven in een <b>Vision</b>-groep op het tabblad <b>Start</b> van het lint en in de backstage view:</p>
+        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Zodra u een programma hebt uitgecheckt en het hebt geopend in <MadCap:variable name="Primary.Asta Powerproject Name" />, worden de volgende extra opdrachten weergegeven in een <b>Vision</b>-groep op het tabblad <b>Start</b> van het lint en in de backstage view:</p>
         <table style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table_Stylesheet" cellspacing="0">
             <col class="TableStyle-Table_Stylesheet-Column-Column1" />
             <col class="TableStyle-Table_Stylesheet-Column-Column1" />
@@ -33,7 +33,7 @@
                 </tr>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                     <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Programma Acties</td>
-                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Voer alle beschikbare acties uit die overeenkomen met workflowregels. De beschikbare acties zijn afhankelijk van uw <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Vision-workflow.</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Voer alle beschikbare acties uit die overeenkomen met workflowregels. De beschikbare acties zijn afhankelijk van uw <MadCap:variable name="Primary.Asta Powerproject Name" /> Vision-workflow.</td>
                 </tr>
             </tbody>
         </table>

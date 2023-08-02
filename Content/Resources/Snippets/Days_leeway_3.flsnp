@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
-    <body>Voer de hoeveelheid speelruimte in die u elke taak wilt toestaan in het veld <b>Dagen speelruimte</b>. <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> geeft standaard elke taak één dag speelruimte - en dit is de minimaal toegestane hoeveelheid - om taken toe te staan die zijn geconfigureerd om op een nieuwe dag te beginnen.</body>
+    <body>Voer de hoeveelheid speelruimte in die u elke taak wilt toestaan in het veld <b>Dagen speelruimte</b>. <MadCap:variable name="Primary.Asta Powerproject Name" /> geeft standaard elke taak één dag speelruimte - en dit is de minimaal toegestane hoeveelheid - om taken toe te staan die zijn geconfigureerd om op een nieuwe dag te beginnen.</body>
 </html>

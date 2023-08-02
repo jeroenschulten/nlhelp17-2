@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
@@ -7,6 +7,6 @@
 </p>
         <p>U kunt er ook voor kiezen om een specifieke revisie van een programma, en eventueel een specifieke revisie van een baseline, op uw computer te downloaden. U dit doen om een programma in detail te bekijken en om deze te vergelijken met een baseline zonder uit te moeten checken.
 </p>
-        <p>U kunt geen programma downloaden vanaf <MadCap:variable name="Primary.Asta Vision Name" /> naar een <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise server.</p>
+        <p>U kunt geen programma downloaden vanaf <MadCap:variable name="Primary.Asta Vision Name" /> naar een <MadCap:variable name="Primary.Asta Powerproject Name" /> Enterprise server.</p>
     </body>
 </html>

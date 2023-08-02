@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
@@ -204,7 +204,7 @@
                             <MadCap:snippetText src="Quality_check_2.flsnp" />
                         </p>
                         <p>&#160;</p>
-                        <p class="ParagraphsInTables">U kunt <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> configureren om de integriteit van het kritieke pad te checken bij het herberekenen. <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Setting_reschedule_options/Critical_path_integrity.htm">Klik hier</a> voor meer informatie.</p>
+                        <p class="ParagraphsInTables">U kunt <MadCap:variable name="Primary.Asta Powerproject Name" /> configureren om de integriteit van het kritieke pad te checken bij het herberekenen. <a href="../../HTML_Topics/Conceptual/Rescheduling_projects/Setting_reschedule_options/Critical_path_integrity.htm">Klik hier</a> voor meer informatie.</p>
                         <p class="ParagraphsInTables">&#160;</p>
                         <p class="ParagraphsInTables">Dit kwaliteitscriterium voldoet aan de vereisten van de CIOB stress test 14 (Herberekenen), CIOB stress test 15 (Kritieke pad) en DCMA test 12 (Kritieke pad test).</p>
                     </td>

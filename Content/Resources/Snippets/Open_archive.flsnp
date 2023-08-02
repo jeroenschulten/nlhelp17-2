@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
     <body>
-        <p>U kunt archiefbestanden openen - zowel die met betrekking tot projecten als die met betrekking tot baselines - in <MadCap:variable name="Primary.Asta Asta Powerproject Name" />. Als u een archiefbestand opent, kunt u de gegevens bekijken in <MadCap:variable name="Primary.Asta Asta Powerproject Name" />, de gegevens afdrukken en de gegevens exporteren naar andere indelingen. U kunt archiefbestanden niet rechtstreeks bewerken; ze worden geopend in een alleen-lezen staat. U kunt echter wel filters, sorteringen/groeperingen, tabellarische rapporten, histogram rapporten en hulpmiddelgrafiekdefinities bewerken, hoewel u geen wijzigingen in het archiefbestand kunt opslaan.</p>
+        <p>U kunt archiefbestanden openen - zowel die met betrekking tot projecten als die met betrekking tot baselines - in <MadCap:variable name="Primary.Asta Powerproject Name" />. Als u een archiefbestand opent, kunt u de gegevens bekijken in <MadCap:variable name="Primary.Asta Powerproject Name" />, de gegevens afdrukken en de gegevens exporteren naar andere indelingen. U kunt archiefbestanden niet rechtstreeks bewerken; ze worden geopend in een alleen-lezen staat. U kunt echter wel filters, sorteringen/groeperingen, tabellarische rapporten, histogram rapporten en hulpmiddelgrafiekdefinities bewerken, hoewel u geen wijzigingen in het archiefbestand kunt opslaan.</p>
         <ol>
             <li class="p">Klik op het <b>Bestand</b> tabblad, klik vervolgens op <b>Openen</b>.</li>
             <li class="p">Klik op <b xmlns="">Enterprise</b>. Er verschijnt nu een navigeerbare lijst met datasources en projecten.</li>

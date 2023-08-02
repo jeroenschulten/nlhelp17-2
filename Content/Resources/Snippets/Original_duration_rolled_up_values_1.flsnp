@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
-    <body>Als u dit selectievakje inschakelt, wordt dit veld op de meest nauwkeurige manier berekend; het uitschakelen van dit selectievakje berekent dit veld op dezelfde manier als het wordt berekend in Primavera-software, wat resulteert in overeenkomende waarden tussen <MadCap:variable name="Primary.Asta Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> en Primavera-software.</body>
+    <body>Als u dit selectievakje inschakelt, wordt dit veld op de meest nauwkeurige manier berekend; het uitschakelen van dit selectievakje berekent dit veld op dezelfde manier als het wordt berekend in Primavera-software, wat resulteert in overeenkomende waarden tussen <MadCap:variable name="Primary.Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> en Primavera-software.</body>
 </html>

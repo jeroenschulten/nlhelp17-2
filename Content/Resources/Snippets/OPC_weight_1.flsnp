@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
-    <body>'1,00' verschijnt standaard in dit veld. Dit houdt in dat <MadCap:variable name="Primary.Asta Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> de overall percentage weging van de taak automatisch berekent, en instelt op de originele duur in uren.</body>
+    <body>'1,00' verschijnt standaard in dit veld. Dit houdt in dat <MadCap:variable name="Primary.Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> de overall percentage weging van de taak automatisch berekent, en instelt op de originele duur in uren.</body>
 </html>

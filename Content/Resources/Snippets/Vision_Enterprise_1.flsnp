@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
-    <body>Wanneer u gebruik maakt van  <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise, kunt u programma's naar een <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise server uitchecken, in plaats van naar uw computer. Wanneer u dit doet zullen die programma's beschikbaar worden voor meer dan één gebruiker om aan te gaan werken.</body>
+    <body>Wanneer u gebruik maakt van  <MadCap:variable name="Primary.Asta Powerproject Name" /> Enterprise, kunt u programma's naar een <MadCap:variable name="Primary.Asta Powerproject Name" /> Enterprise server uitchecken, in plaats van naar uw computer. Wanneer u dit doet zullen die programma's beschikbaar worden voor meer dan één gebruiker om aan te gaan werken.</body>
 </html>

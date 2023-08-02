@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
-    <body>Als u in een <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise-omgeving met meerdere projecten werkt, is het misschien de beste optie om alleen de huidige groep automatisch te laten herberekenen: als u de enige persoon bent die in een bepaalde groep van het programma werkt, zal het configureren van <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> om alleen de huidige groep automatisch te laten herberekenen alleen de groep waarin u werkt herberekenen zonder de andere groepen van het programma te beïnvloeden.</body>
+    <body>Als u in een <MadCap:variable name="Primary.Asta Powerproject Name" /> Enterprise-omgeving met meerdere projecten werkt, is het misschien de beste optie om alleen de huidige groep automatisch te laten herberekenen: als u de enige persoon bent die in een bepaalde groep van het programma werkt, zal het configureren van <MadCap:variable name="Primary.Asta Powerproject Name" /> om alleen de huidige groep automatisch te laten herberekenen alleen de groep waarin u werkt herberekenen zonder de andere groepen van het programma te beïnvloeden.</body>
 </html>

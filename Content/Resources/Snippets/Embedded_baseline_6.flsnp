@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-    <body>Baselines van <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise-projecten worden opgeslagen in datasources en baselines van <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Vision-projecten bestaan altijd als afzonderlijke bestanden; u kunt dit soort baselines niet embedden.</body>
+    <body>Baselines van <MadCap:variable name="Primary.Asta Powerproject Name" /> Enterprise-projecten worden opgeslagen in datasources en baselines van <MadCap:variable name="Primary.Asta Powerproject Name" /> Vision-projecten bestaan altijd als afzonderlijke bestanden; u kunt dit soort baselines niet embedden.</body>
 </html>

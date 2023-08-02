@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
-        <p>keuzerondje om taken in het project of de baseline die u importeert te mappen met die in het actieve project met behulp van het interne identificatienummer van elk object. Een object-ID wordt automatisch aan elk object toegewezen door <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> wanneer het object wordt gemaakt.</p>
+        <p>keuzerondje om taken in het project of de baseline die u importeert te mappen met die in het actieve project met behulp van het interne identificatienummer van elk object. Een object-ID wordt automatisch aan elk object toegewezen door <MadCap:variable name="Primary.Asta Powerproject Name" /> wanneer het object wordt gemaakt.</p>
     </body>
 </html>

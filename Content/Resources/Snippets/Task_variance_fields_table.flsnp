@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="work;numbering;gebruikerswaarde;Startvlag">
     <head>
         <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
@@ -86,7 +86,7 @@
                     <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Overall % weging</td>
                     <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
                         <p class="ParagraphsInTables">Het getal waarmee de overall percentage voltooid voortgang van de taak moet worden vermenigvuldigd wanneer de voortgang is opgerold tot de bovenliggende taak.<br /><br xmlns="" /></p>
-                        <p class="ParagraphsInTables">Als in dit veld '1,00' verschijnt, betekent dit dat <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> het overall percentage weging van de taak automatisch berekent, en dit instelt op de originele duur van de taak in uren.<br /><br />Als in dit veld een andere waarde dan '1,00' verschijnt, betekent dit dat de standaard weging is overschreven met een handmatig ingevoerde waarde.</p>
+                        <p class="ParagraphsInTables">Als in dit veld '1,00' verschijnt, betekent dit dat <MadCap:variable name="Primary.Asta Powerproject Name" /> het overall percentage weging van de taak automatisch berekent, en dit instelt op de originele duur van de taak in uren.<br /><br />Als in dit veld een andere waarde dan '1,00' verschijnt, betekent dit dat de standaard weging is overschreven met een handmatig ingevoerde waarde.</p>
                         <p class="ParagraphsInTables">&#160;</p>
                         <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Progress/Expanded_summary/Progoverall.htm">Voortgang berekenen op bovenliggende taken naar overall percentage voltooid</a>
                         </p>

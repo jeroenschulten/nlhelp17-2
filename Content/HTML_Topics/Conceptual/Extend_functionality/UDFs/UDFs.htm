@@ -1,24 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Extending_teamplan's_functionality\Creating_user_fields_for_your_own_use\Creating_user_fields_for_your_own_use.htm" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
-    <head>
-        <title>
-        </title>
+    <head><title></title>
     </head>
     <body>
         <h1>
             <MadCap:keyword term="OLE automatisering:combineren met gebruikersvelden;Gebruikersvelden:creëren;Gebruikersvelden:combineren met OLE automatisering;Gebruikersvelden;Verwijderen:gebruikersvelden;Gebruikersvelden:verwijderen;Gebruikersvelden:filteren op;Velden:uw eigen creëren;Creëren:gebruikersvelden;Velden;Filters:op gebruikersvelden;Gebruikersvelden:specificeren aantal decimale plaatsen" />
 Gebruikersvelden aanmaken voor eigen gebruik</h1>
-        <p>Een <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> project dat opgeslagen is in het eigen <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> . PP formaat is in essentie een database.  U kunt uw eigen gebruikersvelden toevoegen aan tabellen in de database. U kunt bijvoorbeeld velden toevoegen voor telefoonnummers of verzekeringsnummers.</p>
-        <p>Gebruikersvelden zijn vooral handig als u ze gebruikt in combinatie met <a href="../Using_OLE_with_VB_and_VBA/Using_OLE_with_VB_and_VBA.htm">OLE</a>. U wilt bijvoorbeeld een voorraadbeheersysteem integreren met <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> en artikelnummers uit dat systeem opslaan in uw project bij de eigenschappen van hulpmiddelen. Om dit te doen kunt u <a href="../Macros/Using_macros_to_automate_processes.htm">een macro schrijven</a> die OLE functies gebruikt om artikelnummers uit het voorraadsysteem te lezen en deze te schrijven naar uw <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> project zodra het gebruikersveld is gemaakt.</p>
+        <p>Een <MadCap:variable name="Primary.Asta Powerproject Name" /> project dat opgeslagen is in het eigen <MadCap:variable name="Primary.Asta Powerproject Name" /> . PP formaat is in essentie een database.  U kunt uw eigen gebruikersvelden toevoegen aan tabellen in de database. U kunt bijvoorbeeld velden toevoegen voor telefoonnummers of verzekeringsnummers.</p>
+        <p>Gebruikersvelden zijn vooral handig als u ze gebruikt in combinatie met <a href="../Using_OLE_with_VB_and_VBA/Using_OLE_with_VB_and_VBA.htm">OLE</a>. U wilt bijvoorbeeld een voorraadbeheersysteem integreren met <MadCap:variable name="Primary.Asta Powerproject Name" /> en artikelnummers uit dat systeem opslaan in uw project bij de eigenschappen van hulpmiddelen. Om dit te doen kunt u <a href="../Macros/Using_macros_to_automate_processes.htm">een macro schrijven</a> die OLE functies gebruikt om artikelnummers uit het voorraadsysteem te lezen en deze te schrijven naar uw <MadCap:variable name="Primary.Asta Powerproject Name" /> project zodra het gebruikersveld is gemaakt.</p>
         <p>U kunt gebruikersvelden gebruiken om <a href="../URLs/URLs.htm">objecten te koppelen, bijvoorbeeld taken en hulpmiddelen, aan externe documenten</a>. U doet dit door 'URL'-type gebruikersvelden te maken. U kunt dan hyperlinks invoegen naar externe documenten, of naar webpagina's op het internet of een intranet, in deze velden in uw projecten.</p>
-        <p>Om gebruikersvelden voor lokale projecten te maken (.PP-bestanden), gebruikt u het dialoogvenster <b>Gebruikersveld Manager</b> in de <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> client.</p>
-        <p>Om gebruikersvelden te maken voor projecten die zijn opgeslagen in een datasource op de server, gebruikt u Serveradmin, dat wordt geleverd met <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Enterprise. In de Serveradmin Help vindt u details van het aanmaken van gebruikersvelden in Serveradmin.</p>
+        <p>Om gebruikersvelden voor lokale projecten te maken (.PP-bestanden), gebruikt u het dialoogvenster <b>Gebruikersveld Manager</b> in de <MadCap:variable name="Primary.Asta Powerproject Name" /> client.</p>
+        <p>Om gebruikersvelden te maken voor projecten die zijn opgeslagen in een datasource op de server, gebruikt u Serveradmin, dat wordt geleverd met <MadCap:variable name="Primary.Asta Powerproject Name" /> Enterprise. In de Serveradmin Help vindt u details van het aanmaken van gebruikersvelden in Serveradmin.</p>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Gebruikersvelden aanmaken voor een lokaal project</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Een lokaal project is een project dat als een .PP bestand  is opgeslagen, in tegenstelling tot een bestand in een server-mounted datasource. U kunt gebruikersvelden maken voor lokale projecten in <MadCap:variable name="Primary.Asta Asta Powerproject Name" />, en deze gebruiken om informatie op te slaan die u niet kunt opslaan in de standaard velden.</p>
+                <p>Een lokaal project is een project dat als een .PP bestand  is opgeslagen, in tegenstelling tot een bestand in een server-mounted datasource. U kunt gebruikersvelden maken voor lokale projecten in <MadCap:variable name="Primary.Asta Powerproject Name" />, en deze gebruiken om informatie op te slaan die u niet kunt opslaan in de standaard velden.</p>
                 <p>U kunt gebruikersvelden gebruiken om <a href="../URLs/URLs.htm">objecten te koppelen, bijvoorbeeld taken en hulpmiddelen, aan externe documenten</a>. U doet dit door 'URL'-type gebruikersvelden te maken. U kunt dan hyperlinks maken naar externe documenten, of naar webpagina's op het internet of een intranet, in deze velden in uw projecten.</p>
                 <p>Gebruikersvelden maken voor een lokaal project:</p>
                 <ol>
@@ -27,26 +25,19 @@ Gebruikersvelden aanmaken voor eigen gebruik</h1>
                     <li class="p">Selecteer de tabel waaraan u een gebruikersveld wilt toevoegen in het <span style="font-weight: bold;">Object type</span> veld, klik vervolgens op <span style="font-weight: bold;">Toevoegen</span>. Wanneer u bijvoorbeeld een gebruikersveld wilt maken waarin u informatie kunt invoeren voor iedere balk, selecteert u Balk. Het dialoogvenster <span style="font-weight: bold;">Gebruikersveld Toevoegen</span> verschijnt.            </li>
                     <li class="p">Kies het veldtype dat u wilt gebruiken om het veld aan te maken:            </li>
                     <ul>
-                        <li class="p">
-                            <b>String</b> - een tekstveld, bijvoorbeeld voor een naam of commentaar.            </li>
-                        <li class="p">
-                            <span style="font-weight: bold;">Integer</span> - een veld voor hele getallen.            </li>
-                        <li class="p">
-                            <span style="font-weight: bold;">Float</span> - een veld voor decimale getallen.            </li>
-                        <li class="p">
-                            <span style="font-weight: bold;">Boolean</span> - een waar/niet-waar veld, bijvoorbeeld voor het in- of uitschakelen van een optie. Waar/Niet-waar velden kunnen worden weergegeven als selectievakjes of als vervolgkeuzelijsten met opties als Ja/Nee of Juist/Onjuist.            </li>
-                        <li class="p">
-                            <span style="font-weight: bold;">Datum</span> - een datum/tijd veld, bijvoorbeeld om de datum of tijd op te nemen. </li>
-                        <li class="p">
-                            <b>Duur</b> - een veld voor duren die geregistreerd zijn middels een combinatie van cijfers en tijdseenheden. Bijvoorbeeld, u kunt duren zoals "2d" of "3w 2d" in een duur-type gebruikersveld vastleggen .           </li>
-                        <li class="p">
-                            <span style="font-weight: bold;">URL</span> - een veld waarin u <a href="../URLs/URLs.htm">hyperlinks naar externe documenten kunt invoegen</a>, als pad en bestandsnaam, of als URL koppelingen naar webpagina's op het internet of een intranet.            </li>
+                        <li class="p"><b>String</b> - een tekstveld, bijvoorbeeld voor een naam of commentaar.            </li>
+                        <li class="p"><span style="font-weight: bold;">Integer</span> - een veld voor hele getallen.            </li>
+                        <li class="p"><span style="font-weight: bold;">Float</span> - een veld voor decimale getallen.            </li>
+                        <li class="p"><span style="font-weight: bold;">Boolean</span> - een waar/niet-waar veld, bijvoorbeeld voor het in- of uitschakelen van een optie. Waar/Niet-waar velden kunnen worden weergegeven als selectievakjes of als vervolgkeuzelijsten met opties als Ja/Nee of Juist/Onjuist.            </li>
+                        <li class="p"><span style="font-weight: bold;">Datum</span> - een datum/tijd veld, bijvoorbeeld om de datum of tijd op te nemen. </li>
+                        <li class="p"><b>Duur</b> - een veld voor duren die geregistreerd zijn middels een combinatie van cijfers en tijdseenheden. Bijvoorbeeld, u kunt duren zoals "2d" of "3w 2d" in een duur-type gebruikersveld vastleggen .           </li>
+                        <li class="p"><span style="font-weight: bold;">URL</span> - een veld waarin u <a href="../URLs/URLs.htm">hyperlinks naar externe documenten kunt invoegen</a>, als pad en bestandsnaam, of als URL koppelingen naar webpagina's op het internet of een intranet.            </li>
                     </ul>
-                    <li class="p">Typ een naam voor het veld in het veld <span style="font-weight: bold;">Gebruikersveld Naam</span>. Om mogelijke naamsconflicten te vermijden met toekomstige versies van <MadCap:variable name="Primary.Asta Asta Powerproject Name" />, merkt u de gebruikersveldnaam met een unieke reeks zoals bijvoorbeeld uw bedrijfsnaam of een niet-Nederlands woord.            </li>
+                    <li class="p">Typ een naam voor het veld in het veld <span style="font-weight: bold;">Gebruikersveld Naam</span>. Om mogelijke naamsconflicten te vermijden met toekomstige versies van <MadCap:variable name="Primary.Asta Powerproject Name" />, merkt u de gebruikersveldnaam met een unieke reeks zoals bijvoorbeeld uw bedrijfsnaam of een niet-Nederlands woord.            </li>
                     <li class="p">Klik op <span style="font-weight: bold;">OK</span> om het dialoogvenster te bevestigen en het nieuwe gebruikersveld te maken. Het gebruikersveld verschijnt nu in het dialoogvenster <span style="font-weight: bold;">Gebruikersvelden Manager</span>.            </li>
                     <li class="p">Klik op <span style="font-weight: bold;">Toepassen</span> om het nieuwe gebruikersveld toe te passen op het gegevensbestand, <span style="font-weight: bold;">Sluiten</span> om het gebruikersveld toe te passen en het dialoogvenster <span style="font-weight: bold;">Gebruikersvelden  Manager</span> te sluiten, of <span style="font-weight: bold;">Annuleren</span> om het nieuwe gebruikersveld te verlaten. Wanneer u op <span style="font-weight: bold;">Toepassen</span> of <span style="font-weight: bold;">Sluiten</span> klikt, worden schermen in het actieve project gesloten zodat het bestand kan worden vernieuwd.            </li>
                 </ol>
-                <p>Wanneer u eenmaal een gebruikersveld hebt gemaakt, is dit veld gewoonlijk beschikbaar in het dialoogvenster <span style="font-weight: bold;">Eigenschappen</span> van een object (een tabblad <span style="font-weight: bold;">Gebruikersvelden</span> is beschikbaar in het dialoogvenster <span style="font-weight: bold;">Eigenschappen</span> wanneer gebruikersvelden beschikbaar zijn voor het geselecteerde objecten), of als aparte kolom in de lijstview van de Bibliotheek verkenner. Sommige gebruikersvelden kunt u ergens anders in de <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> interface vinden.</p>
+                <p>Wanneer u eenmaal een gebruikersveld hebt gemaakt, is dit veld gewoonlijk beschikbaar in het dialoogvenster <span style="font-weight: bold;">Eigenschappen</span> van een object (een tabblad <span style="font-weight: bold;">Gebruikersvelden</span> is beschikbaar in het dialoogvenster <span style="font-weight: bold;">Eigenschappen</span> wanneer gebruikersvelden beschikbaar zijn voor het geselecteerde objecten), of als aparte kolom in de lijstview van de Bibliotheek verkenner. Sommige gebruikersvelden kunt u ergens anders in de <MadCap:variable name="Primary.Asta Powerproject Name" /> interface vinden.</p>
                 <p>U kunt het aantal decimalen dat wordt weergegeven voor het float-type bij gebruikersvelden instellen:
 </p>
                 <ul>
@@ -73,14 +64,11 @@ Gebruikersvelden aanmaken voor eigen gebruik</h1>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <p class="RelatedTopics">Verwante onderwerpen:</p>
-        <p>
-            <a href="../URLs/URLs.htm">Objecten koppelen aan externe documenten</a>
+        <p><a href="../URLs/URLs.htm">Objecten koppelen aan externe documenten</a>
         </p>
-        <p>
-            <a href="../Using_OLE_with_VB_and_VBA/Using_OLE_with_VB_and_VBA.htm">OLE met VB en VBA gebruiken</a>
+        <p><a href="../Using_OLE_with_VB_and_VBA/Using_OLE_with_VB_and_VBA.htm">OLE met VB en VBA gebruiken</a>
         </p>
-        <p>
-            <a href="../Macros/Using_macros_to_automate_processes.htm">Macro's gebruiken om processen te automatiseren</a>
+        <p><a href="../Macros/Using_macros_to_automate_processes.htm">Macro's gebruiken om processen te automatiseren</a>
         </p>
     </body>
 </html>

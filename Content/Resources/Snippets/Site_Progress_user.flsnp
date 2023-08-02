@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
     <body>
-        <p>Als u <MadCap:variable name="Primary.Site Progress Mobile Name" /> gebruikt om de voortgang van taken en bouwstadia in <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> projecten te registreren met behulp van een mobiel apparaat, zijn er een aantal manieren om te bepalen welke informatie bij elke <MadCap:variable name="Primary.Site Progress Mobile Name" /> gebruiker wordt geëxporteerd.</p>
+        <p>Als u <MadCap:variable name="Primary.Site Progress Mobile Name" /> gebruikt om de voortgang van taken en bouwstadia in <MadCap:variable name="Primary.Asta Powerproject Name" /> projecten te registreren met behulp van een mobiel apparaat, zijn er een aantal manieren om te bepalen welke informatie bij elke <MadCap:variable name="Primary.Site Progress Mobile Name" /> gebruiker wordt geëxporteerd.</p>
     </body>
 </html>

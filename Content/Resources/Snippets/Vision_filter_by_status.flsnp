@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
-    <body>Schakel het selectievakje naast een <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> Vision programma status in om programma's met die status weer te geven in de lijst op het tabblad <b>Openen</b> van de Backstage-view, of schakel het selectievakje links van een status uit om programma's met die status uit de lijst weg te laten. U kunt bijvoorbeeld alle programma's met de status 'Gearchiveerd' eruit filteren om te voorkomen dat gearchiveerde programma's in de lijst worden weergegeven.</body>
+    <body>Schakel het selectievakje naast een <MadCap:variable name="Primary.Asta Powerproject Name" /> Vision programma status in om programma's met die status weer te geven in de lijst op het tabblad <b>Openen</b> van de Backstage-view, of schakel het selectievakje links van een status uit om programma's met die status uit de lijst weg te laten. U kunt bijvoorbeeld alle programma's met de status 'Gearchiveerd' eruit filteren om te voorkomen dat gearchiveerde programma's in de lijst worden weergegeven.</body>
 </html>

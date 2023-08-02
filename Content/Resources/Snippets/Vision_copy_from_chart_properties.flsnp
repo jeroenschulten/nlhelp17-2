@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
-    <body>wanneer u informatie vanuit het <b>Revisienummer</b> veld, op het <b>Kaart</b> tabblad van het <b>Kaart/Project Eigenschappen</b> dialoogvenster, naar het <b>Revisie naam</b> veld op dit dialoogvenster wilt kopiëren, en om informatie vanuit het <b>Revisie commentaar</b> veld, op het <b>Kaart</b> tabblad van het <b>Kaart/Project Eigenschappen</b> dialoogvenster, in het <b>Beschrijf de programma wijzigingen</b> veld op dit dialoogvenster te kopiëren. Dit kan nuttig zijn wanneer u de details van de kaarten in <MadCap:variable name="Primary.Asta Asta Powerproject Name" /> invult alvorens <MadCap:variable name="Primary.Asta Vision Name" /> programma's in te checken of te verzenden.</body>
+    <body>wanneer u informatie vanuit het <b>Revisienummer</b> veld, op het <b>Kaart</b> tabblad van het <b>Kaart/Project Eigenschappen</b> dialoogvenster, naar het <b>Revisie naam</b> veld op dit dialoogvenster wilt kopiëren, en om informatie vanuit het <b>Revisie commentaar</b> veld, op het <b>Kaart</b> tabblad van het <b>Kaart/Project Eigenschappen</b> dialoogvenster, in het <b>Beschrijf de programma wijzigingen</b> veld op dit dialoogvenster te kopiëren. Dit kan nuttig zijn wanneer u de details van de kaarten in <MadCap:variable name="Primary.Asta Powerproject Name" /> invult alvorens <MadCap:variable name="Primary.Asta Vision Name" /> programma's in te checken of te verzenden.</body>
 </html>
