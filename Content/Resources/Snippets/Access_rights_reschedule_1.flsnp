@@ -2,5 +2,7 @@
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
-    <body>You can specify whether members of the security group can reschedule individual charts within the project using the <b>Reschedule</b> check box on the <b>Chart Access Rights</b> tab of this dialog.</body>
+    <body>
+        <p>U kunt specificeren of leden van de security groep individuele kaarten binnen het project mogen herberekenen met behulp van het selectievakje <b>Herberekenen</b> op het tabblad <b>Kaart Toegangsrechten</b> van dit dialoogvenster.</p>
+    </body>
 </html>
