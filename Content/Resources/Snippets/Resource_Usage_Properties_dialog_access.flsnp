@@ -3,10 +3,10 @@
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b>Hulpmiddel Inzet Eigenschappen</b> dialoogvenster</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b>Resource Inzet Eigenschappen</b> dialoogvenster</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Om toegang te krijgen tot het <b>Hulpmiddel Inzet Eigenschappen</b> dialoogvenster, klik op <b xmlns="">Eigenschappen</b> in het linkerpaneel van de hulpmiddel inzet view, of rechtsklik op een allocatieregel in de hulpmiddel inzet view en selecteer <b xmlns="">Hulpmiddel Inzet View Eigenschappen</b>.</p>
+                <p>Om toegang te krijgen tot het <b>Resource Inzet Eigenschappen</b> dialoogvenster, klik op <b xmlns="">Eigenschappen</b> in het linkerpaneel van de resource inzet view, of rechtsklik op een allocatieregel in de resource inzet view en selecteer <b xmlns="">Resource Inzet View Eigenschappen</b>.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

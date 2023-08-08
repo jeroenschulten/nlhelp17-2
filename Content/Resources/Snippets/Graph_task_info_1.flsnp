@@ -2,8 +2,8 @@
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
         <ul>
-            <li>AllocatedWork() - Geeft een grafiek weer van het toegewezen werk van de taken in de view, wanneer <b>Taak</b> staat geselecteerd in de hulpmiddelenselector van het histogram, in plaats van hulpmiddelen of kostengroepen.</li>
-            <li>AllocatedWork(TODATE) - Produceert een cumulatieve grafiek van het toegewezen werk van de taken in de view, wanneer <b xmlns="">Taak</b> staat geselecteerd in de hulpmiddelenselector van het histogram, in plaats van hulpmiddelen of kostengroepen.</li>
+            <li>AllocatedWork() - Geeft een grafiek weer van het toegewezen werk van de taken in de view, wanneer <b>Taak</b> staat geselecteerd in de resourcesselector van het histogram, in plaats van resources of kostengroepen.</li>
+            <li>AllocatedWork(TODATE) - Produceert een cumulatieve grafiek van het toegewezen werk van de taken in de view, wanneer <b xmlns="">Taak</b> staat geselecteerd in de resourcesselector van het histogram, in plaats van resources of kostengroepen.</li>
             <li>AreaUnder(AllocatedWork()) - Zie hierboven.</li>
         </ul>
     </body>

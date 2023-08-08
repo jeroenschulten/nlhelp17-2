@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
-        <p>Het standaard werktempo voor elk permanente hulpmiddel wordt gedefinieerd in het permanente hulpmiddel record. Aan alle nieuwe allocaties van een permanent hulpmiddel wordt standaard dit werktempo toegewezen. In sommige omstandigheden kan het passender zijn om het werktempo vast te leggen voor elke afzonderlijke taak in plaats van voor verschillende hulpmiddelen. Een taak 'Glazen ruit produceren' kan bijvoorbeeld een bepaald werktempo hebben - misschien ingesteld door de machine die wordt gebruikt - ongeacht het hulpmiddel dat aan de taak is toegewezen; Of een staalvlechter kan met een andere snelheid werken, afhankelijk van de dikte van het staal waarmee gewerkt wordt.</p>
+        <p>Het standaard werktempo voor elke permanente resource wordt gedefinieerd in het permanente resource record. Aan alle nieuwe toewijzingen van een permanente resource wordt standaard dit werktempo toegewezen. In sommige omstandigheden kan het beter zijn om het werktempo vast te leggen voor elke afzonderlijke taak in plaats van voor verschillende resources. Een taak 'Glazen ruit produceren' kan bijvoorbeeld een bepaald werktempo hebben - misschien ingesteld door de machine die wordt gebruikt - ongeacht de resource del dat aan de taak is toegewezen; Of een staalvlechter kan met een andere snelheid werken, afhankelijk van de dikte van het staal waarmee gewerkt wordt.</p>
     </body>
 </html>

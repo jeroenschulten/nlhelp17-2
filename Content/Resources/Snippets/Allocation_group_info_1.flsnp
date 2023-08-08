@@ -3,6 +3,6 @@
     <head>
     </head>
     <body>
-        <p>De modelleringsinformatie en parameters van iedere allocatie worden bewaard binnen de groep, dus als u een allocatiegroep aan een taak toewijst, wordt ieder hulpmiddel of kostengroep binnen in de groep toegewezen met de individuele instellingen.</p>
+        <p>De modelleringsinformatie en parameters van iedere toewijzing worden bewaard binnen de groep, dus als u een toewijzingsgroep aan een taak toewijst, wordt iedere resource of kostengroep binnen in de groep toegewezen met de individuele instellingen.</p>
     </body>
 </html>

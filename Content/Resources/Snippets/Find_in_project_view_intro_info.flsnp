@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="247" MadCap:lastWidth="1487">
     <body>
-        <p>U gebruikt het <b>Zoeken</b> dialoogvenster om in de project view te zoeken naar items met namen die een bepaalde alfanumerieke tekststring bevatten. U kunt specificeren om te zoeken naar items in de kaartenhiërarchie of in een van de andere hiërarchieën. Bijvoorbeeld, u kunt dit dialoogvenster gebruiken om de kaartenhiërarchie te doorzoeken naar kaarten of samenvattingsgroepen met 'grondwerk' in hun naam, of zoeken in de permanente hulpmiddelen hiërarchie naar permanente hulpmiddelen met 'Smit' in de naam.</p>
+        <p>U gebruikt het <b>Zoeken</b> dialoogvenster om in de project view te zoeken naar items met namen die een bepaalde alfanumerieke tekststring bevatten. U kunt specificeren om te zoeken naar items in de kaartenhiërarchie of in een van de andere hiërarchieën. Bijvoorbeeld, u kunt dit dialoogvenster gebruiken om de kaartenhiërarchie te doorzoeken naar kaarten of samenvattingsgroepen met 'grondwerk' in hun naam, of zoeken in de permanente resources hiërarchie naar permanente resources met 'Smit' in de naam.</p>
         <p>Wanneer er hammocks in de project view worden weergegeven, kan er met dit dialoogvenster ook gezocht worden naar hammocks, wanneer u behalve naar kaarten en samenvattingsgroepen ook zoekt in de hele kaartenhiërarchie.</p>
     </body>
 </html>

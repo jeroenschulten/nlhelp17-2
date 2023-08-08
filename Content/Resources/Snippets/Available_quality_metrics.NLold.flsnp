@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
@@ -84,19 +84,19 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Alle activiteiten met hulpmiddelen of kosten</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Alle activiteiten met resources of kosten</td>
                     <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" xmlns="">
-                        <p class="ParagraphsInTables">Dit criterium checkt het aandeel van taken die één of meer kosten- of inspanningsgebaseerde hulpmiddelen hebben, of vaste kosten. Een groot aandeel van de taken zonder hulpmiddelen of kosten, kan erop wijzen dat aan meer taken hulpmiddelen of kosten moeten worden toegewezen. Dit criterium is alleen van toepassing op planningen met hulpmiddelen of kosten. Mijlpalen zijn uitgesloten van dit criterium.</p>
+                        <p class="ParagraphsInTables">Dit criterium checkt het aandeel van taken die één of meer kosten- of inspanningsgebaseerde resources hebben, of vaste kosten. Een groot aandeel van de taken zonder resources of kosten, kan erop wijzen dat aan meer taken resources of kosten moeten worden toegewezen. Dit criterium is alleen van toepassing op planningen met resources of kosten. Mijlpalen zijn uitgesloten van dit criterium.</p>
                         <ul type="disc">
-                            <li>Een project slaagt op dit criterium wanneer het percentage taken met één of meer kosten- inspanningsgebaseerde hulpmiddelen, of vaste kosten, groter dan of gelijk aan het slaaggrens percentage. Wanneer bijvoorbeeld de slaaggrens ingesteld stond op 90,00%, zou een project op dit criterium slagen wanneer 90,00% of meer taken één of meer kosten- of inspanningsgebaseerde hulpmiddelen, of een vast kostenbedrag, zou hebben.</li>
-                            <li>Een project faalt op dit criterium wanneer het percentage taken met één of meer kosten- of inspanningsgebaseerde hulpmiddelen, of een vast kostenbedrag, kleiner is dan het faalgrens percentage. Wanneer bijvoorbeeld de faalgrens ingesteld stond op 80,00%, zou een project op dit criterium falen wanneer minder dan 80,00% van de taken één of meer kosten- of inspanningsgebaseerde hulpmiddelen, of een vast kostenbedrag, zou hebben.</li>
-                            <li>Als het percentage taken met één of meer kosten- of inspanningsgebaseerde hulpmiddelen, of een vast kostenbedrag, valt tussen het slaaggrens en het faalgrens percentage, is het resultaat noch geslaagd noch gefaald, maar ligt dat ergens daartussenin.</li>
+                            <li>Een project slaagt op dit criterium wanneer het percentage taken met één of meer kosten- inspanningsgebaseerde resources, of vaste kosten, groter dan of gelijk aan het slaaggrens percentage. Wanneer bijvoorbeeld de slaaggrens ingesteld stond op 90,00%, zou een project op dit criterium slagen wanneer 90,00% of meer taken één of meer kosten- of inspanningsgebaseerde resources, of een vast kostenbedrag, zou hebben.</li>
+                            <li>Een project faalt op dit criterium wanneer het percentage taken met één of meer kosten- of inspanningsgebaseerde resources, of een vast kostenbedrag, kleiner is dan het faalgrens percentage. Wanneer bijvoorbeeld de faalgrens ingesteld stond op 80,00%, zou een project op dit criterium falen wanneer minder dan 80,00% van de taken één of meer kosten- of inspanningsgebaseerde resources, of een vast kostenbedrag, zou hebben.</li>
+                            <li>Als het percentage taken met één of meer kosten- of inspanningsgebaseerde resources, of een vast kostenbedrag, valt tussen het slaaggrens en het faalgrens percentage, is het resultaat noch geslaagd noch gefaald, maar ligt dat ergens daartussenin.</li>
                         </ul>
                         <p class="ParagraphsInTables">
                             <MadCap:snippetText src="Quality_check_2.flsnp" />
                         </p>
                         <p>&#160;</p>
-                        <p class="ParagraphsInTables">Met de slaag- en faal-grenzen ingesteld op 100,00%, voldoet dit kwaliteitscriterium aan de vereisten van de DCMA test 10 (Hulpmiddelen).</p>
+                        <p class="ParagraphsInTables">Met de slaag- en faal-grenzen ingesteld op 100,00%, voldoet dit kwaliteitscriterium aan de vereisten van de DCMA test 10 (Resources).</p>
                     </td>
                     <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
                         <ul type="disc" xmlns="">
@@ -563,13 +563,13 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Totaal taken zonder hulpmiddelen</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Totaal taken zonder resources</td>
                     <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" xmlns="">
-                        <p class="ParagraphsInTables">Dit criterium checkt het aandeel van samenvattingstaken, niveautaken en hammocks zonder hulpmiddel- of kostenallocaties. Het niet verstandig om hulpmiddelen en kosten direct toe te wijzen aan samenvattingstaken, niveautaken en hammocks; het is beter om ze toe te wijzen aan de taken die ze bevatten.</p>
+                        <p class="ParagraphsInTables">Dit criterium checkt het aandeel van samenvattingstaken, niveautaken en hammocks zonder resource- of kostentoewijzingen. Het niet verstandig om resources en kosten direct toe te wijzen aan samenvattingstaken, niveautaken en hammocks; het is beter om ze toe te wijzen aan de taken die ze bevatten.</p>
                         <ul type="disc">
-                            <li>Een project slaagt op dit criterium wanneer het percentage samenvattingstaken, niveautaken en hammocks dat geen hulpmiddel- of kostenallocaties heeft groter is dan of gelijk is aan het slaaggrens percentage. Wanneer bijvoorbeeld de slaaggrens ingesteld stond op 100,00%, zou een project op dit criterium slagen wanneer 100,00% van de samenvattingstaken, niveautaken en hammocks geen hulpmiddel- of kostenallocaties zou hebben.</li>
-                            <li>Een project faalt op dit criterium wanneer het percentage samenvattingstaken, niveautaken en hammocks dat geen hulpmiddel- of kostenallocaties heeft kleiner is dan het faalgrens percentage. Wanneer bijvoorbeeld de faalgrens ingesteld stond op 100,00%, zou een project op dit criterium falen wanneer minder dan 100,00% of samenvattingstaken, niveautaken en hammocks geen hulpmiddel- of kostenallocaties zou hebben.</li>
-                            <li>Wanneer het percentage samenvattingstaken, niveautaken en hammocks dat geen hulpmiddel- of kostenallocaties heeft valt tussen het slaaggrens en het faalgrens, is het resultaat noch geslaagd noch gefaald, maar ligt dat ergens daartussenin.</li>
+                            <li>Een project slaagt op dit criterium wanneer het percentage samenvattingstaken, niveautaken en hammocks dat geen resource- of kostentoewijzingen heeft groter is dan of gelijk is aan het slaaggrens percentage. Wanneer bijvoorbeeld de slaaggrens ingesteld stond op 100,00%, zou een project op dit criterium slagen wanneer 100,00% van de samenvattingstaken, niveautaken en hammocks geen resource- of kostentoewijzingen zou hebben.</li>
+                            <li>Een project faalt op dit criterium wanneer het percentage samenvattingstaken, niveautaken en hammocks dat geen resource- of kostentoewijzingen heeft kleiner is dan het faalgrens percentage. Wanneer bijvoorbeeld de faalgrens ingesteld stond op 100,00%, zou een project op dit criterium falen wanneer minder dan 100,00% of samenvattingstaken, niveautaken en hammocks geen resource- of kostentoewijzingen zou hebben.</li>
+                            <li>Wanneer het percentage samenvattingstaken, niveautaken en hammocks dat geen resource- of kostentoewijzingen heeft valt tussen het slaaggrens en het faalgrens, is het resultaat noch geslaagd noch gefaald, maar ligt dat ergens daartussenin.</li>
                         </ul>
                         <p class="ParagraphsInTables">
                             <MadCap:snippetText src="Quality_check_2.flsnp" />

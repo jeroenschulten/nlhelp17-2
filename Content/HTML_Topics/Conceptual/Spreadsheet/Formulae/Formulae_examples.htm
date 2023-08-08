@@ -194,9 +194,9 @@
                 <p>Deze formule illustreert één manier om hulpmiddel gegevens te manipuleren. Het berekent en toont het percentage waarmee de inspanning is toe- of afgenomen in vergelijking tot de huidige baseline. Uitgedrukt als een berekening is dit het verschil tussen de ingeplande inspanning en de werkelijke inspanning gedeeld door de ingeplande inspanning en wordt dit uitgedrukt als een percentage.</p>
                 <ol>
                     <li>Op het <b>Formule Eigenschappen</b> dialoogvenster, klik in het <b>Formule</b> veld en voeg een openingshaakje toe aan de formule.</li>
-                    <li>Klik op de <b>Veld</b> knop, klik op het <b>Hulpmiddel</b> submenu, klik vervolgens op het <b>Inspanning variantie</b> veld. Het <b>Selecteer Object</b> dialoogvenster verschijnt. Klik op <b>OK</b>. De formule zou er nu als volgt uit moeten zien:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula28.gif" /></li>
+                    <li>Klik op de <b>Veld</b> knop, klik op het <b>Resource</b> submenu, klik vervolgens op het <b>Inspanning variantie</b> veld. Het <b>Selecteer Object</b> dialoogvenster verschijnt. Klik op <b>OK</b>. De formule zou er nu als volgt uit moeten zien:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula28.gif" /></li>
                     <li>Voeg een deelteken toe achteraan de formule.</li>
-                    <li>Klik op het <b>Veld</b> knop, klik op het <b>Hulpmiddel</b> submenu, klik vervolgens op het <b>Inspanning</b> veld. Het <b>Selecteer Object</b> dialoogvenster verschijnt.</li>
+                    <li>Klik op het <b>Veld</b> knop, klik op het <b>Resource</b> submenu, klik vervolgens op het <b>Inspanning</b> veld. Het <b>Selecteer Object</b> dialoogvenster verschijnt.</li>
                     <li>Selecteer HB Huidige Baseline in het <b>Project of baseline</b> veld, klik vervolgens op <b>OK</b>. De formule zou er nu als volgt uit moeten zien:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula29.gif" /></li>
                     <li>Voltooi de formule door er een sluithaakje aan toe te voegen, typ vervolgens <b>* 100 &amp; "%"</b> om aan te geven dat u het resultaat wilt vermenigvuldigen met 100 en een percentage teken aan het einde van de formule resultaten wilt weergeven:<br /><br /><img src="../../../../Graphics/Spreadsheet/exampleformula30.gif" /></li>
                     <li>Klik op <b>OK</b> om het <b>Formule Eigenschappen</b> dialoogvenster te sluiten.</li>
@@ -269,7 +269,7 @@
                 <MadCap:dropDownHotspot>Een formule die een stoplicht  weergeeft die een indicatie geeft van de kosten van elke taak en  potentiele fouten afhandelt</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>De voorbeeld formule hierboven, die gebruik maakt van de <b>Wissel</b> functie om een rode stoplicht indicator weer te geven als de kosten van de taak zich tussen 200 en 300 bevindt, een oranje stoplicht wanneer ze tussen 100 en 200 ligt en een groen stoplicht wanneer ze kleiner is dan 100, toont niets wanneer de taak kosten groter of gelijk zijn aan 300. Dit kan worden gezien als een fout in de formule zelf, omdat het niet om kan gaan met alle mogelijke situaties. Andere formules zouden fouten kunnen genereren. Bijvoorbeeld, u kunt een formule construeren die verwijst naar een gebruikersveld die niet bestaat, eentje die verwijst naar een kostengroep die niet is gealloceerd aan een taak, of eentje die de kosten deelt door de geplande kosten in omstandigheden waarbij de geplande kosten nul zouden kunnen zijn (het proberen om iets te delen door nul resulteert altijd in een fout).</p>
+                <p>De voorbeeld formule hierboven, die gebruik maakt van de <b>Wissel</b> functie om een rode stoplicht indicator weer te geven als de kosten van de taak zich tussen 200 en 300 bevindt, een oranje stoplicht wanneer ze tussen 100 en 200 ligt en een groen stoplicht wanneer ze kleiner is dan 100, toont niets wanneer de taak kosten groter of gelijk zijn aan 300. Dit kan worden gezien als een fout in de formule zelf, omdat het niet om kan gaan met alle mogelijke situaties. Andere formules zouden fouten kunnen genereren. Bijvoorbeeld, u kunt een formule construeren die verwijst naar een gebruikersveld die niet bestaat, eentje die verwijst naar een kostengroep die niet is toegewezen aan een taak, of eentje die de kosten deelt door de geplande kosten in omstandigheden waarbij de geplande kosten nul zouden kunnen zijn (het proberen om iets te delen door nul resulteert altijd in een fout).</p>
                 <p>Het is mogelijk om formules op een zodanige wijze te construeren dat er iets - in plaats van niets - bij de fout wordt weergegeven wanneer deze voorkomt. Dit doet met de <b>Probeer</b> functie, die u in staat stelt om te specificeren wat er zou moeten worden weergegeven wanneer de formule niets teruggeeft. In haar simpelste vorm, heeft de <b>Probeer</b> functie twee parameters: de formule zelf, en de uit te voeren actie wanneer er een fout optreedt.</p>
                 <p>Deze voorbeeldformule illustreert het gebruik van de <b>Probeer</b> functie door eerst het bovenstaande voorbeeld over te nemen en dit vervolgens op te sluiten binnen de <b>Probeer</b> functie, waarbij er een rode stoplicht indicator moet worden weergegeven wanneer de kosten van een taak buiten de parameters van de formule vallen.</p>
                 <ol>
@@ -312,10 +312,10 @@
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Een formule die voor elke taak het gecombineerde werk van twee permanente hulpmiddelen weergeeft</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Een formule die voor elke taak het gecombineerde werk van twee permanente resources weergeeft</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Deze formule gebruikt de <b>Waarde</b> functie om de werk tekststrings van de permanente hulpmiddelen met de ID's 1074 en 1075 om te zetten in numerieke waarden, en ze vervolgens bij elkaar op te tellen het resultaat te tonen.</p>
+                <p>Deze formule gebruikt de <b>Waarde</b> functie om de werk tekststrings van de permanente resources met de ID's 1074 en 1075 om te zetten in numerieke waarden, en ze vervolgens bij elkaar op te tellen het resultaat te tonen.</p>
                 <p>
                     <img src="../../../../Graphics/Spreadsheet/exampleformula50.gif" />
                 </p>
@@ -345,10 +345,10 @@
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Een formule die een ruwe schatting weergeeft van de benodigde inspanning van elke allocatie, berekend via de kosten van een allocatie en de kosten van de allocatie per dag</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Een formule die een ruwe schatting weergeeft van de benodigde inspanning van elke toewijzing, berekend via de kosten van een toewijzing en de kosten van de toewijzing per dag</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Om deze formule te laten werken, moet u een permanente ingeplande allocatie-type gebruikersveld hebben opgezet met de naam <b>KostenPerDagFactor</b>, een integer-type veld dat wordt gebruikt om de kosten per dag van elke allocatie vast te leggen, uitgedrukt in € per dag.</p>
+                <p>Om deze formule te laten werken, moet u een permanente ingeplande toewijzing-type gebruikersveld hebben opgezet met de naam <b>KostenPerDagFactor</b>, een integer-type veld dat wordt gebruikt om de kosten per dag van elke toewijzing vast te leggen, uitgedrukt in € per dag.</p>
                 <p>
                     <img src="../../../../Graphics/Spreadsheet/exampleformula53.gif" />
                 </p>
@@ -449,10 +449,10 @@
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Een formule die de hoeveelheid van een hulpmiddel dat is gebruikt, gebaseerd op het percentage voltooid van de bijbehorende taak, weergeeft</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Een formule die de hoeveelheid van een resource dat is gebruikt, gebaseerd op het percentage voltooid van de bijbehorende taak, weergeeft</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Deze formule geeft de hoeveelheid van een hulpmiddel dat is gebruikt, gebaseerd op het percentage voltooid van de bijbehorende taak, weer. Merk op dat het PercentComplete veld moet worden gedeeld door 100 om dit op deze wijze te kunnen gebruiken, omdat ze wordt behandeld als een integer in formules. Bijvoorbeeld, een waarde van 50% voltooid zou worden vertaald in een integer van 50, en zo moeten we die dus delen door 100 alvorens deze te vermenigvuldigen met het Quantity veld de correcte waarden te verkregen. Wanneer een taak 50% voltooid zou zijn en het Quantity veld de waarde zou hebben van 1.000, dan zou deze formule de waarde 500 teruggeven.</p>
+                <p>Deze formule geeft de hoeveelheid van een resource dat is gebruikt, gebaseerd op het percentage voltooid van de bijbehorende taak, weer. Merk op dat het PercentComplete veld moet worden gedeeld door 100 om dit op deze wijze te kunnen gebruiken, omdat ze wordt behandeld als een integer in formules. Bijvoorbeeld, een waarde van 50% voltooid zou worden vertaald in een integer van 50, en zo moeten we die dus delen door 100 alvorens deze te vermenigvuldigen met het Quantity veld de correcte waarden te verkregen. Wanneer een taak 50% voltooid zou zijn en het Quantity veld de waarde zou hebben van 1.000, dan zou deze formule de waarde 500 teruggeven.</p>
                 <p>
                     <img src="../../../../Graphics/Spreadsheet/exampleformula63.gif" />
                 </p>

@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
-    <body>Deze informatie wordt gebruikt wanneer u verbruiksgoederen modelleert via de Hoeveelheid Van Taak modelleringsmethode, wanneer u permanent hulpmiddelen modelleert via de Werk Van Taak modelleringsmethode en wanneer u taken modelleert in termen van taak werk zonder gebruik te maken van hulpmiddelen.</body>
+    <body>Deze informatie wordt gebruikt wanneer u verbruiksgoederen modelleert via de Hoeveelheid Van Taak modelleringsmethode, wanneer u permanent resources modelleert via de Werk Van Taak modelleringsmethode en wanneer u taken modelleert in termen van taak werk zonder gebruik te maken van resources.</body>
 </html>

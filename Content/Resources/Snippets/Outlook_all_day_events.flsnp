@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
-    <body>om te specificeren dat allocaties met een duur van 1d (of 3d, of 4d, etc) in plaats van een duur met een specifiek aantal uren zoals 5u, 7u of 7.5u moeten resulteren in 'hele dag gebeurtenissen' in Outlook afspraken, of schakel het selectievakje uit om te specificeren dat ze moeten resulteren in Outlook afspraken met start- en eindtijden die ontleend zijn aan de bijbehorende kalender.</body>
+    <body>om te specificeren dat toewijzingen met een duur van 1d (of 3d, of 4d, etc) in plaats van een duur met een specifiek aantal uren zoals 5u, 7u of 7.5u moeten resulteren in 'hele dag gebeurtenissen' in Outlook afspraken, of schakel het selectievakje uit om te specificeren dat ze moeten resulteren in Outlook afspraken met start- en eindtijden die ontleend zijn aan de bijbehorende kalender.</body>
 </html>

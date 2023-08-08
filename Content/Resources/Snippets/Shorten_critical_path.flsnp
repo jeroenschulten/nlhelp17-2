@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
         <ul>
             <li>Werk over aan de taken die zich op het kritieke pad bevinden.</li>
             <li>Verminder de duur van taken op het kritieke pad.</li>
-            <li>Voeg meer hulpmiddelen toe aan taken op het kritieke pad, zodat ze in minder tijd worden voltooid.</li>
+            <li>Voeg meer resources toe aan taken op het kritieke pad, zodat ze in minder tijd worden voltooid.</li>
             <li>Kijk of gelinkte taken op het kritieke pad elkaar kunnen overlappen in plaats van start-eind te worden gelinkt.</li>
         </ul>
     </body>

@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="1" MadCap:lastHeight="91" MadCap:lastWidth="1067">
-    <body>het <b>Gem. allocatie</b> selectievakje in om te specificeren dat de hulpmiddel inzet view de gemiddelde allocatie van de permanente hulpmiddelen moet analyseren. Wanneer u meer dan één type waarde wilt analyseren, is het zinvol om het <b>Toon detail labels</b> selectievakje in te schakelen op het <b>Weergave</b> tabblad van het <b>Hulpmiddel Inzet Eigenschappen</b> dialoogvenster, om een extra kolom weer te geven dat het type waarde dat in elke rij wordt getoond aangeeft.</body>
+    <body>het <b>Gem. toewijzing</b> selectievakje in om te specificeren dat de resource inzet view de gemiddelde toewijzing van de permanente resources moet analyseren. Wanneer u meer dan één type waarde wilt analyseren, is het zinvol om het <b>Toon detail labels</b> selectievakje in te schakelen op het <b>Weergave</b> tabblad van het <b>Resource Inzet Eigenschappen</b> dialoogvenster, om een extra kolom weer te geven dat het type waarde dat in elke rij wordt getoond aangeeft.</body>
 </html>

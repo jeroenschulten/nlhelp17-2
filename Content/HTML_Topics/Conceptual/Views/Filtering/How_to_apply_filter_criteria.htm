@@ -5,14 +5,14 @@
     <body>
         <h1>
             <MadCap:keyword term="Filters:manieren om criteria toe te passen;Filtercriteria toevoegen;Criteria voor filters" />Filter criteria toepassen</h1>
-        <p>Als u <a href="New_filter_Filter_Wizard.htm">een filter aanmaakt</a> met meer dan één criterium, kunt u de manier bepalen waarop de criteria worden toegepast op de balken, taken en allocaties binnen een project. U kunt filter criteria op drie manieren toepassen: Objecten moeten voldoen aan één criterium, objecten moeten voldoen aan alle criteria, of objecten moeten voldoen aan meerdere filtercriteria die opeenvolgend worden toegepast.</p>
+        <p>Als u <a href="New_filter_Filter_Wizard.htm">een filter aanmaakt</a> met meer dan één criterium, kunt u de manier bepalen waarop de criteria worden toegepast op de balken, taken en toewijzingen binnen een project. U kunt filter criteria op drie manieren toepassen: Objecten moeten voldoen aan één criterium, objecten moeten voldoen aan alle criteria, of objecten moeten voldoen aan meerdere filtercriteria die opeenvolgend worden toegepast.</p>
         <h2>Objecten moeten voldoen aan één criterium</h2>
         <p>Om objecten weer te geven die voldoen aan elk criterium wanneer er een filter is toegepast, selecteer  het keuzerondje <span style="font-weight: bold;">Objecten moeten voldoen aan ELK criterium</span> in het dialoogvenster Filter Eigenschappen</p>
-        <p>In het volgende voorbeeld is er een verscheidenheid aan codes toegewezen aan drie taken. De rode en de blauwe taken hebben elk een allocatie van hetzelfde verbruiksgoed:</p>
+        <p>In het volgende voorbeeld is er een verscheidenheid aan codes toegewezen aan drie taken. De rode en de blauwe taken hebben elk een toewijzing van hetzelfde verbruiksgoed:</p>
         <p>
             <img src="../../../../Graphics/Views/filtercriteria1.gif" style="border: none;" width="103" height="105" border="0" />
         </p>
-        <p>Als u een filter met twee criteria aanmaakt en toepast (taken met de blauwe code en taken met allocaties van het verbruiksgoed) en de optie <span style="font-weight: bold;">Aan EEN criterium voldoen</span> selecteert, worden de volgende taken weergegeven:</p>
+        <p>Als u een filter met twee criteria aanmaakt en toepast (taken met de blauwe code en taken met toewijzingen van het verbruiksgoed) en de optie <span style="font-weight: bold;">Aan EEN criterium voldoen</span> selecteert, worden de volgende taken weergegeven:</p>
         <p>
             <img src="../../../../Graphics/Views/filtercriteria2.gif" style="border: none;" width="103" height="80" border="0" />
         </p>
@@ -28,11 +28,11 @@
         <p>Om meerdere filtercriteria opeenvolgend toe te passen, selecteer in het dialoogvenster Filter Eigenschappen het keuzerondje <span style="font-weight: bold;">Toevoegen criteria resultaten</span>.</p>
         <p>Als u deze optie selecteert, worden de criteria om de beurt toegepast. Objecten die voldoen aan het eerste criterium worden overgedragen aan het volgende criterium, enzovoort. Als een <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">niveautaak of </MadCap:conditionalText>samenvattingstaak voldoet aan een criterium, wordt de taak en de inhoud ervan overgedragen aan het volgende criterium, ook als de inhoud zelf ervan niet voldoet aan dat criterium. Het volgende criterium wordt dan toegepast op alle items die overgedragen zijn.</p>
         <p>Merk op dat als een <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">niveautaak of </MadCap:conditionalText>samenvattingstaak voldoet aan twee opeenvolgende criteria, deze taak doorgaat naar het derde criterium inclusief de gehele inhoud, zonder dat de inhoud gefilterd wordt door het tweede criterium. De inhoud van de <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">niveautaak of </MadCap:conditionalText>samenvattingstaak wordt niet gefilterd door het tweede criterium, omdat de <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">niveautaak of </MadCap:conditionalText>samenvattingstaak zelf al voldoet aan het criterium, waardoor de inhoud ervan zonder op het tweede criterium te letten doorgaat.</p>
-        <p>In het volgende voorbeeld zijn taken toegewezen aan een verzameling van codes. Twee taken hebben een allocatie van een verbruiksgoed en twee samenvattingstaken hebben een kostenallocatie:</p>
+        <p>In het volgende voorbeeld zijn taken toegewezen aan een verzameling van codes. Twee taken hebben een toewijzing van een verbruiksgoed en twee samenvattingstaken hebben een kostentoewijzing:</p>
         <p>
             <img src="../../../../Graphics/Views/filtercriteria4.gif" style="border: none;" width="151" height="196" border="0" />
         </p>
-        <p>Als u een filter aanmaakt en toepast met drie criteria (taken met de blauwe code, taken met een kosten allocatie en taken met allocaties van het verbruiksgoed) en de optie <span style="font-weight: bold;">Toevoegen criteria resultaten</span> selecteert, wordt alleen de volgende taak weergegeven:</p>
+        <p>Als u een filter aanmaakt en toepast met drie criteria (taken met de blauwe code, taken met een kosten toewijzing en taken met toewijzingen van het verbruiksgoed) en de optie <span style="font-weight: bold;">Toevoegen criteria resultaten</span> selecteert, wordt alleen de volgende taak weergegeven:</p>
         <p>
             <img src="../../../../Graphics/Views/filtercriteria5.gif" style="border: none;" width="92" height="35" border="0" />
         </p>
@@ -51,7 +51,7 @@
                 </td>
             </tr>
         </table>
-        <p>De groene samenvattingstaak met de kosten allocatie komt overeen met het tweede criterium; nogmaals, de inhoud gaat door naar het volgende criterium, ondanks dat de inhoud zelf niet overeenkomt met het criterium:</p>
+        <p>De groene samenvattingstaak met de kosten toewijzing komt overeen met het tweede criterium; nogmaals, de inhoud gaat door naar het volgende criterium, ondanks dat de inhoud zelf niet overeenkomt met het criterium:</p>
         <table style="vertical-align: top;" cellspacing="0" width="100%">
             <col style="width: 50%;" />
             <col style="width: 50%;" />
@@ -62,7 +62,7 @@
                     </p>
                 </td>
                 <td style="width: 50%;padding-right: 10px;padding-left: 10px;">
-                    <p>Objecten die overeenkomen met het tweede criterium - taken met een kosten allocatie.</p>
+                    <p>Objecten die overeenkomen met het tweede criterium - taken met een kosten toewijzing.</p>
                 </td>
             </tr>
         </table>
@@ -77,7 +77,7 @@
                     </p>
                 </td>
                 <td style="width: 50%;padding-right: 10px;padding-left: 10px;">
-                    <p>Objecten die overeenkomen met het derde criterium - taken met allocaties van het verbruiksgoed.</p>
+                    <p>Objecten die overeenkomen met het derde criterium - taken met toewijzingen van het verbruiksgoed.</p>
                 </td>
             </tr>
         </table>

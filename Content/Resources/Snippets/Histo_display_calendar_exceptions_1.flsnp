@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
-    <body>Omdat verschillende taken en hulpmiddelen kunnen werken met verschillende kalenders, zal wanneer u ervoor kiest om de uitzonderingen weer te geven in het histogram paneel, <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> de uitzonderingen weergeven van de subtitel kalender - d.w.z. de kalender die geselecteerd is in het <b>Subtitel kalender</b> veld, op het <b>Niet-Werktijd</b> tabblad van het <b>Opmaak Balkkaart</b> dialoogvenster.</body>
+    <body>Omdat verschillende taken en resources kunnen werken met verschillende kalenders, zal wanneer u ervoor kiest om de uitzonderingen weer te geven in het histogram paneel, <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> de uitzonderingen weergeven van de subtitel kalender - d.w.z. de kalender die geselecteerd is in het <b>Subtitel kalender</b> veld, op het <b>Niet-Werktijd</b> tabblad van het <b>Opmaak Balkkaart</b> dialoogvenster.</body>
 </html>

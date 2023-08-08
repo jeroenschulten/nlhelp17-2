@@ -3,10 +3,10 @@
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b>Permanente Allocatie Eigenschappen</b> dialoogvenster</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b>Permanente Toewijzing Eigenschappen</b> dialoogvenster</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Om toegang te krijgen tot het <span style="font-weight: bold;">Permanente Allocatie Eigenschappen</span> dialoogvenster, rechtsklik op een permanente hulpmiddelallocatie en selecteer <span style="font-weight: bold;">Eigenschappen</span>.<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"> Of, open een allocatieview voor een taak, rechtsklik op een permanent hulpmiddel en selecteer <span style="font-weight: bold;">Eigenschappen</span>.</MadCap:conditionalText></p>
+                <p>Om toegang te krijgen tot het <span style="font-weight: bold;">Permanente Toewijzing Eigenschappen</span> dialoogvenster, rechtsklik op een permanente resourcetoewijzing en selecteer <span style="font-weight: bold;">Eigenschappen</span>.<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"> Of, open een toewijzingsview voor een taak, rechtsklik op een permanente resource en selecteer <span style="font-weight: bold;">Eigenschappen</span>.</MadCap:conditionalText></p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

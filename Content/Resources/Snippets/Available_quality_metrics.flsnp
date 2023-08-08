@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
@@ -11,7 +11,7 @@
             </li>
             <li><a href="../../HTML_Topics/Conceptual/Quality_check/Detail_metric.htm">Detail</a>
             </li>
-            <li><a href="../../HTML_Topics/Conceptual/Quality_check/Activities_resourced_or_costed_metric.htm">Alle activiteiten met hulpmiddelen of kosten</a>
+            <li><a href="../../HTML_Topics/Conceptual/Quality_check/Activities_resourced_or_costed_metric.htm">Alle activiteiten met resources of kosten</a>
             </li>
             <li><a href="../../HTML_Topics/Conceptual/Quality_check/Unique_names_metric.htm">Unieke namen</a>
             </li>
@@ -71,7 +71,7 @@
         <ul type="disc">
             <li><a href="../../HTML_Topics/Conceptual/Quality_check/Rollup_tasks_not_linked_metric.htm">Totaal niet gelinkte taken</a>
             </li>
-            <li><a href="../../HTML_Topics/Conceptual/Quality_check/Rollup_tasks_not_resourced_metric.htm">Totaal taken zonder hulpmiddelen</a>
+            <li><a href="../../HTML_Topics/Conceptual/Quality_check/Rollup_tasks_not_resourced_metric.htm">Totaal taken zonder resources</a>
             </li>
             <li><a href="../../HTML_Topics/Conceptual/Quality_check/ASAP_force_critical_metric.htm">ZSM forceer kritiek</a>
             </li>

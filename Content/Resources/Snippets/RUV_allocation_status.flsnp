@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="153" MadCap:lastWidth="990">
     <body>
-        <p>Wanneer de hulpmiddel inzet view geconfigureerd is om informatie over alle permanente hulpmiddel allocaties weer te geven, kunt u ervoor kiezen om te highlighten of de permanente hulpmiddelen voor elke dag, week, maand of kwartaal onder-gealloceerd, volledig-gealloceerd of over-gealloceerd zijn. Een hulpmiddel inzet view die de allocatiestatus van hulpmiddelen op deze manier highlight staat bekend als "heat map". Heat maps verschaffen u een directe visuele indicatie van de allocatiestatus van hulpmiddelen.</p>
+        <p>Wanneer de resource inzet view geconfigureerd is om informatie over alle permanente resource toewijzingen weer te geven, kunt u ervoor kiezen om te highlighten of de permanente resources voor elke dag, week, maand of kwartaal onder-gealloceerd, volledig-gealloceerd of over-gealloceerd zijn. Een resource inzet view die de toewijzingsstatus van resources op deze manier highlight staat bekend als "heat map". Heat maps verschaffen u een directe visuele indicatie van de toewijzingsstatus van resources.</p>
     </body>
 </html>

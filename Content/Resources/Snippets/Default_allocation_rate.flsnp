@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
     <body>
-        <p>Als u een standaard allocatiewerktempo voor een taak opgeeft, wordt dit werktempo toegepast op alle permanente hulpmiddelallocaties die vervolgens aan de taak worden toegewezen, waarbij het standaard werktempo van het permanente hulpmiddel wordt overschreven. Het wijzigen van het standaard allocatiewerktempo van de taak heeft geen effect op permanente hulpmiddelallocaties die al aan de taak waren toegewezen. Als u wilt dat een taak het allocatie werktempo gebruikt dat is gedefinieerd voor het permanente hulpmiddel, stelt u dit veld in op nul.</p>
+        <p>Als u een standaard allocatiewerktempo voor een taak opgeeft, wordt dit werktempo toegepast op alle permanente resourcetoewijzingen die vervolgens aan de taak worden toegewezen, waarbij het standaard werktempo van de permanente resource wordt overschreven. Het wijzigen van het standaard allocatiewerktempo van de taak heeft geen effect op permanente resourcetoewijzingen die al aan de taak waren toegewezen. Als u wilt dat een taak het toewijzing werktempo gebruikt dat is gedefinieerd voor de permanente resource, stelt u dit veld in op nul.</p>
     </body>
 </html>

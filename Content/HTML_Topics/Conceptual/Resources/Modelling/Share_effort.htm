@@ -4,46 +4,46 @@
     </head>
     <body>
         <h1>
-            <MadCap:keyword term="Modellering Inspanning Op Allocatie voor permanente hulpmiddelen:delen van de inspanning tussen de hulpmiddelen die dit gebruiken;Permanente hulpmiddelen:delen van de inspanning tussen" />Delen van de inspanning tussen Inspanning op Allocatie gemodelleerde hulpmiddelen</h1>
-        <p>Wanneer u het modelleringstype Inspanning op Allocatie gebruikt - nuttig wanneer u de hoeveelheid inspanning weet die is benodigd voor het uitvoeren van een taak - en meer dan 1 permanent hulpmiddel gaat aan de activiteit werken en de hulpmiddelinspanning kan worden bepaald door de duur van de taak (waarbij Duur de berekende parameter is), dan kunt u aangeven dat de inspanning wordt gedeeld op het moment dat het hulpmiddel wordt toegewezen aan de taak.</p>
-        <p>Bijvoorbeeld, U heeft een taak waarvan u weet dat het 4 dagen inspanning benodigd om uit te voeren, en twee hulpmiddelen kunnen gezamenlijk de taak uitvoeren, beide met een allocatie van 0,5. Modelleren van de hulpmiddelen als Inspanning op Allocatie en aangeven dat ze de inspanning delen betekent dat:</p>
+            <MadCap:keyword term="Modellering Inspanning Op Toewijzing voor permanente resources:delen van de inspanning tussen de resources die dit gebruiken;Permanente resources:delen van de inspanning tussen" />Delen van de inspanning tussen Inspanning op Toewijzing gemodelleerde resources</h1>
+        <p>Wanneer u het modelleringstype Inspanning op Toewijzing gebruikt - nuttig wanneer u de hoeveelheid inspanning weet die is benodigd voor het uitvoeren van een taak - en meer dan 1 permanente resource gaat aan de activiteit werken en de hulpmiddelinspanning kan worden bepaald door de duur van de taak (waarbij Duur de berekende parameter is), dan kunt u aangeven dat de inspanning wordt gedeeld op het moment dat de resource wordt toegewezen aan de taak.</p>
+        <p>Bijvoorbeeld, U heeft een taak waarvan u weet dat het 4 dagen inspanning benodigd om uit te voeren, en twee resources kunnen gezamenlijk de taak uitvoeren, beide met een toewijzing van 0,5. Modelleren van de resources als Inspanning op Toewijzing en aangeven dat ze de inspanning delen betekent dat:</p>
         <ul>
-            <li class="p">Wanneer het eerste hulpmiddel wordt toegewezen aan de taak, wordt de inspanning van de allocatie bepaald door de duur. Omdat het hulpmiddel een allocatie heeft van 0,5 en de taak duur &#160;4d is,
-	 wordt de inspanning 4d en de duur van de allocatie - en de taak - wordt aangepast naar 8d (Zonder het delen van de inspanning wordt de inspanning 2d, de allocatie is immers 0,5 en de duur wordt 4d) </li>
-            <li class="p">Wanneer het tweede hulpmiddel wordt toegewezen aan de taak (maar ook de daarop volgende hulpmiddelen), wordt de resterende inspanning van alle bestaande gedeelde inspanning allocaties opgeteld, en verdeeld over alle gedeelde inspanning allocaties. In dit voorbeeld wordt de 4d inspanning van de eerste allocatie verdeeld over de twee allocaties, waarbij iedere allocatie 2d inspanning krijgt. (Als de hulpmiddelen niet geconfigureerd zijn om de inspanning te delen, dan wordt de inspanning van de tweede allocatie 2d en de duur 4d.)</li>
-            <li class="p"> Als op de eerste allocatie al 1d inspanning is uitgevoerd, dan wordt de resterende 3d inspanning verdeeld tussen de twee allocaties op het moment dat het tweede hulpmiddel wordt toegewezen. (Als de hulpmiddelen niet geconfigureerd zijn om de inspanning te delen, dan blijft de resterende inspanning van 3d op de eerste allocatie.)</li>
+            <li class="p">Wanneer het eerste hulpmiddel wordt toegewezen aan de taak, wordt de inspanning van de toewijzing bepaald door de duur. Omdat de resource een toewijzing heeft van 0,5 en de taak duur &#160;4d is,
+	 wordt de inspanning 4d en de duur van de toewijzing - en de taak - wordt aangepast naar 8d (Zonder het delen van de inspanning wordt de inspanning 2d, de toewijzing is immers 0,5 en de duur wordt 4d) </li>
+            <li class="p">Wanneer het tweede hulpmiddel wordt toegewezen aan de taak (maar ook de daarop volgende resources), wordt de resterende inspanning van alle bestaande gedeelde inspanning toewijzingen opgeteld, en verdeeld over alle gedeelde inspanning toewijzingen. In dit voorbeeld wordt de 4d inspanning van de eerste toewijzing verdeeld over de twee toewijzingen, waarbij iedere toewijzing 2d inspanning krijgt. (Als de resources niet geconfigureerd zijn om de inspanning te delen, dan wordt de inspanning van de tweede toewijzing 2d en de duur 4d.)</li>
+            <li class="p"> Als op de eerste toewijzing al 1d inspanning is uitgevoerd, dan wordt de resterende 3d inspanning verdeeld tussen de twee toewijzingen op het moment dat het tweede hulpmiddel wordt toegewezen. (Als de resources niet geconfigureerd zijn om de inspanning te delen, dan blijft de resterende inspanning van 3d op de eerste toewijzing.)</li>
         </ul>
-        <p>Totdat u 'deel inspanning' allocaties toewijst aan de taak, zullen de allocaties zich hetzelfde gedragen als Inspanning op Allocatie hulpmiddel allocaties die niet zijn geconfigureerd als deel inspanning allocaties: het enige verschil in gedrag ontstaat op het moment van toewijzen aan de taak.</p>
-        <p>Om het delen van inspanning in te stellen voor Inspanning op Allocatie gemodelleerde hulpmiddelen,
+        <p>Totdat u 'deel inspanning' toewijzingen toewijst aan de taak, zullen de toewijzingen zich hetzelfde gedragen als Inspanning op Toewijzing resource toewijzingen die niet zijn geconfigureerd als deel inspanning toewijzingen: het enige verschil in gedrag ontstaat op het moment van toewijzen aan de taak.</p>
+        <p>Om het delen van inspanning in te stellen voor Inspanning op Toewijzing gemodelleerde resources,
  schakel het <span style="font-weight: bold;">Deel inspanning</span> selectievakje in
- op het tabblad <span style="font-weight: bold;">Allocatie</span> van het <b>dialoogvenster Permanente Hulpmiddel Eigenschappen</b>. U kunt ook individuele Inspanning op Allocatie gemodelleerde hulpmiddel allocaties configureren om inspanning te delen door het inschakelen van het <span style="font-weight: bold;">Deel inspanning</span>
- selectievakje op het tabblad <span style="font-weight: bold;">Details</span> van het <b>dialoogvenster Permanente Allocatie Eigenschappen</b>. Merk op dat het inschakelen van het selectievakje 'Deel inspanning' alleen mogelijk is als de berekende parameter op Duur staat. Merk ook op dat
- het configureren van Inspanning op Allocatie gemodelleerde hulpmiddelen om inspanning te delen alleen effect heeft bij het aanmaken van nieuwe allocaties. Het inschakelen van het selectievakje voor bestaande allocaties zal niet de inspanning herverdelen, tenzij nieuwe hulpmiddelen met de optie 'deel inspanning' worden toegewezen aan dezelfde taak.</p>
-        <p>De optie Deel inspanning tussen Inspanning op Allocatie gemodelleerde hulpmiddelen is in sommige situaties vergelijkbaar met het modelleringstype Inspanning Taak Budget, maar verschilt op de volgende manieren: </p>
+ op het tabblad <span style="font-weight: bold;">Toewijzing</span> van het <b>dialoogvenster Permanente Resource Eigenschappen</b>. U kunt ook individuele Inspanning op Toewijzing gemodelleerde resource toewijzingen configureren om inspanning te delen door het inschakelen van het <span style="font-weight: bold;">Deel inspanning</span>
+ selectievakje op het tabblad <span style="font-weight: bold;">Details</span> van het <b>dialoogvenster Permanente Toewijzing Eigenschappen</b>. Merk op dat het inschakelen van het selectievakje 'Deel inspanning' alleen mogelijk is als de berekende parameter op Duur staat. Merk ook op dat
+ het configureren van Inspanning op Toewijzing gemodelleerde resources om inspanning te delen alleen effect heeft bij het aanmaken van nieuwe toewijzingen. Het inschakelen van het selectievakje voor bestaande toewijzingen zal niet de inspanning herverdelen, tenzij nieuwe resources met de optie 'deel inspanning' worden toegewezen aan dezelfde taak.</p>
+        <p>De optie Deel inspanning tussen Inspanning op Toewijzing gemodelleerde resources is in sommige situaties vergelijkbaar met het modelleringstype Inspanning Taak Budget, maar verschilt op de volgende manieren: </p>
         <ul>
             <li class="p">Het inspanning taak budget wordt genegeerd; de inspanning
-	van voltooide allocaties wordt bepaald door de duur van de taak op het moment dat
+	van voltooide toewijzingen wordt bepaald door de duur van de taak op het moment dat
 	het eerste hulpmiddel wordt toegewezen.</li>
-            <li class="p">De resterende inspanning wordt alleen herverdeeld tussen de allocaties
-	wanneer een nieuwe toewijzing van een hulpmiddel met 'deel inspanning' wordt gedaan op de taak.
+            <li class="p">De resterende inspanning wordt alleen herverdeeld tussen de toewijzingen
+	wanneer een nieuwe toewijzing van een resource met 'deel inspanning' wordt gedaan op de taak.
 	</li>
         </ul>
         <p class="RelatedTopics">Verwante onderwerpen:</p>
         <p style="font-weight: normal;"><span><span style="font-weight: normal;"><a href="Questions.htm"><span><span style="font-weight: normal;">V</span></span>ragen
- die u kunt beantwoorden door het modelleren van hulpmiddelen</a></span></span>
+ die u kunt beantwoorden door het modelleren van resources</a></span></span>
         </p>
-        <p><a href="Non_modelled_permanent_resources.htm">Niet gemodelleerde permanente hulpmiddelen
+        <p><a href="Non_modelled_permanent_resources.htm">Niet gemodelleerde permanente resources
 </a>
         </p>
-        <p><span style="font-weight: normal;"><a href="Effort_on_Allocation_perm_res.htm">Modelleringstype Inspanning op Allocatie voor permanente hulpmiddelen</a></span>
+        <p><span style="font-weight: normal;"><a href="Effort_on_Allocation_perm_res.htm">Modelleringstype Inspanning op Toewijzing voor permanente resources</a></span>
         </p>
-        <p><span style="font-weight: normal;"><a href="Work_on_Allocation_perm_res.htm">Modelleringstype Werk op Allocatie voor permanente hulpmiddelen</a></span>
+        <p><span style="font-weight: normal;"><a href="Work_on_Allocation_perm_res.htm">Modelleringstype Werk op Toewijzing voor permanente resources</a></span>
         </p>
-        <p><a href="Work_From_Task_perm_res.htm">Modelleringstype Werk van Taak voor permanente hulpmiddelen</a>
+        <p><a href="Work_From_Task_perm_res.htm">Modelleringstype Werk van Taak voor permanente resources</a>
         </p>
-        <p><a href="Effort_Activity_Budget_perm_res.htm">Modelleringstype Inspanning Taak Budget voor permanente hulpmiddelen</a>
+        <p><a href="Effort_Activity_Budget_perm_res.htm">Modelleringstype Inspanning Taak Budget voor permanente resources</a>
         </p>
-        <p><a href="Combining_EOA_and_EAB_allocations.htm">Combineren van Inspanning Taak en Inspanning Taak Budget allocaties</a>
+        <p><a href="Combining_EOA_and_EAB_allocations.htm">Combineren van Inspanning Taak en Inspanning Taak Budget toewijzingen</a>
         </p>
     </body>
 </html>

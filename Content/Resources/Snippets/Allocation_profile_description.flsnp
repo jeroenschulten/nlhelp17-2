@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="94" MadCap:lastWidth="1046">
     <body>
-        <p>Bij permanente hulpmiddelallocaties kunt u ook specificeren dat een allocatie meer dan één individueel allocatieprofiel zou moeten gebruiken, hetgeen op eenzelfde wijze werkt als bij een hulpmiddelcurve, maar alleen van toepassing is op een individuele allocatie. Een allocatieprofiel bestaat uit een aantal afzonderlijke segmenten, waarbij elk een duur en een bijbehorend inspanningsniveau bevat.</p>
+        <p>Bij permanente resourcetoewijzingen kunt u ook specificeren dat een toewijzing meer dan één individueel toewijzingsprofiel zou moeten gebruiken, hetgeen op eenzelfde wijze werkt als bij een hulpmiddelcurve, maar alleen van toepassing is op een individuele toewijzing. Een toewijzingsprofiel bestaat uit een aantal afzonderlijke segmenten, waarbij elk een duur en een bijbehorend inspanningsniveau bevat.</p>
     </body>
 </html>

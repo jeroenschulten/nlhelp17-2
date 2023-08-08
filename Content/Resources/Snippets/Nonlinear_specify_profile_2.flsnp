@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="1" MadCap:lastHeight="66" MadCap:lastWidth="974">
-    <body>Voer bij elke rij in de tabel op dit tabblad de hoeveelheid inspanning in, in uren, dat u denkt dat er in de bijbehorende periode zal verlopen. Bijvoorbeeld, voor een vooraan-geladen profiel, zullen de inspanningswaarden in de eerste tijdsperiodes groter zijn dan die in de latere tijdsperiodes. De <b>Allocatie</b> waarde in elke rij wordt automatisch berekend.</body>
+    <body>Voer bij elke rij in de tabel op dit tabblad de hoeveelheid inspanning in, in uren, dat u denkt dat er in de bijbehorende periode zal verlopen. Bijvoorbeeld, voor een vooraan-geladen profiel, zullen de inspanningswaarden in de eerste tijdsperiodes groter zijn dan die in de latere tijdsperiodes. De <b>Toewijzing</b> waarde in elke rij wordt automatisch berekend.</body>
 </html>

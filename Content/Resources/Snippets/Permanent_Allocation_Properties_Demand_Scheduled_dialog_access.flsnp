@@ -3,10 +3,10 @@
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b>Permanente Allocatie Eigenschappen - Aanvraag/Ingepland</b> dialoogvenster</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b>Permanente Toewijzing Eigenschappen - Aanvraag/Ingepland</b> dialoogvenster</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Om toegang te krijgen tot het <span style="font-weight: bold;">Permanente Allocatie Eigenschappen - <b>Aanvraag/Ingepland</b></span> dialoogvenster, klik op de <span style="font-weight: bold;"><b>Aanvraag/Ingepland</b></span> knop op het <span style="font-weight: bold;">Permanente Allocatie Eigenschappen</span> dialoogvenster.</p>
+                <p>Om toegang te krijgen tot het <span style="font-weight: bold;">Permanente Toewijzing Eigenschappen - <b>Aanvraag/Ingepland</b></span> dialoogvenster, klik op de <span style="font-weight: bold;"><b>Aanvraag/Ingepland</b></span> knop op het <span style="font-weight: bold;">Permanente Toewijzing Eigenschappen</span> dialoogvenster.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

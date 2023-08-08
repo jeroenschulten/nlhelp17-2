@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
     <body>
-        <p>Voor elk hulpmiddel kunt u een mijlpaalweergave opgeven die standaard moet worden toegepast op toewijzingen met nul duur, dat wil zeggen mijlpalen. Misschien wilt u een andere mijlpaalweergave toepassen op elk hulpmiddel om onderscheid te helpen maken tussen de nul-duurtoewijzingen van verschillende hulpmiddelen.</p>
+        <p>Voor elke resource kunt u een mijlpaalweergave opgeven die standaard moet worden toegepast op toewijzingen met nul duur, dat wil zeggen mijlpalen. Misschien wilt u een andere mijlpaalweergave toepassen op elke resource om onderscheid te helpen maken tussen de nul-duurtoewijzingen van verschillende resources.</p>
     </body>
 </html>

@@ -25,21 +25,21 @@
         </MadCap:dropDown>
         <MadCap:dropDown MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Om het domein te specificeren van de hulpmiddelen die u grafisch wilt tekenen</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Om het domein te specificeren van de resources die u grafisch wilt tekenen</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>
                     <a name="Edit_histo_report_resource_scope">
-                    </a>Wanneer uw hulpmiddelen meer dan één rol in een project hebben kunt u in het <span style="font-weight: bold;">Hulpmiddel</span> veld de rollen kiezen om hen grafisch te tekenen.:</p>
+                    </a>Wanneer uw resources meer dan één rol in een project hebben kunt u in het <span style="font-weight: bold;">Resource</span> veld de rollen kiezen om hen grafisch te tekenen.:</p>
                 <MadCap:snippetBlock src="../../../../Resources/Snippets/Histo_report_resource_field.flsnp" />
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Om te specificeren hoe de beschikbaarheid van hulpmiddelen wordt berekend</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Om te specificeren hoe de beschikbaarheid van resources wordt berekend</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Wanneer het histogramrapport ook een grafiek bevat met details over de beschikbaarheid van hulpmiddelen, specificeer dan in het <span style="font-weight: bold;">Beschikbaarheid</span> veld hoe de beschikbaarheid van het geselecteerde hulpmiddel moet worden berekend:</p>
+                <p>Wanneer het histogramrapport ook een grafiek bevat met details over de beschikbaarheid van resources, specificeer dan in het <span style="font-weight: bold;">Beschikbaarheid</span> veld hoe de beschikbaarheid van het geselecteerde hulpmiddel moet worden berekend:</p>
                 <MadCap:snippetBlock src="../../../../Resources/Snippets/Histo_report_availability_field.flsnp" />
             </MadCap:dropDownBody>
         </MadCap:dropDown>
@@ -48,7 +48,7 @@
                 <MadCap:dropDownHotspot>Om het histogram te beperken tot een bepaald datumdomein</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>U kunt indien gewenst een histogramrapport beperken tot een datumdomein. Wanneer u geen datumdomein opgeeft zal het histogramrapport gaan over de duur die u aangeeft op het <span style="font-weight: bold;">Grafieken</span> tabblad van dit dialoogvenster. Wanneer u een datumdomein opgeeft zullen alle taken en allocaties die buiten dat datumdomein vallen buiten beschouwing worden gelaten.</p>
+                <p>U kunt indien gewenst een histogramrapport beperken tot een datumdomein. Wanneer u geen datumdomein opgeeft zal het histogramrapport gaan over de duur die u aangeeft op het <span style="font-weight: bold;">Grafieken</span> tabblad van dit dialoogvenster. Wanneer u een datumdomein opgeeft zullen alle taken en toewijzingen die buiten dat datumdomein vallen buiten beschouwing worden gelaten.</p>
                 <p>Voer de gewenste datums in de <span style="font-weight: bold;">Datumdomein</span> velden in wanneer u het histogramrapport wilt beperken tot een bepaald datumdomein. U kunt datums invoeren in beide velden of slechts in één van de velden.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
@@ -86,7 +86,7 @@
                         </td>
                     </tr>
                 </table>
-                <p>De grafieken in het histogramrapport zullen waarschijnlijk verschillend afhankelijk van de geselecteerde tijdsperiode. Stel de tijdsperiode in op Geen als u niet wilt dat de hulpmiddel grafiek waarden worden gemiddeld over de tijdsperiodes. De grafiekwaarden worden dan weergegeven gedurende de werkperiodes van het hulpmiddel.</p>
+                <p>De grafieken in het histogramrapport zullen waarschijnlijk verschillend afhankelijk van de geselecteerde tijdsperiode. Stel de tijdsperiode in op Geen als u niet wilt dat de resource grafiek waarden worden gemiddeld over de tijdsperiodes. De grafiekwaarden worden dan weergegeven gedurende de werkperiodes van de resource.</p>
                 <p>
                     <a name="Edit_histo_report_slicing_type">
                     </a>Specificeer in het <span style="font-weight: bold;">Type</span> veld of u wilt dat het histogram gemiddelde waarden, maximum waarden, minimum waarden, variantie waarden of de gemiddelde (mean) waarden binnen elke tijdseenheid weergeeft .</p>
@@ -95,11 +95,11 @@
                 <h2 MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Voorbeelden van  cumulatieve en niet-cumulatieve grafieken (tijdsperiodes slicing types)</h2>
                 <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">De volgende verklaringen van tijdseenheid types hebben betrekking op twee typen grafieken:</p>
                 <ul type="disc">
-                    <li class="p" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Niet-cumulatieve grafieken - Deze grafieken tonen de waarden die aanwezig zijn in elke opeenvolgende tijdsperiode; alle tijdsperiode waarden staan volledig los van de voorgaande of volgende tijdsperiode waarden. Een voorbeeld van een niet-cumulatieve grafiek is de 'allocatie' grafiek. <br /><br /><img src="../../../../Graphics/Histograms/slicingnoslicing.gif" style="border: none;" width="247" height="172" border="0" /><![CDATA[           ]]></li>
+                    <li class="p" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Niet-cumulatieve grafieken - Deze grafieken tonen de waarden die aanwezig zijn in elke opeenvolgende tijdsperiode; alle tijdsperiode waarden staan volledig los van de voorgaande of volgende tijdsperiode waarden. Een voorbeeld van een niet-cumulatieve grafiek is de 'toewijzing' grafiek. <br /><br /><img src="../../../../Graphics/Histograms/slicingnoslicing.gif" style="border: none;" width="247" height="172" border="0" /><![CDATA[           ]]></li>
                     <li class="p" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Cumulatieve grafieken - Deze grafieken geven opgetelde waarden weer waarbij elke tijdsperiode waarde het resultaat is van het optellen van hetgeen in die tijdsperiode plaatsvond bij de opgetelde waarde van alle voorafgaande tijdsperiodes. Een voorbeeld van een cumulatieve grafiek is de 'Cumulatieve kosten' grafiek, waarin de grafiek over de tijd gezien geleidelijk hoger wordt.            <br /><br /><img src="../../../../Graphics/Histograms/slicingcumulative.gif" style="border: none;" width="257" height="164" border="0" /><br /></li>
                 </ul>
                 <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">De nu volgende toelichtingen worden begeleid door een aantal afbeeldingen om het effect van het gebruik van elk tijdseenheid type. De afbeeldingen zijn gebaseerd op de volgende grafieken, welke hieronder zonder onderverdeling in tijdsperiodes .</p>
-                <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">De volgende niet in tijdsperiodes ingedeelde grafiek geeft de allocaties van een hulpmiddel weer over een vierweekse periode:</p>
+                <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">De volgende niet in tijdsperiodes ingedeelde grafiek geeft de toewijzingen van een resource weer over een vierweekse periode:</p>
                 <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
                     <img src="../../../../Graphics/Histograms/slicingnoslicing.gif" style="border: none;" width="247" height="172" border="0" />
                 </p>
@@ -108,7 +108,7 @@
                     <img src="../../../../Graphics/Histograms/slicingcumulative.gif" style="border: none;" width="257" height="164" border="0" />
                 </p>
                 <h2 MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Gemiddelde</h2>
-                <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Gebruik dit tijdseenheid type als u grafisch het gemiddelde van waarden binnen elke tijdseenheid periode wilt tekenen - bijvoorbeeld, als u grafisch de gemiddelde allocatie van een hulpmiddel per week wilt tekenen.</p>
+                <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Gebruik dit tijdseenheid type als u grafisch het gemiddelde van waarden binnen elke tijdseenheid periode wilt tekenen - bijvoorbeeld, als u grafisch de gemiddelde toewijzing van een resource per week wilt tekenen.</p>
                 <ul type="disc">
                     <li class="p" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Bij niet-cumulatieve grafieken gebruikt dit tijdseenheid type het gemiddelde van de waarden in de huidige tijdsperiode.            </li>
                     <li class="p" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Bij cumulatieve grafieken geeft dit tijdseenheid type een 'zaagtand'-stijl grafiek weer waarbij de gemiddelden van de waarden in de huidige tijdsperiode worden gebruikt.            </li>
@@ -118,7 +118,7 @@
                         <MadCap:dropDownHotspot>Voorbeelden</MadCap:dropDownHotspot>
                     </MadCap:dropDownHead>
                     <MadCap:dropDownBody>
-                        <p>In de onderstaande afbeelding heeft de allocatie grafiek een tijdsperiode gekregen van Weken en een tijdseenheid type Gemiddelde. De grafiek laat daarom de gemiddelde waarde voor elke week zien. In week 2, bijvoorbeeld, waren de allocatie waarden in grafiek zonder tijdsperiodes 2, 2, 4, 1 en 1, in totaal dus 10. Dit is gedeeld door het aantal dagen om te komen tot het gemiddelde (10 / 5 = 2):</p>
+                        <p>In de onderstaande afbeelding heeft de toewijzing grafiek een tijdsperiode gekregen van Weken en een tijdseenheid type Gemiddelde. De grafiek laat daarom de gemiddelde waarde voor elke week zien. In week 2, bijvoorbeeld, waren de toewijzing waarden in grafiek zonder tijdsperiodes 2, 2, 4, 1 en 1, in totaal dus 10. Dit is gedeeld door het aantal dagen om te komen tot het gemiddelde (10 / 5 = 2):</p>
                         <p>
                             <img src="../../../../Graphics/Histograms/slicingaverage.gif" style="border: none;" width="245" height="172" border="0" />
                         </p>
@@ -135,7 +135,7 @@
                         <MadCap:dropDownHotspot>Voorbeelden</MadCap:dropDownHotspot>
                     </MadCap:dropDownHead>
                     <MadCap:dropDownBody>
-                        <p>In de onderstaande afbeelding heeft de allocatie grafiek een tijdsperiode gekregen van Weken en een tijdseenheid type Balk Gemiddelde. De grafiek laat daarom de gemiddelde waarde voor elke week zien, hetgeen dezelfde resultaten oplevert als bij het Gemiddelde tijdseenheid type:</p>
+                        <p>In de onderstaande afbeelding heeft de toewijzing grafiek een tijdsperiode gekregen van Weken en een tijdseenheid type Balk Gemiddelde. De grafiek laat daarom de gemiddelde waarde voor elke week zien, hetgeen dezelfde resultaten oplevert als bij het Gemiddelde tijdseenheid type:</p>
                         <p>
                             <img src="../../../../Graphics/Histograms/slicingaverage.gif" style="border: none;" width="245" height="172" border="0" />
                         </p>
@@ -153,7 +153,7 @@
                         <MadCap:dropDownHotspot>Voorbeelden</MadCap:dropDownHotspot>
                     </MadCap:dropDownHead>
                     <MadCap:dropDownBody>
-                        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">In de onderstaande afbeelding heeft de allocatie grafiek een tijdsperiode gekregen van Weken en een tijdseenheid type Balk Verschil. De grafiek laat daarom het verschil tussen de eind- en startwaarden voor elke week zien:</p>
+                        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">In de onderstaande afbeelding heeft de toewijzing grafiek een tijdsperiode gekregen van Weken en een tijdseenheid type Balk Verschil. De grafiek laat daarom het verschil tussen de eind- en startwaarden voor elke week zien:</p>
                         <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
                             <img src="../../../../Graphics/Histograms/slicingbardifference.gif" style="border: none;" width="251" height="173" border="0" />
                         </p>
@@ -164,7 +164,7 @@
                     </MadCap:dropDownBody>
                 </MadCap:dropDown>
                 <h2 MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Balk Maximum</h2>
-                <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Gebruik dit tijdseenheid type als u grafisch de maximum waarden binnen elke tijdseenheid periode wilt tekenen - bijvoorbeeld, als u grafisch van elke week de maximum allocatie van een hulpmiddel wilt tekenen.</p>
+                <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Gebruik dit tijdseenheid type als u grafisch de maximum waarden binnen elke tijdseenheid periode wilt tekenen - bijvoorbeeld, als u grafisch van elke week de maximum toewijzing van een resource wilt tekenen.</p>
                 <ul type="disc">
                     <li class="p" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Bij niet-cumulatieve grafieken gebruikt dit tijdseenheid type de maximale waarde in de huidige tijdsperiode.            </li>
                     <li class="p" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Bij cumulatieve grafieken gebruikt dit tijdseenheid type de maximale waarde in de huidige tijdsperiode minus de maximale waarde in voorafgaande tijdsperiode, waarmee het dus een niet-cumulatieve maximum waarde weergeeft. De waarde die teruggegeven wordt als er van dit tijdseenheid type gebruik wordt gemaakt is positief als de waarden in de cumulatieve grafiek groter worden tussen de start en het einde van de tijdsperiode, en negatief als ze kleiner worden tussen de start en het einde van de tijdsperiode.            </li>
@@ -174,7 +174,7 @@
                         <MadCap:dropDownHotspot>Voorbeelden</MadCap:dropDownHotspot>
                     </MadCap:dropDownHead>
                     <MadCap:dropDownBody>
-                        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">In de onderstaande afbeelding heeft de allocatie grafiek een tijdsperiode gekregen van Weken en een tijdseenheid type Balk Maximum. De grafiek laat daarom de maximale waarde voor elke week zien. In week 2, bijvoorbeeld, waren de allocatie waarden in de grafiek zonder tijdsperiodes 2, 2, 4, 1 en 1. De maximale waarde was dus 4, welke gebruikt wordt als de waarde van de tweede week:</p>
+                        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">In de onderstaande afbeelding heeft de toewijzing grafiek een tijdsperiode gekregen van Weken en een tijdseenheid type Balk Maximum. De grafiek laat daarom de maximale waarde voor elke week zien. In week 2, bijvoorbeeld, waren de toewijzing waarden in de grafiek zonder tijdsperiodes 2, 2, 4, 1 en 1. De maximale waarde was dus 4, welke gebruikt wordt als de waarde van de tweede week:</p>
                         <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
                             <img src="../../../../Graphics/Histograms/slicingbarmaximum.gif" style="border: none;" width="245" height="172" border="0" />
                         </p>
@@ -191,7 +191,7 @@
                         <MadCap:dropDownHotspot>Voorbeelden</MadCap:dropDownHotspot>
                     </MadCap:dropDownHead>
                     <MadCap:dropDownBody>
-                        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">In de onderstaande afbeelding heeft de allocatie grafiek een tijdsperiode gekregen van Weken en een tijdseenheid type Balk Maximum Cumulatief. De grafiek laat daarom de maximale waarde voor elke week zien, hetgeen dezelfde resultaten geeft als bij de Balk Maximum tijdseenheid type:</p>
+                        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">In de onderstaande afbeelding heeft de toewijzing grafiek een tijdsperiode gekregen van Weken en een tijdseenheid type Balk Maximum Cumulatief. De grafiek laat daarom de maximale waarde voor elke week zien, hetgeen dezelfde resultaten geeft als bij de Balk Maximum tijdseenheid type:</p>
                         <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
                             <img src="../../../../Graphics/Histograms/slicingbarmaximum.gif" style="border: none;" width="245" height="172" border="0" />
                         </p>
@@ -202,7 +202,7 @@
                     </MadCap:dropDownBody>
                 </MadCap:dropDown>
                 <h2 MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Balk Minimum</h2>
-                <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Gebruik dit tijdseenheid type als u grafisch de minimum waarden binnen elke tijdseenheid periode wilt tekenen - bijvoorbeeld, als u grafisch van elke week de minimum allocatie van een hulpmiddel wilt tekenen.</p>
+                <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Gebruik dit tijdseenheid type als u grafisch de minimum waarden binnen elke tijdseenheid periode wilt tekenen - bijvoorbeeld, als u grafisch van elke week de minimum toewijzing van een resource wilt tekenen.</p>
                 <ul type="disc">
                     <li class="p" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Bij niet-cumulatieve grafieken gebruikt dit tijdseenheid type de minimum waarde in de huidige tijdsperiode.            </li>
                     <li class="p" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Bij cumulatieve grafieken gebruikt dit tijdseenheid type de minimum waarde in de huidige tijdsperiode minus de minimale waarde in voorafgaande tijdsperiode, waarmee het dus een niet-cumulatieve minimum waarde weergeeft. De waarde die teruggegeven wordt als er van dit tijdseenheid type gebruik wordt gemaakt is positief als de waarden in de cumulatieve grafiek groter worden tussen de start en het einde van de tijdsperiode, en negatief als ze kleiner worden tussen de start en het einde van de tijdsperiode.            </li>
@@ -212,7 +212,7 @@
                         <MadCap:dropDownHotspot>Voorbeelden</MadCap:dropDownHotspot>
                     </MadCap:dropDownHead>
                     <MadCap:dropDownBody>
-                        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">In de onderstaande afbeelding heeft de allocatie grafiek een tijdsperiode gekregen van Weken en een tijdseenheid type Balk Minimum. De grafiek laat daarom de minimum waarde voor elke week zien. In week 2, bijvoorbeeld, zijn de allocatie waarden in de grafiek (zonder tijdsperiodes) 2, 2, 4, 1 en 1. De minimum waarde was 1 en die wordt nu dus gebruikt als de waarde van de tweede week:</p>
+                        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">In de onderstaande afbeelding heeft de toewijzing grafiek een tijdsperiode gekregen van Weken en een tijdseenheid type Balk Minimum. De grafiek laat daarom de minimum waarde voor elke week zien. In week 2, bijvoorbeeld, zijn de toewijzing waarden in de grafiek (zonder tijdsperiodes) 2, 2, 4, 1 en 1. De minimum waarde was 1 en die wordt nu dus gebruikt als de waarde van de tweede week:</p>
                         <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
                             <img src="../../../../Graphics/Histograms/slicingbarminimum.gif" style="border: none;" width="247" height="172" border="0" />
                         </p>
@@ -229,7 +229,7 @@
                         <MadCap:dropDownHotspot>Voorbeelden</MadCap:dropDownHotspot>
                     </MadCap:dropDownHead>
                     <MadCap:dropDownBody>
-                        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">In de onderstaande afbeelding heeft de allocatie grafiek een tijdsperiode gekregen van Weken en een tijdseenheid type Balk Minimum Cumulatief. De grafiek laat daarom de minimum waarde voor elke week zien, hetgeen dezelfde resultaten oplevert als bij het Balk Minimum tijdseenheid type:</p>
+                        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">In de onderstaande afbeelding heeft de toewijzing grafiek een tijdsperiode gekregen van Weken en een tijdseenheid type Balk Minimum Cumulatief. De grafiek laat daarom de minimum waarde voor elke week zien, hetgeen dezelfde resultaten oplevert als bij het Balk Minimum tijdseenheid type:</p>
                         <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
                             <img src="../../../../Graphics/Histograms/slicingbarminimum.gif" style="border: none;" width="247" height="172" border="0" />
                         </p>
@@ -240,8 +240,8 @@
                     </MadCap:dropDownBody>
                 </MadCap:dropDown>
                 <h2 MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Gemiddelde (Mean)</h2>
-                <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Gebruik dit tijdseenheid type als u grafisch de gemiddelde waarden binnen elke tijdsperiode wilt tekenen - bijvoorbeeld, als u grafisch elke week de gemiddelde allocatie van een hulpmiddel wilt tekenen - en u wilt dat de gemiddelde waarde wordt berekend over de gehele tijdsperiode, niet alleen over de werktijd binnen de tijdsperiode.</p>
-                <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Een voorbeeld van een situatie waarbij dit tijdseenheid type van pas zou kunnen komen is als u de wekelijkse kosten van een door u voor een bepaalde tijdsperiode gehuurd hulpmiddel grafisch wilt tekenen - bijvoorbeeld, een stuk machinerie. U zou dan de gemiddelde waarde berekend willen hebben over de gehele tijdsperiode in plaats van over de werktijd binnen de periode, omdat u het hulpmiddel moet huren voor de gehele tijdsperiode, ook al wordt deze alleen gebruikt gedurende werktijd.</p>
+                <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Gebruik dit tijdseenheid type als u grafisch de gemiddelde waarden binnen elke tijdsperiode wilt tekenen - bijvoorbeeld, als u grafisch elke week de gemiddelde toewijzing van een resource wilt tekenen - en u wilt dat de gemiddelde waarde wordt berekend over de gehele tijdsperiode, niet alleen over de werktijd binnen de tijdsperiode.</p>
+                <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Een voorbeeld van een situatie waarbij dit tijdseenheid type van pas zou kunnen komen is als u de wekelijkse kosten van een door u voor een bepaalde tijdsperiode gehuurd hulpmiddel grafisch wilt tekenen - bijvoorbeeld, een stuk machinerie. U zou dan de gemiddelde waarde berekend willen hebben over de gehele tijdsperiode in plaats van over de werktijd binnen de periode, omdat u de resource moet huren voor de gehele tijdsperiode, ook al wordt deze alleen gebruikt gedurende werktijd.</p>
                 <ul type="disc">
                     <li class="p" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Bij niet-cumulatieve grafieken gebruikt dit tijdseenheid type dezelfde waarden als bij 'Gemiddelde (Average)' wanneer het gebruikt wordt met een werktijd tijdsperiode. De waarden verschillen wanneer dit tijdseenheid type gebruikt wordt met een verstreken tijdseenheid, omdat het waarden middelt over de totale verstreken tijdseenheid en niet alleen over de werktijd binnen de tijdseenheid.            </li>
                     <li class="p" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Bij cumulatieve grafieken geeft dit tijdseenheid type dezelfde resultaten als bij 'Gemiddelde (Average)'.            </li>
@@ -251,7 +251,7 @@
                         <MadCap:dropDownHotspot>Voorbeelden</MadCap:dropDownHotspot>
                     </MadCap:dropDownHead>
                     <MadCap:dropDownBody>
-                        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">In de onderstaande afbeelding heeft de allocatie grafiek een tijdsperiode gekregen van Verstreken Weken en een tijdseenheid type Gemiddeld (Mean). De grafiek laat daarom de gemiddelde waarde voor elke week zien, berekend over de gehele kalenderweek, dus niet alleen over de werktijd binnen de week. Merk op hoe de waarden verschillen van de niet-cumulatieve grafiek afbeelding van het Gemiddelde tijdseenheid type:</p>
+                        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">In de onderstaande afbeelding heeft de toewijzing grafiek een tijdsperiode gekregen van Verstreken Weken en een tijdseenheid type Gemiddeld (Mean). De grafiek laat daarom de gemiddelde waarde voor elke week zien, berekend over de gehele kalenderweek, dus niet alleen over de werktijd binnen de week. Merk op hoe de waarden verschillen van de niet-cumulatieve grafiek afbeelding van het Gemiddelde tijdseenheid type:</p>
                         <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
                             <img src="../../../../Graphics/Histograms/slicingmean.gif" style="border: none;" width="254" height="173" border="0" />
                         </p>
@@ -268,7 +268,7 @@
                         <MadCap:dropDownHotspot>Voorbeelden</MadCap:dropDownHotspot>
                     </MadCap:dropDownHead>
                     <MadCap:dropDownBody>
-                        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">In de onderstaande afbeelding heeft de allocatie grafiek een tijdsperiode gekregen van Verstreken Weken en een tijdseenheid type Gemiddeld (Mean). De grafiek laat daarom de gemiddelde waarde voor elke week zien, berekend over de gehele kalenderweek, dus niet alleen over de werktijd binnen de week. Merk op hoe de waarden verschillen van de niet-cumulatieve grafiek afbeelding van het Balk Gemiddelde tijdseenheid type:</p>
+                        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">In de onderstaande afbeelding heeft de toewijzing grafiek een tijdsperiode gekregen van Verstreken Weken en een tijdseenheid type Gemiddeld (Mean). De grafiek laat daarom de gemiddelde waarde voor elke week zien, berekend over de gehele kalenderweek, dus niet alleen over de werktijd binnen de week. Merk op hoe de waarden verschillen van de niet-cumulatieve grafiek afbeelding van het Balk Gemiddelde tijdseenheid type:</p>
                         <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
                             <img src="../../../../Graphics/Histograms/slicingmean.gif" style="border: none;" width="254" height="173" border="0" />
                         </p>

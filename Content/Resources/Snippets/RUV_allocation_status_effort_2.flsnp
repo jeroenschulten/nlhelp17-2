@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="153" MadCap:lastWidth="990">
     <body>
-        <p>Dit type allocatie-check werkt via het totaliseren van de toegewezen uren van het hulpmiddel (of zijn vaardigheden) voor elke dag, week, maand of kwartaal en dit vervolgens te vergelijken met het aantal uren waarvoor het hulpmiddel nog beschikbaar is. Bijvoorbeeld, wanneer de hulpmiddel inzet view geconfigureerd is om een kolom voor elke maand weer te geven en een hulpmiddel een beschikbare aantal uren heeft van 165 in een bepaalde maand, zal het hulpmiddel als volgt in de hulpmiddel inzet view verschijnen:</p>
+        <p>Dit type toewijzing-check werkt via het totaliseren van de toegewezen uren van de resource (of zijn vaardigheden) voor elke dag, week, maand of kwartaal en dit vervolgens te vergelijken met het aantal uren waarvoor de resource nog beschikbaar is. Bijvoorbeeld, wanneer de resource inzet view geconfigureerd is om een kolom voor elke maand weer te geven en een resource een beschikbare aantal uren heeft van 165 in een bepaalde maand, zal de resource als volgt in de resource inzet view verschijnen:</p>
     </body>
 </html>

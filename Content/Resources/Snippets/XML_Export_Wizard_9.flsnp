@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="168" MadCap:lastWidth="325">
     <head>
     </head>
-    <body>Schakel de selectievakjes links van de codebibliotheken die u wilt opnemen in de export in en schakel de selectievakjes links van degene die u wilt uitsluiten uit. Merk op dat alleen codebibliotheek items die zijn toegewezen aan taken en hulpmiddelen worden opgenomen in de export; alle codebibliotheek toewijzingen aan allocaties worden niet geëxporteerd.</body>
+    <body>Schakel de selectievakjes links van de codebibliotheken die u wilt opnemen in de export in en schakel de selectievakjes links van degene die u wilt uitsluiten uit. Merk op dat alleen codebibliotheek items die zijn toegewezen aan taken en resources worden opgenomen in de export; alle codebibliotheek toewijzingen aan toewijzingen worden niet geëxporteerd.</body>
 </html>

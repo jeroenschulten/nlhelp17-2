@@ -2,10 +2,10 @@
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
         <ul>
-            <li class="p">Monitor de kosten van een hulpmiddel.</li>
+            <li class="p">Monitor de kosten van een resource.</li>
             <li class="p">Toon cumulatieve waarden (waarden die opgeteld zijn over de tijd) in plaats van de gemiddelde waarde binnen een specifieke tijdsperiode.</li>
             <li class="p">Toon het verschil tussen hulpmiddelinzet in een project en in haar baseline.</li>
-            <li xmlns="">Laat zien wat er zou gebeuren met een overbezettingsgrafiek als de hulpmiddelallocaties een week zouden worden vertraagd.</li>
+            <li xmlns="">Laat zien wat er zou gebeuren met een overbezettingsgrafiek als de resourcetoewijzingen een week zouden worden vertraagd.</li>
             <li class="p" xmlns="">Vergelijk de totale projectkosten en inkomsten om te zien of het project binnen het budget valt.</li>
             <li class="p" xmlns="">Monitor het taak werk in een project.</li>
             <li class="p" xmlns="">Toon de dagen waarop activiteiten ingepland zijn in een project.</li>

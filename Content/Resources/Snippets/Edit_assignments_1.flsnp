@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
     <body>
-        <p>Als de leden van de securitygroep geen 'Wijzigen'-rechten hebben voor een type allocatie in een bepaalde kaart of samenvattingsgroep (zoals opgegeven op het tabblad <b>Kaart Toegangsrechten</b> van het dialoogvenster), kunnen ze een allocatie in die kaart of samenvattingsgroep niet bewerken, zelfs als het selectievakje <b>Allocaties bewerken</b> is ingeschakeld bij het betreffende permanente hulpmiddel of kostengroep.</p>
+        <p>Als de leden van de securitygroep geen 'Wijzigen'-rechten hebben voor een type toewijzing in een bepaalde kaart of samenvattingsgroep (zoals opgegeven op het tabblad <b>Kaart Toegangsrechten</b> van het dialoogvenster), kunnen ze een toewijzing in die kaart of samenvattingsgroep niet bewerken, zelfs als het selectievakje <b>Toewijzingen bewerken</b> is ingeschakeld bij het betreffende permanente resource of kostengroep.</p>
     </body>
 </html>

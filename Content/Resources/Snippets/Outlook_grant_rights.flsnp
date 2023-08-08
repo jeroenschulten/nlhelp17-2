@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="561" MadCap:lastWidth="948">
     <body>
         <h2>Verleen een of meer gebruikers publiceer rechten</h2>
-        <p>U moet een of meer <MadCap:variable name="Primary.Asta Powerproject Name" /> gebruikers de rechten geven om details van permanente hulpmiddelallocaties naar Outlook te publiceren. U doet dit door het configureren van een security groep en die de juiste benodigde toegangsrechten te geven, en vervolgens deze security groep toewijzen aan de gebruiker(s) die in staat mogen zijn om te publiceren:</p>
+        <p>U moet een of meer <MadCap:variable name="Primary.Asta Powerproject Name" /> gebruikers de rechten geven om details van permanente resourcetoewijzingen naar Outlook te publiceren. U doet dit door het configureren van een security groep en die de juiste benodigde toegangsrechten te geven, en vervolgens deze security groep toewijzen aan de gebruiker(s) die in staat mogen zijn om te publiceren:</p>
         <ol style="list-style-type: decimal;">
             <li class="p">Open de Bibliotheek Verkenner en navigeer naar de Security Groep bibliotheek.</li>
             <li class="p">Rechtsklik op de security groep waaraan u publiceer rechten wilt toewijzen en selecteer <b>Eigenschappen</b>. Het <b>Security Groep Eigenschappen</b> dialoogvenster verschijnt.</li>

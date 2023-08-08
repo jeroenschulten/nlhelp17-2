@@ -15,12 +15,12 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Hulpmiddel</td>
-                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De naam van het permanente hulpmiddel waaraan het standaard werk is toegewezen.</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Resource</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De naam van de permanente resource waaraan het standaard werk is toegewezen.</td>
                 </tr>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                     <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Standaard werk</td>
-                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Selecteer het type standaard werk dat u wilt toewijzen aan het hulpmiddel. Alleen die types standaard werk die op dit moment gemarkeerd zijn als 'actief' verschijnen in de hiërarchische lijst.</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Selecteer het type standaard werk dat u wilt toewijzen aan de resource. Alleen die types standaard werk die op dit moment gemarkeerd zijn als 'actief' verschijnen in de hiërarchische lijst.</td>
                 </tr>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                     <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Start</td>
@@ -39,19 +39,19 @@
                     <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
                         <p class="ParagraphsInTables">Specificeer of u wilt dat het standaard werk wordt berekend als:</p>
                         <ul>
-                            <li class="p"><b xmlns="">Werk percentage</b> - het hulpmiddel besteedt een percentage van de gespecificeerde tijd aan het standaard werk. Bijvoorbeeld, een hulpmiddel zou 20% van de tijd aan Administratie standaard werk kunnen besteden, of 100% van de tijd aan een ziekenhuisbezoek.</li>
-                            <li class="p"><b xmlns="">Inspanning per hulpmiddel</b> - wanneer de hoeveelheid aan standaard werk bestede tijd afhankelijk is van het aantal aan een taak toegewezen hulpmiddelen. Bijvoorbeeld, als elk hulpmiddel 1 uur spendeert aan het invoeren van gegevens, wanneer u 1 hulpmiddel aan een taak toewijst, zal er maar 1 uur gebruikt worden voor gegevensinvoer; wanneer u 50 hulpmiddelen aan een taak toewijst, zullen er 50 uur worden besteed aan gegevensinvoer.</li>
-                            <li class="p"><b xmlns="">Vaste inspanning</b> - wanneer een vaste hoeveelheid tijd besteed wordt aan standaard werk ongeacht het aantal aan een taak toegewezen hulpmiddelen. Bijvoorbeeld, er kan een halve dag besteed worden aan voorraadcontrole ongeacht of u 5 of 25 hulpmiddelen aan de taak toewijst.</li>
+                            <li class="p"><b xmlns="">Werk percentage</b> - de resource besteedt een percentage van de gespecificeerde tijd aan het standaard werk. Bijvoorbeeld, een resource zou 20% van de tijd aan Administratie standaard werk kunnen besteden, of 100% van de tijd aan een ziekenhuisbezoek.</li>
+                            <li class="p"><b xmlns="">Inspanning per hulpmiddel</b> - wanneer de hoeveelheid aan standaard werk bestede tijd afhankelijk is van het aantal aan een taak toegewezen resources. Bijvoorbeeld, als elke resource 1 uur spendeert aan het invoeren van gegevens, wanneer u 1 hulpmiddel aan een taak toewijst, zal er maar 1 uur gebruikt worden voor gegevensinvoer; wanneer u 50 resources aan een taak toewijst, zullen er 50 uur worden besteed aan gegevensinvoer.</li>
+                            <li class="p"><b xmlns="">Vaste inspanning</b> - wanneer een vaste hoeveelheid tijd besteed wordt aan standaard werk ongeacht het aantal aan een taak toegewezen resources. Bijvoorbeeld, er kan een halve dag besteed worden aan voorraadcontrole ongeacht of u 5 of 25 resources aan de taak toewijst.</li>
                         </ul>
                     </td>
                 </tr>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                     <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Percentage</td>
-                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Wanneer het standaard werk berekend wordt als een percentage van de tijd, voer het percentage van de tijd van het hulpmiddel in dat hij/zij in de periode kan spenderen aan standaard werk.</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Wanneer het standaard werk berekend wordt als een percentage van de tijd, voer het percentage van de tijd van de resource in dat hij/zij in de periode kan spenderen aan standaard werk.</td>
                 </tr>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                     <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Inspanning</td>
-                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Wanneer het standaard werk berekend wordt als een vaste hoeveelheid tijd of als inspanning per hulpmiddel, voer de hoeveelheid tijd in dat een hulpmiddel  in de periode spendeert aan standaard werk.</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Wanneer het standaard werk berekend wordt als een vaste hoeveelheid tijd of als inspanning per hulpmiddel, voer de hoeveelheid tijd in dat een resource  in de periode spendeert aan standaard werk.</td>
                 </tr>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                     <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Werkelijk</td>

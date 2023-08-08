@@ -2,5 +2,5 @@
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
-    <body>Wanneer u het <b><b xmlns="">Allocaties bewerken</b></b> selectievakje uitschakelt kunnen  de leden van de securitygroep geen allocaties van het geselecteerde permanente hulpmiddel of kostengroep bewerken, zelfs wanneer ze 'Wijzigen'-rechten hebben over de allocaties bij één of meer kaarten of samenvattingsgroepen.</body>
+    <body>Wanneer u het <b><b xmlns="">Toewijzingen bewerken</b></b> selectievakje uitschakelt kunnen  de leden van de securitygroep geen toewijzingen van het geselecteerde permanente resource of kostengroep bewerken, zelfs wanneer ze 'Wijzigen'-rechten hebben over de toewijzingen bij één of meer kaarten of samenvattingsgroepen.</body>
 </html>

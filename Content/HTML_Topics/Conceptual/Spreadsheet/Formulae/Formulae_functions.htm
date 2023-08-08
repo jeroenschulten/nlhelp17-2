@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" class="KLAAR" xml:lang="nl-nl">
     <head>
         <link href="../../../../Resources/Stylesheets/Table_Stylesheet_No_Gridlines.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
@@ -291,9 +291,9 @@
                 <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
                     <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld</td>
                     <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">
-                        <p class="ParagraphsInTables"><b>Als(Allocatie &gt;= Waarde("10 Mensen"), Hoog, Laag)</b>
+                        <p class="ParagraphsInTables"><b>Als(Toewijzing &gt;= Waarde("10 Mensen"), Hoog, Laag)</b>
                         </p>
-                        <p class="ParagraphsInTables">Een stoplicht indicator die de prioriteit hoog toont voor alle hulpmiddelallocaties met een allocatie waarde groter of gelijk aan 10, en lage prioriteit toont voor alle andere taken.</p>
+                        <p class="ParagraphsInTables">Een stoplicht indicator die de prioriteit hoog toont voor alle resourcetoewijzingen met een toewijzing waarde groter of gelijk aan 10, en lage prioriteit toont voor alle andere taken.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
@@ -730,7 +730,7 @@
             <tbody>
                 <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
                     <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Omschrijving</td>
-                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Geeft een numerieke waarde terug voor  het objecttype dat wordt weergegeven in een tabelrij: 0 voor allocatie-rijen (AllocationContext), 1 voor taak-rijen (TaakContext), 2 voor balk-rijen (BalkContext) en 3 voor sorteerlint-rijen (SorteerLintContext). U kunt gebruik maken van de enumeratieve waarden van deze functie (die hierboven tussen haakjes staan) om formules te creëren die verschillende uitkomsten tonen afhankelijk van het huidige contexttype, zoals in het tweede  voorbeeld hieronder geïllustreerd wordt.</td>
+                    <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyD-Column1-Body1">Geeft een numerieke waarde terug voor  het objecttype dat wordt weergegeven in een tabelrij: 0 voor toewijzing-rijen (AllocationContext), 1 voor taak-rijen (TaakContext), 2 voor balk-rijen (BalkContext) en 3 voor sorteerlint-rijen (SorteerLintContext). U kunt gebruik maken van de enumeratieve waarden van deze functie (die hierboven tussen haakjes staan) om formules te creëren die verschillende uitkomsten tonen afhankelijk van het huidige contexttype, zoals in het tweede  voorbeeld hieronder geïllustreerd wordt.</td>
                 </tr>
                 <tr class="TableStyle-Table_Stylesheet_No_Gridlines-Body-Body1">
                     <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyE-Column1-Body1" style="font-weight: bold;">Voorbeeld 1</td>
@@ -745,7 +745,7 @@
                     <td class="TableStyle-Table_Stylesheet_No_Gridlines-BodyA-Column1-Body1">
                         <p class="ParagraphsInTables"><b>Als(ContextType() = AllocatieContext, "Inspanning= " &amp; Inspanning, "Duur = " &amp; Duur)</b>
                         </p>
-                        <p class="ParagraphsInTables">Geeft de hoeveelheid inspanning terug voor tabelrijen met allocaties en geeft de hoeveelheid duur terug voor tabelrijen met taken, balken en sorteerlinten.</p>
+                        <p class="ParagraphsInTables">Geeft de hoeveelheid inspanning terug voor tabelrijen met toewijzingen en geeft de hoeveelheid duur terug voor tabelrijen met taken, balken en sorteerlinten.</p>
                     </td>
                 </tr>
             </tbody>

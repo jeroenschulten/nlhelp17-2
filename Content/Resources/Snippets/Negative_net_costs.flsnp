@@ -4,8 +4,8 @@
     </head>
     <body>
         <ul>
-            <li>Wanneer u een hoeveelheid invoert bij een "kosten"-type allocatie, zal de hoeveelheid negatief worden weergegeven en ingesteld worden als de netto waarde van de allocatie. Bijvoorbeeld, wanneer u een netto hoeveelheid van €456 bij een "kosten"-type allocatie invoert, wordt de allocatie ingesteld op €-456; Wanneer u een netto hoeveelheid van €-25 bij een "kosten"-type allocatie invoert, zal de allocatie ingesteld worden op €25.</li>
-            <li>Wanneer u een hoeveelheid invoert bij een "kosten"-type allocatie, zal de hoeveelheid ingesteld worden als de netto waarde van de allocatie. Bijvoorbeeld, wanneer u een netto hoeveelheid van €456 bij een "inkomsten"-type allocatie invoert, wordt de allocatie ingesteld op €-456; Wanneer u een netto hoeveelheid van €-25 bij een "inkomsten"-type allocatie invoert, zal de allocatie ingesteld worden op €-25.</li>
+            <li>Wanneer u een hoeveelheid invoert bij een "kosten"-type toewijzing, zal de hoeveelheid negatief worden weergegeven en ingesteld worden als de netto waarde van de toewijzing. Bijvoorbeeld, wanneer u een netto hoeveelheid van €456 bij een "kosten"-type toewijzing invoert, wordt de toewijzing ingesteld op €-456; Wanneer u een netto hoeveelheid van €-25 bij een "kosten"-type toewijzing invoert, zal de toewijzing ingesteld worden op €25.</li>
+            <li>Wanneer u een hoeveelheid invoert bij een "kosten"-type toewijzing, zal de hoeveelheid ingesteld worden als de netto waarde van de toewijzing. Bijvoorbeeld, wanneer u een netto hoeveelheid van €456 bij een "inkomsten"-type toewijzing invoert, wordt de toewijzing ingesteld op €-456; Wanneer u een netto hoeveelheid van €-25 bij een "inkomsten"-type toewijzing invoert, zal de toewijzing ingesteld worden op €-25.</li>
         </ul>
     </body>
 </html>

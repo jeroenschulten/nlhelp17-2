@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
-        <p>Om deze modelleringsmethode te gebruiken moet u de hoeveelheid werk invoeren bij de taak waaraan het hulpmiddel gealloceerd is. U kunt dit op de volgende manieren doen:</p>
+        <p>Om deze modelleringsmethode te gebruiken moet u de hoeveelheid werk invoeren bij de taak waaraan de resource gealloceerd is. U kunt dit op de volgende manieren doen:</p>
         <ul>
             <li class="p">Klik met de rechtermuisknop op de taak en selecteer <b>Eigenschappen</b> om het dialoogvenster <b>Balk- en Taak Eigenschappen</b> weer te geven, klik op het tabblad <b>Taak</b> en noteer de hoeveelheid taakwerk in de velden <b>Taakwerk</b> en <b>Werkeenheid</b> in de sectie <b>Inspanning en Modellering</b>. U kunt ook het materiaal specificeren waarop het taakwerk betrekking heeft - bijvoorbeeld Beton of Glas - in het veld <b>Taakwerk materiaal</b>.</li>
             <li class="p">Definieer een kolom in de tabel die het Taak Werk veld toont en voer de waarde in deze kolom in.</li>

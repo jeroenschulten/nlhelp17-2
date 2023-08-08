@@ -1,12 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Using_the_spreadsheet\Indicating_the_priority_of_bars_tasks_and_allocations\Calculating_priority_automatically.htm" MadCap:timeEstimate="0" MadCap:priority="0" class="KLAAR" xml:lang="nl-nl">
     <head><title></title>
     </head>
     <body>
         <h1>
-            <MadCap:keyword term="Velden:gebruiken om prioriteit te berekenen;Taken:prioriteit automatisch berekenen;Balken:prioriteit automatisch berekenen;Allocaties:prioriteit automatisch berekenen" />Automatische prioriteitsberekening</h1>
+            <MadCap:keyword term="Velden:gebruiken om prioriteit te berekenen;Taken:prioriteit automatisch berekenen;Balken:prioriteit automatisch berekenen;Toewijzingen:prioriteit automatisch berekenen" />Automatische prioriteitsberekening</h1>
         <p>
-            <MadCap:keyword term="Prioriteit van balken taken en allocaties:automatisch berekenen" />U kunt <MadCap:variable name="Primary.Asta Powerproject Name" /> configureren om de prioriteit van balken, taken en allocaties automatisch te berekenen, gebaseerd op een grote variëteit van criteria. U kunt dit als volgt doen, u definieert een expressie die de prioriteit berekent, en u wijst het toe aan het prioriteitsveld. Elke expressie moet een naam van een veld en een paar waarden bevatten.</p>
+            <MadCap:keyword term="Prioriteit van balken taken en toewijzingen:automatisch berekenen" />U kunt <MadCap:variable name="Primary.Asta Powerproject Name" /> configureren om de prioriteit van balken, taken en toewijzingen automatisch te berekenen, gebaseerd op een grote variëteit van criteria. U kunt dit als volgt doen, u definieert een expressie die de prioriteit berekent, en u wijst het toe aan het prioriteitsveld. Elke expressie moet een naam van een veld en een paar waarden bevatten.</p>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Hoe maakt u een expressie</MadCap:dropDownHotspot>
@@ -29,7 +29,7 @@
                     <li class="p">Objecten met kosten groter dan 10€ en kleiner of gelijk aan 20 hebben een gemiddelde prioriteit.            </li>
                     <li class="p">Objecten met een waarde groter dan 20€ hebben een hoge prioriteit.            </li>
                 </ul>
-                <p>U kunt de prioriteit van een object afleiden aan de hand van zijn duur of inspanning, gebruik makend van het veld Duur of het veld Hulpmiddel Inspanning en twee tijdseenheden. Met de expressie <span style="font-family: 'Courier New', monospace;">duur#20d#30d</span> </p>
+                <p>U kunt de prioriteit van een object afleiden aan de hand van zijn duur of inspanning, gebruik makend van het veld Duur of het veld Resource Inspanning en twee tijdseenheden. Met de expressie <span style="font-family: 'Courier New', monospace;">duur#20d#30d</span> </p>
                 <ul type="disc">
                     <li class="p">Objecten met een duur korter dan 10 dagen hebben een lage prioriteit.            </li>
                     <li class="p">Objecten met een duur langer dan 20 dagen en korter of gelijk aan 30 dagen hebben een gemiddelde prioriteit.            </li>
@@ -48,7 +48,7 @@
                     <li class="kadov-p" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Objecten met een einddatum variantie groter dan 6 dagen hebben een hoge prioriteit.</li>
                 </ul>
                 <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Merk op dat de Start variantie en Eind variantie velden zowel positieve als negatieve waarden kan tonen (wat is gekenmerkt wordt als een positieve of  negatieve waarde wordt bepaald door het al dan niet ingeschakeld zijn van <b>Versie 5 variantie weergave</b> selectievakje op het <b>Algemeen</b> tabblad van het <b>Opties</b> dialoogvenster). U kunt zowel specificeren positieve als negatieve waarden in expressies specificeren wanneer u een van deze velden gebruikt - de expressie <span style="font-family: 'Courier New', monospace;">eind variantie#-3d#-6d</span> zou ook valide zijn. </p>
-                <p>U kunt de gegevens die worden gebruikt om de prioriteit van balken, taken en allocaties weer te geven finetunen door in het <span style="font-weight: bold;">Indirect</span> veld parameters aan de expressie toe voegen. Bijvoorbeeld, wanneer u het Kosten veld gebruikt om de prioriteit van een object door de kosten te laten bepalen, kunt u parameters in uw expressie opnemen die specificeren dat de kosten van een bepaalde kostengroep moeten worden gebruikt om de prioriteit te berekenen, of dat de kosten tussen bepaalde datums moeten worden gebruikt. Een dergelijke expressie zou er als volgt uitzien:</p>
+                <p>U kunt de gegevens die worden gebruikt om de prioriteit van balken, taken en toewijzingen weer te geven finetunen door in het <span style="font-weight: bold;">Indirect</span> veld parameters aan de expressie toe voegen. Bijvoorbeeld, wanneer u het Kosten veld gebruikt om de prioriteit van een object door de kosten te laten bepalen, kunt u parameters in uw expressie opnemen die specificeren dat de kosten van een bepaalde kostengroep moeten worden gebruikt om de prioriteit te berekenen, of dat de kosten tussen bepaalde datums moeten worden gebruikt. Een dergelijke expressie zou er als volgt uitzien:</p>
                 <p style="font-family: 'Courier New', monospace;">kosten(1031, 1, 0, 2454683, 0, 2454701, 86399)#&amp;euro;10&amp;euro;20</p>
                 <p>De parameters - die in de expressie direct na de naam van het veld tussen haakjes gezet moeten worden - verschillen per veld. Daarom is het moeilijk om een expressie met parameters op te bouwen door deze rechtstreeks in het <span style="font-weight: bold;">Indirect</span> veld in te typen. Er is echter een redelijk eenvoudige manier om een expressie met parameters op te bouwen:</p>
                 <ol style="list-style-type: decimal;">
@@ -62,8 +62,8 @@
                 <p>Nadat u dit heeft gedaan kunt u de tekstnotitie uit het project verwijderen.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
-        <p>U kunt meerdere prioriteitsvelden in de tabel tonen. Waarbij iedere prioriteit op een andere manier berekend wordt. Het automatisch berekenen van de prioriteit verandert niet het veld <span style="font-weight: bold;">Prioriteit</span> in het dialoogvenster <span style="font-weight: bold;">Balk en Taak eigenschappen</span> of het dialoogvenster <span style="font-weight: bold;">Allocatie Eigenschappen</span>.</p>
-        <p>Het automatisch berekenen van prioriteiten van balken, taken, en allocaties:</p>
+        <p>U kunt meerdere prioriteitsvelden in de tabel tonen. Waarbij iedere prioriteit op een andere manier berekend wordt. Het automatisch berekenen van de prioriteit verandert niet het veld <span style="font-weight: bold;">Prioriteit</span> in het dialoogvenster <span style="font-weight: bold;">Balk en Taak eigenschappen</span> of het dialoogvenster <span style="font-weight: bold;">Toewijzing Eigenschappen</span>.</p>
+        <p>Het automatisch berekenen van prioriteiten van balken, taken, en toewijzingen:</p>
         <ol style="list-style-type: decimal;">
             <li class="p"><a href="Display_priority_indicator.htm">Geef eerst het prioriteitsveld weer in de tabel</a>.            </li>
             <li class="p">Klik met de rechtermuisknop op de kolomkop van het prioriteitsveld en kies vervolgens de opdracht <span style="font-weight: bold;">Tabel Definitie</span>. Het dialoogvenster <span style="font-weight: bold;">Tabel Definitie Eigenschappen</span> verschijnt.            </li>
@@ -73,7 +73,7 @@
         </ol>
         <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Merk op dat u ook formules kunt construeren die de <b>Als </b>(If)<b> </b> en <b>Wissel </b>(Switch) functies bevatten om prioriteitsindicatoren te tonen die gebaseerd zijn op een variëteit aan criteria.</p>
         <p class="RelatedTopics">Verwante onderwerpen:</p>
-        <p><a href="Assigning_priority.htm">Een prioriteit toekennen aan balken, taken en allocaties</a>
+        <p><a href="Assigning_priority.htm">Een prioriteit toekennen aan balken, taken en toewijzingen</a>
         </p>
         <p><a href="Define_priority_colours.htm">Definiëren van de opmaak van de prioriteitsindicator</a>
         </p>

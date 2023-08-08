@@ -3,10 +3,10 @@
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b><span style="font-weight: bold;">Verbruiksgoederen Allocatie Eigenschappen - Aanvraag/Ingepland</span></b> dialoogvenster</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b><span style="font-weight: bold;">Verbruiksgoederen Toewijzing Eigenschappen - Aanvraag/Ingepland</span></b> dialoogvenster</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Om toegang te krijgen tot het <span style="font-weight: bold;">Verbruiksgoederen Allocatie Eigenschappen - Aanvraag/Ingepland</span> dialoogvenster, klik op de <span style="font-weight: bold;">Aanvraag/Ingepland</span> knop op het <span style="font-weight: bold;">Verbruiksgoederen Allocatie Eigenschappen</span> dialoogvenster.</p>
+                <p>Om toegang te krijgen tot het <span style="font-weight: bold;">Verbruiksgoederen Toewijzing Eigenschappen - Aanvraag/Ingepland</span> dialoogvenster, klik op de <span style="font-weight: bold;">Aanvraag/Ingepland</span> knop op het <span style="font-weight: bold;">Verbruiksgoederen Toewijzing Eigenschappen</span> dialoogvenster.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

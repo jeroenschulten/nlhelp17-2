@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
-        <p>Als u de voortgang bij een taak met allocaties verwijdert, wordt de voortgang ook verwijderd uit alle allocaties van die taak en uit de taak, tenzij de taak zelf geen voortgang heeft, maar de allocaties wel, in welk geval de allocaties hun voortgang behouden.</p>
+        <p>Als u de voortgang bij een taak met toewijzingen verwijdert, wordt de voortgang ook verwijderd uit alle toewijzingen van die taak en uit de taak, tenzij de taak zelf geen voortgang heeft, maar de toewijzingen wel, in welk geval de toewijzingen hun voortgang behouden.</p>
     </body>
 </html>

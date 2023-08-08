@@ -6,7 +6,7 @@
     <body>
         <h1>Dialoogvenster Filter Eigenschappen </h1>
         <p>U gebruikt het 
-<b>Filter Eigenschappen</b> dialoogvenster om de criteria te specificeren waarmee balken, taken en allocaties gefilterd moeten worden wanneer deze filter wordt toegepast.  U kunt filter criteria specificeren met behulp van de <b>Filter Wizard</b> of door een TQL statement in te typen.</p>
+<b>Filter Eigenschappen</b> dialoogvenster om de criteria te specificeren waarmee balken, taken en toewijzingen gefilterd moeten worden wanneer deze filter wordt toegepast.  U kunt filter criteria specificeren met behulp van de <b>Filter Wizard</b> of door een TQL statement in te typen.</p>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b>Filter Eigenschappen</b> dialoogvenster</MadCap:dropDownHotspot>
@@ -53,7 +53,7 @@
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
                             <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">View Domein</td>
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                                <p class="ParagraphsInTables">Klik op deze knop om het <b>RBS/CBS Domein</b> dialoogvenster weer te geven, waarin u de kaarten en samenvattingsgroepen in de project hiërarchie kunt selecteren waarvan u allocaties wilt opnemen in de gefilterde view. Bijvoorbeeld, u wilt het filter beperken tot allocaties van een bepaald gedeelte van de hiërarchie.</p>
+                                <p class="ParagraphsInTables">Klik op deze knop om het <b>RBS/CBS Domein</b> dialoogvenster weer te geven, waarin u de kaarten en samenvattingsgroepen in de project hiërarchie kunt selecteren waarvan u toewijzingen wilt opnemen in de gefilterde view. Bijvoorbeeld, u wilt het filter beperken tot toewijzingen van een bepaald gedeelte van de hiërarchie.</p>
                                 <p class="ParagraphsInTables">&#160;</p>
                                 <p class="ParagraphsInTables">Merk op dat deze knop alleen verschijnt wanneer u een de eigenschappen of een RBS/CBS filter aanmaakt of wijzigt. </p>
                                 <p class="ParagraphsInTables">&#160;</p>
@@ -122,14 +122,14 @@
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                             <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Verberg gedeeltes met voortgang</td>
-                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Schakel dit selectievakje in om alle taak- en allocatiesecties met voortgang in de gefilterde view te verbergen, of schakel het selectievakje uit om zowel secties met als zonder voortgang weer te geven. </td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Schakel dit selectievakje in om alle taak- en toewijzingssecties met voortgang in de gefilterde view te verbergen, of schakel het selectievakje uit om zowel secties met als zonder voortgang weer te geven. </td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Toon alleen relevante allocaties</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Toon alleen relevante toewijzingen</td>
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                                <p class="ParagraphsInTables">Schakel dit selectievakje in om alle allocaties te verbergen die niet aan de filtercriteria van de gefilterde view voldoen, of schakel het selectievakje uit om alle allocaties bij taken die aan de criteria voldoen weer te geven, ongeacht of deze allocaties zelf voldoen aan de criteria</p>
+                                <p class="ParagraphsInTables">Schakel dit selectievakje in om alle toewijzingen te verbergen die niet aan de filtercriteria van de gefilterde view voldoen, of schakel het selectievakje uit om alle toewijzingen bij taken die aan de criteria voldoen weer te geven, ongeacht of deze toewijzingen zelf voldoen aan de criteria</p>
                                 <p class="ParagraphsInTables">&#160;</p>
-                                <p class="ParagraphsInTables">Dit selectievakje kan alleen worden toegepast op filters die taken filteren op de kostengroepen of hulpmiddelen die eraan zijn toegewezen.  Wanneer u bijvoorbeeld filtert op taken met allocaties van hulpmiddel 'A' en u hebt een taak met allocaties van hulpmiddel 'A' en 'B', zal de taak worden opgenomen in het filter met beide hulpmiddelallocaties, tenzij u dit selectievakje inschakelt, in welk geval alleen de allocatie van hulpmiddel 'A' op de taak verschijnt.</p>
+                                <p class="ParagraphsInTables">Dit selectievakje kan alleen worden toegepast op filters die taken filteren op de kostengroepen of resources die eraan zijn toegewezen.  Wanneer u bijvoorbeeld filtert op taken met toewijzingen van resource 'A' en u hebt een taak met toewijzingen van resource 'A' en 'B', zal de taak worden opgenomen in het filter met beide resourcetoewijzingen, tenzij u dit selectievakje inschakelt, in welk geval alleen de toewijzing van resource 'A' op de taak verschijnt.</p>
                             </td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
@@ -162,7 +162,7 @@
                     <li class="p">Klik op het <span style="font-weight: bold;">Aan EEN criterium voldoen</span> keuzerondje om het filter alle items te laten ophalen die voldoen aan een, maar niet alle filtercriteria, klik op het <span style="font-weight: bold;">Aan ALLE criteria voldoen</span> keuzerondje om het filter alleen objecten te laten ophalen die voldoen aan alle filtercriteria, of klik op het <span style="font-weight: bold;">Toevoegen criteria resultaten</span> om elk bulterriër apart toe te passen. </li>
                     <li class="p">Schakel het  <span style="font-weight: bold;">Als samenvatting/niveautaken voldoen, toon dan hun inhoud</span> selectievakje in om alles binnen een niveau- of samenvattingstaak te laten toestaan door het  filter, wanneer de niveautaak of samenvattingstaak voldoet aan de criteria, zelfs wanneer niet de hele inhoud dit doet, of schakel het selectievakje uit om  items die niet voldoen aan de criteria uit t e sluiten.</li>
                     <li class="p">Schakel het <span style="font-weight: bold;">Hele balkregels opnemen</span> selectievakje in om hele balken toe te staan door het filter, zelfs wanneer u aan het filteren bent op taken, of schakel het selectievakje uit om alleen de taken op te halen die aan uw criteria voldoen.</li>
-                    <li class="p">Schakel het <span style="font-weight: bold;">Verberg gedeeltes met voortgang</span> selectievakje  in om alle taak- en allocatiesecties met voortgang in de gefilterde view te verbergen, of schakel het selectievakje uit om zowel secties met als zonder voortgang weer te geven.</li>
+                    <li class="p">Schakel het <span style="font-weight: bold;">Verberg gedeeltes met voortgang</span> selectievakje  in om alle taak- en toewijzingssecties met voortgang in de gefilterde view te verbergen, of schakel het selectievakje uit om zowel secties met als zonder voortgang weer te geven.</li>
                 </ol>
             </MadCap:dropDownBody>
         </MadCap:dropDown>

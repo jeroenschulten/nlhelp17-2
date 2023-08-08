@@ -3,10 +3,10 @@
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b>Permanent Hulpmiddel Eigenschappen</b> dialoogvenster</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b>Permanente Resource Eigenschappen</b> dialoogvenster</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Om toegang te krijgen tot het <span style="font-weight: bold;">Permanent Hulpmiddel Eigenschappen</span> dialoogvenster, rechtsklik op een permanent hulpmiddel in de Bibliotheek Verkenner of in de project view en selecteer <span style="font-weight: bold;">Eigenschappen</span>.</p>
+                <p>Om toegang te krijgen tot het <span style="font-weight: bold;">Permanente Resource Eigenschappen</span> dialoogvenster, rechtsklik op een permanente resource in de Bibliotheek Verkenner of in de project view en selecteer <span style="font-weight: bold;">Eigenschappen</span>.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

@@ -1,48 +1,48 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="2082" MadCap:lastWidth="762" class="KLAAR" xml:lang="nl-nl" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
     <head>
     </head>
     <body>
         <h1>
-            <MadCap:keyword term="Allocaties:speciferen welke kalender te gebruiken om de duur ervan te calculeren;Kalenders:speciferen welke te gebruiken om de duur van allocaties te calculeren" />Specificeren welke kalender te gebruiken om de duur te berekenen bij nieuwe allocaties</h1>
-        <p>Taken en hulpmiddelen kunnen werken met verschillende kalenders. Om een simpel voorbeeld te nemen, een taak zou kunnen werken met een 5 daagse week, Maandag tot Vrijdag, kalender, terwijl een hulpmiddel dat u aan de taak wilt toewijzen met een 4 daagse week, Dinsdag tot Vrijdag, kalender werkt. U kunt specificeren welke kalender gebruikt wordt om de duur van nieuwe allocaties in zulke situaties te berekenen: de kalender die toegewezen is aan de taak, of de kalender die toegewezen is aan het hulpmiddel.</p>
-        <p>Om te specificeren welke kalender te gebruiken om de duur te berekenen bij nieuwe allocaties:</p>
+            <MadCap:keyword term="Toewijzingen:speciferen welke kalender te gebruiken om de duur ervan te calculeren;Kalenders:speciferen welke te gebruiken om de duur van toewijzingen te calculeren" />Specificeren welke kalender te gebruiken om de duur te berekenen bij nieuwe toewijzingen</h1>
+        <p>Taken en resources kunnen werken met verschillende kalenders. Om een simpel voorbeeld te nemen, een taak zou kunnen werken met een 5 daagse week, Maandag tot Vrijdag, kalender, terwijl een resource dat u aan de taak wilt toewijzen met een 4 daagse week, Dinsdag tot Vrijdag, kalender werkt. U kunt specificeren welke kalender gebruikt wordt om de duur van nieuwe toewijzingen in zulke situaties te berekenen: de kalender die toegewezen is aan de taak, of de kalender die toegewezen is aan de resource.</p>
+        <p>Om te specificeren welke kalender te gebruiken om de duur te berekenen bij nieuwe toewijzingen:</p>
         <ol>
             <li>Klik op het <b>Bestand</b> tabblad, klik vervolgens op <b>Opties</b>. Het <b>Opties</b> dialoogvenster verschijnt.</li>
             <li>Klik op het <b>Toewijzen</b> tabblad.</li>
-            <li>Schakel het <b>Calculeer duur van nieuwe toewijzing vanuit de kalender van het hulpmiddel </b><MadCap:snippetText src="../../../../Resources/Snippets/Calendar_calculate_allocation_duration.flsnp" /></li>
+            <li>Schakel het <b>Calculeer duur van nieuwe toewijzing vanuit de kalender van de resource </b><MadCap:snippetText src="../../../../Resources/Snippets/Calendar_calculate_allocation_duration.flsnp" /></li>
         </ol>
-        <p>De volgende voorbeelden tonen hoe dit selectievakje invloed kan hebben op taken en hulpmiddelallocaties die met verschillende kalenders werken. In deze voorbeelden werkt de taak met een 5 daagse week, Maandag tot Vrijdag, kalender, en werkt het hulpmiddel met een 4 daagse week, Dinsdag tot Vrijdag, kalender. Initieel heeft de taak een duur van 5d:</p>
+        <p>De volgende voorbeelden tonen hoe dit selectievakje invloed kan hebben op taken en resourcetoewijzingen die met verschillende kalenders werken. In deze voorbeelden werkt de taak met een 5 daagse week, Maandag tot Vrijdag, kalender, en werkt de resource met een 4 daagse week, Dinsdag tot Vrijdag, kalender. Initieel heeft de taak een duur van 5d:</p>
         <p>
             <img src="../../../../Graphics/Resource_and_cost_allocations/whichcalendar1.gif" />
         </p>
-        <p>Met het <b>Calculeer duur van nieuwe toewijzing vanuit de kalender van het hulpmiddel</b> selectievakje uitgeschakeld, wordt de kalender die aan de taak is toegewezen gebruikt om de duur te calculeren van een allocatie van een hulpmiddel die werkt met een 4 daagse week, Dinsdag tot Vrijdag, kalender. De duur van de allocatie wordt gecalculeerd als de originele duur van de taak. Omdat het hulpmiddel niet werkt op Maandagen, wordt de taak verplaatst om te starten op een Dinsdag en eindigt deze op de volgende Dinsdag. De duur van de taak verandert in 6d en de duur van de allocatie is 5d:</p>
+        <p>Met het <b>Calculeer duur van nieuwe toewijzing vanuit de kalender van de resource</b> selectievakje uitgeschakeld, wordt de kalender die aan de taak is toegewezen gebruikt om de duur te calculeren van een toewijzing van een resource die werkt met een 4 daagse week, Dinsdag tot Vrijdag, kalender. De duur van de toewijzing wordt gecalculeerd als de originele duur van de taak. Omdat de resource niet werkt op Maandagen, wordt de taak verplaatst om te starten op een Dinsdag en eindigt deze op de volgende Dinsdag. De duur van de taak verandert in 6d en de duur van de toewijzing is 5d:</p>
         <p>
             <img src="../../../../Graphics/Resource_and_cost_allocations/whichcalendar2.gif" />
         </p>
-        <p>Met het <b>Calculeer duur van nieuwe toewijzing vanuit de kalender van het hulpmiddel</b> selectievakje ingeschakeld, wordt de kalender die aan het hulpmiddel is toegewezen gebruikt om de duur te calculeren van een allocatie van een hulpmiddel. De duur van de allocatie wordt gecalculeerd als de tijd tussen de start en einddatums van de taak, volgens de 4 daagse week kalender van het hulpmiddel. De duur van de taak en van haar allocatie zijn beide 4d:</p>
+        <p>Met het <b>Calculeer duur van nieuwe toewijzing vanuit de kalender van de resource</b> selectievakje ingeschakeld, wordt de kalender die aan de resource is toegewezen gebruikt om de duur te calculeren van een toewijzing van een resource. De duur van de toewijzing wordt gecalculeerd als de tijd tussen de start en einddatums van de taak, volgens de 4 daagse week kalender van de resource. De duur van de taak en van haar toewijzing zijn beide 4d:</p>
         <p>
             <img src="../../../../Graphics/Resource_and_cost_allocations/whichcalendar3.gif" />
         </p>
-        <h2>Taken die mogen starten voor hun allocaties</h2>
-        <p>Het <b>Mag starten voor de allocaties</b> selectievakje, in de Datums sectie van het <b>Taak</b> tabblad van het <b>Balk en Taak Eigenschappen</b> dialoogvenster, beïnvloedt de manier waarop de startdatum van taken verandert wanneer u hulpmiddelen eraan toewijst. Wanneer <b>Mag starten voor de allocaties</b> zou zijn ingeschakeld voor de Carpentry taak, zou het <b>Calculeer duur van nieuwe toewijzing vanuit de kalender van het hulpmiddel</b> selectievakje in dit voorbeeld als volgt werken:</p>
-        <p>Met het <b>Calculeer duur van nieuwe toewijzing vanuit de kalender van het hulpmiddel</b> selectievakje uitgeschakeld, zal de startdatum nog steeds niet veranderen, maar zou haar einddatum verplaatst worden naar de volgende Dinsdag om toe te staan dat de hulpmiddelallocatie originele duur van 5d behoudt:</p>
+        <h2>Taken die mogen starten voor hun toewijzingen</h2>
+        <p>Het <b>Mag starten voor de toewijzingen</b> selectievakje, in de Datums sectie van het <b>Taak</b> tabblad van het <b>Balk en Taak Eigenschappen</b> dialoogvenster, beïnvloedt de manier waarop de startdatum van taken verandert wanneer u resources eraan toewijst. Wanneer <b>Mag starten voor de toewijzingen</b> zou zijn ingeschakeld voor de Carpentry taak, zou het <b>Calculeer duur van nieuwe toewijzing vanuit de kalender van de resource</b> selectievakje in dit voorbeeld als volgt werken:</p>
+        <p>Met het <b>Calculeer duur van nieuwe toewijzing vanuit de kalender van de resource</b> selectievakje uitgeschakeld, zal de startdatum nog steeds niet veranderen, maar zou haar einddatum verplaatst worden naar de volgende Dinsdag om toe te staan dat de resourcetoewijzing originele duur van 5d behoudt:</p>
         <p>
             <img src="../../../../Graphics/Resource_and_cost_allocations/whichcalendar4.gif" />
         </p>
-        <p>Met het <b>Calculeer duur van nieuwe toewijzing vanuit de kalender van het hulpmiddel</b> selectievakje ingeschakeld, heeft de hulpmiddelallocatie een duur van 4d, maar verandert de startdatum van de taak niet:</p>
+        <p>Met het <b>Calculeer duur van nieuwe toewijzing vanuit de kalender van de resource</b> selectievakje ingeschakeld, heeft de resourcetoewijzing een duur van 4d, maar verandert de startdatum van de taak niet:</p>
         <p>
             <img src="../../../../Graphics/Resource_and_cost_allocations/whichcalendar5.gif" />
         </p>
         <p class="RelatedTopics">Verwante onderwerpen:</p>
         <p>
-            <a href="Assigning_resource_and_cost_allocations.htm">Hulpmiddel- en kostenallocaties toewijzen</a>
+            <a href="Assigning_resource_and_cost_allocations.htm">Resource- en kostentoewijzingen toewijzen</a>
         </p>
         <p>
-            <a href="../../Calendars/Assigning_calendars/Assigning_calendars.htm">Een kalender toewijzen aan een taak of een hulpmiddel</a>
+            <a href="../../Calendars/Assigning_calendars/Assigning_calendars.htm">Een kalender toewijzen aan een taak of een resource</a>
         </p>
         <p>
-            <a href="../../Resources/Different_calendars/Different_calendars.htm">Wanneer hulpmiddelen en taken een verschillende kalender hebben</a>
+            <a href="../../Resources/Different_calendars/Different_calendars.htm">Wanneer resources en taken een verschillende kalender hebben</a>
         </p>
     </body>
 </html>

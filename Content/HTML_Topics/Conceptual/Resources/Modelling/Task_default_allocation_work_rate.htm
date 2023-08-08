@@ -3,31 +3,31 @@
     <head>
     </head>
     <body>
-        <h1>Specificeren van een werktempo bij taken dat het werktempo van permanente hulpmiddelen overruled</h1>
+        <h1>Specificeren van een werktempo bij taken dat het werktempo van permanente resources overruled</h1>
         <MadCap:snippetBlock src="../../../../Resources/Snippets/Default_allocation_rate_1.flsnp" />
-        <p>Bij het modelleren van permanente hulpmiddelen met behulp van ofwel de Werk van taak of Werk op Allocatie methodes, kunt u in deze situaties  een standaard toewijzingstempo op te geven voor individuele taken. Als u dit doet, wordt het standaard toewijzingspercentage van de taak toegepast op alle permanente hulpmiddelentoewijzingen die later aan de taak worden toegewezen, waarbij het standaard werktempo van het permanente hulpmiddel wordt overschreven.</p>
+        <p>Bij het modelleren van permanente resources met behulp van ofwel de Werk van taak of Werk op Toewijzing methodes, kunt u in deze situaties  een standaard toewijzingstempo op te geven voor individuele taken. Als u dit doet, wordt het standaard toewijzingspercentage van de taak toegepast op alle permanente resourcestoewijzingen die later aan de taak worden toegewezen, waarbij het standaard werktempo van de permanente resource wordt overschreven.</p>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Afbeelding</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>In de volgende afbeelding is een staalvlechter toegewezen aan een taak waarvoor 100 m2 taak werk is gespecificeerd. Het Staalvlechter-hulpmiddel is Werk Van Taak gemodelleerd, met een werktempo van 10 m2 per dag en met een berekende parameter 'Duur'. Wanneer het Staalvlechter-hulpmiddel aan de taak wordt toegewezen, wordt het werktempo van het hulpmiddel gebruikt om de duur te berekenen, wat resulteert in een taak met een duur van 10 dagen:</p>
+                <p>In de volgende afbeelding is een staalvlechter toegewezen aan een taak waarvoor 100 m2 taak werk is gespecificeerd. Het Staalvlechter-hulpmiddel is Werk Van Taak gemodelleerd, met een werktempo van 10 m2 per dag en met een berekende parameter 'Duur'. Wanneer het Staalvlechter-hulpmiddel aan de taak wordt toegewezen, wordt het werktempo van de resource gebruikt om de duur te berekenen, wat resulteert in een taak met een duur van 10 dagen:</p>
                 <p>
                     <img src="../../../../Graphics/Resources/defaultallocationrate1.png" alt="Without a default allocation rate set, the resource's work rate is used" />
                 </p>
-                <p>In de volgende afbeelding heeft dezelfde taak een standaard toewijzingstempo van 5 m2 per dag. Deze keer, wanneer het Staalvlechter-hulpmiddel  aan de taak wordt toegewezen, overschrijft het standaard toewijzingstempo van 5 m2 per dag het werktempo van het hulpmiddel van 10 m2 per dag, wat resulteert in een taak met een duur van 20 dagen:</p>
+                <p>In de volgende afbeelding heeft dezelfde taak een standaard toewijzingstempo van 5 m2 per dag. Deze keer, wanneer het Staalvlechter-hulpmiddel  aan de taak wordt toegewezen, overschrijft het standaard toewijzingstempo van 5 m2 per dag het werktempo van de resource van 10 m2 per dag, wat resulteert in een taak met een duur van 20 dagen:</p>
                 <p>
                     <img src="../../../../Graphics/Resources/defaultallocationrate2.png" alt="With a default allocation rate set, the task doubles in duration" />
                 </p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
-        <p>Om een standaard toewijzingstempo voor een individuele taak te specificeren, voert u dit in het veld <b>Standaard toewijzingstempo</b> in de velden 'Inspanning en Modellering' in op het tabblad <b>Taak</b> van het  <b>Balk- en Taak Eigenschappen</b> dialoogvenster. Het wijzigen van het standaard toewijzingstempo van de taak heeft geen effect op eventuele permanente hulpmiddeltoewijzingen die al aan de taak zijn toegewezen. Om een taak het werktempo te laten gebruiken dat is gedefinieerd voor het permanente hulpmiddel, stelt u dit veld in op nul.</p>
+        <p>Om een standaard toewijzingstempo voor een individuele taak te specificeren, voert u dit in het veld <b>Standaard toewijzingstempo</b> in de velden 'Inspanning en Modellering' in op het tabblad <b>Taak</b> van het  <b>Balk- en Taak Eigenschappen</b> dialoogvenster. Het wijzigen van het standaard toewijzingstempo van de taak heeft geen effect op eventuele permanente hulpmiddeltoewijzingen die al aan de taak zijn toegewezen. Om een taak het werktempo te laten gebruiken dat is gedefinieerd voor de permanente resource, stelt u dit veld in op nul.</p>
         <p class="RelatedTopics">Verwante Onderwerpen:</p>
-        <p style="font-weight: normal;"><a href="Questions.htm">Vragen die u kunt beantwoorden door hulpmiddelen te modelleren</a>
+        <p style="font-weight: normal;"><a href="Questions.htm">Vragen die u kunt beantwoorden door resources te modelleren</a>
         </p>
-        <p><a href="Work_From_Task_perm_res.htm">Modelleringstype Werk Van Taak voor permanente hulpmiddelen</a>
+        <p><a href="Work_From_Task_perm_res.htm">Modelleringstype Werk Van Taak voor permanente resources</a>
         </p>
-        <p><a href="Work_on_Allocation_perm_res.htm">Modelleringstype Werk Op Allocatie voor permanente hulpmiddelen</a>
+        <p><a href="Work_on_Allocation_perm_res.htm">Modelleringstype Werk Op Toewijzing voor permanente resources</a>
         </p>
     </body>
 </html>

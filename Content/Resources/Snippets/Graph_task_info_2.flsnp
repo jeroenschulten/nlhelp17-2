@@ -2,8 +2,8 @@
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
         <ul>
-            <li>Allocation() - Geeft een grafiek weer van de dagen waarop taken zijn ingepland, wanneer <b xmlns="">Taak</b> staat geselecteerd in de hulpmiddelenselector van het histogram, in plaats van hulpmiddelen of kostengroepen. Dit stelt u in staat om een "activiteiten dagen" grafiek te produceren.</li>
-            <li>Allocation(TODATE) - Produceert een cumulatieve grafiek van de dagen waarop taken zijn ingepland, wanneer <b xmlns="">Taak</b> staat geselecteerd in de hulpmiddelenselector van het histogram, in plaats van hulpmiddelen of kostengroepen. De laatste waarde van deze grafiek is de totale duur in dagen van alle taken.</li>
+            <li>Allocation() - Geeft een grafiek weer van de dagen waarop taken zijn ingepland, wanneer <b xmlns="">Taak</b> staat geselecteerd in de resourcesselector van het histogram, in plaats van resources of kostengroepen. Dit stelt u in staat om een "activiteiten dagen" grafiek te produceren.</li>
+            <li>Allocation(TODATE) - Produceert een cumulatieve grafiek van de dagen waarop taken zijn ingepland, wanneer <b xmlns="">Taak</b> staat geselecteerd in de resourcesselector van het histogram, in plaats van resources of kostengroepen. De laatste waarde van deze grafiek is de totale duur in dagen van alle taken.</li>
             <li>AreaUnder(Allocation()) - Zie hierboven.</li>
         </ul>
     </body>

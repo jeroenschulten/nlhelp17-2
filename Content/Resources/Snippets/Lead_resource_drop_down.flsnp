@@ -3,10 +3,10 @@
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>... specificeren of het hulpmiddel  moet worden beschouwd als hoofdhulpmiddel wanneer deze wordt toegewezen aan taken?</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>... specificeren of de resource  moet worden beschouwd als hoofdresource wanneer deze wordt toegewezen aan taken?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Schakel het <b><b>Hoofdhulpmiddel</b></b> selectievakje in om te specificeren dat dit hulpmiddel moet worden beschouwd als hoofdhulpmiddel met als doel het bepalen van de taak opmaak wanneer deze toegewezen wordt aan taken, of schakel het selectievakje uit om te specificeren dat dit hulpmiddel niet moet worden beschouwd als het hoofdhulpmiddel.</p>
+                <p>Schakel het <b><b>Hoofdhulpmiddel</b></b> selectievakje in om te specificeren dat deze resource moet worden beschouwd als hoofdresource met als doel het bepalen van de taak opmaak wanneer deze toegewezen wordt aan taken, of schakel het selectievakje uit om te specificeren dat deze resource niet moet worden beschouwd als het hoofdresource.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>
