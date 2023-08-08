@@ -8,10 +8,10 @@
         <p>Wanneer u het modelleringstype Inspanning op Toewijzing gebruikt - nuttig wanneer u de hoeveelheid inspanning weet die is benodigd voor het uitvoeren van een taak - en meer dan 1 permanente resource gaat aan de activiteit werken en de hulpmiddelinspanning kan worden bepaald door de duur van de taak (waarbij Duur de berekende parameter is), dan kunt u aangeven dat de inspanning wordt gedeeld op het moment dat de resource wordt toegewezen aan de taak.</p>
         <p>Bijvoorbeeld, U heeft een taak waarvan u weet dat het 4 dagen inspanning benodigd om uit te voeren, en twee resources kunnen gezamenlijk de taak uitvoeren, beide met een toewijzing van 0,5. Modelleren van de resources als Inspanning op Toewijzing en aangeven dat ze de inspanning delen betekent dat:</p>
         <ul>
-            <li class="p">Wanneer het eerste hulpmiddel wordt toegewezen aan de taak, wordt de inspanning van de toewijzing bepaald door de duur. Omdat de resource een toewijzing heeft van 0,5 en de taak duur &#160;4d is,
+            <li class="p">Wanneer de eerste resource wordt toegewezen aan de taak, wordt de inspanning van de toewijzing bepaald door de duur. Omdat de resource een toewijzing heeft van 0,5 en de taak duur &#160;4d is,
 	 wordt de inspanning 4d en de duur van de toewijzing - en de taak - wordt aangepast naar 8d (Zonder het delen van de inspanning wordt de inspanning 2d, de toewijzing is immers 0,5 en de duur wordt 4d) </li>
-            <li class="p">Wanneer het tweede hulpmiddel wordt toegewezen aan de taak (maar ook de daarop volgende resources), wordt de resterende inspanning van alle bestaande gedeelde inspanning toewijzingen opgeteld, en verdeeld over alle gedeelde inspanning toewijzingen. In dit voorbeeld wordt de 4d inspanning van de eerste toewijzing verdeeld over de twee toewijzingen, waarbij iedere toewijzing 2d inspanning krijgt. (Als de resources niet geconfigureerd zijn om de inspanning te delen, dan wordt de inspanning van de tweede toewijzing 2d en de duur 4d.)</li>
-            <li class="p"> Als op de eerste toewijzing al 1d inspanning is uitgevoerd, dan wordt de resterende 3d inspanning verdeeld tussen de twee toewijzingen op het moment dat het tweede hulpmiddel wordt toegewezen. (Als de resources niet geconfigureerd zijn om de inspanning te delen, dan blijft de resterende inspanning van 3d op de eerste toewijzing.)</li>
+            <li class="p">Wanneer de tweede resource wordt toegewezen aan de taak (maar ook de daarop volgende resources), wordt de resterende inspanning van alle bestaande gedeelde inspanning toewijzingen opgeteld, en verdeeld over alle gedeelde inspanning toewijzingen. In dit voorbeeld wordt de 4d inspanning van de eerste toewijzing verdeeld over de twee toewijzingen, waarbij iedere toewijzing 2d inspanning krijgt. (Als de resources niet geconfigureerd zijn om de inspanning te delen, dan wordt de inspanning van de tweede toewijzing 2d en de duur 4d.)</li>
+            <li class="p"> Als op de eerste toewijzing al 1d inspanning is uitgevoerd, dan wordt de resterende 3d inspanning verdeeld tussen de twee toewijzingen op het moment dat de tweede resource wordt toegewezen. (Als de resources niet geconfigureerd zijn om de inspanning te delen, dan blijft de resterende inspanning van 3d op de eerste toewijzing.)</li>
         </ul>
         <p>Totdat u 'deel inspanning' toewijzingen toewijst aan de taak, zullen de toewijzingen zich hetzelfde gedragen als Inspanning op Toewijzing resource toewijzingen die niet zijn geconfigureerd als deel inspanning toewijzingen: het enige verschil in gedrag ontstaat op het moment van toewijzen aan de taak.</p>
         <p>Om het delen van inspanning in te stellen voor Inspanning op Toewijzing gemodelleerde resources,
@@ -23,7 +23,7 @@
         <ul>
             <li class="p">Het inspanning taak budget wordt genegeerd; de inspanning
 	van voltooide toewijzingen wordt bepaald door de duur van de taak op het moment dat
-	het eerste hulpmiddel wordt toegewezen.</li>
+	de eerste resource wordt toegewezen.</li>
             <li class="p">De resterende inspanning wordt alleen herverdeeld tussen de toewijzingen
 	wanneer een nieuwe toewijzing van een resource met 'deel inspanning' wordt gedaan op de taak.
 	</li>

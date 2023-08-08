@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="111" MadCap:lastWidth="1217">
     <body>
-        <p>Bijvoorbeeld, u wilt een 'vooraan-geladen' hulpmiddel curve creëren, waarin inspanning, hoeveelheid of kosten het hoogste zijn aan het begin van een toewijzing met een afloop naar het einde; u wilt een 'achteraan-geladen' hulpmiddel curve creëren, waarin inspanning, hoeveelheid of kosten het hoogste zijn aan het einde van een toewijzing; u wilt een 'klok-vormige' hulpmiddel curve creëren, waarin inspanning, hoeveelheid of kosten het hoogste zijn rondom het midden van een toewijzing.</p>
+        <p>Bijvoorbeeld, u wilt een 'vooraan-geladen' resource curve creëren, waarin inspanning, hoeveelheid of kosten het hoogste zijn aan het begin van een toewijzing met een afloop naar het einde; u wilt een 'achteraan-geladen' resource curve creëren, waarin inspanning, hoeveelheid of kosten het hoogste zijn aan het einde van een toewijzing; u wilt een 'klok-vormige' resource curve creëren, waarin inspanning, hoeveelheid of kosten het hoogste zijn rondom het midden van een toewijzing.</p>
     </body>
 </html>

@@ -6,10 +6,10 @@
     <body>
         <h1>Dialoogvenster Verbruiksgoed Eigenschappen - tabblad Toewijzing</h1>
         <p>U gebruikt het <span style="font-weight: bold;">Toewijzing</span> tabblad van het
-<b>Verbruiksgoed Eigenschappen</b> dialoogvenster om <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">de standaard hulpmiddel modellering details van de geselecteerde verbruiksgoederen te bekijken en te bewerken. Deze standaards worden gebruikt bij iedere toewijzing van het verbruiksgoed, en u kunt ze aanpassen voor iedere toewijzing. De velden die worden weergegeven op dit tabblad zijn afhankelijk van het type modellering dat u kiest: sommige velden zijn alleen van toepassing bij bepaalde modelleringsmethoden van het verbruiksgoed.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Easyplan_only">de standaard toewijzingsdetails te bekijken van het geselecteerde verbruiksgoed. Deze standaards zijn toegepast op elke toewijzing van de resource, en u kunt ze bij elke individuele toewijzing aanpassen.</MadCap:conditionalText></p>
+<b>Verbruiksgoed Eigenschappen</b> dialoogvenster om <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">de standaard resource modellering details van de geselecteerde verbruiksgoederen te bekijken en te bewerken. Deze standaards worden gebruikt bij iedere toewijzing van het verbruiksgoed, en u kunt ze aanpassen voor iedere toewijzing. De velden die worden weergegeven op dit tabblad zijn afhankelijk van het type modellering dat u kiest: sommige velden zijn alleen van toepassing bij bepaalde modelleringsmethoden van het verbruiksgoed.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Easyplan_only">de standaard toewijzingsdetails te bekijken van het geselecteerde verbruiksgoed. Deze standaards zijn toegepast op elke toewijzing van de resource, en u kunt ze bij elke individuele toewijzing aanpassen.</MadCap:conditionalText></p>
         <p MadCap:conditions="Powerproject_Easyplan.Easyplan_only" xmlns="">U kunt dit tabblad gebruiken om de hoeveelheid van de resource in te voeren die standaard in toewijzingen wordt gebruikt. U kunt ook opgeven dat de hoeveelheid of het verbruik van de resource wordt berekend en standaardwaarden invoeren om deze berekening uit te voeren. U kunt ook een vertraging opgeven voor het starten van toewijzingen van de resource. U wilt bijvoorbeeld misschien pas twee dagen na het begin van de taken verf gebruiken.</p>
         <p>U kunt ook specificeren of de toewijzingen van het verbruiksgoed standaard de kalender van het verbruiksgoed gebruiken of de kalender van de taak, of het verbruiksgoed standaard aangeleverd wordt of verbruikt, en of de kosten en inkomsten gerelateerd aan het verbruiksgoed uitgesloten moeten worden van de berekening van de kosten per taak, inclusief de getotaliseerde kosten op hogerniveau taken. Dit kan handig zijn als de kosten of de inkomsten ergens anders in het project berekend worden. </p>
-        <p>U kunt dit tabblad ook gebruiken om te specificeren of de hoeveelheden constant moeten zijn gedurende de duur van een toewijzing of dat ze zouden moeten variëren en worden berekend middels een resource curve.  Wanneer u standaard al een hulpmiddelcurve wilt toewijzen aan toewijzingen van deze resource, moet u de hulpmiddelcurve op dit tabblad selecteren.</p>
+        <p>U kunt dit tabblad ook gebruiken om te specificeren of de hoeveelheden constant moeten zijn gedurende de duur van een toewijzing of dat ze zouden moeten variëren en worden berekend middels een resource curve.  Wanneer u standaard al een resourcecurve wilt toewijzen aan toewijzingen van deze resource, moet u de resourcecurve op dit tabblad selecteren.</p>
         <MadCap:snippetBlock src="../../Resources/Snippets/Consumable_Resource_Properties_dialog_access.flsnp" />
         <MadCap:dropDown>
             <MadCap:dropDownHead>
@@ -88,7 +88,7 @@
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Schakel dit selectievakje in om te specificeren dat toewijzingen van het verbruiksgoed dezelfde duur moeten hebben als de taken waaraan ze zijn toegewezen, of schakel het selectievakje uit om de duur te berekenen met behulp van de modellering informatie.</td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
-                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Hoofdhulpmiddel</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Hoofdresource</td>
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
                                 <p class="ParagraphsInTables"> <MadCap:snippetText src="../../Resources/Snippets/Lead_resource_1.flsnp" /></p>
                                 <p class="ParagraphsInTables">&#160;</p>
@@ -108,7 +108,7 @@
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
                             <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Resource curve</td>
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                                <p class="ParagraphsInTables" xmlns="">Klik op dit keuzerondje om te specificeren dat hoeveelheden voor toewijzingen van de resource niet constant blijven gedurende de duur van de toewijzing, maar worden berekend via een hulpmiddelcurve.</p>
+                                <p class="ParagraphsInTables" xmlns="">Klik op dit keuzerondje om te specificeren dat hoeveelheden voor toewijzingen van de resource niet constant blijven gedurende de duur van de toewijzing, maar worden berekend via een resourcecurve.</p>
                                 <p class="ParagraphsInTables" xmlns="">&#160;</p>
                                 <p class="ParagraphsInTables" xmlns=""> <MadCap:snippetText src="../../Resources/Snippets/Nonlinear_resource_props_select_resource_curve.flsnp" /></p>
                                 <p class="ParagraphsInTables" xmlns="">&#160;</p>
@@ -204,7 +204,7 @@
                 <MadCap:dropDownHotspot>... specificeer of de resource  moet worden beschouwd als hoofdresource wanneer deze wordt toegewezen aan taken?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Schakel het <b><b>Hoofdhulpmiddel</b></b> selectievakje in om te specificeren dat deze resource  moet worden beschouwd als hoofdresource  met als doel het bepalen van de taak opmaak wanneer deze toegewezen wordt aan taken, of schakel het selectievakje uit om te specificeren dat deze resource niet moet worden beschouwd als het hoofdresource.</p>
+                <p>Schakel het <b><b>Hoofdresource</b></b> selectievakje in om te specificeren dat deze resource  moet worden beschouwd als hoofdresource  met als doel het bepalen van de taak opmaak wanneer deze toegewezen wordt aan taken, of schakel het selectievakje uit om te specificeren dat deze resource niet moet worden beschouwd als het hoofdresource.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
@@ -222,7 +222,7 @@
             <MadCap:dropDownBody>
                 <ul>
                     <li>Klik op het <b>Lineair</b> keuzerondje <MadCap:snippetText src="../../Resources/Snippets/Nonlinear_con_res_props_linear.flsnp" /></li>
-                    <li>Klik op het <b>Resource curve</b> keuzerondje en selecteer een hulpmiddelcurve in het veld rechts van het keuzerondje om te specificeren dat de hoeveelheden van de resource moeten worden berekend via een hulpmiddelcurve.</li>
+                    <li>Klik op het <b>Resource curve</b> keuzerondje en selecteer een resourcecurve in het veld rechts van het keuzerondje om te specificeren dat de hoeveelheden van de resource moeten worden berekend via een resourcecurve.</li>
                 </ul>
             </MadCap:dropDownBody>
         </MadCap:dropDown>

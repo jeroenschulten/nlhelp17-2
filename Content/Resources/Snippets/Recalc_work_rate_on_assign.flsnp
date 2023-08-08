@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="1" MadCap:lastHeight="103" MadCap:lastWidth="1235">
-    <body>in om te specificeren dat de variabele parameter (gewoonlijk het Werk Tempo) van een Werk Van Taak gemodelleerd hulpmiddel zou moeten worden herberekend wanneer de resource toegewezen wordt aan een taak, of schakel het selectievakje uit om te specificeren dat de berekende parameter van de resource (gewoonlijk Toewijzing of Duur, maar mogelijk ook Werk Tempo) zou moeten berekend worden volgens de duur van de taak.</body>
+    <body>in om te specificeren dat de variabele parameter (gewoonlijk het Werk Tempo) van een Werk Van Taak gemodelleerde resource zou moeten worden herberekend wanneer de resource toegewezen wordt aan een taak, of schakel het selectievakje uit om te specificeren dat de berekende parameter van de resource (gewoonlijk Toewijzing of Duur, maar mogelijk ook Werk Tempo) zou moeten berekend worden volgens de duur van de taak.</body>
 </html>

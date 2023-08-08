@@ -6,7 +6,7 @@
                 <MadCap:dropDownHotspot>... specificeren of de toewijzing  moet worden beschouwd als hoofdresource voor de bijbehorende taak?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Schakel het <b>Hoofdhulpmiddel</b> selectievakje in om te specificeren dat deze toewijzing moet worden beschouwd als hoofdresource voor de bijbehorende taak met als doel het bepalen van de taak opmaak, of schakel het selectievakje uit om te specificeren dat deze toewijzing niet moet worden beschouwd als het hoofdresource.</p>
+                <p>Schakel het <b>Hoofdresource</b> selectievakje in om te specificeren dat deze toewijzing moet worden beschouwd als hoofdresource voor de bijbehorende taak met als doel het bepalen van de taak opmaak, of schakel het selectievakje uit om te specificeren dat deze toewijzing niet moet worden beschouwd als het hoofdresource.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

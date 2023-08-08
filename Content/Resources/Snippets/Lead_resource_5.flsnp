@@ -2,5 +2,5 @@
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="100" MadCap:lastWidth="958">
     <head>
     </head>
-    <body>selectievakje in om te specificeren dat de kostengroep moet worden beschouwd als het hoofdresource wanneer deze toegewezen wordt aan taken. Wanneer u dit selectievakje inschakelt, zal het <b>Hoofdhulpmiddel</b> selectievakje standaard worden geselecteerd op het <b>Details</b> tabblad van het toewijzing eigenschappen dialoogvenster en zullen taken waaraan deze kostengroep wordt toegewezen in dezelfde opmaak worden weergegeven als deze kostengroep, mits u ervoor kiest om taken in te kleuren volgens de opmaak van hun hoofdresource.</body>
+    <body>selectievakje in om te specificeren dat de kostengroep moet worden beschouwd als het hoofdresource wanneer deze toegewezen wordt aan taken. Wanneer u dit selectievakje inschakelt, zal het <b>Hoofdresource</b> selectievakje standaard worden geselecteerd op het <b>Details</b> tabblad van het toewijzing eigenschappen dialoogvenster en zullen taken waaraan deze kostengroep wordt toegewezen in dezelfde opmaak worden weergegeven als deze kostengroep, mits u ervoor kiest om taken in te kleuren volgens de opmaak van hun hoofdresource.</body>
 </html>

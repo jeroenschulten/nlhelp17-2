@@ -3,6 +3,6 @@
     <head>
     </head>
     <body>
-        <p>U gebruikt het tabblad <b>Toewijzingen</b> van het dialoogvenster <b>Opmaak Kalender View</b> om de manier op te geven waarop toewijzingen worden weergegeven in de actieve kalender view, wanneer in de kalender view resource- of kostentoewijzingen worden weergegeven vanuit een RBS- of CBS- view. U kunt opgeven of toewijzingen moeten worden weergegeven op basis van de view van de (hoger-niveau) taken, op basis van de view van het juiste hulpmiddel of kostenplaats, op basis van de view van de codes die aan hen zijn toegewezen vanuit een bepaalde codebibliotheek of met behulp van een standaard weergave voor elk type toewijzing.</p>
+        <p>U gebruikt het tabblad <b>Toewijzingen</b> van het dialoogvenster <b>Opmaak Kalender View</b> om de manier op te geven waarop toewijzingen worden weergegeven in de actieve kalender view, wanneer in de kalender view resource- of kostentoewijzingen worden weergegeven vanuit een RBS- of CBS- view. U kunt opgeven of toewijzingen moeten worden weergegeven op basis van de view van de (hoger-niveau) taken, op basis van de view van het juiste resource of kostenplaats, op basis van de view van de codes die aan hen zijn toegewezen vanuit een bepaalde codebibliotheek of met behulp van een standaard weergave voor elk type toewijzing.</p>
     </body>
 </html>
