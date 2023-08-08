@@ -219,6 +219,16 @@
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... de toegangsrechten specificeren die de leden van een security groep hebben over security groepen en gebruikers?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p xmlns="http://www.w3.org/1999/xhtml">Klik op het juiste keuzerondje in de groep <b xmlns="">Security Groep Toegang</b> om de toegangsrechten op te geven die leden van de security groep moeten hebben voor alle security groepen die ondergeschikt zijn aan de huidige security groep in de security groepshiërarchie.
+</p>
+                <p xmlns="http://www.w3.org/1999/xhtml">Klik op het juiste keuzerondje in de groep <b xmlns="http://www.w3.org/1999/xhtml">Gebruikerstoegang</b> om de toegangsrechten op te geven die leden van de security groep over gebruikers moeten hebben.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>... specificeren of de leden van een security groep details van permanente hulpmiddelallocaties kunnen publiceren naar Microsoft Outlook en via SMTP e-mail?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
@@ -257,15 +267,7 @@
                 <MadCap:dropDownHotspot>... specificeren of de leden van een security groep kaderbestanden kan embedden en verwijderen?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Schakel het <span style="font-weight: bold;">Embedden/verwijderen border bestanden</span> selectievakje in om de leden van de security groep toe te staan kaderbestanden te embedden in of te verwijderen van het project, of schakel het selectievakje uit om dit te voorkomen.</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>... de standaard view specificeren die gebruikt wordt wanneer of de leden van een security groep het project opent?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>Selecteer de view die u als standaard view wilt gebruiken wanneer de leden van de security groep het project opent  - mits de Security groep standaard view is geselecteerd in het <b>Herladen bij openen project</b> veld op het <b>View</b> tabblad van het <b>Opties</b> dialoogvenster -  in het  <span style="font-weight: bold;">Standaard view</span> veld.</p>
+                <p>Schakel het <span style="font-weight: bold;">Embedden/verwijderen kaderbestanden</span> selectievakje in om de leden van de security groep toe te staan kaderbestanden te embedden in of te verwijderen van het project, of schakel het selectievakje uit om dit te voorkomen.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
@@ -273,7 +275,7 @@
                 <MadCap:dropDownHotspot>... specificeren of leden van de security groep in staat zijn om te identificeren dat kaarten en samenvattingsgroepen individuele projecten vertegenwoordigen?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Schakel het   <b>"Is een Project"</b> selectievakje in <MadCap:snippetText src="../../Resources/Snippets/Access_rights_toggle_is_a_project.flsnp" /></p>
+                <p>Schakel het   <b>Aanzetten "Is een Project"</b> selectievakje in <MadCap:snippetText src="../../Resources/Snippets/Access_rights_toggle_is_a_project.flsnp" /></p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
@@ -293,6 +295,9 @@
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>Schakel het <b>Herberekenen</b> selectievakje in om <MadCap:snippetText src="../../Resources/Snippets/Access_rights_reschedule.flsnp" /></p>
+                <p MadCap:conditions="Powerproject_Easyplan.V17_Reschedule_rights">
+                    <MadCap:snippetText src="../../Resources/Snippets/Access_rights_reschedule_1.flsnp" />
+                </p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
@@ -305,14 +310,6 @@
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>... specificeren  of leden van de security groep het eigendom van allocaties van Time Sheet kan overrulen?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>Schakel het  <span style="font-weight: bold;">Overrule Time Sheet eigendom</span> selectievakje in om de leden van de security groep toe te staan het eigendom van allocaties van Time Sheet te overrulen, of schakel het selectievakje uit om dit te voorkomen.</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>... specificeren of leden van de security groep in staat zijn om voltooide gedeelten van taken en  allocaties te verplaatsen?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
@@ -321,26 +318,22 @@
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>... specificeren of een gebruiker als Hulpmiddel Manager kosten mag goedkeuren in Time Sheet?</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>... specificeren of leden van de security groep in staat zijn om project-brede datums te wijzigen?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Schakel het  <span style="font-weight: bold;">Goedkeuren onkosten als hulpmiddel manager</span> selectievakje in om de leden van de security groep toe te staan onkosten goed te keuren in Time Sheet voor die permanente hulpmiddelen waarvoor hij optreed als Hulpmiddel Manager, of schakel het selectievakje uit om dit te voorkomen.</p>
+                <p xmlns="http://www.w3.org/1999/xhtml">
+                    <MadCap:snippetText src="../../Resources/Snippets/Edit_project_date_controls.flsnp" />
+                </p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
-        <MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="Powerproject_Easyplan.V17_Project_timeline">
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>... specificeren of een gebruiker onkosten mag goedkeuren in Time Sheet?</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>... specify whether members of a security group can edit project timelines?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Schakel het  <span style="font-weight: bold;">Financieel medewerker</span> selectievakje in om  de leden van de security groep toe te staan onkosten goed te keuren in Time Sheet, of schakel het selectievakje uit om dit te voorkomen.</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>... specificeren of een gebruiker voortgang mag goedkeuren op zijn projecten in Time Sheet?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>Schakel het <span style="font-weight: bold;">Goedkeuren Time Sheet als project manager</span> selectievakje in om de leden van de security groep toe te staan dat voortgang die is ingevoerd op zijn projecten' allocaties &#160;in Time Sheet goed te keuren, of schakel het selectievakje uit om dit te voorkomen.</p>
+                <p>
+                    <MadCap:snippetText src="../../Resources/Snippets/Edit_timelines.flsnp" />
+                </p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <p class="RelatedTopics">Verwante Onderwerpen:</p>
