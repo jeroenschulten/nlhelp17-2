@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <IgnoredWordsDictionary>
     <Word Comment="">maps</Word>
     <Word Comment="">cel-achtergrond</Word>
@@ -823,5 +823,5 @@
     <Word Comment="">baseline-taak</Word>
     <Word Comment="">GTD77</Word>
     <Word>staalvlechter</Word>
-    <Word>Staalvlechter-hulpmiddel</Word>
+    <Word>Staalvlechter-resource</Word>
 </IgnoredWordsDictionary>

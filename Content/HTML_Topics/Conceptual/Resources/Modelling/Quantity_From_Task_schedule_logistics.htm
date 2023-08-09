@@ -10,11 +10,11 @@
         <MadCap:snippetBlock src="../../../../Resources/Snippets/Set_task_work.flsnp" />
         <p>Om de hoeveelheid verbruiksgoederen te berekenen dat nodig is voor logistieke doeleinden:</p>
         <ol>
-            <li>Wijs het verbruiksgoed dat het logistieke hulpmiddel vertegenwoordigt toe aan de juiste taak. Hier gaan we ervan uit dat u een 'Betonmixer vrachtwagen' verbruiksgoed toewijst aan een 'Beton storten'-taak, die 100 m3 beton als taak heeft.<br /><br /><img src="../../../../Graphics/Resources/schedulelogistics1.png" alt="A Concrete Mixer Lorry assigned to a Pour Concrete task" /></li>
+            <li>Wijs het verbruiksgoed dat de logistieke resource vertegenwoordigt toe aan de juiste taak. Hier gaan we ervan uit dat u een 'Betonmixer vrachtwagen' verbruiksgoed toewijst aan een 'Beton storten'-taak, die 100 m3 beton als taak heeft.<br /><br /><img src="../../../../Graphics/Resources/schedulelogistics1.png" alt="A Concrete Mixer Lorry assigned to a Pour Concrete task" /></li>
             <li>Rechtsklik op de verbruiksgoed toewijzing en selecteer <b>Eigenschappen</b>. Het <b>Verbruiksgoed Toewijzing Eigenschappen</b> dialoogvenster verschijnt.</li>
             <li>Klik op het tabblad <b>Modellering</b>. De hoeveelheid taak werk die opgegeven is bij de taak wordt weergegeven in het <b>Taak werk</b> veld.</li>
             <li>Selecteer 'Hoeveelheid Van Taak' in het <b>Modelling type</b> veld.</li>
-            <li>In het <b>Taak conversie factor</b> veld, voer de hoeveelheid van het taak werk materiaal dat kan worden gedragen in de logistieke resource. Bijvoorbeeld, Als een Beton Mixer vrachtwagen hulpmiddel een capaciteit heeft van 10 m<sup>3</sup> beton, voer dan '10,00' in dit veld in.</li>
+            <li>In het <b>Taak conversie factor</b> veld, voer de hoeveelheid van het taak werk materiaal dat kan worden gedragen in de logistieke resource. Bijvoorbeeld, Als een Beton Mixer vrachtwagen resource een capaciteit heeft van 10 m<sup>3</sup> beton, voer dan '10,00' in dit veld in.</li>
             <li>Selecteer in het veld rechts van het veld <b>Taak conversiefactor</b> 'Delen' om het totale aantal vrachtwagens te berekenen dat nodig is om het beton te leveren. De hoeveelheid beton die nodig is (het taak werk) wordt gedeeld door het aantal kubieke meters dat elke vrachtwagen kan bevatten om aan te geven hoeveel betonmixer vrachtwagens er nodig zijn om al het beton te leveren, en het resultaat wordt weergegeven in het veld <b>Hoeveelheid</b>. Bij 10 m<sup>3</sup> beton per vrachtwagen zijn voor 100 m<sup>3</sup> beton 10 vrachtwagens nodig - dit wordt toegelicht in de onderstaande afbeelding:<br /><br /><img src="../../../../Graphics/Resources/schedulelogistics2.png" alt="The quantity of lorries required, highlighted on the Modelling tab" /></li>
         </ol>
         <p>Sommige berekeningen leveren geen geheel getal op. Als er bijvoorbeeld 103 m<sup>3</sup> beton nodig zou zijn in plaats van 100 m<sup>3</sup>, zou de berekening laten zien dat er 10,3 vrachtwagens nodig waren. Aangezien er niet zoiets bestaat als 0,3 van een vrachtwagen, kunt u dit probleem omzeilen door 'Verdelen en afronden' te selecteren in plaats van 'Verdelen' in het veld <b>Taak conversiefactor</b>. Als u dit doet en de berekening resulteert in een breuk, wordt het resultaat naar boven afgerond op het dichtstbijzijnde gehele getal. Als u in dit voorbeeld 'Verdelen en afronden' selecteert, worden de 10,3 vrachtwagens afgerond naar 11 vrachtwagens:</p>
@@ -25,7 +25,7 @@
         <p>U kunt niet alleen de logistiek berekenen met behulp van het tabblad <b>Modellering</b> van het dialoogvenster <b>Verbruiksgoederen Toewijzing Eigenschappen</b>, maar u kunt ook standaard details voor logistieke berekeningen instellen voor elk logistiek verbruiksgoed met behulp van het tabblad <b>Toewijzing</b> van het dialoogvenster <b>Verbruiksgoederen Eigenschappen</b>:</p>
         <ul>
             <li>Stel het <b>Modellering type</b> in op 'Hoeveelheid Van Taak'.</li>
-            <li>Voer de hoeveelheid taak werk materiaal in dat kan worden gedragen door het logistieke hulpmiddel in het <b>Taak conversiefactor</b> veld.</li>
+            <li>Voer de hoeveelheid taak werk materiaal in dat kan worden gedragen door de logistieke resource in het <b>Taak conversiefactor</b> veld.</li>
             <li>Selecteer 'Delen' of 'Delen en Afronden' in het veld rechts van het <b>Taak conversiefactor</b> veld.</li>
         </ul>
         <p class="RelatedTopics">Related Topics:</p>

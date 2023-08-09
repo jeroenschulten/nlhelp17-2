@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
@@ -40,7 +40,7 @@
                         <p class="ParagraphsInTables">Specificeer of u wilt dat het standaard werk wordt berekend als:</p>
                         <ul>
                             <li class="p"><b xmlns="">Werk percentage</b> - de resource besteedt een percentage van de gespecificeerde tijd aan het standaard werk. Bijvoorbeeld, een resource zou 20% van de tijd aan Administratie standaard werk kunnen besteden, of 100% van de tijd aan een ziekenhuisbezoek.</li>
-                            <li class="p"><b xmlns="">Inspanning per hulpmiddel</b> - wanneer de hoeveelheid aan standaard werk bestede tijd afhankelijk is van het aantal aan een taak toegewezen resources. Bijvoorbeeld, als elke resource 1 uur spendeert aan het invoeren van gegevens, wanneer u 1 hulpmiddel aan een taak toewijst, zal er maar 1 uur gebruikt worden voor gegevensinvoer; wanneer u 50 resources aan een taak toewijst, zullen er 50 uur worden besteed aan gegevensinvoer.</li>
+                            <li class="p"><b xmlns="">Inspanning per resource</b> - wanneer de hoeveelheid aan standaard werk bestede tijd afhankelijk is van het aantal aan een taak toegewezen resources. Bijvoorbeeld, als elke resource 1 uur spendeert aan het invoeren van gegevens, wanneer u 1 resource aan een taak toewijst, zal er maar 1 uur gebruikt worden voor gegevensinvoer; wanneer u 50 resources aan een taak toewijst, zullen er 50 uur worden besteed aan gegevensinvoer.</li>
                             <li class="p"><b xmlns="">Vaste inspanning</b> - wanneer een vaste hoeveelheid tijd besteed wordt aan standaard werk ongeacht het aantal aan een taak toegewezen resources. Bijvoorbeeld, er kan een halve dag besteed worden aan voorraadcontrole ongeacht of u 5 of 25 resources aan de taak toewijst.</li>
                         </ul>
                     </td>

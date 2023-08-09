@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultGlossary>
     <GlossaryEntry glossTerm="powerproject.Term0" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
@@ -20,9 +20,9 @@
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term3" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
-            <Term>Aanvraag hulpmiddelallocatie</Term>
+            <Term>Aanvraag resourcetoewijzing</Term>
         </Terms>
-        <Definition Link="">Aanvraag hulpmiddelallocaties geven aan welke vaardigheid een taak vereist. Een taak kan bijvoorbeeld 30 dagen inspanning van een programmeur vereisen. Aanvraag hulpmiddelallocaties worden gehonoreerd door ingeplande hulpmiddelallocaties, die hulpmiddelen met de vereiste vaardigheid toewijzen aan de taak.</Definition>
+        <Definition Link="">Aanvraag resourcetoewijzingen geven aan welke vaardigheid een taak vereist. Een taak kan bijvoorbeeld 30 dagen inspanning van een programmeur vereisen. Aanvraag resourcetoewijzingen worden gehonoreerd door ingeplande resourcetoewijzingen, die resources met de vereiste vaardigheid toewijzen aan de taak.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term4" conditions="" Stem="" IgnoreCase="false" TermClass="xxx">
         <Terms>
@@ -38,9 +38,9 @@
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term6" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
-            <Term>Allocatiegroep</Term>
+            <Term>Toewijzingsgroep</Term>
         </Terms>
-        <Definition Link="">Meerdere hulpmiddel- en/of kostenallocaties die als groep zijn opgeslagen zodat ze als één geheel kunnen worden toegewezen. Wanneer een allocatiegroep is toegewezen, wordt elke hulpmiddel- en/of kostenallocatie in de groep als aparte allocatie op de taak weergegeven zodat ze individueel kunnen worden bewerkt.</Definition>
+        <Definition Link="">Meerdere resource- en/of kostentoewijzingen die als groep zijn opgeslagen zodat ze als één geheel kunnen worden toegewezen. Wanneer een toewijzingsgroep is toegewezen, wordt elke resource- en/of kostentoewijzing in de groep als aparte toewijzing op de taak weergegeven zodat ze individueel kunnen worden bewerkt.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term7" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
@@ -120,13 +120,13 @@
         <Terms>
             <Term>Berekende parameter</Term>
         </Terms>
-        <Definition Link="">De waarde die wordt berekend voor een gemodelleerde hulpmiddelallocatie.</Definition>
+        <Definition Link="">De waarde die wordt berekend voor een gemodelleerde resourcetoewijzing.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term20" conditions="" Stem="" IgnoreCase="false" TermClass="xxx">
         <Terms>
             <Term>Bibliotheek verkenner</Term>
         </Terms>
-        <Definition Link="">Een hulpmiddel binnen Asta Powerproject voor het bekijken en bewerken van bibliotheken en bibliotheekobjecten, zoals hulpmiddelen, kostengroepen en kalenders. </Definition>
+        <Definition Link="">Een resource binnen Asta Powerproject voor het bekijken en bewerken van bibliotheken en bibliotheekobjecten, zoals resources, kostengroepen en kalenders. </Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term21" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
@@ -156,13 +156,13 @@
         <Terms>
             <Term>Code</Term>
         </Terms>
-        <Definition Link="">(Kleur-)codes die kunnen worden toegewezen aan balken, taken en allocaties in een project. U kunt de codes gebruiken om taken te sorteren/groeperen en taken te filteren bij views en rapporten. Codes worden opgeslagen in codebibliotheken. Afhankelijk van de manier waarop elke codebibliotheek is opgezet, kunt u in staat zijn om meer dan één code vanuit elke bibliotheek aan een object toewijzen. </Definition>
+        <Definition Link="">(Kleur-)codes die kunnen worden toegewezen aan balken, taken en toewijzingen in een project. U kunt de codes gebruiken om taken te sorteren/groeperen en taken te filteren bij views en rapporten. Codes worden opgeslagen in codebibliotheken. Afhankelijk van de manier waarop elke codebibliotheek is opgezet, kunt u in staat zijn om meer dan één code vanuit elke bibliotheek aan een object toewijzen. </Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term26" conditions="" Stem="" IgnoreCase="false" TermClass="xxx">
         <Terms>
             <Term>Codebibliotheek</Term>
         </Terms>
-        <Definition Link="">Een hiërarchische verzameling codes die kunnen worden toegewezen aan balken, taken of allocaties om taken te kunnen sorteren en classificeren. Zie ook: Code.</Definition>
+        <Definition Link="">Een hiërarchische verzameling codes die kunnen worden toegewezen aan balken, taken of toewijzingen om taken te kunnen sorteren en classificeren. Zie ook: Code.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term27" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
@@ -216,7 +216,7 @@
         <Terms>
             <Term>Duur</Term>
         </Terms>
-        <Definition Link="">De geschatte of daadwerkelijke tijd die benodigd is voor de voltooiing van een taak of een hulpmiddelallocatie.</Definition>
+        <Definition Link="">De geschatte of daadwerkelijke tijd die benodigd is voor de voltooiing van een taak of een resourcetoewijzing.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term36" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
@@ -230,7 +230,7 @@
         <Terms>
             <Term>Duur-gestuurd</Term>
         </Terms>
-        <Definition Link="">Een duur-gestuurde hulpmiddelallocatie houdt in dat de duur van de taak waaraan het hulpmiddel is toegewezen bepalend is voor de hoeveelheid tijd die het hulpmiddel aan de taak werkt. Het hulpmiddel zal altijd gedurende de gehele taakduur werken (exclusief niet-werkbare perioden zoals vakantiedagen en weekeinden).</Definition>
+        <Definition Link="">Een duur-gestuurde resourcetoewijzing houdt in dat de duur van de taak waaraan de resource is toegewezen bepalend is voor de hoeveelheid tijd die de resource aan de taak werkt. De resource zal altijd gedurende de gehele taakduur werken (exclusief niet-werkbare perioden zoals vakantiedagen en weekeinden).</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term38" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
@@ -242,7 +242,7 @@
         <Terms>
             <Term>Filter</Term>
         </Terms>
-        <Definition Link="">Een reeks voorwaarden die een deel van het project definieert. U kunt bijvoorbeeld filteren op alle taken met allocaties van een bepaald hulpmiddel, of op alle taken die plaats hebben tussen mei en oktober. U kunt filters toepassen op views en op tabellarische rapporten.</Definition>
+        <Definition Link="">Een reeks voorwaarden die een deel van het project definieert. U kunt bijvoorbeeld filteren op alle taken met toewijzingen van een bepaalde resource, of op alle taken die plaats hebben tussen mei en oktober. U kunt filters toepassen op views en op tabellarische rapporten.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term40" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
@@ -300,9 +300,9 @@
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term50" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
-            <Term>Geplande hulpmiddelallocatie</Term>
+            <Term>Geplande resourcetoewijzing</Term>
         </Terms>
-        <Definition Link="">Hulpmiddelallocaties die bepaalde hulpmiddelen toewijzen aan taken, om bijvoorbeeld te voldoen aan de vereiste vaardigheden die zijn opgegeven door een aanvraagallocatie.</Definition>
+        <Definition Link="">Resourcetoewijzingen die bepaalde resources toewijzen aan taken, om bijvoorbeeld te voldoen aan de vereiste vaardigheden die zijn opgegeven door een aanvraagtoewijzing.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term51" conditions="" Stem="" IgnoreCase="false" TermClass="xxx">
         <Terms>
@@ -314,13 +314,13 @@
         <Terms>
             <Term>Geschatte taak</Term>
         </Terms>
-        <Definition Link="">Een taak waarvan alle hulpmiddelallocaties aanvraagallocaties zijn. Een dergelijke taak stelt een activiteit voor die gepland is om plaats te vinden op een toekomstig tijdstip en geeft een mogelijke behoefte aan hulpmiddelen aan.</Definition>
+        <Definition Link="">Een taak waarvan alle resourcetoewijzingen aanvraagtoewijzingen zijn. Een dergelijke taak stelt een activiteit voor die gepland is om plaats te vinden op een toekomstig tijdstip en geeft een mogelijke behoefte aan resources aan.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term53" conditions="" Stem="" IgnoreCase="false" TermClass="xxx">
         <Terms>
             <Term>Grafiek</Term>
         </Terms>
-        <Definition Link="">Visuele weergave (als een lijn of als een gebied) van hulpmiddel- of kostengroepinformatie op een histogram.</Definition>
+        <Definition Link="">Visuele weergave (als een lijn of als een gebied) van resource- of kostengroepinformatie op een histogram.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term54" conditions="" Stem="" IgnoreCase="false" TermClass="xxx">
         <Terms>
@@ -332,7 +332,7 @@
         <Terms>
             <Term>Groeperen</Term>
         </Terms>
-        <Definition Link="">Het organiseren van balken, taken, bibliotheekobjecten of allocaties in een bepaalde volgorde. Bijvoorbeeld, u kunt taken groeperen op hun startdatum of hun kosten.</Definition>
+        <Definition Link="">Het organiseren van balken, taken, bibliotheekobjecten of toewijzingen in een bepaalde volgorde. Bijvoorbeeld, u kunt taken groeperen op hun startdatum of hun kosten.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term56" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
@@ -366,9 +366,9 @@
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term61" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
-            <Term>Hoofdhulpmiddel</Term>
+            <Term>Hoofdresource</Term>
         </Terms>
-        <Definition Link="">Het hulpmiddel of de kostengroep die de "hoofd" allocatie bij een taak vertegenwoordigt.</Definition>
+        <Definition Link="">De resource of de kostengroep die de "hoofd" toewijzing bij een taak vertegenwoordigt.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term62" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
@@ -380,19 +380,19 @@
         <Terms>
             <Term>Hiërarchie</Term>
         </Terms>
-        <Definition Link="">Organisatiestructuur met gradaties of klassen die boven elkaar gerangschikt staan, waarbij het hoogste niveau uit één entiteit bestaat. In Asta Powerproject heeft deze term betrekking op de organisatie van taken, waarbij de taken op één niveau worden samengevat door de taken op het niveau daarboven. De programma kaart vormt het hoogste niveau. Naast deze taakhiërarchie kan Asta Powerproject ook een hiërarchie van bibliotheek verkennerobjecten hebben, zoals hulpmiddelen, codes en kalenders.</Definition>
+        <Definition Link="">Organisatiestructuur met gradaties of klassen die boven elkaar gerangschikt staan, waarbij het hoogste niveau uit één entiteit bestaat. In Asta Powerproject heeft deze term betrekking op de organisatie van taken, waarbij de taken op één niveau worden samengevat door de taken op het niveau daarboven. De programma kaart vormt het hoogste niveau. Naast deze taakhiërarchie kan Asta Powerproject ook een hiërarchie van bibliotheek verkennerobjecten hebben, zoals resources, codes en kalenders.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term64" conditions="" Stem="" IgnoreCase="false" TermClass="xxx">
         <Terms>
             <Term>Histogram</Term>
         </Terms>
-        <Definition Link="">Eén of meer grafieken die het gebruik van hulpmiddelen of kosten gedurende een project weergeven.</Definition>
+        <Definition Link="">Eén of meer grafieken die het gebruik van resources of kosten gedurende een project weergeven.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term65" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
             <Term>Hoofdobject</Term>
         </Terms>
-        <Definition Link="">Een object dat u handmatig labelt voor uitboeken. Er kan naar een hoofdobject worden verwezen door andere objecten, die automatisch worden gelabeld om ervoor te zorgen dat het hoofdobject in het doelproject dezelfde eigenschappen en allocaties heeft.</Definition>
+        <Definition Link="">Een object dat u handmatig labelt voor uitboeken. Er kan naar een hoofdobject worden verwezen door andere objecten, die automatisch worden gelabeld om ervoor te zorgen dat het hoofdobject in het doelproject dezelfde eigenschappen en toewijzingen heeft.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term66" conditions="" Stem="" IgnoreCase="false" TermClass="xxx">
         <Terms>
@@ -426,65 +426,65 @@
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term70" conditions="" Stem="" IgnoreCase="false" TermClass="xxx">
         <Terms>
-            <Term>Hulpmiddel</Term>
+            <Term>Resource</Term>
         </Terms>
-        <Definition Link="">Goederen of diensten die benodigd zijn om het werk van de taak te voltooien. bijvoorbeeld arbeid, machines, buizen, water en elektriciteit. Hulpmiddelen kunnen worden opgeslagen in mappen, waardoor er een hulpmiddelhiërarchie ontstaat.</Definition>
+        <Definition Link="">Goederen of diensten die benodigd zijn om het werk van de taak te voltooien. bijvoorbeeld arbeid, machines, buizen, water en elektriciteit. Resources kunnen worden opgeslagen in mappen, waardoor er een resourcehiërarchie ontstaat.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term71" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
-            <Term>Hulpmiddel allocatie profiel</Term>
+            <Term>Resource toewijzing profiel</Term>
         </Terms>
         <Definition Link="">Zie Niet-lineaire toewijzing.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term72" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
-            <Term>Hulpmiddel curve</Term>
+            <Term>Resource curve</Term>
         </Terms>
-        <Definition Link="">Een bibliotheekobject dat toegewezen kan worden aan hulpmiddel- of kostenallocaties voor niet-lineaire toewijzingen - toewijzingen. Een hulpmiddel curve bestaat uit een aantal aparte rechthoekige segmenten - of 'punten' - waarbij elk daarvan een percentage van de duur en een bijbehorend niveau van allocatie bepaald. Bijvoorbeeld, wanneer een hulpmiddel curve tien punten heeft, zal het eerste segment horen bij de eerste 10% van de duur van de allocatie en de hoeveelheid allocatie bepaalt die bij dat segment hoort. U kunt hulpmiddel curves configureren om nauwkeurig de verschillende niveaus van inspanning, hoeveelheid of kosten gedurende de duur van de allocaties waaraan de hulpmiddel curve is toegewezen te bepalen." /&gt;</Definition>
+        <Definition Link="">Een bibliotheekobject dat toegewezen kan worden aan resource- of kostentoewijzingen voor niet-lineaire toewijzingen - toewijzingen. Een resource curve bestaat uit een aantal aparte rechthoekige segmenten - of 'punten' - waarbij elk daarvan een percentage van de duur en een bijbehorend niveau van de toewijzing bepaalt. Bijvoorbeeld, wanneer een resource curve tien punten heeft, zal het eerste segment horen bij de eerste 10% van de duur van de toewijzing en de hoeveelheid toewijzing bepaalt die bij dat segment hoort. U kunt resource curves configureren om nauwkeurig de verschillende niveaus van inspanning, hoeveelheid of kosten gedurende de duur van de toewijzingen waaraan de resource curve is toegewezen te bepalen." /&gt;</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term73" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
-            <Term>Hulpmiddel-gestuurd</Term>
+            <Term>Resource-gestuurd</Term>
         </Terms>
-        <Definition Link="">Een hulpmiddel-gestuurde hulpmiddeltoewijzing houdt in dat de tijdsduur gedurende welke een hulpmiddel aan een taak werkt niet wordt bepaald door de duur van de taak waaraan het is toegewezen. Als u een hulpmiddel-gestuurde hulpmiddeltoewijzing wilt, gebruikt u de hulpmiddelmodellering.</Definition>
+        <Definition Link="">Een resource-gestuurde resourcetoewijzing houdt in dat de tijdsduur gedurende welke een resource aan een taak werkt niet wordt bepaald door de duur van de taak waaraan het is toegewezen. Als u een resource-gestuurde resourcetoewijzing wilt, gebruikt u de resourcemodellering.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term74" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
-            <Term>Hulpmiddel inzet view</Term>
+            <Term>Resource inzet view</Term>
         </Terms>
-        <Definition Link="">Een paneel in Asta Powerproject dat gebruikt kan worden om de ingeplande of werkelijke toewijzingen van één of meer hulpmiddelen of kostengroepen op een dagelijkse, wekelijkse, maandelijks of kwartaallijkse basis. Het hulpmiddel inzet view paneel verschijnt onder de tabel en de balkkaart, en is aan de onderkant daarvan vastgemaakt.</Definition>
+        <Definition Link="">Een paneel in Asta Powerproject dat gebruikt kan worden om de ingeplande of werkelijke toewijzingen van één of meer resources of kostengroepen op een dagelijkse, wekelijkse, maandelijks of kwartaallijkse basis. De resource inzet view paneel verschijnt onder de tabel en de balkkaart, en is aan de onderkant daarvan vastgemaakt.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term75" conditions="" Stem="" IgnoreCase="false" TermClass="xxx">
         <Terms>
-            <Term>Hulpmiddelkalender</Term>
+            <Term>Resourcekalender</Term>
         </Terms>
-        <Definition Link="">De kalender volgens welke een hulpmiddel werkt, onafhankelijk van de kalender op de taak waaraan het hulpmiddel is toegewezen.</Definition>
+        <Definition Link="">De kalender volgens welke een resource werkt, onafhankelijk van de kalender op de taak waaraan de resource is toegewezen.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term76" conditions="" Stem="" IgnoreCase="false" TermClass="xxx">
         <Terms>
-            <Term>Hulpmiddelkosten</Term>
+            <Term>Resourcekosten</Term>
         </Terms>
-        <Definition Link="">Kosten die zijn gekoppeld aan een bepaald hulpmiddel en die worden toegewezen aan taken zodra het gekoppelde hulpmiddel wordt toegewezen. Hulpmiddelkosten kunnen afhangen van factoren zoals de duur van de taak, het aantal aan de taak toegewezen hulpmiddelen en het kostentarief van het hulpmiddel.</Definition>
+        <Definition Link="">Kosten die zijn gekoppeld aan een bepaalde resource en die worden toegewezen aan taken zodra de gekoppelde resource wordt toegewezen. Resourcekosten kunnen afhangen van factoren zoals de duur van de taak, het aantal aan de taak toegewezen resources en het kostentarief van de resource.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term77" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
-            <Term>Hulpmiddel-levelling</Term>
+            <Term>Resource-levelling</Term>
         </Terms>
-        <Definition Link="">Het proces waarbij de allocatie van hulpmiddelen wordt aangepast zodat er geen over-allocatie is. U kunt hulpmiddelen levellen door één of meer taken te vertragen, door taken te splitsen of door de hulpmiddelallocatie van een taak te verlagen en ter compensatie de duur ervan te verhogen.</Definition>
+        <Definition Link="">Het proces waarbij de toewijzing van resources wordt aangepast zodat er geen overbezetting is. U kunt resources levellen door één of meer taken te vertragen, door taken te splitsen of door de resourcetoewijzing van een taak te verlagen en ter compensatie de duur ervan te verhogen.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term78" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
-            <Term>Hulpmiddelmodellering</Term>
+            <Term>Resourcemodellering</Term>
         </Terms>
-        <Definition Link="">Een methode waarbij u kunt opgeven of een hulpmiddelallocatie duur-gestuurd of hulpmiddel-gestuurd moet zijn.</Definition>
+        <Definition Link="">Een methode waarbij u kunt opgeven of een resourcetoewijzing duur-gestuurd of resource-gestuurd moet zijn.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term79" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
-            <Term>Hulpmiddel rapport
+            <Term>Resource rapport
 
         </Term>
         </Terms>
-        <Definition Link="">Een rapport gebaseerd op hulpmiddel en kosten gegevens, dat grafisch of in tabelformaat kan worden weergegeven. Deze rapporten produceren een uitvoer die lijkt op die van Asta Powerproject's histogrammen.</Definition>
+        <Definition Link="">Een rapport gebaseerd op resource en kosten gegevens, dat grafisch of in tabelformaat kan worden weergegeven. Deze rapporten produceren een uitvoer die lijkt op die van Asta Powerproject's histogrammen.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term80" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
@@ -496,7 +496,7 @@
         <Terms>
             <Term>Inspanning</Term>
         </Terms>
-        <Definition Link="">De hoeveelheid van een hulpmiddel die is toegewezen aan een taak vermenigvuldigd met de hoeveelheid tijd die het hulpmiddel is toegewezen. Om 10 schrijver-dagen te voltooien, zijn bijvoorbeeld gedurende 5 dagen 2 schrijvers nodig, of gedurende 10 dagen 1 schrijver.</Definition>
+        <Definition Link="">De hoeveelheid van een resource die is toegewezen aan een taak vermenigvuldigd met de hoeveelheid tijd die de resource is toegewezen. Om 10 schrijver-dagen te voltooien, zijn bijvoorbeeld gedurende 5 dagen 2 schrijvers nodig, of gedurende 10 dagen 1 schrijver.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term82" conditions="" Stem="" IgnoreCase="false" TermClass="xxx">
         <Terms>
@@ -592,7 +592,7 @@
         <Terms>
             <Term>Lint</Term>
         </Terms>
-        <Definition Link="">Vóór deze release van Asta Powerproject Versie 12 bevonden zich alle opdrachten waar u tijdens het werken gebruik van maakte op menu's en werkbalken. Met deze release van Versie 12 zijn de menu's en werkbalken vervangen door een 'Lint'. Het Lint is ontworpen om snellere toegang mogelijk te maken tot de opdrachten die u nodig heeft bij het werken met uw projecten. De opdrachten zijn georganiseerd in logische groepen, die zich  in aparte tabbladen bevinden. Elk tabblad heeft te maken met een bepaalde soort handeling, zoals het weergeven van verschillende items in een view of het werken met allocaties.</Definition>
+        <Definition Link="">Vóór deze release van Asta Powerproject Versie 12 bevonden zich alle opdrachten waar u tijdens het werken gebruik van maakte op menu's en werkbalken. Met deze release van Versie 12 zijn de menu's en werkbalken vervangen door een 'Lint'. Het Lint is ontworpen om snellere toegang mogelijk te maken tot de opdrachten die u nodig heeft bij het werken met uw projecten. De opdrachten zijn georganiseerd in logische groepen, die zich  in aparte tabbladen bevinden. Elk tabblad heeft te maken met een bepaalde soort handeling, zoals het weergeven van verschillende items in een view of het werken met toewijzingen.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term98" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
@@ -672,7 +672,7 @@
         <Terms>
             <Term>Niet-lineaire toewijzing</Term>
         </Terms>
-        <Definition Link="">Een allocatie waarin werk of kosten sporadisch voorkomen, of met wisselende niveaus van inspanning, hoeveelheid of kosten. Bij permanente hulpmiddel allocaties, verbruiksgoederen allocaties en kostenallocaties, kunt u niet-lineaire toewijzingen plannen via hulpmiddel curves, die u kunt configureren om nauwgezet de variërende waarden van inspanning, hoeveelheid, of kosten te representeren gedurende de duur van de allocaties waaraan de hulpmiddel curve is toegewezen. Bij permanente hulpmiddel allocaties, kunt u ook niet-lineaire toewijzingen plannen via individuele allocatie profielen, die op een vergelijkbare manier fungeren maar alleen van toepassing zijn op individuele allocaties.</Definition>
+        <Definition Link="">Een toewijzing waarin werk of kosten sporadisch voorkomen, of met wisselende niveaus van inspanning, hoeveelheid of kosten. Bij permanente resource toewijzingen, verbruiksgoederen toewijzingen en kostentoewijzingen, kunt u niet-lineaire toewijzingen plannen via resource curves, die u kunt configureren om nauwgezet de variërende waarden van inspanning, hoeveelheid, of kosten te representeren gedurende de duur van de toewijzingen waaraan de resource curve is toegewezen. Bij permanente resource toewijzingen, kunt u ook niet-lineaire toewijzingen plannen via individuele toewijzingsprofielen, die op een vergelijkbare manier fungeren maar alleen van toepassing zijn op individuele toewijzingen.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term111" conditions="" Stem="" IgnoreCase="false" TermClass="xxx">
         <Terms>
@@ -742,7 +742,7 @@
         <Terms>
             <Term>Percentage voltooid</Term>
         </Terms>
-        <Definition Link="">Het percentage van een taak of allocatie dat voltooid is. Zie ook: Voortgang.</Definition>
+        <Definition Link="">Het percentage van een taak of toewijzing dat voltooid is. Zie ook: Voortgang.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term122" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
@@ -754,9 +754,9 @@
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term123" conditions="" Stem="" IgnoreCase="false" TermClass="xxx">
         <Terms>
-            <Term>Permanent hulpmiddel</Term>
+            <Term>Permanente resource</Term>
         </Terms>
-        <Definition Link="">Een hulpmiddel dat niet wordt verbruikt door het gebruik ervan in het project. Als een permanent hulpmiddel werk op een taak heeft beëindigd, is het beschikbaar voor andere taken in het project. Mensen en gereedschap zijn voorbeelden van permanente hulpmiddelen.</Definition>
+        <Definition Link="">Een resource dat niet wordt verbruikt door het gebruik ervan in het project. Als een permanent resource werk op een taak heeft beëindigd, is het beschikbaar voor andere taken in het project. Mensen en gereedschap zijn voorbeelden van permanente resources.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term124" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
@@ -764,7 +764,7 @@
 
         </Term>
         </Terms>
-        <Definition Link="">Een aantal individuele projecten binnen één bestand die dezelfde atributen met elkaar delen, zoals de hulpmiddelen pool en de codebibliotheken. U maakt een projectportfolio door individuele kaarten en samenvattingsgroepen te identificeren als projecten.</Definition>
+        <Definition Link="">Een aantal individuele projecten binnen één bestand die dezelfde atributen met elkaar delen, zoals de resources pool en de codebibliotheken. U maakt een projectportfolio door individuele kaarten en samenvattingsgroepen te identificeren als projecten.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term125" conditions="" Stem="" IgnoreCase="false" TermClass="xxx">
         <Terms>
@@ -776,7 +776,7 @@
         <Terms>
             <Term>Prioriteitindicator</Term>
         </Terms>
-        <Definition Link="">Een grafische weergave van de prioriteit van balken, taken en allocaties, die u in de tabel kunt weergeven door een prioriteitveld in te voegen in een kolom.</Definition>
+        <Definition Link="">Een grafische weergave van de prioriteit van balken, taken en toewijzingen, die u in de tabel kunt weergeven door een prioriteitveld in te voegen in een kolom.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term127" conditions="" Stem="" IgnoreCase="false" TermClass="xxx">
         <Terms>
@@ -862,9 +862,9 @@
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term140" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
-            <Term>Hulpmiddel Breakdown Structure (RBS)</Term>
+            <Term>Resource Breakdown Structure (RBS)</Term>
         </Terms>
-        <Definition Link="">Een hiërarchische structuur waarin taken worden georganiseerd onder de hulpmiddelen die daaraan zijn toegewezen. Als er bijvoorbeeld drie hulpmiddelen zijn toegewezen aan Taak A, zal in de RBS elk hulpmiddel een kop zijn, waarbij Taak A onder elke kop wordt weergegeven. Taken zonder hulpmiddelallocaties worden niet weergegeven in de RBS.</Definition>
+        <Definition Link="">Een hiërarchische structuur waarin taken worden georganiseerd onder de resources die daaraan zijn toegewezen. Als er bijvoorbeeld drie resources zijn toegewezen aan Taak A, zal in de RBS elke resource een kop zijn, waarbij Taak A onder elke kop wordt weergegeven. Taken zonder resourcetoewijzingen worden niet weergegeven in de RBS.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term141" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
@@ -909,7 +909,7 @@
         <Terms>
             <Term>Slepen en neerzetten</Term>
         </Terms>
-        <Definition Link="">Een muisactie waarbij een item wordt gesleept van één locatie en vervolgens wordt geplaatst op een andere locatie. U kunt bijvoorbeeld hulpmiddelen, kosten, codes en kalenders toewijzen door ze te slepen uit de bibliotheek verkenner en ze vervolgens te plaatsen op specifieke taken.</Definition>
+        <Definition Link="">Een muisactie waarbij een item wordt gesleept van één locatie en vervolgens wordt geplaatst op een andere locatie. U kunt bijvoorbeeld resources, kosten, codes en kalenders toewijzen door ze te slepen uit de bibliotheek verkenner en ze vervolgens te plaatsen op specifieke taken.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term148" conditions="" Stem="" IgnoreCase="false" TermClass="xxx">
         <Terms>
@@ -923,13 +923,13 @@
 
         </Term>
         </Terms>
-        <Definition Link="">Een entiteit die wordt gebruikt om balken, taken, bibliotheekobjecten of allocaties in een bepaalde volgorde te organiseren. Bijvoorbeeld, u kunt taken sorteren/groeperen op hun startdatum of op hun kosten. U kunt sorteringen/groeperingen toepassen op views en op tabellarische rapporten.</Definition>
+        <Definition Link="">Een entiteit die wordt gebruikt om balken, taken, bibliotheekobjecten of toewijzingen in een bepaalde volgorde te organiseren. Bijvoorbeeld, u kunt taken sorteren/groeperen op hun startdatum of op hun kosten. U kunt sorteringen/groeperingen toepassen op views en op tabellarische rapporten.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term150" conditions="" Stem="" IgnoreCase="false" TermClass="xxx">
         <Terms>
             <Term>Sorteren</Term>
         </Terms>
-        <Definition Link="">Het organiseren van balken, taken, bibliotheekobjecten of allocaties in een bepaalde volgorde. U kunt taken bijvoorbeeld sorteren op startdatum of kosten.</Definition>
+        <Definition Link="">Het organiseren van balken, taken, bibliotheekobjecten of toewijzingen in een bepaalde volgorde. U kunt taken bijvoorbeeld sorteren op startdatum of kosten.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term151" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
@@ -987,7 +987,7 @@
 
         </Term>
         </Terms>
-        <Definition Link="">Een rapport gebaseerd op taak, hulpmiddel of kostengegevens, welke kan worden uitgevoerd naar een aantal verschillende tabellarische formaten. Deze rapporten produceren uitvoer gelijkend op Asta Powerproject's tabel.</Definition>
+        <Definition Link="">Een rapport gebaseerd op taak, resource of kostengegevens, welke kan worden uitgevoerd naar een aantal verschillende tabellarische formaten. Deze rapporten produceren uitvoer gelijkend op Asta Powerproject's tabel.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term160" conditions="" Stem="" IgnoreCase="false" TermClass="xxx">
         <Terms>
@@ -1001,7 +1001,7 @@
         <Terms>
             <Term>Taak</Term>
         </Terms>
-        <Definition Link="">Een meetbare werkeenheid. Elke taak heeft een duur en kan hulpmiddelen en kosten verbruiken. U kunt op één enkele balk meerdere taken tekenen. Taken kunnen worden gesplitst door de allocatie van voortgang.</Definition>
+        <Definition Link="">Een meetbare werkeenheid. Elke taak heeft een duur en kan resources en kosten verbruiken. U kunt op één enkele balk meerdere taken tekenen. Taken kunnen worden gesplitst door de toewijzing van voortgang.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term162" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
@@ -1124,13 +1124,13 @@ Een netwerk van taken dat u als sjabloon kunt gebruiken voor het creëren van me
         <Terms>
             <Term>Verbruiksmiddel</Term>
         </Terms>
-        <Definition Link="">Een hulpmiddel dat wordt verbruikt doordat het in het project wordt gebruikt. Als een hoeveelheid van een verbruiksmiddel is toegewezen aan een taak, kan die hoeveelheid niet opnieuw worden gebruikt. Taken in een project kunnen verbruiksgoederen verbruiken of leveren.</Definition>
+        <Definition Link="">Een resource dat wordt verbruikt doordat het in het project wordt gebruikt. Als een hoeveelheid van een verbruiksmiddel is toegewezen aan een taak, kan die hoeveelheid niet opnieuw worden gebruikt. Taken in een project kunnen verbruiksgoederen verbruiken of leveren.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term181" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
-            <Term>Verdeelde allocatie</Term>
+            <Term>Verdeelde toewijzing</Term>
         </Terms>
-        <Definition Link="">Een hulpmiddelallocatie waarvan de inspanning wordt afgetrokken van een andere bestaande allocatie (meestal een hoofdallocatie).</Definition>
+        <Definition Link="">Een resourcetoewijzing waarvan de inspanning wordt afgetrokken van een andere bestaande toewijzing (meestal een hoofdtoewijzing).</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term182" conditions="" Stem="" IgnoreCase="false" TermClass="xxx">
         <Terms>
@@ -1166,13 +1166,13 @@ Een netwerk van taken dat u als sjabloon kunt gebruiken voor het creëren van me
         <Terms>
             <Term>Voortgang</Term>
         </Terms>
-        <Definition Link="">Voortgang markeert de datum totdat een taak of allocatie voltooid is. Zie ook: Percentage voltooid.</Definition>
+        <Definition Link="">Voortgang markeert de datum totdat een taak of toewijzing voltooid is. Zie ook: Percentage voltooid.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term188" conditions="" Stem="" IgnoreCase="false" TermClass="xxx">
         <Terms>
             <Term>Voortgang invoermodus</Term>
         </Terms>
-        <Definition Link="">Een werkmodus waarbij u voortgang op balken en allocaties kunt markeren door te klikken en te slepen op de balkkaart.</Definition>
+        <Definition Link="">Een werkmodus waarbij u voortgang op balken en toewijzingen kunt markeren door te klikken en te slepen op de balkkaart.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term189" conditions="" Stem="" IgnoreCase="false" TermClass="xxx">
         <Terms>
@@ -1236,7 +1236,7 @@ Een netwerk van taken dat u als sjabloon kunt gebruiken voor het creëren van me
         <Terms>
             <Term>Werk contouren</Term>
         </Terms>
-        <Definition Link="">Zie Hulpmiddel curve.</Definition>
+        <Definition Link="">Zie Resource curve.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term199" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
@@ -1266,7 +1266,7 @@ Een netwerk van taken dat u als sjabloon kunt gebruiken voor het creëren van me
         <Terms>
             <Term>Werk tempo</Term>
         </Terms>
-        <Definition Link="">Het tempo waarin een permanent hulpmiddel kan werken, of de snelheid waarmee taak werk kan worden uitgevoerd.   Bijvoorbeeld, wanneer een enkele metselaar 200 bakstenen per dag kan metselen aan een taak werkt heeft de taak een taak werk tempo van 200 bakstenen per dag; wanneer het mogelijk is om 100 meters pijpleiding aan te leggen per week bij een taak, dan heeft de taak een  taak werk tempo van 100 meter per week.</Definition>
+        <Definition Link="">Het tempo waarin een permanente resource kan werken, of de snelheid waarmee taak werk kan worden uitgevoerd.   Bijvoorbeeld, wanneer een enkele metselaar 200 bakstenen per dag kan metselen aan een taak werkt heeft de taak een taak werk tempo van 200 bakstenen per dag; wanneer het mogelijk is om 100 meters pijpleiding aan te leggen per week bij een taak, dan heeft de taak een  taak werk tempo van 100 meter per week.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term204" conditions="" Stem="" IgnoreCase="false" TermClass="xxx">
         <Terms>
@@ -1290,7 +1290,7 @@ Een netwerk van taken dat u als sjabloon kunt gebruiken voor het creëren van me
         <Terms>
             <Term>Work Breakdown Structure (WBS)</Term>
         </Terms>
-        <Definition Link="">Een work breakdown structure (WBS) is een hulpmiddel dat wordt gebruikt om de afzonderlijke werkonderdelen van een project (de taken van een project) te definiëren en te groeperen op een manier die helpt de totale werklast van het project te organiseren en te definiëren. Elk element binnen een work breakdown structure element kan staan voor een product, data, of dienst, of een combinatie van bovenstaande. Een WBS voorziet ook in een raamwerk voor gedetailleerde kostenraming en controles. Een work breakdown structure is een boomstructuur waarin alle elementen op een niveau worden samengevat door elementen in het bovenliggende niveau. Een WBS is nuttig wanneer u het werk dat komt kijken bij een project onder wilt verdelen, beginnend met de hoofdfases van het project en uitbreidend naar de individuele taken die moeten worden uitgevoerd. Ieder element binnen een WBS heeft een eigen alfanumerieke WBS code en een beschrijvende WBS naam.</Definition>
+        <Definition Link="">Een work breakdown structure (WBS) is een resource dat wordt gebruikt om de afzonderlijke werkonderdelen van een project (de taken van een project) te definiëren en te groeperen op een manier die helpt de totale werklast van het project te organiseren en te definiëren. Elk element binnen een work breakdown structure element kan staan voor een product, data, of dienst, of een combinatie van bovenstaande. Een WBS voorziet ook in een raamwerk voor gedetailleerde kostenraming en controles. Een work breakdown structure is een boomstructuur waarin alle elementen op een niveau worden samengevat door elementen in het bovenliggende niveau. Een WBS is nuttig wanneer u het werk dat komt kijken bij een project onder wilt verdelen, beginnend met de hoofdfases van het project en uitbreidend naar de individuele taken die moeten worden uitgevoerd. Ieder element binnen een WBS heeft een eigen alfanumerieke WBS code en een beschrijvende WBS naam.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term208" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
@@ -1344,7 +1344,7 @@ Een netwerk van taken dat u als sjabloon kunt gebruiken voor het creëren van me
         <Terms>
             <Term>Heat map</Term>
         </Terms>
-        <Definition Link="">Een hulpmiddel inzet view die geconfigureerd is om informatie over permanente hulpmiddelallocaties weer te geven, hetgeen een visuele indicatie verschaft over of de hulpmiddelen onder-bezet, volledig bezet, of overbezet zijn tijdens elke dag, week, maand of kwartaal.</Definition>
+        <Definition Link="">Een resource inzet view die geconfigureerd is om informatie over permanente resourcetoewijzingen weer te geven, hetgeen een visuele indicatie verschaft over of de resources onder-bezet, volledig bezet, of overbezet zijn tijdens elke dag, week, maand of kwartaal.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term217" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false" TermClass="PPalleen">
         <Terms>
@@ -1440,7 +1440,7 @@ Een netwerk van taken dat u als sjabloon kunt gebruiken voor het creëren van me
         <Terms>
             <Term>Duur percentage voltooid voortgang</Term>
         </Terms>
-        <Definition Link="">Een manier van meten van voortgang die gebaseerd is op het percentage van de voltooide duur van een taak. Bijvoorbeeld: als 40% van een taak voltooid is, kunt u opgeven dat 40% voltooid is, en dat de overgebleven 60% nog voltooid moet worden. Dit is een simpele methode om de voortgang te berekenen. Op deze manier is de voortgang van een taak altijd gekoppeld aan de duur van een taak. Deze manier van berekenen is het beste als u hulpmiddelen aan uw taken toewijst.</Definition>
+        <Definition Link="">Een manier van meten van voortgang die gebaseerd is op het percentage van de voltooide duur van een taak. Bijvoorbeeld: als 40% van een taak voltooid is, kunt u opgeven dat 40% voltooid is, en dat de overgebleven 60% nog voltooid moet worden. Dit is een simpele methode om de voortgang te berekenen. Op deze manier is de voortgang van een taak altijd gekoppeld aan de duur van een taak. Deze manier van berekenen is het beste als u resources aan uw taken toewijst.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term234" TermClass="PPalleen" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false">
         <Terms>
@@ -1452,7 +1452,7 @@ Een netwerk van taken dat u als sjabloon kunt gebruiken voor het creëren van me
         <Terms>
             <Term>Kalender view</Term>
         </Terms>
-        <Definition Link="">Een kalender views waarin de taken in één of meer kaarten of samenvattingsgroepen in een kalender- of agenda-indeling weergegeven worden, waarbij de taken getoond worden die in een project binnen een bepaalde periode worden weergegeven, bijvoorbeeld een week of een maand. Kalender views kunnen ook worden gebruikt om de toewijzingen weer te geven die binnen een bepaalde periode voor specifieke hulpmiddelen of kostenplaatsen worden getoond.</Definition>
+        <Definition Link="">Een kalender views waarin de taken in één of meer kaarten of samenvattingsgroepen in een kalender- of agenda-indeling weergegeven worden, waarbij de taken getoond worden die in een project binnen een bepaalde periode worden weergegeven, bijvoorbeeld een week of een maand. Kalender views kunnen ook worden gebruikt om de toewijzingen weer te geven die binnen een bepaalde periode voor specifieke resources of kostenplaatsen worden getoond.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term236" TermClass="xxx" conditions="" Stem="" IgnoreCase="false">
         <Terms>
@@ -1501,13 +1501,13 @@ Een netwerk van taken dat u als sjabloon kunt gebruiken voor het creëren van me
             <Term>Overall percentage voltooid voortgang</Term>
         </Terms>
         <Definition Link="">Een manier van voortgang meten die onafhankelijk is van de duur van een taak. Bijvoorbeeld, als 20% van de geplande duur van een taak is verstreken, maar 50 % van de taak is voltooid, kunt u aangeven dat als percentage van de duur van de taak 20% voltooid is, maar dat ze 50% overall voltooid. Veranderingen aan de werkelijke of resterende duur zullen de overall percentage voltooid waarde niet veranderen.
-De voortgang op deze manier berekenen is het meest handig als u geen hulpmiddelen aan taken toewijst.</Definition>
+De voortgang op deze manier berekenen is het meest handig als u geen resources aan taken toewijst.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term244" TermClass="xxx" conditions="" Stem="" IgnoreCase="false">
         <Terms>
             <Term>Mijlpaalweergave</Term>
         </Terms>
-        <Definition Link="">Een bibliotheek met vormen die kunnen worden toegepast op mjipalen om onderscheid aan te brengen tussen hen. U kunt verschillende standaard mijlpaalweergaven specificeren die moeten worden toegepast op startmijlpalen en eindmijlpalen, en u kunt verschillende mijlpaalweergaven opgeven voor afzonderlijke verbruiksgoederen, permanente hulpmiddelen, kostengroepen individuele allocaties.</Definition>
+        <Definition Link="">Een bibliotheek met vormen die kunnen worden toegepast op mjipalen om onderscheid aan te brengen tussen hen. U kunt verschillende standaard mijlpaalweergaven specificeren die moeten worden toegepast op startmijlpalen en eindmijlpalen, en u kunt verschillende mijlpaalweergaven opgeven voor afzonderlijke verbruiksgoederen, permanente resources, kostengroepen individuele toewijzingen.</Definition>
     </GlossaryEntry>
     <GlossaryEntry glossTerm="powerproject.Term245" TermClass="PPalleen" conditions="Powerproject_Easyplan.Powerproject_only" Stem="" IgnoreCase="false">
         <Terms>

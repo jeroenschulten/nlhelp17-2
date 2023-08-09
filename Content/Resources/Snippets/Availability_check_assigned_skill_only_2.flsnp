@@ -2,5 +2,7 @@
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
-    <body>This check box affects the availability checking that you can turn on using the <b>Overallocation check</b> and <b>Show availability in resource assignment menus</b> fields.</body>
+    <body>
+        <p>Dit selectievakje is van invloed op de beschikbaarheidscontrole die u kunt inschakelen met de velden <b>Overbezettingscontrole</b> en <b>Toon Beschikbaarheid</b> in de resourcetoewijzingsmenu's.</p>
+    </body>
 </html>
