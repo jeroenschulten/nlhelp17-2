@@ -2,5 +2,7 @@
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
-    <body>If a task has an existing task activity with an identical name to one of the activities in the template, a warning is displayed and none of the task activities from the template are added to the task.</body>
+    <body>
+        <p>Als een taak een bestaande taakactivity heeft met een naam die identiek is aan een van de activities in de sjabloon, wordt er een waarschuwing weergegeven en worden geen van de taakactivities uit de sjabloon aan de taak toegevoegd.</p>
+    </body>
 </html>

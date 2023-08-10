@@ -1,4 +1,4 @@
-// [Header file created by Help ID Fixer at 08:57:23 on 07 Jan 2005]
+﻿// [Header file created by Help ID Fixer at 08:57:23 on 07 Jan 2005]
 // [Allocated ID range = 1000 to 1999]
 ////////////////////////////////////////////////////////////////////////
 //
@@ -35,7 +35,8 @@ typedef INT32 HELP_ZONE;
 #define IDH_HZHISTOGRAMBAR                                                       1009	//Histogram toolbar
 #define IDH_HZLOB_DATA                                                           1010	// Line of balance pane
 #define IDH_HZLOB_GRAPH                                                          1011	// Line of balance pane
-#define IDH_LAST_HELP_ZONE                                                       1012
+#define	IDH_GLOBAL_LIBRARY_EXPLORER												 1012
+#define IDH_LAST_HELP_ZONE                                                       1013
 
 // BUGFIX 23188 12.0.01 dick broughton 06/10/2011 -- many irrelevant help-zones removed
 #define IDH_HZMESSAGEAREAZONE                                                    1031

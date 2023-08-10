@@ -238,17 +238,14 @@
       Link="/Content/HTML_Topics/Conceptual/Activation/Moving_licences.htm" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/HTML_Topics/Conceptual/Activation/Loaning_licences.htm"
       conditions="Powerproject_Easyplan.Powerproject_only" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/HTML_Topics/Conceptual/Activation/Licensing_view_status.htm" />
     <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/HTML_Topics/Conceptual/Activation/Licence_history.htm" />
+      Title="[%=System.LinkedTitle%]" />
     <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/HTML_Topics/Conceptual/Activation/Licensing_reset.htm" />
+      Title="[%=System.LinkedTitle%]" />
   </TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultGlossary>
   <GlossaryEntry
     glossTerm="powerproject.Term0"
@@ -58,7 +58,7 @@
       <Term>Archiving</Term>
     </Terms>
     <Definition
-      Link="">The act of moving historical data from a live project into an archive file. You can only archive data if you use Asta Powerproject Enterprise. A project can have more than one archive. You may, for example, want to create a single archive for a project, and update it each time you archive data. Alternatively, you may want to create a different archive each time you archive data. Archives can be located in a different data source to the corresponding projects, provided that each archive is located on the same Enterprise server as the project. Data from any baselines that are associated with a project is archived into a separate baseline archive. As with project archives, baseline archives can be located in a different data source to the corresponding baseline, provided that each baseline archive is located on the same Enterprise server as the baseline.</Definition>
+      Link="">The act of moving historical data from a live project into an archive file. You can only archive data if you use Asta Enterprise. A project can have more than one archive. You may, for example, want to create a single archive for a project, and update it each time you archive data. Alternatively, you may want to create a different archive each time you archive data. Archives can be located in a different data source to the corresponding projects, provided that each archive is located on the same Enterprise server as the project. Data from any baselines that are associated with a project is archived into a separate baseline archive. As with project archives, baseline archives can be located in a different data source to the corresponding baseline, provided that each baseline archive is located on the same Enterprise server as the baseline.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="powerproject.Term6"
@@ -80,7 +80,7 @@
       <Term>Archive Manager</Term>
     </Terms>
     <Definition
-      Link="">An application that Asta Powerproject Enterprise users can use to archive data from their live projects and baselines, and to restore previously-archived data back into their live projects and baselines.</Definition>
+      Link="">An application that Asta Enterprise users can use to archive data from their live projects and baselines, and to restore previously-archived data back into their live projects and baselines.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="powerproject.Term8"
@@ -555,7 +555,7 @@
       <Term>Enterprise server</Term>
     </Terms>
     <Definition
-      Link="">The computer and software system responsible for providing most of Asta Powerproject Enterprise's functionality to the Asta Powerproject clients. The Enterprise server may be run from the same computer as the database server.</Definition>
+      Link="">The computer and software system responsible for providing most of Asta Enterprise's functionality to the Asta Powerproject clients. The Enterprise server may be run from the same computer as the database server.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="powerproject.Term60"
@@ -1223,7 +1223,7 @@
       <Term>Project view</Term>
     </Terms>
     <Definition
-      Link="">The graphical representation of the project hierarchy, usually the left-most pane of the bar chart window. In Asta Powerproject, a project view is also a view that has been defined by a Asta Powerproject user with specific rights to create such a view. Project views are accessible to all other users in Asta Powerproject.</Definition>
+      Link="">The graphical representation of the project hierarchy, usually the left-most pane of the bar chart window. In Asta Powerproject, a project view is also a view that has been defined by an Asta Powerproject user with specific rights to create such a view. Project views are accessible to all other users in Asta Powerproject.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="powerproject.Term135"
@@ -1401,7 +1401,7 @@
       <Term>Restoring</Term>
     </Terms>
     <Definition
-      Link="">The act of moving previously-archived data from an archive back into a live project. When you restore data back into a project, any corresponding baseline data that has been archived is restored back into the appropriate baselines at the same time. You can only archive and restore data if you use Asta Powerproject Enterprise.</Definition>
+      Link="">The act of moving previously-archived data from an archive back into a live project. When you restore data back into a project, any corresponding baseline data that has been archived is restored back into the appropriate baselines at the same time. You can only archive and restore data if you use Asta Enterprise.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="powerproject.Term155"
@@ -2095,7 +2095,7 @@
     IgnoreCase="false"
     conditions="Powerproject_Easyplan.Powerproject_only">
     <Terms>
-      <Term>Asta Powerproject Vision</Term>
+      <Term>Asta Vision</Term>
     </Terms>
     <Definition
       Link="">A web-based application that stores your Asta Powerproject projects in a single location in the Cloud.</Definition>
@@ -2109,7 +2109,7 @@
       <Term>Vision</Term>
     </Terms>
     <Definition
-      Link="">See Asta Powerproject Vision.</Definition>
+      Link="">See Asta Vision.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="powerproject.Term232"
@@ -2120,7 +2120,7 @@
       <Term>Asta Powerproject Managed Baselines</Term>
     </Terms>
     <Definition
-      Link="">A mode of working with Asta Powerproject Vision in which once a baseline copy of a programme is available, provided that the programme is not in progress, the baseline is checked out along with the programme automatically and you can choose whether or not to check in the baseline when you check in the programme. Using this baseline behaviour, you can merge changes to a programme into baselines manually, using Asta Powerproject's standard baseline merge functionality.</Definition>
+      Link="">A mode of working with Asta Vision in which once a baseline copy of a programme is available, provided that the programme is not in progress, the baseline is checked out along with the programme automatically and you can choose whether or not to check in the baseline when you check in the programme. Using this baseline behaviour, you can merge changes to a programme into baselines manually, using Asta Powerproject's standard baseline merge functionality.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="powerproject.Term233"
@@ -2131,7 +2131,7 @@
       <Term>Vision Managed Baselines</Term>
     </Terms>
     <Definition
-      Link="">A mode of working with Asta Powerproject Vision in which baselines are not checked in and out along with the corresponding programme. A copy of the baseline is downloaded automatically when you check out the corresponding programme, for viewing purposes only. Using this baseline behaviour, you cannot merge changes to a programme into baselines manually and any changes you make to a baseline in Asta Powerproject are lost as they are not uploaded when you check in the programme.</Definition>
+      Link="">A mode of working with Asta Vision in which baselines are not checked in and out along with the corresponding programme. A copy of the baseline is downloaded automatically when you check out the corresponding programme, for viewing purposes only. Using this baseline behaviour, you cannot merge changes to a programme into baselines manually and any changes you make to a baseline in Asta Powerproject are lost as they are not uploaded when you check in the programme.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="powerproject.Term234"
@@ -2366,7 +2366,7 @@
       <Term>JSON</Term>
     </Terms>
     <Definition
-      Link="">JavaScript Object Notation. A data interchange file format that is easy for humans to read and write, and easy for computers to parse and generate. Asta Powerproject uses this file format when you export quality metrics from a quality check and you can import these files into other projects and upload these files to create quality checks in Asta Powerproject Vision.</Definition>
+      Link="">JavaScript Object Notation. A data interchange file format that is easy for humans to read and write, and easy for computers to parse and generate. Asta Powerproject uses this file format when you export quality metrics from a quality check and you can import these files into other projects and upload these files to create quality checks in Asta Vision.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Powerproject_Easyplan.Term4"
@@ -2421,5 +2421,27 @@
     </Terms>
     <Definition
       Link="">A time-based view of a project that you can use to display a visual summary of a project. You can choose which tasks and milestones to add to the timeline. It is usual to add high-level tasks - perhaps top level summary tasks - and key milestones. Timelines give you an easy way of reporting the progress of a project at a high level to stakeholders who do not want - or need - to view detailed information about a project.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Powerproject_Easyplan.Term8"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only,Powerproject_Easyplan.V17_Vision_global_libraries">
+    <Terms>
+      <Term>Global libraries</Term>
+    </Terms>
+    <Definition
+      Link="">Calendars, codes, progress periods, quality checks and resources that can be stored in Asta Vision and used in any number of individual projects, saving you from having to set up the same libraries in your projects multiple times. If you use global libraries, you use the Global Library Explorer to manage the library objects.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Powerproject_Easyplan.Term10"
+    conditions="Powerproject_Easyplan.V17_Vision_global_libraries,Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Global Library Explorer</Term>
+    </Terms>
+    <Definition
+      Link="">A special version of Library Explorer than you use to manage global calendars, codes, progress periods, quality checks and resources that are stored in Asta Vision and can be used in any number of individual projects, saving you from having to set up the same libraries in your projects multiple times.</Definition>
   </GlossaryEntry>
 </CatapultGlossary>

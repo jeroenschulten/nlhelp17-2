@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultSkin
-  Version="1"
+  Version="6"
   SkinType="WebHelp2"
   ComponentType="MasterPage"
   TemplateName="Fluid"
@@ -47,14 +47,14 @@
           <Property
             Name="PaddingBottom">15px</Property>
           <Property
-            Name="BackgroundColor">#e42313</Property>
+            Name="BackgroundColor">#ff3939</Property>
         </Properties>
       </Style>
       <Style
         Name="Logo">
         <Properties>
           <Property
-            Name="BackgroundImage">url('EasyplanHelp28ptRoboto.png')</Property>
+            Name="BackgroundImage">url('AEPHelp28ptRoboto.png')</Property>
         </Properties>
       </Style>
       <Style
@@ -231,7 +231,7 @@
           <Property
             Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
           <Property
-            Name="Color">#e42313</Property>
+            Name="Color">#ff3939</Property>
           <Property
             Name="FontSize">16px</Property>
         </Properties>
@@ -240,7 +240,7 @@
         Name="Search Result Link (active)">
         <Properties>
           <Property
-            Name="Color">#e42313</Property>
+            Name="Color">#ff3939</Property>
           <Property
             Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
           <Property
@@ -253,7 +253,7 @@
           <Property
             Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
           <Property
-            Name="Color">#e42313</Property>
+            Name="Color">#ff3939</Property>
           <Property
             Name="FontSize">16px</Property>
         </Properties>
@@ -264,7 +264,7 @@
           <Property
             Name="TextDecoration">none</Property>
           <Property
-            Name="Color">#e42313</Property>
+            Name="Color">#ff3939</Property>
           <Property
             Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
         </Properties>
@@ -318,14 +318,14 @@
           <Property
             Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
           <Property
-            Name="Color">#e42313</Property>
+            Name="Color">#ff3939</Property>
         </Properties>
       </Style>
       <Style
         Name="Search Suggestion Link">
         <Properties>
           <Property
-            Name="Color">#e42313</Property>
+            Name="Color">#ff3939</Property>
           <Property
             Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
         </Properties>
@@ -370,7 +370,7 @@
           <Property
             Name="FontStyle">normal</Property>
           <Property
-            Name="BorderLeft">solid 5px #e42313</Property>
+            Name="BorderLeft">solid 5px #ff3939</Property>
           <Property
             Name="BorderTopLeftRadius">5px</Property>
           <Property
@@ -510,7 +510,7 @@
             <Property
               Name="BackgroundColor">transparent</Property>
             <Property
-              Name="BackgroundImage">url('menuicon_orange.png')</Property>
+              Name="BackgroundImage">url('menuicon_coral.png')</Property>
           </Properties>
         </Style>
         <Style
@@ -559,11 +559,11 @@
     <Resources>
       <Resource
         Name="searchmagnifyingglass.gif">H4sIAAAAAAAEAHP3dLOwTJRkkGT4/p9BTU3NwMDAzMzMysrK1tbWwcHBxcXF3d3dz88vMDAwOjo6KSkpNTU1JycnPz+/srKypqamubm5ra2tvb29t7d3woQJEydOnDJlyvTp02fNmjV//vwFCxasWLFi69atu3fv3rNnz/79+w8dOnT06NETJ06cPHnyzJkzZ8+ePX/+/OXLl69du3bz5s27d+8+ePDg8ePHT548ef78+atXr969e/fly5fv37///v2bYRSMAloCHRABygsMHE8ZMjlkMpKYmhgYmFRmTEhacLidKVTDoIDRlUfKwC9A4UID65F2WbaCGR8D3dgYFey4eG4GLD0gyOJUE2K4YKl3oxLbjoYVDYfPtovK2OgkNjw532jEUSFj8fDQxXZBAwuXhM+avPzcMmw7MkIfcDHzMZbI/ljUELYuNlymYMaDIzdW88h4bfjwzZGtXbOrrNdwwdHDbOVrgyoYJh5tEPJ3FGn4aMjCeMTckeXCA6MjDDxGdscWBCQcZhDSi7VQEGBk4ZbQtnOQ+NDwseO8eWRCRMKCA4xskn/4anh/vXW+t6/+MN++aotCKWU+FhYGawCIi9A5AAQAAA==</Resource>
-      <Resource
-        Name="menuicon_orange.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0pJALMzBBCRfCRiCBHRKXCNKnItSE0sy8/MUQjJzUxlCSlMVjCwV/PLLFIwMjIwUDI2tDE2sjA0UdA2AQGjuz0tAfewlnr6u7M94WDl5uE8FPmIHCnEWeEQWMzDwHQZhxuP5K1KAgizpjr6ODAwb+7n/JLIC+YaeLo4hFbeSKxbp+OgeYTjyX5Ptisnr0C32vGeYlBTahVo+KJserjORc39caCLXHm/DxLDXfuED+VUFukDNDJ6ufi7rnBKaAKvNLjfaAAAA</Resource>
       
       <Resource
-        Name="EasyplanHelp28ptRoboto.png">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</Resource>
+        Name="AEPHelp28ptRoboto.png">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</Resource>
+      <Resource
+        Name="menuicon_coral.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0pJALMzBBCRfCRiCBHRKXCNKnItSE0sy8/MUQjJzUxlCSlMVjCwV/PLLFIwMjIwUDI2tDE2sjA0UdA2AQGjuz0tAfewlnr6u7M/ZZDkM9CcoLcwCCnEWeEQWMzDwHQZhxuP5K1KAgizpjr6ODAwb+7n/JLIC+QaeLo4hFbeSf+RneuoeYVikwR5i8jp0i73umU1bWIo0HD3qlqTd6D/2OMOm79jjDd3uDLwrXky4d948EKiXwdPVz2WdU0ITAMigL2rZAAAA</Resource>
     </Resources>
     <Stylesheet></Stylesheet>
   </Stylesheet>

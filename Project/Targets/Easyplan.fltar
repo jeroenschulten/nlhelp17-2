@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
-  Comment="Easyplan Help"
+  Comment="Asta Easyplan Help"
   Type="WebHelp2"
   Destinations=""
   GlossaryTermConversion="marked"
@@ -11,23 +11,11 @@
   PreCompileScaledImages="false"
   MasterStylesheet="/Content/Resources/Stylesheets/Web_Stylesheet.css"
   MasterToc="/Project/TOCs/Powerproject_Easyplan.fltoc"
-  ConditionTagExpression="include[Powerproject_Easyplan.Easyplan_only] exclude[Powerproject_Easyplan.Powerproject_only] "
+  ConditionTagExpression="include[Powerproject_Easyplan.Easyplan_only or Powerproject_Easyplan.V17_Auto_save or Powerproject_Easyplan.V17_Project_timeline or Powerproject_Easyplan.V17_Tab_colouring], exclude[Powerproject_Easyplan.Powerproject_only or Powerproject_Easyplan.V17_Assignment_options or Powerproject_Easyplan.V17_Backstage_changes or Powerproject_Easyplan.V17_Edit_assignments_rights or Powerproject_Easyplan.V17_Edit_resource_allocation_task_rights or Powerproject_Easyplan.V17_Link_activity_finishes_metric or Powerproject_Easyplan.V17_Print_preview_rights or Powerproject_Easyplan.V17_Production_rates or Powerproject_Easyplan.V17_Reschedule_rights or Powerproject_Easyplan.V17_Shade_between_dates_histograms or Powerproject_Easyplan.V17_Task_activities or Powerproject_Easyplan.V17_Vision_global_libraries]"
   ExcludeUnreferencedContent="true"
   AliasFile="/Project/Advanced/easyplan.flali"
   conditions="Powerproject_Easyplan.Easyplan_only"
   MasterPage="/Content/Resources/Template_Files/Topic_Template_EP.flmsp">
   <PrintedOutput
     CollapseMargins="true" />
-  <MicroContentSearch>
-    <FeaturedSnippets
-      type="AllFiles"
-      numberOfResults="1">
-      <microContentSubset />
-    </FeaturedSnippets>
-    <KnowledgePanel
-      type="Empty"
-      numberOfResults="1">
-      <microContentSubset />
-    </KnowledgePanel>
-  </MicroContentSearch>
 </CatapultTarget>

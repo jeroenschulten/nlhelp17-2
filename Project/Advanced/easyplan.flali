@@ -51,7 +51,6 @@
     <Map Name="IDH_HZPROJECTTREE" Link="/Content/HTML_Topics/Other/S_Projectview.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_HZSPREADSHEET" Link="/Content/HTML_Topics/Other/S_Spreadsheet.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_ABOUTBOX" Link="/Content/HTML_Topics/Dialogs/D_About.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_PREAMBLE_DLG" Link="/Content/HTML_Topics/Dialogs/D_Activationpreamble.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_USER_CREDENTIALS" Link="/Content/HTML_Topics/Dialogs/D_Activationuserdetails.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_ADD_EXCEPTION_TO_CALENDAR_DLG" Link="/Content/HTML_Topics/Dialogs/D_Addexception.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_PROP_ANNOT_GENERAL" Link="/Content/HTML_Topics/Dialogs/D_Annotationpropgen.htm" Skin="/Project/Skins/Easyplan.flskn" />
@@ -59,8 +58,6 @@
     <Map Name="IDH_APPEARANCE" Link="/Content/HTML_Topics/Dialogs/D_Appearance.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_PROP_RES_PERM_APPEARANCE" Link="/Content/HTML_Topics/Dialogs/D_Appearance.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_PROP_RES_PERM_SKILL_APPEARANCE" Link="/Content/HTML_Topics/Dialogs/D_Appearance.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_LICENSING_STATUS_RESET" Link="/Content/HTML_Topics/Dialogs/D_Astalicencereset.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_NO_CONNECTION" Link="/Content/HTML_Topics/Dialogs/D_Autoactivateunavailable.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_BAR_DEFAULTS_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Barchartdefprop.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_ANNOTATION_DEFAULTS_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Barchartdefpropannotations.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_LINK_DEFAULTS_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Barchartdefproplink.htm" Skin="/Project/Skins/Easyplan.flskn" />
@@ -170,7 +167,6 @@
     <Map Name="IDH_HISTOREPORT" Link="/Content/HTML_Topics/Dialogs/D_Histogramrepprop.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_HISTOGRAPHS" Link="/Content/HTML_Topics/Dialogs/D_Histogramreppropgraphstab.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_HTML_EXPORT_DIALOG" Link="/Content/HTML_Topics/Dialogs/D_HTMLexport.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_LICENSING_HISTORY_VIEW" Link="/Content/HTML_Topics/Dialogs/D_Licencehistoryview.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_ARROWS" Link="/Content/HTML_Topics/Dialogs/D_Linepainter.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_LINEPAINTER" Link="/Content/HTML_Topics/Dialogs/D_Linepainter.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_LINES" Link="/Content/HTML_Topics/Dialogs/D_Linepainter.htm" Skin="/Project/Skins/Easyplan.flskn" />
@@ -184,20 +180,7 @@
     <Map Name="IDH_LOGON" Link="/Content/HTML_Topics/Dialogs/D_Logon.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_MESSAGELOG" Link="/Content/HTML_Topics/Dialogs/D_Messagelog.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_MORE_SORTS" Link="/Content/HTML_Topics/Dialogs/D_Moresorts.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_MOVE_STANDALONE_LICENCE_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Moveastalicence.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_MOVE_STANDALONE_LICENCE_DETAILS_NEEDED_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Moveastalicencedetailsneeded.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_EXPANDED_TASK_DIALOG" Link="/Content/HTML_Topics/Dialogs/D_Movebarschart.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_MOVE_LICENCE_BROWSE_FOR_SOURCE_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Movelicencewizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_MOVE_LICENCE_TO_THIS_PC_TARGET_REQUEST_KEY_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Movelicencewizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_MOVE_LICENCE_BROWSE_FOR_TARGET_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Movelicencewizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_MOVE_LICENCE_FROM_THIS_PC_FINISHED_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Movelicencewizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_MOVE_LICENCE_FROM_THIS_PC_RESPONSE_CODE_FOR_TARGET_PC_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Movelicencewizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_MOVE_LICENCE_FROM_THIS_PC_OBTAIN_CODE_FROM_SOURCE_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Movelicencewizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_MOVE_LICENCE_INTRO_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Movelicencewizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_MOVE_LICENCE_QUERY_FROM_OR_TO_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Movelicencewizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_MOVE_LICENCE_QUERY_NETWORK_TRANSFER_OR_MANUAL_CODES_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Movelicencewizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_MOVE_LICENCE_SELECT_CONNECTION_LICENCE_TO_USE_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Movelicencewizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_MOVE_LICENCE_TO_THIS_PC_TARGET_LICENCE_KEY_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Movelicencewizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_ANNO_OBJECT_CHOOSER" Link="/Content/HTML_Topics/Dialogs/D_Objectchooser.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_PROP_OLE_ANNOT_GENERAL" Link="/Content/HTML_Topics/Dialogs/D_Oleannopropgen.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_PROP_OLE_ANNOT_SCALING" Link="/Content/HTML_Topics/Dialogs/D_Oleannopropscale.htm" Skin="/Project/Skins/Easyplan.flskn" />
@@ -223,31 +206,6 @@
     <Map Name="IDH_PRINT_APPEARANCE" Link="/Content/HTML_Topics/Dialogs/D_Printappearance.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_PRINT_DETAILS" Link="/Content/HTML_Topics/Dialogs/D_Printdetails.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_PRINT_SCALING" Link="/Content/HTML_Topics/Dialogs/D_Printscaling.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_ADD_LICENCE_LICENCE_CODE_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Productactivationwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_ADD_LICENCE_QUERY_RECEIVED_CODE_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Productactivationwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_ADD_LICENCE_REQUEST_CODE_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Productactivationwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_LICENSE_BROWSE_EXISTING_OR_MOVE_LICENCE_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Productactivationwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_LICENSE_BROWSE_FOR_FOLDER_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Productactivationwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_LICENSE_CONFIGURE_LICENCE_SERVER_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Productactivationwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_LICENSE_TEAMPLAN_SERIAL_NUMBER_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Productactivationwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_LICENSE_TEAMPLAN_LOCAL_OR_BROWSE_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Productactivationwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_LICENSE_TEAMPLAN_EXPIRED_TRIAL_LOCAL_OR_BROWSE_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Productactivationwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_LICENSE_TEAMPLAN_LICENCE_AGREEMENT_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Productactivationwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_LICENSE_SELECTED_EXISTING_LICENCE_FINISHED_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Productactivationwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_LICENSE_SEEK_OR_LOCATE_LICENCE_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Productactivationwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_LICENSE_SEARCH_RESULTS_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Productactivationwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_LICENSE_QUERY_WAIT_FOR_LICENCE_KEY_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Productactivationwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_LICENSE_QUERY_WAIT_FOR_LICENCE_KEY_EXPIRED_TRIAL_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Productactivationwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_LICENSE_WIZARD_S1B_SERIAL_NUMBER" Link="/Content/HTML_Topics/Dialogs/D_Productactivationwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_LICENSE_WIZARD_S2_REQUEST_ACTIVATION_KEY" Link="/Content/HTML_Topics/Dialogs/D_Productactivationwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_LICENSE_WIZARD_S1_PURCHASED_OR_EXISTING" Link="/Content/HTML_Topics/Dialogs/D_Productactivationwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_LICENSE_WIZARD_S3_RECEIVED_ACTIVATION_KEY" Link="/Content/HTML_Topics/Dialogs/D_Productactivationwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_LICENSE_WIZARD_S4_PASTE_ACTIVATION_KEY" Link="/Content/HTML_Topics/Dialogs/D_Productactivationwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_LICENSE_WIZARD_S5_NOW_LICENSED" Link="/Content/HTML_Topics/Dialogs/D_Productactivationwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_LICENSE_WIZARD_S6_KNOW_WHERE_LICENCE_LOCATED" Link="/Content/HTML_Topics/Dialogs/D_Productactivationwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_LICENSE_WIZARD_S7_WHERE_IS_LICENCE_LOCATED" Link="/Content/HTML_Topics/Dialogs/D_Productactivationwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_LICENSE_WIZARD_S8_SEARCHING_FOR_LICENCES" Link="/Content/HTML_Topics/Dialogs/D_Productactivationwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_SEARCHING_FOR_A_LICENCE" Link="/Content/HTML_Topics/Dialogs/D_Productactivationwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_PROGRESS_PERIOD_DETAILS" Link="/Content/HTML_Topics/Dialogs/D_Progperiodprop.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_GROUPPROJECT" Link="/Content/HTML_Topics/Dialogs/D_Projectprop.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_GROUPPROJECTDISABLED" Link="/Content/HTML_Topics/Dialogs/D_Projectprop.htm" Skin="/Project/Skins/Easyplan.flskn" />
@@ -326,11 +284,6 @@
     <Map Name="IDH_PROP_TEXT_ANNOT_GENERAL" Link="/Content/HTML_Topics/Dialogs/D_Textannopropgen.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_TIME_ENTRY_DIALOG" Link="/Content/HTML_Topics/Dialogs/D_Timeedit.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_PROP_TIME_UNIT_DETAILS" Link="/Content/HTML_Topics/Dialogs/D_Timeunitprop.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_EXTEND_TRIAL_LICENCE_CODE_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Trialextensionwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_EXTEND_TRIAL_QUERY_RECEIVED_CODE_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Trialextensionwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_EXTEND_TRIAL_QUERY_WAIT_FOR_LICENCE_KEY_EXPIRED_TRIAL_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Trialextensionwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_EXTEND_TRIAL_QUERY_WAIT_FOR_LICENCE_KEY_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Trialextensionwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
-    <Map Name="IDH_EXTEND_TRIAL_REQUEST_CODE_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Trialextensionwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_USER_DEFINED_TABLE_GRID" Link="/Content/HTML_Topics/Dialogs/D_UDTtab.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_PROP_UNIQUE_TASK_ID" Link="/Content/HTML_Topics/Dialogs/D_Uniquetaskidnumbering.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_USER_DEFINED_FIELDS_GRID" Link="/Content/HTML_Topics/Dialogs/D_Userfieldstab.htm" Skin="/Project/Skins/Easyplan.flskn" />
@@ -403,4 +356,17 @@
     <Map Name="IDH_ORGANISE_TASKS_WIZARD_PAGE2_DETAIL" Link="/Content/HTML_Topics/Dialogs/D_Organisetaskswizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_RESCHEDULE_OUTCOME" Link="/Content/HTML_Topics/Dialogs/D_RescheduleOutcome.htm" Skin="/Project/Skins/Easyplan.flskn" />
     <Map Name="IDH_CALENDAR_VIEW_PROPERTIES_CALENDAR_VIEW_DETAILS_TAB" Link="/Content/HTML_Topics/Dialogs/D_Calendarviewproperties.htm" Skin="/Project/Skins/Easyplan.flskn" />
+    <Map Name="IDH_FILE_OPEN_ERROR" Link="/Content/HTML_Topics/Dialogs/D_Fileopenerror.htm" Skin="/Project/Skins/Easyplan.flskn" />
+    <Map Name="IDH_IMPORT_EXCEPTIONS_FROM_EXCEL" Link="/Content/HTML_Topics/Dialogs/D_Importexceptions.htm" Skin="/Project/Skins/Easyplan.flskn" />
+    <Map Name="IDH_PRINT_PROFILE_PROP_APPEARANCE_TAB" Link="/Content/HTML_Topics/Dialogs/D_Printprofileappearance.htm" Skin="/Project/Skins/Easyplan.flskn" />
+    <Map Name="IDH_PRINT_PROFILE_PROP_DETAILS_TAB" Link="/Content/HTML_Topics/Dialogs/D_Printprofiledetails.htm" Skin="/Project/Skins/Easyplan.flskn" />
+    <Map Name="IDH_PRINT_PROFILE_PROP_OUTPUT_TAB" Link="/Content/HTML_Topics/Dialogs/D_Printprofileoutput.htm" Skin="/Project/Skins/Easyplan.flskn" />
+    <Map Name="IDH_PRINT_PROFILE_PROP_SCALING_TAB" Link="/Content/HTML_Topics/Dialogs/D_Printscaling.htm" Skin="/Project/Skins/Easyplan.flskn" />
+    <Map Name="IDH_MATERIAL_PROPERTIES" Link="/Content/HTML_Topics/Dialogs/D_Materialprop.htm" Skin="/Project/Skins/Easyplan.flskn" />
+    <Map Name="IDH_BACKSTAGEPAGE_HOME" Link="/Content/HTML_Topics/Dialogs/D_Backstagehome.htm" Skin="/Project/Skins/Easyplan.flskn" />
+    <Map Name="IDH_EXTEND_TRIAL_LICENCE_CODE_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Trialextensionwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
+    <Map Name="IDH_EXTEND_TRIAL_QUERY_RECEIVED_CODE_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Trialextensionwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
+    <Map Name="IDH_EXTEND_TRIAL_QUERY_WAIT_FOR_LICENCE_KEY_EXPIRED_TRIAL_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Trialextensionwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
+    <Map Name="IDH_EXTEND_TRIAL_QUERY_WAIT_FOR_LICENCE_KEY_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Trialextensionwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
+    <Map Name="IDH_EXTEND_TRIAL_REQUEST_CODE_PAGE" Link="/Content/HTML_Topics/Dialogs/D_Trialextensionwizard.htm" Skin="/Project/Skins/Easyplan.flskn" />
 </CatapultAliasFile>

@@ -1,11 +1,8 @@
-﻿// [Header file created by Help ID Fixer at 08:57:23 on 07 Jan 2005]
+// [Header file created by Help ID Fixer at 08:57:23 on 07 Jan 2005]
 // [Starting ID = 5000, default ID allocation = 30 ID(s), minimum spare IDs = 5, context-less allocation = 0]
 
 // REMINDER: For new dialogs (or dialog pages), you need to add the new entry to the bottom of help_includes.h
 
-#define IDH_LOAN_LICENCE_FROM_THIS_PC_FINISHED_PAGE                                      5000
-#define IDH_LOAN_LICENCE_QUERY_NETWORK_TRANSFER_OR_MANUAL_CODES_PAGE                     5001
-#define IDH_LICENSE_QUERY_WAIT_FOR_LICENCE_KEY_EXPIRED_TRIAL_PAGE                        5032
 #define IDH_PROP_TABULAR_REPORT_HTML_STYLE                                               5063
 #define IDH_ZOOM_VIEW                                                                    5094
 #define IDH_VIEW_DETAILS                                                                 5125
@@ -22,10 +19,6 @@
 #define IDH_DZP_GRIDS                                                                    5313
 #define IDH_SPECIFIC_RULING_LINE_PROP                                                    5344
 #define IDH_CHART_PROPERTIES                                                             5375
-#define IDH_LOAN_LICENCE_DURATION_PAGE                                                   5406
-#define IDH_MOVE_LICENCE_FROM_THIS_PC_OBTAIN_CODE_FROM_SOURCE_PAGE                       5407
-#define IDH_ADD_LICENCE_REQUEST_CODE_PAGE                                                5438
-#define IDH_LICENSE_TEAMPLAN_LOCAL_OR_BROWSE_PAGE                                        5469
 #define IDH_TABULAR_REPORT_WIZARD_TEMPLATE_OR_CUSTOM_PAGE                                5500
 #define IDH_AMBIGUOUS_TIME_ENTRY_EXCEPTION                                               5531
 #define IDH_SPELLCHECK                                                                   5562
@@ -40,9 +33,6 @@
 #define IDH_GROUPPROJECT                                                                 5811
 #define IDH_FMT_CELLS_ALIGN                                                              5842
 #define IDH_PROJECT_PROPERTIES                                                           5903
-#define IDH_LOAN_LICENCE_TO_THIS_PC_TARGET_LICENCE_KEY_PAGE                              5934
-#define IDH_ADD_LICENCE_QUERY_RECEIVED_CODE_PAGE                                         5965
-#define IDH_LICENSE_BROWSE_EXISTING_OR_MOVE_LICENCE_PAGE                                 5996
 #define IDH_TABULAR_REPORT_WIZARD_XSL_OUTPUT_PAGE                                        6027
 #define IDH_TABULAR_REPORT_WIZARD_SORTING_PAGE                                           6058
 // This now lives in help_ids_shared.h
@@ -59,7 +49,6 @@
 #define IDH_FAILEDCONNSELECTOR                                                           6309
 #define IDH_DZP_STATISTICAL                                                              6340
 #define IDH_LICENSING_STATUS                                                             6432
-#define IDH_LOAN_LICENCE_TO_THIS_PC_TARGET_REQUEST_KEY_PAGE                              6463
 #define IDH_TABULAR_REPORT_WIZARD_CSV_OUTPUT_PAGE                                        6494
 #define IDH_VIEW_MISC                                                                    6525
 #define IDH_SAVE_TABLE                                                                   6556
@@ -73,10 +62,7 @@
 #define IDH_PRINT_DETAILS                                                                6774
 #define IDH_RESCHEDULE_OPTIONS                                                           6805
 #define IDH_PAGE_BREAK_RULING_LINE_PROP                                                  6866
-#define IDH_MOVE_LICENCE_FROM_THIS_PC_FINISHED_PAGE                                      6897
 #define IDH_EXTEND_TRIAL_QUERY_RECEIVED_CODE_PAGE                                        6898
-#define IDH_LICENSE_TEAMPLAN_SERIAL_NUMBER_PAGE                                          6929
-#define IDH_LICENSE_SEARCH_RESULTS_PAGE                                                  6960
 #define IDH_TABULAR_REPORT_WIZARD_NAME_DESCRIPTION_PAGE                                  6991
 #define IDH_WHERETOPUTBAR                                                                7053
 #define IDH_USER_DEFINED_FIELDS_GRID                                                     7084
@@ -91,7 +77,6 @@
 #define IDH_FORMAT_HISTOGRAM_ROW                                                         7333
 #define IDH_HISTOGRAPH_DISPLAY_PAGE                                                      7364
 #define IDH_HISTOGRAPHS                                                                  7395
-#define IDH_LOAN_LICENCE_BROWSE_FOR_SOURCE_PAGE                                          7426
 #define IDH_EXTEND_TRIAL_QUERY_WAIT_FOR_LICENCE_KEY_PAGE                                 7457
 #define IDH_EXTEND_TRIAL_LICENCE_CODE_PAGE                                               7488
 #define IDH_TABULAR_REPORT_WIZARD_GENERAL_OPTIONS_PAGE                                   7519
@@ -126,8 +111,6 @@
 #define IDH_CAL_WORK_PATTERN_ASSIGN_TAB                                                  8452
 #define IDH_BOOKIN_PROJECT_PROJECT                                                       8483
 #define IDH_ARROWS                                                                       8514
-#define IDH_LOAN_LICENCE_SELECT_CONNECTION_LICENCE_TO_USE_PAGE                           8545
-#define IDH_LOAN_LICENCE_INTRO_PAGE                                                      8576
 #define IDH_RESCHEDULE_PP_WARN_DIALOG                                                    8577
 #define IDH_RESCHEDULE_RPT_WARN_DIALOG                                                   8581
 
@@ -143,8 +126,6 @@
 #define IDH_CALENDAR_DETAILS                                                             8887
 #define IDH_BUSINESS_OBJECT_PROPERTIES                                                   8918
 #define IDH_BAR_DEFAULTS_PAGE                                                            8919
-#define IDH_LICENSING_STATUS_RESET                                                       8950
-#define IDH_LICENSE_TEAMPLAN_LICENCE_AGREEMENT_PAGE                                      8981
 #define IDH_TABULAR_REPORT_WIZARD_TABLE_PAGE                                             9012
 #define IDH_PROP_TABULAR_REPORT_OUTPUT                                                   9043
 #define IDH_TOOLS_OPTIONS_RESCHEDULE                                                     9076
@@ -152,8 +133,6 @@
 #define IDH_PROP_PERM_ALLOC_PROGRESS                                                     9108
 #define IDH_FIND_LIBRARY_ITEM                                                            9139
 #define IDH_DZP_SHADING                                                                  9170
-#define IDH_MOVE_LICENCE_BROWSE_FOR_SOURCE_PAGE                                          9263
-#define IDH_LICENSE_CONFIGURE_LICENCE_SERVER_PAGE                                        9294
 #define IDH_TABULAR_REPORT_WIZARD_RESOURCE_SELECTION_PAGE                                9325
 #define IDH_TABULAR_REPORT_WIZARD_RESOURCE_SCOPE_TYPE_PAGE                               9356
 #define IDH_WORK_PATTERN_TIME_UNIT_OVERRIDES                                             9387
@@ -168,8 +147,6 @@
 #define IDH_MORE_SORTS                                                                   9696
 #define IDH_HISTO_EXPORT                                                                 9727
 #define IDH_APPEARANCE                                                                   9758
-#define IDH_LOAN_LICENCE_FROM_THIS_PC_RESPONSE_CODE_FOR_TARGET_PC_PAGE                   9789
-#define IDH_LOAN_LICENCE_QUERY_FROM_OR_TO_PAGE                                           9820
 #define IDH_TABULAR_REPORT_WIZARD_PRINTER_OUTPUT_PAGE                                    9851
 #define IDH_RECONNECTING                                                                 9882
 #define IDH_PROP_RES_PERM_SKILL_DEF_ASS                                                  9883
@@ -182,9 +159,7 @@
 #define IDH_PROJECTDRAGTREE                                                              10100
 #define IDH_LOGON                                                                        10131
 #define IDH_CLONE_ACCESS_RIGHTS                                                          10192
-#define IDH_MOVE_LICENCE_INTRO_PAGE                                                      10223
 #define IDH_EXTEND_TRIAL_REQUEST_CODE_PAGE                                               10224
-#define IDH_LICENSE_SELECTED_EXISTING_LICENCE_FINISHED_PAGE                              10255
 #define IDH_TABULAR_REPORT_WIZARD_TASKS_PAGE                                             10256
 #define IDH_TABULAR_REPORT_WIZARD_INTRO_PAGE                                             10287
 #define IDH_SELECT_LINKS                                                                 10318
@@ -196,10 +171,6 @@
 #define IDH_BLOCKLINKMETHOD                                                              10504
 #define IDH_ANNO_OBJECT_CHOOSER                                                          10535
 #define IDH_ANNOTATION_DEFAULTS_PAGE                                                     10566
-#define IDH_LOAN_LICENCE_FROM_THIS_PC_OBTAIN_CODE_FROM_SOURCE_PAGE                       10597
-#define IDH_MOVE_LICENCE_SELECT_CONNECTION_LICENCE_TO_USE_PAGE                           10628
-#define IDH_MOVE_LICENCE_QUERY_FROM_OR_TO_PAGE                                           10659
-#define IDH_ADD_LICENCE_LICENCE_CODE_PAGE                                                10690
 #define IDH_TABULAR_REPORT_WIZARD_NEW_TABLE_DEFINITION_PAGE                              10721
 #define IDH_TABULAR_REPORT_WIZARD_ALLOCATIONS_PAGE                                       10752
 #define IDH_SPLIT_TASKS_DIALOG                                                           10783
@@ -209,10 +180,6 @@
 #define IDH_OPTS_EDIT_LINK_SETTINGS														 10872	
 #define IDH_LOCKOUT_SETTINGS_DIALOG                                                      10876
 #define IDH_BOOK_OUT_DIALOG		                                                         10907
-#define IDH_LOAN_LICENCE_BROWSE_FOR_TARGET_PAGE                                          10938
-#define IDH_MOVE_LICENCE_TO_THIS_PC_TARGET_LICENCE_KEY_PAGE                              10969
-#define IDH_MOVE_LICENCE_FROM_THIS_PC_RESPONSE_CODE_FOR_TARGET_PC_PAGE                   11000
-#define IDH_LICENSE_BROWSE_FOR_FOLDER_PAGE                                               11031
 #define IDH_TABULAR_REPORT_WIZARD_SCOPE_TYPE_PAGE                                        11062
 #define IDH_TABULAR_REPORT_WIZARD_SELECT_TEMPLATE_CATEGORY_PAGE                          11093
 #define IDH_TABULAR_REPORT_WIZARD_SELECT_CUSTOM_CATEGORY_PAGE                            11124
@@ -231,8 +198,6 @@
 #define IDH_FORMAT_CELLS_FONT                                                            11527
 #define IDH_FIND_BARCHART_ITEM                                                           11528
 #define IDH_ENTER_PROGRESS_PROGRESS_PERIODS                                              11559
-#define IDH_MOVE_LICENCE_QUERY_NETWORK_TRANSFER_OR_MANUAL_CODES_PAGE                     11590
-#define IDH_LICENSE_QUERY_WAIT_FOR_LICENCE_KEY_PAGE                                      11621
 #define IDH_PROP_TABULAR_REPORT_SCOPE                                                    11652
 #define IDH_PROP_RES_PERM_ALLOC_SCHED                                                    11683
 #define IDH_PROP_COST_CENTRE                                                             11714
@@ -243,9 +208,7 @@
 #define IDH_CONS_COSTS                                                                   11869
 #define IDH_ALLOCATION_GROUP_CONSUMABLES                                                 11900
 #define IDH_ABOUTBOX                                                                     11901
-#define IDH_MOVE_LICENCE_TO_THIS_PC_TARGET_REQUEST_KEY_PAGE                              11902
 #define IDH_EXTEND_TRIAL_QUERY_WAIT_FOR_LICENCE_KEY_EXPIRED_TRIAL_PAGE                   11933
-#define IDH_LICENSE_SEEK_OR_LOCATE_LICENCE_PAGE                                          11964
 #define IDH_V8_TABLE_DEFS                                                                11995
 #define IDH_TABULAR_REPORT_WIZARD_FILTER_PAGE                                            12034
 #define IDH_TABULAR_REPORT_WIZARD_XML_OUTPUT_PAGE                                        12065
@@ -268,8 +231,6 @@
 #define IDH_FIELD_CHOOSER                                                                12653
 #define IDH_ENTER_PROGRESS_TASK                                                          12684
 #define IDH_ALLOCATION_GROUP_PERMANENTS                                                  12715
-#define IDH_MOVE_LICENCE_BROWSE_FOR_TARGET_PAGE                                          12716
-#define IDH_LICENSE_TEAMPLAN_EXPIRED_TRIAL_LOCAL_OR_BROWSE_PAGE                          12747
 #define IDH_TABULAR_REPORT_WIZARD_OUTPUT_PAGE                                            12778
 #define IDH_TABULAR_REPORT_WIZARD_REPORT_TYPE_PAGE                                       12809
 #define IDH_WBN_TASK_CODE_DEFN                                                           12840
@@ -338,16 +299,6 @@
 
 #define IDH_SW_CHOICE                                                                    14622
 
-#define IDH_SEARCHING_FOR_A_LICENCE                                                      14652
-#define IDH_LICENSE_WIZARD_S1_PURCHASED_OR_EXISTING                                      14686
-#define IDH_LICENSE_WIZARD_S1B_SERIAL_NUMBER                                             14719
-#define IDH_LICENSE_WIZARD_S2_REQUEST_ACTIVATION_KEY                                     14753
-#define IDH_LICENSE_WIZARD_S3_RECEIVED_ACTIVATION_KEY                                    14788
-#define IDH_LICENSE_WIZARD_S4_PASTE_ACTIVATION_KEY                                       14821
-#define IDH_LICENSE_WIZARD_S5_NOW_LICENSED                                               14854
-#define IDH_LICENSE_WIZARD_S6_KNOW_WHERE_LICENCE_LOCATED                                 14885
-#define IDH_LICENSE_WIZARD_S7_WHERE_IS_LICENCE_LOCATED                                   14918
-#define IDH_LICENSE_WIZARD_S8_SEARCHING_FOR_LICENCES                                     14951
 
 #define IDH_XER_EXPORT_OPTIONS                                                           14984
 #define IDH_XER_IMPORT_OPTIONS                                                           15010
@@ -357,9 +308,7 @@
 #define IDH_PROP_CODE_LIBRARY                                                            15060   //to 15089
 #define IDH_EMBEDDED_BORDER_PROPERTIES                                                   15090   //to 15119
 
-#define IDH_NO_CONNECTION                                                              	15120   // to 15139
 #define IDH_USER_CREDENTIALS                                                            15140   // to 15159
-#define IDH_PREAMBLE_DLG                                                                15160   // to 15179
 
 #define IDH_P3_IMPORT_P3_INSTALLED                                                      15180 // 
 #define IDH_P3_EXPORT_P3_INSTALLED                                                      15210 //  
@@ -378,12 +327,9 @@
 #define IDH_BASELINEWIZARD_PAGE3_SCOPE                                                  15490
 #define IDH_BASELINEWIZARD_PAGE4_SUMMARY                                                15520
 
-#define IDH_LICENSING_HISTORY_VIEW                                                      15550
 
 #define IDH_RESCHEDULE_REPORT_SETTINGS                                                  15580
 
-#define IDH_MOVE_STANDALONE_LICENCE_PAGE                                                15610
-#define IDH_MOVE_STANDALONE_LICENCE_DETAILS_NEEDED_PAGE                                 15620
 
 // EasyPlan wizards
 #define IDH_LINK_TASKS_WIZARD_PAGE1_INTRO 15630

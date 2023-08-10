@@ -234,17 +234,7 @@
       Link="/Content/HTML_Topics/Conceptual/Activation/Moving_licences.htm" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/HTML_Topics/Conceptual/Activation/Loaning_licences.htm"
-      conditions="Powerproject_Easyplan.Powerproject_only" />
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
       Link="/Content/HTML_Topics/Conceptual/Activation/Licensing_view_status.htm" />
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/HTML_Topics/Conceptual/Activation/Licence_history.htm" />
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/HTML_Topics/Conceptual/Activation/Licensing_reset.htm" />
   </TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
@@ -491,6 +481,10 @@
       Title="[%=System.LinkedTitle%]"
       Link="/Content/HTML_Topics/Conceptual/Starting_work/Finishing_your_work_session/Exiting_teamplan.htm" />
   </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/HTML_Topics/Conceptual/Starting_work/Finishing_your_work_session/Auto_save.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    conditions="Powerproject_Easyplan.V17_Auto_save" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/HTML_Topics/Conceptual/Vision/Vision_projects.htm"
@@ -3354,6 +3348,6 @@
     </TocEntry>
   </TocEntry>
   <TocEntry
-    Title="Contact us"
+    Title="Neem Contact met ons op"
     Link="http://www.elecosoft.com/contact-us/" />
 </CatapultToc>

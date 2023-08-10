@@ -2,5 +2,7 @@
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
-    <body>Select the <b>Save every <i>x</i> minutes</b> check box if you want <MadCap:variable name="Primary.Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only"></MadCap:variable><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only"></MadCap:variable> to&#160;save the active project automatically. If you select the check box, the active project will be saved automatically according to the period you specify - for example, every five minutes. If you clear the check box, the active project will not be saved automatically; it will be saved only when you choose to save it.</body>
+    <body>
+        <p>Schakel het selectievakje <b>Opslaan elke x minuten</b> in wanneer uw wilt dat <MadCap:variable name="Primary.Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> het actieve project automatisch opslaat. Wanneer u het selectievakje inschakelt wordt het actieve project volgens de periode die u opgeeft - bijvoorbeeld elke vijf minuten - opgeslagen. Als u het selectievakje uitschakelt, wordt het actieve project niet automatisch opgeslagen; het wordt alleen opgeslagen als u ervoor kiest om het op te slaan.</p>
+    </body>
 </html>

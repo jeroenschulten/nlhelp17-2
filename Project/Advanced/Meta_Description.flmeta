@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultMetaTagSet Comment="Meta Tag Set" name="Description" desc="Used to enter a &quot;Description&quot; meta tag to each Help topic, to help users understand the purpose of a topic when it appears in search results">
+    <meta name="description" content="" type="Text" desc="Description meta tag" />
+</CatapultMetaTagSet>
