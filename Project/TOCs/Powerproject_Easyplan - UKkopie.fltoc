@@ -1679,7 +1679,7 @@
       conditions="Powerproject_Easyplan.Powerproject_only" />
   </TocEntry>
   <TocEntry
-    Title="Using a project timeline to display an overview of a project"
+    Title="[%=System.LinkedTitle%]"
     Link="/Content/HTML_Topics/Conceptual/Timeline/Timeline.htm"
     conditions="Powerproject_Easyplan.V17_Project_timeline">
     <TocEntry

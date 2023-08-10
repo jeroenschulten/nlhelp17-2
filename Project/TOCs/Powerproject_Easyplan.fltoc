@@ -473,7 +473,8 @@
       Link="/Content/HTML_Topics/Conceptual/Starting_work/Finishing_your_work_session/Save_as_previous.htm" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/HTML_Topics/Conceptual/Starting_work/Finishing_your_work_session/Deleting_a_project.htm" />
+      Link="/Content/HTML_Topics/Conceptual/Starting_work/Finishing_your_work_session/Deleting_a_project.htm"
+      conditions="Powerproject_Easyplan.Powerproject_only" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/HTML_Topics/Conceptual/Starting_work/Finishing_your_work_session/Closing_windows_and_projects.htm" />
@@ -932,6 +933,146 @@
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/HTML_Topics/Conceptual/Structuring_your_project/Using_the_project_view/Code_app_project_view.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/HTML_Topics/Conceptual/Intro_project_management/Introduction_to_project_management.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Intro_project_management/Project_management_concepts.htm"
+        ReplaceMergeNode="false" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Intro_project_management/Introduction_to_projects.htm"
+        StartSection="false"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"
+        ReplaceMergeNode="false" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Intro_project_management/Planning_a_project.htm"
+        StartSection="false"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"
+        ReplaceMergeNode="false" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Intro_project_management/Activities_or_tasks.htm"
+        StartSection="false"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"
+        ReplaceMergeNode="false" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Intro_project_management/Creating_relationships_between_tasks.htm"
+        StartSection="false"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"
+        ReplaceMergeNode="false" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Intro_project_management/Grouping_related_tasks.htm"
+        StartSection="false"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"
+        ReplaceMergeNode="false" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Intro_project_management/Determining_the_project_end_date.htm"
+        StartSection="false"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"
+        ReplaceMergeNode="false"
+        conditions="Powerproject_Easyplan.Powerproject_only" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Intro_project_management/Introducing_lead_and_lag_time.htm"
+        StartSection="false"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"
+        ReplaceMergeNode="false" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Intro_project_management/Marking_project_milestones.htm"
+        StartSection="false"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"
+        ReplaceMergeNode="false" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Intro_project_management/Constraining_tasks_to_specific_dates.htm"
+        StartSection="false"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"
+        ReplaceMergeNode="false"
+        conditions="Powerproject_Easyplan.Powerproject_only" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Intro_project_management/Structuring_projects.htm"
+        StartSection="false"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"
+        ReplaceMergeNode="false" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Intro_project_management/Categorising_tasks.htm"
+        ReplaceMergeNode="false" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Intro_project_management/Working_with_resources.htm"
+        ReplaceMergeNode="false" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Intro_project_management/Working_with_costs.htm"
+        ReplaceMergeNode="false" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Intro_project_management/Working_with_calendars.htm"
+        ReplaceMergeNode="false" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Intro_project_management/Keeping_track_of_progress.htm"
+        ReplaceMergeNode="false" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Intro_project_management/Levelling_resources_and_costs.htm"
+        ReplaceMergeNode="false"
+        conditions="Powerproject_Easyplan.Powerproject_only" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Intro_project_management/Producing_reports.htm"
+        ReplaceMergeNode="false" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Intro_project_management/Project_closedown_and_evaluation.htm"
+        ReplaceMergeNode="false" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/HTML_Topics/Conceptual/Task_activities/Task_activities.htm"
+    conditions="Powerproject_Easyplan.Powerproject_only,Powerproject_Easyplan.V17_Task_activities">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/HTML_Topics/Conceptual/Task_activities/Break_down_tasks_activities.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="Powerproject_Easyplan.Powerproject_only,Powerproject_Easyplan.V17_Task_activities" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/HTML_Topics/Conceptual/Task_activities/Creating_task_activities.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="Powerproject_Easyplan.V17_Task_activities,Powerproject_Easyplan.Powerproject_only"></TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/HTML_Topics/Conceptual/Task_activities/Using_task_activity_templates.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="Powerproject_Easyplan.Powerproject_only,Powerproject_Easyplan.V17_Task_activities" />
   </TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
@@ -1563,6 +1704,39 @@
   </TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
+    Link="/Content/HTML_Topics/Conceptual/Timeline/Timeline.htm"
+    conditions="Powerproject_Easyplan.V17_Project_timeline">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/HTML_Topics/Conceptual/Timeline/Timeline_intro.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="Powerproject_Easyplan.V17_Project_timeline" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/HTML_Topics/Conceptual/Timeline/Timeline_creating.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="Powerproject_Easyplan.V17_Project_timeline" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/HTML_Topics/Conceptual/Timeline/Timeline_adding_tasks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="Powerproject_Easyplan.V17_Project_timeline" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/HTML_Topics/Conceptual/Timeline/Timeline_scroll_area.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="Powerproject_Easyplan.V17_Project_timeline" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/HTML_Topics/Conceptual/Timeline/Timeline_configuring.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="Powerproject_Easyplan.V17_Project_timeline" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/HTML_Topics/Conceptual/Timeline/Timeline_go_to_task.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="Powerproject_Easyplan.V17_Project_timeline" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/HTML_Topics/Conceptual/Timeline/Timeline_exporting.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="Powerproject_Easyplan.V17_Project_timeline" />
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
     Link="/Content/HTML_Topics/Conceptual/Numbering_tasks/Numbering_tasks_in_a_project.htm">
     <TocEntry
       Title="[%=System.LinkedTitle%]"
@@ -1614,39 +1788,6 @@
         Title="[%=System.LinkedTitle%]"
         Link="/Content/HTML_Topics/Conceptual/Numbering_tasks/Unique_task_ID_numbering/View_UTID_spreadsheet.htm" />
     </TocEntry>
-  </TocEntry>
-  <TocEntry
-    Title="Gebruik maken van een projecttijdlijn om een overzicht van een project weer te geven"
-    Link="/Content/HTML_Topics/Conceptual/Timeline/Timeline.htm"
-    conditions="Powerproject_Easyplan.V17_Project_timeline">
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/HTML_Topics/Conceptual/Timeline/Timeline_intro.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      conditions="Powerproject_Easyplan.V17_Project_timeline" />
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/HTML_Topics/Conceptual/Timeline/Timeline_creating.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      conditions="Powerproject_Easyplan.V17_Project_timeline" />
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/HTML_Topics/Conceptual/Timeline/Timeline_adding_tasks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      conditions="Powerproject_Easyplan.V17_Project_timeline" />
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/HTML_Topics/Conceptual/Timeline/Timeline_scroll_area.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      conditions="Powerproject_Easyplan.V17_Project_timeline" />
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/HTML_Topics/Conceptual/Timeline/Timeline_configuring.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      conditions="Powerproject_Easyplan.V17_Project_timeline" />
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/HTML_Topics/Conceptual/Timeline/Timeline_go_to_task.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      conditions="Powerproject_Easyplan.V17_Project_timeline" />
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/HTML_Topics/Conceptual/Timeline/Timeline_exporting.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      conditions="Powerproject_Easyplan.V17_Project_timeline" />
   </TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
@@ -2048,9 +2189,6 @@
         Link="/Content/HTML_Topics/Conceptual/Resource_and_cost_allocations/Assignment_view/Rearranging_the_assignment_view_hierarchy.htm"
         conditions="Powerproject_Easyplan.Powerproject_only" />
     </TocEntry>
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      conditions="Powerproject_Easyplan.Powerproject_only" />
   </TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
