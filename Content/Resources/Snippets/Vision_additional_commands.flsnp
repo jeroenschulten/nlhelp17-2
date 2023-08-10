@@ -17,19 +17,19 @@
             <tbody>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                     <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Inchecken</td>
-                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Check in het actieve programma naar <MadCap:variable name="Primary.Asta Vision Name" />, het uploaden van eventuele wijzigingen die u hebt aangebracht in het programma en het veranderen van de status van ingecheckt.</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Check in het actieve programma naar <MadCap:variable name="Primary.Powerproject Vision Name" />, het uploaden van eventuele wijzigingen die u hebt aangebracht in het programma en het veranderen van de status van ingecheckt.</td>
                 </tr>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                     <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Uitchecken annuleren</td>
-                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Annuleer het uitchecken van het actieve programma van <MadCap:variable name="Primary.Asta Vision Name" />. Het annuleren van een programma check out verandert de status van het uitgecheckte programma om ingecheckt te worden en maakt het beschikbaar voor bewerking naar andere gebruikers.</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Annuleer het uitchecken van het actieve programma van <MadCap:variable name="Primary.Powerproject Vision Name" />. Het annuleren van een programma check out verandert de status van het uitgecheckte programma om ingecheckt te worden en maakt het beschikbaar voor bewerking naar andere gebruikers.</td>
                 </tr>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                     <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Verzenden</td>
-                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Check in en verzend het actieve programma naar <MadCap:variable name="Primary.Asta Vision Name" />, upload eventuele wijzigingen die u in het programma hebt aangebracht en wijzig de status ervan in verzonden.</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Check in en verzend het actieve programma naar <MadCap:variable name="Primary.Powerproject Vision Name" />, upload eventuele wijzigingen die u in het programma hebt aangebracht en wijzig de status ervan in verzonden.</td>
                 </tr>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                     <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Reactie toevoegen	</td>
-                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Een opmerking opnemen bij het actieve programma en - als <MadCap:variable name="Primary.Asta Vision Name" /> is geconfigureerd om dit toe te staan - bestanden toevoegen aan de opmerking.</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Een opmerking opnemen bij het actieve programma en - als <MadCap:variable name="Primary.Powerproject Vision Name" /> is geconfigureerd om dit toe te staan - bestanden toevoegen aan de opmerking.</td>
                 </tr>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                     <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Programma Acties</td>

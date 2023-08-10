@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Soorten bibliotheekobjecten die beschikbaar zijn in het  globale bibliotheek bestand</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Als u <MadCap:variable name="Primary.Powerproject Vision Name" /> configureert om globale bibliotheken te gebruiken, kunt u - in <MadCap:variable name="Primary.Powerproject Vision Name" /> - specificeren welke soorten bibliotheekobjecten in het globale bibliotheekbestand moeten worden opgenomen. De volgende soorten objecten kunnen worden opgenomen:</p>
+                <ul>
+                    <li>Kalenders</li>
+                    <li>Codebibliotheken</li>
+                    <li>Voortgangsperioden</li>
+                    <li>Kwaliteitschecks</li>
+                    <li>Permanente resources.</li>
+                    <li>Verbruiksgoederen</li>
+                </ul>
+                <p>Kalenders, permanente resources en verbruiksgoederen zijn afhankelijk van andere bibliotheekobjecten, zodat wanneer u één van deze bibliotheekobjecten opneemt, andere objecten ook automatisch worden opgenomen in het globale bibliotheek bestand:</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Als u kalenders erbij opneemt</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>Als kalenders worden opgenomen in het globale bibliotheekbestand, zijn ook de volgende bibliotheekobjecttypen inbegrepen:</p>
+                        <ul>
+                            <li>Uitzonderingen</li>
+                            <li>Werkpatronen</li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Als u permanente resources  erbij opneemt</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>Als permanente resources worden opgenomen in het globale bibliotheekbestand, zijn ook de volgende bibliotheekobjecttypen inbegrepen:</p>
+                        <ul>
+                            <li>Uitzonderingen</li>
+                            <li>Kalenders</li>
+                            <li>Codebibliotheekitems</li>
+                            <li>Kosten en inkomsten tarieven</li>
+                            <li>Kostengroepen</li>
+                            <li>Munteenheden</li>
+                            <li>Mijlpaalweergaven</li>
+                            <li>Resource curves</li>
+                            <li>Standaard werk.</li>
+                            <li>Tijdseenheden</li>
+                            <li>Werkeenheden</li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Als u verbruiksgoederen erbij opneemt</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>Als verbruiksgoederen worden opgenomen in het globale bibliotheekbestand, zijn ook de volgende bibliotheekobjecttypen inbegrepen:</p>
+                        <ul>
+                            <li>Kalenders</li>
+                            <li>Codebibliotheekitems</li>
+                            <li>Kosten en inkomsten tarieven</li>
+                            <li>Kostengroepen</li>
+                            <li>Munteenheden</li>
+                            <li>Mijlpaalweergaven</li>
+                            <li>Resource curves</li>
+                            <li>Tijdseenheden</li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

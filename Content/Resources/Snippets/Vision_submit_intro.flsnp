@@ -2,5 +2,5 @@
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
-    <body> afhankelijk van de manier waarop <MadCap:variable name="Primary.Asta Vision Name" /> is geconfigureerd, u mogelijk Programma's indienen en deze inchecken. Wanneer u een programma indient, worden uw wijzigingen vastgelegd in <MadCap:variable name="Primary.Asta Vision Name" /> en de status van het programma wordt gewijzigd in ingediend. </body>
+    <body> afhankelijk van de manier waarop <MadCap:variable name="Primary.Powerproject Vision Name" /> is geconfigureerd, u mogelijk Programma's indienen en deze inchecken. Wanneer u een programma indient, worden uw wijzigingen vastgelegd in <MadCap:variable name="Primary.Powerproject Vision Name" /> en de status van het programma wordt gewijzigd in ingediend. </body>
 </html>

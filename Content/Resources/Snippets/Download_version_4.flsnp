@@ -2,5 +2,5 @@
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
-    <body>selectievakje in om ook de revisies op te nemen van het programma en haar baselines die zijn aangemaakt als gevolg van voortgangsacties in de <MadCap:variable name="Primary.Asta Vision Name" /> workflow in de <b>Programma</b> en <b>Baseline</b> velden, of schakel dit selectievakje uit om zulke revisies van deze velden uit te sluiten. Wanneer u ervoor kiest om deze revisies op te nemen, kunt u ze identificeren in de <b>Programma</b> en <b>Baseline</b> velden omdat ze een voorvoegsel krijgen met "Voortgangsdatum - "</body>
+    <body>selectievakje in om ook de revisies op te nemen van het programma en haar baselines die zijn aangemaakt als gevolg van voortgangsacties in de <MadCap:variable name="Primary.Powerproject Vision Name" /> workflow in de <b>Programma</b> en <b>Baseline</b> velden, of schakel dit selectievakje uit om zulke revisies van deze velden uit te sluiten. Wanneer u ervoor kiest om deze revisies op te nemen, kunt u ze identificeren in de <b>Programma</b> en <b>Baseline</b> velden omdat ze een voorvoegsel krijgen met "Voortgangsdatum - "</body>
 </html>

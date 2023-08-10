@@ -8,7 +8,7 @@
     Name="BIM Cloud Name"
     Comment="">Elecosoft BIMCloud</Variable>
   <Variable
-    Name="Asta Vision Name"
+    Name="Powerproject Vision Name"
     Comment=""
     EvaluatedDefinition="Asta Vision">Asta Vision</Variable>
   <Variable

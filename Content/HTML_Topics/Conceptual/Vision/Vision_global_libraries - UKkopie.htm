@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-gb" MadCap:conditions="Powerproject_Easyplan.V17_Vision_global_libraries">
+    <head>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Who is;Who are;Who does;Who do;Who can;Who should;Who could;Who will;Who would;Who am;What is;What are;What does;What do;What can;What should;What could;What will;What would;What am;How is;How are;How does;How do;How can;How should;How could;How will;How would;How am;Why is;Why are;Why does;Why do;Why can;Why should;Why could;Why will;Why would;Why am;When is;When are;When does;When do;When can;When should;When could;When will;When would;When am;Where is;Where are;Where does;Where do;Where can;Where should;Where could;Where will;Where would;Where am;Whose is;Whose are;Whose does;Whose do;Whose can;Whose should;Whose could;Whose will;Whose would;Whose am;Which is;Which are;Which does;Which do;Which can;Which should;Which could;Which will;Which would;Which am;I;You;My;Your;Their;His;Her" />Managing global libraries with <MadCap:variable name="Primary.Powerproject Vision" /></h1>
+        <p>If you use <MadCap:variable name="Primary.Powerproject Vision" /> to manage multiple projects, you can use <MadCap:variable name="Primary.Powerproject Vision" /> to manage global libraries. <MadCap:snippetText src="../../../Resources/Snippets/Global_libraries_1.flsnp" />This can save you a considerable amount of time.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How global libraries work</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>If you do not use global libraries, each individual project has its own calendar, code library, progress period, quality check, permanent resource and consumable resource libraries, stored in the <MadCap:variable name="Primary.Powerproject Name" /> project file. You maintain these libraries by opening individual projects in <MadCap:variable name="Primary.Powerproject Name" /> and using Library&#160;Explorer. This way of working may suit you if you manage a disparate range of projects, with each project using different calendars, codes, resources, etc.</p>
+                <p>If your projects all use the same set of calendars, codes, resources, etc, using global libraries can save you a significant amount of time, as this allows you to maintain a single - 'global' - library that contains the calendars, codes, resources, etc that are used throughout your projects. If you need to add a new permanent resource, edit a calendar or rename a code, using global libraries means that you only need to do this once, rather than having to make the same change in each individual project.</p>
+                <p>If you enable the use of global libraries in <MadCap:variable name="Primary.Powerproject Vision" />, <MadCap:variable name="Primary.Powerproject Vision" /> creates a global library file that contains the libraries you choose to include.</p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Global_libraries_2.flsnp" />
+                <p>When you check out or download an <MadCap:variable name="Primary.Powerproject Vision" /> programme in <MadCap:variable name="Primary.Powerproject Name" />, the global library file is checked out automatically alongside the programme and its contents are merged into the programme. You can view and edit global library objects - for example, calendars, codes and resources - in <MadCap:variable name="Primary.Powerproject Name" /> using the Global Library Explorer. When you subsequently check in an <MadCap:variable name="Primary.Powerproject Vision" /> programme, the global library file is updated with any changes you have made to the global libraries while editing the programme. Your changes are then applied automatically to all other programmes when they are checked out.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Configuring <MadCap:variable name="Primary.Powerproject Vision" /> to use global libraries</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>You use <MadCap:variable name="Primary.Powerproject Vision" /> to enable the use of global libraries, to specify which library object types are included in the global library file, and to specify which users are able to manage the global library file. Refer to the <MadCap:variable name="Primary.Powerproject Vision" /> Help for information on how to do this.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Editing a global library file</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Global_libraries_3.flsnp" />
+                </p>
+                <ol>
+                    <li>Click the <b>File</b> tab, then click <b>Open</b>.</li>
+                    <li>Click <b>Vision</b>. A button appears for you to log into <MadCap:variable name="Primary.Powerproject Vision" />.</li>
+                    <li>Log into <MadCap:variable name="Primary.Powerproject Vision" />.  A list of programmes to which you have access appears. If you are already logged into <MadCap:variable name="Primary.Powerproject Vision"></MadCap:variable>, the programme list appears without you having to log in.</li>
+                    <li>Click a programme to check it out. The programme is checked out, along with the global library file, the contents of which are merged into the programme.</li>
+                    <li>Once the programme has been checked out and appears in <MadCap:variable name="Primary.Powerproject Name" />, return to the <b>Open</b> tab of the Backstage view and click <MadCap:variable name="Primary.Powerproject Vision" style="font-weight: bold;" />.</li>
+                    <MadCap:snippetBlock src="../../../Resources/Snippets/Global_libraries_4.flsnp" />
+                    <li>If this is the first time you have edited the global library file, you will need to populate it with library objects.&#160;You can do this by creating them from scratch; or by opening one or more other projects in <MadCap:variable name="Primary.Powerproject Name" /> and copying and pasting library objects from Library Explorer into the Global Library Explorer; or by a combination of both these things.</li>
+                    <li>Once you have finished editing the global library file, you need to <a href="Vision_checking_in.htm">check in the programme</a> - if you try to close the programme without checking it in, you are warned that you need to check in the programme to save the changes to the global library file. When you check in a programme, your changes to the global library file are uploaded to <MadCap:variable name="Primary.Powerproject Vision" />, and the updated global library file is now available in other programmes when they are checked out.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>**HOW&#160;DO USERS&#160;ASSIGN OBJECTS&#160;FROM&#160;A&#160;GLOBAL LIBRARY - DO&#160;THEY&#160;USE&#160;LIBRARY&#160;EXPLORER&#160;OR&#160;GLOBAL&#160;LIBRARY EXPLORER?**</p>
+        <p>**HOW&#160;DOES&#160;GLOBAL&#160;LIBRARY&#160;EXPLORER&#160;INTERACT&#160;WITH&#160;STANDARD&#160;LIBRARY&#160;EXPLORER?**</p>
+        <p>&#160;</p>
+        <p class="RelatedTopics">Related Topics:</p>
+        <p><a href="Vision_projects.htm">Working with <MadCap:variable name="Primary.Powerproject Vision" /> projects</a>
+        </p>
+        <p><a href="Vision_checking_out.htm">Checking out programmes from <MadCap:variable name="Primary.Powerproject Vision"></MadCap:variable></a>
+        </p>
+        <p><a href="Vision_downloading.htm">Downloading programmes from <MadCap:variable name="Primary.Powerproject Vision"></MadCap:variable></a>
+        </p>
+        <p><a href="Vision_checking_in.htm">Checking programmes into <MadCap:variable name="Primary.Powerproject Vision"></MadCap:variable></a>
+        </p>
+        <p><a href="Vision_submitting.htm">Submitting a programme to <MadCap:variable name="Primary.Powerproject Vision"></MadCap:variable></a>
+        </p>
+    </body>
+</html>

@@ -3,10 +3,10 @@
     <head>
     </head>
     <body>
-        <p>U op elk gewenst moment de nieuwste revisie van een programma van <MadCap:variable name="Primary.Asta Vision Name" /> naar uw computer downloaden. U dit doen om een programma in detail te bekijken.
+        <p>U op elk gewenst moment de nieuwste revisie van een programma van <MadCap:variable name="Primary.Powerproject Vision Name" /> naar uw computer downloaden. U dit doen om een programma in detail te bekijken.
 </p>
         <p>U kunt er ook voor kiezen om een specifieke revisie van een programma, en eventueel een specifieke revisie van een baseline, op uw computer te downloaden. U dit doen om een programma in detail te bekijken en om deze te vergelijken met een baseline zonder uit te moeten checken.
 </p>
-        <p>U kunt geen programma downloaden vanaf <MadCap:variable name="Primary.Asta Vision Name" /> naar een <MadCap:variable name="Primary.Asta Powerproject Name" /> Enterprise server.</p>
+        <p>U kunt geen programma downloaden vanaf <MadCap:variable name="Primary.Powerproject Vision Name" /> naar een <MadCap:variable name="Primary.Asta Powerproject Name" /> Enterprise server.</p>
     </body>
 </html>

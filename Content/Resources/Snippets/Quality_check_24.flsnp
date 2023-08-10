@@ -3,6 +3,6 @@
     <head>
     </head>
     <body>
-        <p>Nadat u een kwaliteitscheck hebt ingesteld, kunt u haar criteria-instellingen exporteren en ze vervolgens als een nieuwe kwaliteitscheck importeren - in hetzelfde project of in andere projecten - waardoor u geen criteria hoeft in te stellen voor elk van uw kwaliteitschecks om dezelfde of vergelijkbare criteria in meer dan één kwaliteitscheck te gebruiken. Wanneer u op deze manier de criteria-instellingen van een kwaliteitscheck exporteert, kunt u een bijbehorende kwaliteitscheck in <MadCap:variable name="Primary.Asta Vision Name" /> creëren.</p>
+        <p>Nadat u een kwaliteitscheck hebt ingesteld, kunt u haar criteria-instellingen exporteren en ze vervolgens als een nieuwe kwaliteitscheck importeren - in hetzelfde project of in andere projecten - waardoor u geen criteria hoeft in te stellen voor elk van uw kwaliteitschecks om dezelfde of vergelijkbare criteria in meer dan één kwaliteitscheck te gebruiken. Wanneer u op deze manier de criteria-instellingen van een kwaliteitscheck exporteert, kunt u een bijbehorende kwaliteitscheck in <MadCap:variable name="Primary.Powerproject Vision Name" /> creëren.</p>
     </body>
 </html>
