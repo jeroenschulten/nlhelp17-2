@@ -186,8 +186,12 @@
         Link="/Content/HTML_Topics/Other/S_LE.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Other/S_GlobalLE.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        conditions="Powerproject_Easyplan.V17_Vision_global_libraries" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
         Link="/Content/HTML_Topics/Other/S_Assignmentview.htm"
-        conditions="Powerproject_Easyplan.Powerproject_only" />
+        conditions="Powerproject_Easyplan.Powerproject_only"></TocEntry>
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/HTML_Topics/Other/S_RUVpane.htm"
@@ -523,6 +527,10 @@
       Title="[%=System.LinkedTitle%]"
       Link="/Content/HTML_Topics/Conceptual/Vision/Vision_recording_comments.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
       conditions="Powerproject_Easyplan.Powerproject_only" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/HTML_Topics/Conceptual/Vision/Vision_global_libraries.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="Powerproject_Easyplan.V17_Vision_global_libraries" />
   </TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
@@ -3062,7 +3070,7 @@
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/HTML_Topics/Conceptual/Quality_check/Link_activity_finishes_metric.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-        conditions="Powerproject_Easyplan.Powerproject_only,Powerproject_Easyplan.V17_Link_activity_finishes_metric" />
+        conditions="Powerproject_Easyplan.V17_Link_activity_finishes_metric" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/HTML_Topics/Conceptual/Quality_check/Critical_path_test_metric.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
