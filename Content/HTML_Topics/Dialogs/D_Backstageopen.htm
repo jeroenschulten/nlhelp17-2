@@ -49,7 +49,10 @@
                             <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;"><MadCap:variable name="Primary.Asta Powerproject Name" /> Vision
                             </td>
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                                <p class="ParagraphsInTables" xmlns="">Klik op deze knop om een revisie van een programma dat opgeslagen is in <MadCap:variable name="Primary.Powerproject Vision Name" /> uit te checken of te downloaden. Er verschijnt een knop waarmee u kunt inloggen bij <MadCap:variable name="Primary.Powerproject Vision Name" />en een lijst met programma's kunt zien waartoe u toegang heeft, en een verschijnt een hyperlink waarmee u toegang heeft tot de  <MadCap:variable name="Primary.Powerproject Vision Name" /> website.</p>
+                                <p class="ParagraphsInTables" xmlns="">Klik op deze knop om een revisie van een programma dat opgeslagen is in <MadCap:variable name="Primary.Powerproject Vision Name" /> uit te checken of te downloaden. Er verschijnt een knop waarmee u kunt inloggen bij <MadCap:variable name="Primary.Powerproject Vision Name" />en een lijst met programma's kunt zien waartoe u toegang heeft, en een verschijnt een hyperlink waarmee u toegang heeft tot de  <MadCap:variable name="Primary.Powerproject Vision Name" /> website. Er verschijnt ook een knop <b>Globale bibliotheken beheren</b>, als u met uw toegangsrechten globale bibliotheken kunt beheren.</p>
+                                <p class="ParagraphsInTables" xmlns="">&#160;</p>
+                                <p class="ParagraphsInTables" xmlns="">Als u eerder bent ingelogd bij <MadCap:variable name="Primary.Powerproject Vision Name" /> of <MadCap:variable name="Primary.Site Progress Mobile Name" />, u blijft ingelogd tenzij u specifiek uitlogt of van gebruiker wisselt, zelfs als u sluit en opnieuw  <MadCap:variable name="Primary.Powerproject Name" /> opstart.</p>
+                                <p class="ParagraphsInTables" xmlns="">&#160;</p>
                                 <p class="ParagraphsInTables" xmlns=""><a href="../Conceptual/Vision/Vision_projects.htm">Klik hier</a> voor meer informatie.</p>
                             </td>
                         </tr>
@@ -117,7 +120,7 @@
                 <MadCap:snippetBlock src="../../Resources/Snippets/Open_Vision.flsnp" />
             </MadCap:dropDownBody>
         </MadCap:dropDown>
-        <MadCap:dropDown MadCap:conditions="Powerproject_Easyplan.V17_Vision_global_libraries">
+        <MadCap:dropDown MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Manage globale bibliotheken die opgeslagen zijn in <MadCap:variable name="Primary.Powerproject Vision Name" />?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
@@ -127,20 +130,17 @@
                     <li class="p">Klik op het <b>Bestand</b> tabblad, klik vervolgens op <b>Openen</b>.</li>
                     <li>Klik op <b xmlns=""><MadCap:variable name="Primary.Powerproject Vision Name"></MadCap:variable></b>. Wanneer u nog niet ingelogd bent, verschijnt er een knop voor u om in te loggen bij <MadCap:variable name="Primary.Powerproject Vision Name"></MadCap:variable>. </li>
                     <li>Log in bij <MadCap:variable name="Primary.Powerproject Vision Name" />. </li>
-                    <li>Klik op het programma om deze uit te checken. Het programma wordt uitgecheckt, samen met het globale bibliotheekbestand, waarvan de inhoud wordt samengevoegd met het programma.</li>
-                    <li>Zodra het programma is uitgecheckt en verschijnt in <MadCap:variable name="Primary.Asta Powerproject Name" />, keert u terug naar het tabblad Openen van de Backstage-weergave en klikt u op <b>Vision</b>.</li>
                     <MadCap:snippetBlock src="../../Resources/Snippets/Global_libraries_4.flsnp" />
                 </ol>
-                <p>Als het globale bibliotheekbestand momenteel is uitgecheckt bij een andere gebruiker, verschijnt er een bericht en wordt het niet gedownload.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>... zoeken naar lokale en naar server-mounted projecten?</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>... zoeken naar projecten?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <ol>
-                    <li>Klik op <b>Bladeren</b>. Het <b>Selecteren</b> dialoogvenster verschijnt, dat u kunt gebruiken om te zoeken naar lokale en naar server-mounted projecten.</li>
+                    <li>Klik op <b>Bladeren</b>. Er verschijnt een dialoogvenster, dat u kunt gebruiken om te zoeken naar projecten.</li>
                     <li>Navigeer naar het project dat u wilt openen.</li>
                     <li>Selecteer het project en klik op <b>Openen</b> om het te openen.</li>
                 </ol>
@@ -152,14 +152,6 @@
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <MadCap:snippetBlock src="../../Resources/Snippets/Open_as_new_user.flsnp" />
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>... een project openen in werkgroepmodus?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <MadCap:snippetBlock src="../../Resources/Snippets/Open_workgroup_mode.flsnp" />
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
@@ -177,11 +169,10 @@
         </p>
         <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><a href="../Conceptual/Vision/Vision_projects.htm">Werken met <MadCap:variable name="Primary.Powerproject Vision Name" /> projecten</a>
         </p>
-        <p MadCap:conditions="Powerproject_Easyplan.V17_Vision_global_libraries"><a href="../Conceptual/Vision/Vision_global_libraries.htm">Managen van globale bibliotheken met  <MadCap:variable name="Primary.Powerproject Vision Name" /></a>
+        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><a href="../Conceptual/Vision/Vision_global_libraries.htm">Managen van globale bibliotheken met  <MadCap:variable name="Primary.Powerproject Vision Name" /></a>
         </p>
         <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><a href="../Conceptual/Multi_user/Using_multi_user/Locating_the_teamplan_ENTERPRISE_server.htm">Lokaliseren van de Enterprise server</a>
         </p>
-        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Werkgroepen gebruiken</p>
         <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><a href="../Conceptual/Archiving/Archiving_intro.htm">Introductie over het archiveren</a>
         </p>
     </body>

@@ -8,13 +8,13 @@
             <li class="p">U een project wilt openen op een server anders dan degene waarop u op dit moment bent ingelogd, en uw gebruikersnaam en/of wachtwoord anders is op die server.</li>
             <li class="p">U al andere projecten geopend heeft en u het project onder een andere gebruikersnaam (standaard gebruikt <MadCap:variable name="Primary.Asta Powerproject Name" /> de gebruikersnaam van uw huidige sessie).</li>
         </ul>
-        <p>Wanneer u klikt op <b>Openen als Nieuwe Gebruiker</b>, wordt het <b>Inlog</b> dialoogvenster weergegeven om u te kunnen laten inloggen op de gekozen server, of met de door u gekozen gebruikersnaam.</p>
+        <p>Wanneer u (rechts-)klikt op <b>Openen als Nieuwe Gebruiker</b>, wordt het <b>Inlog</b> dialoogvenster weergegeven om u te kunnen laten inloggen op de gekozen server, of met de door u gekozen gebruikersnaam.</p>
         <ol>
             <li class="p">Klik op het <b>Bestand</b> tabblad, klik vervolgens op <b>Openen</b>.</li>
             <li>Klik op <b>Deze PC</b> of <b>Enterprise</b>, afhankelijk van locatie van het project dat uw wilt openen. Er verschijnt nu een navigeerbare mappenlijst, of een navigeerbare lijst met datasources en projecten.</li>
             <li>Navigeer door de lijst naar de locatie waarin het project staat opgeslagen.</li>
             <li>Rechtsklik op het project en selecteer <b>Open als Nieuwe Gebruiker</b>. Het <b>Inloggen bij Project</b> dialoogvenster verschijnt.</li>
-            <li>Voer de andere gebruiker's gebruikersnaam en wachtwoord in, en klik vervolgens op <b>OK</b>om het project te openen.</li>
+            <li>Voer de andere gebruiker's gebruikersnaam en wachtwoord in, en klik vervolgens op <b>OK </b>om het project te openen.</li>
         </ol>
     </body>
 </html>

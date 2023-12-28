@@ -10,20 +10,8 @@
     Name="Powerproject_only"
     BackgroundColor="Red" />
   <ConditionTag
-    BackgroundColor="#008000"
-    Name="V17_Link_activity_finishes_metric"
-    Comment="" />
-  <ConditionTag
     BackgroundColor="#ffa500"
     Name="V17_Shade_between_dates_histograms"
-    Comment="" />
-  <ConditionTag
-    BackgroundColor="#8b008b"
-    Name="V17_Auto_save"
-    Comment="" />
-  <ConditionTag
-    BackgroundColor="#00bfff"
-    Name="V17_Print_preview_rights"
     Comment="" />
   <ConditionTag
     BackgroundColor="#00ff00"
@@ -38,32 +26,8 @@
     Name="V17_Assignment_options"
     Comment="" />
   <ConditionTag
-    BackgroundColor="#181e1e"
-    Name="V17_Production_rates"
-    Comment="" />
-  <ConditionTag
-    BackgroundColor="#2f4f4f"
-    Name="V17_Task_activities"
-    Comment="" />
-  <ConditionTag
-    BackgroundColor="#9acd32"
-    Name="V17_Reschedule_rights"
-    Comment="" />
-  <ConditionTag
-    BackgroundColor="#fa8072"
-    Name="V17_Tab_colouring"
-    Comment="" />
-  <ConditionTag
-    BackgroundColor="#7b68ee"
-    Name="V17_Project_timeline"
-    Comment="" />
-  <ConditionTag
     BackgroundColor="#ff69b4"
     Name="V17_Backstage_changes"
-    Comment="" />
-  <ConditionTag
-    BackgroundColor="#808000"
-    Name="V17_Vision_global_libraries"
     Comment="" />
   <ConditionTag
     BackgroundColor="#00fa9a"

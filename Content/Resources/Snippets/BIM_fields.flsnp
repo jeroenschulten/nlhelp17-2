@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
@@ -22,17 +22,53 @@
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                     <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">IFC taak type</td>
                     <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                        <p class="ParagraphsInTables" xmlns="">Wanneer u gebruik maakt van IFC taak type om de manier te controleren waarop objecten in een IFC model worden "gebouwd" tijdens tijdlijnsimulaties, specificeert u het betreffende IFC taak type om toe te wijzen aan de taak.</p>
-                        <p class="ParagraphsInTables" xmlns="">Om IFC taak type te gebruiken om de weergave van objecten tijdens tijdlijnsimulaties te controleren, bewerkt u de eigenschappen van elk IFC model of IFC groep model en specificeert u weergave-instellingen voor elk IFC taak type. Vervolgens wijst u het betreffende IFC taak type toe aan elke taak. De IFC taak type weergave-instellingen worden toegepast op alle objecten in een IFC model die zijn geassocieerd aan taken waaraan het IFC taak type is toegewezen. </p>
+                        <p class="ParagraphsInTables" xmlns="">Wanneer u gebruik maakt van IFC taak type om de manier te controleren waarop objecten in een IFC model worden "gebouwd" tijdens tijdlijnsimulaties, specificeert u het betreffende IFC taak type om toe te wijzen aan de taak. Als een taak betrekking heeft op de bouw van een object, kunt u het IFC-taaktype 'Bouw' op de taak toepassen; als het betrekking heeft op de sloop van een object, kunt u daar het IFC-taaktype 'Sloop' op toepassen.</p>
+                        <p class="ParagraphsInTables" xmlns="">&#160;</p>
+                        <p>De volgende IFC taak typen zijn beschikbaar:</p>
+                        <ul>
+                            <li><b>Bezoek</b>. Pas dit toe op taken die de aanwezigheid van een hulpmiddel vertegenwoordigen, of een periode van wachten tot één of meer gebeurtenissen plaatsvinden.</li>
+                            <li><b>Bouw</b>. Pas dit toe op taken die staan ​​voor het oprichten, fabriceren of bouwen van iets.</li>
+                            <li><b>Sloop</b>. Pas dit toe op taken die staan ​​voor iets naar beneden halen, vernietigen of afbreken.</li>
+                            <li><b>Ontmanteling</b>. Pas dit toe op taken die te maken hebben met het voorzichtig uit elkaar halen, zodat het kan worden gerecycled of hergebruikt.</li>
+                            <li><b>Afvoer</b>. Pas dit toe op taken die staan ​​voor het wegdoen van iets.</li>
+                            <li><b>Installatie</b>. Pas dit toe op taken die het installeren van iets vertegenwoordigen; dit is vergelijkbaar met het taaktype 'Bouw', maar wordt vaker gebruikt voor technische taken.</li>
+                            <li><b>Logistiek</b>. Pas dit toe op taken die betrekking hebben op het vervoeren of afleveren van iets.</li>
+                            <li><b>Onderhoud</b>. Pas dit toe op taken die betrekking hebben op het onderhouden of onderhouden van iets om het in goede staat of in goede staat te houden.</li>
+                            <li><b>Verplaatsen</b>. Pas dit toe op taken die betrekking hebben op het verplaatsen van iets van de ene plaats naar de andere.</li>
+                            <li><b>Operatie</b>. Pas dit toe op taken die de werking of uitvoering van iets vertegenwoordigen.</li>
+                            <li><b>Verwijdering</b>. Pas dit toe op taken die betekenen dat je iets weghaalt van de plaats van gebruik.
+</li>
+                            <li><b>Vernieuwing</b>. Pas dit toe op taken die staan voor het herstellen van iets naar een 'als nieuw' staat.</li>
+                        </ul>
+                        <p class="ParagraphsInTables" xmlns="">Om IFC taak type te gebruiken om de weergave van objecten tijdens tijdlijnsimulaties te controleren, bewerkt u de eigenschappen van elk IFC model of IFC groep model en specificeert u weergave-instellingen voor elk IFC taak type. U kunt bijvoorbeeld opgeven dat objecten tijdens de duur van een taak worden opgebouwd of afgebroken, of dat objecten aan het begin van een taak verschijnen of aan het einde van een taak verdwijnen. Vervolgens wijst u het betreffende IFC taak type toe aan elke taak. De IFC taak type weergave-instellingen worden toegepast op alle objecten in een IFC model die zijn geassocieerd aan taken waaraan het IFC taak type is toegewezen. </p>
                         <p class="ParagraphsInTables" xmlns="">Wanneer er zowel een IFC taak type als een IFC simulatie profiel is gespecificeerd voor een taak, worden de IFC simulatie profiel instellingen gebruikt tijdens de duur van de tijdlijn in plaats van de IFC taak type instellingen.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">IFC simulatie profiel</td>
-                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">IFC simulatie profiel</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
                         <p class="ParagraphsInTables" xmlns="">Wanneer u IFC simulatie profielen gebruikt om de wijze waarop objecten in een IFC model worden "gebouwd" gedurende tijdlijn simulaties te controleren , specificeer dan het juiste IFC simulatie profiel om toe te wijzen aan de taak.</p>
                         <p class="ParagraphsInTables" xmlns="">Om IFC simulatie profielen te gebruiken om de weergave van objecten tijdens tijdlijn simulaties te bepalen, creëert u in de Bibliotheek Verkenner een bepaald aantal IFC simulatie profielen en specificeert u de weergave instellingen voor elke daarvan. U wijst vervolgens het benodigde IFC simulatie profiel toe aan elke taak. De IFC simulatie profiel weergave instellingen worden toegepast op alle objecten in een IFC model die geassocieerd zijn aan de taken waaraan het IFC simulatie profiel is toegewezen.</p>
                         <p class="ParagraphsInTables" xmlns="">Wanneer zowel een IFC taak type als een IFC simulatie profiel is gespecificeerd voor een taak, worden de IFC simulatie profiel instellingen gebruikt tijdens de duur van de tijdlijn in plaats van de IFC taak type instellingen.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                    <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Site Object Acties</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">
+                        <p class="ParagraphsInTables" xmlns="">Dit raster geeft een lijst weer met alle siteobjectacties die aan de taak zijn gekoppeld. Voor sommige taken is er één enkele actie; als u meer dan één actie aan een taak heeft gekoppeld, worden alle acties in het raster weergegeven. Als een taak niet is gekoppeld aan een siteobjectactie als onderdeel van het animeren van een siteobject, verschijnen er geen acties in het raster.</p>
+                        <p class="ParagraphsInTables" xmlns="">&#160;</p>
+                        <p class="ParagraphsInTables" xmlns="">Als u slechts één actie aan een taak heeft gekoppeld, hoeft u niet het percentage van de taakduur op te geven dat de actie in beslag neemt, tenzij u wilt dat de actie minder dan 100% van de duur in beslag neemt; de actie neemt standaard 100% van de duur van de taak in beslag, dus deze begint bij het begin van de taak en eindigt aan het einde van de taak.</p>
+                        <p class="ParagraphsInTables" xmlns="">&#160;</p>
+                        <p class="ParagraphsInTables" xmlns="">Als u één actie aan een taak hebt gekoppeld en u wilt dat de actie minder dan 100% van de taakduur in beslag neemt, of als u meer dan één actie aan dezelfde taak hebt gekoppeld, moet u de eigenschappen van de taak bewerken en de start- en eindpercentages voor de acties die eraan zijn gekoppeld specificeren. Bijvoorbeeld:</p>
+                        <ul type="disc" xmlns="">
+                            <li>Om aan te geven dat een actie de eerste 10% van de duur van een taak in beslag neemt, voert u '0' in de kolom <b>Start %</b> en '10' in de kolom <b>Stop %</b> in.</li>
+                            <li>Om aan te geven dat een actie de laatste 20% van de duur van een taak in beslag neemt, voert u '81' in de kolom <b>Start %</b> en '100' in de kolom <b>Stop %</b> in.</li>
+                            <li>Om aan te geven dat de actie de middelste 40% van de duur van de taak in beslag neemt, voert u '31' in de kolom <b>Start %</b> en '70' in de kolom <b>Stop %</b> in.</li>
+                        </ul>
+                        <p class="ParagraphsInTables" xmlns="">Als u meer dan één actie aan dezelfde taak heeft gekoppeld, moet u ervoor zorgen dat de percentages die u voor elke actie invoert, in elkaar overvloeien en niet conflicteren of overlappen.</p>
+                        <p class="ParagraphsInTables" xmlns="">&#160;</p>
+                        <p class="ParagraphsInTables" xmlns=""><a href="https://help.elecosoft.com/powerproject_bim/dutch/16.0.02/Content/HTML Topics/Group_models/Site_objects_movement.htm">Animeren van site objects om hun bewegingen op de bouwplaats te weerspiegelen</a>
+                        </p>
                     </td>
                 </tr>
             </tbody>

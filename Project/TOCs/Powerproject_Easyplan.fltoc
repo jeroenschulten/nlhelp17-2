@@ -186,8 +186,7 @@
         Link="/Content/HTML_Topics/Other/S_LE.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/HTML_Topics/Other/S_GlobalLE.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-        conditions="Powerproject_Easyplan.V17_Vision_global_libraries" />
+        Link="/Content/HTML_Topics/Other/S_GlobalLE.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/HTML_Topics/Other/S_Assignmentview.htm"
@@ -530,7 +529,7 @@
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/HTML_Topics/Conceptual/Vision/Vision_global_libraries.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      conditions="Powerproject_Easyplan.V17_Vision_global_libraries" />
+      conditions="Powerproject_Easyplan.Powerproject_only" />
   </TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"

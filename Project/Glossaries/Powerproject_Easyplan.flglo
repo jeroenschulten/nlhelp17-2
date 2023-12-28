@@ -3024,4 +3024,26 @@ De voortgang op deze manier berekenen is het meest handig als u geen resources a
     <Definition
       Link="">JavaScript-objectnotatie. Een bestandsindeling voor gegevensuitwisseling die voor mensen gemakkelijk te lezen en te schrijven is en voor computers gemakkelijk te ontleden en te genereren. Asta Powerproject gebruikt dit bestandsformaat wanneer u kwaliteitscriteria exporteert van een kwaliteitscheck en u kunt deze bestanden importeren in andere projecten en deze bestanden uploaden om kwaliteitschecks te creëren in Asta Powerproject Vision.</Definition>
   </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Powerproject_Easyplan.Term0"
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Globale Bibliotheek Verkenner</Term>
+    </Terms>
+    <Definition
+      Link="">Een speciale versie van Bibliotheekverkenner die u gebruikt om globale kalenders, codes, voortgangsperioden, kwaliteitscontroles en resources te beheren die zijn opgeslagen in Asta Vision en die in een willekeurig aantal individuele projecten kunnen worden gebruikt, zodat u niet dezelfde bibliotheken hoeft op te zetten in uw projecten meerdere keren.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Powerproject_Easyplan.Term5"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Powerproject_Easyplan.Powerproject_only">
+    <Terms>
+      <Term>Globale bibliotheken</Term>
+    </Terms>
+    <Definition
+      Link="">Kalenders, codes, voortgangsperioden, kwaliteitschecks en resources die in Asta Vision kunnen worden opgeslagen en in een willekeurig aantal individuele projecten kunnen worden gebruikt, zodat u niet meerdere keren dezelfde bibliotheken in uw projecten hoeft in te stellen. Als u globale bibliotheken gebruikt, gebruikt u de Globale Bibliotheek Verkenner om de bibliotheekobjecten te beheren.</Definition>
+  </GlossaryEntry>
 </CatapultGlossary>
