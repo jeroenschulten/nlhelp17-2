@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="Options dialog - File Locations tab" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:fileTags="RoboHelpStatus.In Progress" xml:lang="en-gb">
+    <head>
+        <MadCap:changeData>
+            <MadCap:AddChange MadCap:userName="MarkDeegan" MadCap:initials="MA" MadCap:id="1" MadCap:timestamp="2023-10-03T15:26:53.1076862+01:00" />
+            <MadCap:AddChange MadCap:userName="MarkDeegan" MadCap:initials="MA" MadCap:id="2" MadCap:timestamp="2023-10-03T15:30:45.2464790+01:00" />
+        </MadCap:changeData>
+        <link href="../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Who is;Who are;Who does;Who do;Who can;Who should;Who could;Who will;Who would;Who am;What is;What are;What does;What do;What can;What should;What could;What will;What would;What am;How is;How are;How does;How do;How can;How should;How could;How will;How would;How am;Why is;Why are;Why does;Why do;Why can;Why should;Why could;Why will;Why would;Why am;When is;When are;When does;When do;When can;When should;When could;When will;When would;When am;Where is;Where are;Where does;Where do;Where can;Where should;Where could;Where will;Where would;Where am;Whose is;Whose are;Whose does;Whose do;Whose can;Whose should;Whose could;Whose will;Whose would;Whose am;Which is;Which are;Which does;Which do;Which can;Which should;Which could;Which will;Which would;Which am;I;You;My;Your;Their;His;Her" />Options dialog - File Locations tab</h1>
+        <p>You use the <b xmlns="http://www.w3.org/1999/xhtml">File Locations</b> tab of the 
+<b xmlns="http://www.w3.org/1999/xhtml">Options</b> dialog to specify the location of the various types of file that relate to <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" />. The tab lists the file types and the location in which each type of file is stored. Depending on the type of file whose location details you change, you may have to restart <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> for the changes that you make to take effect.</p>
+        <p MadCap:changes="1">As well as specifying fixed file locations - for example 'C:\Data\Documents\', you can specify file locations using the '%userprofile%' environment variable. This means that you can specify file locations that are within a user's profile folder, without having to specify the user's name. For example, you can specify a file location of '%userprofile%\Templates\', or '%userprofile%\Documents', and these will be resolved into the individual user's Templates or Documents folder.</p>
+        <p MadCap:changes="2">You can also use the '%userprofile%' environment variable to specify file locations that exist in a user's OneDrive, or in SharePoint. For example, if you specify a file location of '%userprofile%\OneDrive\Documents\Powerproject\Projects\', this will be resolved to the folder in the user's OneDrive (note that the name of the user's OneDrive may differ from 'OneDrive').</p>
+        <p>If you specify a location for a file type that is on a network drive rather than on your local computer, we recommend that for best performance, you map the network drive on your computer. For example, if you set a location for your live projects that is on a network drive, mapping that drive on your computer makes it easier to open projects from and save projects to that folder.</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Options_dialog_access.flsnp" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Explanation of the fields and buttons on the dialog</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../../Resources/Stylesheets/Table_Stylesheet.css');margin-left: 0;margin-right: auto;caption-side: top;" cellspacing="0" xmlns="http://www.w3.org/1999/xhtml">
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <thead>
+                        <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Field/Button</th>
+                            <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">File locations</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">A list of the file types used by <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> and the location in which each type of file is stored. Click a file type to select it in the list.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Open Folder</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Click this button to view the selected folder in Windows Explorer.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Default</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Click this button to restore the location of the selected file type back to the default setting.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Modify</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Click this button to change the path of the selected file type.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Clear</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Click this button to clear the path of the selected file type (macro files only).</p>
+                                <p class="ParagraphsInTables" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">&#160;</p>
+                                <p class="ParagraphsInTables" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+                                    <MadCap:snippetText src="../../Resources/Snippets/APP_SaaS_macros_not_available.flsnp" />
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Only use the given file locations for borders and templates</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">
+                                <p class="ParagraphsInTables">In the case of project templates and border files, you can specify whether <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> should search not only in the folders that are specified on this dialog, but also in other locations - for example, in the folder in which <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> is installed. You may want to prevent templates and borders in other locations from being presented to you each time you create a new project or print, to ensure that you use only the appropriate templates and borders.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Select this check box to prevent additional templates and borders from being presented to you, or clear the check box to specify that templates and borders in other locations should be presented to you alongside the templates and borders that are stored in the folders specified on this dialog.   </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../Resources/Snippets/How_do_I.flsnp" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... change the location of a file type?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol xmlns="http://www.w3.org/1999/xhtml">
+                    <li class="p">Select the type of file whose location you want to change.</li>
+                    <li class="p">Click <b>Modify</b>. You see the <b>Default Path for Files</b> dialog.</li>
+                    <li class="p">Browse for the location in which you want to save files of the selected type and click <b>OK</b> to return to the <b>Options</b> dialog.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... restore the location of a file type back to the default setting?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol xmlns="http://www.w3.org/1999/xhtml">
+                    <li class="p">Select the type of file whose location you want to restore back to the default setting.</li>
+                    <li class="p">Click <b>Default</b>.</li>
+                </ol>
+                <p xmlns="http://www.w3.org/1999/xhtml">You cannot restore the location of macro files back to a default setting, as macro files do not have a default location.</p>
+                <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+                    <MadCap:snippetText src="../../Resources/Snippets/APP_SaaS_macros_not_available.flsnp" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... clear the location of a file type?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol xmlns="http://www.w3.org/1999/xhtml">
+                    <li class="p">Select the type of file whose location you want to clear (you can only clear the location of macro files).</li>
+                    <li class="p">Click <b>Clear</b>.</li>
+                </ol>
+                <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
+                    <MadCap:snippetText src="../../Resources/Snippets/APP_SaaS_macros_not_available.flsnp" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specify whether project templates and borders in shared locations should also be used?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p xmlns="http://www.w3.org/1999/xhtml">Select the <b xmlns="http://www.w3.org/1999/xhtml">Only use the given file locations for borders and templates</b> check box to prevent additional templates and borders in other locations (for example, in the folder in which <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> is installed) from being presented to you, or clear the check box to specify that templates and borders in other locations should be presented to you alongside the templates and borders that are stored in the folders specified on this dialog.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p class="RelatedTopics">Related Topics:</p>
+        <p><a href="../Other/Workingdialogs.htm" xmlns="http://www.w3.org/1999/xhtml">Working with dialogs</a>
+        </p>
+        <p><a href="../Conceptual/Starting_work/Finishing_your_work_session/Saving_a_project_as_a_template.htm">Saving a project as a template</a>
+        </p>
+        <p><a href="../Conceptual/Setting_up_the_bar_chart/Bar_chart_defaults/Setting_your_default_options.htm">Setting your default options</a>
+        </p>
+        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><a href="../Conceptual/Extend_functionality/Macros/Using_macros_to_automate_processes.htm" xmlns="http://www.w3.org/1999/xhtml">Using macros to automate processes</a>
+        </p>
+    </body>
+</html>

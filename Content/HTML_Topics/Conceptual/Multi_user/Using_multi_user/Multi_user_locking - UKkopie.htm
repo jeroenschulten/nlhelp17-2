@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="HTML Topics\Conceptual\Multi_user\Using_multi_user\Multi_user_locking.htm" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:fileTags="RoboHelpStatus.In Progress" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" xml:lang="en-gb">
+    <head>
+        <MadCap:changeData>
+            <MadCap:RemoveChange MadCap:userName="MarkDeegan" MadCap:initials="MA" MadCap:id="1" MadCap:timestamp="2023-11-20T09:40:04.0295192+00:00" />
+        </MadCap:changeData><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Who is;Who are;Who does;Who do;Who can;Who should;Who could;Who will;Who would;Who am;What is;What are;What does;What do;What can;What should;What could;What will;What would;What am;How is;How are;How does;How do;How can;How should;How could;How will;How would;How am;Why is;Why are;Why does;Why do;Why can;Why should;Why could;Why will;Why would;Why am;When is;When are;When does;When do;When can;When should;When could;When will;When would;When am;Where is;Where are;Where does;Where do;Where can;Where should;Where could;Where will;Where would;Where am;Whose is;Whose are;Whose does;Whose do;Whose can;Whose should;Whose could;Whose will;Whose would;Whose am;Which is;Which are;Which does;Which do;Which can;Which should;Which could;Which will;Which would;Which am;I;You;My;Your;Their;His;Her" />Multi-user object locking</h1>
+        <p>Any objects in a project can be locked, including tasks, links, library objects, resource allocations and annotations. As soon as a user starts to make an edit, such as dragging bars, all the objects being edited are locked. You are unable to edit an object if it is locked to another user.</p>
+        <p>Objects are locked in the following circumstances:</p>
+        <ul>
+            <li class="p">Editing an object.</li>
+            <li class="p">Selecting an object.</li>
+            <li class="p">Creating a new object.</li>
+            <li class="p">Creating and editing a resource allocation locks its owning bar, and editing a bar locks all its resource allocations.</li>
+            <li class="p">Deleting or editing a task locks the whole bar.</li>
+            <li class="p">Deleting a link places existence locks on the tasks at both ends of the link and removing a reference to an object places an existence lock on that object. Objects that are existence-locked can be edited but not deleted. For example, changing a bar's calendar from A to B places an existence lock on calendar A. Existence locks are not displayed on screen, but if you try to delete an object that is existence-locked, the deletion fails and an error message appears.</li>
+        </ul>
+        <p>Locking a single task or allocation on a bar locks that whole bar. Locked bars and tasks are identified to other users by being displayed with a coloured background. If the <b>Lock</b> column is displayed in the spreadsheet, the icon in this column also indicates whether the bar is locked:</p>
+        <ul>
+            <li class="p">
+                <img src="../../../../Graphics/Intro_APP_ATP/padlockkey.gif" alt="open gold padlock" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="12" height="16" border="0" /> indicates a bar chart object that is locked to you.</li>
+            <li class="p">
+                <img src="../../../../Graphics/Intro_APP_ATP/padlock.gif" alt="open grey padlock" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="12" height="16" border="0" /> indicates a bar chart object that is locked to another user.</li>
+        </ul>
+        <p>If you attempt to edit a bar that is locked to another user, the edit is not allowed. When the user with the lock saves their edits, the coloured background is removed from the display on your screen, indicating that you may now edit that bar.</p>
+        <p>When an object such as a resource, calendar or code library is locked to you<MadCap:change MadCap:changes="1"> or your workgroup</MadCap:change>, a <img src="../../../../Graphics/Intro_APP_ATP/goldkey.gif" alt="locked golden padlock" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="8" height="10" border="0" /> icon is displayed over the object's icon, for example in Library Explorer and other dialogs; other users <MadCap:change MadCap:changes="1">and workgroups </MadCap:change>see a <img src="../../../../Graphics/Intro_APP_ATP/purplekey.gif" alt="grey closed padlock" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;" width="8" height="10" border="0" /> icon, indicating that they cannot edit the item as it is locked.</p>
+        <p>Some objects, such as links and annotations, are not displayed differently when locked.</p>
+        <p>When an object is locked to a user, other users can select the locked object to view information about it, but they cannot edit the object directly, assign an object to the locked object or delete anything that is assigned to the locked object.</p>
+        <p>You can edit a library object, such as a calendar, even if other locked objects refer to it. When you finish editing a library object, objects on other users' screens may be updated even though the objects were previously locked. If this happens a message appears in the status line, indicating what has happened and which user edited the library object.</p>
+        <p>To change the start date of a project, the project must be open in one <MadCap:variable name="Primary.Powerproject Name" /> client only.</p>
+        <p class="RelatedTopics" MadCap:changes="1">Related Topics:</p>
+        <p MadCap:changes="1">Workgrouping</p>
+    </body>
+</html>

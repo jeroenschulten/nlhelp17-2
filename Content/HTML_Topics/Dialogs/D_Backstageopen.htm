@@ -5,7 +5,7 @@
     </head>
     <body>
         <h1>Backstage view - tabblad Openen</h1>
-        <p>U gebruikt het <b>Openen</b> tabblad van de Backstage view om projecten te openen<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"> en - wanneer u gebruik maakt van <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> Enterprise - de locatie van de Enterprise server te specificeren.</MadCap:conditionalText></p>
+        <p>U gebruikt het <b>Openen</b> tabblad van de Backstage view om projecten te openen<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"> en - wanneer u gebruik maakt van <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Enterprise Name" /></MadCap:conditionalText> - de locatie van de Enterprise server te specificeren.</MadCap:conditionalText></p>
         <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Wanneer er meer dan één gebruiker aangemaakt is in het project dat u opent en u de gebruikersnaam en het wachtwoord weet van meerdere gebruikers, kunt u het project openen met een andere gebruikersnaam en wachtwoord.</p>
         <MadCap:snippetBlock src="../../Resources/Snippets/Backstage_view_access.flsnp" />
         <MadCap:dropDown>
@@ -41,15 +41,15 @@
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
                             <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Enterprise</td>
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                                <p class="ParagraphsInTables" xmlns="">Klik op deze knop om een project te openen dat opgeslagen staat in een server-mounted datasource. Er verschijnt nu een navigeerbare lijst met datasources en projecten. Navigeer door de datasources en projecten en klik op een project om deze te openen.</p>
-                                <p class="ParagraphsInTables" xmlns="">U klikt ook op de <b>Enterprise</b> knop om toegang te krijgen tot de <b>Server Locator</b> knop, die u gebruikt om de locatie te specificeren van uw <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Powerproject Name" /></MadCap:conditionalText>Enterprise servers.</p>
+                                <p class="ParagraphsInTables" xmlns="">Klik op deze knop om een project te openen dat opgeslagen staat in een server-mounted datasource. Er verschijnt nu een navigeerbare lijst met datasources en projecten. Navigeer door de datasources en projecten en klik op een project om deze te openen.<br /><br /></p>
+                                <p class="ParagraphsInTables" xmlns="">U klikt ook op de <b>Enterprise</b> knop om toegang te krijgen tot de <b>Server Locator</b> knop, die u gebruikt om de locatie te specificeren van uw <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Enterprise Name" /></MadCap:conditionalText> servers.</p>
                             </td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
                             <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;"><MadCap:variable name="Primary.Asta Powerproject Name" /> Vision
                             </td>
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                                <p class="ParagraphsInTables" xmlns="">Klik op deze knop om een revisie van een programma dat opgeslagen is in <MadCap:variable name="Primary.Asta Powerproject Name" /> Vision  uit te checken of te downloaden. Er verschijnt een knop waarmee u kunt inloggen bij <MadCap:variable name="Primary.Asta Powerproject Name" /> Vision en een lijst met programma's kunt zien waartoe u toegang heeft, en een verschijnt een hyperlink waarmee u toegang heeft tot de <MadCap:variable name="Primary.Asta Powerproject Name" /> Vision website.</p>
+                                <p class="ParagraphsInTables" xmlns="">Klik op deze knop om een revisie van een programma dat opgeslagen is in <MadCap:variable name="Primary.Powerproject Vision Name" /> uit te checken of te downloaden. Er verschijnt een knop waarmee u kunt inloggen bij <MadCap:variable name="Primary.Powerproject Vision Name" />en een lijst met programma's kunt zien waartoe u toegang heeft, en een verschijnt een hyperlink waarmee u toegang heeft tot de  <MadCap:variable name="Primary.Powerproject Vision Name" /> website.</p>
                                 <p class="ParagraphsInTables" xmlns=""><a href="../Conceptual/Vision/Vision_projects.htm">Klik hier</a> voor meer informatie.</p>
                             </td>
                         </tr>
@@ -69,6 +69,16 @@
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <MadCap:snippetBlock src="../../Resources/Snippets/Open_recently_accessed.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... een project vastpinnen zodat deze altijd bovenaan de lijst met recente projecten verschijnt?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <MadCap:snippetText src="../../Resources/Snippets/Pin_project.flsnp" />
+                </p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
@@ -95,13 +105,13 @@
                 <ol>
                     <li>Klik op <b>Enterprise</b>. </li>
                     <li>Klik op <b>Server Locator</b>. Het <b>Client/Server Communicatie Details</b> dialoogvenster verschijnt.</li>
-                    <li>Voer de details in die <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> in staat stelt om te kunnen connecten aan de Enterprise server, klik vervolgens op <b>OK</b>.</li>
+                    <li>Voer de details in die <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Powerproject Name" /></MadCap:conditionalText> in staat stelt om te kunnen connecten aan de Enterprise server, klik vervolgens op <b>OK</b>.</li>
                 </ol>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>... een programma openen dat is opgeslagen in <MadCap:variable name="Primary.Asta Powerproject Name" /> Vision?</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>... een programma openen dat is opgeslagen in <MadCap:variable name="Primary.Powerproject Vision Name" />?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <MadCap:snippetBlock src="../../Resources/Snippets/Open_Vision.flsnp" />
@@ -115,8 +125,8 @@
                 <MadCap:snippetBlock src="../../Resources/Snippets/Global_libraries_3.flsnp" />
                 <ol>
                     <li class="p">Klik op het <b>Bestand</b> tabblad, klik vervolgens op <b>Openen</b>.</li>
-                    <li>Klik op <b xmlns=""><MadCap:variable name="Primary.Powerproject Vision Name"></MadCap:variable></b>. Er verschijnt een knop voor u om in te loggen bij <MadCap:variable name="Primary.Powerproject Vision Name"></MadCap:variable>. </li>
-                    <li>Log in bij <MadCap:variable name="Primary.Powerproject Vision Name" />. Er verschijnt een lijst met programma's waartoe u toegang hebt. Wanneer u al ingelogd bent bij <MadCap:variable name="Primary.Powerproject Vision Name" />, verschijnt de programmalijst zonder dat u nog in hoeft te loggen.</li>
+                    <li>Klik op <b xmlns=""><MadCap:variable name="Primary.Powerproject Vision Name"></MadCap:variable></b>. Wanneer u nog niet ingelogd bent, verschijnt er een knop voor u om in te loggen bij <MadCap:variable name="Primary.Powerproject Vision Name"></MadCap:variable>. </li>
+                    <li>Log in bij <MadCap:variable name="Primary.Powerproject Vision Name" />. </li>
                     <li>Klik op het programma om deze uit te checken. Het programma wordt uitgecheckt, samen met het globale bibliotheekbestand, waarvan de inhoud wordt samengevoegd met het programma.</li>
                     <li>Zodra het programma is uitgecheckt en verschijnt in <MadCap:variable name="Primary.Asta Powerproject Name" />, keert u terug naar het tabblad Openen van de Backstage-weergave en klikt u op <b>Vision</b>.</li>
                     <MadCap:snippetBlock src="../../Resources/Snippets/Global_libraries_4.flsnp" />
@@ -171,8 +181,7 @@
         </p>
         <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><a href="../Conceptual/Multi_user/Using_multi_user/Locating_the_teamplan_ENTERPRISE_server.htm">Lokaliseren van de Enterprise server</a>
         </p>
-        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><a href="../Conceptual/Multi_user/Using_multi_user/Workgrouping.htm">Werkgroepen gebruiken</a>
-        </p>
+        <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Werkgroepen gebruiken</p>
         <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><a href="../Conceptual/Archiving/Archiving_intro.htm">Introductie over het archiveren</a>
         </p>
     </body>

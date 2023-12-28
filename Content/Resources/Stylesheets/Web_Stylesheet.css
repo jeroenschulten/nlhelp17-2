@@ -160,14 +160,14 @@ DFN.collapsed
 	font-style: normal;
 	font-weight: normal;
 	display: 'none';
-	color: #e42313;
+	color: #b90022;
 }
 
 DFN.expanded
 {
 	font-style: normal;
 	font-weight: normal;
-	color: #e42313;
+	color: #b90022;
 }
 
 EM.dropspot
@@ -180,7 +180,7 @@ EM.dropspot
 CITE.glossterm
 {
 	font-style: normal;
-	color: #e42313;
+	color: #b90022;
 	cursor: hand;
 }
 
@@ -189,14 +189,14 @@ DFN.glosscollapsed
 	font-style: normal;
 	font-weight: normal;
 	display: 'none';
-	color: #e42313;
+	color: #b90022;
 }
 
 DFN.glossexpanded
 {
 	font-style: normal;
 	font-weight: normal;
-	color: #e42313;
+	color: #b90022;
 }
 
 .mvd-CITE-expandspot
@@ -211,14 +211,14 @@ DFN.glossexpanded
 	font-style: normal;
 	font-weight: normal;
 	display: 'none';
-	color: #e42313;
+	color: #b90022;
 }
 
 .mvd-DFN-expanded
 {
 	font-style: normal;
 	font-weight: normal;
-	color: #e42313;
+	color: #b90022;
 }
 
 .mvd-EM-dropspot
@@ -230,7 +230,7 @@ DFN.glossexpanded
 .mvd-CITE-glossterm
 {
 	font-style: normal;
-	color: #e42313;
+	color: #b90022;
 	cursor: hand;
 }
 
@@ -239,19 +239,19 @@ DFN.glossexpanded
 	font-style: normal;
 	font-weight: normal;
 	display: 'none';
-	color: #e42313;
+	color: #b90022;
 }
 
 .mvd-DFN-glossexpanded
 {
 	font-style: normal;
 	font-weight: normal;
-	color: #e42313;
+	color: #b90022;
 }
 
 MadCap|dropDownHead
 {
-	color: #e42313;
+	color: #b90022;
 	mc-closed-image: url('../../Graphics/Help/ExpandingClosed.gif');
 	mc-open-image: url('../../Graphics/Help/ExpandingOpen.gif');
 }
@@ -260,14 +260,14 @@ MadCap|dropDown
 {
 	padding: 8px;
 	padding-left: 8px;
-	color: #e42313;
+	color: #b90022;
 	mc-closed-image: url('../../Graphics/Help/ExpandingClosed.gif');
 	mc-open-image: url('../../Graphics/Help/ExpandingOpen.gif');
 }
 
 MadCap|dropDownHotspot
 {
-	color: #e42313;
+	color: #b90022;
 }
 
 A.GlossaryPageTerm
@@ -277,7 +277,7 @@ A.GlossaryPageTerm
 
 A
 {
-	color: #e42313;
+	color: #b90022;
 	border-bottom: solid 0px;
 }
 
@@ -385,19 +385,19 @@ h3
 A:link
 {
 	text-decoration: none;
-	color: #e42313;
+	color: #b90022;
 }
 
 A:visited
 {
 	text-decoration: none;
-	color: #e42313;
+	color: #b90022;
 }
 
 A:hover
 {
 	text-decoration: underline;
-	color: #a2180c;
+	color: #b90022;
 }
 
 :focus

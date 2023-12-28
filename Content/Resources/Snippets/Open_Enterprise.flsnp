@@ -7,6 +7,6 @@
             <li>Navigeer door de datasources en projecten.</li>
             <li>Klik op een project om deze te openen.</li>
         </ol>
-        <p>Als u <MadCap:variable name="Primary.Asta Powerproject Name" /> Enterprise draait en een project opent dat is opgeslagen op een server mounted datasource, moet u mogelijk zowel aanmeldingsgegevens invoeren om u aan te melden bij de server als bij het project. Als uw gebruikersnaam en wachtwoord hetzelfde zijn voor zowel de server als het project, hoeft u slechts één set aanmeldingsgegevens in te voeren.</p>
+        <p>Als u <MadCap:variable name="Primary.Asta Enterprise Name" /> gebruikt en een project opent dat is opgeslagen op een server mounted datasource, moet u mogelijk zowel aanmeldingsgegevens invoeren om u aan te melden bij de server als bij het project. Als uw gebruikersnaam en wachtwoord hetzelfde zijn voor zowel de server als het project, hoeft u slechts één set aanmeldingsgegevens in te voeren.</p>
     </body>
 </html>

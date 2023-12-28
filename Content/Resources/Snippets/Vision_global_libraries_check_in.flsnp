@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Als <MadCap:variable name="Primary.Powerproject Vision Name" /> is geconfigureerd om met globale bibliotheken te werken en u het globale bibliotheekbestand hebt uitgecheckt, wordt het globale bibliotheekbestand ingecheckt telkens wanneer u incheckt of een project indient. Als u een project probeert te sluiten zonder het opnieuw in te checken en u hebt het globale bibliotheekbestand uitgecheckt, verschijnt er een waarschuwing dat u het globale bibliotheekbestand moet inchecken. Dit is om te voorkomen dat u het uitgecheckt op uw computer laat staan, wat betekent dat andere gebruikers er geen toegang toe hebben.</p>
+    </body>
+</html>

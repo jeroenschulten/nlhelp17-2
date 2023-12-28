@@ -3289,7 +3289,6 @@
         conditions="Powerproject_Easyplan.Powerproject_only" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/HTML_Topics/Conceptual/Multi_user/Using_multi_user/Workgrouping.htm"
         conditions="Powerproject_Easyplan.Powerproject_only" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"

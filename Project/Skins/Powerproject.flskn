@@ -231,20 +231,20 @@
           <Property
             Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
           <Property
-            Name="Color">#ff3939</Property>
-          <Property
             Name="FontSize">16px</Property>
+          <Property
+            Name="Color">#b90022</Property>
         </Properties>
       </Style>
       <Style
         Name="Search Result Link (active)">
         <Properties>
           <Property
-            Name="Color">#ff3939</Property>
-          <Property
             Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
           <Property
             Name="FontSize">16px</Property>
+          <Property
+            Name="Color">#b90022</Property>
         </Properties>
       </Style>
       <Style
@@ -253,9 +253,9 @@
           <Property
             Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
           <Property
-            Name="Color">#ff3939</Property>
-          <Property
             Name="FontSize">16px</Property>
+          <Property
+            Name="Color">#b90022</Property>
         </Properties>
       </Style>
       <Style
@@ -264,9 +264,9 @@
           <Property
             Name="TextDecoration">none</Property>
           <Property
-            Name="Color">#ff3939</Property>
-          <Property
             Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
+          <Property
+            Name="Color">#b90022</Property>
         </Properties>
       </Style>
       <Style
@@ -286,6 +286,8 @@
             Name="FontSize">11px</Property>
           <Property
             Name="Color">#262626</Property>
+          <Property
+            Name="Display">none</Property>
         </Properties>
       </Style>
       <Style
@@ -318,16 +320,16 @@
           <Property
             Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
           <Property
-            Name="Color">#ff3939</Property>
+            Name="Color">#b90022</Property>
         </Properties>
       </Style>
       <Style
         Name="Search Suggestion Link">
         <Properties>
           <Property
-            Name="Color">#ff3939</Property>
-          <Property
             Name="FontFamily">Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;</Property>
+          <Property
+            Name="Color">#b90022</Property>
         </Properties>
       </Style>
       <Style
@@ -555,11 +557,17 @@
           </Properties>
         </Style>
       </Medium>
+      <Style
+        Name="Search Micro Content Response Path">
+        <Properties>
+          <Property
+            Name="Display">none</Property>
+        </Properties>
+      </Style>
     </Styles>
     <Resources>
       <Resource
         Name="searchmagnifyingglass.gif">H4sIAAAAAAAEAHP3dLOwTJRkkGT4/p9BTU3NwMDAzMzMysrK1tbWwcHBxcXF3d3dz88vMDAwOjo6KSkpNTU1JycnPz+/srKypqamubm5ra2tvb29t7d3woQJEydOnDJlyvTp02fNmjV//vwFCxasWLFi69atu3fv3rNnz/79+w8dOnT06NETJ06cPHnyzJkzZ8+ePX/+/OXLl69du3bz5s27d+8+ePDg8ePHT548ef78+atXr969e/fly5fv37///v2bYRSMAloCHRABygsMHE8ZMjlkMpKYmhgYmFRmTEhacLidKVTDoIDRlUfKwC9A4UID65F2WbaCGR8D3dgYFey4eG4GLD0gyOJUE2K4YKl3oxLbjoYVDYfPtovK2OgkNjw532jEUSFj8fDQxXZBAwuXhM+avPzcMmw7MkIfcDHzMZbI/ljUELYuNlymYMaDIzdW88h4bfjwzZGtXbOrrNdwwdHDbOVrgyoYJh5tEPJ3FGn4aMjCeMTckeXCA6MjDDxGdscWBCQcZhDSi7VQEGBk4ZbQtnOQ+NDwseO8eWRCRMKCA4xskn/4anh/vXW+t6/+MN++aotCKWU+FhYGawCIi9A5AAQAAA==</Resource>
-      
       <Resource
         Name="APPHelp28ptRoboto.png">H4sIAAAAAAAEAAHGDjnxiVBORw0KGgoAAAANSUhEUgAAAScAAAAfCAIAAAAqZpxiAAAAK3RFWHRDcmVhdGlvbiBUaW1lAFdlZCA3IERlYyAyMDIyIDExOjE2OjQzIC0wMDAwl3uKbwAAAAd0SU1FB+cGHQ0iAqvCTycAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAEZ0FNQQAAsY8L/GEFAAAOHklEQVR42u1c/2scRRTPv3UIglAQBMEfhIIgCEKhIOSHQEQoCKVBaaEYSiS10MSSWtpgq7XfjTaxsaT4Q7RJtMFr0i+2sQmX5Mzly+V2b/y8eXNzu7O7czuXu4updwzhsjs787593rz3ZvY6RCbTbu3Wbq1sHbtOQbu12x5r774rTp1Sbd++OkZIRl1npxoXX3adz5pNS8Fox46Jri6xf//uU/hyNAizv1+88cbuUxJtb71V1TuAkdStu7varb6JDh8ub25ub2+LYpEmdR8hGXW5XEl+xOJiY4Ry/Lhi9fDhxkt8a2s77uMXCuW1NQEB/fZbG3s7bT09YmPD/+cfsbwsXnmlFTM62czBg0KCAZCw9R8Z8TyPMINPvaiDEDY2NgRMq5GoO3iwLMeloQsFceBAAyS4vAwMg2Hx4EHj1bO6ClK34rBXLBZxqwRN2JXRbjXb2BjkSSaxstKiCMjJZmC0Kysb7BesqGOT+O+h7vbtovzAjj0Y67VrDZHg5uYmBmwe6kCw+OMPce5ctd2+LZaWyhsbm/JDHqQuMbUbtU8/RUzhQ4xY6159tTWoc7CZvY26114T6+tE/fo6Ghkr2N65lFuDOiDNuIVYCKmI5IhWvMnJ3TffvduwxLUyr/sfoe6TT5AO0aASb/iCaFN8/LFtIMwNPoeGqOFLkBRE2xyaywWHJLi0pK7gVnAQAPu996j+ceGC6O0lBadPHiyo4zYzg+hIeZDoXSTfmBHzwqQwr1GYAmE6/37//fhbWAeMMQ8dUrf6+sxbsFrIE6TiVleXeP11s4POZ5D6wwmiD3fGg1qebFiQGNIt3MUjsSUEy1DpJaD72Gt3NfkKtrffJtrQ+fRp6gza6rCZZqCuJhexqHPRSxzq5ubAJ1nwzz+LbLYoP2JqKpHEH34QxWJ5bc0rFDxdvbhyRZF76pTv+5xicZin6hy+HyoiHT0KEeNBINxDGAPBra9TIQdsNwR1fX0ep6kgD/oO0g/WSiV/bQ0phJoXicTAQAjzS0ue/EBnoWFhoBsbqpwVtJtMICcJrq7oMzxMcRpPh4gX9MCqjhyJf3ZmRuTzJFt2glK1EB1VuZ48EXfukMTkXaIcHXDR8L6WoZwkkLHW7lLypWcE5XJG6FrZDEgaHFRgTmkzDUddSi5iUeeilwjq9u/HWIp0eMfjx335L80dXUxB5fw8BAe5gBOueW7Jfz2eCR3SSPDiRUzKD+IWBuGsnVAEzj/4oAGo6+31eAGHpN55p+pu83mv4lCZMCaD7AApovZz336rlkqkNMFhv/uOSS3n86FwALKSIPdXVsjbaWubn/fldCwuHpN8OaaDnwpAhfsIWW3jzhp1ihIhYBZBsjEddCGgODjaNEM5SSCTHFml54tnzOW8cGc1I6h6+JCgviuoS89FAurS6yWCugsXSnJiWnkQPr35ppBWhQSPIgGj89CQL22rDGy8eCGuXxfff4/RPUkTuYqbN0m7XNiQ4iMecjl1hRX/4YdsoCWe9N49AiEcs44uVldrh5o1UTcxoYQCm+PR8HduDpMqPYEqED8+TvTn8yQp0K9l3dlZZu+Di8GlMp9nJdHUP/4YoxjITfefmGAPVcZ1hEyYDk4R6uFFGE3XiitQIYTA1J4/F998QzGFjPEY52SFGBzCwSBjY0S2dCu0FgWzIMtQThKwoC49X5gxm1V+CoNzZzQ5l7qI1aamzTQDdem5SEZdSr2EUQehVMyIZuWLMzNFWcwkzg0G/vpLxaLZbBUYWN8WFnBRQTes/pjMeHqafTAZNECur588WWZNYBkxsilX1EEHUn/UYW5Or35lXo4gIMSNulyEIOf+fbUwgiReGHFXqoo0qlM4uK5Cgdj0PJUxaiGMjLCfI2ekbULitgyVnD9f7YngQg5CWnn0KCgrGhOd4ZWCvFS0S6q9ezck9unpkiwakdi1dVqGcpJAJjGfceDr0KEyF+ow4+XL1c6YUeYyRCf6a0rqrqaMjiYenHj4MAZ1TlxYUZdGL2HUdXeXpfmC+mpc19PjS89HcxieZm1NEYRpgteRhuKiXG2rnj5JgoABwja0r74yV3xenaF4JPopUXf/fkjEWH6fPRNyK0/tHGiP9eLFlvzA0ZgVWtAsLYAGhLsKeB+6Ah/GVwYGPGZfgNKtkNAksxRmQ4UVV6qcF/yosXR//rkycQzFEZ0OC5FaG5xWtEuyNcYB2dJ0iCS98FqGcpVArLU58XXvnoIWUGfMiHRmfZ3GwV0dIdeFOkyxbf1w1BdCnRMXVtSl0UsYdVoosE79JGaSVFIEqBdAbmNj1f6zs5TA8GIFfIMabun9FhxeZyetSwAtY0YIRWvNwzvJu+QsYrWWfvGF6g/CGNIgPho5o42Pq4gUIRlfOXHC15t+gaWeCryLixAOyefSJSVlDrw1DiFMz1PxPVIXw/vCNbBf06G/hopRvDG0GyV7akoB6c8/TdQZQ9Uhgai1ufKl1w1EuVHtLy6S80VIpePD1qDOlYuaqKullwDqsLboTS1DKJOTCl14zKjwSmtjVlW5BmvXyZPVsEQ3iwQB7K+/FjIi9WXlRwtoh6jzMR0EgZQGiWJwoUbIKkWZmAP093uSL3o2Uwk2OMTHI0iK4F/4X3SQMYJy4RnaTcawoX3OirezGAShFI9/9NGOUHf9utIUli876uqQQNTanPiC5ZRKCufR3ZTYVneEOTEROiwRbI8fF40I01U7daAurJcA6k6c4Byabty6FYL73bscecZoCBTPzwMwnoQymz6FtpAUsJdGgrIQ6svH2T4MbtOjrhg9m4IcDOtnsP4R1lAoLAw2xNUs2eBxluVlxR1W9WPHfLbmqSlylpzgQXRwh/LkFN2C7l3ccPUAYd2oGxw07yYNVYcEotbmxBce0eXxlEfzWrNL7qqdOlAX1ksAdX//zbCxwJ2UF8s/fP/AAIUiMplRiynmwApWU4IjI7yT5rFbzWapwsaYcYwwi5YaptGwsLMFwIHFHgDQQgTBekP56lUFp8lJ8fvvtLxD7lxcuXEDtzwAcnAQi+EWbzn29KgHsfLL3IByVGSeSW747Fm1o1o36nTMj9ntqKtDAlFrc+JLB3IYodlrnRPqXLVTB+rCeqmgDvFGxXCTUKdoReOl48AB4g2Nl10Nv+HhavUCZNklCE1IaghaCKmNAxPNQ10mU81qYgeXWY0pxK6usiwgkSEyg6CNU9nOTqhc7XOwoPBdl2QrBkcUXryY0trqQd2TJ8rlQZg1h3KVQHJel5av5885C4jJ6zKZaj4f3kFpOupcuagDdWG9VFB37ZoqbmLi8+djgH7lCmd9pKQzZ+iR3l46ksILlHE+CNGXDk70cZhYCSIe4809MKBXBm6IPJuKumw2VQXv119DJLHCVlf9QoHuauPGCJwFFQq+3PGnQwLBMZ89q3qi6CEjzBgM81KizqiVIXG11DCjQ7lKINbanPj66acilwoBDGNG2Amsy/PIkXV3txR1rly41jAjeulQxiTTEhLxzEwiubmcoowzdYwV3EsNznT2rG8UWyt+jiSod8wyge0BXA++2QAYP3jAeSbRGltk2yHqKhvftt0qRIzaArjNzhbljjP++sYqMTqKi3iQQk0+3xR88MgRno6iUIQxwaIUNAoZ8iMsxhSo86GFO3eqYocks9lSBfnGfl38UK4SiLU2J74q9kfbYlevhvbrJifV8QyQareZZqDOiQv7fl0KvXSoUXI5tR9tIff0aXUSBZMx9B8/5p17EmIuR9i7dAn5odrH4z1+/bjcElE1sfFxKshyOrG0VNQF0vl5WuJnZ9GntLbG/clijP3AhqAuQ7VZdTIDjDP9t25VT2aAnqgP6u/3dPwMroNvynZ3+7Lcos4QRV9KnJ4ucQaLB9FhYoJ2ijGvxDARr4/dpUAdpY4gGxY2NqbIloOTkwqSbRnKVQJJZ1PS85WhbU/olo6AoDPMA9PB20qoKNPSO5wWm2k46py4sKIujV46WBBVM7K80VM5HVbUO6dIQ9fXPRl5FivnMJmlbePEozRKXlE5i6ueqYN1Sq70IAxC0ooQKsB4+rQpqEPk8PQpV/mNU4jwL7S9Hi1+SpZZuCGfkpFBppSvkmT0FBs0tLDgB4SgmS2x09GviqaLML3oeb/gtlIa1DlJIAl16fnKyJxidbUcObtLO58YeXo6JLckm2kG6tJzUSvCrKmXDhKrPBfrA4vwJXYznZ5G5E0n+tB4FYYVwiuUSgAJS7DMFRdcjG7ZYSWUZ8ypG+xASxAr58ICObytrZIcikJTLOgzM9Xp7IRJJikrcEIdQwWZvcwgERbS7FwjGR423yHQLZ+nA+noYxymQfvlF3XAX5/niE4HX769XUb6J22uzEdDEUEF3wfRLwrY87qbN2koKXnaz0B79Ch0qs4+lKsELO+VpeSLG4bFjMViWVqCOo2Nv2fOxDj9JJuJQ91Of8EhJRex71646KWDqpd6X67mL4skdcaIPT3iyy/VFpllHIzQ16e6BTUHD9fVpW4himAXCzSm/GEZ3c1yOtbSEHzDrYL+oSF6wc/+1qZ+cS7KppaP/eAo0hgwi248XXSc4EtxFtSx14OFASFp3q/boQRqvs1Zk6/YzpiU99BdbcZojfq1oppcxL5n6KKX9i/z7bVmr1A3te34HeqXubnopY26vdZ2EXWXL6taXLQ43m5t1L3MrfWoQ4B04wYV+mXtMaaM1G6Oemmjbq+11qMOqbIsZnA5jl48/eyz3ZfDf621Ufcyt8qvG7QedT4X0EdHW/SzfHurueiljbq91vRvUdX9g+Gubd8+KsedO0dnAGu+1P+/bS56aaOu3dqt1e1foE5RSwISCdoAAAAASUVORK5CYIJRZIc+xg4AAA==</Resource>
       <Resource
