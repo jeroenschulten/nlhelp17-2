@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
-        <li>Klik op <b>Globale bibliotheken beheren</b>; deze knop verschijnt alleen als u met uw <MadCap:variable name="Primary.Powerproject Vision Name" />-toegangsrechten globale bibliotheken kunt beheren. Het globale bibliotheekbestand wordt gedownload van Asta Vision en verschijnt in de Globale Bibliotheek Verkenner, waar u het kunt bewerken. <br /><br />Als het globale bibliotheekbestand momenteel wordt uitgecheckt naar een andere gebruiker, wordt u hiervan op de hoogte gesteld en verschijnt de Globale Bibliotheek Verkenner niet.</li>
+        <li>Klik op <b>Globale bibliotheken beheren</b>; deze knop verschijnt alleen als uw gebruikersrol is toegewezen aan de beveiligingsregel 'Globaal bibliotheekbestand bewerken' in Asta Vision. Het globale bibliotheekbestand wordt uitgecheckt en gedownload van Asta Vision en verschijnt in de Globale Bibliotheek Verkenner, waar u het kunt bewerken.<br /><br />Als het globale bibliotheekbestand momenteel wordt uitgecheckt naar een andere gebruiker, wordt u hiervan op de hoogte gesteld en verschijnt de Globale Bibliotheekverkenner niet.</li>
     </body>
 </html>

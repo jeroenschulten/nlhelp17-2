@@ -824,8 +824,13 @@
     <Word Comment="">GTD77</Word>
     <Word Comment="">staalvlechter</Word>
     <Word Comment="">Staalvlechter-resource</Word>
-    <Word>Vision-gebruikers</Word>
-    <Word>Vision's</Word>
-    <Word>in-waarschuwing</Word>
-    <Word>-codebibliotheken</Word>
+    <Word Comment="">Vision-gebruikers</Word>
+    <Word Comment="">Vision's</Word>
+    <Word Comment="">in-waarschuwing</Word>
+    <Word Comment="">-codebibliotheken</Word>
+    <Word>-objecten</Word>
+    <Word>resourcemap</Word>
+    <Word>Vision-groep</Word>
+    <Word>Intelligence-schema</Word>
+    <Word>Vision-project</Word>
 </IgnoredWordsDictionary>

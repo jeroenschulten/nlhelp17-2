@@ -15,7 +15,7 @@
                     <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">&#160;</th>
                     <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Downloaden</th>
                     <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Uitchecken naar uw computer</th>
-                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Uitchecken naar een <MadCap:variable name="Primary.Asta Powerproject Name" /> Enterprise server</th>
+                    <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Uitchecken naar een <MadCap:variable name="Primary.Asta Enterprise Name" /> server</th>
                 </tr>
             </thead>
             <tbody>
