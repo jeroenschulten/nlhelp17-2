@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specify the way in which the output is paginated?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol xmlns="http://www.w3.org/1999/xhtml">
+                    <li class="p">Specify the way in which you want the output to fit onto the pages horizontally in the <b>Horizontal pagination</b> group.</li>
+                    <li class="p">Specify the way in which you want the output to fit onto the pages vertically in the <b>Vertical pagination</b> group.</li>
+                    <li class="p">Select the <b>Use defined page breaks</b> check box to incorporate page breaks in a printout, or clear the check box to print without respecting any page breaks.</li>
+                    <li class="p">You can also specify that a printout should include a specific number of lines (bars) per page if required. To do this, click the <b>Fit lines per page</b> radio button and specify the number of lines you want to print on each page. Note that 'lines' in this context refers to bars on which tasks from the live data are located: baseline bars and allocation bars are not counted in the number of lines that you specify here.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

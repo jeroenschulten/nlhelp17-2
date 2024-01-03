@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>... specify the way in which the border file should surround the output?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p xmlns="http://www.w3.org/1999/xhtml">If you are printing an <MadCap:variable name="Primary.Powerdraw Name" /> border around the output, specify whether you want to print the border around the entire output or around each individual page of the output in the <b xmlns="http://www.w3.org/1999/xhtml">Scaling type</b> group.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

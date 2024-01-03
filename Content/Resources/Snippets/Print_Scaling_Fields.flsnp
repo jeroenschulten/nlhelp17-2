@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Explanation of the fields and buttons on the dialog</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');margin-left: 0;margin-right: auto;caption-side: top;" cellspacing="0" xmlns="http://www.w3.org/1999/xhtml">
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <col class="TableStyle-Table_Stylesheet-Column-Column1" />
+                    <thead>
+                        <tr class="TableStyle-Table_Stylesheet-Head-Header1">
+                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Field/Button</th>
+                            <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Override horizontal (datezone) scale</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Click the <b>Automatic</b> radio button to override the horizontal scale settings with a default horizontal scale in your printout.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Alternatively, click the <b>Manual</b> radio button, then click <b>Scale</b> to specify your own horizontal scale settings for the printout, using the <b>Date Zone Scale</b> dialog. Using this dialog, you can create up to three separate date zone sections and specify a different scale for each.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">To use the horizontal scale settings as defined in the date zone in the current view, click the <b>Off</b> radio button.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">
+                                    <a href="../../HTML_Topics/Conceptual/Printing/Printing_the_active_view/Override_scales.htm#Override_horizontal_scale" xmlns="http://www.w3.org/1999/xhtml">Overriding the horizontal scale of printed output</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Override vertical (chart) scale</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Click the <b>Manual</b> radio button, then click <b>Scale</b> to specify your own vertical scale settings for the printout, using the <b>Chart Scale</b> dialog.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">To use the vertical scale settings as defined in the current view, click the <b>Off</b> radio button.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">
+                                    <a href="../../HTML_Topics/Conceptual/Printing/Printing_the_active_view/Override_scales.htm#Override_vertical_scale" xmlns="http://www.w3.org/1999/xhtml">Overriding the vertical scale of printed output</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Fit border around output</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Click this radio button to draw the border around the whole output, which is printed continuously across the appropriate number of pages. Fit the pages together to read across and down the full length of the output. This is 'tiled' output.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">
+                                    <a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Printing_tiled_or_paginated_output.htm" xmlns="http://www.w3.org/1999/xhtml">Printing tiled or paginated output</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">One border per page</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Click this radio button to split the output into page-sized sections, with the border drawn around each page. This means that each page of output is comprehensive and you do not have to fit all the pages together to make sense of them. This is 'paginated' output.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">
+                                    <a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Printing_tiled_or_paginated_output.htm" xmlns="http://www.w3.org/1999/xhtml">Printing tiled or paginated output</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Horizontal pagination - True size</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Click this radio button to print the view using its current horizontal size, as determined by the chart scale, or at a specific scale, for example x2 or x5.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">
+                                    <a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Scaling_your_output.htm#Scaling_true_size" xmlns="http://www.w3.org/1999/xhtml">Illustration of the effect of the <b>True size</b> controls</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Horizontal pagination - Horizontal scaling</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Select this check box if you want to specify a horizontal scaling factor with which to print the output, or clear the check box to adjust the horizontal scaling automatically to match the selected vertical scaling factor.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">If you choose to specify your own scaling factor, enter it in the field to the right. For example, enter 2 to print the output at double its normal horizontal size.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Horizontal pagination - Expand to fill space</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Select this check box to expand the chart and date zone horizontally up to the edge of the border, or clear the check box to print them without expanding them to fill the border.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Horizontal pagination - Fit to at most</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Click this radio button to scale the view horizontally so that it fits on no more than the number of pages that you specify in the field to the right.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">
+                                    <a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Scaling_your_output.htm#Scaling_fit_to_at_most" xmlns="http://www.w3.org/1999/xhtml">Illustration of the effect of the <b>Fit to at most</b> controls</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Horizontal pagination - Try to fit exactly</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Click this radio button to scale the view horizontally to fit exactly on the number of pages that you specify in the field to the right.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">
+                                    <a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Scaling_your_output.htm#Scaling_try_to_fit_exactly" xmlns="http://www.w3.org/1999/xhtml">Illustration of the effect of the <b>Try to fit exactly</b> controls</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Vertical pagination - True size</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Click this radio button to print the view using its current vertical size, as determined by the chart scale, or at a specific scale, for example x2 or x5.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">
+                                    <a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Scaling_your_output.htm#Scaling_true_size" xmlns="http://www.w3.org/1999/xhtml">Illustration of the effect of the <b>True size</b> controls</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Vertical pagination - Vertical scaling</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Enter your own scaling factor at which to print the view. For example, enter 2 to print the output at double its normal vertical size.</td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Vertical pagination - Use defined page breaks</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Select this check box to incorporate any page breaks that have been entered into the bar chart in your printout, or clear the check box to ignore them when printing.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Note that page breaks only apply when you print a view with a border around each page of the printout; if you fit a single border around the entire printout, page breaks are ignored.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">
+                                    <a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Page_break_print.htm" xmlns="http://www.w3.org/1999/xhtml">Incorporating page breaks in your printouts</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Vertical pagination - Fit lines per page</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Click this radio button to print a specific number of lines on each page of the printout. Specify the number of lines in the field to the right.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">Note that 'lines' in this context refers to bars on which tasks from the live data are located: baseline bars and allocation bars are not counted in the number of lines that you specify here.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Vertical pagination - Fit to at most</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Click this radio button to scale the view vertically so that it fits on no more than the number of pages that you specify in the field to the right.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">
+                                    <a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Scaling_your_output.htm#Scaling_fit_to_at_most" xmlns="http://www.w3.org/1999/xhtml">Illustration of the effect of the <b>Fit to at most</b> controls</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Vertical pagination - Try to fit exactly</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Click this radio button to scale the view vertically to fit exactly on the number of pages that you specify in the field to the right.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">
+                                    <a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Scaling_your_output.htm#Scaling_try_to_fit_exactly" xmlns="http://www.w3.org/1999/xhtml">Illustration of the effect of the <b>Try to fit exactly</b> controls</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1">
+                            <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Reset to Default</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Click this button to reset the values on this tab back to their default settings. Note that this button also resets the settings on the <b>Date Zone Scale</b> dialog and the <b>Chart Scale</b> dialog.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>
