@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
@@ -38,9 +38,8 @@
             </li>
             <li><a href="../../HTML_Topics/Conceptual/Quality_check/Logic_type_metric.htm">Logica type</a>
             </li>
-			<li MadCap:conditions="Powerproject_Easyplan.V17_Link_activity_finishes_metric"><a href="../../HTML_Topics/Conceptual/Quality_check/Link_activity_finishes_metric.htm">Link activiteit eindigt</a>.
+            <li><a href="../../HTML_Topics/Conceptual/Quality_check/Link_activity_finishes_metric.htm">Link activiteit eindigt</a>.
 			</li>
-
         </ul>
         <p>Vlaggen kwaliteitscriteria:</p>
         <ul type="disc">

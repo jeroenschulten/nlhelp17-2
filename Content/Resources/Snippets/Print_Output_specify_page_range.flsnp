@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>... specify which pages to print?</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>... specificeren welke pagina's er moeten worden afgedrukt?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Specify the information you want to print in the <b>Page 
-	 range</b> group. You can print all pages, a range of pages, or 
-	 only the information that is selected in the current view. You can 
-	 also choose to print only odd or even pages in the <b>Print</b> 
-	 dropdown.</p>
+                <p>Specificeer welke informatie u wilt afdrukken in de  <span style="font-weight: bold;">Domein</span> groep. U kunt alle pagina's afdrukken, een reeks pagina's of alleen de informatie die geselecteerd is in de huidige view. Daarnaast kunt u ook aangeven of u alleen de oneven of even pagina's wilt afdrukken in het <span style="font-weight: bold;">Afdrukken</span> selectie veld.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

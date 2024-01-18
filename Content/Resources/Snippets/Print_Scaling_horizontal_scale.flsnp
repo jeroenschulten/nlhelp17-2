@@ -3,10 +3,10 @@
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>... override the horizontal scale of the output?</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>... de horizontale schaal van de afdruk overrulen?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p xmlns="http://www.w3.org/1999/xhtml">Click the <b>Automatic</b> radio button to override the horizontal scale settings with a default horizontal scale in your printout. Alternatively, click the <b>Manual</b> radio button, then click <b>Scale</b> to specify your own horizontal scale settings for the printout, using the <b>Date Zone Scale</b> dialog. Using this dialog, you can create up to three separate date zone sections and specify a different scale for each.</p>
+                <p>Klik op het keuzerondje <span style="font-weight: bold;">Automatisch</span> naast <span style="font-weight: bold;">Aanpassen horizontale schaal</span> om de horizontale schaal met een standaard horizontale schaal te overschrijven. Of klik op het keuzerondje <span style="font-weight: bold;">Handmatig</span> naast <span style="font-weight: bold;">Aanpassen horizontale schaal</span>, en klik vervolgens op <span style="font-weight: bold;">Schaal</span> om het dialoogvenster <span style="font-weight: bold;">Data/Schaal</span> op te roepen. U kunt dit dialoogvenster gebruiken om maximaal drie verschillende datumzones te creëren met verschillende horizontale schalen.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

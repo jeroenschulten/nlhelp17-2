@@ -3,10 +3,10 @@
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>... override the vertical scale of the output?</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>... de verticale schaal van de afdruk te overrulen?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p xmlns="http://www.w3.org/1999/xhtml">Click the <b>Manual</b> radio button, then click <b>Scale</b> to specify your own vertical scale settings for the printout, using the <b>Chart Scale</b> dialog.</p>
+                <p>Selecteer het keuzerondje <span style="font-weight: bold;">Handmatig</span> naast <span style="font-weight: bold;">Aanpassen verticale schaal</span>, en klik vervolgens op <span style="font-weight: bold;">Schaal</span> om het dialoogvenster <span style="font-weight: bold;">Kaart Schaal</span> op te roepen.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

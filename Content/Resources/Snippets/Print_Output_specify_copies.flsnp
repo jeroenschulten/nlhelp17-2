@@ -1,14 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>... specify the number of copies to print?</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>... het aantal kopieën die moeten worden afgedrukt specificeren?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Specify the number of copies you want to print and whether you want 
-	 to collate the pages of multiple copies in the <b>Copies</b> 
-	 group.</p>
+                <p>Specificeer het aantal kopieën die u wilt afdrukken en of u de kopieën wilt sorteren in de <span style="font-weight: bold;">Kopieën</span> groep.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

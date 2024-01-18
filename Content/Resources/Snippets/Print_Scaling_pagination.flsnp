@@ -3,14 +3,14 @@
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>... specify the way in which the output is paginated?</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>... de wijze waarop de uitvoer wordt gepagineerd specificeren?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <ol xmlns="http://www.w3.org/1999/xhtml">
-                    <li class="p">Specify the way in which you want the output to fit onto the pages horizontally in the <b>Horizontal pagination</b> group.</li>
-                    <li class="p">Specify the way in which you want the output to fit onto the pages vertically in the <b>Vertical pagination</b> group.</li>
-                    <li class="p">Select the <b>Use defined page breaks</b> check box to incorporate page breaks in a printout, or clear the check box to print without respecting any page breaks.</li>
-                    <li class="p">You can also specify that a printout should include a specific number of lines (bars) per page if required. To do this, click the <b>Fit lines per page</b> radio button and specify the number of lines you want to print on each page. Note that 'lines' in this context refers to bars on which tasks from the live data are located: baseline bars and allocation bars are not counted in the number of lines that you specify here.</li>
+                <ol>
+                    <li class="p">Specificeer hoe de uitvoer horizontaal past in de <span style="font-weight: bold;">Horizontaal</span> groep.</li>
+                    <li class="p">Specificeer hoe de uitvoer verticaal past in de <span style="font-weight: bold;">Verticaal</span> groep.</li>
+                    <li class="p">Schakel het <span style="font-weight: bold;">Gebruik pagina einde</span> selectievakje in om pagina-einden op te nemen in uw afdruk, of schakel dit selectievakje uit om af te drukken zonder rekening te houden met ingestelde pagina-einden.</li>
+                    <li class="p">Indien nodig kunt u ook opgeven dat uw afdruk moet verlopen over een specifiek aantal regels (balken) per pagina. Om dit te doen selecteert u het <span style="font-weight: bold;">Aantal regels per pagina</span> keuzerondje en kiest u het aantal regels dat er op elke pagina afgedrukt worden. Merk op dat 'regels' in deze context verwijst naar de balken waarop de taken van het actuele project zich bevinden: baseline balken en toewijzingsbalken worden niet meegeteld bij het aantal regels dat u hier specificeert.</li>
                 </ol>
             </MadCap:dropDownBody>
         </MadCap:dropDown>

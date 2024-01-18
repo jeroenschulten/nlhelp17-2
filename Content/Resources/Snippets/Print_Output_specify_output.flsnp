@@ -1,15 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>... specify 
- the way in which to output project information?</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>... specificeren waarop de projectinformatie moet worden afgedrukt?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Select the output device to which you want to output your project 
-	 information in the <b>Output to</b> 
-	 group.</p>
+                <p>Selecteer het uitvoerapparaat waarop of waarnaar toe u uw projectinformatie wilt afdrukken in de <span style="font-weight: bold;">Afdrukken naar</span> groep.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

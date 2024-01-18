@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
@@ -6,81 +6,74 @@
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Explanation of the Legends fields on the dialog</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Verklaring van de Legenda velden op het dialoogvenster</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');margin-left: 0;margin-right: auto;caption-side: top;" cellspacing="0">
+                <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');caption-side: top;margin-left: 0;margin-right: auto;" cellspacing="0">
                     <col class="TableStyle-Table_Stylesheet-Column-Column1" />
                     <col class="TableStyle-Table_Stylesheet-Column-Column1" />
                     <thead>
                         <tr class="TableStyle-Table_Stylesheet-Head-Header1">
-                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Field</th>
-                            <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Description</th>
+                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Veld</th>
+                            <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Omschrijving</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
                             <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Baseline</td>
-                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Select this check box to print a legend explaining the baselines displayed in the printout, or clear it to omit the legend.</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Schakel dit selectievakje in om een legenda die de weergegeven baselines toelicht in de afdruk op te nemen, of schakel dit selectievakje uit om de legenda te verbergen.</td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Calender exception</td>
-                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Select this check box to print a legend explaining the working and non-working exceptions that have been selected on the <b>Non-Working</b> tab of the <b>Format Bar Chart</b> dialog, or clear it to omit the legend.</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Kalender uitzondering</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Schakel dit selectievakje in om een legenda over de werktijd en niet-werktijd uitzonderingen die staan geselecteerd op het <b>Niet-Werktijd</b> tabblad van het <b>Opmaak Balkkaart</b> dialoogvenster af te drukken , of schakel dit selectievakje uit om de legenda te verbergen.</td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Code library</td>
-                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Select this check box to print a legend explaining the codes used in the project, or clear it to omit the legend.</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Codebibliotheek</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Schakel dit selectievakje in om een legenda over de codes die in het project gebruikt worden in de afdruk op te nemen, of schakel dit selectievakje uit om de legenda voor de codes te verbergen.</td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                             <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Histogram</td>
-                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Select this check box to print a legend explaining the histograms displayed in the printout, or clear it to omit the legend.
-</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Schakel dit selectievakje in om een legenda  over de histogrammen in de afdruk op te nemen, of schakel dit selectievakje uit om de histogrammen legenda te verbergen.</td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Link category</td>
-                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Select this check box to print a legend explaining the link category codes used in the project, or clear it to omit the legend.</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Link categorie</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Schakel dit selectievakje in om een legenda  over de  link categorie codes  die in het project gebruikt worden in de afdruk op te nemen, of schakel dit selectievakje uit om de categorie codes legenda te verbergen.</td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Progress period</td>
-                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Select this check box to print a legend explaining the progress periods used in the project, or clear it to omit the legend.</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Voortgangsperiode</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Schakel dit selectievakje in om een legenda  over de  link voortgangsperioden  die in het project gebruikt worden in de afdruk op te nemen, of schakel dit selectievakje uit om de voortgangsperioden legenda te verbergen.</td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Symbol</td>
-                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Select this check box to print a legend explaining the symbols such as milestones, constraint flags and float used in the project, or clear it to omit the legend.</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Symbool</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Schakel dit selectievakje in om een legenda  over de  symbolen zoals mijlpalen, vlaggen en speling die in het project gebruikt worden in de afdruk op te nemen, of schakel dit selectievakje uit om de symbolen  legenda te verbergen.</td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
-                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Line of balance stages</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Line of balance stadia</td>
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                                <p class="ParagraphsInTables">Select this check box to print a legend explaining the Line of Balance stages displayed in the printout, or clear it to omit the legend.</p>
+                                <p class="ParagraphsInTables">Schakel dit selectievakje in om een legenda  over de Line of Balance stadia  die  gebruikt worden in de afdruk op te nemen, of schakel dit selectievakje uit om de Line of Balance stadia legenda te verbergen.</p>
                                 <p class="ParagraphsInTables">&#160;</p>
-                                <p class="ParagraphsInTables">
-                                    <a href="../../HTML_Topics/Conceptual/LOB/Set_up_LOB_codes.htm">Setting up code libraries for use with Line of Balance graphs</a>
-                                </p>
+                                <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/LOB/Set_up_LOB_codes.htm">Klik hier</a> voor meer informatie.</p>
                             </td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Use code library sort order in legend</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Gebruik de codebibliotheek sorteervolgorde in de legenda</td>
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                                <p class="ParagraphsInTables">Select this check box to sort code library entries in the legend according to the sort order that has been assigned to them, or clear it to sort them according to the order in which they appear in the printout.</p>
+                                <p class="ParagraphsInTables">Schakel dit selectievakje in om de codebibliotheekitems in de legenda te sorteren volgens de sortering/groepering die aan hen toegewezen is, of schakel het uit om hen te sorteren volgens de volgorde waarop zij op de afdruk verschijnen.</p>
                                 <p class="ParagraphsInTables">&#160;</p>
-                                <p class="ParagraphsInTables">
-                                    <a href="../../HTML_Topics/Conceptual/Views/Sorting_views/Specifying_order_code_library_sorts.htm">Specifying the order in which code library sorts/groups appear</a>
-                                </p>
+                                <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Views/Sorting_views/Specifying_order_code_library_sorts.htm">Klik hier</a> voor meer informatie.</p>
                             </td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Milestone appearances</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Mijlpaalweergaven</td>
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                                <p class="ParagraphsInTables">Select this check box to print a legend explaining the milestone appearances used in the project, or clear it to omit the legend.</p>
+                                <p class="ParagraphsInTables">Schakel dit selectievakje in om een legenda af te drukken die de mijlpaalweergaven verklaart die gebruikt worden in het project, of schakel het uit om de legenda te verbergen.</p>
                                 <p class="ParagraphsInTables">&#160;</p>
-                                <p class="ParagraphsInTables">
-                                    <a href="../../HTML_Topics/Conceptual/Starting_work/Working_with_milestones/Working_with_milestones.htm">Working with milestones</a>
-                                </p>
+                                <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Starting_work/Working_with_milestones/Working_with_milestones.htm">Klik hier</a> voor meer informatie.</p>
                             </td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                            <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Use milestone appearances library sort order</td>
-                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Select this check box to sort milestone appearances in the legend according to the sort order that has been assigned to them, or clear it to sort them according to the order in which milestones of each appearance appear in the printout.</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Gebruik mijlpaalweergaven bibliotheek sorteervolgorde</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Schakel dit selectievakje in om mijlpaalweergaven  in de legenda te sorteren volgens de sorteervolgorde die aan hen is toegewezen, of schakel het uit om ze te sorteren volgens volgorde waarin de mijlpalen van elke weergave op de afdruk verschijnen.</td>
                         </tr>
                     </tbody>
                 </table>

@@ -6,26 +6,26 @@
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Explanation of the Border fields on the dialog</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Verklaring van de Kader velden op het dialoogvenster</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');margin-left: 0;margin-right: auto;caption-side: top;" cellspacing="0">
+                <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');caption-side: top;margin-left: 0;margin-right: auto;" cellspacing="0">
                     <col class="TableStyle-Table_Stylesheet-Column-Column1" />
                     <col class="TableStyle-Table_Stylesheet-Column-Column1" />
                     <thead>
                         <tr class="TableStyle-Table_Stylesheet-Head-Header1">
-                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Field</th>
-                            <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Description</th>
+                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Veld</th>
+                            <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Omschrijving</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Draw beneath chart</td>
-                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Select this check box to print any parts of the selected border file that encroach onto the chart area underneath the chart, or clear it to print the border in front of the chart.</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Kader onder kaart</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Schakel dit selectievakje in ook het gedeelte van het kaderbestand af te drukken dat zich onder het kaartgebied met de balkkaart bevindt, of schakel het uit om alleen dat gedeelte van het kader wat zich buiten het kaartgebied met de balkkaart bevindt af te drukken.</td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                            <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Trust printer's margins</td>
-                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Select this check box if you are printing to PDF and want to print using the full extent of the page as far as possible, or clear this check box if you are printing to a physical printer, in which case <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> will adjust the margins of the output to ensure that it fits onto the printed page within the limitations of the selected printer.</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Printer kantlijnen (PDF) vertrouwen</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Schakel dit selectievakje in wanneer u naar PDF aan het afdrukken bent en u wilt afdrukken op een zo groot mogelijk gebied van de pagina, of schakel het selectievakje uit wanneer u aan het afdrukken bent naar een fysieke printer, in dat geval zal <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> de marges van de afdruk aanpassen om te zorgen dat het past op de afgedrukte pagina binnen de beperkingen van de geselecteerde printer.</td>
                         </tr>
                     </tbody>
                 </table>

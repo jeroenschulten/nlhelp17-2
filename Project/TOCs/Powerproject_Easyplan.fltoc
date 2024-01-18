@@ -487,8 +487,7 @@
   </TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/HTML_Topics/Conceptual/Starting_work/Finishing_your_work_session/Auto_save.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-    conditions="Powerproject_Easyplan.V17_Auto_save" />
+    Link="/Content/HTML_Topics/Conceptual/Starting_work/Finishing_your_work_session/Auto_save.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/HTML_Topics/Conceptual/Vision/Vision_projects.htm"

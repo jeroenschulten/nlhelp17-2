@@ -3,10 +3,10 @@
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>... reset the values on this tab back to default?</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>... de waarden op dit tabblad terugzetten naar de standaards?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p xmlns="http://www.w3.org/1999/xhtml">Click <b>Reset to Default</b>.</p>
+                <p>Klik op <span style="font-weight: bold;">Standaards terugzetten</span>. </p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

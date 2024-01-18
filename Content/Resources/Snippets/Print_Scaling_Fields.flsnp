@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
@@ -6,164 +6,153 @@
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Explanation of the fields and buttons on the dialog</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Verklaring van de velden en knoppen op het dialoogvenster</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');margin-left: 0;margin-right: auto;caption-side: top;" cellspacing="0" xmlns="http://www.w3.org/1999/xhtml">
+                <table class="TableStyle-Table_Stylesheet" style="mc-table-style: url('../Stylesheets/Table_Stylesheet.css');caption-side: top;margin-left: 0;margin-right: auto;" cellspacing="0">
                     <col class="TableStyle-Table_Stylesheet-Column-Column1" />
                     <col class="TableStyle-Table_Stylesheet-Column-Column1" />
                     <thead>
                         <tr class="TableStyle-Table_Stylesheet-Head-Header1">
-                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Field/Button</th>
-                            <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Description</th>
+                            <th class="TableStyle-Table_Stylesheet-HeadE-Column1-Header1">Veld/Knop</th>
+                            <th class="TableStyle-Table_Stylesheet-HeadD-Column1-Header1">Omschrijving</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Override horizontal (datezone) scale</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Aanpassen horizontale (datumzone) schaal</td>
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                                <p class="ParagraphsInTables">Click the <b>Automatic</b> radio button to override the horizontal scale settings with a default horizontal scale in your printout.</p>
+                                <p class="ParagraphsInTables">Klik op het <span style="font-weight: bold;">Automatisch</span> keuzerondje om de horizontale schaalinstellingen aan te passen met een standaard horizontale schaal in uw afdruk.</p>
                                 <p class="ParagraphsInTables">&#160;</p>
-                                <p class="ParagraphsInTables">Alternatively, click the <b>Manual</b> radio button, then click <b>Scale</b> to specify your own horizontal scale settings for the printout, using the <b>Date Zone Scale</b> dialog. Using this dialog, you can create up to three separate date zone sections and specify a different scale for each.</p>
+                                <p class="ParagraphsInTables">Of, klik op het <span style="font-weight: bold;">Handmatig</span> keuzerondje, en klik vervolgens op <span style="font-weight: bold;">Schaal</span> om uw persoonlijke horizontale schaalinstellingen in te voeren voor de afdruk, met behulp van het <span style="font-weight: bold;">Data/Schaal</span> dialoogvenster. Met behulp van dit dialoogvenster, kunt u tot drie aparte datumzones specificeren met voor elk een aparte schaal.</p>
                                 <p class="ParagraphsInTables">&#160;</p>
-                                <p class="ParagraphsInTables">To use the horizontal scale settings as defined in the date zone in the current view, click the <b>Off</b> radio button.</p>
+                                <p class="ParagraphsInTables">Om gebruik te maken van de horizontale schaalinstellingen zoals gedefinieerd in de kalenderschaal in de huidige view, klikt u  op het <span style="font-weight: bold;">Uit</span> keuzerondje.</p>
                                 <p class="ParagraphsInTables">&#160;</p>
-                                <p class="ParagraphsInTables">
-                                    <a href="../../HTML_Topics/Conceptual/Printing/Printing_the_active_view/Override_scales.htm#Override_horizontal_scale" xmlns="http://www.w3.org/1999/xhtml">Overriding the horizontal scale of printed output</a>
+                                <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Printing/Printing_the_active_view/Override_scales.htm#Override_horizontal_scale">Het overrulen van de horizontale en verticale schaal van de uitvoer</a>
                                 </p>
                             </td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Override vertical (chart) scale</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Aanpassen verticale (kaart) schaal</td>
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                                <p class="ParagraphsInTables">Click the <b>Manual</b> radio button, then click <b>Scale</b> to specify your own vertical scale settings for the printout, using the <b>Chart Scale</b> dialog.</p>
+                                <p class="ParagraphsInTables">Klik op het <span style="font-weight: bold;">Handmatig</span> keuzerondje, klik vervolgens op <span style="font-weight: bold;">Schaal</span> om uw persoonlijke instellingen te gebruiken voor de verticale schaal met behulp van het <span style="font-weight: bold;">Kaart Schaal</span> dialoogvenster.</p>
                                 <p class="ParagraphsInTables">&#160;</p>
-                                <p class="ParagraphsInTables">To use the vertical scale settings as defined in the current view, click the <b>Off</b> radio button.</p>
+                                <p class="ParagraphsInTables">Om gebruik te maken van de verticale schaalinstellingen zoals gedefinieerd in de huidige view, klikt u op het <span style="font-weight: bold;">Uit</span> keuzerondje.</p>
                                 <p class="ParagraphsInTables">&#160;</p>
-                                <p class="ParagraphsInTables">
-                                    <a href="../../HTML_Topics/Conceptual/Printing/Printing_the_active_view/Override_scales.htm#Override_vertical_scale" xmlns="http://www.w3.org/1999/xhtml">Overriding the vertical scale of printed output</a>
+                                <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Printing/Printing_the_active_view/Override_scales.htm#Override_vertical_scale">Het overrulen van de horizontale en verticale schaal van de uitvoer</a>
                                 </p>
                             </td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Fit border around output</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Kader rondom afdruk</td>
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                                <p class="ParagraphsInTables">Click this radio button to draw the border around the whole output, which is printed continuously across the appropriate number of pages. Fit the pages together to read across and down the full length of the output. This is 'tiled' output.</p>
+                                <p class="ParagraphsInTables">Klik op dit keuzerondje om het kader rondom de gehele uitvoer te tekenen, dit wordt als één geheel afgedrukt, wanneer u dit wenst over een aantal pagina's. Voeg de pagina's samen om op de afdruk horizontaal en verticaal de gegevens te kunnen lezen.  Dit wordt een 'getegelde' uitvoer genoemd.</p>
                                 <p class="ParagraphsInTables">&#160;</p>
-                                <p class="ParagraphsInTables">
-                                    <a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Printing_tiled_or_paginated_output.htm" xmlns="http://www.w3.org/1999/xhtml">Printing tiled or paginated output</a>
+                                <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Printing_tiled_or_paginated_output.htm">Afdrukken in delen of in pagina's</a>
                                 </p>
                             </td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">One border per page</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Eén kader per pagina</td>
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                                <p class="ParagraphsInTables">Click this radio button to split the output into page-sized sections, with the border drawn around each page. This means that each page of output is comprehensive and you do not have to fit all the pages together to make sense of them. This is 'paginated' output.</p>
+                                <p class="ParagraphsInTables">Klik op dit keuzerondje om de afdruk op te splitsen in pagina grootte secties, met het kader rondom iedere pagina. Dit betekent dat iedere pagina van de afdruk apart te lezen is en hoeft geen pagina's samen te voegen. Dit is 'gepagineerde' uitvoer genoemd.</p>
                                 <p class="ParagraphsInTables">&#160;</p>
-                                <p class="ParagraphsInTables">
-                                    <a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Printing_tiled_or_paginated_output.htm" xmlns="http://www.w3.org/1999/xhtml">Printing tiled or paginated output</a>
+                                <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Printing_tiled_or_paginated_output.htm">Afdrukken in delen of in pagina's</a>
                                 </p>
                             </td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Horizontal pagination - True size</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Horizontaal - Werkelijke afmeting</td>
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                                <p class="ParagraphsInTables">Click this radio button to print the view using its current horizontal size, as determined by the chart scale, or at a specific scale, for example x2 or x5.</p>
+                                <p class="ParagraphsInTables">Klik op dit keuzerondje om de view af te drukken met de huidige horizontale schaal, of met een specifieke schaal, bijvoorbeeld x2 of x5.</p>
                                 <p class="ParagraphsInTables">&#160;</p>
-                                <p class="ParagraphsInTables">
-                                    <a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Scaling_your_output.htm#Scaling_true_size" xmlns="http://www.w3.org/1999/xhtml">Illustration of the effect of the <b>True size</b> controls</a>
+                                <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Scaling_your_output.htm#Scaling_true_size">                    Voorbeeld van het effect van de <span style="font-weight: bold;">Werkelijke afmeting</span> besturingselementen</a>
                                 </p>
                             </td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Horizontal pagination - Horizontal scaling</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Horizontaal - Horizontale schaal</td>
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                                <p class="ParagraphsInTables">Select this check box if you want to specify a horizontal scaling factor with which to print the output, or clear the check box to adjust the horizontal scaling automatically to match the selected vertical scaling factor.</p>
+                                <p class="ParagraphsInTables">Schakel dit selectievakje in wanneer u een eigen horizontale verschalingsfactor wilt specificeren waarmee u de uitvoer wilt afdrukken, of schakel het selectievakje uit om de horizontale verschaling automatisch wilt overeenstemmen met de geselecteerde verticale verschalingsfactor.</p>
                                 <p class="ParagraphsInTables">&#160;</p>
-                                <p class="ParagraphsInTables">If you choose to specify your own scaling factor, enter it in the field to the right. For example, enter 2 to print the output at double its normal horizontal size.</p>
+                                <p class="ParagraphsInTables">Wanneer u ervoor kiest om uw eigen verschalingsfactor te specificeren, typ het dan in, in het veld aan de rechterzijde. Bijvoorbeeld, typ 2 om de afdruk te verdubbelen ten opzichte van zijn normale horizontale afmeting.</p>
                             </td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Horizontal pagination - Expand to fill space</td>
-                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Select this check box to expand the chart and date zone horizontally up to the edge of the border, or clear the check box to print them without expanding them to fill the border.</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Horizontaal  - Ruimte opvullen</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Schakel dit selectievakje in om de kaart en de kalenderschaal horizontaal op te vullen tot aan het einde van het kader, of schakel het selectievakje uit om af te drukken zonder kader op te vullen.</td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Horizontal pagination - Fit to at most</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Horizontaal - Passend op ten hoogste</td>
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                                <p class="ParagraphsInTables">Click this radio button to scale the view horizontally so that it fits on no more than the number of pages that you specify in the field to the right.</p>
+                                <p class="ParagraphsInTables">Klik op dit keuzerondje om de view tijdens het afdrukken horizontaal te verschalen zodat het past op ten hoogste het aantal pagina's dat u specificeert in het veld aan de rechterzijde.</p>
                                 <p class="ParagraphsInTables">&#160;</p>
-                                <p class="ParagraphsInTables">
-                                    <a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Scaling_your_output.htm#Scaling_fit_to_at_most" xmlns="http://www.w3.org/1999/xhtml">Illustration of the effect of the <b>Fit to at most</b> controls</a>
+                                <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Scaling_your_output.htm#Scaling_fit_to_at_most">                    Voorbeeld van het effect van de <span style="font-weight: bold;">Passend op ten hoogste</span> besturingselementen</a>
                                 </p>
                             </td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Horizontal pagination - Try to fit exactly</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Horizontaal - Precies passend op</td>
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                                <p class="ParagraphsInTables">Click this radio button to scale the view horizontally to fit exactly on the number of pages that you specify in the field to the right.</p>
+                                <p class="ParagraphsInTables">Klik op dit keuzerondje om de view tijdens het afdrukken precies te laten passen op het aantal pagina's die u specificeert in het veld aan de rechterzijde.</p>
                                 <p class="ParagraphsInTables">&#160;</p>
-                                <p class="ParagraphsInTables">
-                                    <a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Scaling_your_output.htm#Scaling_try_to_fit_exactly" xmlns="http://www.w3.org/1999/xhtml">Illustration of the effect of the <b>Try to fit exactly</b> controls</a>
+                                <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Scaling_your_output.htm#Scaling_try_to_fit_exactly">Voorbeeld van het effect van de <span style="font-weight: bold;">Precies passen op</span> besturingselementen</a>
                                 </p>
                             </td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Vertical pagination - True size</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Verticaal paginering - Werkelijke afmeting</td>
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                                <p class="ParagraphsInTables">Click this radio button to print the view using its current vertical size, as determined by the chart scale, or at a specific scale, for example x2 or x5.</p>
+                                <p class="ParagraphsInTables">Klik op dit keuzerondje om de view af te drukken met de huidige verticale afmeting die wordt bepaald door de kaartschaal in de view, of op een specifieke schaal, bijvoorbeeld x2 of x5.</p>
                                 <p class="ParagraphsInTables">&#160;</p>
-                                <p class="ParagraphsInTables">
-                                    <a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Scaling_your_output.htm#Scaling_true_size" xmlns="http://www.w3.org/1999/xhtml">Illustration of the effect of the <b>True size</b> controls</a>
+                                <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Scaling_your_output.htm#Scaling_true_size">Voorbeeld van het effect van de <span style="font-weight: bold;">Precies passen op</span> besturingselementen</a>
                                 </p>
                             </td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Vertical pagination - Vertical scaling</td>
-                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Enter your own scaling factor at which to print the view. For example, enter 2 to print the output at double its normal vertical size.</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Verticaal paginering - Verticale verschaling</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Voer uw eigen verticale verschalingsfactor in waarmee de view afgedrukt moet worden. Bijvoorbeeld, voer 2 in om de uitvoer af te drukken in het dubbele van haar normale verticale grootte.</td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Vertical pagination - Use defined page breaks</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Verticaal paginering -  Gebruik pagina einde</td>
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                                <p class="ParagraphsInTables">Select this check box to incorporate any page breaks that have been entered into the bar chart in your printout, or clear the check box to ignore them when printing.</p>
+                                <p class="ParagraphsInTables">Schakel dit selectievakje in om pagina-einden op te nemen in uw afdruk, of schakel dit selectievakje uit om af te drukken zonder rekening te houden met ingestelde pagina-einden.</p>
                                 <p class="ParagraphsInTables">&#160;</p>
-                                <p class="ParagraphsInTables">Note that page breaks only apply when you print a view with a border around each page of the printout; if you fit a single border around the entire printout, page breaks are ignored.</p>
+                                <p class="ParagraphsInTables">Merk op dat pagina einden alleen van toepassing zijn wanneer u een view met een kader rondom elke pagina van de uitvoer afdrukt; wanneer u een enkel kader rondom de gehele uitvoer wilt afdrukken worden pagina-einden genegeerd.</p>
                                 <p class="ParagraphsInTables">&#160;</p>
-                                <p class="ParagraphsInTables">
-                                    <a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Page_break_print.htm" xmlns="http://www.w3.org/1999/xhtml">Incorporating page breaks in your printouts</a>
+                                <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Page_break_print.htm">Opnemen van pagina-einden in de afdrukken</a>
                                 </p>
                             </td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Vertical pagination - Fit lines per page</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Verticale paginering - <span style="font-weight: bold;">Aantal regels per pagina</span></td>
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                                <p class="ParagraphsInTables">Click this radio button to print a specific number of lines on each page of the printout. Specify the number of lines in the field to the right.</p>
+                                <p class="ParagraphsInTables">Klik op dit keuzerondje om in te stellen dat uw afdruk moet verlopen over een specifiek aantal regels (balken) per pagina. Specificeer het aantal regels in het veld rechts.</p>
                                 <p class="ParagraphsInTables">&#160;</p>
-                                <p class="ParagraphsInTables">Note that 'lines' in this context refers to bars on which tasks from the live data are located: baseline bars and allocation bars are not counted in the number of lines that you specify here.</p>
+                                <p class="ParagraphsInTables">Merk op dat 'regels' in deze context alleen refereert aan de balken waarop de taken van de huidige projectdata zich bevinden: baseline balken en toewijzingsbalken worden niet meegeteld in het aantal regels dat u hier specificeert.</p>
                             </td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Vertical pagination - Fit to at most</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Verticale paginering - Passend op ten hoogste</td>
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                                <p class="ParagraphsInTables">Click this radio button to scale the view vertically so that it fits on no more than the number of pages that you specify in the field to the right.</p>
+                                <p class="ParagraphsInTables">Klik op dit keuzerondje om de view tijdens het afdrukken verticaal te verschalen zodat het past op ten hoogste het aantal pagina's die u specificeert in het veld aan de rechterzijde.</p>
                                 <p class="ParagraphsInTables">&#160;</p>
-                                <p class="ParagraphsInTables">
-                                    <a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Scaling_your_output.htm#Scaling_fit_to_at_most" xmlns="http://www.w3.org/1999/xhtml">Illustration of the effect of the <b>Fit to at most</b> controls</a>
+                                <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Scaling_your_output.htm#Scaling_fit_to_at_most">Voorbeeld van het effect van de <span style="font-weight: bold;">Passend op ten hoogste</span> besturingselementen</a>
                                 </p>
                             </td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Vertical pagination - Try to fit exactly</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Verticale paginering - Precies passend op</td>
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                                <p class="ParagraphsInTables">Click this radio button to scale the view vertically to fit exactly on the number of pages that you specify in the field to the right.</p>
+                                <p class="ParagraphsInTables">Klik op dit keuzerondje om de view tijdens het afdrukken precies te laten passen op het aantal pagina's dat u specificeert in het veld aan de rechterzijde.</p>
                                 <p class="ParagraphsInTables">&#160;</p>
-                                <p class="ParagraphsInTables">
-                                    <a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Scaling_your_output.htm#Scaling_try_to_fit_exactly" xmlns="http://www.w3.org/1999/xhtml">Illustration of the effect of the <b>Try to fit exactly</b> controls</a>
+                                <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Printing/Border_and_layout/Scaling_your_output.htm#Scaling_try_to_fit_exactly">Voorbeeld van het effect van de <span style="font-weight: bold;">Precies passen op</span> besturingselementen</a>
                                 </p>
                             </td>
                         </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                            <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Reset to Default</td>
-                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Click this button to reset the values on this tab back to their default settings. Note that this button also resets the settings on the <b>Date Zone Scale</b> dialog and the <b>Chart Scale</b> dialog.</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Terugzetten naar Standaard</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Klik op deze knop om de waarden op dit tabblad terug te zetten naar de standaard instellingen. Merk op dat deze knop ook de instellingen op het <b>Kalenderschaal </b>dialoogvenster en op het <b>Kaart Schaal</b> dialoogvenster op standaard terugzet.</td>
                         </tr>
                     </tbody>
                 </table>
