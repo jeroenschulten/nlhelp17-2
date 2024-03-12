@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
     <body>
-        <p class="ParagraphsInTables">Click this button<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">, or click the dropdown and select <b>Local</b> from the menu that appears,</MadCap:conditionalText> to search for a border file in a different location.</p>
+        <p class="ParagraphsInTables">Klik op deze knop<MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only">, of klik op de vervolgkeuzelijst en selecteer <b>Lokaal</b> in het menu dat verschijnt,</MadCap:conditionalText> om te zoeken naar een kaderbestand op een andere locatie.</p>
         <p class="ParagraphsInTables" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">&#160;</p>
         <p class="ParagraphsInTables" MadCap:conditions="Powerproject_Easyplan.Powerproject_only">
             <MadCap:snippetText src="Vision_borders_1.flsnp" />

@@ -1327,34 +1327,12 @@
       Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/teamplan_libraries.htm">
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Allocation_groups.htm"
-        conditions="Powerproject_Easyplan.Powerproject_only" />
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Annotation_categories.htm" />
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Calendars.htm" />
+        Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Print_profiles.htm"
+        ReplaceMergeNode="false"></TocEntry>
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Code_libraries.htm"
         ReplaceMergeNode="false"></TocEntry>
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Consumable_resources.htm" />
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Cost_and_income_rates.htm"
-        conditions="Powerproject_Easyplan.Powerproject_only" />
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Cost_centres.htm" />
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Currency_units.htm" />
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Exceptions.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Filters.htm" />
@@ -1371,7 +1349,25 @@
         conditions="Powerproject_Easyplan.Powerproject_only" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Users.htm"
+        conditions="Powerproject_Easyplan.Powerproject_only" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
         Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Histogram_reports.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Calendars.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Cost_centres.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Cost_and_income_rates.htm"
+        conditions="Powerproject_Easyplan.Powerproject_only" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Quality_checks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        conditions="Powerproject_Easyplan.Powerproject_only" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Link_categories.htm" />
@@ -1380,14 +1376,13 @@
         Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Milestone_appearances.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Currency_units.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Annotation_categories.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
         Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Permanent_resources.htm" />
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Progress_periods.htm" />
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Quality_checks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-        conditions="Powerproject_Easyplan.Powerproject_only" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Resource_curves.htm"
@@ -1429,18 +1424,27 @@
         Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Time_units.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Users.htm"
+        Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Allocation_groups.htm"
         conditions="Powerproject_Easyplan.Powerproject_only" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Exceptions.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Consumable_resources.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/View_categories.htm"
         conditions="Powerproject_Easyplan.Powerproject_only" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Work_patterns.htm" />
+        Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Progress_periods.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Work_units.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Work_patterns.htm" />
     </TocEntry>
   </TocEntry>
   <TocEntry

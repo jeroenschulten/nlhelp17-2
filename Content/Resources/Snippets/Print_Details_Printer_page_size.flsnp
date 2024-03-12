@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
     <body>
-        <p class="ParagraphsInTables">Select the size of paper on which to print and whether to print in landscape or portrait.</p>
+        <p>Selecteer de pagina-afmeting van het papier waarop u wilt afdrukken, en of u de afdruk in Staand of Liggend formaat wilt hebben.</p>
         <p class="ParagraphsInTables">&#160;</p>
-        <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Printing/Printing_the_active_view/Paper_size.htm">Specifying the size and orientation of paper to print on</a>
+        <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Printing/Printing_the_active_view/Paper_size.htm">Papierformaat en oriëntatie voor het afdrukken</a>
         </p>
     </body>
 </html>

@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>... specify the way in which objects appear in the printed output?</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>... de wijze waarop objecten worden weergegeven  bij het afdrukken specificeren?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Select or clear the check boxes in the main field to specify the way in which you want objects to be printed.</p>
+                <p>Schakel de selectievakjes in of uit om te specificeren hoe u wilt dat objecten worden afgedrukt.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

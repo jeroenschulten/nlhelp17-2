@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>... specify the way in which to scale the spreadsheet font in the printout?</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>... de manier specificeren waarop het tabel lettertype wordt verschaald bij het afdrukken?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Click the <b>Automatic</b> radio button to scale the spreadsheet font using default settings, which may make it easier to read.</p>
-                <p>Alternatively, click the <b>Use</b> radio button and specify the scaling to apply to the spreadsheet font in the field to the right. For example, enter 2 to print the spreadsheet font at twice its normal size.</p>
-                <p>To print the spreadsheet font with no scaling, click the <b>Off</b> radio button.</p>
+                <p>Klik op de <span style="font-weight: bold;">Automatisch</span> knop om het tabel lettertype met de standaard instellingen te laten verschalen, waardoor de tabel makkelijker te lezen is.</p>
+                <p>Of selecteer het <span style="font-weight: bold;">Gebruik</span> keuzerondje en specificeer de bij het tabel lettertype toe te passen verschaling in het veld aan de rechterzijde. Bijvoorbeeld, voer 2 in om het tabel lettertype twee keer zo groot als haar normale grootte af te drukken.</p>
+                <p>Om het tabel lettertype zonder verschaling af te drukken, selecteert u het <span style="font-weight: bold;">Uit</span> keuzerondje.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

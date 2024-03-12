@@ -1,28 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>... specify 
- the <MadCap:variable name="Primary.Powerdraw Name" /> border to print around the output?</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>... het Powerdraw kader specificeren dat wordt afgedrukt rondom de uitvoer?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Select a border with which to frame the output in the <b>Border 
-	 file</b> group.</p>
-                <p>You can embed borders within a project so that they can always be 
-	 used for printing even if the original border file itself is not distributed 
-	 with the project. Embedded borders are listed alphabetically at the 
-	 top of the <b>Border file</b> field, 
-	 followed by an alphabetical list of the borders that are available 
-	 in the default Border files folder.</p>
-                <p>To embed a border into the current project, select a border file 
-	 and click <b>Embed</b>. To delete 
-	 an embedded border from the project, select it and click <span style="font-weight: bold;">Delete</span>. 
-	 </p>
-                <p>You can specify whether you want to print the border around the 
-	 output or around each individual page of the output on the <b>Scaling</b> 
-	 tab.</p>
-                <p>You can edit the selected border in <MadCap:variable name="Primary.Powerdraw Name" /> by clicking <b>Edit</b> if required.</p>
+                <p>Selecteer een kader waarmee de uitvoer wordt omlijst in de <span style="font-weight: bold;">Kader bestand</span> groep.</p>
+                <p>U kunt kaders invoegen in het projectbestand zodat ze altijd gebruikt kunnen worden voor het afdrukken zelfs als het originele kaderbestand zelf niet mee wordt verstuurd met het project. Ingevoegde kaderbestanden worden alfabetisch getoond bovenaan in de lijst in het <span style="font-weight: bold;">Kader bestand</span> veld, gevolgd door een alfabetische lijst van kaderbestanden die zich bevinden in de standaard Kaderbestanden map.</p>
+                <p>Om een kaderbestand in te voegen in een projectbestand, selecteer het kaderbestand en klik op de knop <span style="font-weight: bold;">Invoegen</span>. Om een ingevoegd kaderbestand te verwijderen van het project, klik op de knop  <span style="font-weight: bold;">Verwijderen</span>.</p>
+                <p>U kunt specificeren of het kaderbestand moet worden afgedrukt om de gehele uitvoer of om het kader op elke pagina af te drukken op het tabblad <span style="font-weight: bold;">Schaal</span>.</p>
+                <p>U kunt het geselecteerde kaderbestand aanpassen in Powerdraw door te klikken op de knop <span style="font-weight: bold;">Bewerken</span> indien nodig.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

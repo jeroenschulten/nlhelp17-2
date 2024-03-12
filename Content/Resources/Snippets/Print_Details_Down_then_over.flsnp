@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
     <body>
-        <p class="ParagraphsInTables">Click this radio button to print pages down, then over. This affects the way in which pages of the output 
-	 are numbered.</p>
+        <p class="ParagraphsInTables">Klik op dit keuzerondje om pagina's eerst verticaal en dan   horizontaal af te drukken. Dit heeft effect op de wijze waarop pagina's worden genummerd tijdens het afdrukken.</p>
         <p class="ParagraphsInTables">&#160;</p>
-        <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Printing/Printing_the_active_view/Specifying_the_pages_to_print.htm">Specifying the order in which pages are printed</a>
+        <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Printing/Printing_the_active_view/Specifying_the_pages_to_print.htm">Specificeer de paginavolgorde tijdens het afdrukken</a>
         </p>
     </body>
 </html>

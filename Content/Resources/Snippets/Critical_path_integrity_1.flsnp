@@ -10,15 +10,15 @@
             <MadCap:dropDownBody>
                 <p>In de volgende illustratie heeft taak 4 een 'werk tussen'-vlag waardoor deze kritiek is. Deze taak is echter niet gekoppeld aan het kritieke pad dat loopt van het begin tot het einde van het project, waaronder taak 1, taak 2 en taak 3. Het verlengen van de duur van taak 4 naar 600d zou er niet toe leiden dat de einddatum van het project met hetzelfde aantal dagen naar de toekomst verplaatst. Taak 4 doorbreekt daarom de integriteit van het kritieke pad:</p>
                 <p>
-                    <img src="../../Graphics/Quality_check/criticalpathtest1.gif" alt="Task 4 has a 'work between' constraint that makes it critical. However, this task is not linked in to the critical path" />
+                    <img src="../../Graphics/Quality_check/criticalpathtest1.gif" alt="taak 4 een 'werk tussen'-vlag waardoor deze kritiek is. Deze taak is echter niet gekoppeld aan het kritieke pad" />
                 </p>
                 <p>In de volgende illustratie zijn er twee kritieke paden: één die loopt van taak 1 naar taak 3 en een andere die van taak 4 naar taak 6 loopt. De 'starten op'-vlag die is toegepast op taak 5 betekent dat het verlengen van de duur van taak 4 tot en met 600d zou er niet voor zorgen dat de einddatum van het project met hetzelfde aantal dagen naar de toekomst verschuift. Taak 4 doorbreekt daarom de integriteit van het kritieke pad:</p>
                 <p>
-                    <img src="../../Graphics/Quality_check/criticalpathtest2.gif" alt="Two critical paths: one that runs from Task 1 to Task 3, and another that runs from Task 4 to Task 6" />
+                    <img src="../../Graphics/Quality_check/criticalpathtest2.gif" alt="Twee kritieke paden: één die loopt van taak 1 naar taak 3 en een andere die van taak 4 naar taak 6 loopt." />
                 </p>
                 <p>In de volgende illustratie is taak 2 opgenomen op het kritieke pad, maar heeft deze een inkomende Einde-Einde-link en een uitgaande Start-Start-link, wat betekent dat het einde van de taak niet gebonden is aan het einde van het project. Het verlengen van de duur van taak 2 tot 600d zou er niet voor zorgen dat de einddatum van het project met hetzelfde aantal dagen naar de toekomst verschuift. Taak 2 doorbreekt daarom de integriteit van het kritieke pad:</p>
                 <p>
-                    <img src="../../Graphics/Quality_check/criticalpathtest3.gif" alt="Task 2 is included on the critical path, but has an incoming Finish-to-Start link and an outgoing Start-to-Start link, which means that the end of the task is not tied to the end of the project" />
+                    <img src="../../Graphics/Quality_check/criticalpathtest3.gif" alt="Taak 2 opgenomen op het kritieke pad, maar heeft deze een inkomende Einde-Einde-link en een uitgaande Start-Start-link, wat betekent dat het einde van de taak niet gebonden is aan het einde van het project." />
                 </p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>

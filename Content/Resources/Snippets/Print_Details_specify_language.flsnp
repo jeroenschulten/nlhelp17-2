@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>... select 
- the language in which to print any text within the selected border file?</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>... de taal selecteren waarin de tekst uit het kader bestand moet worden afgedrukt?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Select the language in the <b>Language</b> 
-	 field. You can only select a different language in this field if the 
-	 selected border file has been configured with text translations in 
-	 more than one language.</p>
+                <p>Selecteer de taal in het <span style="font-weight: bold;">Taal</span> veld. U kunt alleen een andere taal selecteren in dit veld wanneer in het geselecteerde kaderbestand de tekst met verschillende talen is aangemaakt.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

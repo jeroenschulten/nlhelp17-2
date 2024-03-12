@@ -1,14 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>... print information 
- between a range of dates?</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>... alleen informatie afdrukken in een datumdomein?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Enter a range of dates in the <b>Date 
-	 range</b> group.</p>
+                <p>Voer een reeks van datums in, in de <span style="font-weight: bold;">Domein</span> groep.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

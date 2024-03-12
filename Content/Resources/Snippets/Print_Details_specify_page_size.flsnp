@@ -1,23 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>... specify 
- the page size and orientation on which to print?</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>... het paginaformaat en de oriëntatie specificeren waarop wordt afgedrukt?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <ol style="list-style-type: decimal;">
-                    <li class="p">Select the page size, for example A3 or A4, in 
-		 the <b>Printer page size</b> 
-		 field.</li>
-                    <li class="p">Select the orientation with which to print, for 
-		 example portrait or landscape, in the field to the right of the 
-		 <b>Printer page size</b> field.</li>
+                    <li class="p">Selecteer de pagina afmeting, bijvoorbeeld A3 of A4, in het <span style="font-weight: bold;">Printer pagina</span> veld.</li>
+                    <li class="p">Selecteer de oriëntatie van de pagina, bijvoorbeeld staand of liggend, in het veld aan de rechterzijde van het <span style="font-weight: bold;">Printer pagina</span> veld.</li>
                 </ol>
-                <p>If you are printing a border around the output, make sure that the 
-	 page size and orientation of the border matches that of the paper 
-	 you are using.</p>
+                <p>Wanneer u een kader om de uitvoer wilt, kies dan een kader met dezelfde pagina-afmetingen en oriëntatie als het papierformaat wat u wilt gebruiken voor de afdruk.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

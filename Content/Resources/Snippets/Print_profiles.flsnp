@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
-        <p>A print profile is a saved set of print options. For example, you might use different print options with each printer on your network, or different print options with each border file that you use. By saving your print options in a print profile, you do not need to reset them every time you print to a particular printer or use a particular border to get the print settings that you want.</p>
+        <p>Een afdrukprofiel is een opgeslagen set afdrukopties. U kunt bijvoorbeeld verschillende afdrukopties gebruiken voor elke printer in uw netwerk, of verschillende afdrukopties voor elk afdrukkaderbestand dat u gebruikt. Door uw afdrukopties op te slaan in een afdrukprofiel hoeft u deze niet telkens opnieuw in te stellen wanneer u afdrukt naar een bepaalde printer of een bepaald kaderbestand gebruikt om de gewenste afdrukinstellingen te verkrijgen.</p>
     </body>
 </html>

@@ -3,16 +3,11 @@
     <head>
     </head>
     <body>
-        <p class="ParagraphsInTables">Select a border to print around the output. Make sure you choose a border that is appropriate 
-	 for the size of the paper on which you will be printing and the orientation 
-	 you will be using.</p>
+        <p class="ParagraphsInTables">Selecteer een kader om af te drukken rondom de uitvoer. Kies een kaderformaat wat past bij het papierformaat en de oriëntatie die u wilt gebruiken.</p>
         <p class="ParagraphsInTables">&#160;</p>
-        <p class="ParagraphsInTables">This field displays the border files that are located in the folder specified 
-	 in the Border row of the <b>File Locations</b> 
-	 tab of the <b>Options</b> dialog, and optionally those that 
-	 are located in the \Borders\ folder within the folder in which <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> is installed. If any borders have been embedded in the project, these appear at the top of the list.</p>
+        <p class="ParagraphsInTables">Dit veld toont de kader bestanden die zich bevinden in de gespecificeerde map in de Kader regel van het <span style="font-weight: bold;">Bestandslocaties</span> tabblad van het <b>Opties</b> dialoogvenster, en optioneel die van de kaders die zich bevinden in de \Kaders\ map waarin <MadCap:conditionalText MadCap:conditions="Powerproject_Easyplan.Powerproject_only"><MadCap:variable name="Primary.Asta Powerproject Name" /></MadCap:conditionalText><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> is geïnstalleerd. Wanneer kaders zijn opgenomen in het projectbestand, verschijnen ze bovenaan de lijst.</p>
         <p class="ParagraphsInTables">&#160;</p>
-        <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Printing/Introduction_to_border_files/Introduction_to_border_files.htm">Introduction to border files</a>
+        <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Printing/Introduction_to_border_files/Introduction_to_border_files.htm">Introductie over kaderbestanden</a>
         </p>
     </body>
 </html>

@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>... specify the font to use when printing legends?</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>... het lettertype specificeren dat wordt gebruikt bij het afdrukken van legenda's?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Click <b>Font</b>. The <b>Font</b> dialog appears, which you can use to select the font with which to print legends on the printout. Alternatively, select the <b>Use spreadsheet font</b> check box to print legends using the default spreadsheet font.</p>
+                <p>Klik op <span style="font-weight: bold;">Lettertype</span>. Het <span style="font-weight: bold;">Lettertype</span> dialoogvenster verschijnt, dat u kunt gebruiken om het lettertype te specificeren waarmee de legenda's op de afdruk worden afgedrukt. U kunt echter ook het selectievakje <span style="font-weight: bold;">Gebruik tabel lettertype</span> inschakelen om legenda's af te drukken met het standaard tabel lettertype.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>
