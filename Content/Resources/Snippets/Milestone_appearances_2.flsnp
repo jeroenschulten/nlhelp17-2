@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
-        <p>U kunt standaard mijlpaalweergaven specificeren die moeten worden toegepast op startmijlpalen en eindmijlpalen wanneer deze worden aangemaakt, en u kunt verschillende mijlpaalweergaven toepassen op individuele mijlpalen als ze al zijn gemaakt. U kunt ook standaard mijlpaalweergaven opgeven voor afzonderlijke verbruiksgoederen, permanente resources en kostengroepen, die moeten worden toegepast op toewijzingen met een duur van nul duur en uitgave ineens kostentoewijzingen. Misschien wilt u een andere mijlpaalweergave toepassen op elke resource of kostenplaats om te helpen onderscheid te maken tussen hun toewijzingen.</p>
+        <p>U kunt standaard mijlpaalweergaven specificeren die moeten worden toegepast op startmijlpalen en eindmijlpalen wanneer deze worden aangemaakt, en u kunt verschillende mijlpaalweergaven toepassen op individuele mijlpalen als ze al zijn gemaakt. U kunt ook standaard mijlpaalweergaven opgeven voor afzonderlijke verbruiksgoederen, resources en kostengroepen, die moeten worden toegepast op toewijzingen met een duur van nul duur en uitgave ineens kostentoewijzingen. Misschien wilt u een andere mijlpaalweergave toepassen op elke resource of kostenplaats om te helpen onderscheid te maken tussen hun toewijzingen.</p>
     </body>
 </html>

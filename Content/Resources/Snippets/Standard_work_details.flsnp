@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" />
@@ -16,7 +16,7 @@
             <tbody>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                     <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Resource</td>
-                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De naam van de permanente resource waaraan het standaard werk is toegewezen.</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De naam van de resource waaraan het standaard werk is toegewezen.</td>
                 </tr>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                     <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Standaard werk</td>

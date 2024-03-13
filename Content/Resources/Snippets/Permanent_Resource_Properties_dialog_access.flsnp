@@ -6,7 +6,7 @@
                 <MadCap:dropDownHotspot>Hoe toegang te krijgen tot het <b>Permanente Resource Eigenschappen</b> dialoogvenster</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Om toegang te krijgen tot het <span style="font-weight: bold;">Permanente Resource Eigenschappen</span> dialoogvenster, rechtsklik op een permanente resource in de Bibliotheek Verkenner of in de project view en selecteer <span style="font-weight: bold;">Eigenschappen</span>.</p>
+                <p>Om toegang te krijgen tot het <span style="font-weight: bold;">Permanente Resource Eigenschappen</span> dialoogvenster, rechtsklik op een resource in de Bibliotheek Verkenner of in de project view en selecteer <span style="font-weight: bold;">Eigenschappen</span>.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

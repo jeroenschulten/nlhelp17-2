@@ -2,5 +2,5 @@
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
-    <body>U kunt geen details van permanente resource toewijzingen verzenden naar Microsoft Outlook en via SMTP e-mail in <MadCap:variable name="Primary.Asta Powerproject Name" /> SaaS.</body>
+    <body>U kunt geen details van resource toewijzingen verzenden naar Microsoft Outlook en via SMTP e-mail in <MadCap:variable name="Primary.Asta Powerproject Name" /> SaaS.</body>
 </html>

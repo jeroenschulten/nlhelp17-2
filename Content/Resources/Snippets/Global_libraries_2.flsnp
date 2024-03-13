@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
         <MadCap:dropDown>
@@ -12,10 +12,10 @@
                     <li>Codebibliotheken</li>
                     <li>Voortgangsperioden</li>
                     <li>Kwaliteitschecks</li>
-                    <li>Permanente resources.</li>
+                    <li>Resources.</li>
                     <li>Verbruiksgoederen</li>
                 </ul>
-                <p>Kalenders, permanente resources en verbruiksgoederen zijn afhankelijk van andere bibliotheekobjecten, zodat wanneer u één van deze bibliotheekobjecten opneemt, andere objecten ook automatisch worden opgenomen in het globale bibliotheek bestand:</p>
+                <p>Kalenders, resources en verbruiksgoederen zijn afhankelijk van andere bibliotheekobjecten, zodat wanneer u één van deze bibliotheekobjecten opneemt, andere objecten ook automatisch worden opgenomen in het globale bibliotheek bestand:</p>
                 <MadCap:dropDown>
                     <MadCap:dropDownHead>
                         <MadCap:dropDownHotspot>Als u kalenders erbij opneemt</MadCap:dropDownHotspot>
@@ -30,10 +30,10 @@
                 </MadCap:dropDown>
                 <MadCap:dropDown>
                     <MadCap:dropDownHead>
-                        <MadCap:dropDownHotspot>Als u permanente resources  erbij opneemt</MadCap:dropDownHotspot>
+                        <MadCap:dropDownHotspot>Als u resources  erbij opneemt</MadCap:dropDownHotspot>
                     </MadCap:dropDownHead>
                     <MadCap:dropDownBody>
-                        <p>Als permanente resources worden opgenomen in het globale bibliotheekbestand, zijn ook de volgende bibliotheekobjecttypen inbegrepen:</p>
+                        <p>Als resources worden opgenomen in het globale bibliotheekbestand, zijn ook de volgende bibliotheekobjecttypen inbegrepen:</p>
                         <ul>
                             <li>Uitzonderingen</li>
                             <li>Kalenders</li>

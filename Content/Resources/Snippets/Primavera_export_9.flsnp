@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
-        <p>Primavera-software heeft afzonderlijke hiërarchieën van resources en vaardigheden (ook bekend als rollen). Schakel het <b>Resourcerollen</b> selectievakje in om de mappen in uw permanente resourceshiërarchie te exporteren als een hiërarchie van rollen in het geëxporteerde project, of schakel het selectievakje uit als u alleen de resources in het project wilt exporteren, zonder verwijzing naar vaardigheden of rollen.</p>
+        <p>Primavera-software heeft afzonderlijke hiërarchieën van resources en vaardigheden (ook bekend als rollen). Schakel het <b>Resourcerollen</b> selectievakje in om de mappen in uw resourceshiërarchie te exporteren als een hiërarchie van rollen in het geëxporteerde project, of schakel het selectievakje uit als u alleen de resources in het project wilt exporteren, zonder verwijzing naar vaardigheden of rollen.</p>
     </body>
 </html>

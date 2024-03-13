@@ -3,6 +3,6 @@
     <head>
     </head>
     <body>
-        <p>Als u <MadCap:variable name="Primary.Site Progress Mobile Name" /> gebruikt om de voortgang van taken en bouwstadia in <MadCap:variable name="Primary.Asta Powerproject Name" /> projecten te registreren met behulp van een mobiel apparaat en u informatie exporteert over welke taak dan ook waaraan de permanente resource van de gebruiker is toegewezen,</p>
+        <p>Als u <MadCap:variable name="Primary.Site Progress Mobile Name" /> gebruikt om de voortgang van taken en bouwstadia in <MadCap:variable name="Primary.Asta Powerproject Name" /> projecten te registreren met behulp van een mobiel apparaat en u informatie exporteert over welke taak dan ook waaraan de resource van de gebruiker is toegewezen,</p>
     </body>
 </html>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
-Voer de maateenheden in het Primavera SureTrak-project in die worden gebruikt voor permanente resources in het veld <b>Permanent</b>. Voer de maateenheden in een door komma's gescheiden lijst in, bijvoorbeeld:
+Voer de maateenheden in het Primavera SureTrak-project in die worden gebruikt voor resources in het veld <b>Permanent</b>. Voer de maateenheden in een door komma's gescheiden lijst in, bijvoorbeeld:
 <br /><br />u, uur, d, dag, w, week, m, maand </body>
 </html>
