@@ -94,7 +94,7 @@
                 <h2 MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Resource curves</h2>
                 <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Anders dan de resource curves in <MadCap:variable name="Primary.Asta Powerproject Name" />, hebben alle resource curves in Primavera software 20 punten. Wanneer u een project exporteert dat één of meer resource curves, zal het exporteerproces de curves indien nodig aanpassen zodat ze 20 punten bevatten, dan zullen de punten waarden herverdeeld worden om de vorm en verdeling van de resource curve zo veel mogelijk te behouden. Wanneer u vervolgens  het project opnieuw wilt importen in <MadCap:variable name="Primary.Asta Powerproject Name" />, zou de resource curve geïmporteerd worden met 20 punten - behalve als de resource curve dezelfde naam heeft als een resource curve die al in het sjabloon zit dat u specificeert tijdens het importeren, in welk geval de sjabloon resource curve onveranderd blijft en alle veranderingen die aan de curve met dezelfde naam aangebracht zijn in de Primavera software verloren gaan.</p>
                 <h2>Maateenheden</h2>
-                <p>Primavera software onderhoudt een tabel met maateenheden. Bij het exporteren worden alle maateenheden gecreëerd die noodzakelijk zijn om de gebruiksgoederen resources te ondersteunen en deze in de maateenheden tabel te plaatsen.</p>
+                <p>Primavera software onderhoudt een tabel met maateenheden. Bij het exporteren worden alle maateenheden gecreëerd die noodzakelijk zijn om de verbruiksgoederen resources te ondersteunen en deze in de maateenheden tabel te plaatsen.</p>
                 <h2 MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Projecten en project groepen</h2>
                 <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Primavera software heeft een structuur die projecten binnen de database toestaat gestructureerd te worden. Het staat toe dat meer dan één project geëxporteerd wordt, maar het staat niet toe dat een project rangorde gedefinieerd wordt (in tegenstelling tot bij <MadCap:variable name="Primary.Asta Powerproject Name" />, waar niveautaken en samenvattingstaken als projecten en project groepen gedefinieerd kunnen worden).</p>
                 <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Bij het exporteren worden project groepen van <MadCap:variable name="Primary.Asta Powerproject Name" /> niet geëxporteerd, tenzij deze inhoud bevatten die geen project zijn op zichzelf. Bijvoorbeeld, als de programma kaart eruit ziet als een project groep en slechts andere kaarten bevat, wordt de programma kaart zelf niet geëxporteerd; alleen de kaarten die deze bevat worden geëxporteerd. Dit is hieronder geïllustreerd:</p>
@@ -377,7 +377,7 @@ volgorde hiërarchie van kaarten en samenvattingsgroepen, creëert de exportrout
                 <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Primavera software gebruikt links om het lidmaatschap van hammocks aan te geven. Deze links worden gebruikt om tijdens het importeren te identificeren of taken lid zijn van hammocks.</p>
                 <h2>Resource toewijzingen</h2>
                 <p>'Arbeid' toewijzing resources die enkel toewijzingen van een rol zijn (en daardoor niet van werkelijke resources) worden geïmporteerd als aangevraagde toewijzingen. Anders wordt de bijbehorende vaardigheid van een toewijzing bepaald vanuit de rol, of vanuit de hoger-niveau resource in de rangorde als er geen rol is toegewezen.</p>
-                <p>Voor permanente toewijzingen zijn de kostentarieven overeenkomstig met de Primavera kosten aangewezen en toegewezen. Voor gebruiksgoederen toewijzingen wordt de kosten per eenheid ingevoegd in de van <MadCap:variable name="Primary.Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> toewijzing.</p>
+                <p>Voor permanente toewijzingen zijn de kostentarieven overeenkomstig met de Primavera kosten aangewezen en toegewezen. Voor verbruiksgoederen toewijzingen wordt de kosten per eenheid ingevoegd in de van <MadCap:variable name="Primary.Asta Powerproject Name" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" /><MadCap:variable name="Primary.Easyplan Name" MadCap:conditions="Powerproject_Easyplan.Easyplan_only" /> toewijzing.</p>
                 <h2>Kostentoewijzingen</h2>
                 <p>Alle kostentoewijzingen die geen kostengroep ('kosten account') hebben toegewezen gekregen zullen toegewezen worden aan een kostengroep 'anoniem', welke bij het importeren gecreëerd wordt.</p>
                 <p>Als de het toenemende kosten type 'gelijkmatig' is, wordt een kostentoewijzing passend bij de taak gecreëerd; anders worden kostentoewijzingen omgezet in essentiële uitgaven behorend bij de start of het einde van een taak.</p>
@@ -420,7 +420,7 @@ volgorde hiërarchie van kaarten en samenvattingsgroepen, creëert de exportrout
                             <p>Resources</p>
                         </td>
                         <td bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                            <p>Resources (permanente en gebruiksgoederen)</p>
+                            <p>Resources (permanente en verbruiksgoederen)</p>
                         </td>
                     </tr>
                     <tr class="TableStyle-Table_Stylesheet-Body-Body1">
@@ -444,11 +444,11 @@ volgorde hiërarchie van kaarten en samenvattingsgroepen, creëert de exportrout
                             <p>Activiteit resources</p>
                         </td>
                         <td bgcolor="#C0C0C0" class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                            <p>Toewijzingen (permanente en gebruiksgoederen)</p>
+                            <p>Toewijzingen (permanente en verbruiksgoederen)</p>
                         </td>
                     </tr>
                 </table>
-                <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Let erop dat definities van gebruikersvelden voor alle <MadCap:variable name="Primary.Asta Powerproject Name" /> object typen gecreëerd worden die corresponderen met een Primavera software objecttype. Bijvoorbeeld, als er een gebruikersveld bestaat voor resources in Primavera software, worden er bijbehorende gebruikersvelden gecreëerd voor zowel permanente als gebruiksgoederen resources in <MadCap:variable name="Primary.Asta Powerproject Name" />.</p>
+                <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Let erop dat definities van gebruikersvelden voor alle <MadCap:variable name="Primary.Asta Powerproject Name" /> object typen gecreëerd worden die corresponderen met een Primavera software objecttype. Bijvoorbeeld, als er een gebruikersveld bestaat voor resources in Primavera software, worden er bijbehorende gebruikersvelden gecreëerd voor zowel permanente als verbruiksgoederen resources in <MadCap:variable name="Primary.Asta Powerproject Name" />.</p>
                 <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Voor elk gebruikersveld wordt het Primavera UDF label gebruikt om een geldige gebruikersveldnaam in <MadCap:variable name="Primary.Asta Powerproject Name" /> te creëren. Dit betekent dat als u de gebruikersvelden toevoegt aan de tabel in het geïmporteerde bestand, de correcte namen toegepast worden op de kolomkoppen.</p>
                 <h2 MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Baselines</h2>
                 <p MadCap:conditions="Powerproject_Easyplan.Powerproject_only">Wanneer u een project importeert via het XML formaat, kan dit één of baselines bevatten. Baselines worden bij het importeren altijd uitgesloten wanneer het XER formaat gebruikt wordt om informatie over te brengen.</p>
