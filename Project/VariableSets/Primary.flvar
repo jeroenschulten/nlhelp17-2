@@ -5,9 +5,6 @@
     Comment=""
     EvaluatedDefinition="Asta Powerproject 4D">Asta Powerproject 4D</Variable>
   <Variable
-    Name="BIM Cloud Name"
-    Comment="">Elecosoft BIMCloud</Variable>
-  <Variable
     Name="Powerproject Vision Name"
     Comment=""
     EvaluatedDefinition="Asta Vision">Asta Vision</Variable>
@@ -35,10 +32,6 @@
     Name="Resource Search Name"
     Comment=""
     EvaluatedDefinition="Resource Search">Resource Search</Variable>
-  <Variable
-    Name="Asta Powerproject SaaS Name"
-    Comment=""
-    EvaluatedDefinition="Asta Powerproject SaaS">Asta Powerproject SaaS</Variable>
   <Variable
     Name="Powerdraw Name"
     EvaluatedDefinition="Powerdraw">Powerdraw</Variable>
@@ -71,10 +64,11 @@
     Comment=""
     EvaluatedDefinition="Asta Enterprise">Asta Enterprise</Variable>
   <Variable
-    Name="NewVariable"
-    Comment="" />
-  <Variable
     Name="Powerproject Name"
     Comment=""
     EvaluatedDefinition="Asta Powerproject">Asta Powerproject</Variable>
+  <Variable
+    Name="SaaS Name"
+    Comment=""
+    EvaluatedDefinition="Asta Powerproject SaaS">Asta Powerproject SaaS</Variable>
 </CatapultVariableSet>

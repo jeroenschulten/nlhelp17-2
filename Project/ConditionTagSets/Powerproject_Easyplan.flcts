@@ -33,4 +33,8 @@
     BackgroundColor="#00fa9a"
     Name="Future_release"
     Comment="" />
+  <ConditionTag
+    BackgroundColor="#808000"
+    Name="V17_Vision_global_libraries"
+    Comment="" />
 </CatapultConditionTagSet>

@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
-        <MadCap:dropDown MadCap:conditions="Powerproject_Easyplan.V17_Tab_colouring">
+        <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>... de standaard kleur speciferen die toegepast wordt op de tabbladen die verschijnen bovenaan elke view?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
