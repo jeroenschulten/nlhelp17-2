@@ -1373,6 +1373,9 @@
         Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Link_categories.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
+        Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Materials.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
         Link="/Content/HTML_Topics/Conceptual/Library_Explorer/Libraries/Milestone_appearances.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"

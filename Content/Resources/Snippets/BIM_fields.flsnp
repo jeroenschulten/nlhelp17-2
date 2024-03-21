@@ -17,7 +17,11 @@
             <tbody>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                     <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">IFC product</td>
-                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">De IFC product zoekset of IFC product selectie waartoe de taak behoort. </td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                        <p>De IFC product zoekset of IFC product selectie waartoe de taak behoort. </p>
+                        <p><a href="https://help.elecosoft.com/powerproject_bim/dutch/16.0.02/Content/HTML Topics/Building_a_project_schedule/Ways_of_associating_tasks_and_IFC_elements.htm">Manieren om taken te koppelen aan objecten in een IFC model</a>
+                        </p>
+                    </td>
                 </tr>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                     <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">IFC taak type</td>
@@ -42,6 +46,9 @@
                         </ul>
                         <p class="ParagraphsInTables" xmlns="">Om IFC taak type te gebruiken om de weergave van objecten tijdens tijdlijnsimulaties te controleren, bewerkt u de eigenschappen van elk IFC model of IFC groep model en specificeert u weergave-instellingen voor elk IFC taak type. U kunt bijvoorbeeld opgeven dat objecten tijdens de duur van een taak worden opgebouwd of afgebroken, of dat objecten aan het begin van een taak verschijnen of aan het einde van een taak verdwijnen. Vervolgens wijst u het betreffende IFC taak type toe aan elke taak. De IFC taak type weergave-instellingen worden toegepast op alle objecten in een IFC model die zijn geassocieerd aan taken waaraan het IFC taak type is toegewezen. </p>
                         <p class="ParagraphsInTables" xmlns="">Wanneer er zowel een IFC taak type als een IFC simulatie profiel is gespecificeerd voor een taak, worden de IFC simulatie profiel instellingen gebruikt tijdens de duur van de tijdlijn in plaats van de IFC taak type instellingen.</p>
+                        <p class="ParagraphsInTables" xmlns="">&#160;</p>
+                        <p class="ParagraphsInTables" xmlns=""><a href="https://help.elecosoft.com/powerproject_bim/dutch/16.0.02/Content/HTML Topics/Timeline_simulations/Configure_timeline_simulations.htm">De wijze waarop tijdlijn simulaties draaien configureren</a>
+                        </p>
                     </td>
                 </tr>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
@@ -50,6 +57,9 @@
                         <p class="ParagraphsInTables" xmlns="">Wanneer u IFC simulatie profielen gebruikt om de wijze waarop objecten in een IFC model worden "gebouwd" gedurende tijdlijn simulaties te controleren , specificeer dan het juiste IFC simulatie profiel om toe te wijzen aan de taak.</p>
                         <p class="ParagraphsInTables" xmlns="">Om IFC simulatie profielen te gebruiken om de weergave van objecten tijdens tijdlijn simulaties te bepalen, creëert u in de Bibliotheek Verkenner een bepaald aantal IFC simulatie profielen en specificeert u de weergave instellingen voor elke daarvan. U wijst vervolgens het benodigde IFC simulatie profiel toe aan elke taak. De IFC simulatie profiel weergave instellingen worden toegepast op alle objecten in een IFC model die geassocieerd zijn aan de taken waaraan het IFC simulatie profiel is toegewezen.</p>
                         <p class="ParagraphsInTables" xmlns="">Wanneer zowel een IFC taak type als een IFC simulatie profiel is gespecificeerd voor een taak, worden de IFC simulatie profiel instellingen gebruikt tijdens de duur van de tijdlijn in plaats van de IFC taak type instellingen.</p>
+                        <p class="ParagraphsInTables" xmlns="">&#160;</p>
+                        <p class="ParagraphsInTables" xmlns=""><a href="https://help.elecosoft.com/powerproject_bim/dutch/16.0.02/Content/HTML Topics/Timeline_simulations/Configure_timeline_simulations.htm">De wijze waarop tijdlijn simulaties draaien configureren</a>
+                        </p>
                     </td>
                 </tr>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">

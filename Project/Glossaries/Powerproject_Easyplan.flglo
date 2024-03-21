@@ -2903,10 +2903,10 @@ Een netwerk van taken dat u als sjabloon kunt gebruiken voor het creëren van me
     IgnoreCase="false"
     TermClass="PPalleen">
     <Terms>
-      <Term>Quality Checks pane</Term>
+      <Term>Kwaliteitshecks paneel</Term>
     </Terms>
     <Definition
-      Link="">A pane that displays the results of all quality checks that have been executed in the current project.</Definition>
+      Link="">Een paneel waarin de resultaten worden weergegeven van alle kwaliteitschecks die in het huidige project zijn uitgevoerd.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="powerproject.Term241"
@@ -2915,10 +2915,10 @@ Een netwerk van taken dat u als sjabloon kunt gebruiken voor het creëren van me
     IgnoreCase="false"
     TermClass="PPalleen">
     <Terms>
-      <Term>Quality check</Term>
+      <Term>Kwaliteitscheck</Term>
     </Terms>
     <Definition
-      Link="">A library item containing a set of user-definable metrics that you can use to monitor the quality of a schedule. Once you have set up a quality check in one project, you can export its metrics, then import them into other projects, which saves you from having to set up the quality check for each of your projects individually.</Definition>
+      Link="">Een bibliotheekitem dat een set door de gebruiker definieerbare criteria bevat die u kunt gebruiken om de kwaliteit van een planning te bewaken. Nadat u voor één project een kwaliteitscontrole heeft ingesteld, kunt u de meetgegevens ervan exporteren en deze vervolgens in andere projecten importeren, waardoor u de kwaliteitscheck niet voor elk van uw projecten afzonderlijk hoeft in te stellen.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="powerproject.Term242"
@@ -2984,7 +2984,8 @@ De voortgang op deze manier berekenen is het meest handig als u geen resources a
   <GlossaryEntry
     glossTerm="Powerproject_Easyplan.Term1"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    TermClass="xxx">
     <Terms>
       <Term>Activiteit dagen</Term>
     </Terms>
@@ -2995,7 +2996,8 @@ De voortgang op deze manier berekenen is het meest handig als u geen resources a
     glossTerm="Powerproject_Easyplan.Term2"
     Stem=""
     IgnoreCase="false"
-    conditions="Powerproject_Easyplan.Powerproject_only">
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    TermClass="PPalleen">
     <Terms>
       <Term>CIOB</Term>
     </Terms>
@@ -3006,7 +3008,8 @@ De voortgang op deze manier berekenen is het meest handig als u geen resources a
     glossTerm="Powerproject_Easyplan.Term3"
     conditions="Powerproject_Easyplan.Powerproject_only"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    TermClass="PPalleen">
     <Terms>
       <Term>DCMA</Term>
     </Terms>
@@ -3017,7 +3020,8 @@ De voortgang op deze manier berekenen is het meest handig als u geen resources a
     glossTerm="Powerproject_Easyplan.Term4"
     Stem=""
     IgnoreCase="false"
-    conditions="Powerproject_Easyplan.Powerproject_only">
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    TermClass="PPalleen">
     <Terms>
       <Term>JSON</Term>
     </Terms>
@@ -3028,7 +3032,8 @@ De voortgang op deze manier berekenen is het meest handig als u geen resources a
     glossTerm="Powerproject_Easyplan.Term0"
     conditions="Powerproject_Easyplan.Powerproject_only"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    TermClass="PPalleen">
     <Terms>
       <Term>Globale Bibliotheek Verkenner</Term>
     </Terms>
@@ -3039,11 +3044,35 @@ De voortgang op deze manier berekenen is het meest handig als u geen resources a
     glossTerm="Powerproject_Easyplan.Term5"
     Stem=""
     IgnoreCase="false"
-    conditions="Powerproject_Easyplan.Powerproject_only">
+    conditions="Powerproject_Easyplan.Powerproject_only"
+    TermClass="PPalleen">
     <Terms>
       <Term>Globale bibliotheken</Term>
     </Terms>
     <Definition
       Link="">Kalenders, codes, voortgangsperioden, kwaliteitschecks en resources die in Asta Vision kunnen worden opgeslagen en in een willekeurig aantal individuele projecten kunnen worden gebruikt, zodat u niet meerdere keren dezelfde bibliotheken in uw projecten hoeft in te stellen. Als u globale bibliotheken gebruikt, gebruikt u de Globale Bibliotheek Verkenner om de bibliotheekobjecten te beheren.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Powerproject_Easyplan.Term6"
+    Stem=""
+    IgnoreCase="false"
+    conditions="">
+    <Terms>
+      <Term>Projecttijdlijn</Term>
+    </Terms>
+    <Definition
+      Link="">Zie Tijdlijn</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Powerproject_Easyplan.Term7"
+    Stem=""
+    IgnoreCase="false"
+    conditions=""
+    TermClass="xxx">
+    <Terms>
+      <Term>Tijdlijn</Term>
+    </Terms>
+    <Definition
+      Link="">Een op tijd gebaseerde weergave van een project die u kunt gebruiken om een visuele samenvatting van een project weer te geven. U kunt kiezen welke taken en mijlpalen u aan de tijdlijn wilt toevoegen. Het is gebruikelijk om taken op hoog niveau toe te voegen (misschien samenvattingstaken op het hoogste niveau) en belangrijke mijlpalen. Met tijdlijnen kunt u op een eenvoudige manier de voortgang van een project op hoog niveau rapporteren aan belanghebbenden die geen gedetailleerde informatie over een project willen (of hoeven) te zien.</Definition>
   </GlossaryEntry>
 </CatapultGlossary>
