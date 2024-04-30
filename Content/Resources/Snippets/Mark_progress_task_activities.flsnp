@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
     <body>
-        <p>Wanneer een taak één of meer <a href="../../HTML_Topics/Conceptual/Task_activities/Break_down_tasks_activities.htm">taakactivities</a> heeft, is de enige manier om voortgang op deze taak te registreren deze <a href="../../HTML_Topics/Conceptual/Progress/Marking_progress/Task_activity_progress.htm">voortgang op de taakactivities zelf te registreren</a> - alle andere methodes van registreren van voortgang zijn niet beschikbaar bij zulke taken.</p>
+        <p>Wanneer een taak één of meer <a href="../../HTML_Topics/Conceptual/Task_activities/Break_down_tasks_activities.htm">taakacties</a> heeft, is de enige manier om voortgang op deze taak te registreren deze <a href="../../HTML_Topics/Conceptual/Progress/Marking_progress/Task_activity_progress.htm">voortgang op de taakacties zelf te registreren</a> - alle andere methodes van registreren van voortgang zijn niet beschikbaar bij zulke taken.</p>
     </body>
 </html>

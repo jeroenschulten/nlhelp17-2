@@ -15,56 +15,59 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
-                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Activities</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Acties</td>
                     <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                        <p class="ParagraphsInTables">Deze rastertabel toont een lijst met alle taakactivities die aan de taak zijn gekoppeld. Geef voor elke taakactivity de volgende informatie op in de kolommen van het raster:</p>
+                        <p class="ParagraphsInTables">Deze rastertabel toont een lijst met alle taakacties die aan de taak zijn gekoppeld. Geef voor elke taakactie de volgende informatie op in de kolommen van het raster:</p>
                         <ul type="disc">
-                            <li>Activity - Voer een naam in om de taakactiviteit te identificeren. Elke taakactivity naam in het raster moet uniek zijn.</li>
-                            <li>% Voltooid - Wanneer een taakactivity deels voltooid is, voer dan het percentage voortgang in. Zodra u de voortgang van een taakactivity bijwerkt, wordt het algehele percentage voltooid van de taak dienovereenkomstig bijgewerkt.</li>
-                            <li>Weging - Specificeer een factor waarmee de voortgang van de taakactiviteit moet worden vermenigvuldigd om de impact ervan op de voortgang van de taak te beïnvloeden. Hoe groter de weging van een taakactiviteit, hoe groter het aandeel van de taakduur zal zijn wanneer deze voltooid is. Als een taakactivity een weging van nul heeft, draagt deze helemaal niet bij aan de voortgang van de taak.</li>
-                            <li>Voltooid - Schakel dit selectievakje in om aan te geven dat de taakactivity 100% voltooid is.</li>
+                            <li>Activity - Voer een naam in om de taakactiviteit te identificeren. Elke taakactie naam in het raster moet uniek zijn.</li>
+                            <li>% Voltooid - Wanneer een taakactie deels voltooid is, voer dan het percentage voortgang in. Zodra u de voortgang van een taakactie bijwerkt, wordt het algehele percentage voltooid van de taak dienovereenkomstig bijgewerkt.</li>
+                            <li>Weging - Specificeer een factor waarmee de voortgang van de taakactiviteit moet worden vermenigvuldigd om de impact ervan op de voortgang van de taak te beïnvloeden. Hoe groter de weging van een taakactiviteit, hoe groter het aandeel van de taakduur zal zijn wanneer deze voltooid is. Als een taakactie een weging van nul heeft, draagt deze helemaal niet bij aan de voortgang van de taak.</li>
+                            <li>Voltooid - Schakel dit selectievakje in om aan te geven dat de taakactie 100% voltooid is.</li>
                         </ul>
-                        <p class="ParagraphsInTables">Om een taakactivity sjabloon te creëren op basis van de lijst met taakactivities in de tabel, rechtsklik op de rastertabel en selecteer <b xmlns="">Creëer Activity Sjabloon</b>.</p>
+                        <p class="ParagraphsInTables">Om een taakactie sjabloon te creëren op basis van de lijst met taakacties in de tabel, rechtsklik op de rastertabel en selecteer <b xmlns="">Creëer Activity Sjabloon</b>.</p>
                         <p class="ParagraphsInTables">&#160;</p>
-                        <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Task_activities/Break_down_tasks_activities.htm">Taken opdelen in kleinere stappen met behulp van taakactivities</a>
+                        <p class="ParagraphsInTables">
+                            <a href="../../HTML_Topics/Conceptual/Task_activities/Break_down_tasks_activities.htm">Taken opdelen in kleinere stappen met behulp van taakacties</a>
                         </p>
                     </td>
                 </tr>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                     <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Toevoegen</td>
-                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Klik op deze knop om een nieuwe taakactivity aan het raster toe te voegen. De nieuwe taakactivity verschijnt onderaan de lijst met taakactivities.</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Klik op deze knop om een nieuwe taakactie aan het raster toe te voegen. De nieuwe taakactie verschijnt onderaan de lijst met taakacties.</td>
                 </tr>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                     <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Verwijderen</td>
-                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Klik op deze knop om de geselecteerde taakactivity uit de rastertabel te verwijderen.</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Klik op deze knop om de geselecteerde taakactie uit de rastertabel te verwijderen.</td>
                 </tr>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                     <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Omhoog</td>
-                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Klik op deze knop om de geselecteerde taakactivity een plaats omhoog te verplaatsen in de tabel.</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Klik op deze knop om de geselecteerde taakactie een plaats omhoog te verplaatsen in de tabel.</td>
                 </tr>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                     <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Omlaag</td>
-                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Klik op deze knop om de geselecteerde taakactivity een plaats omlaag te verplaatsen in de tabel.</td>
+                    <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Klik op deze knop om de geselecteerde taakactie een plaats omlaag te verplaatsen in de tabel.</td>
                 </tr>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                     <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Sjabloon kiezer</td>
                     <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
-                        <p class="ParagraphsInTables">Om een vooraf gedefinieerde lijst van taakactivities aan de taak toe te voegen, selecteer het taakactivity sjabloon waarin de taakactivities gedefinieerd zijn, en klik vervolgens op <b>Toevoegen vanuit Sjabloon</b>.</p>
+                        <p class="ParagraphsInTables">Om een vooraf gedefinieerde lijst van taakacties aan de taak toe te voegen, selecteer het taakactie sjabloon waarin de taakacties gedefinieerd zijn, en klik vervolgens op <b>Toevoegen vanuit Sjabloon</b>.</p>
                         <p class="ParagraphsInTables">&#160;</p>
-                        <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Task_activities/Using_task_activity_templates.htm">Sjablonen gebruiken om het maken van taakactivities te versnellen</a>
+                        <p class="ParagraphsInTables">
+                            <a href="../../HTML_Topics/Conceptual/Task_activities/Using_task_activity_templates.htm">Sjablonen gebruiken om het maken van taakacties te versnellen</a>
                         </p>
                     </td>
                 </tr>
                 <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                     <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Toevoegen vanuit Sjabloon</td>
                     <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">
-                        <p class="ParagraphsInTables">Klik op deze knop om de vooraf gedefinieerde lijst met taakactivities vanuit het geselecteerde taakactivity sjabloon aan de taak toe te voegen. <MadCap:snippetText src="Task_activity_template_1.flsnp" /></p>
+                        <p class="ParagraphsInTables">Klik op deze knop om de vooraf gedefinieerde lijst met taakacties vanuit het geselecteerde taakactie sjabloon aan de taak toe te voegen. <MadCap:snippetText src="Task_activity_template_1.flsnp" /></p>
                         <p class="ParagraphsInTables">&#160;</p>
                         <p class="ParagraphsInTables">
                             <MadCap:snippetText src="Task_activity_template_2.flsnp" />
                         </p>
                         <p class="ParagraphsInTables">&#160;</p>
-                        <p class="ParagraphsInTables"><a href="../../HTML_Topics/Conceptual/Task_activities/Using_task_activity_templates.htm">Sjablonen gebruiken om het maken van taakactivities te versnellen</a>
+                        <p class="ParagraphsInTables">
+                            <a href="../../HTML_Topics/Conceptual/Task_activities/Using_task_activity_templates.htm">Sjablonen gebruiken om het maken van taakacties te versnellen</a>
                         </p>
                     </td>
                 </tr>

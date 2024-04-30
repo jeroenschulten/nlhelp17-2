@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
-        <li>Klik op <b>Toevoegen</b> om nieuwe taakactivities aan het raster toe te voegen. Specificeer en benoem voor elke taakactivity een wegingswaarde, die het relatieve belang aangeeft van de taakactivity bij het bepalen van de voortgang van de taak.</li>
+        <li>Klik op <b>Toevoegen</b> om nieuwe taakacties aan het raster toe te voegen. Specificeer en benoem voor elke taakactie een wegingswaarde, die het relatieve belang aangeeft van de taakactie bij het bepalen van de voortgang van de taak.</li>
     </body>
 </html>

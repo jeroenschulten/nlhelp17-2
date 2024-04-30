@@ -3,6 +3,6 @@
     <head>
     </head>
     <body>
-        <p>Als een taak een bestaande taakactivity heeft met een naam die identiek is aan een van de activities in de sjabloon, wordt er een waarschuwing weergegeven en worden geen van de taakactivities uit de sjabloon aan de taak toegevoegd.</p>
+        <p>Als een taak een bestaande taakactie heeft met een naam die identiek is aan een van de acties in de sjabloon, wordt er een waarschuwing weergegeven en worden geen van de taakacties uit de sjabloon aan de taak toegevoegd.</p>
     </body>
 </html>
