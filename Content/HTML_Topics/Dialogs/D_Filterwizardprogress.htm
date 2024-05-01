@@ -4,7 +4,8 @@
         <link href="../../Resources/Stylesheets/Table_Stylesheet.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
     </head>
     <body>
-        <h1><MadCap:keyword term="Wie is;Wie kan;Wie zou moeten;Wie zou kunnen;Wie zal;Wie zou;Wie ben;Wat is;Wat doet;Wat doen;Wat kan;Wat zou;Wat zou kunnen;Wat zal;Wat zou;Wat ben;Hoe is;Hoe zijn;Hoe doet;Hoe kan;Hoe kan;Hoe zal;Hoe zou;Hoe ben;Waarom is; Waarom zijn; Waarom doet; Waarom doen; Waarom kan;  Waarom zal; Waarom zou; Waarom ben; Wanneer is; Wanneer is; Wanneer doet; Wanneer kan; Wanneer kan; Wanneer zou; Wanneer ben;Waar is;Waar zijn;Waar doet;Waar doen;Waar kan;Waar moet;Waar zou kunnen;Waar zal;Waar zou;Waar ben;Wiens is;Wiens zijn;Wiens doet;Wiens doen;Wiens kan;Wiens zou;Wiens zou kunnen;Wiens wil;Wiens zou;Wiens ben;Wat is;Wat zijn;Wat doet;Wat doen;Wat kan;Wat zou moeten;Wat zou kunnen;Welke wil;Wat zou;Wat ben;Ik;Jij;Mijn;Jouw;Hun;Zijn;Haar"/>Filter Wizard - Voortgang pagina</h1>
+        <h1>
+            <MadCap:keyword term="Wie is;Wie kan;Wie zou moeten;Wie zou kunnen;Wie zal;Wie zou;Wie ben;Wat is;Wat doet;Wat doen;Wat kan;Wat zou;Wat zou kunnen;Wat zal;Wat ben;Hoe is;Hoe zijn;Hoe doet;Hoe kan;Hoe kan;Hoe zal;Hoe zou;Hoe ben;Waarom is; Waarom zijn; Waarom doet; Waarom doen; Waarom kan;  Waarom zal; Waarom zou; Waarom ben; Wanneer is; Wanneer doet; Wanneer kan; Wanneer kan; Wanneer zou; Wanneer ben;Waar is;Waar zijn;Waar doet;Waar doen;Waar kan;Waar moet;Waar zou kunnen;Waar zal;Waar zou;Waar ben;Wiens is;Wiens zijn;Wiens doet;Wiens doen;Wiens kan;Wiens zou;Wiens zou kunnen;Wiens wil;Wiens zou;Wiens ben;Wat is;Wat zijn;Wat doet;Wat doen;Wat kan;Wat zou moeten;Wat zou kunnen;Welke wil;Wat zou;Wat ben;Ik;Jij;Mijn;Jouw;Hun;Zijn;Haar" />Filter Wizard - Voortgang pagina</h1>
         <p>U gebruikt de <span style="font-weight: bold;">Filter Wizard</span> om de criteria voor filters te maken en te bewerken en om te aan te geven welke items er in een filter opgenomen moeten worden. De <span style="font-weight: bold;">Filter Wizard</span> bestaat uit een aantal pagina's. Deze pagina van de <span style="font-weight: bold;">Filter Wizard</span> verschijnt wanneer u gekozen hebt om te filteren op de voortgang van taken of toewijzingen. U gebruikt deze pagina om de voortgangsparameters te specificeren die worden opgenomen in de gefilterde view. Net als filteren op taken en toewijzingen met een bepaalde hoeveelheid voortgang, kunt u ook filteren op taken en toewijzingen zonder voortgang, of op taken die voltooid zijn (100% voortgang hebben).</p>
         <MadCap:snippetBlock src="../../Resources/Snippets/Filter_Wizard_access.flsnp" />
         <MadCap:dropDown>
@@ -64,6 +65,19 @@
                             <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">Voer het datum in waarin u geïnteresseerd bent.
 </td>
                         </tr>
+                        <tr class="TableStyle-Table_Stylesheet-Body-Body1" MadCap:conditions="Powerproject_Easyplan.Powerproject_only" MadCap:changes="1">
+                            <td class="TableStyle-Table_Stylesheet-BodyE-Column1-Body1" style="font-weight: bold;">Alleen taken met taakacties opnemen</td>
+                            <td class="TableStyle-Table_Stylesheet-BodyD-Column1-Body1">
+                                <p class="ParagraphsInTables">Schakel dit selectievakje in om alleen de taken op te nemen in het filter die één of meer taakacties bevatten, of schakel dit selectievakje uit om alle taken in het filter op te nemen, ongeacht of ze taakacties bevatten.</p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables">
+                                    <MadCap:snippetText src="../../Resources/Snippets/Task_activity_filter.flsnp" />
+                                </p>
+                                <p class="ParagraphsInTables">&#160;</p>
+                                <p class="ParagraphsInTables"><a href="../Conceptual/Task_activities/Break_down_tasks_activities.htm" xmlns="http://www.w3.org/1999/xhtml">Taken opdelen in kleinere stappen met behulp van taakacties</a>
+                                </p>
+                            </td>
+                        </tr>
                         <tr class="TableStyle-Table_Stylesheet-Body-Body1">
                             <td class="TableStyle-Table_Stylesheet-BodyB-Column1-Body1" style="font-weight: bold;">Vraag steeds opnieuw welke voortgangsinstellingen te gebruiken</td>
                             <td class="TableStyle-Table_Stylesheet-BodyA-Column1-Body1">Schakel dit selectievakje in wanneer u in staat wilt zijn om de voortgangsparameters elke keer dat u het filter toepast op te kunnen geven, of schakel het selectievakje uit om de parameters  die in deze wizard gespecificeerd zijn  opnieuw te gebruiken.</td>
@@ -78,6 +92,7 @@
             <li class="p">Selecteer het soort voortgang waarin u geïnteresseerd bent in de <span style="font-weight: bold;">Gebruik taak- of toewijzing voortgang?</span> groep . Wanneer dit een RBS/CBS filter is in plaats van een balk en taak filter, kunt u alleen filteren op toewijzingsvoortgang.</li>
             <li class="p">Kies of u wilt filteren op taken en toewijzingen die voortgang registreren, voltooid zijn, geen voortgang registreren of een bepaalde hoeveelheid voortgang hebben geregistreerd, in het veld <span style="font-weight: bold;">Filter op voortgang</span></li>
             <li class="p">Indien u kiest om te filteren op taken en toewijzingen met een bepaalde hoeveelheid voortgang, specificeert u de voortgangsparameters in de velden in het onderste gedeelte van de pagina. Indien u filtert op taakvoortgang, kunt u kiezen om te filteren op taken met een bepaald gepland percentage voltooid op een bepaalde datum.<br /><br />U kunt hier een <a href="../Conceptual/teamplan_reference/Variable_dates.htm">variabele datum</a> specificeren - bijvoorbeeld 'Vandaag', 'Maand start' en 'Jaar einde' - in plaats van als specifieke datums. U zou dit kunnen willen doen om bijvoorbeeld te filteren naar objecten met een specifieke hoeveelheid gepland percentage voltooid op de huidige datum, of aan het einde van het huidige kwartaal - door hier 'Vandaag' of 'Kwartaal einde' op te geven.</li>
+            <li>Schakel het selectievakje <b>Alleen taken met taakacties opnemen</b> in om alleen taken op te nemen waarvoor een of meer taakacties in het filter zijn geregistreerd, of schakel het selectievakje uit om taken in het filter op te nemen, ongeacht of ze taakacties hebben.<br /><br /><MadCap:snippetText src="../../Resources/Snippets/Task_activity_filter.flsnp" /></li>
             <li class="p">Wanneer u de op te nemen voortgangsparameters wilt kunnen specificeren iedere keer dat u het filter toepast, selecteer dan <span style="font-weight: bold;">Vraag steeds opnieuw welke voortgangsinstellingen te gebruiken...</span>.</li>
             <li class="p">Klik op <span style="font-weight: bold;">Volgende</span> om naar de volgende pagina van de wizard te gaan.</li>
         </ol>
@@ -89,6 +104,8 @@
         <p><a href="../Conceptual/Progress/Marking_progress_on_tasks_and_allocations.htm">Voortgang aangeven op taken en toewijzingen</a>
         </p>
         <p><a href="../Conceptual/teamplan_reference/Variable_dates.htm">Variabele datums zoals 'Vandaag' of 'Morgen' gebruiken</a>
+        </p>
+        <p><a href="../Conceptual/Task_activities/Break_down_tasks_activities.htm">Taken opdelen in kleinere stappen met behulp van taakacties</a>
         </p>
     </body>
 </html>
